@@ -1,0 +1,9 @@
+node_modules/
+out/
+build/
+public/assets/
+.env
+.env.*
+*.log
+.remotion/
+!.env.example

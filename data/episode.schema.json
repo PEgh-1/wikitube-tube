@@ -1,0 +1,483 @@
+{
+  "$id": "https://wikitube.local/episode.schema.json",
+  "title": "WikiTube episode",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}-[a-z0-9-]+$"
+    },
+    "date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "category": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 30,
+      "description": "Rubrique affichée (Kitchen, Home, Tech…)."
+    },
+    "title": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 90,
+      "description": "Titre affiché dans la vidéo."
+    },
+    "hook": {
+      "type": "string",
+      "minLength": 1
+    },
+    "intro": {
+      "type": "string",
+      "minLength": 1
+    },
+    "youNeed": {
+      "minItems": 2,
+      "maxItems": 6,
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2,
+        "maxLength": 40
+      }
+    },
+    "youNeedNarration": {
+      "type": "string",
+      "minLength": 1
+    },
+    "heroImageQuery": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 100
+    },
+    "heroImagePrompt": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 600
+    },
+    "steps": {
+      "minItems": 6,
+      "maxItems": 8,
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 60,
+            "description": "Titre court affiché à l'écran (≤ 60 caractères)."
+          },
+          "narration": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Voix off de l'étape, 2 à 4 phrases."
+          },
+          "tip": {
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 70,
+            "description": "Astuce courte affichée dans la carte."
+          },
+          "mistake": {
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 90,
+            "description": "Erreur fréquente liée à l'étape."
+          },
+          "imageQuery": {
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 100,
+            "description": "Requête Pexels (photo paysage)."
+          },
+          "imagePrompt": {
+            "type": "string",
+            "minLength": 10,
+            "maxLength": 600,
+            "description": "Prompt pour une future API d'image (Gemini…)."
+          },
+          "media": {
+            "default": "photo",
+            "description": "Type de média Pexels à chercher.",
+            "type": "string",
+            "enum": [
+              "photo",
+              "video"
+            ]
+          }
+        },
+        "required": [
+          "title",
+          "narration",
+          "tip",
+          "mistake",
+          "imageQuery",
+          "imagePrompt"
+        ]
+      }
+    },
+    "mistakesToAvoid": {
+      "type": "object",
+      "properties": {
+        "narration": {
+          "type": "string",
+          "minLength": 1
+        },
+        "items": {
+          "minItems": 2,
+          "maxItems": 4,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 70
+          }
+        }
+      },
+      "required": [
+        "narration",
+        "items"
+      ]
+    },
+    "recap": {
+      "type": "object",
+      "properties": {
+        "narration": {
+          "type": "string",
+          "minLength": 1
+        },
+        "items": {
+          "minItems": 6,
+          "maxItems": 8,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 40
+          }
+        }
+      },
+      "required": [
+        "narration"
+      ]
+    },
+    "outro": {
+      "type": "string",
+      "minLength": 1
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 10,
+          "maxLength": 100
+        },
+        "description": {
+          "type": "string",
+          "minLength": 50,
+          "maxLength": 4500
+        },
+        "tags": {
+          "minItems": 3,
+          "maxItems": 30,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 60
+          }
+        },
+        "thumbnailTitle": {
+          "type": "string",
+          "minLength": 5,
+          "maxLength": 40
+        },
+        "chapters": {
+          "default": "auto",
+          "anyOf": [
+            {
+              "type": "string",
+              "const": "auto"
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "time": {
+                    "type": "string"
+                  },
+                  "title": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "time",
+                  "title"
+                ]
+              }
+            }
+          ]
+        },
+        "playlistId": {
+          "type": "string"
+        },
+        "localizations": {
+          "type": "object",
+          "properties": {
+            "es": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string",
+                  "minLength": 5,
+                  "maxLength": 100
+                },
+                "description": {
+                  "type": "string",
+                  "minLength": 20,
+                  "maxLength": 5000
+                }
+              },
+              "required": [
+                "title",
+                "description"
+              ]
+            },
+            "pt": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string",
+                  "minLength": 5,
+                  "maxLength": 100
+                },
+                "description": {
+                  "type": "string",
+                  "minLength": 20,
+                  "maxLength": 5000
+                }
+              },
+              "required": [
+                "title",
+                "description"
+              ]
+            },
+            "fr": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string",
+                  "minLength": 5,
+                  "maxLength": 100
+                },
+                "description": {
+                  "type": "string",
+                  "minLength": 20,
+                  "maxLength": 5000
+                }
+              },
+              "required": [
+                "title",
+                "description"
+              ]
+            },
+            "de": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string",
+                  "minLength": 5,
+                  "maxLength": 100
+                },
+                "description": {
+                  "type": "string",
+                  "minLength": 20,
+                  "maxLength": 5000
+                }
+              },
+              "required": [
+                "title",
+                "description"
+              ]
+            },
+            "hi": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string",
+                  "minLength": 5,
+                  "maxLength": 100
+                },
+                "description": {
+                  "type": "string",
+                  "minLength": 20,
+                  "maxLength": 5000
+                }
+              },
+              "required": [
+                "title",
+                "description"
+              ]
+            },
+            "it": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string",
+                  "minLength": 5,
+                  "maxLength": 100
+                },
+                "description": {
+                  "type": "string",
+                  "minLength": 20,
+                  "maxLength": 5000
+                }
+              },
+              "required": [
+                "title",
+                "description"
+              ]
+            },
+            "ja": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string",
+                  "minLength": 5,
+                  "maxLength": 100
+                },
+                "description": {
+                  "type": "string",
+                  "minLength": 20,
+                  "maxLength": 5000
+                }
+              },
+              "required": [
+                "title",
+                "description"
+              ]
+            },
+            "id": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string",
+                  "minLength": 5,
+                  "maxLength": 100
+                },
+                "description": {
+                  "type": "string",
+                  "minLength": 20,
+                  "maxLength": 5000
+                }
+              },
+              "required": [
+                "title",
+                "description"
+              ]
+            }
+          },
+          "required": [
+            "es",
+            "pt",
+            "fr",
+            "de",
+            "hi",
+            "it",
+            "ja",
+            "id"
+          ]
+        }
+      },
+      "required": [
+        "title",
+        "description",
+        "tags",
+        "thumbnailTitle",
+        "localizations"
+      ]
+    },
+    "short": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 5,
+          "maxLength": 100
+        },
+        "description": {
+          "type": "string",
+          "minLength": 10,
+          "maxLength": 1000
+        },
+        "hook": {
+          "type": "string",
+          "minLength": 1
+        },
+        "steps": {
+          "minItems": 3,
+          "maxItems": 3,
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 40
+              },
+              "narration": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "title",
+              "narration"
+            ]
+          }
+        },
+        "cta": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "title",
+        "description",
+        "hook",
+        "steps",
+        "cta"
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "date",
+    "slug",
+    "category",
+    "title",
+    "hook",
+    "intro",
+    "youNeed",
+    "heroImageQuery",
+    "heroImagePrompt",
+    "steps",
+    "mistakesToAvoid",
+    "recap",
+    "outro",
+    "metadata",
+    "short"
+  ]
+}

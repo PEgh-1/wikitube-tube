@@ -1,0 +1,151 @@
+{
+  "$schema": "../episode.schema.json",
+  "id": "2026-11-03-clean-cast-iron-skillet",
+  "date": "2026-11-03",
+  "slug": "clean-cast-iron-skillet",
+  "category": "Kitchen",
+  "title": "How to Clean a Cast Iron Skillet Without Ruining the Seasoning",
+  "hook": "A cast iron skillet can outlive you. Most people ruin theirs in the sink in under a year. In the next few minutes you'll learn the seven steps that keep a skillet black, slick and rust free for decades.",
+  "intro": "Cast iron is not like a regular non-stick pan. The non-stick surface is a thin layer of baked-on oil called the seasoning, and every wash either builds it up or strips it away. The good news is that cleaning it properly takes about five minutes and needs almost nothing you don't already have in your kitchen.",
+  "youNeed": ["Coarse salt", "A little neutral oil", "A lint-free towel", "A stiff brush or pan scraper"],
+  "youNeedNarration": "Here's everything you'll need. Coarse salt, which works as a gentle abrasive. A little neutral oil, like canola, vegetable or flaxseed. A clean, lint-free towel. And a stiff brush or a plastic pan scraper for anything stubborn. That's it.",
+  "heroImageQuery": "cast iron skillet on wooden table",
+  "heroImagePrompt": "A well seasoned black cast iron skillet resting on a rustic wooden kitchen counter, soft morning side light, shallow depth of field, warm cream tones, photorealistic, no text",
+  "steps": [
+    {
+      "title": "Rinse it while it's still warm",
+      "narration": "Step one. Clean the skillet while it is still warm, right after cooking. Run hot water over it and use your brush or scraper to lift the loose food. Warm iron releases residue far more easily than cold iron, and a quick rinse now saves you a scrubbing session later. If the pan is screaming hot, let it cool for a couple of minutes first, because a blast of cold water on very hot iron can crack it.",
+      "tip": "Warm pan, hot water, no shock",
+      "mistake": "Pouring cold water on a smoking hot pan",
+      "imageQuery": "rinsing cast iron skillet hot water sink",
+      "imagePrompt": "Hands rinsing a black cast iron skillet under running hot water in a farmhouse sink, steam rising, warm kitchen light, photorealistic, no text"
+    },
+    {
+      "title": "Scrub with coarse salt",
+      "narration": "Step two. For anything that didn't rinse off, pour in a generous handful of coarse salt and a splash of water. Work it around with a towel or your brush in small circles. The salt grains scrub away stuck-on bits without cutting into the seasoning the way a steel scouring pad would. When the salt turns brown, you've picked up the grime. Rinse it out and check the surface.",
+      "tip": "Salt scrubs without scratching",
+      "mistake": "Using a steel wool pad on the cooking surface",
+      "imageQuery": "coarse salt cast iron pan scrubbing",
+      "imagePrompt": "Close-up of coarse sea salt being rubbed in a black cast iron skillet with a folded kitchen towel, overhead view, warm tones, photorealistic, no text"
+    },
+    {
+      "title": "Boil off stubborn residue",
+      "narration": "Step three. Stuck-on food that won't budge gets the boiling trick. Add a centimetre of water to the pan, put it back on the stove and bring it to a simmer for two or three minutes. The heat and the water loosen the burnt layer, and a gentle nudge with a wooden spatula lifts it right off. Pour the water out and move on. Never let the pan sit in that water once the heat is off.",
+      "tip": "Two minutes of simmering beats ten of scrubbing",
+      "mistake": "Letting the pan soak after boiling",
+      "imageQuery": "cast iron skillet boiling water stove",
+      "imagePrompt": "A cast iron skillet on a gas stove with a shallow layer of water gently simmering, small bubbles, blue flame visible, photorealistic, no text"
+    },
+    {
+      "title": "Dry it completely on the stove",
+      "narration": "Step four. Towel-dry the skillet, then put it back on a medium burner for one or two minutes. You want every trace of moisture gone, including the water hiding in the pores of the iron that a towel can't reach. When the surface looks dull and dry all the way across, and the handle is warm to the touch, you're ready for oil. Moisture is the single biggest cause of rust, so don't skip this.",
+      "tip": "Towel first, then heat",
+      "mistake": "Air-drying on the rack",
+      "imageQuery": "cast iron skillet drying stove heat",
+      "imagePrompt": "A dry black cast iron skillet sitting on a lit stove burner, slight heat shimmer, dark kitchen background, photorealistic, no text"
+    },
+    {
+      "title": "Wipe on a thin coat of oil",
+      "narration": "Step five. While the pan is still warm, pour in about a teaspoon of neutral oil. Use a folded paper towel to spread it over the entire cooking surface, up the sides and across the handle. Then take a fresh towel and wipe it all back off, as if you had made a mistake. The microscopic layer left behind is exactly the right amount. If the pan looks shiny or wet, there's too much oil.",
+      "tip": "Wipe it on, then wipe it off",
+      "mistake": "Leaving a thick, sticky layer of oil",
+      "imageQuery": "oiling cast iron skillet paper towel",
+      "imagePrompt": "A hand with a folded paper towel wiping a thin sheen of oil onto a black cast iron skillet, glossy surface, warm light, photorealistic, no text"
+    },
+    {
+      "title": "Heat until it just starts to smoke",
+      "narration": "Step six. Put the oiled skillet back on the burner and turn the heat up. In a minute or two you'll see a faint wisp of smoke. That means the oil has reached its smoke point and is bonding to the iron, which is what actually builds the seasoning. Let it go for about thirty seconds, then turn off the heat. Doing this after every wash is how a pan gets that deep, glassy black finish.",
+      "tip": "A wisp of smoke means it's working",
+      "mistake": "Turning off the heat before the oil smokes",
+      "imageQuery": "cast iron skillet smoking seasoning stove",
+      "imagePrompt": "A cast iron skillet on a stove with a faint wisp of smoke rising, dark moody kitchen, light from the window, photorealistic, no text"
+    },
+    {
+      "title": "Store it dry and uncovered",
+      "narration": "Step seven. Let the skillet cool completely, then store it somewhere dry. Leave the lid off so air can circulate, and if you stack other pans inside it, slide a paper towel in between to protect the surface. Avoid cupboards right under the sink or next to the dishwasher, where humidity collects. A pan stored this way will be ready to cook the moment you take it out.",
+      "tip": "Air, not humidity",
+      "mistake": "Storing it with the lid on while still warm",
+      "imageQuery": "cast iron skillet hanging kitchen wall",
+      "imagePrompt": "Several black cast iron skillets hanging on hooks on a cream kitchen wall, tidy and dry, soft daylight, photorealistic, no text"
+    }
+  ],
+  "mistakesToAvoid": {
+    "narration": "Now, the three mistakes that ruin more skillets than anything else. One, soaking. Even an hour in the sink starts rust. Two, the dishwasher. The detergent and the long steam cycle strip the seasoning completely. And three, putting it away wet. If you remember nothing else, remember this: cast iron never sits in water, and it never goes to bed damp.",
+    "items": ["Soaking the pan in the sink", "Running it through the dishwasher", "Putting it away even slightly damp"]
+  },
+  "recap": {
+    "narration": "Let's run through the whole routine one more time. Rinse it warm. Scrub with coarse salt. Boil off anything stubborn. Dry it on the stove. Wipe on a thin coat of oil. Heat it until it just smokes. And store it dry and uncovered. Seven steps, five minutes, and a skillet that gets better every single year.",
+    "items": [
+      "Rinse while warm",
+      "Scrub with coarse salt",
+      "Boil off stubborn residue",
+      "Dry it on the stove",
+      "Thin coat of oil",
+      "Heat until it smokes",
+      "Store dry and uncovered"
+    ]
+  },
+  "outro": "That's how you clean a cast iron skillet without ruining the seasoning. If this saved your pan, subscribe to WikiTube, we publish a new how-to every single day. And tell us in the comments what you want us to explain next. See you tomorrow.",
+  "metadata": {
+    "title": "How to Clean a Cast Iron Skillet Without Ruining the Seasoning (7 Steps)",
+    "description": "Cast iron lasts a lifetime, if you clean it right. In this video you'll learn the 7 steps to clean a cast iron skillet after cooking, dry it properly, re-season it in two minutes and store it so it never rusts. No soap debates, no steel wool, no dishwasher.\n\nYou'll need: coarse salt, a little neutral oil, a lint-free towel and a stiff brush or pan scraper.\n\nWikiTube publishes a new step-by-step how-to video every day. Subscribe so you don't miss the next one.",
+    "tags": [
+      "how to clean cast iron",
+      "cast iron skillet",
+      "clean cast iron skillet",
+      "season cast iron",
+      "cast iron care",
+      "cast iron rust",
+      "kitchen tips",
+      "how to",
+      "wikitube"
+    ],
+    "thumbnailTitle": "Clean cast iron the RIGHT way",
+    "chapters": "auto",
+    "localizations": {
+      "es": {
+        "title": "Cómo limpiar una sartén de hierro fundido sin arruinar el curado (7 pasos)",
+        "description": "Aprende los 7 pasos para limpiar, secar, curar y guardar una sartén de hierro fundido para que nunca se oxide. Un tutorial paso a paso nuevo cada día en WikiTube."
+      },
+      "pt": {
+        "title": "Como limpar uma frigideira de ferro fundido sem estragar a cura (7 passos)",
+        "description": "Aprenda os 7 passos para limpar, secar, curar e guardar uma frigideira de ferro fundido para que nunca enferruje. Um novo tutorial passo a passo todos os dias na WikiTube."
+      },
+      "fr": {
+        "title": "Comment nettoyer une poêle en fonte sans abîmer le culottage (7 étapes)",
+        "description": "Les 7 étapes pour nettoyer, sécher, culotter et ranger une poêle en fonte pour qu'elle ne rouille jamais. Un nouveau tutoriel pas à pas chaque jour sur WikiTube."
+      },
+      "de": {
+        "title": "Gusseisenpfanne reinigen, ohne die Patina zu zerstören (7 Schritte)",
+        "description": "Lerne die 7 Schritte, um eine Gusseisenpfanne zu reinigen, zu trocknen, einzubrennen und zu lagern, damit sie nie rostet. Jeden Tag eine neue Schritt-für-Schritt-Anleitung auf WikiTube."
+      },
+      "hi": {
+        "title": "कास्ट आयरन तवे को बिना सीज़निंग खराब किए कैसे साफ करें (7 स्टेप)",
+        "description": "कास्ट आयरन तवे को साफ करने, सुखाने, सीज़न करने और रखने के 7 स्टेप सीखें ताकि उसमें कभी जंग न लगे। WikiTube पर हर दिन एक नया स्टेप-बाय-स्टेप ट्यूटोरियल।"
+      },
+      "it": {
+        "title": "Come pulire una padella in ghisa senza rovinare la stagionatura (7 passaggi)",
+        "description": "Impara i 7 passaggi per pulire, asciugare, stagionare e conservare una padella in ghisa perché non si arrugginisca mai. Un nuovo tutorial passo passo ogni giorno su WikiTube."
+      },
+      "ja": {
+        "title": "鋳鉄スキレットをシーズニングを傷めずに洗う方法（7ステップ）",
+        "description": "鋳鉄スキレットを洗い、乾かし、シーズニングし、錆びないように保管する7つのステップを解説します。WikiTubeでは毎日新しいハウツー動画を公開しています。"
+      },
+      "id": {
+        "title": "Cara Membersihkan Wajan Besi Cor Tanpa Merusak Lapisan Seasoning (7 Langkah)",
+        "description": "Pelajari 7 langkah untuk membersihkan, mengeringkan, melapisi, dan menyimpan wajan besi cor agar tidak pernah berkarat. Tutorial langkah demi langkah baru setiap hari di WikiTube."
+      }
+    }
+  },
+  "short": {
+    "title": "Clean cast iron in 3 steps #shorts",
+    "description": "Rinse warm, salt scrub, oil and heat. Full 7-step guide on the channel. #castiron #kitchentips #howto",
+    "hook": "Stop ruining your cast iron skillet. Three steps, thirty seconds.",
+    "steps": [
+      { "title": "Rinse it warm", "narration": "One. Rinse it with hot water while it's still warm. No soaking, ever." },
+      { "title": "Scrub with salt", "narration": "Two. Scrub stuck-on bits with a handful of coarse salt, then rinse." },
+      { "title": "Oil and heat", "narration": "Three. Dry it on the stove, wipe on a thin coat of oil and heat it until it just smokes." }
+    ],
+    "cta": "Full guide with all seven steps is on the channel. Follow WikiTube for a new how-to every day."
+  }
+}

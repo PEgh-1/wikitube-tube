@@ -1,0 +1,38 @@
+{
+  "name": "wikitube-tube",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Pipeline de production automatisée de la chaîne YouTube WikiTUBE (@WikiTubeHowTo) : épisode JSON → TTS ElevenLabs → images Pexels → rendu Remotion (long + Short + miniature) → QC → upload YouTube programmé.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "validate": "node scripts/validate.mjs",
+    "generate": "node scripts/generate.mjs",
+    "tts": "node scripts/tts.mjs",
+    "images": "node scripts/images.mjs",
+    "render": "node scripts/render.mjs",
+    "srt": "node scripts/build-srt.mjs",
+    "qc": "node scripts/qc.mjs",
+    "upload": "node scripts/upload.mjs",
+    "daily": "node scripts/daily.mjs",
+    "daily:mock": "node scripts/daily.mjs --mock --skip-upload",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource/nunito": "^5.2.5",
+    "@remotion/bundler": "4.0.539",
+    "@remotion/cli": "4.0.539",
+    "@remotion/renderer": "4.0.539",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "4.0.539",
+    "zod": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "typescript": "^5.6.0"
+  }
+}

@@ -1,0 +1,133 @@
+name: WikiTube daily episode
+
+on:
+  schedule:
+    - cron: "0 4 * * *" # 04:00 UTC chaque jour (05:00/06:00 Paris) → publication programmée à 17:30 Paris
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Date de l'épisode à produire (YYYY-MM-DD, vide = aujourd'hui / plus ancien en attente)"
+        required: false
+        default: ""
+      skip_upload:
+        description: "Ne pas mettre en ligne (rendu + QC seulement)"
+        type: boolean
+        default: false
+      mock:
+        description: "Mode mock : silences + images de substitution, aucune clé API utilisée"
+        type: boolean
+        default: false
+
+concurrency:
+  group: wikitube-daily
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  REMOTION_CONCURRENCY: "2"
+  NODE_OPTIONS: "--max-old-space-size=4096"
+
+jobs:
+  produce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: ffmpeg
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y --no-install-recommends ffmpeg
+          ffmpeg -version | head -1
+
+      - name: Dépendances
+        run: npm ci
+
+      - name: Navigateur Remotion
+        run: npx remotion browser ensure
+
+      - name: Pipeline quotidien
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
+          ELEVENLABS_MODEL_ID: ${{ vars.ELEVENLABS_MODEL_ID || 'eleven_flash_v2_5' }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          YT_PLAYLIST_ID: ${{ vars.YT_PLAYLIST_ID }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PUBLISH_SLOT: ${{ vars.PUBLISH_SLOT || '17:30' }}
+          SHORT_DELAY_MINUTES: ${{ vars.SHORT_DELAY_MINUTES || '30' }}
+        run: |
+          ARGS=""
+          if [ -n "${{ inputs.date }}" ]; then ARGS="$ARGS --date ${{ inputs.date }}"; fi
+          if [ "${{ inputs.skip_upload }}" = "true" ]; then ARGS="$ARGS --skip-upload"; fi
+          if [ "${{ inputs.mock }}" = "true" ]; then ARGS="$ARGS --mock"; fi
+          echo "npm run daily -- $ARGS"
+          npm run daily -- $ARGS
+
+      - name: Images de contrôle
+        if: always()
+        run: |
+          EP=$(node -p "try{require('./build/current.json').episodeId}catch(e){''}")
+          mkdir -p out/check
+          if [ -n "$EP" ] && [ -f "out/$EP/long.mp4" ]; then
+            D=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "out/$EP/long.mp4")
+            for i in 1 2 3 4 5 6; do
+              T=$(node -p "($D*$i/7).toFixed(1)")
+              ffmpeg -y -hide_banner -loglevel error -ss "$T" -i "out/$EP/long.mp4" -frames:v 1 "out/check/long_$i.jpg"
+            done
+          fi
+          if [ -n "$EP" ] && [ -f "out/$EP/short.mp4" ]; then
+            ffmpeg -y -hide_banner -loglevel error -ss 2 -i "out/$EP/short.mp4" -frames:v 1 out/check/short_1.jpg
+            ffmpeg -y -hide_banner -loglevel error -ss 15 -i "out/$EP/short.mp4" -frames:v 1 out/check/short_2.jpg
+          fi
+
+      - name: Artefacts (7 jours)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: wikitube-${{ github.run_id }}
+          retention-days: 7
+          if-no-files-found: warn
+          path: |
+            out/**/*.mp4
+            out/**/*.png
+            out/**/*.jpg
+            out/**/*.srt
+            out/check/*
+            build/*/episode.json
+            build/*/tts.json
+            build/*/words.json
+            build/*/images.json
+            build/*/timeline-*.json
+            build/*/metadata.json
+            build/*/qc.json
+            build/*/upload.json
+            build/*/run.json
+
+      - name: Commit de l'état (file d'attente, done, journal)
+        if: always()
+        run: |
+          git config user.name "wikitube-bot"
+          git config user.email "wikitube-bot@users.noreply.github.com"
+          git add data/queue data/done data/state.json data/published.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Rien à commiter"
+          else
+            git commit -m "chore(daily): run ${{ github.run_id }} $(date -u +%F)"
+            git pull --rebase origin ${{ github.ref_name }} || true
+            git push
+          fi

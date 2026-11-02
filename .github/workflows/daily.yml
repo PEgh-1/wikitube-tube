@@ -1,8 +1,10 @@
 name: WikiTube daily episode
 
 on:
-  schedule:
-    - cron: "0 4 * * *" # 04:00 UTC chaque jour (05:00/06:00 Paris) → publication programmée à 17:30 Paris
+  # Publication automatique désactivée tant que la vidéo test n'est pas validée (02/11/2026).
+  # Pour l'activer : décommenter les deux lignes ci-dessous.
+  # schedule:
+  #   - cron: "0 4 * * *" # 04:00 UTC chaque jour → publication programmée à 17:30 Paris
   workflow_dispatch:
     inputs:
       date:
@@ -121,7 +123,8 @@ jobs:
             build/*/run.json
 
       - name: Commit de l'état (file d'attente, done, journal)
-        if: always()
+        # Un test (skip_upload ou mock) ne consomme pas la file d'attente
+        if: always() && inputs.skip_upload != true && inputs.mock != true
         run: |
           git config user.name "wikitube-bot"
           git config user.email "wikitube-bot@users.noreply.github.com"

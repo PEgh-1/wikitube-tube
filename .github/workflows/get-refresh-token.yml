@@ -1,0 +1,33 @@
+name: Obtenir le jeton YouTube
+on:
+  workflow_dispatch:
+    inputs:
+      redirect_url:
+        description: "Adresse complète de la page localhost (http://localhost/?code=...)"
+        required: true
+jobs:
+  token:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Échanger le code contre un refresh token
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          URL_IN: ${{ inputs.redirect_url }}
+        run: |
+          CODE=$(python3 -c "import os,urllib.parse as u;print(u.parse_qs(u.urlparse(os.environ['URL_IN']).query).get('code',[''])[0])")
+          echo "::add-mask::$CODE"
+          [ -n "$CODE" ] || { echo "❌ Pas de code= dans l'adresse collée"; exit 1; }
+          curl -s -X POST https://oauth2.googleapis.com/token -d client_id="$YT_CLIENT_ID" -d client_secret="$YT_CLIENT_SECRET" -d code="$CODE" -d grant_type=authorization_code -d redirect_uri=http://localhost > /tmp/t.json
+          RT=$(jq -r '.refresh_token // empty' /tmp/t.json); AT=$(jq -r '.access_token // empty' /tmp/t.json)
+          echo "::add-mask::$RT"; echo "::add-mask::$AT"
+          [ -n "$RT" ] || { echo "❌ Échange refusé : $(jq -r '.error, .error_description' /tmp/t.json | tr '\n' ' ')"; exit 1; }
+          CH=$(curl -s -H "Authorization: Bearer $AT" "https://www.googleapis.com/youtube/v3/channels?part=snippet&mine=true" | jq -r '.items[0] | "\(.snippet.title) [\(.id)]"')
+          echo "Chaîne autorisée : $CH"
+          [[ "$CH" == *UCiONfy96noLe4mRkVYtNRGg* ]] && echo "✅ C'est bien WikiTUBE (@WikiTubeHowTo)" || { echo "❌ Mauvaise chaîne (attendu UCiONfy96noLe4mRkVYtNRGg) : recommencer en choisissant un autre compte"; exit 1; }
+          mkdir -p out && printf '%s' "$RT" > out/YT_REFRESH_TOKEN.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: YT_REFRESH_TOKEN
+          path: out/YT_REFRESH_TOKEN.txt
+          retention-days: 1

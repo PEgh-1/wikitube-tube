@@ -12,7 +12,11 @@ export type Segment = {
 export type ImageRef = {
   key?: string;
   file: string; // relatif à public/
-  kind?: "photo" | "video";
+  kind?: "photo" | "video" | "illustration";
+  caption?: string;
+  icons?: string[];
+  timer?: { value: number; unit: string } | null;
+  negative?: boolean;
   duration?: number;
   wordStart?: number;
   text?: string;

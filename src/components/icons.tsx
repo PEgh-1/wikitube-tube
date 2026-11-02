@@ -21,7 +21,7 @@ export const ICON_PATHS: Record<string, string[]> = {
 };
 
 /** Pictogramme qui se dessine (trait) puis respire légèrement. */
-export const DrawIcon: React.FC<{ name?: string | null; size?: number; color?: string; delay?: number; stroke?: number }> = ({
+export const DrawIcon: React.FC<{ name?: string | null; size?: number | string; color?: string; delay?: number; stroke?: number }> = ({
   name,
   size = 96,
   color = C.ink,

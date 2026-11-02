@@ -3,6 +3,7 @@ import { AbsoluteFill, Audio, Img, OffthreadVideo, Sequence, interpolate, spring
 import { C, FONT } from "../theme";
 import type { ImageRef, Keyword } from "../types";
 import { DrawIcon } from "./icons";
+import { Illustration } from "./illustration";
 
 const TRANS = 12; // frames de transition entre plans / scènes
 
@@ -14,7 +15,8 @@ export const MultiShot: React.FC<{
   overlay?: string;
   minShotSec?: number;
   starts?: number[]; // débuts imposés (s) : coupes synchronisées sur la voix
-}> = ({ shots, durationInFrames, seed = 0, overlay, minShotSec = 4.5, starts }) => {
+  illusPad?: [number, number]; // marges haut/bas (cqh) des illustrations (place du titre en plein écran)
+}> = ({ shots, durationInFrames, seed = 0, overlay, minShotSec = 4.5, starts, illusPad }) => {
   const { fps } = useVideoConfig();
   const list = shots.filter(Boolean) as ImageRef[];
   if (!list.length) list.push(undefined as unknown as ImageRef);
@@ -33,7 +35,7 @@ export const MultiShot: React.FC<{
         const len = Math.max(1, to - from);
         return (
           <Sequence key={i} from={from} durationInFrames={len + (i < froms.length - 1 ? TRANS : 0)} layout="none">
-            <Shot image={list[i]} len={len + TRANS} first={i === 0} move={(seed + i) % 4} />
+            <Shot image={list[i]} len={len + TRANS} first={i === 0} move={(seed + i) % 4} seed={seed + i} illusPad={illusPad} />
           </Sequence>
         );
       })}
@@ -42,7 +44,7 @@ export const MultiShot: React.FC<{
   );
 };
 
-const Shot: React.FC<{ image?: ImageRef; len: number; first: boolean; move: number }> = ({ image, len, first, move }) => {
+const Shot: React.FC<{ image?: ImageRef; len: number; first: boolean; move: number; seed?: number; illusPad?: [number, number] }> = ({ image, len, first, move, seed = 0, illusPad }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = interpolate(frame, [0, len], [0, 1], { extrapolateRight: "clamp", easing: Easing.inOut(Easing.quad) });
@@ -64,7 +66,13 @@ const Shot: React.FC<{ image?: ImageRef; len: number; first: boolean; move: numb
   const media: React.CSSProperties = { position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", transform };
   const flash = first ? 0 : interpolate(frame, [TRANS - 4, TRANS + 6], [0.35, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   let el: React.ReactNode;
-  if (image?.kind === "video") {
+  if (image?.kind === "illustration") {
+    el = (
+      <AbsoluteFill style={{ transform: first ? undefined : `scale(${1 + (1 - punch) * 0.08})` }}>
+        <Illustration image={image} seed={seed} padTop={illusPad?.[0] ?? 0} padBottom={illusPad?.[1] ?? 0} />
+      </AbsoluteFill>
+    );
+  } else if (image?.kind === "video") {
     const dur = Number((image as ImageRef & { duration?: number }).duration ?? 0);
     const rate = dur > 0 ? Math.max(0.5, Math.min(1, dur / (len / fps))) : 1;
     el = <OffthreadVideo src={staticFile(image.file)} muted playbackRate={rate} style={media} />;
@@ -200,3 +208,13 @@ export const SceneWipe: React.FC<{ durationInFrames: number; enter?: boolean; ex
     </>
   );
 };
+
+/** Le plan affiché à l'instant est-il une illustration (la légende remplace alors les mots-clés) ? */
+export function useIllustrationActive(shots: (ImageRef | undefined)[], starts?: number[]): boolean {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  if (!starts || starts.length !== shots.length) return false;
+  let idx = 0;
+  for (let i = 0; i < starts.length; i++) if (frame >= Math.round(starts[i] * fps)) idx = i;
+  return shots[idx]?.kind === "illustration";
+}

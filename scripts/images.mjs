@@ -13,11 +13,11 @@ import * as pexels from "./providers/pexels.mjs";
 import * as pixabay from "./providers/pixabay.mjs";
 import * as gemini from "./providers/gemini.mjs";
 import { placeholderPng } from "./lib/png.mjs";
-import { subjectTokens, queryVariants, rank } from "./lib/relevance.mjs";
-import { groupShots, shotPrompt } from "./lib/shots.mjs";
+import { subjectTokens, queryVariants, rank, strictMatch, sentenceTerms } from "./lib/relevance.mjs";
+import { groupShots, shotPrompt, illustrate } from "./lib/shots.mjs";
 
 const SHOTS_PER_STEP = Number(process.env.SHOTS_PER_STEP ?? 3); // visuels par étape (dont 1 clip vidéo si trouvé)
-const MANIFEST_VERSION = 2;
+const MANIFEST_VERSION = 3;
 
 const args = parseArgs();
 const mock = Boolean(args.mock);
@@ -65,6 +65,8 @@ for (const t of targets) {
       results[t.key].shots = groupShots(t.step.narration, { maxShots: SHOTS_PER_STEP }).map((gr, j) => {
         const f = path.join(imgDir, `${t.key}-${j + 1}.png`);
         fs.writeFileSync(f, placeholderPng(1920, 1080, t.seed * 7 + j * 3));
+        // 1 plan sur 2 en illustration Remotion pour tester les deux rendus.
+        if (j % 2 === 1) return { key: t.key, query: t.query, kind: "illustration", file: "", ...illustrate(gr.text), text: gr.text, wordStart: gr.wordStart, mock: true };
         return { ...entry(t, { kind: "photo", width: 1920, height: 1080, mock: true, credit: "placeholder" }, f), text: gr.text, wordStart: gr.wordStart };
       });
     }
@@ -80,7 +82,7 @@ for (const t of targets) {
     }
   }
   if (!got && multi) {
-    got = await fromPixabayRanked(t);
+    got = t.step ? await fromPixabayStrict(t) : await fromPixabayRanked(t);
   }
   if (!got) {
     got = await fromStock(t);
@@ -127,6 +129,59 @@ async function fromGemini(t) {
   if (!shots.length) return null;
   // Un plan manquant : son voisin couvre son temps de parole (les mots de début restent ceux des plans générés).
   return { ...shots[0], shots };
+}
+
+// Pixabay « strict » : une photo/clip par phrase seulement si elle s'y prête vraiment
+// (nom principal du sujet + ≥ 2 mots de la phrase dans les tags), sinon illustration animée Remotion.
+const queryCache = new Map();
+async function cachedSearch(kind, q) {
+  const k = `${kind}:${q}`;
+  if (!queryCache.has(k)) {
+    await new Promise((r) => setTimeout(r, 350)); // 100 requêtes/min max côté Pixabay
+    try {
+      queryCache.set(k, kind === "video" ? await pixabay.searchVideoList(q, { apiKey }) : await pixabay.searchPhotoList(q, { apiKey }));
+    } catch (e) {
+      log.warn(`Pixabay ${kind} « ${q} » : ${e.message}`);
+      queryCache.set(k, []);
+    }
+  }
+  return queryCache.get(k);
+}
+
+async function fromPixabayStrict(t) {
+  const groups = groupShots(t.step.narration, { maxShots: SHOTS_PER_STEP });
+  const subj = subject.join(" ");
+  const shots = [];
+  for (const [j, gr] of groups.entries()) {
+    const terms = sentenceTerms(gr.text, subject);
+    const queries = [...new Set([`${subj} ${terms.slice(0, 2).join(" ")}`.trim(), `${subj} ${terms[0] ?? ""}`.trim(), t.query])];
+    let pick = null;
+    for (const q of queries) {
+      const vids = q === queries[0] ? await cachedSearch("video", q) : [];
+      const photos = await cachedSearch("photo", q);
+      pick = [...vids, ...photos].find((c) => !used.has(c.id) && strictMatch(c, gr.text, subject));
+      if (pick) break;
+    }
+    if (pick) {
+      used.add(pick.id);
+      const ext = pick.kind === "video" ? "mp4" : "jpg";
+      const file = path.join(imgDir, `${t.key}-${j + 1}.${ext}`);
+      try {
+        await stock.download(pick.downloadUrl, file);
+        const { tags, ratio, wide, ...meta } = pick;
+        shots.push({ ...entry(t, { ...meta, source: "pixabay", credit: `Pixabay / ${pick.photographer}` }, file), text: gr.text, wordStart: gr.wordStart });
+        log.info(`✔ ${t.key} plan ${j + 1} : ${pick.kind} Pixabay ${pick.id} « ${tags.slice(0, 60)} »`);
+        continue;
+      } catch (e) {
+        log.warn(`téléchargement ${pick.id} : ${e.message}`);
+      }
+    }
+    const ill = illustrate(gr.text);
+    shots.push({ key: t.key, query: t.query, kind: "illustration", file: "", ...ill, text: gr.text, wordStart: gr.wordStart, provider: "remotion" });
+    log.info(`✎ ${t.key} plan ${j + 1} : illustration Remotion « ${ill.caption} » [${ill.icons.join(", ")}]`);
+  }
+  const firstPhoto = shots.find((x) => x.kind === "photo") ?? shots[0];
+  return { ...firstPhoto, shots };
 }
 
 // Pixabay classé par pertinence : plusieurs requêtes (précise → large), tags notés, sujet obligatoire.
@@ -219,7 +274,11 @@ const manifest = {
   provider: mock ? "mock" : providerName,
   generatedAt: new Date().toISOString(),
   hero: stripShots(results.hero),
-  steps: episode.steps.map((_, i) => stripShots(results[`step-${i + 1}`])),
+  // Image « principale » d'étape (Short, miniature) : jamais une illustration → repli sur l'image héros.
+  steps: episode.steps.map((_, i) => {
+    const r = stripShots(results[`step-${i + 1}`]);
+    return r?.kind === "illustration" ? stripShots(results.hero) : r;
+  }),
   stepShots: episode.steps.map((_, i) => results[`step-${i + 1}`]?.shots ?? [stripShots(results[`step-${i + 1}`])]),
   all: results,
   credits: Object.values(results)

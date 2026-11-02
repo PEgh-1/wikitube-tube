@@ -3,10 +3,16 @@ import { AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig, Eas
 import { C, FONT } from "../theme";
 import { Frame, Logo, LogoCorner, Pop, SlideUp, ProgressBar, StepBadge, KenBurns, TipPill } from "../components/ui";
 import type { HookScene, YouNeedScene, StepScene, MistakesScene, RecapScene } from "../types";
-import { MultiShot, KeywordBurst, KeywordSfx } from "../components/motion";
+import { MultiShot, KeywordBurst, KeywordSfx, useIllustrationActive } from "../components/motion";
 import { IconBadge } from "../components/icons";
 
 const shotsOf = (scene: StepScene) => (scene.images?.length ? scene.images : [scene.image]);
+
+/** Mots-clés masqués pendant les plans illustrés (la consigne est déjà écrite à l'écran). */
+const StepKeywords: React.FC<{ scene: StepScene; dark?: boolean; size: number }> = ({ scene, dark, size }) => {
+  const illus = useIllustrationActive(shotsOf(scene), scene.shotStarts);
+  return illus ? null : <KeywordBurst keywords={scene.keywords} dark={dark} size={size} />;
+};
 
 // ---------- Pré-roll logo (3 s) ----------
 export const PreRoll: React.FC = () => {
@@ -166,7 +172,7 @@ const StepSplit: React.FC<{ scene: StepScene; durationInFrames: number }> = ({ s
           <TipPill text={scene.tip} />
         </div>
         <div style={{ marginTop: 44, height: 110 }}>
-          <KeywordBurst keywords={scene.keywords} size={60} />
+          <StepKeywords scene={scene} size={60} />
         </div>
       </div>
       <Pop delay={4} style={{ flex: 1, display: "flex", justifyContent: "center", position: "relative" }}>
@@ -191,12 +197,13 @@ const StepFull: React.FC<{ scene: StepScene; durationInFrames: number }> = ({ sc
         durationInFrames={durationInFrames}
         seed={scene.index + 1}
         starts={scene.shotStarts}
+        illusPad={[20, 34]}
         overlay={`linear-gradient(180deg, rgba(27,42,65,0.55) 0%, rgba(27,42,65,0.05) 35%, rgba(27,42,65,0.15) 60%, rgba(27,42,65,0.92) 100%)`}
       />
     </AbsoluteFill>
     <StepHeader scene={scene} onDark />
     <div style={{ position: "absolute", left: 110, top: 300, right: 700 }}>
-      <KeywordBurst keywords={scene.keywords} dark size={76} />
+      <StepKeywords scene={scene} dark size={76} />
     </div>
     <div style={{ position: "absolute", right: 110, bottom: 170 }}>
       <IconBadge name={scene.icon} size={170} delay={14} />
@@ -225,7 +232,7 @@ const StepCard: React.FC<{ scene: StepScene; durationInFrames: number }> = ({ sc
         <MultiShot shots={shotsOf(scene)} durationInFrames={durationInFrames} seed={scene.index + 2} starts={scene.shotStarts} overlay="linear-gradient(90deg, rgba(27,42,65,0.35), transparent 45%)" />
       </div>
       <div style={{ position: "absolute", left: 50, bottom: 50 }}>
-        <KeywordBurst keywords={scene.keywords} dark size={70} />
+        <StepKeywords scene={scene} dark size={70} />
       </div>
       <div style={{ position: "absolute", right: 40, top: 40 }}>
         <IconBadge name={scene.icon} size={150} delay={14} bg={C.teal} color={C.white} />

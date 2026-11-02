@@ -85,3 +85,24 @@ export function rank(cands, query, subject, exclude = new Set()) {
     .sort((a, b) => b.s - a.s)
     .map((x) => ({ ...x.c, score: Math.round(x.s * 10) / 10 }));
 }
+
+// Mots d'action/objets d'une phrase de narration (pour une requête et un contrôle strict).
+const NARR_STOP = new Set(
+  "step one two three four five six seven eight first second next now also so if can will would should could may might much many more most some any every each all about than too only even really because like get gets got make makes made do does did don't doesn't won't can't let lets right good great thing things way ways time times bit little keep take takes put puts going go goes want need needs back again sure yet well around anything something everything nothing between actually almost already always usually probably simply enough another other others whole rather instead though through during turns becomes means picked works working start starts".split(" "),
+);
+export function sentenceTerms(text, subject = []) {
+  return tokens(text).filter((t) => t.length >= 4 && !NARR_STOP.has(t) && !WEAK.has(t) && !subject.includes(t));
+}
+
+/**
+ * Contrôle strict « l'image s'y prête vraiment » : nom principal du sujet présent dans les tags
+ * ET au moins `minTerms` mots de la phrase (actions, objets) retrouvés.
+ */
+export function strictMatch(cand, text, subject, { minTerms = 2 } = {}) {
+  const tagSet = new Set(tokens(cand.tags.replace(/,/g, " ")).map(stem));
+  const has = (t) => [...expand(t)].some((x) => tagSet.has(x));
+  const head = subject[subject.length - 1];
+  if (head && !has(head)) return false;
+  const terms = [...new Set(sentenceTerms(text, subject))];
+  return terms.filter(has).length >= Math.min(minTerms, Math.max(1, terms.length));
+}

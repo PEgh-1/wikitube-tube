@@ -1,0 +1,179 @@
+{
+  "$schema": "../episode.schema.json",
+  "id": "2026-11-16-clean-c-drive-windows-11",
+  "date": "2026-11-16",
+  "slug": "clean-c-drive-windows-11",
+  "category": "Tech",
+  "title": "How to Clean Up Your C Drive on Windows 11 (Fast)",
+  "hook": "Is your C drive almost full, and Windows keeps nagging you about low disk space? In the next few minutes you'll clear gigabytes of junk with seven safe steps, using only the tools already built into Windows 11.",
+  "intro": "Over time, Windows 11 piles up temporary files, old update leftovers, forgotten downloads and apps you never open. None of this cleanup needs special software or any risky tricks. Everything we'll do is built into Windows, so you can't break anything, and most people recover somewhere between five and fifty gigabytes in about ten minutes. Let's go step by step, starting with the simplest wins first. So grab a coffee, and let's get your PC breathing again.",
+  "youNeed": [
+    "A PC running Windows 11",
+    "About ten minutes",
+    "An external drive or cloud storage",
+    "Your Windows admin password"
+  ],
+  "youNeedNarration": "Here's what you need. A PC running Windows 11, about ten minutes of your time, and an external drive or cloud storage if you want to move large files somewhere safe. You may also need your administrator password for one of the steps. Nothing to buy and nothing to download.",
+  "heroImageQuery": "laptop windows 11 desktop",
+  "heroImagePrompt": "A modern laptop on a clean white desk showing a Windows 11 desktop with a storage settings window open, soft daylight, shallow depth of field, photorealistic, no text",
+  "steps": [
+    {
+      "title": "See what is eating your space",
+      "narration": "Step one. Open Settings, choose System, then Storage. Windows shows a colored bar that breaks your C drive into apps, temporary files, documents and other categories, and it can take a minute to finish calculating. Click Show more categories if you see that option. This matters because you should clean the biggest category first instead of guessing. If apps and games take most of the room, step four will help most. If temporary files dominate, the next two steps will give you a quick win. Note your free space now, so you can compare at the end. Don't worry if some numbers look surprising, because hidden folders and caches are often larger than people expect.",
+      "tip": "Start with the biggest category",
+      "mistake": "Deleting random files without checking",
+      "imageQuery": "laptop storage settings screen",
+      "imagePrompt": "A person's hands on a laptop keyboard while the screen shows a Windows storage usage bar broken into colored categories, bright home office, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Delete temporary files",
+      "narration": "Step two. Still in Storage, click Temporary files. Windows lists items such as thumbnails, delivery optimization files and the Recycle Bin, with a size next to each one. Tick the boxes for the categories you don't need, and leave Downloads unticked, because that is your personal folder and we'll review it by hand later. Then click Remove files. Windows rebuilds these caches automatically when it needs them, so nothing important is lost. On a PC that has never been cleaned, this single step often frees several gigabytes. It only takes a couple of minutes, so it is a great place to start. Come back to this page every few months.",
+      "tip": "Leave the Downloads box unticked",
+      "mistake": "Ticking Downloads without looking inside",
+      "imageQuery": "laptop settings checklist",
+      "imagePrompt": "A laptop screen showing a checklist of temporary file categories with a green button, clean desk, soft natural light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Run Disk Cleanup for system files",
+      "narration": "Step three. Type Disk Cleanup into the Start menu and open it, then choose your C drive. Click Clean up system files, which may ask for your administrator password. After a short scan you'll see extra categories, such as Windows Update Cleanup and previous Windows installations. These can be several gigabytes each. Read the descriptions, tick what you no longer need, and click OK. If you installed a big Windows update in the last ten days, keep the previous installation, in case you want to roll back. The scan can take a minute or two, so be patient and keep the window open until it finishes.",
+      "tip": "Windows Update Cleanup is often huge",
+      "mistake": "Deleting a recent previous Windows version",
+      "imageQuery": "computer disk cleanup window",
+      "imagePrompt": "A computer monitor on a desk showing a disk cleanup dialog with a list of file types and checkboxes, calm office, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Uninstall apps you never use",
+      "narration": "Step four. Go to Settings, Apps, then Installed apps, and sort the list by size. Scroll through it and ask yourself one question for each entry: have I used this in the last six months? Old games, trial software, and duplicate video editors are the usual heavy hitters. Click the three dots next to an app and choose Uninstall. Keep anything made by Microsoft or your computer maker if you are unsure what it does, such as drivers. You can always reinstall a program later, but you cannot easily get back the space. Take your time on this one, since it is where most people recover the most room, especially if there are games on the list.",
+      "tip": "Sort apps by size, biggest first",
+      "mistake": "Removing drivers you don't recognize",
+      "imageQuery": "uninstalling apps laptop",
+      "imagePrompt": "A laptop screen with a list of installed apps sorted by size, a hand holding a mouse, bright modern workspace, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Empty Downloads and the Recycle Bin",
+      "narration": "Step five. Open File Explorer and click on the Downloads folder. Sort by size, and delete installers and old files you don't recognize. Files you want to keep can be moved elsewhere in the next step. Deleting a file only sends it to the Recycle Bin, so right-click the Recycle Bin on your desktop and choose Empty Recycle Bin to really free the space. Many people forget this, and wonder why the numbers do not change. Take a minute to look at the Desktop and Documents folders as well. It is a small habit, and it keeps clutter from piling up again later.",
+      "tip": "Sort by size to find giants fast",
+      "mistake": "Forgetting to empty the Recycle Bin",
+      "imageQuery": "computer files folder",
+      "imagePrompt": "A file explorer window showing a downloads folder sorted by file size, large files at the top, on a laptop on a wooden desk, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Move big files off the C drive",
+      "narration": "Step six. Photos, videos and big projects are the main reason a drive fills up. Plug in an external drive and move them there with cut and paste. Or use OneDrive: right-click a folder in OneDrive and choose Free up space, so the files stay in the cloud and only download when you open them. Either way, you keep your files while giving Windows back the room it needs to run smoothly. Aim to keep at least fifteen percent of the drive free, because Windows slows down when it is nearly full. Check that the files open properly from their new place before you delete the originals, just to be safe.",
+      "tip": "Keep 15 percent of the drive free",
+      "mistake": "Moving files without a backup copy",
+      "imageQuery": "external hard drive laptop",
+      "imagePrompt": "An external hard drive connected to a laptop with a folder of photos being transferred, tidy desk, soft daylight, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Turn on Storage Sense",
+      "narration": "Step seven. Go back to Settings, System, Storage, and switch on Storage Sense. Open its settings and choose how often it should run, for example every month, then decide when it empties the Recycle Bin and old files in your Downloads folder. Be careful with the Downloads option, and leave it set to Never unless you are sure. From now on Windows will do the routine cleanup quietly in the background. Finish by checking your free space again, and enjoy the difference you just made. Once it is on, you will rarely need to repeat this whole routine, because the system handles most of it for you.",
+      "tip": "Set it to run every month",
+      "mistake": "Letting it delete Downloads automatically",
+      "imageQuery": "laptop settings toggle",
+      "imagePrompt": "A laptop screen showing a Windows settings page with a toggle switched on, minimalist desk, soft light, photorealistic, no text",
+      "media": "photo"
+    }
+  ],
+  "mistakesToAvoid": {
+    "narration": "Now, the mistakes to avoid. First, never delete files from the Windows or Program Files folders by hand. Windows needs them, and removing them can stop your PC from starting. Second, skip those free registry cleaners and so-called PC boosters. They promise miracles and often cause more problems than they solve. And third, don't clear the Recycle Bin before checking what's inside, because after that, a deleted file is very hard to recover. Take it slowly, and ask yourself before every deletion: do I know what this is?",
+    "items": [
+      "Deleting Windows system folders by hand",
+      "Installing registry cleaner tools",
+      "Emptying the Recycle Bin without checking"
+    ]
+  },
+  "recap": {
+    "narration": "Let's run through it once more. Check what's using your space. Delete temporary files. Run Disk Cleanup for system files. Uninstall apps you don't use. Empty Downloads and the Recycle Bin. Move big files to an external drive or the cloud. And switch on Storage Sense so Windows keeps tidy by itself. Seven steps, ten minutes, and a much faster PC. Do this once every few months and it stays that way.",
+    "items": [
+      "See what is eating your space",
+      "Delete temporary files",
+      "Run Disk Cleanup for system files",
+      "Uninstall apps you never use",
+      "Empty Downloads and the Recycle Bin",
+      "Move big files off the C drive",
+      "Turn on Storage Sense"
+    ]
+  },
+  "outro": "That's how you clean up your C drive on Windows 11. If this freed up space on your PC, subscribe to WikiTube, because we publish a new how-to every single day. Tell us in the comments how many gigabytes you recovered, and what you would like us to explain next. See you tomorrow.",
+  "metadata": {
+    "title": "How to Clean Up Your C Drive on Windows 11 (Fast)",
+    "description": "Is your C drive full? In this step-by-step video you'll learn how to clean up your C drive on Windows 11 and free up space fast, using only built-in tools: Settings, Storage, Disk Cleanup and Storage Sense. We remove temporary files, old update leftovers and unused apps, clear Downloads, and move big files to the cloud or an external drive. No registry tricks and no risky software.\n\nYou'll need: a pc running windows 11, about ten minutes, an external drive or cloud storage, your windows admin password.\n\nWikiTube publishes a new step-by-step how-to video every day. Subscribe so you don't miss the next one.",
+    "tags": [
+      "how to clean c drive windows 11",
+      "clean up c drive",
+      "free up disk space windows 11",
+      "windows 11 storage",
+      "disk cleanup windows 11",
+      "storage sense",
+      "c drive full",
+      "speed up windows 11",
+      "delete temporary files",
+      "windows 11 tips",
+      "how to",
+      "wikitube"
+    ],
+    "thumbnailTitle": "FREE UP SPACE FAST",
+    "chapters": "auto",
+    "localizations": {
+      "es": {
+        "title": "Cómo limpiar la unidad C en Windows 11 (rápido)",
+        "description": "Aprende a limpiar la unidad C de Windows 11 y liberar espacio rápidamente con las herramientas del propio sistema: Configuración, Almacenamiento, Liberador de espacio y Sensor de almacenamiento. Eliminamos archivos temporales, restos de actualizaciones y aplicaciones que no usas, sin trucos de registro ni programas peligrosos.\n\nWikiTube publica un nuevo tutorial paso a paso cada día. Suscríbete para no perderte el siguiente."
+      },
+      "pt": {
+        "title": "Como limpar o disco C no Windows 11 (rápido)",
+        "description": "Aprenda a limpar o disco C do Windows 11 e liberar espaço rapidamente usando apenas as ferramentas do próprio sistema: Configurações, Armazenamento, Limpeza de Disco e Sensor de Armazenamento. Removemos arquivos temporários, sobras de atualizações e aplicativos sem uso, sem truques de registro nem programas arriscados.\n\nA WikiTube publica um novo tutorial passo a passo todos os dias. Inscreva-se para não perder o próximo."
+      },
+      "fr": {
+        "title": "Comment nettoyer le disque C sous Windows 11 (rapide)",
+        "description": "Apprenez à nettoyer le disque C de Windows 11 et à libérer de l'espace rapidement avec les outils intégrés : Paramètres, Stockage, Nettoyage de disque et Contrôle de stockage. Nous supprimons les fichiers temporaires, les restes de mises à jour et les applications inutiles, sans astuces de registre ni logiciels risqués.\n\nWikiTube publie chaque jour un nouveau tutoriel pas à pas. Abonnez-vous pour ne pas manquer le prochain."
+      },
+      "de": {
+        "title": "Laufwerk C unter Windows 11 bereinigen (schnell)",
+        "description": "So bereinigst du Laufwerk C unter Windows 11 und schaffst schnell Speicherplatz, nur mit Bordmitteln: Einstellungen, Speicher, Datenträgerbereinigung und Speichersinn. Wir löschen temporäre Dateien, Update-Reste und ungenutzte Apps, ganz ohne Registry-Tricks oder riskante Programme.\n\nWikiTube veröffentlicht jeden Tag eine neue Schritt-für-Schritt-Anleitung. Abonniere den Kanal, um die nächste nicht zu verpassen."
+      },
+      "hi": {
+        "title": "Windows 11 में C ड्राइव कैसे साफ करें (तेज़ तरीका)",
+        "description": "Windows 11 की C ड्राइव साफ करना और जल्दी स्टोरेज खाली करना सीखें, सिर्फ़ सिस्टम के अपने टूल से: सेटिंग्स, स्टोरेज, डिस्क क्लीनअप और स्टोरेज सेंस। हम टेम्पररी फ़ाइलें, अपडेट के बचे हुए फ़ाइलें और बेकार ऐप्स हटाते हैं, बिना किसी रजिस्ट्री ट्रिक या जोखिम भरे सॉफ़्टवेयर के।\n\nWikiTube पर हर दिन एक नया स्टेप-बाय-स्टेप ट्यूटोरियल आता है। अगला वीडियो न छूटे, इसलिए सब्सक्राइब करें।"
+      },
+      "it": {
+        "title": "Come pulire il disco C su Windows 11 (veloce)",
+        "description": "Scopri come pulire il disco C di Windows 11 e liberare spazio rapidamente usando solo gli strumenti del sistema: Impostazioni, Archiviazione, Pulizia disco e Sensore di archiviazione. Eliminiamo file temporanei, residui degli aggiornamenti e app inutilizzate, senza trucchi del registro né programmi rischiosi.\n\nWikiTube pubblica ogni giorno un nuovo tutorial passo passo. Iscriviti per non perdere il prossimo."
+      },
+      "ja": {
+        "title": "Windows 11のCドライブを素早く整理する方法",
+        "description": "Windows 11のCドライブを整理して、空き容量をすばやく増やす方法を解説します。使うのは標準ツールだけ。設定、ストレージ、ディスククリーンアップ、ストレージセンサーです。一時ファイル、更新の残りファイル、使っていないアプリを削除します。レジストリ操作や危険なソフトは使いません。\n\nWikiTubeでは毎日、新しいステップバイステップのハウツー動画を公開しています。次の動画を見逃さないよう、チャンネル登録をお願いします。"
+      },
+      "id": {
+        "title": "Cara Membersihkan Drive C di Windows 11 (Cepat)",
+        "description": "Pelajari cara membersihkan drive C di Windows 11 dan menambah ruang kosong dengan cepat memakai fitur bawaan: Pengaturan, Penyimpanan, Disk Cleanup, dan Storage Sense. Kita hapus file sementara, sisa pembaruan, dan aplikasi yang tidak terpakai, tanpa trik registry atau perangkat lunak berisiko.\n\nWikiTube menerbitkan tutorial langkah demi langkah baru setiap hari. Subscribe agar tidak ketinggalan video berikutnya."
+      }
+    }
+  },
+  "short": {
+    "title": "Free up your C drive in 3 steps #shorts",
+    "description": "Temporary files, Disk Cleanup and Storage Sense on Windows 11. Full guide on the channel. #windows11 #pctips #howto",
+    "hook": "C drive full? Free up gigabytes on Windows 11 in three steps.",
+    "steps": [
+      {
+        "title": "Delete temp files",
+        "narration": "One. Open Settings, System, Storage, then Temporary files, and remove what you don't need."
+      },
+      {
+        "title": "Run Disk Cleanup",
+        "narration": "Two. Open Disk Cleanup, click Clean up system files, and remove old update leftovers."
+      },
+      {
+        "title": "Turn on Storage Sense",
+        "narration": "Three. Switch on Storage Sense so Windows cleans itself every month."
+      }
+    ],
+    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+  }
+}

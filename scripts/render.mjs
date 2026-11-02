@@ -25,7 +25,7 @@ const fps = Number(args.fps ?? FPS);
 const concurrency = Number(args.concurrency ?? process.env.REMOTION_CONCURRENCY ?? 2);
 const crf = Number(args.crf ?? 20);
 const only = args.only ?? "all";
-const burnSubtitles = !args["no-subtitles"] && process.env.BURN_SUBTITLES !== "0";
+const burnSubtitles = Boolean(args["subtitles"]) || process.env.BURN_SUBTITLES === "1";
 const browserExecutable = process.env.REMOTION_BROWSER_EXECUTABLE || null;
 const chromiumOptions = { gl: "angle", enableMultiProcessOnLinux: true };
 

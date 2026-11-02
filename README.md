@@ -85,7 +85,7 @@ npm run studio                  # Remotion Studio avec la timeline de démo
 
 Étapes à l'unité : `npm run generate`, `npm run tts -- --mock`, `npm run images -- --mock`, `npm run render -- --only short`, `npm run srt`, `npm run qc -- --mock`, `npm run upload -- --dry-run`.
 
-Variables utiles : `REMOTION_BROWSER_EXECUTABLE` (Chromium local ; vide sur Actions où `remotion browser ensure` télécharge le navigateur), `REMOTION_CONCURRENCY` (2 par défaut), `BURN_SUBTITLES=0` pour un rendu sans sous-titres incrustés, `MOCK_WORDS_PER_SEC` (2,5 par défaut).
+Variables utiles : `REMOTION_BROWSER_EXECUTABLE` (Chromium local ; vide sur Actions où `remotion browser ensure` télécharge le navigateur), `REMOTION_CONCURRENCY` (2 par défaut), `BURN_SUBTITLES=1` pour incruster les sous-titres (désactivé par défaut : le SRT anglais déposé via captions.insert est traduit automatiquement par YouTube, cohérent avec le doublage auto), `MOCK_WORDS_PER_SEC` (2,5 par défaut).
 
 Le rendu complet en mock sur 2 vCPU prend ≈ 25 min à 30 fps (≈ 7 images/s) ; `--fps 24` pour un test rapide, le code reste à 30 fps par défaut.
 
@@ -132,6 +132,6 @@ Publication : le long est programmé (`privacyStatus: private` + `publishAt`) au
 
 ## Points d'attention
 
-- Les sous-titres sont incrustés (bandeau mot à mot). Si le doublage automatique YouTube devient prioritaire, rendre avec `BURN_SUBTITLES=0` et s'appuyer sur le SRT déposé par `captions.insert`.
+- Décision du 02/11/2026 : pas de sous-titres incrustés (SRT YouTube seulement, traduit automatiquement). `BURN_SUBTITLES=1` ou `--subtitles` pour les réactiver.
 - Les images Pexels sont choisies par requête texte : vérifier les images de contrôle (`out/check/`) dans les artefacts les premiers jours et ajuster les `imageQuery`.
 - Aucune musique de fond n'est incluse (pas de piste libre de droits embarquée) ; brancher un fichier `public/music/bed.mp3` + un `<Audio volume={0.08}>` dans `Long.tsx` si souhaité, puis revalider la loudness.

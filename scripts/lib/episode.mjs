@@ -23,9 +23,9 @@ export const StepSchema = z.object({
   narration: Narration(35, 120).describe("Voix off de l'étape, 2 à 4 phrases."),
   tip: z.string().trim().min(3).max(70).describe("Astuce courte affichée dans la carte."),
   mistake: z.string().trim().min(3).max(90).describe("Erreur fréquente liée à l'étape."),
-  imageQuery: z.string().trim().min(3).max(100).describe("Requête Pexels (photo paysage)."),
+  imageQuery: z.string().trim().min(3).max(100).describe("Requête de recherche d'images stock (Pixabay/Pexels, photo paysage)."),
   imagePrompt: z.string().trim().min(10).max(600).describe("Prompt pour une future API d'image (Gemini…)."),
-  media: z.enum(["photo", "video"]).default("photo").describe("Type de média Pexels à chercher."),
+  media: z.enum(["photo", "video"]).default("photo").describe("Type de média stock à chercher (photo ou vidéo)."),
 });
 
 export const ShortStepSchema = z.object({

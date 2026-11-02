@@ -1,0 +1,12 @@
+{
+  "total": 3, "totalHits": 3,
+  "hits": [
+    { "id": 111, "pageURL": "https://pixabay.com/photos/skillet-cast-iron-111/", "user": "Jane_Doe", "user_id": 4242,
+      "imageWidth": 1200, "imageHeight": 1600, "largeImageURL": "https://pixabay.com/get/portrait_1280.jpg" },
+    { "id": 222, "pageURL": "https://pixabay.com/photos/pan-kitchen-222/", "user": "cook-man", "user_id": 777,
+      "imageWidth": 5472, "imageHeight": 3648, "largeImageURL": "https://pixabay.com/get/pan_1280.jpg",
+      "fullHDURL": "https://pixabay.com/get/pan_1920.jpg" },
+    { "id": 333, "pageURL": "https://pixabay.com/photos/small-333/", "user": "tiny", "user_id": 1,
+      "imageWidth": 1000, "imageHeight": 600, "largeImageURL": "https://pixabay.com/get/small_1280.jpg" }
+  ]
+}

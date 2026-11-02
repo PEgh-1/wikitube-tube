@@ -1,0 +1,12 @@
+{
+  "total": 2, "totalHits": 2,
+  "hits": [
+    { "id": 900, "pageURL": "https://pixabay.com/videos/long-900/", "user": "slow", "user_id": 5, "duration": 80,
+      "videos": { "large": { "url": "https://cdn.pixabay.com/l.mp4", "width": 3840, "height": 2160 } } },
+    { "id": 901, "pageURL": "https://pixabay.com/videos/sizzle-901/", "user": "chef", "user_id": 6, "duration": 12,
+      "videos": {
+        "large": { "url": "", "width": 0, "height": 0 },
+        "medium": { "url": "https://cdn.pixabay.com/m.mp4", "width": 1920, "height": 1080 },
+        "small": { "url": "https://cdn.pixabay.com/s.mp4", "width": 1280, "height": 720 } } }
+  ]
+}

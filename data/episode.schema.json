@@ -97,7 +97,7 @@
             "type": "string",
             "minLength": 3,
             "maxLength": 100,
-            "description": "Requête Pexels (photo paysage)."
+            "description": "Requête de recherche d'images stock (Pixabay/Pexels, photo paysage)."
           },
           "imagePrompt": {
             "type": "string",
@@ -107,7 +107,7 @@
           },
           "media": {
             "default": "photo",
-            "description": "Type de média Pexels à chercher.",
+            "description": "Type de média stock à chercher (photo ou vidéo).",
             "type": "string",
             "enum": [
               "photo",

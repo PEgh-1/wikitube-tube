@@ -8,6 +8,7 @@ import path from "node:path";
 import fs from "node:fs";
 import { bundle } from "@remotion/bundler";
 import { renderMedia, renderStill, selectComposition, ensureBrowser } from "@remotion/renderer";
+import { creditsLine } from "./lib/credits.mjs";
 import { DIRS, FPS, parseArgs, readJson, writeJson, log, ensureDir, mediaDuration, run } from "./lib/common.mjs";
 import { buildLongTimeline, buildShortTimeline, chaptersText } from "./lib/timeline.mjs";
 import { LOCALES } from "./lib/episode.mjs";
@@ -37,7 +38,8 @@ writeJson(path.join(buildDir, "timeline-short.json"), shortTl);
 log.info(`Long : ${(longTl.totalSec / 60).toFixed(2)} min (${longTl.durationInFrames} frames @${fps}) — Short : ${shortTl.totalSec.toFixed(1)} s`);
 
 // ---------- Métadonnées YouTube (description + chapitres + crédits) ----------
-const credits = images.credits?.length ? `\n\nFootage: ${images.credits.join(" · ")}` : "";
+const creditText = creditsLine(Object.values(images.all ?? {}));
+const credits = creditText ? `\n\n${creditText}` : "";
 const description = `${episode.metadata.description}\n\nChapters:\n${chaptersText(longTl.chapters)}${credits}`;
 const metadata = {
   episodeId,

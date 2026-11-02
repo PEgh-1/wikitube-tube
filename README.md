@@ -1,9 +1,9 @@
 # WikiTube — pipeline de production quotidienne
 
-Chaîne YouTube **WikiTUBE** (`@WikiTubeHowTo`) : tutos *how-to* en anglais, **1 vidéo longue (6–8 min) + 1 Short par jour**, produits sans intervention humaine sur GitHub Actions. Même architecture que `youqwiz-tube` : épisode JSON → voix ElevenLabs → visuels Pexels → rendu Remotion → contrôle qualité → mise en ligne programmée.
+Chaîne YouTube **WikiTUBE** (`@WikiTubeHowTo`) : tutos *how-to* en anglais, **1 vidéo longue (6–8 min) + 1 Short par jour**, produits sans intervention humaine sur GitHub Actions. Même architecture que `youqwiz-tube` : épisode JSON → voix ElevenLabs → visuels Pixabay → rendu Remotion → contrôle qualité → mise en ligne programmée.
 
 ```
-data/queue/<date>-<slug>.json ──► generate ──► tts (ElevenLabs) ──► images (Pexels) ──► render (Remotion)
+data/queue/<date>-<slug>.json ──► generate ──► tts (ElevenLabs) ──► images (Pixabay) ──► render (Remotion)
                                       │           │ mp3 + words.json     │ jpg/png            │ long.mp4 · short.mp4 · thumbnail.png
                                       ▼           ▼                      ▼                    ▼
                                  build/<id>/  public/assets/<id>/audio  public/assets/<id>/images   out/<id>/
@@ -25,14 +25,14 @@ scripts/
   daily.mjs               orchestrateur : generate → tts → images → render → srt → qc → upload
   generate.mjs            choisit l'épisode du jour, valide, prépare build/<id>/, déplace en done/
   tts.mjs                 ElevenLabs with-timestamps → 1 mp3 par segment + words.json (--mock : silences)
-  images.mjs              Pexels → 1 visuel par étape + image héros, cache public/assets/<id>/ (--mock : PNG charte)
+  images.mjs              Pixabay (défaut) ou Pexels → 1 visuel par étape + image héros, cache public/assets/<id>/ (--mock : PNG charte)
   render.mjs              Remotion (API renderer) : Long 1920×1080, Short 1080×1920, miniature 1280×720, chapitres, metadata.json
   build-srt.mjs           SRT anglais depuis words.json + timelines
   qc.mjs                  ffprobe : durées, résolution, pistes audio, loudness -14 LUFS, méta YouTube
   upload.mjs              YouTube Data API v3 : long + Short programmés, miniature, localisations, playlist, captions.insert
   validate.mjs            valide les épisodes et régénère le schéma
   lib/                    common (env, ffprobe, logs), episode (schéma zod), timeline (durées → scènes), png (placeholders)
-  providers/              elevenlabs.mjs, pexels.mjs, gemini.mjs (squelette image générative)
+  providers/              elevenlabs.mjs, pixabay.mjs (défaut), pexels.mjs (option), gemini.mjs (squelette image générative)
 src/
   Root.tsx                compositions Long / Short / Thumbnail (durée calculée depuis la timeline en inputProps)
   Long.tsx · Short.tsx · Thumbnail.tsx
@@ -55,7 +55,7 @@ Un fichier `data/queue/<YYYY-MM-DD>-<slug>.json` validé par `data/episode.schem
 | `hook`, `intro` | narration d'ouverture (scène titre) |
 | `youNeed[]`, `youNeedNarration` | matériel (cartes) + voix off |
 | `heroImageQuery`, `heroImagePrompt` | image clé (hook, miniature, Short) |
-| `steps[6–8]` | `title`, `narration` (2–4 phrases, 35–120 mots), `tip`, `mistake`, `imageQuery` (Pexels), `imagePrompt` (future API image), `media` photo/video |
+| `steps[6–8]` | `title`, `narration` (2–4 phrases, 35–120 mots), `tip`, `mistake`, `imageQuery` (requête Pixabay), `imagePrompt` (future API image), `media` photo/video |
 | `mistakesToAvoid` | `narration` + `items[2–4]` |
 | `recap` | `narration` + `items` (une par étape, sinon titres des étapes) |
 | `outro` | appel à l'abonnement |
@@ -97,12 +97,13 @@ Le rendu complet en mock sur 2 vCPU prend ≈ 25 min à 30 fps (≈ 7 images/s) 
 |---|---|
 | `ELEVENLABS_API_KEY` | TTS ElevenLabs (`/v1/text-to-speech/{voice}/with-timestamps`) |
 | `ELEVENLABS_VOICE_ID` | id de la voix de la chaîne (en choisir une et ne plus en changer) |
-| `PEXELS_API_KEY` | photos/vidéos d'illustration (gratuit, 200 req/h, 20 000/mois) |
+| `PIXABAY_API_KEY` | photos/vidéos d'illustration (gratuit, 100 req/60 s) — fournisseur par défaut |
+| `PEXELS_API_KEY` | optionnel, uniquement avec `IMAGE_PROVIDER=pexels` (Pexels a suspendu la délivrance de nouvelles clés) |
 | `YT_CLIENT_ID`, `YT_CLIENT_SECRET` | client OAuth « application de bureau » du projet Google Cloud (API YouTube Data v3 activée) |
 | `YT_REFRESH_TOKEN` | refresh token obtenu une fois avec les scopes `youtube.upload` + `youtube.force-ssl` (captions, playlists) ; appli OAuth passée en **production** sinon le token expire après 7 jours |
 | `GEMINI_API_KEY` | optionnel, pour activer `providers/gemini.mjs` (`IMAGE_PROVIDER=gemini`) |
 
-Variables (non secrètes) : `YT_PLAYLIST_ID`, `ELEVENLABS_MODEL_ID` (défaut `eleven_flash_v2_5`), `PUBLISH_SLOT` (défaut `17:30`), `SHORT_DELAY_MINUTES` (défaut `30`).
+Variables (non secrètes) : `YT_PLAYLIST_ID`, `ELEVENLABS_MODEL_ID` (défaut `eleven_flash_v2_5`), `IMAGE_PROVIDER` (défaut `pixabay` ; `pexels` ou `gemini` en option), `PUBLISH_SLOT` (défaut `17:30`), `SHORT_DELAY_MINUTES` (défaut `30`).
 
 Obtenir le refresh token (une fois, en local) :
 
@@ -126,12 +127,12 @@ Publication : le long est programmé (`privacyStatus: private` + `publishAt`) au
 
 - **GitHub Actions** : un run ≈ 30–40 min sur `ubuntu-latest` (rendu ≈ 25 min pour 6–7 min de vidéo à 2 vCPU). Soit ≈ **1 000–1 200 min/mois** : au-delà des 2 000 min gratuites d'un compte Free (dépôt privé) mais dans les 3 000 min de **GitHub Pro** ; un dépôt **public** a des minutes illimitées. Alternative : runner auto-hébergé.
 - **ElevenLabs** : ≈ 5 500 caractères par épisode (long + Short) ≈ **165 000 caractères/mois**. Flash v2.5 compte ½ crédit par caractère : le plan Creator (100 k crédits, ~22 $/mois) couvre ≈ 200 k caractères. Le script affiche la consommation à chaque run.
-- **Pexels** : gratuit, 200 requêtes/h ; ≈ 9 requêtes par épisode. Mention des auteurs ajoutée à la description.
+- **Pixabay** : gratuit, 100 requêtes/60 s ; ≈ 9 requêtes par épisode. Fichiers téléchargés et mis en cache localement (pas de hotlink) ; la description reçoit « Images: Pixabay — auteurs ». Sans accès API complet, les photos sont en 1280 px max (fullHDURL/imageURL réservés aux comptes approuvés) : demander l'accès complet sur pixabay.com/api/docs pour du 1920 px.
 - **YouTube Data API** : 2 `videos.insert` (1 600 unités chacun) + miniature (50) + sous-titres (400) + playlist (50) ≈ **3 700 unités/jour**, sous le quota par défaut de 10 000.
 - **Remotion** : licence gratuite pour les particuliers et les sociétés de ≤ 3 personnes (vérifier remotion.dev/license).
 
 ## Points d'attention
 
 - Décision du 02/11/2026 : pas de sous-titres incrustés (SRT YouTube seulement, traduit automatiquement). `BURN_SUBTITLES=1` ou `--subtitles` pour les réactiver.
-- Les images Pexels sont choisies par requête texte : vérifier les images de contrôle (`out/check/`) dans les artefacts les premiers jours et ajuster les `imageQuery`.
+- Les images Pixabay sont choisies par requête texte : vérifier les images de contrôle (`out/check/`) dans les artefacts les premiers jours et ajuster les `imageQuery`.
 - Aucune musique de fond n'est incluse (pas de piste libre de droits embarquée) ; brancher un fichier `public/music/bed.mp3` + un `<Audio volume={0.08}>` dans `Long.tsx` si souhaité, puis revalider la loudness.

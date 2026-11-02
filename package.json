@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Pipeline de production automatisée de la chaîne YouTube WikiTUBE (@WikiTubeHowTo) : épisode JSON → TTS ElevenLabs → images Pexels → rendu Remotion (long + Short + miniature) → QC → upload YouTube programmé.",
+  "description": "Pipeline de production automatisée de la chaîne YouTube WikiTUBE (@WikiTubeHowTo) : épisode JSON → TTS ElevenLabs → images Pixabay → rendu Remotion (long + Short + miniature) → QC → upload YouTube programmé.",
   "engines": {
     "node": ">=22"
   },
@@ -19,6 +19,7 @@
     "upload": "node scripts/upload.mjs",
     "daily": "node scripts/daily.mjs",
     "daily:mock": "node scripts/daily.mjs --mock --skip-upload",
+    "test": "node --test test/*.test.mjs",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

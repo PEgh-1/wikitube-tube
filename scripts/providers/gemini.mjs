@@ -1,35 +1,56 @@
-// Squelette du fournisseur d'images génératives Gemini (à brancher plus tard).
-// Interface commune à tous les fournisseurs d'images :
-//   provider.generate({ prompt, query, aspect: "16:9", dest }) → { kind: "photo", file, width, height, credit? } | null
-//
-// Référence API (Gemini 2.5 Flash Image / "nano banana") :
-//   POST https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key=GEMINI_API_KEY
-//   body : { contents: [{ parts: [{ text: prompt }] }], generationConfig: { responseModalities: ["IMAGE"], imageConfig: { aspectRatio: "16:9" } } }
-//   réponse : candidates[0].content.parts[].inlineData.{ mimeType, data(base64) }
-//
-// NB (décision du 25/10/2026) : les visuels importants passent par Gemini via le navigateur avec
-// l'abonnement perso, pas par l'API payante ; ce fichier reste donc un squelette tant que ce choix tient.
+// Fournisseur d'images génératives Google (clé GEMINI_API_KEY, Google AI Studio, facturation activée).
+//   provider.generate({ prompt, aspect: "16:9", dest }) → { kind: "photo", file, provider, model } | null
+// Modèles :
+//   imagen-4.0-fast-generate-001 (défaut, ≈ 0,02 $/image)  → POST …/models/{model}:predict
+//   gemini-2.5-flash-image       (≈ 0,039 $/image)         → POST …/models/{model}:generateContent
+// Décision du 01/11/2026 : images par étape via l'API (≈ 12 €/mois visés) — le choix navigateur du
+// 25/10/2026 concerne les illustrations des sites, pas ce pipeline automatisé.
 import fs from "node:fs";
 
 export const name = "gemini";
-export const DEFAULT_MODEL = "gemini-2.5-flash-image";
+export const DEFAULT_MODEL = "imagen-4.0-fast-generate-001";
+const BASE = "https://generativelanguage.googleapis.com/v1beta/models";
 
 export function isConfigured() {
   return Boolean(process.env.GEMINI_API_KEY);
 }
 
-export async function generate({ prompt, aspect = "16:9", dest, model = process.env.GEMINI_IMAGE_MODEL ?? DEFAULT_MODEL }) {
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+async function post(url, body) {
+  for (let attempt = 1; ; attempt++) {
+    const res = await fetch(url, {
+      method: "POST",
+      headers: { "content-type": "application/json", "x-goog-api-key": process.env.GEMINI_API_KEY },
+      body: JSON.stringify(body),
+    });
+    if (res.ok) return res.json();
+    const txt = (await res.text()).slice(0, 400);
+    if ((res.status === 429 || res.status >= 500) && attempt < 4) {
+      await sleep(4000 * attempt);
+      continue;
+    }
+    throw new Error(`Gemini ${res.status} : ${txt}`);
+  }
+}
+
+export async function generate({ prompt, aspect = "16:9", dest, model = process.env.GEMINI_IMAGE_MODEL || DEFAULT_MODEL }) {
   if (!isConfigured()) throw new Error("GEMINI_API_KEY absent : fournisseur gemini non configuré");
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${process.env.GEMINI_API_KEY}`;
-  const body = {
-    contents: [{ parts: [{ text: `${prompt}\nPhotorealistic, no text, no letters, no watermark.` }] }],
-    generationConfig: { responseModalities: ["IMAGE"], imageConfig: { aspectRatio: aspect } },
-  };
-  const res = await fetch(url, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(body) });
-  if (!res.ok) throw new Error(`Gemini ${res.status} : ${(await res.text()).slice(0, 400)}`);
-  const json = await res.json();
-  const part = json.candidates?.[0]?.content?.parts?.find((p) => p.inlineData);
-  if (!part) return null;
-  fs.writeFileSync(dest, Buffer.from(part.inlineData.data, "base64"));
-  return { kind: "photo", file: dest, mimeType: part.inlineData.mimeType, credit: null, provider: name };
+  let b64 = null;
+  if (model.startsWith("imagen")) {
+    const json = await post(`${BASE}/${model}:predict`, {
+      instances: [{ prompt }],
+      parameters: { sampleCount: 1, aspectRatio: aspect, personGeneration: "allow_adult" },
+    });
+    b64 = json.predictions?.[0]?.bytesBase64Encoded ?? null;
+  } else {
+    const json = await post(`${BASE}/${model}:generateContent`, {
+      contents: [{ parts: [{ text: prompt }] }],
+      generationConfig: { responseModalities: ["IMAGE"], imageConfig: { aspectRatio: aspect } },
+    });
+    b64 = json.candidates?.[0]?.content?.parts?.find((p) => p.inlineData)?.inlineData?.data ?? null;
+  }
+  if (!b64) return null;
+  fs.writeFileSync(dest, Buffer.from(b64, "base64"));
+  return { kind: "photo", file: dest, credit: null, provider: name, model };
 }

@@ -13,19 +13,30 @@ export const MultiShot: React.FC<{
   seed?: number;
   overlay?: string;
   minShotSec?: number;
-}> = ({ shots, durationInFrames, seed = 0, overlay, minShotSec = 4.5 }) => {
+  starts?: number[]; // débuts imposés (s) : coupes synchronisées sur la voix
+}> = ({ shots, durationInFrames, seed = 0, overlay, minShotSec = 4.5, starts }) => {
   const { fps } = useVideoConfig();
   const list = shots.filter(Boolean) as ImageRef[];
   if (!list.length) list.push(undefined as unknown as ImageRef);
-  const n = Math.max(1, Math.min(list.length, Math.floor(durationInFrames / (minShotSec * fps))));
-  const len = Math.ceil(durationInFrames / n);
+  let froms: number[];
+  if (starts && starts.length === list.length) {
+    froms = starts.map((s) => Math.round(s * fps));
+  } else {
+    const n = Math.max(1, Math.min(list.length, Math.floor(durationInFrames / (minShotSec * fps))));
+    const len = Math.ceil(durationInFrames / n);
+    froms = Array.from({ length: n }, (_, i) => i * len);
+  }
   return (
     <div style={{ position: "relative", width: "100%", height: "100%", overflow: "hidden", background: C.ink }}>
-      {Array.from({ length: n }).map((_, i) => (
-        <Sequence key={i} from={i * len} durationInFrames={len + (i < n - 1 ? TRANS : 0)} layout="none">
-          <Shot image={list[i]} len={len + TRANS} first={i === 0} move={(seed + i) % 4} />
-        </Sequence>
-      ))}
+      {froms.map((from, i) => {
+        const to = i < froms.length - 1 ? froms[i + 1] : durationInFrames;
+        const len = Math.max(1, to - from);
+        return (
+          <Sequence key={i} from={from} durationInFrames={len + (i < froms.length - 1 ? TRANS : 0)} layout="none">
+            <Shot image={list[i]} len={len + TRANS} first={i === 0} move={(seed + i) % 4} />
+          </Sequence>
+        );
+      })}
       {overlay && <div style={{ position: "absolute", inset: 0, background: overlay }} />}
     </div>
   );

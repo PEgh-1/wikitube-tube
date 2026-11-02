@@ -59,6 +59,14 @@ export function buildLongTimeline(ep, tts, images, { fps = FPS } = {}) {
     const sc = scenes[scenes.length - 1];
     const sg = sc.segments[0];
     sc.keywords = pickKeywords(sg.words, sg.at - sc.start, [s.title, s.tip]);
+    // Coupes calées sur la voix : chaque plan démarre 0,15 s avant la phrase qu'il illustre.
+    if (sc.images.length > 1 && sc.images.every((im) => Number.isInteger(im.wordStart)) && sg.words?.length) {
+      sc.shotStarts = sc.images.map((im, j) => {
+        if (j === 0) return 0;
+        const w = sg.words[Math.min(im.wordStart, sg.words.length - 1)];
+        return Math.max(0, Math.round((sg.at - sc.start + w.s - 0.15) * 100) / 100);
+      });
+    }
   });
   push({ type: "mistakes", items: ep.mistakesToAvoid.items }, ["mistakes"]);
   push({ type: "recap", items: ep.recap.items ?? ep.steps.map((s) => s.title) }, ["recap"]);

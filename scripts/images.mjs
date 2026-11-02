@@ -14,6 +14,7 @@ import * as pixabay from "./providers/pixabay.mjs";
 import * as gemini from "./providers/gemini.mjs";
 import { placeholderPng } from "./lib/png.mjs";
 import { subjectTokens, queryVariants, rank } from "./lib/relevance.mjs";
+import { groupShots, shotPrompt } from "./lib/shots.mjs";
 
 const SHOTS_PER_STEP = Number(process.env.SHOTS_PER_STEP ?? 3); // visuels par étape (dont 1 clip vidéo si trouvé)
 const MANIFEST_VERSION = 2;
@@ -38,7 +39,7 @@ const multi = stockName === "pixabay" && !mock && typeof pixabay.searchPhotoList
 
 const targets = [
   { key: "hero", query: episode.heroImageQuery, prompt: episode.heroImagePrompt, media: "photo", seed: 0 },
-  ...episode.steps.map((s, i) => ({ key: `step-${i + 1}`, query: s.imageQuery, prompt: s.imagePrompt, media: s.media ?? "photo", seed: i + 1 })),
+  ...episode.steps.map((s, i) => ({ key: `step-${i + 1}`, query: s.imageQuery, prompt: s.imagePrompt, media: s.media ?? "photo", seed: i + 1, step: s })),
 ];
 
 const apiKey = mock ? null : requireEnv(stockName === "pexels" ? "PEXELS_API_KEY" : "PIXABAY_API_KEY");
@@ -47,7 +48,8 @@ const results = {};
 
 for (const t of targets) {
   const prev = previous?.all?.[t.key];
-  if (prev && exists(path.join(DIRS.public, prev.file)) && prev.query === t.query && Boolean(prev.mock) === mock) {
+  const wantGemini = providerName === "gemini" && gemini.isConfigured() && !mock;
+  if (prev && exists(path.join(DIRS.public, prev.file)) && prev.query === t.query && Boolean(prev.mock) === mock && (prev.provider === "gemini") === wantGemini) {
     results[t.key] = prev;
     if (prev.id) used.add(prev.id);
     for (const sh of prev.shots ?? []) if (sh.id) used.add(sh.id);
@@ -58,15 +60,21 @@ for (const t of targets) {
     const file = path.join(imgDir, `${t.key}.png`);
     fs.writeFileSync(file, placeholderPng(1920, 1080, t.seed));
     results[t.key] = entry(t, { kind: "photo", width: 1920, height: 1080, mock: true, credit: "placeholder" }, file);
+    if (t.step) {
+      // Plans de substitution calés sur les phrases, pour tester la synchronisation sans clé.
+      results[t.key].shots = groupShots(t.step.narration, { maxShots: SHOTS_PER_STEP }).map((gr, j) => {
+        const f = path.join(imgDir, `${t.key}-${j + 1}.png`);
+        fs.writeFileSync(f, placeholderPng(1920, 1080, t.seed * 7 + j * 3));
+        return { ...entry(t, { kind: "photo", width: 1920, height: 1080, mock: true, credit: "placeholder" }, f), text: gr.text, wordStart: gr.wordStart };
+      });
+    }
     log.info(`✔ ${t.key} (mock placeholder)`);
     continue;
   }
   let got = null;
   if (providerName === "gemini" && gemini.isConfigured()) {
     try {
-      const file = path.join(imgDir, `${t.key}.png`);
-      const g = await gemini.generate({ prompt: t.prompt, aspect: "16:9", dest: file });
-      if (g) got = entry(t, { kind: "photo", width: null, height: null, provider: "gemini" }, file);
+      got = await fromGemini(t);
     } catch (e) {
       log.warn(`gemini ${t.key} : ${e.message} → repli ${stockLabel}`);
     }
@@ -90,6 +98,35 @@ for (const t of targets) {
     got = entry(t, { kind: "photo", width: 1920, height: 1080, mock: true, credit: "placeholder" }, file);
   }
   results[t.key] = got;
+}
+
+// Images générées synchronisées sur la voix : un plan par groupe de phrases de la narration.
+async function fromGemini(t) {
+  if (t.key === "hero") {
+    const file = path.join(imgDir, "hero.png");
+    const g = await gemini.generate({ prompt: `${t.prompt} No text, no letters, no watermark.`, aspect: "16:9", dest: file });
+    if (!g) return null;
+    log.info(`✔ hero Gemini (${g.model})`);
+    return entry(t, { kind: "photo", width: null, height: null, provider: "gemini", model: g.model, credit: null }, file);
+  }
+  const groups = groupShots(t.step.narration, { maxShots: SHOTS_PER_STEP });
+  const shots = [];
+  for (const [j, gr] of groups.entries()) {
+    const file = path.join(imgDir, `${t.key}${j ? `-${j + 1}` : ""}.png`);
+    const prompt = shotPrompt({ subject: episode.title.replace(/^how to\s+/i, ""), stepTitle: t.step.title, text: gr.text, stylePrompt: j === 0 ? t.prompt : null });
+    let g = null;
+    try {
+      g = await gemini.generate({ prompt, aspect: "16:9", dest: file });
+    } catch (e) {
+      log.warn(`gemini ${t.key} plan ${j + 1} : ${e.message}`);
+    }
+    if (!g) continue;
+    shots.push({ ...entry(t, { kind: "photo", width: null, height: null, provider: "gemini", model: g.model, credit: null }, file), text: gr.text, wordStart: gr.wordStart, prompt });
+    log.info(`✔ ${t.key} plan ${j + 1}/${groups.length} Gemini — « ${gr.text.slice(0, 70)} »`);
+  }
+  if (!shots.length) return null;
+  // Un plan manquant : son voisin couvre son temps de parole (les mots de début restent ceux des plans générés).
+  return { ...shots[0], shots };
 }
 
 // Pixabay classé par pertinence : plusieurs requêtes (précise → large), tags notés, sujet obligatoire.

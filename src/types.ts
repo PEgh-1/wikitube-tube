@@ -14,6 +14,8 @@ export type ImageRef = {
   file: string; // relatif à public/
   kind?: "photo" | "video";
   duration?: number;
+  wordStart?: number;
+  text?: string;
   width?: number | null;
   height?: number | null;
   credit?: string | null;
@@ -39,6 +41,7 @@ export type StepScene = SceneBase & {
   images?: ImageRef[];
   icon?: string;
   keywords?: Keyword[];
+  shotStarts?: number[]; // débuts des plans (s, relatifs à la scène), calés sur les phrases
   layout: "split" | "full" | "card";
 };
 export type MistakesScene = SceneBase & { type: "mistakes"; items: string[] };

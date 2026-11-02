@@ -171,7 +171,7 @@ const StepSplit: React.FC<{ scene: StepScene; durationInFrames: number }> = ({ s
       </div>
       <Pop delay={4} style={{ flex: 1, display: "flex", justifyContent: "center", position: "relative" }}>
         <div style={{ width: 800, height: 600, borderRadius: 48, overflow: "hidden", boxShadow: "0 24px 60px rgba(27,42,65,0.16)", border: `10px solid ${C.white}` }}>
-          <MultiShot shots={shotsOf(scene)} durationInFrames={durationInFrames} seed={scene.index} />
+          <MultiShot shots={shotsOf(scene)} durationInFrames={durationInFrames} seed={scene.index} starts={scene.shotStarts} />
         </div>
         <div style={{ position: "absolute", left: 10, bottom: -40 }}>
           <IconBadge name={scene.icon} size={160} delay={14} />
@@ -190,6 +190,7 @@ const StepFull: React.FC<{ scene: StepScene; durationInFrames: number }> = ({ sc
         shots={shotsOf(scene)}
         durationInFrames={durationInFrames}
         seed={scene.index + 1}
+        starts={scene.shotStarts}
         overlay={`linear-gradient(180deg, rgba(27,42,65,0.55) 0%, rgba(27,42,65,0.05) 35%, rgba(27,42,65,0.15) 60%, rgba(27,42,65,0.92) 100%)`}
       />
     </AbsoluteFill>
@@ -221,7 +222,7 @@ const StepCard: React.FC<{ scene: StepScene; durationInFrames: number }> = ({ sc
     <StepHeader scene={scene} />
     <Pop delay={2} style={{ position: "absolute", top: 140, left: 110, right: 110 }}>
       <div style={{ height: 600, borderRadius: 40, overflow: "hidden", boxShadow: "0 24px 60px rgba(27,42,65,0.16)" }}>
-        <MultiShot shots={shotsOf(scene)} durationInFrames={durationInFrames} seed={scene.index + 2} overlay="linear-gradient(90deg, rgba(27,42,65,0.35), transparent 45%)" />
+        <MultiShot shots={shotsOf(scene)} durationInFrames={durationInFrames} seed={scene.index + 2} starts={scene.shotStarts} overlay="linear-gradient(90deg, rgba(27,42,65,0.35), transparent 45%)" />
       </div>
       <div style={{ position: "absolute", left: 50, bottom: 50 }}>
         <KeywordBurst keywords={scene.keywords} dark size={70} />

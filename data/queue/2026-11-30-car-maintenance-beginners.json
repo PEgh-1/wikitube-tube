@@ -1,0 +1,190 @@
+{
+  "$schema": "../episode.schema.json",
+  "id": "2026-11-30-car-maintenance-beginners",
+  "date": "2026-11-30",
+  "slug": "car-maintenance-beginners",
+  "category": "Car",
+  "title": "Car Maintenance for Beginners: 8 Checks to Do Yourself",
+  "hook": "You don't need to be a mechanic to keep your car safe and reliable. Eight simple checks, done once a month, can catch problems early and save you hundreds on repairs. Here's how to do each one in minutes, with no special tools and no jacks. It's easier than you think.",
+  "intro": "Regular checks are the cheapest insurance for your car. Every check in this video is visual, or takes a single simple tool. We won't touch brakes, jack up the car or work on anything that could be dangerous. Park on level ground, switch off the engine, put the handbrake on, and keep your owner's manual nearby, because it shows exactly where everything is located on your model. Set a reminder on the first weekend of each month, and the whole routine takes about twenty minutes.",
+  "youNeed": [
+    "Your owner's manual",
+    "A tire pressure gauge",
+    "A clean rag or paper towel",
+    "A coin for the tread test",
+    "A flashlight"
+  ],
+  "youNeedNarration": "Here's what you need. Your owner's manual, which is the most useful tool of all. A tire pressure gauge. A clean rag or paper towel. A coin for checking tire tread. And a flashlight, in case the light is dim. If you don't have a gauge, they cost just a few dollars at any auto shop. Everything fits in a small box in the trunk.",
+  "heroImageQuery": "car hood open engine check",
+  "heroImagePrompt": "A person in casual clothes looking at the open hood of a parked car in a driveway, morning light, shallow depth of field, photorealistic, no text",
+  "steps": [
+    {
+      "title": "Check tire pressure",
+      "narration": "Step one. Check your tires when they are cold, before driving or after the car has stood for a few hours. Find the correct pressure on the sticker inside the driver's door frame, not on the tire's side wall, which shows the maximum. Unscrew the valve cap, press the gauge on firmly, and read the number. Add air at a gas station if it's low. Correct pressure improves safety, fuel economy and tire life. Check all four tires, and the spare if you have one. If you are unsure, fill a little at a time and recheck. Never fill past the maximum number.",
+      "tip": "Use the door sticker, not the sidewall",
+      "mistake": "Checking pressure after a long drive",
+      "imageQuery": "tire pressure gauge",
+      "imagePrompt": "A hand pressing a tire pressure gauge onto the valve of a car wheel, close-up, daylight, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Inspect your tire tread",
+      "narration": "Step two. Tires with worn tread grip badly, especially in rain. Place a coin into the main groove of the tire. In many places the legal minimum is two thirty-seconds of an inch, or one point six millimetres, and a coin can help you judge it. If the tread covers part of the coin's edge, you still have some life left. If you can see all of it, the tire needs replacing soon. Also look for cracks, bulges, nails and uneven wear. If you see a wear indicator bar, a small raised bar in the groove, that tells you the legal limit has been reached.",
+      "tip": "Check several spots across each tire",
+      "mistake": "Ignoring bulges or cracks in the rubber",
+      "imageQuery": "coin tire tread",
+      "imagePrompt": "A coin placed in the tread groove of a car tire to check wear, close-up, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Check the engine oil",
+      "narration": "Step three. With the car on level ground and the engine off for at least five minutes, open the hood and find the dipstick, which usually has a bright yellow or orange handle. Pull it out, wipe it with a rag, push it fully back in, and pull it out again. The oil should be between the two marks. Healthy oil is amber to brown. If it's very low, add the oil type listed in your manual, a little at a time. Keep a clean rag in the car, since a stained dipstick can be hard to read in dim light.",
+      "tip": "Wipe, reinsert, then read it",
+      "mistake": "Adding the wrong type of oil",
+      "imageQuery": "car engine oil dipstick",
+      "imagePrompt": "A hand pulling an oil dipstick with amber oil on it from a car engine, close-up, bright light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Look at the coolant level",
+      "narration": "Step four. Coolant keeps your engine from overheating. Find the translucent reservoir under the hood, which has minimum and maximum marks, and check the level while the engine is cold. Never open the radiator or reservoir cap on a hot engine, because pressurized hot liquid can cause serious burns. If the level is below minimum, top it up with the coolant type that your manual specifies. A level that keeps dropping may mean a leak, so see a mechanic. Keep the cap tightly closed afterward, and wipe any spills off the plastic and the paint.",
+      "tip": "Only open the cap on a cold engine",
+      "mistake": "Opening the cap on a hot engine",
+      "imageQuery": "coolant reservoir engine",
+      "imagePrompt": "A translucent coolant reservoir with minimum and maximum marks inside a clean car engine bay, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Top up washer fluid, check wipers",
+      "narration": "Step five. Open the cap marked with a windshield symbol and fill the washer fluid reservoir with proper washer fluid, not plain water, especially in cold weather. Then run your fingers along each wiper blade and look for cracks, splits or a hardened edge. Test them with the washer spray. If they chatter, streak or squeak, replace them. Wiper blades are cheap, simple to change, and an important safety feature when visibility drops in the rain. Washer fluid with antifreeze protects the system in freezing weather, so choose one for your climate.",
+      "tip": "Wipers last about a year",
+      "mistake": "Filling the reservoir with plain water in winter",
+      "imageQuery": "washer fluid refill",
+      "imagePrompt": "A hand pouring blue windshield washer fluid into a car's reservoir with a funnel, bright light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Test all your lights",
+      "narration": "Step six. Park facing a wall or a shop window and switch on your headlights, then the high beams, the indicators, the hazard lights and the fog lights. Have a friend stand behind the car while you press the brake pedal, to check the brake lights, and engage reverse for the reversing lights. Don't forget the license plate light. A bulb that has failed is a safety risk and, in many places, a fine. Most bulbs are cheap and easy to replace. Replace a failed bulb in pairs when you can, because the second one is usually close to the end of its life.",
+      "tip": "Ask a friend to check the rear lights",
+      "mistake": "Driving with a dead brake light",
+      "imageQuery": "car headlights night",
+      "imagePrompt": "A parked car with its headlights switched on facing a dark garage wall, glowing beams, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Look over the battery",
+      "narration": "Step seven. Open the hood and look at the battery. The terminals, the metal connectors on top, should be clean and tight. White, blue or green crusty powder is corrosion, which can prevent the car from starting. The case should not be swollen or leaking. Do not touch the terminals with metal tools. If you see corrosion or if the engine is slow to start, ask a garage to clean it and test the battery. Batteries typically last three to five years. Never smoke or use flames near a battery, because it can release flammable gas.",
+      "tip": "A slow start is an early warning",
+      "mistake": "Touching terminals with metal tools",
+      "imageQuery": "car battery terminals",
+      "imagePrompt": "A close-up of a car battery with clean metal terminals and red and black cables, engine bay, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Read the dashboard and manual",
+      "narration": "Step eight. When you start the car, watch the dashboard. Warning lights should come on briefly, then switch off. A light that stays on, especially red ones for oil pressure, battery or temperature, means you should stop safely and call for help. Amber lights, such as the check engine light, mean you should get the car looked at soon. Open your manual to the maintenance schedule, and mark the dates for oil changes and inspections.",
+      "tip": "Red light means stop safely",
+      "mistake": "Ignoring a warning light for weeks",
+      "imageQuery": "dashboard warning lights",
+      "imagePrompt": "A car dashboard instrument cluster with a few illuminated warning symbols, close-up, soft light, photorealistic, no text",
+      "media": "photo"
+    }
+  ],
+  "mistakesToAvoid": {
+    "narration": "Here are three mistakes beginners make. First, checking fluids on a hot engine or on sloping ground. The readings will be wrong, and hot coolant is dangerous. Second, ignoring small warnings. A dim light, a low reading or a strange noise is much cheaper to fix early. And third, trying to do jobs beyond your experience, like working under a car or on the brakes. For those, always use a professional. Write the date of each check in your phone, so that you can spot changes over time.",
+    "items": [
+      "Checking fluids on a hot engine",
+      "Ignoring small warning signs",
+      "Working under the car or on brakes"
+    ]
+  },
+  "recap": {
+    "narration": "Let's recap. Check your tire pressure. Inspect the tread. Check the engine oil. Look at the coolant level. Top up the washer fluid and check the wipers. Test all your lights. Look over the battery. And read the dashboard and your manual. Eight quick checks, once a month, and your car will be safer and cheaper to run. Make it a habit, and you'll catch problems early.",
+    "items": [
+      "Check tire pressure",
+      "Inspect your tire tread",
+      "Check the engine oil",
+      "Look at the coolant level",
+      "Top up washer fluid, check wipers",
+      "Test all your lights",
+      "Look over the battery",
+      "Read the dashboard and manual"
+    ]
+  },
+  "outro": "That's eight car checks anyone can do. If this helped, subscribe to WikiTube, because we publish a new how-to every single day. Tell us in the comments what kind of car you drive, and what you would like us to explain next. See you tomorrow, and drive safely.",
+  "metadata": {
+    "title": "Car Maintenance for Beginners: 8 Checks to Do Yourself",
+    "description": "New to cars? In this step-by-step video you'll learn car maintenance for beginners: eight simple checks you can do yourself in minutes. We cover tire pressure and tread, engine oil, coolant, washer fluid and wipers, lights, the battery, and dashboard warning lights. No jacks, no brakes and no special tools. Just visual checks and levels, done safely on level ground with the engine off.\n\nYou'll need: your owner's manual, a tire pressure gauge, a clean rag or paper towel, a coin for the tread test, a flashlight.\n\nWikiTube publishes a new step-by-step how-to video every day. Subscribe so you don't miss the next one.",
+    "tags": [
+      "car maintenance for beginners",
+      "car care tips",
+      "basic car maintenance",
+      "how to check engine oil",
+      "check tire pressure",
+      "car checks you can do yourself",
+      "check coolant level",
+      "car battery check",
+      "car tips for beginners",
+      "diy car care",
+      "how to",
+      "wikitube"
+    ],
+    "thumbnailTitle": "8 CAR CHECKS ANYONE CAN DO",
+    "chapters": "auto",
+    "localizations": {
+      "es": {
+        "title": "Mantenimiento del coche para principiantes: 8 revisiones fáciles",
+        "description": "¿Nuevo con los coches? En este vídeo paso a paso aprenderás ocho revisiones sencillas que puedes hacer tú mismo en minutos: presión y dibujo de los neumáticos, aceite del motor, refrigerante, líquido limpiaparabrisas y escobillas, luces, batería y testigos del salpicadero. Sin gato, sin frenos y sin herramientas especiales, siempre en terreno llano y con el motor apagado.\n\nWikiTube publica un nuevo tutorial paso a paso cada día. Suscríbete para no perderte el siguiente."
+      },
+      "pt": {
+        "title": "Manutenção do carro para iniciantes: 8 verificações fáceis",
+        "description": "Novo no mundo dos carros? Neste vídeo passo a passo você aprende oito verificações simples que pode fazer sozinho em minutos: pressão e sulcos dos pneus, óleo do motor, líquido de arrefecimento, água do limpador e palhetas, luzes, bateria e luzes de aviso do painel. Sem macaco, sem mexer nos freios e sem ferramentas especiais, em local plano e com o motor desligado.\n\nA WikiTube publica um novo tutorial passo a passo todos os dias. Inscreva-se para não perder o próximo."
+      },
+      "fr": {
+        "title": "Entretien auto pour débutants : 8 contrôles à faire soi-même",
+        "description": "Nouveau dans l'univers de l'auto ? Dans cette vidéo pas à pas, apprenez huit contrôles simples à faire soi-même en quelques minutes : pression et usure des pneus, huile moteur, liquide de refroidissement, lave-glace et balais d'essuie-glace, éclairage, batterie et voyants du tableau de bord. Sans cric, sans toucher aux freins et sans outils spéciaux, sur sol plat et moteur éteint.\n\nWikiTube publie chaque jour un nouveau tutoriel pas à pas. Abonnez-vous pour ne pas manquer le prochain."
+      },
+      "de": {
+        "title": "Autopflege für Anfänger: 8 Checks, die du selbst machen kannst",
+        "description": "Neu bei Autos? In diesem Video lernst du Schritt für Schritt acht einfache Checks, die du in wenigen Minuten selbst erledigst: Reifendruck und Profil, Motoröl, Kühlmittel, Scheibenwaschwasser und Wischer, Beleuchtung, Batterie und Warnleuchten im Armaturenbrett. Ohne Wagenheber, ohne Bremsen und ohne Spezialwerkzeug, auf ebenem Boden und bei abgestelltem Motor.\n\nWikiTube veröffentlicht jeden Tag eine neue Schritt-für-Schritt-Anleitung. Abonniere den Kanal, um die nächste nicht zu verpassen."
+      },
+      "hi": {
+        "title": "शुरुआती लोगों के लिए कार मेंटेनेंस: खुद करने लायक 8 जांचें",
+        "description": "कारों में नए हैं? इस स्टेप-बाय-स्टेप वीडियो में सीखें आठ आसान जांचें जो आप खुद कुछ ही मिनटों में कर सकते हैं: टायर का प्रेशर और ट्रेड, इंजन ऑयल, कूलेंट, वाइपर फ़्लूइड और वाइपर ब्लेड, लाइटें, बैटरी और डैशबोर्ड की चेतावनी लाइटें। न जैक, न ब्रेक का काम, न खास औज़ार। समतल जगह पर, इंजन बंद करके।\n\nWikiTube पर हर दिन एक नया स्टेप-बाय-स्टेप ट्यूटोरियल आता है। अगला वीडियो न छूटे, इसलिए सब्सक्राइब करें।"
+      },
+      "it": {
+        "title": "Manutenzione dell'auto per principianti: 8 controlli fai da te",
+        "description": "Sei nuovo con le auto? In questo video passo passo scopri otto controlli semplici che puoi fare da solo in pochi minuti: pressione e battistrada dei pneumatici, olio motore, liquido di raffreddamento, liquido lavavetri e tergicristalli, luci, batteria e spie del cruscotto. Senza cric, senza toccare i freni e senza attrezzi speciali, su terreno piano e a motore spento.\n\nWikiTube pubblica ogni giorno un nuovo tutorial passo passo. Iscriviti per non perdere il prossimo."
+      },
+      "ja": {
+        "title": "初心者向けクルマの点検：自分でできる8つのチェック",
+        "description": "クルマの点検が初めての方へ。このステップ解説では、自分で数分でできる8つのチェックを紹介します。タイヤの空気圧と溝、エンジンオイル、冷却水、ウォッシャー液とワイパー、ライト、バッテリー、警告灯まで。ジャッキもブレーキ作業も特別な工具も不要です。平らな場所で、エンジンを止めて行いましょう。\n\nWikiTubeでは毎日、新しいステップバイステップのハウツー動画を公開しています。次の動画を見逃さないよう、チャンネル登録をお願いします。"
+      },
+      "id": {
+        "title": "Perawatan Mobil untuk Pemula: 8 Pengecekan yang Bisa Dilakukan Sendiri",
+        "description": "Baru mengenal mobil? Dalam video langkah demi langkah ini, Anda akan belajar delapan pengecekan sederhana yang bisa dilakukan sendiri dalam beberapa menit: tekanan dan kembang ban, oli mesin, cairan pendingin, air wiper dan bilah wiper, lampu, aki, serta lampu peringatan di dasbor. Tanpa dongkrak, tanpa menyentuh rem, dan tanpa alat khusus, di permukaan datar dengan mesin mati.\n\nWikiTube menerbitkan tutorial langkah demi langkah baru setiap hari. Subscribe agar tidak ketinggalan video berikutnya."
+      }
+    }
+  },
+  "short": {
+    "title": "3 car checks you can do in 5 minutes #shorts",
+    "description": "Tire pressure, oil and lights. Full 8-check guide on the channel. #cartips #carcare #howto",
+    "hook": "Three car checks anyone can do in five minutes.",
+    "steps": [
+      {
+        "title": "Tire pressure",
+        "narration": "One. Check your tires cold, and use the pressure on the door sticker."
+      },
+      {
+        "title": "Engine oil",
+        "narration": "Two. With the engine off and the car level, wipe the dipstick, reinsert it, and read the level."
+      },
+      {
+        "title": "Lights",
+        "narration": "Three. Test headlights, indicators and brake lights, with a friend's help."
+      }
+    ],
+    "cta": "The full eight-check guide is on the channel. Follow WikiTube for a new how-to every day."
+  }
+}

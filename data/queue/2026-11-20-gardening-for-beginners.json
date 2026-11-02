@@ -1,0 +1,180 @@
+{
+  "$schema": "../episode.schema.json",
+  "id": "2026-11-20-gardening-for-beginners",
+  "date": "2026-11-20",
+  "slug": "gardening-for-beginners",
+  "category": "Garden",
+  "title": "Gardening for Beginners: How to Start Your First Garden",
+  "hook": "Starting a garden sounds easy, until the plants die and you don't know why. The good news is that a small, well-planned first garden almost always works. Here are seven steps to grow your first plants, with no experience needed.",
+  "intro": "Most beginners fail for three reasons. They plant in the wrong spot, they start far too big, and they pick plants that are difficult to grow. We'll avoid all three. You'll choose a sunny place, build a small bed, improve the soil, and grow easy plants that reward you quickly. A garden the size of a doormat can feed you salad for weeks, so don't worry about space. We'll go step by step, and by the end you will have a clear plan, ready to put into the ground this weekend.",
+  "youNeed": [
+    "A sunny spot outdoors",
+    "Compost and garden soil",
+    "A trowel and gloves",
+    "Seeds or small plants",
+    "A watering can or hose"
+  ],
+  "youNeedNarration": "Here's what you need. A sunny spot, outdoors or on a balcony. Some compost and garden soil. A trowel and a pair of gloves. A few seed packets or small plants from a garden center. And a watering can or a hose with a gentle spray head. Nothing here is expensive, and many people already own most of it. If you plan to use pots, add a few containers with drainage holes.",
+  "heroImageQuery": "beginner vegetable garden bed",
+  "heroImagePrompt": "A small neat raised garden bed with young lettuce and herbs, watering can beside it, morning sunlight, photorealistic, no text",
+  "steps": [
+    {
+      "title": "Pick a sunny spot",
+      "narration": "Step one. Watch your yard or balcony during the day, and find the place that gets at least six to eight hours of direct sun. Most vegetables and flowers need that much light to grow strongly. Also look for easy access to water, because a garden far from a tap will soon be neglected. Avoid low spots where water collects after rain, and places right beside large trees, whose roots steal moisture. If you have very little sun, don't give up. Leafy greens and herbs like mint and parsley do well with about four hours. Take a few minutes to note it down, because the whole garden depends on this single choice.",
+      "tip": "Six to eight hours of sun",
+      "mistake": "Planting in a shady or soggy corner",
+      "imageQuery": "sunny backyard garden spot",
+      "imagePrompt": "A sunny patch of lawn in a backyard with long shadows and a wooden fence, early morning light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Start small",
+      "narration": "Step two. Resist the urge to dig up half the yard. A first garden should be about four feet by four feet, or roughly one metre by one metre, or a few pots. That size is small enough to water and weed in ten minutes a day, but big enough to grow real food. You can build a simple raised bed from wooden boards, or just mark out a square in the lawn. Next year, if it goes well, you can always make it bigger. A small success is a better start than a big failure. You will learn much faster from a tiny bed that you look after every day.",
+      "tip": "Think doormat, not football field",
+      "mistake": "Digging a huge bed you can't maintain",
+      "imageQuery": "small wooden raised bed",
+      "imagePrompt": "An empty small wooden raised garden bed on grass, freshly built, garden tools beside it, bright daylight, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Prepare the soil",
+      "narration": "Step three. Good soil matters more than almost anything else. Remove grass and weeds from your square, then loosen the top ten inches or twenty-five centimetres with a fork or spade. Mix in a few inches of compost, which adds nutrients and helps the soil hold water while still draining. Squeeze a handful of soil. If it forms a ball that crumbles when poked, it's just right. If it stays sticky, add more compost, and if it falls apart as dust, add more compost as well. Do this a week before planting if you can, so the bed has time to settle.",
+      "tip": "Squeeze test: it should crumble",
+      "mistake": "Planting straight into hard clay",
+      "imageQuery": "hands mixing compost soil",
+      "imagePrompt": "Gloved hands mixing dark compost into garden soil with a trowel in a raised bed, close-up, soft daylight, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Choose easy plants",
+      "narration": "Step four. Pick plants that forgive mistakes. Lettuce, radishes, green beans, zucchini, cherry tomatoes and herbs like basil are all great for beginners. Radishes can be ready in about a month, which is a wonderful confidence boost. Marigolds add color and attract helpful insects. Choose plants that you like to eat, and check the seed packet or plant label, which tells you the best planting season for your area. Buy small plants if you want faster results, and seeds if you want to save money. Don't plant too many of one thing at once, because ten lettuces ripen together. Plant a few every two weeks instead.",
+      "tip": "Radishes are ready in about a month",
+      "mistake": "Planting things you will never eat",
+      "imageQuery": "seed packets vegetables table",
+      "imagePrompt": "A wooden table with colorful vegetable seed packets, small seedlings in pots and a trowel, natural light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Plant at the right depth",
+      "narration": "Step five. Follow the instructions on the seed packet for spacing and depth. As a rule, small seeds are planted shallowly, about twice their own thickness, while seedlings go in at the same depth they sat in their pot. Gently loosen the roots, set the plant in a hole, firm the soil around it and water right away. Space plants as the label says, even if it looks too wide, because crowded plants get disease and produce less. Add a label so you remember what is growing where. A wooden stick and a pencil are enough. Gently press the soil down and avoid stepping on the bed.",
+      "tip": "Give them the spacing on the label",
+      "mistake": "Crowding plants too close together",
+      "imageQuery": "planting seedling garden soil",
+      "imagePrompt": "A hand planting a small green seedling into dark garden soil with a trowel, rows of young plants behind, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Water the right way",
+      "narration": "Step six. Most gardens need about one inch of water per week, from rain and watering combined. Water deeply but less often, so roots grow downward in search of moisture. It's better to give the bed a slow, thorough soak twice a week than a quick sprinkle every day. Water in the morning, aim at the base of the plants and not the leaves, and use a gentle spray. To check, push a finger two inches into the soil. If it's dry there, it's time to water. In hot weather, containers dry out much faster than garden beds, so check them every day. Mulch also helps a great deal here.",
+      "tip": "Finger test: two inches deep",
+      "mistake": "Sprinkling a little every day",
+      "imageQuery": "watering can vegetables",
+      "imagePrompt": "A metal watering can pouring water gently at the base of young vegetable plants, morning light, droplets, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Mulch, weed and check weekly",
+      "narration": "Step seven. Spread a layer of mulch, such as straw, shredded leaves or bark, about two inches thick around your plants. It keeps the soil moist, slows weeds, and protects roots from heat. Then make a habit of walking through your garden once or twice a week. Pull any small weeds, look under leaves for pests, and pick vegetables when they are ripe, because regular picking encourages more. Ten minutes of attention each week does more than one big session each month. Seeing your plants grow is the best motivation, so take a photo every week.",
+      "tip": "Ten minutes a week beats one big job",
+      "mistake": "Letting weeds go to seed",
+      "imageQuery": "straw mulch vegetable plants",
+      "imagePrompt": "Golden straw mulch spread around healthy green vegetable plants in a small garden bed, soft sunlight, photorealistic, no text",
+      "media": "photo"
+    }
+  ],
+  "mistakesToAvoid": {
+    "narration": "Let's finish with the mistakes that stop most new gardeners. One, planting too much, too soon, which leads to overwhelm and a neglected plot. Two, overwatering. More plants die from too much water than too little, especially in pots with no drainage holes. And three, ignoring your local planting calendar. Planting tomatoes before the last frost, or lettuce in midsummer heat, is a recipe for disappointment. Start small, check your soil, and be patient. Every gardener has lost a few plants, and each mistake is a lesson.",
+    "items": [
+      "Starting with a garden that is too big",
+      "Overwatering and poor drainage",
+      "Ignoring your local planting dates"
+    ]
+  },
+  "recap": {
+    "narration": "Let's recap. Pick a sunny spot. Start small. Prepare the soil with compost. Choose easy plants. Plant at the right depth and spacing. Water deeply and less often. And mulch, weed and check your garden every week. Follow these seven steps, and you'll be picking your own food in a matter of weeks. Gardening is a skill you learn by doing, so start now.",
+    "items": [
+      "Pick a sunny spot",
+      "Start small",
+      "Prepare the soil",
+      "Choose easy plants",
+      "Plant at the right depth",
+      "Water the right way",
+      "Mulch, weed and check weekly"
+    ]
+  },
+  "outro": "That's how you start your first garden. If you're growing something this year, subscribe to WikiTube, because we publish a new how-to every single day. Tell us in the comments what you plan to grow first, and what you would like us to explain next. See you tomorrow.",
+  "metadata": {
+    "title": "Gardening for Beginners: How to Start Your First Garden",
+    "description": "Want to grow your own food or flowers but have no idea where to start? In this step-by-step video on gardening for beginners, you'll learn how to start your first garden: pick a sunny spot, start small, prepare the soil with compost, choose easy plants, plant at the right depth, water properly, and mulch. A simple plan that works in a yard, on a balcony or in pots.\n\nYou'll need: a sunny spot outdoors, compost and garden soil, a trowel and gloves, seeds or small plants, a watering can or hose.\n\nWikiTube publishes a new step-by-step how-to video every day. Subscribe so you don't miss the next one.",
+    "tags": [
+      "gardening for beginners",
+      "how to start a garden",
+      "beginner gardening tips",
+      "first garden",
+      "vegetable garden for beginners",
+      "easy plants to grow",
+      "how to prepare garden soil",
+      "how to water plants",
+      "starting a vegetable garden",
+      "garden tips",
+      "how to",
+      "wikitube"
+    ],
+    "thumbnailTitle": "YOUR FIRST GARDEN",
+    "chapters": "auto",
+    "localizations": {
+      "es": {
+        "title": "Jardinería para principiantes: cómo empezar tu primer jardín",
+        "description": "¿Quieres cultivar tus propias verduras o flores, pero no sabes por dónde empezar? En este vídeo paso a paso aprenderás a empezar tu primer jardín: elegir un lugar soleado, empezar en pequeño, preparar la tierra con compost, escoger plantas fáciles, plantar a la profundidad correcta, regar bien y acolchar. Un plan sencillo para patio, balcón o macetas.\n\nWikiTube publica un nuevo tutorial paso a paso cada día. Suscríbete para no perderte el siguiente."
+      },
+      "pt": {
+        "title": "Jardinagem para iniciantes: como começar sua primeira horta",
+        "description": "Quer cultivar seus próprios legumes ou flores, mas não sabe por onde começar? Neste vídeo passo a passo você aprende a começar seu primeiro jardim: escolher um lugar ensolarado, começar pequeno, preparar o solo com composto, escolher plantas fáceis, plantar na profundidade certa, regar corretamente e cobrir o solo. Um plano simples para quintal, varanda ou vasos.\n\nA WikiTube publica um novo tutorial passo a passo todos os dias. Inscreva-se para não perder o próximo."
+      },
+      "fr": {
+        "title": "Jardinage pour débutants : comment créer son premier potager",
+        "description": "Vous voulez cultiver vos légumes ou vos fleurs mais ne savez pas par où commencer ? Dans cette vidéo pas à pas, apprenez à démarrer votre premier jardin : choisir un coin ensoleillé, commencer petit, préparer le sol avec du compost, choisir des plantes faciles, planter à la bonne profondeur, arroser correctement et pailler. Un plan simple pour jardin, balcon ou pots.\n\nWikiTube publie chaque jour un nouveau tutoriel pas à pas. Abonnez-vous pour ne pas manquer le prochain."
+      },
+      "de": {
+        "title": "Gärtnern für Anfänger: So startest du deinen ersten Garten",
+        "description": "Du willst eigenes Gemüse oder Blumen anbauen, weißt aber nicht, wie du anfangen sollst? In dieser Schritt-für-Schritt-Anleitung lernst du, deinen ersten Garten anzulegen: einen sonnigen Platz wählen, klein anfangen, den Boden mit Kompost vorbereiten, einfache Pflanzen auswählen, richtig pflanzen, gießen und mulchen. Ein einfacher Plan für Garten, Balkon oder Töpfe.\n\nWikiTube veröffentlicht jeden Tag eine neue Schritt-für-Schritt-Anleitung. Abonniere den Kanal, um die nächste nicht zu verpassen."
+      },
+      "hi": {
+        "title": "शुरुआती लोगों के लिए बागवानी: अपना पहला बगीचा कैसे शुरू करें",
+        "description": "अपनी सब्ज़ियां या फूल उगाना चाहते हैं, पर शुरुआत कहां से करें, समझ नहीं आता? इस स्टेप-बाय-स्टेप वीडियो में सीखें अपना पहला बगीचा कैसे बनाएं: धूप वाली जगह चुनें, छोटे से शुरू करें, कंपोस्ट से मिट्टी तैयार करें, आसान पौधे चुनें, सही गहराई पर लगाएं, ठीक से पानी दें और मल्च करें। आंगन, बालकनी या गमलों के लिए आसान योजना।\n\nWikiTube पर हर दिन एक नया स्टेप-बाय-स्टेप ट्यूटोरियल आता है। अगला वीडियो न छूटे, इसलिए सब्सक्राइब करें।"
+      },
+      "it": {
+        "title": "Giardinaggio per principianti: come iniziare il tuo primo orto",
+        "description": "Vuoi coltivare ortaggi o fiori ma non sai da dove cominciare? In questo video passo passo scopri come iniziare il tuo primo giardino: scegliere un punto soleggiato, partire in piccolo, preparare il terreno con il compost, scegliere piante facili, piantare alla giusta profondità, annaffiare bene e pacciamare. Un piano semplice per giardino, balcone o vasi.\n\nWikiTube pubblica ogni giorno un nuovo tutorial passo passo. Iscriviti per non perdere il prossimo."
+      },
+      "ja": {
+        "title": "初心者のためのガーデニング：最初の菜園の始め方",
+        "description": "野菜や花を育てたいけれど、何から始めればいいか分からない方へ。このステップ解説では、日当たりのよい場所選び、小さく始めるコツ、堆肥での土づくり、育てやすい植物の選び方、正しい深さでの植え付け、水やり、マルチングまで、最初の庭づくりを順に紹介します。庭、ベランダ、鉢植えでも実践できます。\n\nWikiTubeでは毎日、新しいステップバイステップのハウツー動画を公開しています。次の動画を見逃さないよう、チャンネル登録をお願いします。"
+      },
+      "id": {
+        "title": "Berkebun untuk Pemula: Cara Memulai Kebun Pertamamu",
+        "description": "Ingin menanam sayur atau bunga sendiri tetapi bingung mulai dari mana? Dalam video langkah demi langkah ini, kamu akan belajar memulai kebun pertama: memilih tempat yang terkena matahari, mulai dari ukuran kecil, menyiapkan tanah dengan kompos, memilih tanaman yang mudah, menanam pada kedalaman yang tepat, menyiram dengan benar, dan memberi mulsa. Cocok untuk halaman, balkon, atau pot.\n\nWikiTube menerbitkan tutorial langkah demi langkah baru setiap hari. Subscribe agar tidak ketinggalan video berikutnya."
+      }
+    }
+  },
+  "short": {
+    "title": "Start your first garden in 3 steps #shorts",
+    "description": "Sun, small bed, easy plants. Full 7-step guide on the channel. #gardening #beginner #howto",
+    "hook": "Start your first garden with three simple rules.",
+    "steps": [
+      {
+        "title": "Find the sun",
+        "narration": "One. Pick a spot that gets six to eight hours of direct sunlight."
+      },
+      {
+        "title": "Start small",
+        "narration": "Two. Make a bed of about one metre square, and mix compost into the soil."
+      },
+      {
+        "title": "Grow easy plants",
+        "narration": "Three. Choose radishes, lettuce or herbs, and water deeply twice a week."
+      }
+    ],
+    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+  }
+}

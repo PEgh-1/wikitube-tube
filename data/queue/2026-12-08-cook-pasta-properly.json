@@ -1,0 +1,180 @@
+{
+  "$schema": "../episode.schema.json",
+  "id": "2026-12-08-cook-pasta-properly",
+  "date": "2026-12-08",
+  "slug": "cook-pasta-properly",
+  "category": "Kitchen",
+  "title": "How to Cook Pasta Properly (Salt, Timing, Sauce)",
+  "hook": "Pasta looks like the easiest food in the world, and yet it so often ends up bland, sticky or mushy. A few small habits make a huge difference. In seven steps, you'll cook pasta with the right salt, the right timing and a sauce that actually clings. It takes no extra time, and costs nothing.",
+  "intro": "Good pasta isn't about fancy ingredients. It's about technique. Use plenty of water, salt it well, stop cooking at the right moment, and finish the pasta in the sauce rather than just pouring sauce on top. Italian cooks do this every day, and it takes no extra time. The same method works for spaghetti, penne, fusilli and almost every dried pasta shape you find in the shop. Once you try it, you'll never go back to the old way.",
+  "youNeed": [
+    "Dried pasta",
+    "A large pot",
+    "Coarse salt",
+    "A colander",
+    "Your favorite sauce"
+  ],
+  "youNeedNarration": "Here's what you need. About one hundred grams, or a quarter pound, of dried pasta per person. A large pot. Coarse salt. A colander. A wooden spoon or tongs, and a sauce, which can be a simple tomato sauce, olive oil and garlic, or whatever you like. A mug is also useful, to save some of the pasta water. Nothing fancy is needed here.",
+  "heroImageQuery": "spaghetti cooking boiling pot",
+  "heroImagePrompt": "A large pot of boiling water with spaghetti being stirred with a wooden spoon, steam rising, warm kitchen light, shallow depth of field, photorealistic, no text",
+  "steps": [
+    {
+      "title": "Use a big pot of water",
+      "narration": "Step one. Fill a large pot with plenty of water, roughly four to five litres, or about a gallon, for every pound of pasta. This lets the pasta move freely, and stops the water temperature from dropping too much when you add it. Cooking pasta in a small pot makes it clump and turn sticky. Put the pot on the largest burner, cover it with a lid, and bring it up to a rolling boil, which is faster. A tight lid helps the water boil faster, which saves time and energy. Remove it once the pasta goes in.",
+      "tip": "More water means less sticking",
+      "mistake": "Cooking pasta in a small pot",
+      "imageQuery": "large pot boiling water",
+      "imagePrompt": "A large steel pot of water coming to the boil on a gas stove, lid slightly open, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Salt the water well",
+      "narration": "Step two. Once the water is boiling, add salt. A good rule is about one to two tablespoons of coarse salt for four litres, or a gallon, of water. It should taste like mild seawater. This is the only chance to season the pasta itself from the inside, and salt in the water won't make the pasta too salty, because most of it goes down the drain. Under-salted water is the number one reason pasta tastes flat. Don't be shy about the salt. Most of it stays in the water, and the pasta absorbs only a small amount.",
+      "tip": "Water should taste like the sea",
+      "mistake": "Salting the water before it boils and forgetting it",
+      "imageQuery": "salt boiling water",
+      "imagePrompt": "Coarse salt being poured into a pot of boiling water, steam rising, close-up, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Add the pasta and stir",
+      "narration": "Step three. Add the pasta to the boiling water, and push it under the surface with a wooden spoon as it softens. Stir well during the first two minutes, because that's when the pasta is stickiest, and it can clump together. Don't add oil to the water. It doesn't prevent sticking, and it makes the sauce slide off the pasta later. Keep the water at a steady boil, with the lid off, so it doesn't boil over. Long pasta like spaghetti will soften in a minute, so just keep pushing it down until it is fully under water.",
+      "tip": "Stir during the first two minutes",
+      "mistake": "Adding oil to the cooking water",
+      "imageQuery": "stirring spaghetti pot",
+      "imagePrompt": "A wooden spoon stirring long spaghetti as it softens in a pot of boiling water, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Time it and taste",
+      "narration": "Step four. Check the cooking time on the package, then set a timer for one or two minutes less. Start tasting then. The pasta should be al dente, which means soft but with a slight firmness in the center when you bite it. Fish out a piece with a fork, let it cool for a moment, and bite it. If you see a white dot in the middle, it needs another minute. Tasting is more reliable than timing alone. Different brands and shapes cook differently, so always trust your own bite more than the number on the box.",
+      "tip": "Taste one minute before the timer",
+      "mistake": "Trusting the timer without tasting",
+      "imageQuery": "tasting pasta fork",
+      "imagePrompt": "A fork holding a strand of cooked pasta above a pot, steam rising, close-up, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Save some pasta water",
+      "narration": "Step five. Before you drain anything, scoop out a mug of the cloudy cooking water. It's full of starch and salt, and it's the secret ingredient of restaurant pasta sauces. A few spoonfuls will thicken your sauce, help it cling to the pasta and make it silky. Set the mug next to the stove, where you won't forget it. You can pour out any extra later, but you can't get it back once the pot is in the sink. You can also stir a spoonful into soups and stews later, to give them body.",
+      "tip": "Starchy water makes silky sauce",
+      "mistake": "Pouring all the water down the sink",
+      "imageQuery": "pasta water mug",
+      "imagePrompt": "A hand scooping cloudy pasta water into a white mug from a pot, steam rising, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Drain, don't rinse",
+      "narration": "Step six. Drain the pasta in a colander in the sink. Be careful of the steam. Shake it briefly, but don't rinse it with water, which washes off the starch that helps the sauce stick. The only exception is a cold pasta salad. Don't let the drained pasta sit and cool, since it clumps. Move straight to the next step, with the sauce already warm in a wide pan, ready and waiting. Pasta is best eaten hot, so have your plates, your cheese and your sauce all ready before you drain.",
+      "tip": "Don't rinse, the starch helps the sauce",
+      "mistake": "Letting drained pasta sit and stick",
+      "imageQuery": "draining pasta colander",
+      "imagePrompt": "Pasta in a metal colander in a sink with steam rising, kitchen background, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Finish in the sauce",
+      "narration": "Step seven. Tip the pasta into the pan with your warm sauce, and add a splash of the pasta water. Stir or toss over medium heat for one to two minutes, until the sauce coats every piece, and the pasta finishes cooking in the flavor. Add more pasta water if it looks dry. Take the pan off the heat, add cheese, fresh herbs or a drizzle of olive oil, and serve right away on warm plates, because pasta waits for no one. If you are making baked pasta, stop one or two minutes early, because it will cook more in the oven.",
+      "tip": "Toss for a minute so the sauce clings",
+      "mistake": "Pouring cold sauce on top of the pasta",
+      "imageQuery": "tossing pasta sauce",
+      "imagePrompt": "Pasta being tossed with tomato sauce in a wide skillet, basil leaves, steam rising, photorealistic, no text",
+      "media": "photo"
+    }
+  ],
+  "mistakesToAvoid": {
+    "narration": "Here are three mistakes to avoid. First, too little water or too little salt. That's what makes pasta sticky and bland. Second, rinsing the pasta, or adding oil to the water. Both stop the sauce from clinging. And third, overcooking. Pasta continues to soften in the sauce, so take it out while it still has a bite. Fix these three things, and your weeknight pasta will taste like it came from a good restaurant. Pasta is forgiving when you respect the basics, so stay relaxed and keep tasting as you go. Put these habits together, and good pasta becomes automatic.",
+    "items": [
+      "Too little water or salt",
+      "Rinsing pasta or adding oil",
+      "Cooking it until it's soft"
+    ]
+  },
+  "recap": {
+    "narration": "Let's recap. Use a big pot of water. Salt it well. Add the pasta and stir at the start. Time it, and taste. Save a mug of pasta water. Drain, but don't rinse. And finish the pasta in the sauce. Seven steps, about fifteen minutes, and pasta that tastes the way it should. Remember the rule: lots of water, plenty of salt, and a bite in the middle.",
+    "items": [
+      "Use a big pot of water",
+      "Salt the water well",
+      "Add the pasta and stir",
+      "Time it and taste",
+      "Save some pasta water",
+      "Drain, don't rinse",
+      "Finish in the sauce"
+    ]
+  },
+  "outro": "That's how you cook pasta properly, with salt, timing and sauce. If dinner tastes better tonight, subscribe to WikiTube, because we publish a new how-to every single day. Tell us in the comments what your favorite pasta shape is, and what you would like us to explain next. See you tomorrow. Next time, try adding a pinch of chili to your sauce.",
+  "metadata": {
+    "title": "How to Cook Pasta Properly (Salt, Timing, Sauce)",
+    "description": "Do you cook pasta the right way? In this step-by-step video you'll learn how to cook pasta properly: use a big pot of water, salt it well, add the pasta and stir, time it and taste for al dente, save some starchy pasta water, drain without rinsing, and finish the pasta in the sauce. Simple habits that Italian cooks use every day, for spaghetti, penne and all dried pasta. Works for spaghetti, penne, fusilli and any dried pasta shape you like.\n\nYou'll need: dried pasta, a large pot, coarse salt, a colander, your favorite sauce.\n\nWikiTube publishes a new step-by-step how-to video every day. Subscribe so you don't miss the next one.",
+    "tags": [
+      "how to cook pasta",
+      "how to cook pasta properly",
+      "al dente pasta",
+      "how to salt pasta water",
+      "pasta water sauce",
+      "cook spaghetti",
+      "pasta mistakes",
+      "italian cooking tips",
+      "cooking for beginners",
+      "easy dinner",
+      "how to",
+      "wikitube"
+    ],
+    "thumbnailTitle": "COOK PASTA LIKE ITALIANS",
+    "chapters": "auto",
+    "localizations": {
+      "es": {
+        "title": "Cómo cocinar la pasta correctamente (sal, tiempo y salsa)",
+        "description": "¿Cocinas la pasta de la manera correcta? En este vídeo paso a paso aprenderás a cocinar pasta como se debe: usar una olla grande con mucha agua, salar bien, añadir la pasta y remover, controlar el tiempo y probar para que quede al dente, guardar un poco del agua de cocción, escurrir sin enjuagar y terminar la pasta en la salsa.\n\nWikiTube publica un nuevo tutorial paso a paso cada día. Suscríbete para no perderte el siguiente."
+      },
+      "pt": {
+        "title": "Como cozinhar macarrão do jeito certo (sal, tempo e molho)",
+        "description": "Você cozinha macarrão do jeito certo? Neste vídeo passo a passo você aprende a cozinhar massa corretamente: usar uma panela grande com bastante água, salgar bem, colocar a massa e mexer, controlar o tempo e provar para ficar al dente, guardar um pouco da água do cozimento, escorrer sem lavar e finalizar a massa no molho.\n\nA WikiTube publica um novo tutorial passo a passo todos os dias. Inscreva-se para não perder o próximo."
+      },
+      "fr": {
+        "title": "Comment cuire les pâtes correctement (sel, temps et sauce)",
+        "description": "Cuisez-vous vos pâtes comme il faut ? Dans cette vidéo pas à pas, apprenez à cuire les pâtes correctement : utiliser une grande casserole d'eau, bien saler, ajouter les pâtes en remuant, surveiller le temps et goûter pour obtenir des pâtes al dente, garder un peu d'eau de cuisson, égoutter sans rincer et terminer la cuisson dans la sauce.\n\nWikiTube publie chaque jour un nouveau tutoriel pas à pas. Abonnez-vous pour ne pas manquer le prochain."
+      },
+      "de": {
+        "title": "Nudeln richtig kochen (Salz, Zeit und Soße)",
+        "description": "Kochst du Nudeln richtig? In diesem Video lernst du Schritt für Schritt, wie du Pasta richtig zubereitest: einen großen Topf mit viel Wasser nehmen, kräftig salzen, die Nudeln einlegen und umrühren, Zeit einhalten und für al dente probieren, etwas Nudelwasser aufheben, abgießen ohne abzuspülen und die Nudeln in der Soße fertig ziehen lassen.\n\nWikiTube veröffentlicht jeden Tag eine neue Schritt-für-Schritt-Anleitung. Abonniere den Kanal, um die nächste nicht zu verpassen."
+      },
+      "hi": {
+        "title": "पास्ता को सही तरीके से कैसे पकाएं (नमक, समय और सॉस)",
+        "description": "क्या आप पास्ता सही तरीके से पकाते हैं? इस स्टेप-बाय-स्टेप वीडियो में सीखें पास्ता सही ढंग से कैसे पकाएं: बड़े बर्तन में ढेर सारा पानी लें, अच्छी तरह नमक डालें, पास्ता डालकर चलाएं, समय देखें और चखकर अल डेंटे पकाएं, थोड़ा पास्ता का पानी बचाएं, बिना धोए छानें और पास्ता को सॉस में पूरा करें।\n\nWikiTube पर हर दिन एक नया स्टेप-बाय-स्टेप ट्यूटोरियल आता है। अगला वीडियो न छूटे, इसलिए सब्सक्राइब करें।"
+      },
+      "it": {
+        "title": "Come cuocere la pasta nel modo giusto (sale, tempo e condimento)",
+        "description": "Cuoci la pasta nel modo giusto? In questo video passo passo scopri come cuocere la pasta correttamente: usare una pentola grande con tanta acqua, salare bene, aggiungere la pasta e mescolare, controllare i tempi e assaggiare per un cotto al dente, conservare un po' di acqua di cottura, scolare senza sciacquare e finire la cottura nel condimento.\n\nWikiTube pubblica ogni giorno un nuovo tutorial passo passo. Iscriviti per non perdere il prossimo."
+      },
+      "ja": {
+        "title": "パスタの正しい茹で方（塩・時間・ソース）",
+        "description": "パスタを正しく茹でていますか？このステップ解説では、パスタの正しい茹で方を紹介します。大きな鍋にたっぷりのお湯、しっかり塩を入れる、麺を入れてかき混ぜる、時間を計って味見してアルデンテにする、茹で汁を少し取っておく、洗わずにざるにあげる、ソースの中で仕上げる。毎日の食事がぐっとおいしくなります。\n\nWikiTubeでは毎日、新しいステップバイステップのハウツー動画を公開しています。次の動画を見逃さないよう、チャンネル登録をお願いします。"
+      },
+      "id": {
+        "title": "Cara Memasak Pasta dengan Benar (Garam, Waktu, dan Saus)",
+        "description": "Apakah Anda memasak pasta dengan cara yang benar? Dalam video langkah demi langkah ini, Anda akan belajar memasak pasta dengan benar: gunakan panci besar dengan banyak air, beri garam secukupnya, masukkan pasta dan aduk, atur waktu dan cicipi agar al dente, sisihkan sedikit air rebusan, tiriskan tanpa dibilas, lalu selesaikan pasta di dalam saus.\n\nWikiTube menerbitkan tutorial langkah demi langkah baru setiap hari. Subscribe agar tidak ketinggalan video berikutnya."
+      }
+    }
+  },
+  "short": {
+    "title": "Cook pasta like an Italian in 3 steps #shorts",
+    "description": "Salt the water, taste it, finish in the sauce. Full 7-step guide on the channel. #pasta #cooking #howto",
+    "hook": "Cook better pasta with three small changes.",
+    "steps": [
+      {
+        "title": "Salt the water",
+        "narration": "One. Use a big pot of water, and salt it until it tastes like the sea."
+      },
+      {
+        "title": "Save pasta water",
+        "narration": "Two. Scoop out a mug of starchy cooking water before you drain. Don't rinse."
+      },
+      {
+        "title": "Finish in the sauce",
+        "narration": "Three. Toss the pasta in the sauce with a splash of that water for a minute."
+      }
+    ],
+    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+  }
+}

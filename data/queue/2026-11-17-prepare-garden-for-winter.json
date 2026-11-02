@@ -1,0 +1,181 @@
+{
+  "$schema": "../episode.schema.json",
+  "id": "2026-11-17-prepare-garden-for-winter",
+  "date": "2026-11-17",
+  "slug": "prepare-garden-for-winter",
+  "category": "Garden",
+  "title": "How to Prepare Your Garden for Winter (Soil, Mulch, Bulbs)",
+  "hook": "Winter can undo a whole year of gardening in a single cold snap. But a few hours of work this month can protect your soil, your perennials and your spring bulbs. Here are the seven steps to prepare your garden for winter, in the order that works best. No special skills are needed, and most of it fits into one weekend.",
+  "intro": "The goal of winter prep is simple. You want to remove anything that could spread disease or pests, feed the soil while it rests, and cover whatever needs protection. Do these jobs on a dry day, before the ground freezes hard, and your garden will wake up stronger and need far less work next spring. Everything we'll do uses basic tools and materials like fallen leaves and compost, which you may already have at home. Think of it as tucking your garden in for a long, healthy sleep.",
+  "youNeed": [
+    "Garden gloves",
+    "A rake and pruning shears",
+    "Compost or rotted manure",
+    "Mulch or shredded leaves",
+    "Spring flower bulbs",
+    "Frost cloth or burlap"
+  ],
+  "youNeedNarration": "Here's what you need. Sturdy gloves, a rake and pruning shears, and some compost or well-rotted manure. For mulch, shredded autumn leaves, bark chips or straw all work well. If you want flowers in spring, grab a few bags of bulbs, plus a roll of frost cloth or burlap to protect tender plants. All of this is inexpensive, and much of it costs nothing at all.",
+  "heroImageQuery": "autumn garden bed leaves",
+  "heroImagePrompt": "A tidy autumn garden bed with a rake leaning on a wooden fence, fallen leaves, soft golden morning light, shallow depth of field, photorealistic, no text",
+  "steps": [
+    {
+      "title": "Clear away spent plants",
+      "narration": "Step one. Pull out annual flowers and vegetable plants that are finished for the season, and cut back any that are mushy or covered in mildew. Put diseased material in the trash, not on the compost heap, because the problem can survive there and come back next year. Healthy plant waste can go straight onto the pile. For perennials, you can cut back now, or leave hollow stems and seed heads standing, since birds and helpful insects use them for food and shelter during winter. Either choice is fine, as long as nothing sick stays behind in the bed. Wear gloves, because old stems can be sharp, and dispose of the waste before you move on.",
+      "tip": "Bin diseased plants, compost the rest",
+      "mistake": "Composting plants with mildew or blight",
+      "imageQuery": "gardener clearing vegetable bed",
+      "imagePrompt": "A gardener in gloves pulling finished plants out of a vegetable bed in autumn, wheelbarrow nearby, soft overcast light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Pull weeds and rake leaves",
+      "narration": "Step two. Pull the weeds that are still in your beds, roots and all, before they drop seed and give you a bigger problem in spring. A garden fork helps loosen the roots of stubborn ones. Then rake fallen leaves off the lawn and paths, because a thick, wet layer of leaves smothers grass over winter. Don't throw those leaves away. Pile them up or stuff them into a bin, since they will turn into free mulch and leaf mould. Work through the garden in small sections, so the job never feels overwhelming. A tarp makes it easy to drag the leaves to your pile, and it saves your back too. Aim to finish this step in about an hour.",
+      "tip": "Fallen leaves are free mulch",
+      "mistake": "Leaving wet leaves on the lawn",
+      "imageQuery": "raking autumn leaves lawn",
+      "imagePrompt": "A person raking a large pile of orange autumn leaves on a green lawn, tree in the background, crisp daylight, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Plant your spring bulbs",
+      "narration": "Step three. Autumn is bulb time. Tulips, daffodils and crocus need a cold winter to flower, so plant them while the soil is still workable, ideally a few weeks before the ground freezes. Dig each hole about three times as deep as the bulb is tall, and set the bulb in with its pointed end facing up. Space them roughly one or two bulb widths apart, cover them with soil, and water once. Daffodils are a smart choice if squirrels dig up your garden, because animals tend to leave them alone. Plant in clusters of five or more for a fuller look.",
+      "tip": "Pointed end up, three times deep",
+      "mistake": "Planting bulbs upside down or too shallow",
+      "imageQuery": "planting tulip bulbs soil",
+      "imagePrompt": "Hands planting flower bulbs into dark garden soil with a small trowel, bulbs lined up beside the hole, soft daylight, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Feed the soil with compost",
+      "narration": "Step four. Spread a layer of compost or well-rotted manure, about two to three inches or five to eight centimetres thick, over your vegetable and flower beds. You don't need to dig it in. Worms and winter rain will carry the nutrients down slowly, and the soil structure stays undisturbed. If you grew heavy feeders like tomatoes or squash this year, this is the best moment to replace what they took. Bare soil also erodes and loses nutrients in winter, so a covering protects it too. Leave a small gap around the base of any woody plants. A single wheelbarrow of compost covers a surprisingly large area, so a little goes a long way.",
+      "tip": "No digging needed, just spread it",
+      "mistake": "Leaving bare soil exposed all winter",
+      "imageQuery": "spreading compost garden bed",
+      "imagePrompt": "A shovel spreading dark rich compost over an empty raised garden bed, crumbly texture, overcast light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Mulch around perennials",
+      "narration": "Step five. After the first few frosts, when the soil has cooled down, add a layer of mulch about two to four inches thick around your perennials, shrubs and roses. Shredded leaves, bark chips or straw all work. The goal is not to keep plants warm, but to keep the soil temperature steady, so roots aren't damaged by repeated freezing and thawing. Pull the mulch back a few centimetres from stems and trunks, because piled-up mulch holds moisture against the bark and invites rot and rodents. Water well before you mulch if the soil is dry. You can top up the layer later in winter, if it settles or blows away.",
+      "tip": "Keep mulch off the stems",
+      "mistake": "Piling mulch up against the trunk",
+      "imageQuery": "mulching around shrubs garden",
+      "imagePrompt": "Hands spreading brown bark mulch around young shrubs in a garden bed, tidy ring around the stems, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Protect tender plants and pots",
+      "narration": "Step six. Check which plants in your garden are tender for your climate. Wrap them loosely in frost cloth or burlap before a hard freeze is forecast, and avoid plastic, which traps moisture. Move potted plants against a sheltered wall, or into a garage or shed if they are frost sensitive. Terracotta and ceramic pots can crack when wet soil freezes inside them, so empty the ones you don't use and store them upside down. Raise pots slightly on bricks or feet so water can drain freely. Check the forecast each week, and keep your covers ready. A bucket turned upside down also makes a quick shelter for a small plant on a very cold night.",
+      "tip": "Cloth breathes, plastic traps water",
+      "mistake": "Covering plants with plastic sheeting",
+      "imageQuery": "burlap wrapped potted plant",
+      "imagePrompt": "A potted plant wrapped in cream burlap and tied with twine on a stone patio, frosty morning light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Drain hoses and clean tools",
+      "narration": "Step seven. Finish with the equipment. Disconnect your garden hoses and drain them, because water left inside freezes, expands and splits them. If your home has a shut-off valve for the outdoor tap, close it, then open the tap to let the remaining water out. Next, clean your spades, shears and pruners with a wire brush, wipe the blades with an oily rag to stop rust, and sharpen them if needed. Store everything somewhere dry. These chores feel dull, but they pay you back the first sunny weekend of spring, when you can pick up clean, ready tools and start planting at once.",
+      "tip": "Oil the blades before storing them",
+      "mistake": "Leaving hoses full of water outdoors",
+      "imageQuery": "coiled garden hose shed",
+      "imagePrompt": "A neatly coiled green garden hose hanging on a hook beside clean spades and pruning shears in a garden shed, soft light, photorealistic, no text",
+      "media": "photo"
+    }
+  ],
+  "mistakesToAvoid": {
+    "narration": "Before you go, three mistakes to avoid. First, don't cut everything down to bare soil. Leaving some stems and seed heads standing gives wildlife food and shelter, and it looks lovely in frost. Second, don't mulch too thickly, and never pile it against stems, because that invites rot and nibbling rodents. And third, don't leave diseased leaves or plants in the bed or on the compost heap. A sick plant left behind is the easiest way to start next season with the same problems. Winter care is mostly about doing less, but doing it at the right time.",
+    "items": [
+      "Cutting everything down to bare soil",
+      "Piling mulch against stems",
+      "Leaving diseased plants in the bed"
+    ]
+  },
+  "recap": {
+    "narration": "Let's recap. Clear spent and diseased plants. Pull weeds and rake leaves. Plant your spring bulbs. Feed the soil with compost. Mulch around perennials. Protect tender plants and pots. And drain your hoses and clean your tools. Most of this takes a single weekend, and the payoff lasts all year, so do it before the ground freezes.",
+    "items": [
+      "Clear away spent plants",
+      "Pull weeds and rake leaves",
+      "Plant your spring bulbs",
+      "Feed the soil with compost",
+      "Mulch around perennials",
+      "Protect tender plants and pots",
+      "Drain hoses and clean tools"
+    ]
+  },
+  "outro": "That's how you prepare your garden for winter. If this helped, subscribe to WikiTube, because we publish a new how-to every single day. Tell us in the comments what you plant in autumn, and what you would like us to explain next. See you tomorrow.",
+  "metadata": {
+    "title": "How to Prepare Your Garden for Winter (Soil, Mulch, Bulbs)",
+    "description": "Winter is coming, and your garden needs a plan. In this step-by-step video you'll learn how to prepare your garden for winter: clear spent plants, rake leaves, plant spring bulbs, feed the soil with compost, mulch your perennials, protect tender plants and pots, and drain hoses and clean tools before the first freeze. Simple jobs, done in the right order, for a stronger and easier spring.\n\nYou'll need: garden gloves, a rake and pruning shears, compost or rotted manure, mulch or shredded leaves, spring flower bulbs, frost cloth or burlap.\n\nWikiTube publishes a new step-by-step how-to video every day. Subscribe so you don't miss the next one.",
+    "tags": [
+      "how to prepare garden for winter",
+      "winter garden prep",
+      "fall garden cleanup",
+      "winterize garden",
+      "how to mulch for winter",
+      "plant spring bulbs in fall",
+      "protect plants from frost",
+      "autumn gardening tips",
+      "garden tips",
+      "gardening for beginners",
+      "how to",
+      "wikitube"
+    ],
+    "thumbnailTitle": "WINTER-PROOF YOUR GARDEN",
+    "chapters": "auto",
+    "localizations": {
+      "es": {
+        "title": "Cómo preparar tu jardín para el invierno (suelo, mantillo, bulbos)",
+        "description": "Descubre cómo preparar tu jardín para el invierno: retira las plantas agotadas, rastrilla las hojas, planta bulbos de primavera, abona el suelo con compost, acolcha los perennes, protege las plantas delicadas y vacía mangueras y herramientas antes de la primera helada. Tareas sencillas, en el orden correcto, para una primavera más fuerte.\n\nWikiTube publica un nuevo tutorial paso a paso cada día. Suscríbete para no perderte el siguiente."
+      },
+      "pt": {
+        "title": "Como preparar o jardim para o inverno (solo, cobertura, bulbos)",
+        "description": "Veja como preparar o jardim para o inverno: retire as plantas passadas, rastele as folhas, plante bulbos de primavera, enriqueça o solo com composto, cubra as perenes com cobertura morta, proteja as plantas sensíveis e esvazie mangueiras e ferramentas antes da primeira geada. Tarefas simples, na ordem certa, para uma primavera mais forte.\n\nA WikiTube publica um novo tutorial passo a passo todos os dias. Inscreva-se para não perder o próximo."
+      },
+      "fr": {
+        "title": "Comment préparer son jardin pour l'hiver (sol, paillage, bulbes)",
+        "description": "Découvrez comment préparer votre jardin pour l'hiver : retirer les plantes finies, ramasser les feuilles, planter les bulbes de printemps, nourrir le sol avec du compost, pailler les vivaces, protéger les plantes fragiles et vidanger tuyaux et outils avant les premières gelées. Des gestes simples, dans le bon ordre, pour un printemps plus facile.\n\nWikiTube publie chaque jour un nouveau tutoriel pas à pas. Abonnez-vous pour ne pas manquer le prochain."
+      },
+      "de": {
+        "title": "Garten winterfest machen: Boden, Mulch und Blumenzwiebeln",
+        "description": "So machst du deinen Garten winterfest: abgetragene Pflanzen entfernen, Laub rechen, Frühlingszwiebeln pflanzen, den Boden mit Kompost versorgen, Stauden mulchen, empfindliche Pflanzen schützen und Schläuche und Werkzeuge vor dem ersten Frost pflegen. Einfache Arbeiten in der richtigen Reihenfolge für einen starken Start im Frühling.\n\nWikiTube veröffentlicht jeden Tag eine neue Schritt-für-Schritt-Anleitung. Abonniere den Kanal, um die nächste nicht zu verpassen."
+      },
+      "hi": {
+        "title": "सर्दियों के लिए बगीचा कैसे तैयार करें (मिट्टी, मल्च, बल्ब)",
+        "description": "जानिए सर्दियों से पहले अपने बगीचे को कैसे तैयार करें: सूखे पौधे हटाएं, पत्ते साफ़ करें, वसंत के बल्ब लगाएं, मिट्टी में कंपोस्ट डालें, बारहमासी पौधों के चारों ओर मल्च बिछाएं, नाज़ुक पौधों को ठंड से बचाएं और पाइप व औज़ार संभालकर रखें। आसान काम, सही क्रम में, ताकि वसंत में बगीचा बेहतर खिले।\n\nWikiTube पर हर दिन एक नया स्टेप-बाय-स्टेप ट्यूटोरियल आता है। अगला वीडियो न छूटे, इसलिए सब्सक्राइब करें।"
+      },
+      "it": {
+        "title": "Come preparare il giardino all'inverno (terreno, pacciame, bulbi)",
+        "description": "Scopri come preparare il giardino all'inverno: elimina le piante esaurite, raccogli le foglie, pianta i bulbi primaverili, nutri il terreno con il compost, pacciama le perenni, proteggi le piante delicate e svuota tubi e attrezzi prima delle prime gelate. Lavori semplici, nell'ordine giusto, per una primavera più rigogliosa.\n\nWikiTube pubblica ogni giorno un nuovo tutorial passo passo. Iscriviti per non perdere il prossimo."
+      },
+      "ja": {
+        "title": "冬に備えて庭を準備する方法（土・マルチ・球根）",
+        "description": "冬に備えて庭を準備する方法を紹介します。枯れた植物の片付け、落ち葉の掃除、春咲きの球根の植え付け、堆肥での土づくり、宿根草のマルチング、寒さに弱い植物の保護、そして初霜の前にホースと道具を手入れするまで。正しい順番で進めれば、春の庭がぐっと楽になります。\n\nWikiTubeでは毎日、新しいステップバイステップのハウツー動画を公開しています。次の動画を見逃さないよう、チャンネル登録をお願いします。"
+      },
+      "id": {
+        "title": "Cara Menyiapkan Kebun untuk Musim Dingin (Tanah, Mulsa, Umbi)",
+        "description": "Pelajari cara menyiapkan kebun untuk musim dingin: bersihkan tanaman yang sudah selesai, sapu daun gugur, tanam umbi bunga musim semi, perkaya tanah dengan kompos, beri mulsa pada tanaman tahunan, lindungi tanaman yang rentan, dan kosongkan selang serta rawat peralatan sebelum embun beku pertama. Langkah sederhana dengan urutan yang tepat.\n\nWikiTube menerbitkan tutorial langkah demi langkah baru setiap hari. Subscribe agar tidak ketinggalan video berikutnya."
+      }
+    }
+  },
+  "short": {
+    "title": "Winterize your garden in 3 steps #shorts",
+    "description": "Bulbs, compost and mulch before the freeze. Full 7-step guide on the channel. #gardening #wintergarden #howto",
+    "hook": "Prepare your garden for winter with three simple jobs.",
+    "steps": [
+      {
+        "title": "Plant bulbs",
+        "narration": "One. Plant spring bulbs three times as deep as they are tall, pointed end up."
+      },
+      {
+        "title": "Feed the soil",
+        "narration": "Two. Spread two to three inches of compost over your beds. No digging needed."
+      },
+      {
+        "title": "Mulch carefully",
+        "narration": "Three. Add mulch around perennials, but keep it a few centimetres off the stems."
+      }
+    ],
+    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+  }
+}

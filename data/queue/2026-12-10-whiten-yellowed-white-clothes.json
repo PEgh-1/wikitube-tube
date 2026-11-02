@@ -1,0 +1,180 @@
+{
+  "$schema": "../episode.schema.json",
+  "id": "2026-12-10-whiten-yellowed-white-clothes",
+  "date": "2026-12-10",
+  "slug": "whiten-yellowed-white-clothes",
+  "category": "Home",
+  "title": "How to Whiten Yellowed White Clothes (No Harsh Bleach)",
+  "hook": "Your favorite white shirt has turned yellow, especially under the arms, and nothing in the wash seems to help. Don't throw it away yet. In seven steps, you'll learn how to bring white clothes back to bright white, without chlorine bleach. It costs only a few dollars.",
+  "intro": "Clothes turn yellow for a few reasons. Sweat and deodorant build up in the fibres, detergent residue is left behind, or white fabric simply ages while stored. Regular washing doesn't remove that buildup, but a soak does. We'll use baking soda, vinegar and an oxygen booster, which are all gentler than chlorine bleach. Before we begin, check the care label, and test any method on a hidden seam first. And remember the golden rule: never mix cleaning products. The whole process takes a few hours, but most of that time is just waiting while the soak works for you.",
+  "youNeed": [
+    "Baking soda",
+    "White vinegar",
+    "Oxygen booster powder",
+    "Liquid dish soap",
+    "A large bucket or sink"
+  ],
+  "youNeedNarration": "Here's what you need. Baking soda and white vinegar. An oxygen booster powder, which is based on sodium percarbonate, and sold under many brand names. A little liquid dish soap. A large bucket, basin or sink. Rubber gloves. And an old toothbrush for pretreating stains. Please keep chlorine bleach out of this job completely. Everything here is cheap, and you may already have most of it.",
+  "heroImageQuery": "white shirts laundry basket",
+  "heroImagePrompt": "A stack of crisp bright white cotton shirts beside a laundry basket and a bar of soap, window light, shallow depth of field, photorealistic, no text",
+  "steps": [
+    {
+      "title": "Check labels and sort",
+      "narration": "Step one. Read the care label on each item. Find out the fabric and the highest water temperature it can take. Cotton and polyester blends can usually handle hot water, while silk, wool and delicate fabrics need special care, so skip those. Separate your whites by fabric, and keep colors out of the soak. Check every piece for dyes, prints or metal buttons that might react. This simple sorting step prevents most laundry accidents. Do this before you start, and you'll avoid damage, since not every white item will handle hot water or strong soaks.",
+      "tip": "Hot soaks are for cotton and polyester",
+      "mistake": "Soaking silk or wool in hot water",
+      "imageQuery": "reading clothing care label",
+      "imagePrompt": "A hand holding a white shirt with a care label visible, laundry room, bright light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Pretreat the yellow stains",
+      "narration": "Step two. Lay the stained area flat, and rub in a few drops of liquid dish soap, or a paste of baking soda and a little water. Work it gently into underarm stains and collars with an old toothbrush, then let it sit for fifteen to thirty minutes. Dish soap breaks down the body oils that trap the yellow color, while the baking soda lifts discoloration. Don't use hot water directly on fresh sweat stains, since heat can set some of them. Old stains might need a second round of pretreatment, so be patient and repeat if needed.",
+      "tip": "Dish soap breaks down body oils",
+      "mistake": "Using hot water on fresh stains",
+      "imageQuery": "scrubbing shirt toothbrush",
+      "imagePrompt": "A soft toothbrush scrubbing the underarm area of a white shirt with soapy paste, close-up, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Soak in baking soda and vinegar",
+      "narration": "Step three. Fill a basin with hot water, as hot as the care label allows. Add half a cup of baking soda, and stir until it dissolves. Add the clothes, and let them soak for one to two hours. Baking soda softens the water and lifts stains and odors. Afterward, you can rinse and add a cup of white vinegar to a fresh rinse bath, for a few minutes, which removes soap residue. Don't combine vinegar and the oxygen booster in the same soak. Keep the basin covered if there are children or pets around, and always rinse the clothes well afterward.",
+      "tip": "Soak, don't just wash",
+      "mistake": "Mixing vinegar with oxygen booster",
+      "imageQuery": "soaking clothes basin",
+      "imagePrompt": "White clothes soaking in a plastic basin of cloudy water on a laundry room counter, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Try an oxygen booster soak",
+      "narration": "Step four. For stubborn yellowing, dissolve oxygen booster powder in hot water, following the instructions on the package. A common amount is one scoop per gallon of water. Wear gloves, because it can irritate skin. Submerge the clothes completely, and leave them to soak for four to eight hours or overnight, stirring now and then. Oxygen boosters release oxygen when dissolved in water, which breaks down stains without the harshness of chlorine bleach. Never use it on silk or wool. Never put the oxygen booster in a closed container, because it releases gas as it works. A loose lid is enough.",
+      "tip": "Gloves on, and follow the package",
+      "mistake": "Using it on silk or wool",
+      "imageQuery": "oxygen booster powder bucket",
+      "imagePrompt": "A scoop of white powder being dissolved in a bucket of hot water for laundry soaking, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Wash on a warm cycle",
+      "narration": "Step five. Wring out the clothes, and run them through the washing machine on the warmest cycle that the label allows. Use your regular detergent, but don't overdo it. Too much detergent leaves residue that makes whites look dull. Add half a cup of baking soda directly to the drum to boost cleaning. Wash whites only, and don't overload the machine, so the water can circulate. Before drying, check the stained area in good light. Use the sink or a bucket to rinse any soaked items first, and wring them out gently to avoid stretching the fabric.",
+      "tip": "Not too much detergent",
+      "mistake": "Overloading the washing machine",
+      "imageQuery": "washing machine white laundry",
+      "imagePrompt": "White laundry tumbling in a front-loading washing machine drum, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Dry in the sun",
+      "narration": "Step six. Sunlight is a natural whitener. Hang your clothes outside, or lay them flat on a clean surface, in direct sun. The UV light helps fade yellow tones in cotton and linen. Avoid the dryer until you're sure the stain is gone, because heat can lock in any remaining color. If you can't dry outside, hang them near a bright window. If the yellowing is still visible, repeat the soak, as old stains sometimes need two rounds. Direct sun for a couple of hours is usually enough. Bring delicate items inside before they get too dry and stiff.",
+      "tip": "Sun is a free natural whitener",
+      "mistake": "Machine-drying before checking the stain",
+      "imageQuery": "white shirts clothesline",
+      "imagePrompt": "Bright white shirts hanging on a clothesline in the sun against a blue sky, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Keep whites white",
+      "narration": "Step seven. Prevent yellowing in the future. Wash whites separately, and wash sweaty items promptly. Use the right amount of detergent, and add an extra rinse if you have hard water. Skip fabric softener on whites, as it can leave a film. Choose a deodorant that doesn't leave a heavy residue, and let it dry before dressing. Store clothes clean and fully dry, away from direct light and cardboard boxes, which can cause yellowing. A monthly maintenance wash with baking soda keeps whites bright and stops yellowing from taking hold.",
+      "tip": "Wash sweaty whites quickly",
+      "mistake": "Using fabric softener on whites",
+      "imageQuery": "folded white clothes shelf",
+      "imagePrompt": "Neatly folded bright white clothes stacked on a wardrobe shelf, soft light, photorealistic, no text",
+      "media": "photo"
+    }
+  ],
+  "mistakesToAvoid": {
+    "narration": "Here are the mistakes to avoid. First, mixing products. Never combine chlorine bleach with vinegar, ammonia or other cleaners, as it can create dangerous fumes. Second, using too much detergent, which leaves a dulling film. And third, drying the item in a hot dryer before the stain is completely gone. Heat sets stains, and then they are far harder to remove. Soak, check, and only then dry. Patience, gentle products and sunshine do most of the work.",
+    "items": [
+      "Mixing bleach with other cleaners",
+      "Using too much detergent",
+      "Machine-drying a stained item"
+    ]
+  },
+  "recap": {
+    "narration": "Let's recap. Check the labels and sort. Pretreat the yellow stains. Soak in hot water with baking soda. Try an oxygen booster soak for stubborn yellowing. Wash on a warm cycle. Dry in the sun. And keep whites white with a few simple habits. Seven steps, mostly waiting, and clothes that look new again. Do it once a month for whites that stay bright all year. Whiter clothes, less waste, and no harsh chemicals.",
+    "items": [
+      "Check labels and sort",
+      "Pretreat the yellow stains",
+      "Soak in baking soda and vinegar",
+      "Try an oxygen booster soak",
+      "Wash on a warm cycle",
+      "Dry in the sun",
+      "Keep whites white"
+    ]
+  },
+  "outro": "That's how you whiten yellowed white clothes without harsh bleach. If your shirts are bright again, subscribe to WikiTube, because we publish a new how-to every single day. Tell us in the comments which item you rescued, and what you would like us to explain next. See you tomorrow. Share this with someone whose white shirt has seen better days.",
+  "metadata": {
+    "title": "How to Whiten Yellowed White Clothes (No Harsh Bleach)",
+    "description": "Yellow stains on your white clothes? In this step-by-step video you'll learn how to whiten yellowed white clothes without harsh chlorine bleach: check the label and sort, pretreat underarm stains with dish soap and baking soda, soak with baking soda, try an oxygen booster soak, wash on a warm cycle, dry in the sun, and prevent yellowing in the future. Safe for cotton and polyester whites.\n\nYou'll need: baking soda, white vinegar, oxygen booster powder, liquid dish soap, a large bucket or sink.\n\nWikiTube publishes a new step-by-step how-to video every day. Subscribe so you don't miss the next one.",
+    "tags": [
+      "how to whiten yellowed clothes",
+      "whiten white clothes",
+      "remove yellow stains from white clothes",
+      "remove underarm stains",
+      "white laundry no bleach",
+      "baking soda laundry",
+      "oxygen bleach",
+      "laundry tips",
+      "yellow to white",
+      "cleaning hacks",
+      "how to",
+      "wikitube"
+    ],
+    "thumbnailTitle": "YELLOW TO WHITE, NO BLEACH",
+    "chapters": "auto",
+    "localizations": {
+      "es": {
+        "title": "Cómo blanquear ropa blanca amarilleada (sin lejía fuerte)",
+        "description": "¿Manchas amarillas en tu ropa blanca? En este vídeo paso a paso aprenderás a blanquear la ropa blanca amarilleada sin lejía fuerte: revisar la etiqueta y clasificar, pretratar las manchas de las axilas con jabón y bicarbonato, remojar con bicarbonato, probar un remojo con activador de oxígeno, lavar con un ciclo templado, secar al sol y evitar que vuelva a amarillear. Apto para algodón y poliéster blanco.\n\nWikiTube publica un nuevo tutorial paso a paso cada día. Suscríbete para no perderte el siguiente."
+      },
+      "pt": {
+        "title": "Como clarear roupa branca amarelada (sem alvejante forte)",
+        "description": "Manchas amareladas nas roupas brancas? Neste vídeo passo a passo você aprende a clarear roupas brancas amareladas sem alvejante forte: ler a etiqueta e separar, pré-tratar manchas de suor com detergente e bicarbonato, deixar de molho com bicarbonato, testar um molho com alvejante de oxigênio, lavar em ciclo morno, secar ao sol e evitar que amarelem de novo. Seguro para algodão e poliéster branco.\n\nA WikiTube publica um novo tutorial passo a passo todos os dias. Inscreva-se para não perder o próximo."
+      },
+      "fr": {
+        "title": "Comment blanchir du linge blanc jauni (sans eau de Javel)",
+        "description": "Des taches jaunes sur votre linge blanc ? Dans cette vidéo pas à pas, apprenez à blanchir du linge blanc jauni sans eau de Javel : lire l'étiquette et trier, prétraiter les auréoles sous les bras avec du liquide vaisselle et du bicarbonate, faire tremper au bicarbonate, essayer un trempage à l'oxygène actif, laver à chaud, sécher au soleil et éviter le jaunissement. Pour coton et polyester blancs.\n\nWikiTube publie chaque jour un nouveau tutoriel pas à pas. Abonnez-vous pour ne pas manquer le prochain."
+      },
+      "de": {
+        "title": "Vergilbte weiße Wäsche wieder weiß bekommen (ohne scharfes Bleichmittel)",
+        "description": "Gelbe Flecken auf weißer Kleidung? In diesem Video lernst du Schritt für Schritt, wie du vergilbte weiße Wäsche ohne scharfes Bleichmittel aufhellst: Pflegeetikett lesen und sortieren, Schweißflecken mit Spülmittel und Natron vorbehandeln, in Natronlösung einweichen, ein Sauerstoffbleiche-Bad ausprobieren, warm waschen, in der Sonne trocknen und neues Vergilben vermeiden. Für weiße Baumwolle und Polyester.\n\nWikiTube veröffentlicht jeden Tag eine neue Schritt-für-Schritt-Anleitung. Abonniere den Kanal, um die nächste nicht zu verpassen."
+      },
+      "hi": {
+        "title": "पीले पड़े सफ़ेद कपड़ों को बिना तेज़ ब्लीच के फिर सफ़ेद कैसे करें",
+        "description": "सफ़ेद कपड़ों पर पीले दाग हैं? इस स्टेप-बाय-स्टेप वीडियो में सीखें पीले पड़े सफ़ेद कपड़ों को बिना तेज़ ब्लीच के कैसे चमकाएं: लेबल पढ़कर छांटें, बगल के दागों पर डिश सोप और बेकिंग सोडा लगाएं, बेकिंग सोडा में भिगोएं, ऑक्सीजन बूस्टर में भिगोकर देखें, गुनगुने पानी में धोएं, धूप में सुखाएं और दोबारा पीले होने से बचाएं। सफ़ेद सूती और पॉलिएस्टर के लिए सुरक्षित।\n\nWikiTube पर हर दिन एक नया स्टेप-बाय-स्टेप ट्यूटोरियल आता है। अगला वीडियो न छूटे, इसलिए सब्सक्राइब करें।"
+      },
+      "it": {
+        "title": "Come sbiancare i capi bianchi ingialliti (senza candeggina forte)",
+        "description": "Macchie gialle sui capi bianchi? In questo video passo passo scopri come sbiancare i capi bianchi ingialliti senza candeggina forte: leggere l'etichetta e dividere i capi, pretrattare le macchie di sudore con detersivo per piatti e bicarbonato, lasciare in ammollo con bicarbonato, provare un ammollo con ossigeno attivo, lavare a caldo, asciugare al sole ed evitare che ingialliscano di nuovo. Per cotone e poliestere bianco.\n\nWikiTube pubblica ogni giorno un nuovo tutorial passo passo. Iscriviti per non perdere il prossimo."
+      },
+      "ja": {
+        "title": "黄ばんだ白い服を強い漂白剤なしで白く戻す方法",
+        "description": "白い服が黄ばんでしまった方へ。このステップ解説では、塩素系漂白剤を使わずに黄ばみを落とす方法を紹介します。洗濯表示の確認と仕分け、わきの黄ばみに食器用洗剤と重曹で下処理、重曹でつけ置き、酸素系漂白剤でのつけ置き、温かい水での洗濯、日光で干す、再発を防ぐ習慣まで。白い綿やポリエステルに安全です。\n\nWikiTubeでは毎日、新しいステップバイステップのハウツー動画を公開しています。次の動画を見逃さないよう、チャンネル登録をお願いします。"
+      },
+      "id": {
+        "title": "Cara Memutihkan Pakaian Putih yang Menguning (Tanpa Pemutih Keras)",
+        "description": "Noda kuning di pakaian putih? Dalam video langkah demi langkah ini, Anda akan belajar memutihkan pakaian putih yang menguning tanpa pemutih klorin yang keras: baca label dan pilah, perlakukan noda keringat dengan sabun cuci piring dan baking soda, rendam dengan baking soda, coba rendaman pemutih oksigen, cuci dengan siklus hangat, jemur di bawah matahari, dan cegah menguning kembali. Aman untuk katun dan poliester putih.\n\nWikiTube menerbitkan tutorial langkah demi langkah baru setiap hari. Subscribe agar tidak ketinggalan video berikutnya."
+      }
+    }
+  },
+  "short": {
+    "title": "Whiten yellowed clothes without bleach #shorts",
+    "description": "Pretreat, soak, dry in the sun. Full 7-step guide on the channel. #laundry #cleaninghacks #howto",
+    "hook": "Yellow stains on white clothes? Try this, no harsh bleach.",
+    "steps": [
+      {
+        "title": "Pretreat",
+        "narration": "One. Rub dish soap and baking soda paste into the yellow areas."
+      },
+      {
+        "title": "Hot soak",
+        "narration": "Two. Soak in hot water with half a cup of baking soda for one to two hours."
+      },
+      {
+        "title": "Sun dry",
+        "narration": "Three. Wash, then dry in the sun. Never mix with bleach."
+      }
+    ],
+    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "$schema": "../episode.schema.json",
+  "id": "2026-11-22-cook-steak-in-a-pan",
+  "date": "2026-11-22",
+  "slug": "cook-steak-in-a-pan",
+  "category": "Kitchen",
+  "title": "How to Cook Steak Perfectly in a Pan (Beginner Method)",
+  "hook": "Restaurant steaks cost a fortune, and cooking one at home can go wrong in a hurry, with grey meat and a smoky kitchen. But with seven simple steps, you can cook a juicy steak with a deep brown crust in a regular pan, in about fifteen minutes. No special equipment is required, apart from a good pan.",
+  "intro": "A great steak depends on three things. A dry surface, a very hot pan, and a short rest at the end. That's it. You don't need a grill, a special cut or a fancy sauce. We'll use a thick steak, salt, a little oil and a skillet. Once you understand why each step matters, you can repeat this result every time, with ribeye, sirloin, strip steak or whichever cut you prefer. Don't be afraid of high heat, because that is what makes the difference. Open a window, and let's begin.",
+  "youNeed": [
+    "A steak, one inch thick or more",
+    "Coarse salt and black pepper",
+    "A heavy skillet",
+    "A meat thermometer",
+    "Butter, garlic and thyme"
+  ],
+  "youNeedNarration": "Here's what you need. A steak at least one inch, or two and a half centimetres, thick. Coarse salt and black pepper. A heavy skillet, ideally cast iron or stainless steel. A neutral oil with a high smoke point. Butter, garlic and thyme if you like. And a meat thermometer, which is the best tool for getting perfect results every time.",
+  "heroImageQuery": "steak searing in skillet",
+  "heroImagePrompt": "A thick ribeye steak with a deep brown crust sizzling in a black cast iron skillet with butter and thyme, dark moody kitchen, shallow depth of field, photorealistic, no text",
+  "steps": [
+    {
+      "title": "Pick and prep your steak",
+      "narration": "Step one. Choose a steak that is at least one inch thick, because thin steaks overcook before they brown. Ribeye, strip and sirloin are all excellent. Take the meat out of the fridge about thirty minutes before cooking, so the chill comes off the surface. Then pat it completely dry with paper towels, on every side. This is the most important part of this step, because water on the meat turns to steam in the pan, and steamed meat turns grey instead of brown. A dry steak browns in minutes. Thicker cuts forgive small timing errors, which is ideal when you're learning.",
+      "tip": "Dry steak means brown steak",
+      "mistake": "Cooking a wet, ice-cold steak",
+      "imageQuery": "ribeye steak paper towel",
+      "imagePrompt": "A thick raw ribeye steak being patted dry with a paper towel on a wooden cutting board, bright kitchen light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Season generously with salt",
+      "narration": "Step two. Season the steak on all sides, including the edges, with coarse salt and freshly ground black pepper. Be generous, since much of the seasoning falls off in the pan, and a thick steak needs more salt than you think. For the best flavor, salt it as soon as you take it out of the fridge, so the salt has half an hour to be absorbed. If you are in a rush, salt it just before it hits the pan. Avoid salting and then waiting five minutes, because that draws out moisture and leaves the surface wet. Press the seasoning gently into the meat so it sticks.",
+      "tip": "Salt the edges as well",
+      "mistake": "Salting it just minutes before cooking",
+      "imageQuery": "seasoning steak coarse salt",
+      "imagePrompt": "A hand sprinkling coarse sea salt from above onto a raw steak on a dark wooden board, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Get the pan very hot",
+      "narration": "Step three. Place a heavy skillet over medium-high to high heat and let it heat for three to five minutes, until it is really hot. Add a tablespoon of oil with a high smoke point, like avocado, canola or sunflower, and wait until it shimmers and just starts to smoke. A hot pan is what creates the brown crust, which is where most of the flavor lives. Don't use olive oil or butter at this point, because they burn too fast. Turn on your extractor fan and open a window. If your pan smokes heavily, lower the heat slightly rather than starting again.",
+      "tip": "Wait until the oil just smokes",
+      "mistake": "Putting the steak in a lukewarm pan",
+      "imageQuery": "heavy skillet oil shimmering",
+      "imagePrompt": "A black skillet on a gas burner with shimmering oil and a wisp of smoke, dark kitchen, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Sear without moving it",
+      "narration": "Step four. Lay the steak in the pan, away from you, so the oil doesn't splash toward you. It should sizzle loudly right away. Now leave it alone. Don't poke, press or slide it. For a one inch steak, sear for about two to three minutes, until a deep brown crust forms and the meat releases from the pan on its own. If it sticks, it isn't ready to turn. Use tongs to sear the fatty edge for thirty seconds too. Resist the urge to flip it early, because patience builds the crust. The sound tells you everything, so listen for a steady, strong sizzle.",
+      "tip": "Leave it alone for two minutes",
+      "mistake": "Pressing the steak with a spatula",
+      "imageQuery": "steak searing cast iron",
+      "imagePrompt": "A steak searing in a cast iron skillet, deep brown crust forming, light smoke, close-up, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Flip and baste with butter",
+      "narration": "Step five. Turn the steak over with tongs, and lower the heat to medium. Add a tablespoon or two of butter, a few crushed garlic cloves and a sprig of thyme. When the butter foams, tilt the pan slightly and spoon the melted butter over the steak again and again for about a minute. Basting adds flavor and cooks the top gently. Cook the second side for another two to three minutes, depending on thickness. Keep the heat moderate so the butter turns nutty and golden, not burnt and bitter. If your steak is very thick, finish it in a hot oven, at around 200 degrees Celsius or 400 Fahrenheit, for a few minutes.",
+      "tip": "Foaming butter, then spoon it over",
+      "mistake": "Burning the butter on high heat",
+      "imageQuery": "butter basting steak",
+      "imagePrompt": "A spoon pouring foaming butter with garlic and thyme over a steak in a skillet, warm light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Check the temperature",
+      "narration": "Step six. The most reliable way to judge doneness is a thermometer pushed into the thickest part of the steak. Remove the steak from the pan at about 125 degrees Fahrenheit, or 52 Celsius, for rare, 130 to 135, or 54 to 57 Celsius, for medium-rare, and 140, or 60 Celsius, for medium. The temperature rises a few degrees while it rests. Food safety agencies advise 145 degrees Fahrenheit, or 63 Celsius, for whole cuts of beef, so choose the doneness that you are comfortable with. Insert the probe from the side, and avoid touching bone or the pan.",
+      "tip": "Pull it five degrees early",
+      "mistake": "Guessing doneness without a thermometer",
+      "imageQuery": "meat thermometer steak",
+      "imagePrompt": "A digital meat thermometer inserted into the side of a seared steak in a pan, kitchen background, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Rest, then slice across",
+      "narration": "Step seven. Move the steak to a board or a warm plate and let it rest for at least five minutes, and up to ten for a very thick cut. During cooking, the juices are pushed to the center. Resting lets them spread back through the meat, so they stay in the steak instead of running onto the board. Then look for the direction of the muscle fibres, the grain, and slice across it. Short fibres feel more tender in your mouth. Spoon the pan butter over the slices and serve immediately.",
+      "tip": "Rest five minutes, slice against the grain",
+      "mistake": "Cutting it open the moment it leaves the pan",
+      "imageQuery": "slicing steak board",
+      "imagePrompt": "A sliced medium-rare steak on a wooden board showing a pink center, herbs on top, warm light, photorealistic, no text",
+      "media": "photo"
+    }
+  ],
+  "mistakesToAvoid": {
+    "narration": "Here are the three mistakes that ruin most steaks. First, a wet steak and a lukewarm pan. This steams the meat, and it turns grey. Dry it, and heat the pan properly. Second, moving the steak around. Every time you lift it, you lose the crust that is forming. And third, slicing straight away. The juices need a few minutes to settle, otherwise they pour out on the board and the steak tastes dry. Avoid these three, and you'll get great steak. Practice makes this easy, and the second steak is always better than the first.",
+    "items": [
+      "A wet steak in a lukewarm pan",
+      "Moving or pressing the steak",
+      "Cutting it right out of the pan"
+    ]
+  },
+  "recap": {
+    "narration": "Let's recap. Pick a thick steak and pat it dry. Season generously with salt. Get the pan very hot. Sear without moving it. Flip, add butter, garlic and thyme, and baste. Check the temperature with a thermometer. And rest the steak, then slice across the grain. Seven steps, fifteen minutes, and a steak you'd be happy to pay for in a restaurant.",
+    "items": [
+      "Pick and prep your steak",
+      "Season generously with salt",
+      "Get the pan very hot",
+      "Sear without moving it",
+      "Flip and baste with butter",
+      "Check the temperature",
+      "Rest, then slice across"
+    ]
+  },
+  "outro": "That's how you cook a steak perfectly in a pan. If dinner just got better, subscribe to WikiTube, because we publish a new how-to every single day. Tell us in the comments how you like your steak cooked, and what you would like us to explain next. See you tomorrow.",
+  "metadata": {
+    "title": "How to Cook Steak Perfectly in a Pan (Beginner Method)",
+    "description": "Want a juicy steak with a golden-brown crust? In this step-by-step video you'll learn how to cook steak perfectly in a pan, even if you're a beginner. We cover choosing and drying the steak, salting, heating the skillet, searing without moving it, basting with butter, garlic and thyme, checking the doneness with a thermometer, and resting and slicing. Works with ribeye, sirloin, strip and more.\n\nYou'll need: a steak, one inch thick or more, coarse salt and black pepper, a heavy skillet, a meat thermometer, butter, garlic and thyme.\n\nWikiTube publishes a new step-by-step how-to video every day. Subscribe so you don't miss the next one.",
+    "tags": [
+      "how to cook steak",
+      "how to cook steak in a pan",
+      "pan seared steak",
+      "perfect steak",
+      "steak for beginners",
+      "cast iron steak",
+      "ribeye steak",
+      "butter basted steak",
+      "steak doneness temperature",
+      "cooking for beginners",
+      "how to",
+      "wikitube"
+    ],
+    "thumbnailTitle": "PERFECT PAN STEAK",
+    "chapters": "auto",
+    "localizations": {
+      "es": {
+        "title": "Cómo cocinar un filete perfecto en sartén (método para principiantes)",
+        "description": "¿Quieres un filete jugoso con una corteza dorada? En este vídeo paso a paso aprenderás a cocinar un filete perfecto en sartén, aunque seas principiante: elegir y secar la carne, salar, calentar bien la sartén, sellar sin moverla, bañarla con mantequilla, ajo y tomillo, comprobar el punto con un termómetro y dejarla reposar antes de cortarla.\n\nWikiTube publica un nuevo tutorial paso a paso cada día. Suscríbete para no perderte el siguiente."
+      },
+      "pt": {
+        "title": "Como fazer bife perfeito na frigideira (método para iniciantes)",
+        "description": "Quer um bife suculento com crosta dourada? Neste vídeo passo a passo você aprende a fazer um bife perfeito na frigideira, mesmo sendo iniciante: escolher e secar a carne, temperar com sal, aquecer bem a frigideira, selar sem mexer, regar com manteiga, alho e tomilho, conferir o ponto com termômetro e deixar descansar antes de cortar.\n\nA WikiTube publica um novo tutorial passo a passo todos os dias. Inscreva-se para não perder o próximo."
+      },
+      "fr": {
+        "title": "Comment cuire un steak parfait à la poêle (méthode pour débutants)",
+        "description": "Envie d'un steak juteux avec une belle croûte dorée ? Dans cette vidéo pas à pas, apprenez à cuire un steak parfait à la poêle, même si vous débutez : choisir et sécher la viande, saler, bien chauffer la poêle, saisir sans y toucher, arroser de beurre, d'ail et de thym, vérifier la cuisson au thermomètre et laisser reposer avant de trancher.\n\nWikiTube publie chaque jour un nouveau tutoriel pas à pas. Abonnez-vous pour ne pas manquer le prochain."
+      },
+      "de": {
+        "title": "Steak in der Pfanne perfekt braten (Methode für Anfänger)",
+        "description": "Du willst ein saftiges Steak mit goldbrauner Kruste? In diesem Video lernst du Schritt für Schritt, wie du ein perfektes Steak in der Pfanne brätst, auch als Anfänger: Fleisch auswählen und trocken tupfen, salzen, die Pfanne richtig heiß machen, ohne Bewegen anbraten, mit Butter, Knoblauch und Thymian übergießen, die Garstufe mit dem Thermometer prüfen und ruhen lassen.\n\nWikiTube veröffentlicht jeden Tag eine neue Schritt-für-Schritt-Anleitung. Abonniere den Kanal, um die nächste nicht zu verpassen."
+      },
+      "hi": {
+        "title": "पैन में परफेक्ट स्टेक कैसे पकाएं (शुरुआत करने वालों के लिए तरीका)",
+        "description": "रसीला स्टेक और सुनहरी परत चाहते हैं? इस स्टेप-बाय-स्टेप वीडियो में सीखें पैन में परफेक्ट स्टेक कैसे पकाएं, चाहे आप शुरुआती ही क्यों न हों: मांस चुनना और सुखाना, नमक लगाना, पैन को अच्छी तरह गर्म करना, बिना हिलाए सेंकना, मक्खन, लहसुन और थाइम से बेस्ट करना, थर्मामीटर से पकने की जांच करना और काटने से पहले आराम देना।\n\nWikiTube पर हर दिन एक नया स्टेप-बाय-स्टेप ट्यूटोरियल आता है। अगला वीडियो न छूटे, इसलिए सब्सक्राइब करें।"
+      },
+      "it": {
+        "title": "Come cucinare una bistecca perfetta in padella (metodo per principianti)",
+        "description": "Vuoi una bistecca succosa con una crosta dorata? In questo video passo passo scopri come cuocere una bistecca perfetta in padella, anche se sei alle prime armi: scegliere e asciugare la carne, salare, scaldare bene la padella, rosolare senza muoverla, irrorare con burro, aglio e timo, controllare la cottura con il termometro e far riposare prima di tagliare.\n\nWikiTube pubblica ogni giorno un nuovo tutorial passo passo. Iscriviti per non perdere il prossimo."
+      },
+      "ja": {
+        "title": "フライパンで完璧なステーキを焼く方法（初心者向け）",
+        "description": "ジューシーで香ばしい焼き色のステーキを焼きたい方へ。初心者でもできる、フライパンで完璧なステーキを焼く方法を紹介します。肉の選び方と水気の拭き取り、塩の振り方、フライパンの予熱、動かさずに焼く、バター・ニンニク・タイムでのアロゼ、温度計での焼き加減の確認、休ませてから切るまで、順番に解説します。\n\nWikiTubeでは毎日、新しいステップバイステップのハウツー動画を公開しています。次の動画を見逃さないよう、チャンネル登録をお願いします。"
+      },
+      "id": {
+        "title": "Cara Memasak Steak Sempurna di Wajan (Metode untuk Pemula)",
+        "description": "Ingin steak yang juicy dengan kerak cokelat keemasan? Dalam video langkah demi langkah ini, Anda akan belajar memasak steak sempurna di wajan, meski masih pemula: memilih dan mengeringkan daging, memberi garam, memanaskan wajan dengan benar, memanggang tanpa digerakkan, menyiram dengan mentega, bawang putih, dan thyme, mengecek kematangan dengan termometer, lalu mendiamkannya sebelum dipotong.\n\nWikiTube menerbitkan tutorial langkah demi langkah baru setiap hari. Subscribe agar tidak ketinggalan video berikutnya."
+      }
+    }
+  },
+  "short": {
+    "title": "Cook steak perfectly in a pan #shorts",
+    "description": "Dry it, sear it hot, rest it. Full 7-step guide on the channel. #steak #cooking #howto",
+    "hook": "Cook a restaurant-quality steak at home in three steps.",
+    "steps": [
+      {
+        "title": "Dry and salt",
+        "narration": "One. Pat the steak completely dry, and salt it generously on every side."
+      },
+      {
+        "title": "Hot pan, no moving",
+        "narration": "Two. Sear in a very hot pan for two to three minutes a side. Don't move it."
+      },
+      {
+        "title": "Rest it",
+        "narration": "Three. Rest the steak for five minutes before slicing across the grain."
+      }
+    ],
+    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+  }
+}

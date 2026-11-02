@@ -1,0 +1,180 @@
+{
+  "$schema": "../episode.schema.json",
+  "id": "2026-12-14-get-rid-of-ants-naturally",
+  "date": "2026-12-14",
+  "slug": "get-rid-of-ants-naturally",
+  "category": "Home",
+  "title": "How to Get Rid of Ants Naturally (Garden and Kitchen)",
+  "hook": "A line of ants marching across your kitchen counter is annoying, and spraying chemicals around food and pets isn't appealing. The good news is that you can solve most ant problems naturally. In seven steps, you'll learn how to find them, block them and keep them out, indoors and in the garden. It takes patience, but it works.",
+  "intro": "Ants are looking for food, water and shelter. They follow invisible scent trails left by scouts, so one tiny crumb can bring an entire colony. To get rid of them for good, you have to do three things. Remove what attracts them, erase their trails, and block the ways in. Natural methods work best when you combine them. Safety note: keep any oils, powders or cleaners away from pets and children, and never mix products. Ants are actually useful outdoors, as they aerate soil and eat pests, so our goal is only to keep them out of your home.",
+  "youNeed": [
+    "White vinegar and water",
+    "A spray bottle",
+    "Food-grade diatomaceous earth",
+    "Caulk",
+    "A soapy sponge"
+  ],
+  "youNeedNarration": "Here's what you need. White vinegar and a spray bottle. Dish soap and a sponge. Food-grade diatomaceous earth, which is a natural powder. A tube of caulk for sealing cracks. And optionally lemons, cinnamon or coffee grounds. Keep essential oils away from pets, since peppermint and tea tree oil can be harmful to cats and dogs. None of these items are expensive, and none of them are dangerous when used correctly.",
+  "heroImageQuery": "ants kitchen counter trail",
+  "heroImagePrompt": "A line of small black ants walking along a kitchen counter edge toward a few crumbs, macro photo, shallow depth of field, photorealistic, no text",
+  "steps": [
+    {
+      "title": "Find the trail and the entry point",
+      "narration": "Step one. Don't kill the ants you see, at least at first. Follow the line, and watch where they come from and where they go. This shows you the entry point, which could be a crack in a window frame, a gap under a door or a hole around a pipe. It also shows you what they want, such as a sugary spill or pet food. Knowing the source lets you fix the cause, rather than chasing the symptoms every week. Take a photo if you can, because it helps you remember the route.",
+      "tip": "Follow the trail before you spray",
+      "mistake": "Spraying the ants you see and nothing else",
+      "imageQuery": "ants trail window crack",
+      "imagePrompt": "A line of ants entering a small crack along a kitchen window frame, macro, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Clean up food and water sources",
+      "narration": "Step two. Wipe all counters, tables and floors. Clean up sticky spills, crumbs and grease. Store sugar, honey, flour and cereal in airtight containers, and put pet food away after meals. Fix leaking taps and wipe sinks dry at night. Ants need water too. Empty your trash often, and rinse recycling. A clean kitchen removes the reward, and the ants will gradually give up and look elsewhere. Check under appliances and inside cupboards too, where crumbs and moisture often hide.",
+      "tip": "Airtight containers stop the invitation",
+      "mistake": "Leaving pet food bowls out overnight",
+      "imageQuery": "wiping kitchen counter sponge",
+      "imagePrompt": "A hand wiping a kitchen counter with a sponge near an airtight jar of sugar, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Erase the scent trails",
+      "narration": "Step three. Mix equal parts white vinegar and water in a spray bottle. Spray it on the ants' trail, and wipe the area with a cloth, then repeat along the whole route, including the entry point. Vinegar breaks down the scent markers the ants use to find their way, so scouts get confused. Use soapy water as an alternative, which also kills ants on contact. Do this daily for a few days. Avoid spraying vinegar on natural stone counters. Always wear gloves, and ventilate the room, since a strong vinegar smell can bother some people.",
+      "tip": "Vinegar erases their scent map",
+      "mistake": "Using vinegar on natural stone",
+      "imageQuery": "spraying vinegar ants",
+      "imagePrompt": "A spray bottle of vinegar solution being sprayed along an ant trail on a kitchen floor, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Seal the entry points",
+      "narration": "Step four. Once you know where the ants enter, close the gap. Use silicone caulk to fill cracks around windows, doors, baseboards and pipes. Fit weatherstripping on doors, and repair damaged window screens. Seal small holes in the wall around cables. Doing this is a long-term fix. Without entry points, the ants cannot return, however many scouts come by. Let the caulk dry completely before moving on. Use a flashlight to check dark corners, since ants like to hide behind skirting boards and cabinets.",
+      "tip": "A sealed gap is a permanent fix",
+      "mistake": "Only wiping up without sealing cracks",
+      "imageQuery": "caulk gun window",
+      "imagePrompt": "A caulk gun sealing a small gap along a window frame with a white bead of silicone, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Use natural deterrents",
+      "narration": "Step five. Ants dislike certain smells and barriers. Draw a line of ground cinnamon, black pepper or used coffee grounds across their path. Wipe doorways with lemon juice. A thin line of food-grade diatomaceous earth is a natural option, because it dries out the insects that cross it. Use it where it stays dry, and avoid breathing the dust. Reapply after rain or cleaning. These methods block rather than kill, so combine them with the previous steps. Keep pets out of the area while the powder is down, and clean up after a few days.",
+      "tip": "Thin lines work better than piles",
+      "mistake": "Breathing in diatomaceous earth dust",
+      "imageQuery": "cinnamon line doorway",
+      "imagePrompt": "A thin line of ground cinnamon along a door threshold on a tile floor, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Deal with ants in the garden",
+      "narration": "Step six. Outdoors, ants often farm aphids on your plants. Rinse the aphids away with a strong spray of water, or with soapy water, and the ants will lose interest. Sprinkle food-grade diatomaceous earth around the plants and along the nest entrance on a dry day. Pour very hot, not boiling, water onto a nest in a paved area, away from plant roots. Keep mulch thin near the house, and trim any branches touching the walls. Do this in the morning, when the ground is cool, and check again the next day.",
+      "tip": "Remove aphids and the ants leave",
+      "mistake": "Pouring hot water near plant roots",
+      "imageQuery": "ant nest garden soil",
+      "imagePrompt": "A small ant nest mound in garden soil next to a green plant with a gloved hand holding a watering can, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Stay consistent, know when to call",
+      "narration": "Step seven. Natural methods need repeating for a week or two. Keep wiping trails and reapplying barriers. Check for new entry points after heavy rain. If you see large ants with winged forms, sawdust near wood, or a colony that keeps returning, it could be carpenter ants or another structural problem, so call a pest control professional. Prevention is the key. Keep the kitchen clean, the cracks sealed and the garden tidy. Keep a notebook of where and when ants appear, because patterns will tell you where to look.",
+      "tip": "Consistency beats strong products",
+      "mistake": "Giving up after one day",
+      "imageQuery": "tidy clean kitchen counter",
+      "imagePrompt": "A tidy clean kitchen counter with a sealed jar and a spray bottle, bright morning light, photorealistic, no text",
+      "media": "photo"
+    }
+  ],
+  "mistakesToAvoid": {
+    "narration": "Here are the mistakes to avoid. First, spraying the visible ants without removing the food source. More will come. Second, using strong chemicals or essential oils around pets and children. Even natural products can be harmful in the wrong place. And third, giving up too early. Natural methods work through repetition, so keep it up for at least a week. If the problem keeps growing, there may be a nest in your wall. Also remember that the ants you see are only a small part of the colony, so the real fix is cutting off their supply. Be patient, be consistent, and be careful around pets.",
+    "items": [
+      "Ignoring the food and water source",
+      "Using oils or powders near pets",
+      "Quitting after a single attempt"
+    ]
+  },
+  "recap": {
+    "narration": "Let's recap. Find the trail and the entry point. Clean up food and water sources. Erase the scent trails with vinegar. Seal the entry points. Use natural deterrents like cinnamon or diatomaceous earth. Deal with ants and aphids in the garden. And be consistent, and know when to call a professional. Seven steps, no harsh chemicals, and a kitchen that stays ant free. Remove, erase, block, and repeat. Do that for a week, and most kitchens are ant free.",
+    "items": [
+      "Find the trail and the entry point",
+      "Clean up food and water sources",
+      "Erase the scent trails",
+      "Seal the entry points",
+      "Use natural deterrents",
+      "Deal with ants in the garden",
+      "Stay consistent, know when to call"
+    ]
+  },
+  "outro": "That's how you get rid of ants naturally, in the kitchen and the garden. If your counters are ant free, subscribe to WikiTube, because we publish a new how-to every single day. Tell us in the comments where your ants were coming from, and what you would like us to explain next. See you tomorrow. Don't forget to share this with a friend who has an ant problem.",
+  "metadata": {
+    "title": "How to Get Rid of Ants Naturally (Garden and Kitchen)",
+    "description": "Ants in the kitchen or the garden? In this step-by-step video you'll learn how to get rid of ants naturally: find the trail and entry point, clean up food and water sources, erase scent trails with vinegar, seal entry points with caulk, use natural deterrents like cinnamon and food-grade diatomaceous earth, deal with aphids and nests in the garden, and know when to call a professional. No harsh pesticides.\n\nYou'll need: white vinegar and water, a spray bottle, food-grade diatomaceous earth, caulk, a soapy sponge.\n\nWikiTube publishes a new step-by-step how-to video every day. Subscribe so you don't miss the next one.",
+    "tags": [
+      "how to get rid of ants naturally",
+      "get rid of ants in kitchen",
+      "natural ant repellent",
+      "ants in the house",
+      "vinegar ants",
+      "diatomaceous earth ants",
+      "stop ants coming in",
+      "ants in garden",
+      "natural pest control",
+      "home remedies ants",
+      "how to",
+      "wikitube"
+    ],
+    "thumbnailTitle": "ANTS GONE, NATURALLY",
+    "chapters": "auto",
+    "localizations": {
+      "es": {
+        "title": "Cómo eliminar las hormigas de forma natural (jardín y cocina)",
+        "description": "¿Hormigas en la cocina o en el jardín? En este vídeo paso a paso aprenderás a eliminar las hormigas de forma natural: encontrar el rastro y la entrada, limpiar las fuentes de comida y agua, borrar los rastros de olor con vinagre, sellar las entradas con silicona, usar repelentes naturales como la canela y la tierra de diatomeas apta para alimentos, tratar pulgones y nidos en el jardín y saber cuándo llamar a un profesional. Sin pesticidas fuertes.\n\nWikiTube publica un nuevo tutorial paso a paso cada día. Suscríbete para no perderte el siguiente."
+      },
+      "pt": {
+        "title": "Como eliminar formigas de forma natural (jardim e cozinha)",
+        "description": "Formigas na cozinha ou no jardim? Neste vídeo passo a passo você aprende a eliminar formigas de forma natural: encontrar o rastro e a entrada, limpar fontes de comida e água, apagar os rastros de cheiro com vinagre, vedar as entradas com silicone, usar repelentes naturais como canela e terra de diatomácea de grau alimentício, tratar pulgões e ninhos no jardim e saber quando chamar um profissional. Sem pesticidas fortes.\n\nA WikiTube publica um novo tutorial passo a passo todos os dias. Inscreva-se para não perder o próximo."
+      },
+      "fr": {
+        "title": "Comment se débarrasser des fourmis naturellement (jardin et cuisine)",
+        "description": "Des fourmis dans la cuisine ou au jardin ? Dans cette vidéo pas à pas, apprenez à vous débarrasser des fourmis naturellement : repérer la piste et l'entrée, nettoyer les sources de nourriture et d'eau, effacer les traces d'odeur avec du vinaigre, boucher les accès au silicone, utiliser des répulsifs naturels comme la cannelle et la terre de diatomée alimentaire, traiter pucerons et nids au jardin et savoir quand appeler un professionnel. Sans pesticides agressifs.\n\nWikiTube publie chaque jour un nouveau tutoriel pas à pas. Abonnez-vous pour ne pas manquer le prochain."
+      },
+      "de": {
+        "title": "Ameisen natürlich loswerden (Garten und Küche)",
+        "description": "Ameisen in der Küche oder im Garten? In diesem Video lernst du Schritt für Schritt, wie du Ameisen auf natürliche Weise loswirst: Ameisenstraße und Eintrittsstelle finden, Nahrungs- und Wasserquellen beseitigen, Duftspuren mit Essig löschen, Eintrittsstellen abdichten, natürliche Abwehrmittel wie Zimt und Diatomeenerde in Lebensmittelqualität nutzen, Blattläuse und Nester im Garten angehen und wissen, wann ein Profi gefragt ist. Ohne aggressive Pestizide.\n\nWikiTube veröffentlicht jeden Tag eine neue Schritt-für-Schritt-Anleitung. Abonniere den Kanal, um die nächste nicht zu verpassen."
+      },
+      "hi": {
+        "title": "चींटियों से प्राकृतिक तरीके से कैसे छुटकारा पाएं (बगीचा और रसोई)",
+        "description": "रसोई या बगीचे में चींटियां हैं? इस स्टेप-बाय-स्टेप वीडियो में सीखें चींटियों से प्राकृतिक तरीके से कैसे छुटकारा पाएं: उनका रास्ता और घुसने की जगह खोजें, खाने-पानी के स्रोत साफ करें, सिरके से गंध के निशान मिटाएं, दरारें सील करें, दालचीनी और फ़ूड-ग्रेड डायटोमेशियस अर्थ जैसे प्राकृतिक उपाय अपनाएं, बगीचे में एफ़िड और बांबी का इलाज करें और जानें कब प्रोफ़ेशनल बुलाना है। कोई कड़े कीटनाशक नहीं।\n\nWikiTube पर हर दिन एक नया स्टेप-बाय-स्टेप ट्यूटोरियल आता है। अगला वीडियो न छूटे, इसलिए सब्सक्राइब करें।"
+      },
+      "it": {
+        "title": "Come eliminare le formiche in modo naturale (giardino e cucina)",
+        "description": "Formiche in cucina o in giardino? In questo video passo passo scopri come eliminare le formiche in modo naturale: trovare la scia e il punto d'ingresso, pulire le fonti di cibo e acqua, cancellare le tracce di odore con l'aceto, sigillare gli ingressi con il silicone, usare repellenti naturali come la cannella e la terra di diatomee alimentare, trattare afidi e formicai in giardino e sapere quando chiamare un professionista. Senza pesticidi aggressivi.\n\nWikiTube pubblica ogni giorno un nuovo tutorial passo passo. Iscriviti per non perdere il prossimo."
+      },
+      "ja": {
+        "title": "アリを自然な方法で駆除する方法（庭とキッチン）",
+        "description": "キッチンや庭にアリが出て困っていませんか？このステップ解説では、自然な方法でアリを遠ざけるやり方を紹介します。行列と侵入口を見つける、食べ物と水の元を片付ける、お酢でフェロモンの道を消す、コーキングで隙間をふさぐ、シナモンや食品グレードの珪藻土で寄せつけない、庭のアブラムシと巣への対処、専門業者を呼ぶ目安まで。強い殺虫剤は使いません。\n\nWikiTubeでは毎日、新しいステップバイステップのハウツー動画を公開しています。次の動画を見逃さないよう、チャンネル登録をお願いします。"
+      },
+      "id": {
+        "title": "Cara Mengusir Semut Secara Alami (Kebun dan Dapur)",
+        "description": "Semut di dapur atau di kebun? Dalam video langkah demi langkah ini, Anda akan belajar mengusir semut secara alami: temukan jalur dan jalan masuknya, bersihkan sumber makanan dan air, hapus jejak aroma dengan cuka, tutup celah dengan sealant, gunakan pengusir alami seperti kayu manis dan diatomaceous earth food-grade, atasi kutu daun dan sarang di kebun, serta tahu kapan harus memanggil profesional. Tanpa pestisida keras.\n\nWikiTube menerbitkan tutorial langkah demi langkah baru setiap hari. Subscribe agar tidak ketinggalan video berikutnya."
+      }
+    }
+  },
+  "short": {
+    "title": "Get rid of ants naturally in 3 steps #shorts",
+    "description": "Clean, vinegar, seal. Full 7-step guide on the channel. #ants #naturalremedies #howto",
+    "hook": "Ants everywhere? Get rid of them without chemicals.",
+    "steps": [
+      {
+        "title": "Remove the food",
+        "narration": "One. Wipe crumbs and spills, and store sweet food in airtight containers."
+      },
+      {
+        "title": "Vinegar spray",
+        "narration": "Two. Spray equal parts vinegar and water on the trail, and wipe it away."
+      },
+      {
+        "title": "Seal the gap",
+        "narration": "Three. Find where they come in, and seal it with caulk."
+      }
+    ],
+    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+  }
+}

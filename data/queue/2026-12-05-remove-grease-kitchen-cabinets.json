@@ -1,0 +1,180 @@
+{
+  "$schema": "../episode.schema.json",
+  "id": "2026-12-05-remove-grease-kitchen-cabinets",
+  "date": "2026-12-05",
+  "slug": "remove-grease-kitchen-cabinets",
+  "category": "Home",
+  "title": "How to Remove Sticky Grease From Kitchen Cabinets Easily",
+  "hook": "Sticky, yellowish film on your kitchen cabinets, especially above the stove and around the handles. It attracts dust, and gets worse every month. In seven steps, you'll learn how to dissolve it with gentle products, with no harsh scrubbing and no damage to the finish. It's easier than it looks.",
+  "intro": "Cabinet grease is a mix of cooking oil vapor, steam and dust that sticks to every surface in your kitchen. Because it builds up slowly, you may not notice until you touch it. The trick is to use a degreaser that breaks the oil down, rather than scrubbing hard, which can wear the finish. We'll start with the mildest option, and move up only if needed. First, a quick note. Always test any cleaner in a hidden spot. The whole job is gentle rather than heavy, so put on some music and take it one door at a time. You will be surprised how different the kitchen looks afterwards.",
+  "youNeed": [
+    "Warm water and dish soap",
+    "Baking soda",
+    "Soft microfiber cloths",
+    "An old soft toothbrush",
+    "White vinegar (optional)"
+  ],
+  "youNeedNarration": "Here's what you need. Warm water and a good grease-cutting dish soap. Baking soda for stubborn areas. Soft microfiber cloths, at least three. An old, soft toothbrush for corners and carved edges. And white vinegar, but only for sealed or painted cabinets. You do not need steel wool, abrasive sponges or harsh oven cleaners. Most of these things are probably under your sink already, and none of them are expensive.",
+  "heroImageQuery": "kitchen cabinets wiping cloth",
+  "heroImagePrompt": "Clean white kitchen cabinets with a hand wiping a door using a yellow microfiber cloth, bright morning light, photorealistic, no text",
+  "steps": [
+    {
+      "title": "Empty the area and test",
+      "narration": "Step one. Clear the counter below the cabinets and lay down a towel to catch drips. Find out what the cabinet finish is: sealed wood, painted wood, laminate or thermofoil. Then test your cleaning mix on a hidden spot, such as the inside of a door or the bottom edge, and wait a few minutes. If there's no discoloration or softening, you're good to go. Raw or unfinished wood needs much less moisture than other finishes. If you're unsure about the finish, ask the manufacturer or use only mild soap and water. Gloves help keep your hands soft.",
+      "tip": "Test in a hidden spot first",
+      "mistake": "Skipping the patch test on painted cabinets",
+      "imageQuery": "kitchen cabinets counter towel",
+      "imagePrompt": "A kitchen counter covered with a towel beneath wooden cabinets, ready for cleaning, bright light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Dust and dry wipe first",
+      "narration": "Step two. Before you add any liquid, wipe the cabinets with a dry microfiber cloth to remove loose dust, lint and crumbs. Grease and dust together form a sticky paste, which becomes harder to clean once it's wet and smeared around. Work from the top down, and pay attention to the tops of cabinet doors, the corners and the area around the handles. A vacuum with a brush attachment is helpful for carved or ridged doors. Don't skip this, since wiping a dusty surface with a wet cloth turns the dirt into a grey smear.",
+      "tip": "Dry wipe from the top down",
+      "mistake": "Wetting dusty surfaces first",
+      "imageQuery": "dusting kitchen cabinets",
+      "imagePrompt": "A hand dusting kitchen cabinet doors with a dry microfiber cloth, soft daylight, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Mix a gentle degreaser",
+      "narration": "Step three. Fill a bowl or bucket with warm water, and add a few drops of grease-cutting dish soap. Stir it gently until it's slightly sudsy. This simple mix dissolves cooking oil on most finishes. For sealed or painted cabinets with heavy buildup, you can use a half and half mix of white vinegar and warm water instead. Avoid vinegar on unfinished wood, natural stone countertops and any glue seams. Never combine different cleaning products, and never use bleach. Prepare a fresh batch if the water turns cloudy. Warm water works much better than cold water on cooking oil.",
+      "tip": "Dish soap is the safest start",
+      "mistake": "Mixing bleach with any cleaner",
+      "imageQuery": "soapy water bowl cloth",
+      "imagePrompt": "A bowl of warm soapy water with a microfiber cloth beside it on a kitchen counter, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Wipe and let it work",
+      "narration": "Step four. Dip a microfiber cloth in the solution and wring it out well, so it's damp but not dripping. Wipe a small section of the cabinet, and then let the solution sit for a minute or two. This dwell time lets the soap soften the grease, so you don't need to scrub. Rinse the cloth often, as it picks up oil. Work in small sections, using gentle circles, and move from the top of the cabinet to the bottom. Use a second cloth to rinse and wring it out regularly. It is better to take more passes than to use more liquid.",
+      "tip": "Damp cloth, never dripping",
+      "mistake": "Soaking wood with water",
+      "imageQuery": "wiping greasy cabinet door",
+      "imagePrompt": "A damp yellow microfiber cloth wiping a greasy cabinet door, showing a clean streak, close-up, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Treat thick buildup",
+      "narration": "Step five. For stubborn, thick grease, mix baking soda with a little water to make a soft paste. Spread it on the sticky areas, let it sit for five minutes, and gently work it with the soft toothbrush, in small circles. Baking soda is mildly abrasive, so use light pressure, and avoid it on high-gloss finishes, which can dull. Pay attention to the handles, hinges and the grooves of paneled doors. Wipe the paste away with a clean damp cloth. Go slowly near hinges and edges, where the finish is thinnest. A pea-sized amount of paste goes a long way.",
+      "tip": "Soft toothbrush for grooves and handles",
+      "mistake": "Using abrasive scrubbers on cabinet doors",
+      "imageQuery": "baking soda toothbrush cabinet",
+      "imagePrompt": "A soft toothbrush with white baking soda paste cleaning a cabinet handle area, macro, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Rinse and dry thoroughly",
+      "narration": "Step six. Go over every surface with a second cloth, dampened with plain water, to remove soap and any leftover grease. Soap residue can attract new dirt. Then immediately dry the cabinets with a dry microfiber cloth. Moisture left on wood can cause swelling or stains, especially near the edges and joints. Check the cabinets in the light from a few angles. If you see sticky patches, repeat the previous step on just those spots. A quick pass with a clean dry cloth also removes streaks, and leaves the surface smooth to the touch.",
+      "tip": "Dry right away, especially wood",
+      "mistake": "Leaving water sitting on the surface",
+      "imageQuery": "drying cabinet door cloth",
+      "imagePrompt": "A hand drying a clean cabinet door with a dry white cloth, shiny finish, bright kitchen, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Stop grease building up again",
+      "narration": "Step seven. Prevention takes far less effort than cleaning. Use your extractor fan or range hood whenever you cook, and clean its filters monthly. Wipe the cabinets above the stove and around handles every week with a damp cloth. Cover pans while frying to cut down on spatter. If your cabinets have a new buildup layer, you'll remove it much faster. Keep a cloth near the stove, and wipe splashes on the day they happen. Wash the filters of your range hood in hot soapy water once a month, since clogged filters push grease into the room.",
+      "tip": "A weekly wipe takes two minutes",
+      "mistake": "Cooking without turning on the extractor fan",
+      "imageQuery": "kitchen range hood",
+      "imagePrompt": "A kitchen range hood switched on above a stove with a pan cooking, clean cabinets beside it, photorealistic, no text",
+      "media": "photo"
+    }
+  ],
+  "mistakesToAvoid": {
+    "narration": "Here are the mistakes to avoid. First, using too much water on wood. It can swell, warp or stain the surface, so keep the cloth damp, not wet. Second, scrubbing hard with abrasive pads, which scratch the finish and make future grease stick even more. And third, using harsh chemicals without testing. Some cleaners strip paint or varnish. Be gentle, test first, and let the soap do the work. A little patience beats a lot of scrubbing every time.",
+    "items": [
+      "Soaking wood with water",
+      "Scrubbing with abrasive pads",
+      "Using strong chemicals without testing"
+    ]
+  },
+  "recap": {
+    "narration": "Let's recap. Clear the area and test in a hidden spot. Dust and dry wipe first. Mix a gentle degreaser. Wipe and let it work. Treat thick buildup with baking soda. Rinse and dry thoroughly. And stop the grease from coming back with a weekly wipe. Seven steps, about an hour, and kitchen cabinets that feel clean again. Gentle products, a little time, and dry cloths do all the work.",
+    "items": [
+      "Empty the area and test",
+      "Dust and dry wipe first",
+      "Mix a gentle degreaser",
+      "Wipe and let it work",
+      "Treat thick buildup",
+      "Rinse and dry thoroughly",
+      "Stop grease building up again"
+    ]
+  },
+  "outro": "That's how you remove sticky grease from kitchen cabinets. If your cabinets look brighter, subscribe to WikiTube, because we publish a new how-to every single day. Tell us in the comments which cabinet was the stickiest, and what you would like us to explain next. See you tomorrow. Don't forget to give the handles a wipe before you go.",
+  "metadata": {
+    "title": "How to Remove Sticky Grease From Kitchen Cabinets Easily",
+    "description": "Sticky, greasy kitchen cabinets? In this step-by-step video you'll learn how to remove sticky grease from kitchen cabinets with no harsh scrubbing: test the finish, dry wipe the dust, mix a gentle dish soap degreaser, let it work, treat thick buildup with baking soda, rinse and dry, and stop the grease from returning. Safe for most sealed or painted wood, laminate and thermofoil cabinets.\n\nYou'll need: warm water and dish soap, baking soda, soft microfiber cloths, an old soft toothbrush, white vinegar (optional).\n\nWikiTube publishes a new step-by-step how-to video every day. Subscribe so you don't miss the next one.",
+    "tags": [
+      "how to clean greasy kitchen cabinets",
+      "remove grease from cabinets",
+      "clean sticky kitchen cabinets",
+      "degrease kitchen cabinets",
+      "kitchen cabinet cleaning",
+      "baking soda grease",
+      "dish soap degreaser",
+      "clean cabinets above stove",
+      "cleaning hacks",
+      "kitchen cleaning",
+      "how to",
+      "wikitube"
+    ],
+    "thumbnailTitle": "STICKY GREASE GONE",
+    "chapters": "auto",
+    "localizations": {
+      "es": {
+        "title": "Cómo quitar la grasa pegajosa de los muebles de cocina fácilmente",
+        "description": "¿Muebles de cocina pegajosos y grasientos? En este vídeo paso a paso aprenderás a quitar la grasa sin frotar con fuerza: probar el acabado, quitar el polvo en seco, preparar un desengrasante suave con jabón, dejarlo actuar, tratar la grasa gruesa con bicarbonato, aclarar y secar, y evitar que vuelva. Seguro para la mayoría de muebles de madera sellada o pintada, laminado y termolaminado.\n\nWikiTube publica un nuevo tutorial paso a paso cada día. Suscríbete para no perderte el siguiente."
+      },
+      "pt": {
+        "title": "Como tirar a gordura pegajosa dos armários da cozinha facilmente",
+        "description": "Armários de cozinha pegajosos e engordurados? Neste vídeo passo a passo você aprende a tirar a gordura sem esfregar com força: testar o acabamento, tirar o pó a seco, preparar um desengordurante suave com detergente, deixar agir, tratar gordura grossa com bicarbonato, enxaguar e secar, e evitar que volte. Seguro para a maioria dos armários de madeira selada ou pintada, laminado e termoformado.\n\nA WikiTube publica um novo tutorial passo a passo todos os dias. Inscreva-se para não perder o próximo."
+      },
+      "fr": {
+        "title": "Comment enlever facilement la graisse collante des meubles de cuisine",
+        "description": "Des meubles de cuisine collants et gras ? Dans cette vidéo pas à pas, apprenez à enlever la graisse sans frotter fort : tester la finition, dépoussiérer à sec, préparer un dégraissant doux au liquide vaisselle, laisser agir, traiter les dépôts épais au bicarbonate, rincer et sécher, puis éviter le retour. Adapté à la plupart des meubles en bois verni ou peint, stratifiés et thermoformés.\n\nWikiTube publie chaque jour un nouveau tutoriel pas à pas. Abonnez-vous pour ne pas manquer le prochain."
+      },
+      "de": {
+        "title": "Klebriges Fett von Küchenschränken einfach entfernen",
+        "description": "Klebrige, fettige Küchenschränke? In diesem Video lernst du Schritt für Schritt, wie du Fett ohne kräftiges Schrubben entfernst: Oberfläche testen, trocken abstauben, einen milden Fettlöser mit Spülmittel anrühren, einwirken lassen, dicke Beläge mit Natron behandeln, abwischen und trocknen und neuen Fettfilm vermeiden. Geeignet für die meisten versiegelten oder lackierten Holz-, Laminat- und Thermofolie-Fronten.\n\nWikiTube veröffentlicht jeden Tag eine neue Schritt-für-Schritt-Anleitung. Abonniere den Kanal, um die nächste nicht zu verpassen."
+      },
+      "hi": {
+        "title": "किचन कैबिनेट से चिपचिपी चिकनाई आसानी से कैसे हटाएं",
+        "description": "किचन कैबिनेट चिपचिपे और चिकने हो गए हैं? इस स्टेप-बाय-स्टेप वीडियो में सीखें बिना ज़ोर से रगड़े चिकनाई कैसे हटाएं: फ़िनिश की जांच करें, सूखे कपड़े से धूल हटाएं, डिश सोप से हल्का डीग्रीज़र बनाएं, कुछ देर छोड़ें, मोटी परत पर बेकिंग सोडा लगाएं, धोकर सुखाएं और चिकनाई वापस आने से रोकें। सील्ड या पेंट की हुई लकड़ी, लैमिनेट और थर्मोफ़ॉइल कैबिनेट के लिए सुरक्षित।\n\nWikiTube पर हर दिन एक नया स्टेप-बाय-स्टेप ट्यूटोरियल आता है। अगला वीडियो न छूटे, इसलिए सब्सक्राइब करें।"
+      },
+      "it": {
+        "title": "Come togliere facilmente il grasso appiccicoso dai pensili della cucina",
+        "description": "Pensili della cucina appiccicosi e unti? In questo video passo passo scopri come eliminare il grasso senza strofinare con forza: testare la finitura, spolverare a secco, preparare uno sgrassante delicato con detersivo per piatti, lasciare agire, trattare i residui spessi con bicarbonato, risciacquare e asciugare, ed evitare che torni. Adatto alla maggior parte di mobili in legno verniciato, laminato e termolaminato.\n\nWikiTube pubblica ogni giorno un nuovo tutorial passo passo. Iscriviti per non perdere il prossimo."
+      },
+      "ja": {
+        "title": "キッチンキャビネットのベタベタ油汚れを楽に落とす方法",
+        "description": "キッチンの戸棚がベタつき、油で汚れていませんか？このステップ解説では、力を入れてこすらずに油汚れを落とす方法を紹介します。仕上げを確認してテストする、乾拭きでホコリを取る、食器用洗剤のやさしい脱脂液を作る、しばらく置く、頑固な汚れに重曹を使う、水拭きして乾かす、再発を防ぐところまで。塗装木材、ラミネートなどに安全です。\n\nWikiTubeでは毎日、新しいステップバイステップのハウツー動画を公開しています。次の動画を見逃さないよう、チャンネル登録をお願いします。"
+      },
+      "id": {
+        "title": "Cara Menghilangkan Lemak Lengket dari Kabinet Dapur dengan Mudah",
+        "description": "Kabinet dapur lengket dan berminyak? Dalam video langkah demi langkah ini, Anda akan belajar menghilangkan lemak tanpa menggosok keras: uji lapisan akhir, lap debu dalam keadaan kering, buat pelarut lemak lembut dari sabun cuci piring, diamkan, tangani lemak tebal dengan baking soda, bilas dan keringkan, serta cegah lemak kembali. Aman untuk sebagian besar kabinet kayu yang dilapisi atau dicat, laminasi, dan termofoil.\n\nWikiTube menerbitkan tutorial langkah demi langkah baru setiap hari. Subscribe agar tidak ketinggalan video berikutnya."
+      }
+    }
+  },
+  "short": {
+    "title": "Remove sticky cabinet grease fast #shorts",
+    "description": "Dish soap, soft cloth, baking soda for thick spots. Full 7-step guide on the channel. #cleaninghacks #kitchen #howto",
+    "hook": "Sticky grease on your kitchen cabinets? Remove it gently.",
+    "steps": [
+      {
+        "title": "Dry wipe first",
+        "narration": "One. Wipe off loose dust with a dry microfiber cloth, from the top down."
+      },
+      {
+        "title": "Soap and let it sit",
+        "narration": "Two. Wipe with warm soapy water on a damp cloth, then wait a minute."
+      },
+      {
+        "title": "Rinse and dry",
+        "narration": "Three. Wipe with plain water, and dry right away. Use baking soda paste on thick spots."
+      }
+    ],
+    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+  }
+}

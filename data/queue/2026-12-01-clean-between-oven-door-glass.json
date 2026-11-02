@@ -1,0 +1,180 @@
+{
+  "$schema": "../episode.schema.json",
+  "id": "2026-12-01-clean-between-oven-door-glass",
+  "date": "2026-12-01",
+  "slug": "clean-between-oven-door-glass",
+  "category": "Kitchen",
+  "title": "How to Clean Between the Glass on Your Oven Door",
+  "hook": "Greasy streaks and dark spots trapped between the panes of your oven door can't be reached with a cloth. It's one of the most annoying cleaning problems in any kitchen. But with the right steps, you can get inside the door safely and make the glass crystal clear again. Take it slowly and it's very manageable.",
+  "intro": "Most oven doors are made of two or three layers of glass, and splashes of grease get in through small vents at the top. To clean them, you need to remove the door, and take the glass apart. That sounds scary, but on most ovens it takes about thirty minutes, and requires only a screwdriver. A word of caution before we start. Door designs vary, so look at your manual or the maker's website for the exact method for your model. If your door is sealed and has no screws, don't force it, and talk to the manufacturer.",
+  "youNeed": [
+    "A screwdriver",
+    "Dish soap and warm water",
+    "Microfiber cloths",
+    "A large towel",
+    "Your oven manual"
+  ],
+  "youNeedNarration": "Here's what you need. A screwdriver, usually a Phillips head. Warm water and a little dish soap. Two or three microfiber cloths, and a large towel or blanket to protect the door and the table. Cotton gloves, if you have them. And your oven manual, or a photo of the door instructions from the manufacturer's website. A phone for taking photos is useful too.",
+  "heroImageQuery": "oven door glass clean kitchen",
+  "heroImagePrompt": "A spotless stainless steel oven with a crystal clear glass door in a modern kitchen, soft daylight, photorealistic, no text",
+  "steps": [
+    {
+      "title": "Switch off and cool the oven",
+      "narration": "Step one. Turn the oven off and let it cool completely, for at least an hour. If you can, unplug it, or switch off the power at the circuit breaker, and turn off the gas if you have a gas oven. Read the part of your manual that explains how to remove the door. Take photos of the door and hinges before you touch anything, so you remember how everything fits. This is a job to do calmly and with good light. Also, remove any racks, so the oven is easier to reach. Let the lights cool, too.",
+      "tip": "Photos now save headaches later",
+      "mistake": "Working on a warm oven",
+      "imageQuery": "open oven door",
+      "imagePrompt": "An open oven door in a tidy kitchen with the oven empty and cool, soft window light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Remove the oven door",
+      "narration": "Step two. Open the door fully, and look for the hinge locks, small metal clips or levers on each hinge. Flip them to the locked position, as shown in your manual. Then close the door gently until it stops at about fifteen degrees, grip both sides, and lift it up and out towards you. The door is heavier than it looks, so ask someone to help if needed. Lay it flat on a towel on a table or the floor, with the handle facing you. If you can't find the locks, search the oven's model number online. A short video of your exact model can help.",
+      "tip": "Lock the hinges before lifting",
+      "mistake": "Lifting the door without locking the hinges",
+      "imageQuery": "removing oven door",
+      "imagePrompt": "Two hands lifting a heavy oven door away from its hinges in a kitchen, towel on the table nearby, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Open the top of the door",
+      "narration": "Step three. Look at the top edge of the door, where there is usually a metal trim with two or three screws, or clips on the sides. Remove the screws, and set them aside in a cup, so they do not roll away. Lift off the trim carefully. You will then see the inner glass panes, which slide out or lift out, held by small clips or rubber spacers. Keep track of the order of every part, taking a photo as you go. Tip the door gently to see if the trim moves. Keep the door flat, so the glass doesn't slide out suddenly.",
+      "tip": "Use a cup for the screws",
+      "mistake": "Forcing a clip that has not released",
+      "imageQuery": "unscrewing oven trim",
+      "imagePrompt": "A screwdriver removing screws from the top trim of an oven door lying on a towel, close-up, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Slide out the glass panes",
+      "narration": "Step four. Carefully slide out the middle pane or panes, handling them by the edges, with both hands. Wear gloves, as glass edges can be sharp. Lay each pane on a clean towel, in order, and remember which side faced which way. Some panes have a coating on one side, so note the orientation. If anything feels stuck, stop and check your manual. Never force glass. If a pane is cracked, don't reuse it. Place a soft cloth between the panes while they're stacked, if you must set them down together, so they don't scratch each other.",
+      "tip": "Number the panes in order",
+      "mistake": "Gripping glass by the face with wet hands",
+      "imageQuery": "removing oven glass",
+      "imagePrompt": "Gloved hands carefully sliding a glass pane out of an oven door, towel on the table, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Wash the glass",
+      "narration": "Step five. Wash each pane in warm water with a little dish soap, using a soft sponge or a microfiber cloth. Burnt-on spots can be soaked with a paste of baking soda and water for fifteen minutes, then gently wiped. Never use steel wool, scouring powders or razor blades, which scratch the glass. Rinse well, then dry and polish each pane with a lint-free cloth until it's streak-free. Clean the inside of the door frame too, and check the vents for grease. Take your time with the corners. A thin, damp cloth wrapped around a ruler can help you reach narrow spots.",
+      "tip": "Baking soda paste for burnt spots",
+      "mistake": "Scrubbing with steel wool",
+      "imageQuery": "washing oven glass",
+      "imagePrompt": "A hand wiping a clean glass pane with a microfiber cloth over a kitchen towel, bright light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Reassemble in the same order",
+      "narration": "Step six. Put the panes back in the reverse order that you took them out, using your photos. Make sure that each pane sits in its slot or clip, with the same orientation, and that any rubber spacers or gaskets are in place. Then put on the top trim, and tighten the screws gently, just until snug. Over-tightening can crack the glass. Run your finger along the edge to make sure everything is level, and wipe away fingerprints. Take a final look through the glass in the light, since dust or smears are easy to see before the door is closed up.",
+      "tip": "Follow your photos backward",
+      "mistake": "Overtightening the screws",
+      "imageQuery": "reassembling oven door",
+      "imagePrompt": "Hands fitting the top trim back onto a reassembled oven door lying on a towel, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Refit the door and test",
+      "narration": "Step seven. Hold the door at the same shallow angle as before, and slide the hinge arms back into the slots on the oven. Push the door fully down, then open it all the way and flip the hinge locks back to their normal positions. Close and open the door a few times to check that it moves smoothly and shuts tightly. Switch the power back on, and run the oven for a few minutes. Check that the door seals properly. Take care to hold the door with both hands. Once it is back, the oven should look like new.",
+      "tip": "Unlock the hinges before closing",
+      "mistake": "Closing the door with the hinge locks on",
+      "imageQuery": "refitting oven door",
+      "imagePrompt": "A clean oven door being refitted onto the hinges, bright kitchen, photorealistic, no text",
+      "media": "photo"
+    }
+  ],
+  "mistakesToAvoid": {
+    "narration": "Here are the mistakes to avoid. First, rushing without reading your manual or taking photos. If you can't remember how the parts fit, reassembly is hard. Second, using abrasive tools or razor blades on the glass, which leave scratches that trap grease. And third, forcing parts that don't want to move. If something sticks, stop and check the instructions, or ask a technician. Safety comes first with ovens, glass and hinges. If anything feels unsafe, a technician can do this job quickly.",
+    "items": [
+      "Skipping photos and the manual",
+      "Scratching glass with abrasives",
+      "Forcing stuck clips or panes"
+    ]
+  },
+  "recap": {
+    "narration": "Let's recap. Switch off the oven and let it cool. Remove the door, using the hinge locks. Open the top trim. Slide out the glass panes. Wash and dry each pane. Reassemble in the same order. And refit the door and test it. Seven steps, about forty minutes, and an oven door you can see through again. Photos and patience are the secret tools here.",
+    "items": [
+      "Switch off and cool the oven",
+      "Remove the oven door",
+      "Open the top of the door",
+      "Slide out the glass panes",
+      "Wash the glass",
+      "Reassemble in the same order",
+      "Refit the door and test"
+    ]
+  },
+  "outro": "That's how you clean between the glass on your oven door. If your oven window is clear again, subscribe to WikiTube, because we publish a new how-to every single day. Tell us in the comments how greasy your oven was, and what you would like us to explain next. See you tomorrow.",
+  "metadata": {
+    "title": "How to Clean Between the Glass on Your Oven Door",
+    "description": "Grease stuck between the glass panes of your oven door? In this step-by-step video you'll learn how to clean between the glass on your oven door safely: cool the oven, take photos, remove the door using the hinge locks, open the top trim, slide out the glass panes, wash and dry them, reassemble in the right order and refit the door. Check your manual first, since models differ slightly.\n\nYou'll need: a screwdriver, dish soap and warm water, microfiber cloths, a large towel, your oven manual.\n\nWikiTube publishes a new step-by-step how-to video every day. Subscribe so you don't miss the next one.",
+    "tags": [
+      "how to clean oven door glass",
+      "clean between oven door glass",
+      "oven door glass cleaning",
+      "remove oven door",
+      "clean oven window",
+      "oven glass greasy",
+      "oven cleaning hacks",
+      "clean oven door inside",
+      "kitchen cleaning",
+      "cleaning hacks",
+      "how to",
+      "wikitube"
+    ],
+    "thumbnailTitle": "CLEAN INSIDE THE OVEN GLASS",
+    "chapters": "auto",
+    "localizations": {
+      "es": {
+        "title": "Cómo limpiar entre los cristales de la puerta del horno",
+        "description": "¿Grasa atrapada entre los cristales de la puerta del horno? En este vídeo paso a paso aprenderás a limpiarla con seguridad: enfriar el horno, hacer fotos, quitar la puerta con los seguros de las bisagras, abrir el embellecedor superior, sacar los cristales, lavarlos y secarlos, montarlos en el mismo orden y volver a colocar la puerta. Consulta antes el manual, porque los modelos varían un poco.\n\nWikiTube publica un nuevo tutorial paso a paso cada día. Suscríbete para no perderte el siguiente."
+      },
+      "pt": {
+        "title": "Como limpar entre os vidros da porta do forno",
+        "description": "Gordura presa entre os vidros da porta do forno? Neste vídeo passo a passo você aprende a limpar com segurança: esfriar o forno, tirar fotos, remover a porta usando as travas das dobradiças, abrir o acabamento superior, retirar os vidros, lavar e secar, montar na mesma ordem e recolocar a porta. Consulte antes o manual, pois os modelos variam um pouco.\n\nA WikiTube publica um novo tutorial passo a passo todos os dias. Inscreva-se para não perder o próximo."
+      },
+      "fr": {
+        "title": "Comment nettoyer entre les vitres de la porte du four",
+        "description": "De la graisse piégée entre les vitres de la porte du four ? Dans cette vidéo pas à pas, apprenez à la nettoyer en toute sécurité : laisser refroidir le four, prendre des photos, retirer la porte grâce aux verrous des charnières, ouvrir la baguette du haut, sortir les vitres, les laver et les sécher, tout remonter dans le même ordre et reposer la porte. Consultez d'abord la notice, car les modèles diffèrent.\n\nWikiTube publie chaque jour un nouveau tutoriel pas à pas. Abonnez-vous pour ne pas manquer le prochain."
+      },
+      "de": {
+        "title": "Zwischen den Scheiben der Backofentür reinigen",
+        "description": "Fett zwischen den Scheiben der Backofentür? In diesem Video lernst du Schritt für Schritt, wie du sie sicher reinigst: Ofen abkühlen lassen, Fotos machen, die Tür mit den Scharnierhebeln aushängen, die obere Blende öffnen, die Glasscheiben herausnehmen, waschen und trocknen, in gleicher Reihenfolge wieder einsetzen und die Tür montieren. Schau vorher in die Anleitung, denn Modelle unterscheiden sich.\n\nWikiTube veröffentlicht jeden Tag eine neue Schritt-für-Schritt-Anleitung. Abonniere den Kanal, um die nächste nicht zu verpassen."
+      },
+      "hi": {
+        "title": "ओवन के दरवाज़े के शीशों के बीच की सफाई कैसे करें",
+        "description": "ओवन के दरवाज़े के शीशों के बीच चिकनाई जम गई है? इस स्टेप-बाय-स्टेप वीडियो में सीखें इसे सुरक्षित तरीके से कैसे साफ करें: ओवन को ठंडा करें, फ़ोटो लें, हिंज लॉक की मदद से दरवाज़ा निकालें, ऊपर की ट्रिम खोलें, शीशे बाहर निकालें, धोकर सुखाएं, उसी क्रम में वापस लगाएं और दरवाज़ा दोबारा जोड़ें। पहले मैनुअल देख लें, क्योंकि मॉडल थोड़े अलग होते हैं।\n\nWikiTube पर हर दिन एक नया स्टेप-बाय-स्टेप ट्यूटोरियल आता है। अगला वीडियो न छूटे, इसलिए सब्सक्राइब करें।"
+      },
+      "it": {
+        "title": "Come pulire tra i vetri dello sportello del forno",
+        "description": "Grasso intrappolato tra i vetri dello sportello del forno? In questo video passo passo scopri come pulirli in sicurezza: lasciar raffreddare il forno, fare foto, smontare lo sportello con i blocchi delle cerniere, aprire il profilo superiore, estrarre i vetri, lavarli e asciugarli, rimontarli nello stesso ordine e rimettere lo sportello. Consulta prima il manuale, perché i modelli variano.\n\nWikiTube pubblica ogni giorno un nuovo tutorial passo passo. Iscriviti per non perdere il prossimo."
+      },
+      "ja": {
+        "title": "オーブンの扉のガラスの間を掃除する方法",
+        "description": "オーブンの扉のガラスの間に油汚れがたまっていませんか？このステップ解説では、安全に掃除する方法を紹介します。オーブンを冷ます、写真を撮る、ヒンジロックを使って扉を外す、上部カバーを開ける、ガラスを取り出す、洗って乾かす、同じ順番で組み立てる、扉を取り付けるまで。機種によって違いがあるため、先に取扱説明書を確認してください。\n\nWikiTubeでは毎日、新しいステップバイステップのハウツー動画を公開しています。次の動画を見逃さないよう、チャンネル登録をお願いします。"
+      },
+      "id": {
+        "title": "Cara Membersihkan Bagian Antara Kaca Pintu Oven",
+        "description": "Lemak terjebak di antara kaca pintu oven? Dalam video langkah demi langkah ini, Anda akan belajar membersihkannya dengan aman: dinginkan oven, ambil foto, lepas pintu menggunakan pengunci engsel, buka penutup atas, keluarkan panel kaca, cuci dan keringkan, pasang kembali dengan urutan yang sama, lalu pasang pintu. Baca buku panduan terlebih dahulu karena model oven bisa berbeda.\n\nWikiTube menerbitkan tutorial langkah demi langkah baru setiap hari. Subscribe agar tidak ketinggalan video berikutnya."
+      }
+    }
+  },
+  "short": {
+    "title": "Clean between your oven door glass #shorts",
+    "description": "Remove the door, slide out the glass, wash it. Full 7-step guide on the channel. #oven #cleaninghacks #howto",
+    "hook": "Grease trapped inside your oven door? Here is how to reach it.",
+    "steps": [
+      {
+        "title": "Lock and lift",
+        "narration": "One. With the oven cool, lock the hinges and lift the door off. Take photos."
+      },
+      {
+        "title": "Open the trim",
+        "narration": "Two. Remove the top screws, lift the trim, and slide out the glass panes."
+      },
+      {
+        "title": "Wash and rebuild",
+        "narration": "Three. Wash each pane with soapy water, then reassemble in the same order."
+      }
+    ],
+    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "$schema": "../episode.schema.json",
+  "id": "2026-12-13-kitchen-tricks-wish-you-knew",
+  "date": "2026-12-13",
+  "slug": "kitchen-tricks-wish-you-knew",
+  "category": "Kitchen",
+  "title": "8 Kitchen Tricks You'll Wish You Knew Earlier",
+  "hook": "Some kitchen tricks are so simple and so useful that you'll wonder why nobody told you sooner. Here are eight, tested and safe, that save time, cut waste and make cooking easier. Each takes less than a minute to learn, and you can use them tonight. Let's go.",
+  "intro": "Professional cooks use small habits and shortcuts that never appear in recipes. They aren't gadgets or secret ingredients. They simply make everyday jobs faster, safer or tastier. We'll look at eight of them, from peeling garlic in seconds to rescuing hard brown sugar. You don't need any special equipment for any of them. Everything is already in your kitchen, so grab a knife, a bowl and let's get started.",
+  "youNeed": [
+    "A chef's knife",
+    "A damp kitchen towel",
+    "A glass jar with a lid",
+    "A microwave",
+    "A bowl of cold water"
+  ],
+  "youNeedNarration": "Here's what you need. A chef's knife and a cutting board. A damp kitchen towel. A glass jar with a lid. A microwave. A bowl of cold water. And a few ingredients, such as eggs, garlic, a lemon, and some old bread. Take care with knives and hot items in every trick, and always work slowly.",
+  "heroImageQuery": "kitchen counter eggs garlic lemon",
+  "heroImagePrompt": "A kitchen counter with eggs, garlic, a lemon, fresh herbs in a jar and a chef's knife, bright morning light, photorealistic, no text",
+  "steps": [
+    {
+      "title": "Stop the cutting board sliding",
+      "narration": "Trick one. A sliding cutting board is dangerous, because it makes knives slip. Wet a kitchen towel or a few sheets of paper towel, wring it out so it's damp but not dripping, and fold it flat under your board. The damp fabric grips the counter and holds the board firmly in place. It works on any smooth surface, and takes five seconds. Whenever you chop, use a firm, stable board. This is the first trick to use every day, because it makes every other kitchen task safer.",
+      "tip": "A damp towel makes a stable board",
+      "mistake": "Chopping on a board that slides",
+      "imageQuery": "cutting board damp towel",
+      "imagePrompt": "A wooden cutting board sitting on a folded damp towel on a kitchen counter with vegetables, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Peel garlic in seconds",
+      "narration": "Trick two. Place a garlic clove on a board, lay the flat side of a large knife over it, and press down firmly with the heel of your hand. The skin cracks, and slides right off. For a whole head, break it into cloves, put them in a lidded jar or two bowls, and shake hard for ten to fifteen seconds. The cloves rub against each other and lose their skins. Keep your fingers away from the blade edge. A silicone garlic peeler tube also works if you cook with garlic often. Roll the clove back and forth, and the skin comes off.",
+      "tip": "Press the flat of the knife, don't slice",
+      "mistake": "Using the knife edge facing your hand",
+      "imageQuery": "peeling garlic knife",
+      "imagePrompt": "A hand pressing the flat side of a chef's knife on a garlic clove on a wooden board, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Test eggs for freshness",
+      "narration": "Trick three. Fill a bowl or a tall glass with cold water, and gently place the egg in it. A very fresh egg sinks to the bottom and lies on its side. An older egg sits at an angle or stands upright. If it floats, it's likely too old to use, so throw it away. As eggs age, they lose moisture through the shell, and the air pocket inside grows. Always cook eggs thoroughly, and keep them in the fridge. Use the freshest eggs for poaching and frying, and slightly older ones for boiling, which peel more easily.",
+      "tip": "Sinks flat means fresh",
+      "mistake": "Eating an egg that floats",
+      "imageQuery": "egg float glass",
+      "imagePrompt": "A white egg floating upright in a tall glass of water next to another egg lying flat at the bottom, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Revive stale bread",
+      "narration": "Trick four. Don't throw away bread that has gone hard. Run a loaf quickly under the tap, so the crust is slightly damp, and put it in a hot oven at about 160 degrees Celsius, or 320 Fahrenheit, for ten minutes. The moisture turns to steam, softens the inside and crisps the crust. For a sliced loaf, wrap slices in a damp paper towel and microwave for ten seconds. Eat it right away, since revived bread goes stale quickly. Bread revived this way is best used the same day, for toast, sandwiches or croutons.",
+      "tip": "Water plus heat brings it back",
+      "mistake": "Reheating without any moisture",
+      "imageQuery": "stale bread oven",
+      "imagePrompt": "A rustic loaf of bread being placed into an oven on a baking tray after a splash of water, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Soften hard brown sugar",
+      "narration": "Trick five. Brown sugar turns into a rock when its moisture dries out. To fix it, place the lump in a bowl, cover it with a damp paper towel, and microwave in ten-second bursts until it softens. Or seal it in a container with a slice of fresh bread, or an apple wedge, overnight. The sugar absorbs moisture from them. Remove the bread the next day. To prevent hardening, store brown sugar in an airtight container. Brown sugar works best when stored in an airtight jar, with a piece of terracotta or a marshmallow inside.",
+      "tip": "Ten seconds at a time in the microwave",
+      "mistake": "Microwaving it for a long time",
+      "imageQuery": "brown sugar bowl",
+      "imagePrompt": "A bowl of brown sugar with a lump softening under a damp paper towel on a kitchen counter, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Keep herbs fresh longer",
+      "narration": "Trick six. Fresh herbs wilt fast in the fridge. Treat soft herbs, such as parsley, cilantro and dill, like flowers. Trim the stems, put them in a jar with an inch of water, loosely cover the leaves with a bag, and keep them in the fridge. Change the water every couple of days. Basil is different, because it hates the cold. Keep basil in a jar of water on the counter, away from direct sun. Herbs stay fresh for a week or more. Hardy herbs like rosemary and thyme can be wrapped in a damp paper towel, and kept in a bag in the fridge.",
+      "tip": "Treat parsley like flowers",
+      "mistake": "Storing basil in the fridge",
+      "imageQuery": "fresh herbs jar",
+      "imagePrompt": "Fresh parsley and cilantro standing in a glass jar of water on a kitchen counter, bright light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Get more juice from citrus",
+      "narration": "Trick seven. Before you cut a lemon or lime, roll it firmly on the counter, pressing down with your palm. This breaks the little juice sacs inside. For even more juice, warm the whole fruit in the microwave for ten to fifteen seconds, then roll it. Cut it in half and squeeze. You can get a lot more juice from the same fruit. Remove the seeds before cooking. Use a fork to twist and squeeze every last drop. A hand juicer or fork helps you squeeze the very last drops, and the zest freezes well for later.",
+      "tip": "Roll, warm, then squeeze",
+      "mistake": "Microwaving for too long and burning your hand",
+      "imageQuery": "rolling lemon counter",
+      "imagePrompt": "A hand rolling a yellow lemon on a kitchen counter before cutting it, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Peel boiled eggs easily",
+      "narration": "Trick eight. Lower eggs gently into boiling water, and cook for nine to twelve minutes, depending on how firm you like the yolk. Move them straight into a bowl of ice water for five minutes. The shock of cold makes the egg shrink slightly away from the shell, so it peels easily. Tap the egg on the counter, roll it gently under your palm to crack the shell all over, and peel under a little running water. The shell comes off in large pieces. Older eggs are actually easier to peel than very fresh ones, so this is a good use for the ones in your fridge.",
+      "tip": "Ice water makes the shell slip off",
+      "mistake": "Peeling eggs while they're still hot",
+      "imageQuery": "peeling boiled eggs",
+      "imagePrompt": "Hands peeling a hard-boiled egg over a bowl of ice water, shell pieces beside it, photorealistic, no text",
+      "media": "photo"
+    }
+  ],
+  "mistakesToAvoid": {
+    "narration": "Before you try these, a few cautions. First, always cut away from your hands, and keep your fingers clear of the blade. Fast does not mean careless. Second, be careful with microwaved food. Steam and hot items can burn you, so use short bursts, and test the heat. And third, don't take shortcuts with food safety. Throw away eggs that float, and keep your eggs refrigerated. A great trick is one that is also safe. If something feels dangerous, skip the trick, since no shortcut is worth an injury.",
+    "items": [
+      "Rushing near a sharp knife",
+      "Overheating items in the microwave",
+      "Ignoring food safety rules"
+    ]
+  },
+  "recap": {
+    "narration": "Let's recap the eight tricks. Stop your cutting board from sliding. Peel garlic in seconds. Test eggs for freshness. Revive stale bread. Soften hard brown sugar. Keep herbs fresh longer. Get more juice from citrus. And peel boiled eggs easily with ice water. Try one tonight, and you'll wonder how you ever cooked without it. Small habits like these add up to a faster, calmer kitchen.",
+    "items": [
+      "Stop the cutting board sliding",
+      "Peel garlic in seconds",
+      "Test eggs for freshness",
+      "Revive stale bread",
+      "Soften hard brown sugar",
+      "Keep herbs fresh longer",
+      "Get more juice from citrus",
+      "Peel boiled eggs easily"
+    ]
+  },
+  "outro": "Those are eight kitchen tricks you'll wish you knew earlier. If one saved you time, subscribe to WikiTube, because we publish a new how-to every single day. Tell us in the comments which trick was new to you, and share your own. See you tomorrow.",
+  "metadata": {
+    "title": "8 Kitchen Tricks You'll Wish You Knew Earlier",
+    "description": "Eight simple kitchen tricks you'll wish you knew earlier! In this step-by-step video you'll learn how to stop a cutting board from sliding, peel garlic in seconds, test eggs for freshness, revive stale bread, soften hard brown sugar, keep herbs fresh longer, squeeze more juice from citrus, and peel boiled eggs easily. Easy, safe and tested kitchen hacks that need no special equipment.\n\nYou'll need: a chef's knife, a damp kitchen towel, a glass jar with a lid, a microwave, a bowl of cold water.\n\nWikiTube publishes a new step-by-step how-to video every day. Subscribe so you don't miss the next one.",
+    "tags": [
+      "kitchen hacks",
+      "kitchen tricks",
+      "cooking hacks",
+      "kitchen tips you wish you knew",
+      "how to peel garlic fast",
+      "egg freshness test",
+      "soften brown sugar",
+      "keep herbs fresh",
+      "peel boiled eggs easily",
+      "life hacks kitchen",
+      "how to",
+      "wikitube"
+    ],
+    "thumbnailTitle": "8 KITCHEN TRICKS",
+    "chapters": "auto",
+    "localizations": {
+      "es": {
+        "title": "8 trucos de cocina que desearías haber conocido antes",
+        "description": "¡Ocho trucos de cocina que desearías haber conocido antes! En este vídeo paso a paso aprenderás a evitar que la tabla de cortar resbale, pelar ajos en segundos, comprobar la frescura de los huevos, revivir pan duro, ablandar azúcar moreno endurecido, conservar las hierbas frescas más tiempo, sacar más zumo a los cítricos y pelar huevos cocidos con facilidad. Trucos seguros y sencillos, sin equipo especial.\n\nWikiTube publica un nuevo tutorial paso a paso cada día. Suscríbete para no perderte el siguiente."
+      },
+      "pt": {
+        "title": "8 truques de cozinha que você vai desejar ter descoberto antes",
+        "description": "Oito truques de cozinha que você vai desejar ter descoberto antes! Neste vídeo passo a passo você aprende a evitar que a tábua deslize, descascar alho em segundos, testar a frescura dos ovos, reviver pão duro, amolecer açúcar mascavo endurecido, manter as ervas frescas por mais tempo, tirar mais suco dos cítricos e descascar ovos cozidos com facilidade. Truques seguros e simples, sem equipamento especial.\n\nA WikiTube publica um novo tutorial passo a passo todos os dias. Inscreva-se para não perder o próximo."
+      },
+      "fr": {
+        "title": "8 astuces de cuisine que vous auriez aimé connaître plus tôt",
+        "description": "Huit astuces de cuisine que vous auriez aimé connaître plus tôt ! Dans cette vidéo pas à pas, apprenez à empêcher la planche à découper de glisser, éplucher l'ail en quelques secondes, tester la fraîcheur des œufs, redonner vie au pain rassis, ramollir la cassonade durcie, conserver les herbes fraîches plus longtemps, obtenir plus de jus des agrumes et écaler facilement les œufs durs. Des astuces simples et sûres, sans matériel spécial.\n\nWikiTube publie chaque jour un nouveau tutoriel pas à pas. Abonnez-vous pour ne pas manquer le prochain."
+      },
+      "de": {
+        "title": "8 Küchentricks, die du früher kennen wolltest",
+        "description": "Acht Küchentricks, die du gern früher gekannt hättest! In diesem Video lernst du Schritt für Schritt, wie du das Schneidebrett vor dem Rutschen bewahrst, Knoblauch in Sekunden schälst, die Frische von Eiern testest, hartes Brot wiederbelebst, harten braunen Zucker weich machst, Kräuter länger frisch hältst, mehr Saft aus Zitrusfrüchten holst und gekochte Eier leicht pellst. Sichere, einfache Tricks ohne Spezialausrüstung.\n\nWikiTube veröffentlicht jeden Tag eine neue Schritt-für-Schritt-Anleitung. Abonniere den Kanal, um die nächste nicht zu verpassen."
+      },
+      "hi": {
+        "title": "किचन की 8 ट्रिक्स जो आपको पहले पता होनी चाहिए थीं",
+        "description": "किचन की आठ ऐसी ट्रिक्स जो काश आपको पहले पता होतीं! इस स्टेप-बाय-स्टेप वीडियो में सीखें कटिंग बोर्ड को फिसलने से कैसे रोकें, लहसुन सेकंडों में कैसे छीलें, अंडों की ताज़गी कैसे जांचें, सख़्त ब्रेड को फिर से कैसे नरम करें, कड़ी ब्राउन शुगर को कैसे मुलायम करें, हरी जड़ी-बूटियां ज़्यादा दिन ताज़ा कैसे रखें, नींबू से ज़्यादा रस कैसे निकालें और उबले अंडे आसानी से कैसे छीलें। सुरक्षित और आसान ट्रिक्स।\n\nWikiTube पर हर दिन एक नया स्टेप-बाय-स्टेप ट्यूटोरियल आता है। अगला वीडियो न छूटे, इसलिए सब्सक्राइब करें।"
+      },
+      "it": {
+        "title": "8 trucchi di cucina che vorresti aver conosciuto prima",
+        "description": "Otto trucchi di cucina che vorresti aver conosciuto prima! In questo video passo passo scopri come evitare che il tagliere scivoli, sbucciare l'aglio in pochi secondi, testare la freschezza delle uova, far rivivere il pane duro, ammorbidire lo zucchero di canna indurito, conservare le erbe fresche più a lungo, ottenere più succo dagli agrumi e sbucciare facilmente le uova sode. Trucchi semplici e sicuri, senza attrezzatura speciale.\n\nWikiTube pubblica ogni giorno un nuovo tutorial passo passo. Iscriviti per non perdere il prossimo."
+      },
+      "ja": {
+        "title": "もっと早く知りたかった！キッチンの裏ワザ8選",
+        "description": "もっと早く知りたかったキッチンの裏ワザを8つ紹介します。まな板のすべり止め、ニンニクを一瞬で剥く方法、卵の鮮度チェック、固くなったパンの復活、固まった黒砂糖を柔らかくする方法、ハーブを長持ちさせる保存法、柑橘をたっぷり搾るコツ、ゆで卵をきれいに剥く方法。安全で簡単、特別な道具は不要です。\n\nWikiTubeでは毎日、新しいステップバイステップのハウツー動画を公開しています。次の動画を見逃さないよう、チャンネル登録をお願いします。"
+      },
+      "id": {
+        "title": "8 Trik Dapur yang Pasti Ingin Anda Ketahui Lebih Awal",
+        "description": "Delapan trik dapur yang pasti ingin Anda ketahui lebih awal! Dalam video langkah demi langkah ini, Anda akan belajar mencegah talenan bergeser, mengupas bawang putih dalam hitungan detik, menguji kesegaran telur, menghidupkan kembali roti keras, melunakkan gula merah yang mengeras, menjaga herba tetap segar lebih lama, memeras lebih banyak jus jeruk, dan mengupas telur rebus dengan mudah. Trik aman dan sederhana tanpa alat khusus.\n\nWikiTube menerbitkan tutorial langkah demi langkah baru setiap hari. Subscribe agar tidak ketinggalan video berikutnya."
+      }
+    }
+  },
+  "short": {
+    "title": "3 kitchen tricks you'll wish you knew #shorts",
+    "description": "Garlic, eggs and bread. Full 8-trick guide on the channel. #kitchenhacks #cooking #howto",
+    "hook": "Three kitchen tricks you'll wish you knew earlier.",
+    "steps": [
+      {
+        "title": "Peel garlic fast",
+        "narration": "One. Press the flat of a knife on a clove, and the skin slides off."
+      },
+      {
+        "title": "Egg freshness test",
+        "narration": "Two. Put an egg in water. If it sinks flat, it's fresh. If it floats, throw it away."
+      },
+      {
+        "title": "Revive stale bread",
+        "narration": "Three. Run the loaf under the tap, and bake it at 160 degrees Celsius for ten minutes."
+      }
+    ],
+    "cta": "The full eight-trick guide is on the channel. Follow WikiTube for a new how-to every day."
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "$schema": "../episode.schema.json",
+  "id": "2026-12-11-clean-silver-jewelry-at-home",
+  "date": "2026-12-11",
+  "slug": "clean-silver-jewelry-at-home",
+  "category": "Home",
+  "title": "How to Clean Silver Jewelry at Home (3 Methods)",
+  "hook": "Silver rings, chains and earrings turn dull and dark with time, and a trip to the jeweler isn't always necessary. In seven steps, you'll learn three simple ways to remove tarnish at home, using soap, baking soda and aluminum foil, and bring back the shine. It takes about twenty minutes, and costs almost nothing.",
+  "intro": "Silver tarnishes when it reacts with sulfur in the air, in food, and even on your skin. The result is that dark, dull layer. The good news is that it's only a thin surface layer, and it can be removed. The right method depends on your piece. A gentle wash is safe for almost everything, while stronger methods are only for solid silver without delicate stones. We'll go from the gentlest to the strongest, so start at the beginning, and move on only if needed. Never try to clean a valuable heirloom without asking a jeweler first.",
+  "youNeed": [
+    "Mild dish soap and warm water",
+    "Baking soda",
+    "Aluminum foil",
+    "A soft toothbrush",
+    "A silver polishing cloth"
+  ],
+  "youNeedNarration": "Here's what you need. Mild dish soap and warm water. Baking soda. A sheet of aluminum foil. A very soft toothbrush. Two soft cotton or microfiber cloths, and ideally a silver polishing cloth for the finish. Also a glass or ceramic bowl, because we'll use hot water, and you should avoid using an aluminum pot or any metal bowl. Nothing here is expensive, and most of it is probably in your kitchen already.",
+  "heroImageQuery": "silver ring necklace polishing cloth",
+  "heroImagePrompt": "Sterling silver rings and a necklace laid on a soft white cloth with a polishing cloth and a small bowl, bright window light, shallow depth of field, photorealistic, no text",
+  "steps": [
+    {
+      "title": "Check what you're cleaning",
+      "narration": "Step one. Look closely at each piece. Is it solid sterling silver, often stamped 925, or silver-plated? Plating is a thin layer that can wear away with harsh rubbing. Check for gemstones, pearls, opals, turquoise or glued parts, because soft or porous stones are damaged by soaking and strong methods. Antique pieces with dark detail, called oxidized silver, are meant to look dark in the crevices, so don't remove it. If you're unsure, stick to method one. If a piece has a clasp or hinge that moves, test that it works before cleaning, and check again afterwards.",
+      "tip": "Stamp 925 means sterling silver",
+      "mistake": "Soaking pearls or glued stones",
+      "imageQuery": "sterling silver rings",
+      "imagePrompt": "Several sterling silver rings and a bracelet on a white cloth, one with a 925 stamp visible, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Method one: soap and water",
+      "narration": "Step two. This safe, gentle method works for light tarnish and everyday dirt. Fill a bowl with warm, not boiling, water, and add a few drops of mild dish soap. Soak your jewelry for five minutes, then gently scrub with a soft toothbrush, paying attention to the chain links and the settings. Rinse under lukewarm water and pat dry. Close the sink drain first, so a small ring can't disappear. Always dry your hands and the piece well afterwards, so that no soap film stays behind to dull the shine.",
+      "tip": "Close the sink drain first",
+      "mistake": "Scrubbing with a hard brush",
+      "imageQuery": "washing silver soapy water",
+      "imagePrompt": "Silver rings in a bowl of soapy water with a soft toothbrush beside it, bright bathroom light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Method two: baking soda paste",
+      "narration": "Step three. For moderate tarnish, mix three parts baking soda with one part water to make a thick paste. Apply it with a soft cloth or your fingertip, and rub gently along the piece, following the direction of any grain. Baking soda is a mild abrasive, so it removes tarnish without scratching sterling silver much. Use a soft toothbrush for detail. Rinse well, and dry with a soft cloth. Don't use this method on plated silver or soft stones. Do a small test spot first, just in case, and keep the pressure light, since silver is a soft metal.",
+      "tip": "Rub gently, following the grain",
+      "mistake": "Using toothpaste as a silver polish",
+      "imageQuery": "baking soda paste ring",
+      "imagePrompt": "A silver ring being rubbed with white baking soda paste on a soft cloth, close-up, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Method three: foil and baking soda bath",
+      "narration": "Step four. For heavy tarnish on solid silver, line a glass or ceramic bowl with aluminum foil, shiny side up. Place the silver on the foil, so it touches. Add one tablespoon of baking soda per cup of very hot water, and pour it over the jewelry until covered. It will fizz. Wait two to five minutes, and the tarnish transfers to the foil. This method uses a chemical reaction, and it has a slight sulfur smell. Be careful with the hot water. Take care with hot water, and never leave it unattended with children or pets nearby. Let the water cool before pouring it away.",
+      "tip": "Silver must touch the foil",
+      "mistake": "Using the foil bath on pearls or antiques",
+      "imageQuery": "silver foil baking soda",
+      "imagePrompt": "Silver jewelry resting on aluminum foil in a glass bowl with hot water and baking soda, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Rinse and dry thoroughly",
+      "narration": "Step five. Remove the pieces from the water with tongs or a spoon, since they will be hot. Rinse each piece under cool running water to remove all residue. Dry with a soft cotton or microfiber cloth immediately. Moisture left in the links or the settings can bring the tarnish back sooner. For chains, use a cloth to wipe gently along the length. If a spot remains dark, repeat the method, rather than scrubbing harder. Pat, don't rub, near any delicate details. A hair dryer on a cool setting can help dry tricky links.",
+      "tip": "Dry right away, links included",
+      "mistake": "Air-drying wet silver",
+      "imageQuery": "drying silver chain cloth",
+      "imagePrompt": "A soft white cloth drying a silver chain necklace on a table, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Polish to a shine",
+      "narration": "Step six. Use a silver polishing cloth, which is treated with a mild polish and tarnish inhibitor, to buff the piece. Rub gently, using long strokes, and turn the cloth to a clean section when it becomes dark. Do not use paper towels or tissues, which can leave scratches. Polish chains by pulling them through the folded cloth. A few minutes of buffing brings out the brightness, and leaves a protective layer. Keep your cloth in a zip bag between uses, so it doesn't pick up dust or moisture.",
+      "tip": "Fold the cloth, pull chains through",
+      "mistake": "Polishing with tissue or paper towel",
+      "imageQuery": "polishing silver cloth",
+      "imagePrompt": "A silver polishing cloth buffing a shiny silver bracelet, close-up, soft light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Store it to slow tarnish",
+      "narration": "Step seven. Tarnish returns fastest when silver meets air and moisture. Store each piece separately in a soft pouch, or a small zip bag with the air pressed out. Anti-tarnish bags or strips help. Keep silver away from bathrooms, and put it on last, after perfume, hairspray and lotion. Take it off before swimming, as chlorine damages silver, and before cleaning or cooking. Wearing silver often actually helps, because your skin oils keep it polished. A small piece of chalk in the pouch also absorbs moisture, which helps your silver stay bright longer.",
+      "tip": "Zip bags slow down tarnish",
+      "mistake": "Storing silver in a humid bathroom",
+      "imageQuery": "jewelry box pouches",
+      "imagePrompt": "A jewelry box with small soft pouches holding silver rings and chains, tidy, soft daylight, photorealistic, no text",
+      "media": "photo"
+    }
+  ],
+  "mistakesToAvoid": {
+    "narration": "Here are the mistakes to avoid. First, using abrasive cleaners or toothpaste, which scratch silver, and leave dull marks. Second, soaking pieces with pearls, opals, turquoise or glued stones. They can crack or lose color. And third, cleaning oxidized or antique silver the same way, which removes the dark detail that gives it character. When in doubt, use soap and water, or ask a jeweler. If you own valuable or antique silver, a jeweler is always the safest choice.",
+    "items": [
+      "Using toothpaste or harsh abrasives",
+      "Soaking soft or glued stones",
+      "Stripping antique oxidized detail"
+    ]
+  },
+  "recap": {
+    "narration": "Let's recap. Check what you're cleaning. Start with soap and water. Move up to a baking soda paste. Use the foil and baking soda bath on solid silver only. Rinse and dry thoroughly. Polish with a silver cloth. And store your silver to slow down tarnish. Seven steps, about twenty minutes, and your silver will shine again. Start gentle, escalate only when needed, and keep it dry.",
+    "items": [
+      "Check what you're cleaning",
+      "Method one: soap and water",
+      "Method two: baking soda paste",
+      "Method three: foil and baking soda bath",
+      "Rinse and dry thoroughly",
+      "Polish to a shine",
+      "Store it to slow tarnish"
+    ]
+  },
+  "outro": "That's how you clean silver jewelry at home with three easy methods. If your silver is shining again, subscribe to WikiTube, because we publish a new how-to every single day. Tell us in the comments which piece you cleaned, and what you would like us to explain next. See you tomorrow. Share this with someone who has a drawer of dull silver.",
+  "metadata": {
+    "title": "How to Clean Silver Jewelry at Home (3 Methods)",
+    "description": "Dull, tarnished silver? In this step-by-step video you'll learn how to clean silver jewelry at home with three methods: gentle soap and water, a baking soda paste, and the aluminum foil and baking soda bath for heavy tarnish. We also explain which pieces to avoid, how to rinse, dry and polish silver, and how to store it so it stays bright for longer. Safe, simple and cheap. No special tools needed.\n\nYou'll need: mild dish soap and warm water, baking soda, aluminum foil, a soft toothbrush, a silver polishing cloth.\n\nWikiTube publishes a new step-by-step how-to video every day. Subscribe so you don't miss the next one.",
+    "tags": [
+      "how to clean silver jewelry at home",
+      "clean tarnished silver",
+      "silver jewelry cleaning",
+      "baking soda aluminum foil silver",
+      "remove tarnish silver",
+      "clean sterling silver",
+      "silver polish homemade",
+      "clean silver ring",
+      "jewelry care",
+      "cleaning hacks",
+      "how to",
+      "wikitube"
+    ],
+    "thumbnailTitle": "SHINY SILVER IN MINUTES",
+    "chapters": "auto",
+    "localizations": {
+      "es": {
+        "title": "Cómo limpiar joyas de plata en casa (3 métodos)",
+        "description": "¿Plata oscura y sin brillo? En este vídeo paso a paso aprenderás a limpiar joyas de plata en casa con tres métodos: agua y jabón suave, pasta de bicarbonato y el baño de papel de aluminio con bicarbonato para el deslustre fuerte. También verás qué piezas evitar, cómo aclarar, secar y pulir la plata y cómo guardarla para que brille más tiempo. Seguro, sencillo y barato.\n\nWikiTube publica un nuevo tutorial paso a paso cada día. Suscríbete para no perderte el siguiente."
+      },
+      "pt": {
+        "title": "Como limpar joias de prata em casa (3 métodos)",
+        "description": "Prata escurecida e sem brilho? Neste vídeo passo a passo você aprende a limpar joias de prata em casa com três métodos: água e sabão neutro, pasta de bicarbonato e o banho de papel-alumínio com bicarbonato para o escurecimento forte. Também mostramos quais peças evitar, como enxaguar, secar e polir a prata e como guardá-la para durar mais brilhante. Seguro, simples e barato.\n\nA WikiTube publica um novo tutorial passo a passo todos os dias. Inscreva-se para não perder o próximo."
+      },
+      "fr": {
+        "title": "Comment nettoyer des bijoux en argent à la maison (3 méthodes)",
+        "description": "Argent terni et sans éclat ? Dans cette vidéo pas à pas, apprenez à nettoyer vos bijoux en argent à la maison avec trois méthodes : eau et savon doux, pâte de bicarbonate et bain de papier aluminium au bicarbonate pour le ternissement important. Nous voyons aussi quelles pièces éviter, comment rincer, sécher et lustrer l'argent et comment le ranger pour qu'il brille plus longtemps. Sûr, simple et économique.\n\nWikiTube publie chaque jour un nouveau tutoriel pas à pas. Abonnez-vous pour ne pas manquer le prochain."
+      },
+      "de": {
+        "title": "Silberschmuck zu Hause reinigen (3 Methoden)",
+        "description": "Angelaufenes, mattes Silber? In diesem Video lernst du Schritt für Schritt, wie du Silberschmuck zu Hause mit drei Methoden reinigst: Seifenwasser, Natronpaste und das Alufolienbad mit Natron bei starkem Anlaufen. Außerdem erfährst du, welche Stücke du meiden solltest, wie du Silber abspülst, trocknest und polierst und wie du es aufbewahrst, damit es länger glänzt. Sicher, einfach und günstig.\n\nWikiTube veröffentlicht jeden Tag eine neue Schritt-für-Schritt-Anleitung. Abonniere den Kanal, um die nächste nicht zu verpassen."
+      },
+      "hi": {
+        "title": "घर पर चांदी के गहने कैसे साफ करें (3 तरीके)",
+        "description": "चांदी काली और बेजान हो गई है? इस स्टेप-बाय-स्टेप वीडियो में सीखें घर पर चांदी के गहने तीन तरीकों से कैसे साफ करें: हल्का साबुन और पानी, बेकिंग सोडा का पेस्ट, और ज़्यादा कालिख के लिए एल्यूमिनियम फ़ॉइल और बेकिंग सोडा वाला स्नान। यह भी जानें कि किन गहनों से बचें, चांदी को कैसे धोएं, सुखाएं और चमकाएं, और लंबे समय तक चमकदार रखने के लिए कैसे रखें। सुरक्षित, आसान और सस्ता।\n\nWikiTube पर हर दिन एक नया स्टेप-बाय-स्टेप ट्यूटोरियल आता है। अगला वीडियो न छूटे, इसलिए सब्सक्राइब करें।"
+      },
+      "it": {
+        "title": "Come pulire i gioielli in argento a casa (3 metodi)",
+        "description": "Argento annerito e opaco? In questo video passo passo scopri come pulire i gioielli in argento a casa con tre metodi: acqua e sapone delicato, pasta di bicarbonato e bagno con alluminio e bicarbonato per l'annerimento forte. Vedrai anche quali pezzi evitare, come risciacquare, asciugare e lucidare l'argento e come conservarlo per farlo brillare più a lungo. Sicuro, semplice ed economico.\n\nWikiTube pubblica ogni giorno un nuovo tutorial passo passo. Iscriviti per non perdere il prossimo."
+      },
+      "ja": {
+        "title": "自宅でできるシルバーアクセサリーの手入れ方法（3つの方法）",
+        "description": "シルバーがくすんで黒ずんでいませんか？このステップ解説では、自宅でシルバーアクセサリーをきれいにする3つの方法を紹介します。中性洗剤とぬるま湯、重曹ペースト、そして黒ずみが強い場合のアルミホイルと重曹の方法。避けるべき素材、すすぎ・乾燥・磨き方、長く輝かせる保管方法も解説します。安全で簡単、低コストです。\n\nWikiTubeでは毎日、新しいステップバイステップのハウツー動画を公開しています。次の動画を見逃さないよう、チャンネル登録をお願いします。"
+      },
+      "id": {
+        "title": "Cara Membersihkan Perhiasan Perak di Rumah (3 Metode)",
+        "description": "Perak menghitam dan kusam? Dalam video langkah demi langkah ini, Anda akan belajar membersihkan perhiasan perak di rumah dengan tiga metode: air dan sabun lembut, pasta baking soda, dan rendaman aluminium foil dengan baking soda untuk noda hitam yang parah. Kami juga jelaskan perhiasan mana yang sebaiknya dihindari, cara membilas, mengeringkan, dan memoles perak, serta cara menyimpannya agar tetap berkilau. Aman, mudah, dan murah.\n\nWikiTube menerbitkan tutorial langkah demi langkah baru setiap hari. Subscribe agar tidak ketinggalan video berikutnya."
+      }
+    }
+  },
+  "short": {
+    "title": "Clean silver jewelry at home in 3 steps #shorts",
+    "description": "Soap, baking soda, foil bath. Full 7-step guide on the channel. #silver #jewelry #howto",
+    "hook": "Dull silver? Make it shine again with kitchen items.",
+    "steps": [
+      {
+        "title": "Soap first",
+        "narration": "One. Soak the silver in warm soapy water, then brush it gently with a soft toothbrush."
+      },
+      {
+        "title": "Foil bath",
+        "narration": "Two. For heavy tarnish, put it on foil in a bowl of hot water and baking soda for two minutes."
+      },
+      {
+        "title": "Rinse and polish",
+        "narration": "Three. Rinse, dry, and buff with a soft polishing cloth. Skip pearls and soft stones."
+      }
+    ],
+    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+  }
+}

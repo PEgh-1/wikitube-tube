@@ -1,0 +1,180 @@
+{
+  "$schema": "../episode.schema.json",
+  "id": "2026-11-19-clean-pc-make-it-faster",
+  "date": "2026-11-19",
+  "slug": "clean-pc-make-it-faster",
+  "category": "Tech",
+  "title": "How to Clean Your PC and Make It Faster in 10 Minutes",
+  "hook": "Is your computer slow to start, noisy, and full of things you never use? Most PCs don't need replacing, they need a good clean. In ten minutes you can clear junk files, switch off startup apps, and even blow out the dust, using seven simple steps. No technical skills are needed.",
+  "intro": "A PC slows down for two reasons. Inside the software, junk files, background programs and browser clutter pile up. Inside the case, dust blocks the airflow and heats up the processor. We'll deal with both. Everything here uses tools already built into Windows, plus a can of compressed air. You don't need to buy any software, and you can't harm your files by following these steps in order. So let's start with the easiest win, and work our way toward the dust.",
+  "youNeed": [
+    "A Windows PC",
+    "A can of compressed air",
+    "A soft dry cloth",
+    "Ten minutes of free time"
+  ],
+  "youNeedNarration": "Here's what you need. Your Windows PC, a can of compressed air, and a soft dry cloth for the last step. Plus about ten minutes. Don't buy any cleaner or booster program, because everything we need is already in Windows, and those tools often cause more trouble than they solve. Close your open programs before you begin.",
+  "heroImageQuery": "laptop slow computer desk",
+  "heroImagePrompt": "A desktop computer on a tidy desk with a clean monitor showing a calm blue desktop, soft daylight, shallow depth of field, photorealistic, no text",
+  "steps": [
+    {
+      "title": "Restart and update Windows",
+      "narration": "Step one. Save your work and restart the PC. A restart clears the memory and stops processes that have been running for days, and many slow computers simply haven't been restarted in weeks. When it comes back, open Settings, choose Windows Update and install anything waiting. Updates fix bugs and security holes that can slow your PC down. If you are asked to restart again, do it. This takes a few minutes, but it gives all the following steps a clean base to work from, so it is always the best place to begin. Don't skip this one, even if the PC seems fine.",
+      "tip": "Restart before anything else",
+      "mistake": "Putting off updates for months",
+      "imageQuery": "restarting windows laptop screen",
+      "imagePrompt": "A laptop on a desk showing a Windows update progress screen with a loading circle, evening light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Switch off startup apps",
+      "narration": "Step two. Press Control, Shift and Escape to open Task Manager, then click Startup apps. Windows lists every program that launches when you turn on the PC, with a rating for how much it slows the start. Right-click anything you don't need right at login, like chat apps, game launchers or music players, and choose Disable. Don't touch your antivirus or drivers if you're unsure. Disabling a startup app doesn't uninstall it, so you can always open it by hand. Most people see a noticeably faster boot after this single change. If you are unsure about a program, search for its name before disabling it, and leave it enabled if in doubt.",
+      "tip": "Disable anything with High impact",
+      "mistake": "Disabling your security software",
+      "imageQuery": "task manager startup apps",
+      "imagePrompt": "A computer monitor showing a Windows task manager window with a list of startup apps and a status column, desk lamp, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Remove programs you don't use",
+      "narration": "Step three. Open Settings, then Apps, then Installed apps. Scroll through the list and look for programs you haven't touched in months. Trial software that came with a new computer, old games and toolbars are the typical suspects. Click the three dots next to each and choose Uninstall. Leave anything from Microsoft, your PC maker or your graphics card brand unless you know what it does. Fewer programs mean fewer background updates, fewer pop-ups and more free space. Take five minutes, and don't feel bad about removing things you forgot you had. You will regain space, and the computer will stop pestering you with updates for apps you never open.",
+      "tip": "Uninstall trial software first",
+      "mistake": "Removing graphics or audio drivers",
+      "imageQuery": "uninstalling programs on laptop",
+      "imagePrompt": "A hand scrolling a long list of installed programs on a laptop screen, one entry highlighted, bright room, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Clear browser clutter",
+      "narration": "Step four. Your browser is probably the heaviest thing on your PC. Open your browser's settings and clear cached images and files, but keep your passwords unticked, unless you have them saved elsewhere. Then open the extensions page and remove every extension you don't recognize or use, since each one runs in the background. Close the dozens of old tabs you never read, or bookmark them. A tidy browser opens faster, uses less memory and loads pages more quickly. Do this every few months to keep things light. If a site keeps misbehaving, clearing its data often fixes it. You can also try a different browser for heavy tasks.",
+      "tip": "Fewer extensions means a faster browser",
+      "mistake": "Clearing saved passwords by accident",
+      "imageQuery": "browser many tabs",
+      "imagePrompt": "A laptop screen with a browser showing many open tabs at the top, a coffee cup beside it, daylight, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Delete junk files",
+      "narration": "Step five. Open Settings, System, then Storage, and click Temporary files. Tick the categories you want to remove, such as thumbnails, temporary internet files and the Recycle Bin, and leave your Downloads folder alone until you've checked it by hand. Click Remove files and let Windows do the work. This clears space and removes leftovers that pile up over months. Then open File Explorer, check your Downloads and Desktop folders, and delete installers and files you don't need. Aim for at least fifteen percent of your drive to remain free, because Windows needs room to work, and an almost-full drive is a common reason for slowdowns.",
+      "tip": "Check Downloads by hand first",
+      "mistake": "Deleting files you can't identify",
+      "imageQuery": "deleting temporary files windows",
+      "imagePrompt": "A Windows storage settings page with a temporary files checklist and a remove button on a laptop screen, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Run a security scan",
+      "narration": "Step six. Slow computers sometimes carry unwanted software. Open Windows Security from the Start menu, choose Virus and threat protection, and click Quick scan. If you have time, choose Scan options and run a Full scan, which takes longer but checks everything. Windows Security is built in, free and updated automatically, so you don't need a second antivirus program. Two security programs running together can fight each other and slow things down even more. If it finds something, follow its on-screen instructions to remove it. While you're there, make sure real-time protection is switched on, because it protects you every day.",
+      "tip": "Keep real-time protection on",
+      "mistake": "Installing a second antivirus program",
+      "imageQuery": "windows security scan laptop",
+      "imagePrompt": "A laptop screen showing a security scan in progress with a green shield icon, home office, soft light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Blow the dust out",
+      "narration": "Step seven. Dust acts like a blanket inside your PC, causing heat and loud fans. Shut the PC down completely and unplug it from the wall before you start. For a desktop, take the side panel off, and use short bursts of compressed air on the fans, vents and filters, holding the fan blades still with a finger so they don't spin too fast. On a laptop, blow air into the vents without opening the case. Do this outdoors if possible, and wipe the outside with a soft dry cloth. Read the manual if you are unsure. Your fans will spin more quietly, and your PC will run cooler, which helps it last longer.",
+      "tip": "Unplug first, short bursts only",
+      "mistake": "Using a vacuum cleaner on components",
+      "imageQuery": "compressed air computer fan",
+      "imagePrompt": "A can of compressed air blowing dust out of a computer case fan, panel open, workbench, photorealistic, no text",
+      "media": "photo"
+    }
+  ],
+  "mistakesToAvoid": {
+    "narration": "Here are three mistakes to avoid. First, don't install registry cleaners or PC booster programs. They promise speed, but they can break Windows or sell you something you don't need. Second, never delete files from the Windows folder, even if they look old. And third, don't use a vacuum cleaner or a damp cloth inside your computer. Static electricity and moisture can destroy components, so stay with compressed air and a dry cloth, and always unplug the PC first. If you feel unsure about opening your computer, simply clean the outside and the vents, and leave the rest to a technician.",
+    "items": [
+      "Installing PC booster programs",
+      "Deleting files from the Windows folder",
+      "Vacuuming or wiping inside the case"
+    ]
+  },
+  "recap": {
+    "narration": "Let's recap. Restart and update Windows. Switch off startup apps. Remove programs you don't use. Clear browser clutter. Delete junk files. Run a security scan. And blow the dust out of the case. Do this routine every few months, and your PC will start faster, run quieter and last longer, without any need for extra software. Mark a reminder in your calendar for three months from now. Seven small jobs, one fast computer.",
+    "items": [
+      "Restart and update Windows",
+      "Switch off startup apps",
+      "Remove programs you don't use",
+      "Clear browser clutter",
+      "Delete junk files",
+      "Run a security scan",
+      "Blow the dust out"
+    ]
+  },
+  "outro": "That's how you clean your PC and make it faster. If your computer feels better now, subscribe to WikiTube, because we publish a new how-to every single day. Tell us in the comments how long your PC took to start before and after, and what you would like us to explain next, because we read every comment. See you tomorrow.",
+  "metadata": {
+    "title": "How to Clean Your PC and Make It Faster in 10 Minutes",
+    "description": "Is your PC slow? In this step-by-step video you'll learn how to clean your PC and make it faster: restart and update Windows, switch off startup apps, uninstall unused programs, clear browser clutter, delete junk files, run a Windows Security scan, and blow the dust out of the case. No paid cleaner software needed, and it takes about ten minutes. Works on Windows 10 and Windows 11 laptops and desktops.\n\nYou'll need: a windows pc, a can of compressed air, a soft dry cloth, ten minutes of free time.\n\nWikiTube publishes a new step-by-step how-to video every day. Subscribe so you don't miss the next one.",
+    "tags": [
+      "how to clean pc",
+      "clean pc junk files",
+      "make pc faster",
+      "speed up slow computer",
+      "disable startup apps",
+      "clean up your pc",
+      "windows 11 speed up",
+      "windows 10 speed up",
+      "remove junk files",
+      "clean computer dust",
+      "pc maintenance",
+      "how to",
+      "wikitube"
+    ],
+    "thumbnailTitle": "SPEED UP YOUR SLOW PC",
+    "chapters": "auto",
+    "localizations": {
+      "es": {
+        "title": "Cómo limpiar tu PC y hacerlo más rápido en 10 minutos",
+        "description": "¿Tu PC va lento? En este vídeo paso a paso aprenderás a limpiar tu PC y hacerlo más rápido: reiniciar y actualizar Windows, desactivar aplicaciones de inicio, desinstalar programas que no usas, limpiar el navegador, borrar archivos basura, ejecutar un análisis de seguridad y quitar el polvo del equipo. No necesitas programas de pago y lleva unos diez minutos.\n\nWikiTube publica un nuevo tutorial paso a paso cada día. Suscríbete para no perderte el siguiente."
+      },
+      "pt": {
+        "title": "Como limpar seu PC e deixá-lo mais rápido em 10 minutos",
+        "description": "Seu PC está lento? Neste vídeo passo a passo você aprende a limpar o PC e deixá-lo mais rápido: reiniciar e atualizar o Windows, desativar aplicativos de inicialização, desinstalar programas sem uso, limpar o navegador, apagar arquivos inúteis, fazer uma verificação de segurança e tirar o pó do computador. Sem programas pagos, em cerca de dez minutos.\n\nA WikiTube publica um novo tutorial passo a passo todos os dias. Inscreva-se para não perder o próximo."
+      },
+      "fr": {
+        "title": "Comment nettoyer votre PC et le rendre plus rapide en 10 minutes",
+        "description": "Votre PC est lent ? Dans cette vidéo pas à pas, apprenez à nettoyer votre PC et à le rendre plus rapide : redémarrer et mettre à jour Windows, désactiver les applications au démarrage, désinstaller les programmes inutiles, nettoyer le navigateur, supprimer les fichiers inutiles, lancer une analyse de sécurité et dépoussiérer le boîtier. Aucun logiciel payant, environ dix minutes.\n\nWikiTube publie chaque jour un nouveau tutoriel pas à pas. Abonnez-vous pour ne pas manquer le prochain."
+      },
+      "de": {
+        "title": "PC bereinigen und schneller machen in 10 Minuten",
+        "description": "Dein PC ist langsam? In diesem Video lernst du Schritt für Schritt, wie du deinen PC bereinigst und schneller machst: Windows neu starten und aktualisieren, Autostart-Programme deaktivieren, ungenutzte Programme deinstallieren, den Browser aufräumen, Datenmüll löschen, einen Sicherheitsscan starten und den Staub aus dem Gehäuse blasen. Ohne kostenpflichtige Software, in etwa zehn Minuten.\n\nWikiTube veröffentlicht jeden Tag eine neue Schritt-für-Schritt-Anleitung. Abonniere den Kanal, um die nächste nicht zu verpassen."
+      },
+      "hi": {
+        "title": "अपने पीसी को साफ करके 10 मिनट में तेज़ कैसे बनाएं",
+        "description": "आपका पीसी धीमा चल रहा है? इस स्टेप-बाय-स्टेप वीडियो में सीखें पीसी को कैसे साफ करें और तेज़ बनाएं: विंडोज़ रीस्टार्ट और अपडेट करें, स्टार्टअप ऐप्स बंद करें, बेकार प्रोग्राम हटाएं, ब्राउज़र साफ करें, जंक फ़ाइलें मिटाएं, सिक्योरिटी स्कैन चलाएं और केस से धूल हटाएं। किसी पेड सॉफ़्टवेयर की ज़रूरत नहीं, बस लगभग दस मिनट।\n\nWikiTube पर हर दिन एक नया स्टेप-बाय-स्टेप ट्यूटोरियल आता है। अगला वीडियो न छूटे, इसलिए सब्सक्राइब करें।"
+      },
+      "it": {
+        "title": "Come pulire il PC e renderlo più veloce in 10 minuti",
+        "description": "Il tuo PC è lento? In questo video passo passo scopri come pulire il PC e renderlo più veloce: riavviare e aggiornare Windows, disattivare le app all'avvio, disinstallare i programmi inutili, ripulire il browser, eliminare i file spazzatura, eseguire una scansione di sicurezza e togliere la polvere dal case. Nessun software a pagamento, circa dieci minuti.\n\nWikiTube pubblica ogni giorno un nuovo tutorial passo passo. Iscriviti per non perdere il prossimo."
+      },
+      "ja": {
+        "title": "PCを掃除して10分で速くする方法",
+        "description": "パソコンが遅いと感じていませんか？このステップ解説では、Windowsの再起動とアップデート、スタートアップアプリの無効化、不要なプログラムの削除、ブラウザの整理、不要ファイルの削除、セキュリティスキャン、本体のホコリ取りまで、PCを掃除して速くする方法を紹介します。有料ソフトは不要で、約10分で終わります。\n\nWikiTubeでは毎日、新しいステップバイステップのハウツー動画を公開しています。次の動画を見逃さないよう、チャンネル登録をお願いします。"
+      },
+      "id": {
+        "title": "Cara Membersihkan PC dan Membuatnya Lebih Cepat dalam 10 Menit",
+        "description": "PC Anda lambat? Dalam video langkah demi langkah ini, Anda akan belajar membersihkan PC dan membuatnya lebih cepat: restart dan perbarui Windows, nonaktifkan aplikasi startup, hapus program yang tidak terpakai, bersihkan browser, hapus file sampah, jalankan pemindaian keamanan, dan bersihkan debu dari casing. Tanpa software berbayar, hanya sekitar sepuluh menit.\n\nWikiTube menerbitkan tutorial langkah demi langkah baru setiap hari. Subscribe agar tidak ketinggalan video berikutnya."
+      }
+    }
+  },
+  "short": {
+    "title": "Make your slow PC faster in 3 steps #shorts",
+    "description": "Startup apps, junk files and dust. Full 7-step guide on the channel. #pctips #windows #howto",
+    "hook": "Slow PC? Three quick fixes you can do right now.",
+    "steps": [
+      {
+        "title": "Disable startup apps",
+        "narration": "One. Press Control, Shift, Escape, open Startup apps, and disable what you don't need."
+      },
+      {
+        "title": "Delete junk files",
+        "narration": "Two. Open Settings, Storage, Temporary files, and remove them."
+      },
+      {
+        "title": "Blow out the dust",
+        "narration": "Three. Shut down, unplug, and use short bursts of compressed air on the vents."
+      }
+    ],
+    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+  }
+}

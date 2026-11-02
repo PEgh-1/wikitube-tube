@@ -1,0 +1,180 @@
+{
+  "$schema": "../episode.schema.json",
+  "id": "2026-12-09-start-raised-bed-vegetable-garden",
+  "date": "2026-12-09",
+  "slug": "start-raised-bed-vegetable-garden",
+  "category": "Garden",
+  "title": "How to Start a Vegetable Garden in a Raised Bed",
+  "hook": "A raised bed is the easiest way to grow vegetables, even with poor soil, a bad back or a small yard. You control the soil, the weeds stay low, and the harvest is bigger. In seven steps, you'll build and plant your first raised bed this weekend. No experience is needed, and you can finish the build in an afternoon.",
+  "intro": "Raised beds warm up faster in spring, drain better, and are easier to look after than a garden dug into the ground. You can build one from simple wooden boards in an afternoon. The secret to success is a good location, a well-built frame, and a rich soil mix. We'll go through each stage, from choosing the site to planting your first seedlings, with tips to avoid the common beginner problems. A raised bed also lets you start growing on poor ground, where digging would be hard work.",
+  "youNeed": [
+    "Untreated wood boards",
+    "Screws and a drill",
+    "Cardboard",
+    "Compost and topsoil",
+    "Seedlings or seeds"
+  ],
+  "youNeedNarration": "Here's what you need. Untreated boards, such as cedar or pine, about four feet wide, and eight feet long, for a standard bed. Screws and a drill, and a tape measure. Plain cardboard. A mix of good topsoil and compost, and a watering can or hose. And finally the fun part, seedlings or seeds of the vegetables you love.",
+  "heroImageQuery": "raised garden bed vegetables",
+  "heroImagePrompt": "A wooden raised garden bed filled with healthy vegetable seedlings in rich dark soil, a watering can nearby, morning sunlight, photorealistic, no text",
+  "steps": [
+    {
+      "title": "Choose a sunny, level spot",
+      "narration": "Step one. Most vegetables need six to eight hours of direct sunlight each day. Watch your yard for a day, and choose the sunniest area, close to a water source. The ground should be roughly level, and away from large tree roots. A good size for your first bed is four feet wide and eight feet long, or about one point two by two point four metres. Four feet wide means you can reach the middle from either side without stepping on the soil. If you have only a balcony, a deep container works in much the same way, with the same rules about sun.",
+      "tip": "Four feet wide is reachable from both sides",
+      "mistake": "Building a bed in the shade",
+      "imageQuery": "sunny backyard lawn",
+      "imagePrompt": "A sunny level patch of lawn in a backyard marked out with string for a garden bed, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Build the frame",
+      "narration": "Step two. Cut your boards to length, or ask the store to cut them. Use untreated cedar or pine, which is safe for growing food. Avoid old railroad ties or boards treated with strong chemicals. Screw the corners together, using short posts inside the corners for strength, and make the bed ten to twelve inches, or about thirty centimetres, deep. Set the frame in place, and check it with a level. Press it gently into the ground so it sits steady. Corner posts also give you something to attach plant supports or netting to later in the season.",
+      "tip": "Untreated wood only, near food",
+      "mistake": "Using old treated railroad ties",
+      "imageQuery": "building wooden garden bed",
+      "imagePrompt": "A person screwing together wooden boards into a rectangular raised bed frame on a lawn, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Line the bottom with cardboard",
+      "narration": "Step three. Remove any large weeds from inside the frame. Then cover the ground with a layer of plain cardboard, with staples and tape removed, overlapping the edges so that no gaps remain. Wet it down with water. The cardboard blocks light so grass and weeds underneath die off, and it breaks down over time, letting roots reach the soil below. This saves you from digging and cuts down on weeding in the first season. A thick layer of newspaper will also work, if you don't have cardboard handy. Wet it as you go so that it stays in place.",
+      "tip": "Overlap the cardboard edges",
+      "mistake": "Leaving gaps where weeds can push through",
+      "imageQuery": "cardboard garden bed",
+      "imagePrompt": "Flattened brown cardboard laid inside an empty wooden raised bed frame on grass, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Fill with a rich soil mix",
+      "narration": "Step four. Fill the bed with a mix of about half good-quality topsoil and half compost. This gives you a soil that is rich in nutrients, but still drains well. You can add a few handfuls of perlite or coarse sand to lighten it. Fill the bed to within an inch or two of the top, then rake it level. Water it well and let it settle for a day or two. Top it up if the soil sinks, which it usually does. Fill slowly in layers, and water each layer lightly. This helps remove air pockets that would sink later.",
+      "tip": "Half topsoil, half compost",
+      "mistake": "Filling with plain garden soil only",
+      "imageQuery": "soil shovel raised bed",
+      "imagePrompt": "Dark rich soil and compost being shoveled into a wooden raised bed, wheelbarrow beside it, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Plan and plant",
+      "narration": "Step five. Decide what to grow, and check the spacing on the seed packet or plant label. Put taller plants, like tomatoes and beans, on the north side, so they don't shade smaller plants. Plant lettuce, radishes and herbs near the edges for easy picking. Use a trowel to make holes, set the seedlings in at the same depth they sat in their pots, firm the soil, and water in. A simple grid, one plant per square foot, helps you avoid overcrowding. Mark each row with a label, so you remember what is where. Water the seedlings gently right after planting.",
+      "tip": "Tall plants on the north side",
+      "mistake": "Planting too close together",
+      "imageQuery": "planting vegetable seedlings",
+      "imagePrompt": "Hands planting small vegetable seedlings in neat rows in a raised bed with a trowel, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Water and mulch",
+      "narration": "Step six. Raised beds drain quickly, so they need regular watering, especially in summer. Aim for about one inch of water per week, delivered deeply, at the base of the plants and in the morning. A soaker hose or drip line saves time and water. Spread two inches of straw or shredded leaves over the soil, keeping it a little away from the stems. Mulch keeps the soil cool and moist, and reduces weeds by a surprising amount. In very hot weather, check the soil every day. A finger pushed in two inches shows you how dry it is.",
+      "tip": "Water at the base, in the morning",
+      "mistake": "Watering lightly every evening",
+      "imageQuery": "straw mulch garden",
+      "imagePrompt": "Golden straw mulch spread around healthy vegetable plants in a raised bed with a soaker hose, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Maintain and replant",
+      "narration": "Step seven. Visit your bed a few times a week. Pull weeds while they are small, look under leaves for pests, and harvest regularly, because picking encourages more. When a crop finishes, plant something new in its place, like a fall crop of kale or spinach. At the end of the season, add a couple of inches of compost to the soil to replenish the nutrients. Your raised bed will get better each year. Keep a simple notebook, with what you planted, and when, so that next year you can rotate crops.",
+      "tip": "Add compost every season",
+      "mistake": "Letting finished plants sit and rot",
+      "imageQuery": "harvesting vegetables basket",
+      "imagePrompt": "Hands harvesting fresh lettuce and tomatoes from a wooden raised bed into a basket, photorealistic, no text",
+      "media": "photo"
+    }
+  ],
+  "mistakesToAvoid": {
+    "narration": "Here are the mistakes to avoid. First, placing the bed in too much shade. Even the best soil can't make up for a lack of sun. Second, using poor soil, or filling the bed with plain garden dirt, which compacts and drains badly. And third, forgetting to water. Raised beds dry out faster than the ground, so check them often. Get the sun, the soil and the water right, and the rest is easy. A little planning before you build saves a lot of work afterward.",
+    "items": [
+      "Choosing a shady spot",
+      "Filling with poor or compacted soil",
+      "Underwatering in hot weather"
+    ]
+  },
+  "recap": {
+    "narration": "Let's recap. Choose a sunny, level spot. Build a frame from untreated wood. Line the bottom with cardboard. Fill with half topsoil and half compost. Plan and plant. Water deeply and add mulch. And maintain your bed and replant as crops finish. Seven steps, one weekend, and vegetables growing at your doorstep. Sun, soil and water: get those three right.",
+    "items": [
+      "Choose a sunny, level spot",
+      "Build the frame",
+      "Line the bottom with cardboard",
+      "Fill with a rich soil mix",
+      "Plan and plant",
+      "Water and mulch",
+      "Maintain and replant"
+    ]
+  },
+  "outro": "That's how you start a vegetable garden in a raised bed. If you're ready to build one, subscribe to WikiTube, because we publish a new how-to every single day. Tell us in the comments what you plan to grow first, and what you would like us to explain next. See you tomorrow.",
+  "metadata": {
+    "title": "How to Start a Vegetable Garden in a Raised Bed",
+    "description": "Want to grow vegetables with less work? In this step-by-step video you'll learn how to start a vegetable garden in a raised bed: choose a sunny spot, build a frame from untreated wood, line the bottom with cardboard, fill with a topsoil and compost mix, plan and plant your seedlings, water and mulch, and maintain the bed through the season. A beginner-friendly guide for small yards and poor soil.\n\nYou'll need: untreated wood boards, screws and a drill, cardboard, compost and topsoil, seedlings or seeds.\n\nWikiTube publishes a new step-by-step how-to video every day. Subscribe so you don't miss the next one.",
+    "tags": [
+      "raised bed vegetable garden",
+      "how to build a raised bed",
+      "raised bed gardening for beginners",
+      "vegetable gardening",
+      "raised garden bed soil mix",
+      "start a vegetable garden",
+      "raised bed garden",
+      "small space gardening",
+      "gardening for beginners",
+      "garden tips",
+      "how to",
+      "wikitube"
+    ],
+    "thumbnailTitle": "RAISED BED, STEP BY STEP",
+    "chapters": "auto",
+    "localizations": {
+      "es": {
+        "title": "Cómo empezar un huerto en un bancal elevado",
+        "description": "¿Quieres cultivar verduras con menos trabajo? En este vídeo paso a paso aprenderás a empezar un huerto en un bancal elevado: elegir un lugar soleado, construir el marco con madera sin tratar, forrar el fondo con cartón, rellenar con tierra y compost, planificar y plantar, regar y acolchar, y mantener el bancal durante la temporada. Una guía para principiantes con poco espacio o mal suelo.\n\nWikiTube publica un nuevo tutorial paso a paso cada día. Suscríbete para no perderte el siguiente."
+      },
+      "pt": {
+        "title": "Como começar uma horta em canteiro elevado",
+        "description": "Quer cultivar legumes com menos trabalho? Neste vídeo passo a passo você aprende a começar uma horta em canteiro elevado: escolher um local ensolarado, montar a moldura com madeira sem tratamento, forrar o fundo com papelão, encher com terra e composto, planejar e plantar, regar e cobrir com palha, e cuidar do canteiro durante a estação. Um guia para iniciantes com pouco espaço ou solo ruim.\n\nA WikiTube publica um novo tutorial passo a passo todos os dias. Inscreva-se para não perder o próximo."
+      },
+      "fr": {
+        "title": "Comment démarrer un potager en carré surélevé",
+        "description": "Envie de cultiver des légumes avec moins d'efforts ? Dans cette vidéo pas à pas, apprenez à démarrer un potager en carré surélevé : choisir un coin ensoleillé, construire le cadre en bois non traité, tapisser le fond de carton, remplir de terre et de compost, planifier et planter, arroser et pailler, puis entretenir le carré toute la saison. Un guide pour débutants, petit jardin ou sol pauvre.\n\nWikiTube publie chaque jour un nouveau tutoriel pas à pas. Abonnez-vous pour ne pas manquer le prochain."
+      },
+      "de": {
+        "title": "Gemüsegarten im Hochbeet anlegen: So geht's",
+        "description": "Du willst Gemüse mit weniger Arbeit anbauen? In diesem Video lernst du Schritt für Schritt, wie du einen Gemüsegarten im Hochbeet anlegst: einen sonnigen Platz wählen, den Rahmen aus unbehandeltem Holz bauen, den Boden mit Pappe auslegen, mit Erde und Kompost füllen, planen und pflanzen, gießen und mulchen und das Beet durch die Saison pflegen. Ein Leitfaden für Anfänger mit kleinem Garten oder schlechtem Boden.\n\nWikiTube veröffentlicht jeden Tag eine neue Schritt-für-Schritt-Anleitung. Abonniere den Kanal, um die nächste nicht zu verpassen."
+      },
+      "hi": {
+        "title": "रेज़्ड बेड में सब्ज़ी का बगीचा कैसे शुरू करें",
+        "description": "कम मेहनत में सब्ज़ियां उगाना चाहते हैं? इस स्टेप-बाय-स्टेप वीडियो में सीखें रेज़्ड बेड में सब्ज़ी का बगीचा कैसे शुरू करें: धूप वाली जगह चुनें, बिना ट्रीटमेंट वाली लकड़ी से फ़्रेम बनाएं, नीचे गत्ता बिछाएं, मिट्टी और कंपोस्ट भरें, योजना बनाकर पौधे लगाएं, पानी दें और मल्च करें, और पूरे मौसम देखभाल करें। छोटी जगह या खराब मिट्टी वाले शुरुआती लोगों के लिए।\n\nWikiTube पर हर दिन एक नया स्टेप-बाय-स्टेप ट्यूटोरियल आता है। अगला वीडियो न छूटे, इसलिए सब्सक्राइब करें।"
+      },
+      "it": {
+        "title": "Come iniziare un orto in un'aiuola rialzata",
+        "description": "Vuoi coltivare ortaggi con meno fatica? In questo video passo passo scopri come iniziare un orto in un'aiuola rialzata: scegliere un punto soleggiato, costruire la cornice in legno non trattato, foderare il fondo con cartone, riempire con terra e compost, pianificare e piantare, annaffiare e pacciamare, e curare l'aiuola durante la stagione. Una guida per principianti con poco spazio o terreno povero.\n\nWikiTube pubblica ogni giorno un nuovo tutorial passo passo. Iscriviti per non perdere il prossimo."
+      },
+      "ja": {
+        "title": "レイズドベッドで家庭菜園を始める方法",
+        "description": "少ない手間で野菜を育てたい方へ。このステップ解説では、レイズドベッドで家庭菜園を始める方法を紹介します。日当たりのよい場所選び、無処理の木材で枠を作る、底に段ボールを敷く、土と堆肥を入れる、計画して苗を植える、水やりとマルチング、シーズン中の管理まで。庭が狭い方や土が悪い方にも向いています。\n\nWikiTubeでは毎日、新しいステップバイステップのハウツー動画を公開しています。次の動画を見逃さないよう、チャンネル登録をお願いします。"
+      },
+      "id": {
+        "title": "Cara Memulai Kebun Sayur di Bedengan Tinggi (Raised Bed)",
+        "description": "Ingin menanam sayur dengan lebih sedikit kerja? Dalam video langkah demi langkah ini, Anda akan belajar memulai kebun sayur di bedengan tinggi: pilih tempat yang terkena sinar matahari, buat rangka dari kayu tanpa perlakuan kimia, lapisi dasar dengan kardus, isi dengan tanah dan kompos, rencanakan dan tanam bibit, siram dan beri mulsa, serta rawat bedengan sepanjang musim. Cocok untuk pemula dengan lahan sempit atau tanah kurang subur.\n\nWikiTube menerbitkan tutorial langkah demi langkah baru setiap hari. Subscribe agar tidak ketinggalan video berikutnya."
+      }
+    }
+  },
+  "short": {
+    "title": "Start a raised bed garden in 3 steps #shorts",
+    "description": "Sun, frame, soil. Full 7-step guide on the channel. #raisedbed #gardening #howto",
+    "hook": "Build a raised bed garden this weekend.",
+    "steps": [
+      {
+        "title": "Sun and frame",
+        "narration": "One. Pick a spot with six to eight hours of sun, and build a frame four feet wide from untreated wood."
+      },
+      {
+        "title": "Cardboard and soil",
+        "narration": "Two. Line the bottom with cardboard, then fill with half topsoil and half compost."
+      },
+      {
+        "title": "Plant and mulch",
+        "narration": "Three. Plant your seedlings, water deeply, and add two inches of mulch."
+      }
+    ],
+    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+  }
+}

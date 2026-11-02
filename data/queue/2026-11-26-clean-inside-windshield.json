@@ -1,0 +1,180 @@
+{
+  "$schema": "../episode.schema.json",
+  "id": "2026-11-26-clean-inside-windshield",
+  "date": "2026-11-26",
+  "slug": "clean-inside-windshield",
+  "category": "Car",
+  "title": "How to Clean Inside Your Windshield (No Haze, No Streaks)",
+  "hook": "You clean the inside of your windshield, and it looks worse than before. Smears, a greasy haze, and a blinding glare at sunset. The problem isn't you, it's the method. In seven steps, you'll learn the simple way to get the glass truly clear. It takes about ten minutes, costs almost nothing, and you will notice the difference immediately.",
+  "intro": "The inside of a windshield gets a special kind of dirt. It's a thin oily film, caused by plastics and vinyl in the dashboard that release vapors in the heat, and by your own breath and fingers. A regular wipe just spreads that film around. The fix is a clean dry start, two cloths, and a very light touch of cleaner. Everything we'll use is cheap and safe for the car's interior. Before we start, remember never to clean the windshield while driving, and only do this with the car parked.",
+  "youNeed": [
+    "Two clean microfiber cloths",
+    "Ammonia-free glass cleaner",
+    "Distilled water",
+    "A small towel",
+    "A reach tool or sponge"
+  ],
+  "youNeedNarration": "Here's what you need. Two clean, dry microfiber cloths, and a third if you can. An ammonia-free glass cleaner, or a half and half mix of distilled water and isopropyl alcohol. A small towel to protect the dashboard. And, if your hands can't reach the corners, a simple reach tool, such as a windshield wand, or a sponge on a stick. You may already have all of this at home.",
+  "heroImageQuery": "car windshield interior clean",
+  "heroImagePrompt": "View through a spotless car windshield from the driver seat toward a sunny road, clean glass, dashboard in the foreground, photorealistic, no text",
+  "steps": [
+    {
+      "title": "Park in the shade and prep",
+      "narration": "Step one. Park the car in the shade, with the engine off and the keys out of the ignition. Hot glass dries cleaner too fast and leaves streaks, so wait until the windshield is cool to the touch. Open the doors for ventilation, and lay a small towel over the dashboard to catch drips and protect the plastic. Remove any phone mounts, toll tags or dashcams you can, and if the cameras and sensors near the mirror are present, leave them alone, and don't spray them. Check that the wipers are lifted off the glass, so you don't have to clean around them. This one minute of preparation makes the rest much faster.",
+      "tip": "Cool glass, shade, engine off",
+      "mistake": "Cleaning hot glass in direct sun",
+      "imageQuery": "parked car shade windshield",
+      "imagePrompt": "A parked car in the shade with the doors open and a towel laid on the dashboard, bright day, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Dust and wipe it dry first",
+      "narration": "Step two. Before you add any liquid, wipe the glass with a dry, clean microfiber cloth. This lifts the dust and loose grit, so you won't turn it into mud with the cleaner. Work in one direction, from top to bottom, and fold the cloth to a fresh side as it gets dirty. Pay attention to the corners and the area near the dashboard. If the cloth comes away with a grey, greasy smear, that is the film we are about to remove. Pay attention to the area along the top edge, because dust tends to collect there in thick lines.",
+      "tip": "Dry wipe first, always",
+      "mistake": "Spraying cleaner on dusty glass",
+      "imageQuery": "dusting windshield microfiber",
+      "imagePrompt": "A hand with a folded microfiber cloth wiping dust off the inside of a car windshield, bright light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Reach every corner",
+      "narration": "Step three. The hardest part is reaching the lower corners, where the glass meets the dashboard. Sit in the passenger seat to clean the driver side and vice versa, or move the seat back and lean over the wheel. A windshield wand, or a sponge-head tool, wrapped with a microfiber cloth, makes it easy. You can also fold a cloth over a flat spatula or a small ruler. Take your time, and don't force your arm into awkward positions. The better you reach, the better the result. Wrapping the cloth around the tool, and securing it with a rubber band, stops it from slipping off while you work. If the tool leaves lint, change the cloth.",
+      "tip": "Use a reach tool for the corners",
+      "mistake": "Straining to reach with your fingertips",
+      "imageQuery": "windshield cleaning wand",
+      "imagePrompt": "A long-handled windshield cleaning wand with a microfiber pad reaching the lower corner of a car windshield, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Apply cleaner to the cloth",
+      "narration": "Step four. Lightly spray ammonia-free glass cleaner onto the microfiber cloth, not directly on the windshield, so no liquid runs down onto the dashboard and electronics. Ammonia can damage window tint and some dashboard plastics, so check the label. As an alternative, use a mix of equal parts distilled water and isopropyl alcohol. The cloth should be barely damp. Wipe in straight lines, from side to side, overlapping each pass a little, so you cover the whole surface. A little cleaner does more than a lot. Work in small sections so the cleaner never dries on the glass before you buff it away, and don't forget the top edge.",
+      "tip": "Barely damp, never dripping",
+      "mistake": "Using ammonia cleaner on tinted glass",
+      "imageQuery": "spraying glass cleaner cloth",
+      "imagePrompt": "A spray bottle of glass cleaner spraying onto a folded microfiber cloth, bright car interior, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Buff with a dry cloth",
+      "narration": "Step five. Immediately follow with a second, completely dry microfiber cloth, while the glass is still slightly damp. This is the secret to no streaks. Buff in vertical strokes, from top to bottom, if you cleaned with horizontal strokes before, because streaks run in one direction, and a change of direction makes them easy to spot. Use light pressure and flip the cloth to a clean side regularly. A dirty cloth just redistributes the film, so switch cloths if it becomes damp. Take your time with the final pass. This is the stage that decides whether the glass looks perfect or just acceptable.",
+      "tip": "Switch direction to spot streaks",
+      "mistake": "Buffing with a damp cloth",
+      "imageQuery": "buffing car glass",
+      "imagePrompt": "A hand buffing the inside of a car windshield with a dry microfiber cloth in vertical strokes, sun glare behind, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Check the glass at an angle",
+      "narration": "Step six. Now inspect your work. Look at the windshield from a few angles, because haze is easiest to see from a low angle or with the sun shining through. If you see streaks or a cloudy patch, repeat the damp and dry method on that area only. Check the lower edge and the corners again. Also clean the back of the rear-view mirror and the edge of the glass, where the black dots are. Then put the dashcam and phone mount back. Walk around and check from the passenger seat too, because the view from there is different, and reveals more.",
+      "tip": "Look through the glass toward the sun",
+      "mistake": "Skipping the final check",
+      "imageQuery": "sun glare clean windshield",
+      "imagePrompt": "The view through a spotless windshield with bright sunshine and no streaks, a road ahead, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Keep the haze from returning",
+      "narration": "Step seven. The film builds up again over time, but you can slow it down. Don't touch the glass with your fingers. Avoid smoking and vaping in the car. Clean the dashboard with a damp cloth too, because dust and vapors from dirty plastic end up on the glass. Avoid shiny dashboard sprays, which make a lot of haze. Open the windows occasionally to ventilate the car in summer. Repeat this cleaning every month or two, and the job will stay quick. A clean windshield is not only nicer, it's also safer, because glare at night and at sunrise is reduced.",
+      "tip": "Do it monthly, it takes ten minutes",
+      "mistake": "Using shiny dashboard sprays",
+      "imageQuery": "clean car dashboard microfiber",
+      "imagePrompt": "A clean car dashboard with a matte finish and a microfiber cloth lying on it, bright light, photorealistic, no text",
+      "media": "photo"
+    }
+  ],
+  "mistakesToAvoid": {
+    "narration": "Let's look at the mistakes that cause streaks. First, spraying cleaner directly onto the glass. It runs onto your dashboard, and it leaves too much liquid behind. Second, using a dirty or used cloth, or a paper towel, which leaves lint. And third, cleaning in the sun, on hot glass, where the liquid dries before you can wipe it. Do the job in the shade, use clean microfiber, and go lightly with the cleaner. It really is that simple. Keep a dedicated glass cloth, and wash it without fabric softener, which leaves a greasy film.",
+    "items": [
+      "Spraying cleaner straight onto the glass",
+      "Using dirty cloths or paper towels",
+      "Cleaning hot glass in the sun"
+    ]
+  },
+  "recap": {
+    "narration": "Let's recap. Park in the shade and prepare the car. Dust and wipe the glass dry first. Find a way to reach every corner. Apply a little cleaner to the cloth, not the glass. Buff with a second dry cloth. Check the glass at an angle. And keep the haze from coming back with a few good habits. Seven steps, about ten minutes, and a windshield you can't see at all. Do it once, and you will see why it matters.",
+    "items": [
+      "Park in the shade and prep",
+      "Dust and wipe it dry first",
+      "Reach every corner",
+      "Apply cleaner to the cloth",
+      "Buff with a dry cloth",
+      "Check the glass at an angle",
+      "Keep the haze from returning"
+    ]
+  },
+  "outro": "That's how you clean the inside of your windshield without haze or streaks. If your glass is crystal clear now, subscribe to WikiTube, because we publish a new how-to every single day. Tell us in the comments what you want us to clean next. See you tomorrow.",
+  "metadata": {
+    "title": "How to Clean Inside Your Windshield (No Haze, No Streaks)",
+    "description": "Streaky, hazy windshield that glares in the sun? In this step-by-step video you'll learn how to clean the inside of your windshield with no haze and no streaks. We cover why the inside film builds up, the right cloths, how to reach the corners, using cleaner on the cloth instead of the glass, buffing with a dry microfiber, and how to keep it clear. Simple, cheap, and safe for tinted windows.\n\nYou'll need: two clean microfiber cloths, ammonia-free glass cleaner, distilled water, a small towel, a reach tool or sponge.\n\nWikiTube publishes a new step-by-step how-to video every day. Subscribe so you don't miss the next one.",
+    "tags": [
+      "how to clean windshield inside",
+      "clean car windows without streaks",
+      "windshield haze",
+      "clean inside of windshield",
+      "car window cleaning",
+      "streak free windshield",
+      "car cleaning tips",
+      "microfiber glass cleaning",
+      "car detailing for beginners",
+      "clean car interior",
+      "how to",
+      "wikitube"
+    ],
+    "thumbnailTitle": "NO MORE WINDSHIELD HAZE",
+    "chapters": "auto",
+    "localizations": {
+      "es": {
+        "title": "Cómo limpiar el interior del parabrisas (sin velo ni marcas)",
+        "description": "¿El parabrisas queda peor después de limpiarlo por dentro? En este vídeo paso a paso aprenderás a limpiar el interior del parabrisas sin velo grasiento ni rayas: por qué se forma la película, qué paños usar, cómo llegar a las esquinas, aplicar el limpiacristales al paño y no al cristal, pulir con un paño seco de microfibra y evitar que el velo vuelva. Fácil, barato y seguro para lunas tintadas.\n\nWikiTube publica un nuevo tutorial paso a paso cada día. Suscríbete para no perderte el siguiente."
+      },
+      "pt": {
+        "title": "Como limpar o interior do para-brisa (sem névoa e sem manchas)",
+        "description": "O para-brisa fica pior depois de limpar por dentro? Neste vídeo passo a passo você aprende a limpar o interior do para-brisa sem película oleosa e sem riscos: por que ela se forma, quais panos usar, como alcançar os cantos, aplicar o limpa-vidros no pano e não no vidro, polir com microfibra seca e evitar que a névoa volte. Simples, barato e seguro para vidros com película.\n\nA WikiTube publica um novo tutorial passo a passo todos os dias. Inscreva-se para não perder o próximo."
+      },
+      "fr": {
+        "title": "Comment nettoyer l'intérieur du pare-brise (sans voile ni traces)",
+        "description": "Le pare-brise est plus sale après le nettoyage intérieur ? Dans cette vidéo pas à pas, apprenez à nettoyer l'intérieur du pare-brise sans voile gras ni traces : pourquoi le film se forme, quels chiffons utiliser, comment atteindre les coins, appliquer le produit sur le chiffon et non sur la vitre, lustrer avec une microfibre sèche et éviter le retour du voile. Simple, économique et sans danger pour les vitres teintées.\n\nWikiTube publie chaque jour un nouveau tutoriel pas à pas. Abonnez-vous pour ne pas manquer le prochain."
+      },
+      "de": {
+        "title": "Windschutzscheibe innen reinigen (ohne Schleier und Streifen)",
+        "description": "Wird die Scheibe nach dem Putzen von innen schlechter? In diesem Video lernst du Schritt für Schritt, wie du die Windschutzscheibe innen ohne Schleier und Streifen reinigst: warum der Film entsteht, welche Tücher du brauchst, wie du in die Ecken kommst, den Reiniger aufs Tuch statt aufs Glas gibst, mit trockener Mikrofaser nachpolierst und den Schleier verhinderst. Einfach, günstig und sicher für getönte Scheiben.\n\nWikiTube veröffentlicht jeden Tag eine neue Schritt-für-Schritt-Anleitung. Abonniere den Kanal, um die nächste nicht zu verpassen."
+      },
+      "hi": {
+        "title": "विंडशील्ड के अंदर का शीशा बिना धुंध और धारियों के कैसे साफ करें",
+        "description": "अंदर से साफ करने के बाद भी विंडशील्ड और खराब दिखती है? इस स्टेप-बाय-स्टेप वीडियो में सीखें विंडशील्ड के अंदर का शीशा बिना चिकनी धुंध और धारियों के कैसे साफ करें: परत क्यों बनती है, कौन से कपड़े इस्तेमाल करें, कोनों तक कैसे पहुंचें, क्लीनर शीशे पर नहीं कपड़े पर लगाएं, सूखे माइक्रोफ़ाइबर से पॉलिश करें और धुंध वापस आने से कैसे रोकें। आसान, सस्ता और टिंटेड शीशों के लिए सुरक्षित।\n\nWikiTube पर हर दिन एक नया स्टेप-बाय-स्टेप ट्यूटोरियल आता है। अगला वीडियो न छूटे, इसलिए सब्सक्राइब करें।"
+      },
+      "it": {
+        "title": "Come pulire l'interno del parabrezza (senza aloni né striature)",
+        "description": "Il parabrezza peggiora dopo averlo pulito all'interno? In questo video passo passo scopri come pulire l'interno del parabrezza senza velo untuoso né strisce: perché si forma la pellicola, quali panni usare, come raggiungere gli angoli, applicare il detergente sul panno e non sul vetro, lucidare con un panno in microfibra asciutto ed evitare che l'alone ritorni. Facile, economico e sicuro per i vetri oscurati.\n\nWikiTube pubblica ogni giorno un nuovo tutorial passo passo. Iscriviti per non perdere il prossimo."
+      },
+      "ja": {
+        "title": "フロントガラスの内側をくもりも筋もなく掃除する方法",
+        "description": "内側を拭いたのに、かえって汚れて見えることはありませんか？このステップ解説では、フロントガラスの内側をくもりも筋もなくきれいにする方法を紹介します。油膜ができる理由、使うクロス、隅まで手を届かせるコツ、クリーナーをガラスではなくクロスに付けること、乾いたマイクロファイバーでの仕上げ、くもりを防ぐ習慣まで。簡単で安く、スモークガラスにも安全です。\n\nWikiTubeでは毎日、新しいステップバイステップのハウツー動画を公開しています。次の動画を見逃さないよう、チャンネル登録をお願いします。"
+      },
+      "id": {
+        "title": "Cara Membersihkan Kaca Depan Mobil Bagian Dalam (Tanpa Kabut dan Bekas)",
+        "description": "Kaca depan malah terlihat lebih buruk setelah dibersihkan dari dalam? Dalam video langkah demi langkah ini, Anda akan belajar membersihkan kaca depan bagian dalam tanpa lapisan berminyak dan tanpa bekas lap: mengapa lapisan itu muncul, kain apa yang dipakai, cara menjangkau sudut, menyemprot pembersih ke kain bukan ke kaca, mengelap dengan mikrofiber kering, dan mencegah kabut kembali.\n\nWikiTube menerbitkan tutorial langkah demi langkah baru setiap hari. Subscribe agar tidak ketinggalan video berikutnya."
+      }
+    }
+  },
+  "short": {
+    "title": "Clean the inside of your windshield #shorts",
+    "description": "Dry wipe, cleaner on the cloth, dry buff. Full 7-step guide on the channel. #cartips #cleaning #howto",
+    "hook": "Clean your windshield from the inside with no streaks.",
+    "steps": [
+      {
+        "title": "Dry wipe first",
+        "narration": "One. Park in the shade, then wipe the glass with a dry microfiber cloth."
+      },
+      {
+        "title": "Cleaner on the cloth",
+        "narration": "Two. Spray a little ammonia-free cleaner onto the cloth, never onto the glass, and wipe."
+      },
+      {
+        "title": "Buff dry",
+        "narration": "Three. Buff right away with a second dry microfiber cloth in the opposite direction."
+      }
+    ],
+    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+  }
+}

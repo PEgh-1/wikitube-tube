@@ -1,0 +1,179 @@
+{
+  "$schema": "../episode.schema.json",
+  "id": "2026-11-21-clean-macbook-screen-keyboard",
+  "date": "2026-11-21",
+  "slug": "clean-macbook-screen-keyboard",
+  "category": "Tech",
+  "title": "How to Clean a MacBook Screen and Keyboard (Safely)",
+  "hook": "Fingerprints on the screen, crumbs under the keys, and a trackpad that feels sticky. Cleaning a MacBook the wrong way can scratch the display or damage the keyboard. Here are seven safe steps to make yours look new again in about five minutes, with nothing more than a cloth and a little water.",
+  "intro": "A MacBook is easy to clean, as long as you respect two rules. Use as little liquid as possible, and never spray anything directly onto the computer. Moisture that gets into the keyboard or the speakers can cause real damage, while a soft cloth costs almost nothing and does the job. Apple's own advice is simple, and we'll follow it step by step, so you can clean with confidence. Take your time, and work in a well-lit room, because streaks and dust are much easier to see in good light.",
+  "youNeed": [
+    "Two microfiber cloths",
+    "A little distilled water",
+    "Compressed air",
+    "70 percent isopropyl wipes"
+  ],
+  "youNeedNarration": "Here's what you need. Two clean, soft microfiber cloths, one for wiping and one for drying. A small amount of water, ideally distilled. A can of compressed air, and, if you want to disinfect the outside, a seventy percent isopropyl alcohol wipe. That is all, and no household sprays. If you only have one cloth, wash it first, because a dirty cloth just moves dirt around.",
+  "heroImageQuery": "macbook on clean desk",
+  "heroImagePrompt": "A silver MacBook open on a bright white desk with a folded microfiber cloth beside it, soft morning light, shallow depth of field, photorealistic, no text",
+  "steps": [
+    {
+      "title": "Shut down and unplug",
+      "narration": "Step one. Before you clean anything, turn the MacBook off completely, and unplug the charger and any cables or accessories. A powered-off computer can't be damaged by a stray drop of moisture, and you'll see dust and smudges more clearly on a dark screen. Let the laptop cool down if it has been working hard. Then place it on a clean, flat surface with good light. This only takes thirty seconds, but it is the step that protects your computer, so please don't skip it. If you use an external monitor or a mouse, unplug those too.",
+      "tip": "Power off, then unplug everything",
+      "mistake": "Cleaning while the Mac is still on",
+      "imageQuery": "turning off macbook laptop",
+      "imagePrompt": "A person closing a MacBook lid on a clean desk beside an unplugged white charger, soft daylight, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Dust the screen first",
+      "narration": "Step two. Take a dry, soft microfiber cloth and wipe the screen gently in one direction, from top to bottom. Dry wiping removes dust and grit first, so you won't drag them across the glass when you add moisture. Use light pressure, and don't press hard on the display, because the panel is thin and pressure can leave marks. Don't use paper towels, tissues or kitchen cloths, which have rough fibres that can leave tiny scratches over time. A good microfiber cloth lasts for years and can be washed. Always check the cloth is clean before you start, because one trapped grain of sand can scratch the screen.",
+      "tip": "Light pressure, one direction",
+      "mistake": "Using paper towels on the display",
+      "imageQuery": "wiping laptop microfiber",
+      "imagePrompt": "A hand wiping a laptop display with a folded microfiber cloth in slow vertical strokes, bright desk, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Wipe with a damp cloth",
+      "narration": "Step three. For fingerprints that remain, slightly dampen a clean microfiber cloth with water. It should be barely damp, not wet, so squeeze out any excess. Wipe the screen gently in the same top to bottom motion. Apple recommends water only for its displays, so skip window cleaners, alcohol, vinegar, and any household sprays, which can strip the anti-glare coating. Never spray liquid directly onto the screen or the keyboard. If you see a stubborn spot, go over it again with the damp cloth, gently, without scrubbing. Patience works better than pressure, and a clean screen only takes a minute.",
+      "tip": "Barely damp, never wet",
+      "mistake": "Spraying cleaner directly on the screen",
+      "imageQuery": "damp cloth laptop screen",
+      "imagePrompt": "A slightly damp microfiber cloth wiping a fingerprint smudge off a laptop screen, close-up, soft light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Dry and check for streaks",
+      "narration": "Step four. Go over the screen with your second, dry microfiber cloth, using the same gentle strokes. This removes any moisture left behind, and stops streaks from forming. Then tilt the lid toward a window or lamp, and look along the surface at an angle, where streaks and missed spots are easiest to see. If you spot any, repeat the damp and dry steps lightly on just that area. Leave the lid open for a minute so any trace of moisture evaporates, before you close the MacBook. This final check also protects the keyboard from marking the screen when the lid closes.",
+      "tip": "Check the screen at an angle",
+      "mistake": "Closing the lid on a damp screen",
+      "imageQuery": "laptop screen window reflection",
+      "imagePrompt": "A MacBook screen reflecting window light at an angle, showing a perfectly clean surface, close-up, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Clear crumbs from the keyboard",
+      "narration": "Step five. Hold the MacBook at about a seventy-five degree angle, so the keys tilt toward you. Using the thin straw on the compressed air can, spray in short bursts across the keyboard in a left to right motion. Rotate the MacBook to its right side and repeat, then to its left side and repeat one more time. Keep the can upright, and don't shake it, so no liquid comes out. This lifts crumbs and dust from under the keys. Never use a vacuum cleaner, since static can harm the computer. If a key still feels stuck afterwards, repeat the process once more, and book a service visit if it doesn't improve.",
+      "tip": "Short bursts at seventy-five degrees",
+      "mistake": "Shaking or tilting the compressed air can",
+      "imageQuery": "macbook keyboard compressed air",
+      "imagePrompt": "A can of compressed air blowing dust from a MacBook keyboard held at an angle, desk lamp light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Wipe the keys and trackpad",
+      "narration": "Step six. Lightly dampen a corner of your cloth, or use a seventy percent isopropyl alcohol wipe, and wipe the keys and the trackpad. Apple says these wipes are fine on the outside surfaces of the computer. Work key by key, using light pressure, and keep any moisture out of the gaps between the keys. Don't use bleach or hydrogen peroxide. If a key is sticky, wipe it a second time. This is also a good moment to clean the palm rests, where oils from your hands build up. Avoid getting wet cloths near the ports, the speaker holes and the fan vents.",
+      "tip": "Use a corner of the cloth only",
+      "mistake": "Letting liquid run between the keys",
+      "imageQuery": "wiping macbook keyboard keys",
+      "imagePrompt": "Fingers wiping the keys of a MacBook keyboard with a small alcohol wipe, macro view, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Keep it clean for longer",
+      "narration": "Step seven. Finish by wiping the outside case and the bottom with the damp cloth, avoiding the ports, speaker grilles and vents. Then build a few habits. Wash and dry your hands before you work, and avoid eating over the keyboard. Wipe the screen once a week with the dry cloth. And before closing the lid, make sure nothing is on the keyboard, such as a pen or a camera cover thicker than a sheet of paper, since these can mark or crack the display. A two minute weekly wipe keeps your Mac looking new, and helps its resale value as well.",
+      "tip": "Dry-wipe the screen every week",
+      "mistake": "Closing the lid on a pen or cover",
+      "imageQuery": "macbook wooden desk",
+      "imagePrompt": "A closed silver MacBook resting on a tidy wooden desk next to a notebook and a plant, natural light, photorealistic, no text",
+      "media": "photo"
+    }
+  ],
+  "mistakesToAvoid": {
+    "narration": "Let's go through the mistakes to avoid. First, never spray any liquid directly on the MacBook. It can flow into the keyboard and speakers and cause damage that isn't covered by warranty. Second, don't use glass cleaner, bleach, vinegar or aerosols, as they can strip the coating from the screen. And third, don't scrub or press hard. A gentle touch and a clean cloth beat force every time, and the display can be marked easily by pressure. If you ever spill a drink on the keyboard, switch it off at once, unplug it, and contact Apple, before you try to clean it yourself.",
+    "items": [
+      "Spraying liquid directly on the laptop",
+      "Using glass cleaner, bleach or vinegar",
+      "Pressing or scrubbing the display"
+    ]
+  },
+  "recap": {
+    "narration": "Let's go through the whole routine one more time. Shut down and unplug. Dust the screen with a dry cloth. Wipe with a barely damp cloth. Dry it and check for streaks. Clear crumbs with short bursts of air. Wipe the keys and trackpad. And keep the Mac clean with a few small habits. Seven steps, five minutes, and a MacBook that looks cared for. Repeat the quick wipe every week, and the full routine once a month.",
+    "items": [
+      "Shut down and unplug",
+      "Dust the screen first",
+      "Wipe with a damp cloth",
+      "Dry and check for streaks",
+      "Clear crumbs from the keyboard",
+      "Wipe the keys and trackpad",
+      "Keep it clean for longer"
+    ]
+  },
+  "outro": "That's how you clean a MacBook screen and keyboard safely. If your Mac looks like new again, subscribe to WikiTube, because we publish a new how-to every single day. Tell us in the comments which device you would like us to clean next, whether that is a phone, a tablet or a TV. See you tomorrow.",
+  "metadata": {
+    "title": "How to Clean a MacBook Screen and Keyboard (Safely)",
+    "description": "Dirty MacBook screen or sticky keyboard? In this step-by-step video you'll learn how to clean a MacBook screen and keyboard safely: shut down, dust the display, wipe with a damp microfiber cloth, remove streaks, clear crumbs with compressed air, and wipe the keys and trackpad. We use only water, microfiber and a little isopropyl alcohol, with no sprays that could damage the screen. Works for MacBook Air and MacBook Pro.\n\nYou'll need: two microfiber cloths, a little distilled water, compressed air, 70 percent isopropyl wipes.\n\nWikiTube publishes a new step-by-step how-to video every day. Subscribe so you don't miss the next one.",
+    "tags": [
+      "how to clean macbook screen",
+      "clean macbook keyboard",
+      "clean macbook safely",
+      "macbook screen cleaning",
+      "clean laptop screen",
+      "macbook keyboard dust",
+      "clean macbook air",
+      "clean macbook pro",
+      "microfiber cloth laptop",
+      "laptop cleaning tips",
+      "how to",
+      "wikitube"
+    ],
+    "thumbnailTitle": "CLEAN YOUR MACBOOK SAFELY",
+    "chapters": "auto",
+    "localizations": {
+      "es": {
+        "title": "Cómo limpiar la pantalla y el teclado de un MacBook (sin riesgos)",
+        "description": "¿Pantalla con huellas o teclado sucio? En este vídeo paso a paso aprenderás a limpiar la pantalla y el teclado de un MacBook de forma segura: apagar, quitar el polvo, pasar un paño de microfibra humedecido, eliminar las marcas, sacar las migas con aire comprimido y limpiar las teclas y el trackpad. Solo agua, microfibra y un poco de alcohol isopropílico, sin aerosoles.\n\nWikiTube publica un nuevo tutorial paso a paso cada día. Suscríbete para no perderte el siguiente."
+      },
+      "pt": {
+        "title": "Como limpar a tela e o teclado do MacBook com segurança",
+        "description": "Tela com marcas de dedos ou teclado sujo? Neste vídeo passo a passo você aprende a limpar a tela e o teclado do MacBook com segurança: desligar, tirar o pó, passar um pano de microfibra levemente úmido, remover marcas, soprar migalhas com ar comprimido e limpar teclas e trackpad. Apenas água, microfibra e um pouco de álcool isopropílico, sem sprays.\n\nA WikiTube publica um novo tutorial passo a passo todos os dias. Inscreva-se para não perder o próximo."
+      },
+      "fr": {
+        "title": "Comment nettoyer l'écran et le clavier d'un MacBook en toute sécurité",
+        "description": "Écran plein de traces ou clavier sale ? Dans cette vidéo pas à pas, apprenez à nettoyer l'écran et le clavier d'un MacBook en toute sécurité : éteindre, dépoussiérer, passer un chiffon microfibre légèrement humide, supprimer les traces, chasser les miettes à l'air comprimé et nettoyer les touches et le trackpad. Seulement de l'eau, de la microfibre et un peu d'alcool isopropylique, sans spray.\n\nWikiTube publie chaque jour un nouveau tutoriel pas à pas. Abonnez-vous pour ne pas manquer le prochain."
+      },
+      "de": {
+        "title": "MacBook-Display und Tastatur sicher reinigen",
+        "description": "Fingerabdrücke auf dem Display oder eine verschmutzte Tastatur? In diesem Video lernst du Schritt für Schritt, wie du Display und Tastatur deines MacBooks sicher reinigst: ausschalten, abstauben, mit einem leicht feuchten Mikrofasertuch wischen, Schlieren entfernen, Krümel mit Druckluft ausblasen und Tasten sowie Trackpad säubern. Nur Wasser, Mikrofaser und etwas Isopropanol, keine Sprays.\n\nWikiTube veröffentlicht jeden Tag eine neue Schritt-für-Schritt-Anleitung. Abonniere den Kanal, um die nächste nicht zu verpassen."
+      },
+      "hi": {
+        "title": "मैकबुक की स्क्रीन और कीबोर्ड को सुरक्षित तरीके से कैसे साफ करें",
+        "description": "स्क्रीन पर उंगलियों के निशान या गंदा कीबोर्ड? इस स्टेप-बाय-स्टेप वीडियो में सीखें मैकबुक की स्क्रीन और कीबोर्ड को सुरक्षित तरीके से कैसे साफ करें: बंद करें, धूल हटाएं, हल्के गीले माइक्रोफ़ाइबर कपड़े से पोंछें, धारियां हटाएं, कंप्रेस्ड एयर से टुकड़े निकालें और कीज़ व ट्रैकपैड साफ करें। सिर्फ़ पानी, माइक्रोफ़ाइबर और थोड़ी आइसोप्रोपाइल अल्कोहल, कोई स्प्रे नहीं।\n\nWikiTube पर हर दिन एक नया स्टेप-बाय-स्टेप ट्यूटोरियल आता है। अगला वीडियो न छूटे, इसलिए सब्सक्राइब करें।"
+      },
+      "it": {
+        "title": "Come pulire schermo e tastiera del MacBook in sicurezza",
+        "description": "Schermo pieno di ditate o tastiera sporca? In questo video passo passo scopri come pulire schermo e tastiera del MacBook in sicurezza: spegnere, rimuovere la polvere, passare un panno in microfibra appena umido, eliminare gli aloni, soffiare via le briciole con aria compressa e pulire tasti e trackpad. Solo acqua, microfibra e un po' di alcol isopropilico, senza spray.\n\nWikiTube pubblica ogni giorno un nuovo tutorial passo passo. Iscriviti per non perdere il prossimo."
+      },
+      "ja": {
+        "title": "MacBookの画面とキーボードを安全に掃除する方法",
+        "description": "画面の指紋やキーボードの汚れが気になりませんか？このステップ解説では、MacBookの画面とキーボードを安全に掃除する方法を紹介します。電源を切る、ホコリを払う、少し湿らせたマイクロファイバーで拭く、筋を取る、エアダスターでゴミを飛ばす、キーとトラックパッドを拭くまで。使うのは水、マイクロファイバー、少量のイソプロピルアルコールだけで、スプレーは使いません。\n\nWikiTubeでは毎日、新しいステップバイステップのハウツー動画を公開しています。次の動画を見逃さないよう、チャンネル登録をお願いします。"
+      },
+      "id": {
+        "title": "Cara Membersihkan Layar dan Keyboard MacBook dengan Aman",
+        "description": "Layar penuh sidik jari atau keyboard kotor? Dalam video langkah demi langkah ini, Anda akan belajar membersihkan layar dan keyboard MacBook dengan aman: matikan perangkat, bersihkan debu, usap dengan kain mikrofiber yang sedikit lembap, hilangkan bekas, tiup remah dengan udara bertekanan, lalu bersihkan tombol dan trackpad. Hanya air, mikrofiber, dan sedikit alkohol isopropil, tanpa semprotan.\n\nWikiTube menerbitkan tutorial langkah demi langkah baru setiap hari. Subscribe agar tidak ketinggalan video berikutnya."
+      }
+    }
+  },
+  "short": {
+    "title": "Clean your MacBook screen safely #shorts",
+    "description": "Power off, damp microfiber, compressed air. Full 7-step guide on the channel. #macbook #cleaning #howto",
+    "hook": "Clean your MacBook screen without damaging it.",
+    "steps": [
+      {
+        "title": "Power off",
+        "narration": "One. Shut the MacBook down and unplug everything."
+      },
+      {
+        "title": "Barely damp cloth",
+        "narration": "Two. Wipe the screen with a barely damp microfiber cloth. Never spray liquid on it."
+      },
+      {
+        "title": "Air for the keys",
+        "narration": "Three. Tilt the laptop and use short bursts of compressed air across the keyboard."
+      }
+    ],
+    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "$schema": "../episode.schema.json",
+  "id": "2026-12-04-hidden-iphone-settings-beginners",
+  "date": "2026-12-04",
+  "slug": "hidden-iphone-settings-beginners",
+  "category": "Tech",
+  "title": "8 Hidden iPhone Settings Beginners Should Turn On",
+  "hook": "Your iPhone can do far more than most people ever discover. A few settings, hidden deep in the menus, can protect your phone, save your battery, free up storage and make daily use faster. Here are eight to switch on today, and each takes less than a minute. None of it needs any technical knowledge.",
+  "intro": "Apple builds many useful features into every iPhone, but it doesn't always switch them on for you. Some protect you if your phone is stolen, some stretch the life of your battery, and some simply save time. We'll walk through each setting, show exactly where to find it, and explain why it matters. Menu names can differ a little between iOS versions, so if you cannot find one, use the search bar at the top of Settings.",
+  "youNeed": [
+    "An iPhone",
+    "Your passcode",
+    "Your Apple Account",
+    "Five minutes of time"
+  ],
+  "youNeedNarration": "Here's what you need. Your iPhone, updated to a recent version of iOS if possible. Your passcode, since some settings ask for it. Your Apple Account signed in, and a few minutes of your time. Nothing needs to be downloaded, and you can switch any of these off again whenever you like.",
+  "heroImageQuery": "iphone settings screen hands",
+  "heroImagePrompt": "A person holding an iPhone showing the Settings app with a list of toggles, bright home setting, shallow depth of field, photorealistic, no text",
+  "steps": [
+    {
+      "title": "Turn on Back Tap",
+      "narration": "Step one. Open Settings, then Accessibility, Touch, and scroll down to Back Tap. Choose Double Tap or Triple Tap, and assign an action, like Screenshot, Flashlight, or Control Center. Now you can tap the back of your phone twice, and it will perform that action, even with a case on. It's a quick shortcut when your hands are full, or when you want to take a screenshot without pressing two buttons at once. Try it right now. If it doesn't respond at first, tap a little firmer on the lower half of the back, and test again.",
+      "tip": "Double tap the back for a screenshot",
+      "mistake": "Assigning too many shortcuts at once",
+      "imageQuery": "tapping back of phone",
+      "imagePrompt": "A finger tapping the back of an iPhone held in one hand, bright indoor light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Switch on Stolen Device Protection",
+      "narration": "Step two. Go to Settings, Face ID and Passcode, enter your passcode, and scroll to Stolen Device Protection. Turn it on. This feature, available on recent versions of iOS, adds extra security when your iPhone is away from familiar places such as your home or work. For sensitive actions, like changing your Apple Account password, it requires Face ID, and sometimes a security delay. Even if someone learns your passcode, your account stays safer. Check that your Apple Account has a trusted phone number, so you can recover it if you need to.",
+      "tip": "Protects you away from home",
+      "mistake": "Skipping security because it seems unnecessary",
+      "imageQuery": "iphone passcode security",
+      "imagePrompt": "An iPhone showing a security settings screen with a padlock icon, held in a hand, soft light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Enable Send Last Location",
+      "narration": "Step three. Open Settings, tap your name at the top, choose Find My, then Find My iPhone, and make sure Find My network and Send Last Location are both switched on. Send Last Location shares your iPhone's position with Apple when the battery is almost empty, so you can still find it later. Find My network helps locate your phone even when it's offline, using nearby Apple devices. It takes thirty seconds and could save you the cost of a new phone. Make sure Location Services is switched on as well, and set up Find My on every Apple device you own.",
+      "tip": "Find My works even when offline",
+      "mistake": "Leaving Find My iPhone off",
+      "imageQuery": "phone map location pin",
+      "imagePrompt": "An iPhone showing a map with a location pin, held by a person at a café table, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Use Optimized Battery Charging",
+      "narration": "Step four. Go to Settings, Battery, and look for Charging, or Battery Health and Charging, depending on your version. Switch on Optimized Battery Charging. Your iPhone learns your routine, and pauses charging at around eighty percent, finishing the last part just before you usually unplug. This reduces wear on the battery over the years. On newer models you may also find a charge limit option, which keeps the battery at a lower level on purpose. If you use a fast charger or an older iPhone, the option may be under a slightly different name.",
+      "tip": "Slower charging keeps the battery healthier",
+      "mistake": "Leaving the phone at one hundred percent for days",
+      "imageQuery": "iphone charging bedside",
+      "imagePrompt": "An iPhone charging on a bedside table with a lamp glowing softly in the evening, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Offload unused apps",
+      "narration": "Step five. Open Settings, then App Store, and turn on Offload Unused Apps. When your storage runs low, your iPhone removes apps you haven't opened in a while, but keeps their documents and data. The app icon stays on your screen with a small cloud, so you can tap it to download it again. This is a painless way to free up gigabytes without losing anything. You can also check Settings, General, iPhone Storage for suggestions. If you want an app back, simply tap its icon, and wait a few seconds for the download.",
+      "tip": "Data stays, only the app is removed",
+      "mistake": "Deleting photos instead of unused apps",
+      "imageQuery": "phone storage settings",
+      "imagePrompt": "An iPhone storage screen with a colorful usage bar and a list of apps, held in a hand, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Create text shortcuts",
+      "narration": "Step six. Go to Settings, General, Keyboard, then Text Replacement, and tap the plus button. In the Phrase box, type something long, like your email address, home address or a common reply. In Shortcut, type a few letters, like email or omw. From now on, when you type that shortcut, your iPhone offers the full phrase, and one tap fills it in. It saves hundreds of keystrokes every week, and it is perfect for long addresses. Start with the two or three phrases you type most often, such as your name or your phone number.",
+      "tip": "Type omw, get a full sentence",
+      "mistake": "Using a shortcut that is also a real word",
+      "imageQuery": "typing phone keyboard",
+      "imagePrompt": "Thumbs typing a message on an iPhone keyboard with a suggestion bar above the keys, soft light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Schedule your notifications",
+      "narration": "Step seven. Notifications can fill your day with interruptions. Open Settings, then Notifications, then Scheduled Summary. Turn it on, choose the apps you want to include, and set one to three times a day when you would like to receive them. Your iPhone will gather less urgent notifications into one summary, instead of buzzing every few minutes. Important things, like calls and messages from people you choose, can still come through at once, if you set up a Focus. Pick times that suit you, such as just after breakfast and mid-evening. You can change them any time.",
+      "tip": "Two summaries a day is plenty",
+      "mistake": "Putting every app in the summary",
+      "imageQuery": "phone notifications lock screen",
+      "imagePrompt": "An iPhone lock screen showing a tidy stack of notifications, resting on a wooden desk, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Turn on automatic updates",
+      "narration": "Step eight. Open Settings, General, Software Update, and tap Automatic Updates. Switch on both Download iOS Updates and Install iOS Updates. Your iPhone will download new versions on Wi-Fi and install them overnight while charging. Updates include important security fixes that protect you from new threats, as well as improvements to performance. You will still be asked before major upgrades, in many cases. Keeping up to date is the single easiest way to stay safe. Restart your iPhone once a week as well. It is the oldest trick, and it keeps things running smoothly.",
+      "tip": "Updates install overnight, on Wi-Fi",
+      "mistake": "Ignoring updates for months",
+      "imageQuery": "phone software update",
+      "imagePrompt": "An iPhone showing a software update screen with a progress bar, charging on a desk at night, photorealistic, no text",
+      "media": "photo"
+    }
+  ],
+  "mistakesToAvoid": {
+    "narration": "Before you go, three mistakes to avoid. First, turning on settings you don't understand. Read each description, and change one thing at a time. Second, ignoring security. Updates, Find My and Stolen Device Protection protect your photos and accounts. And third, never checking your storage until it's full. A little maintenance each month saves the stress of the dreaded storage full message at an awkward moment. None of these settings is permanent, so experiment freely.",
+    "items": [
+      "Changing settings you don't understand",
+      "Skipping updates and Find My",
+      "Waiting until storage is completely full"
+    ]
+  },
+  "recap": {
+    "narration": "Let's recap. Turn on Back Tap. Switch on Stolen Device Protection. Enable Find My and Send Last Location. Use Optimized Battery Charging. Offload unused apps. Create text shortcuts. Schedule your notifications. And turn on automatic updates. Eight settings, about five minutes, and an iPhone that is safer, tidier and faster to use. Which one will you turn on first?",
+    "items": [
+      "Turn on Back Tap",
+      "Switch on Stolen Device Protection",
+      "Enable Send Last Location",
+      "Use Optimized Battery Charging",
+      "Offload unused apps",
+      "Create text shortcuts",
+      "Schedule your notifications",
+      "Turn on automatic updates"
+    ]
+  },
+  "outro": "That's eight hidden iPhone settings worth turning on. If you found a new favorite, subscribe to WikiTube, because we publish a new how-to every single day. Tell us in the comments which setting surprised you most, and what you would like us to explain next. See you tomorrow.",
+  "metadata": {
+    "title": "8 Hidden iPhone Settings Beginners Should Turn On",
+    "description": "Get more from your iPhone! In this step-by-step video you'll discover eight hidden iPhone settings beginners should turn on: Back Tap, Stolen Device Protection, Find My and Send Last Location, Optimized Battery Charging, Offload Unused Apps, Text Replacement shortcuts, Scheduled Summary for notifications, and automatic updates. Each one takes under a minute. Menu names may vary slightly by iOS version. Perfect for new iPhone owners and anyone who has never explored the Settings app.\n\nYou'll need: an iphone, your passcode, your apple account, five minutes of time.\n\nWikiTube publishes a new step-by-step how-to video every day. Subscribe so you don't miss the next one.",
+    "tags": [
+      "iphone tutorial",
+      "hidden iphone settings",
+      "iphone tips and tricks",
+      "iphone settings you should change",
+      "iphone back tap",
+      "stolen device protection",
+      "iphone battery tips",
+      "iphone for beginners",
+      "iphone hidden features",
+      "ios tips",
+      "how to",
+      "wikitube"
+    ],
+    "thumbnailTitle": "8 HIDDEN IPHONE SETTINGS",
+    "chapters": "auto",
+    "localizations": {
+      "es": {
+        "title": "8 ajustes ocultos del iPhone que todo principiante debería activar",
+        "description": "¡Saca más partido a tu iPhone! En este vídeo paso a paso descubrirás ocho ajustes ocultos que todo principiante debería activar: Tocar atrás, Protección de dispositivo robado, Buscar y Enviar última ubicación, Carga optimizada de la batería, Descargar apps no usadas, Sustitución de texto, Resumen programado de notificaciones y actualizaciones automáticas. Cada uno lleva menos de un minuto.\n\nWikiTube publica un nuevo tutorial paso a paso cada día. Suscríbete para no perderte el siguiente."
+      },
+      "pt": {
+        "title": "8 ajustes ocultos do iPhone que todo iniciante deve ativar",
+        "description": "Aproveite mais o seu iPhone! Neste vídeo passo a passo você descobre oito ajustes ocultos que todo iniciante deveria ativar: Toque Traseiro, Proteção de Dispositivo Roubado, Buscar e Enviar Última Localização, Carregamento Otimizado da Bateria, Descarregar Apps Não Usados, Substituição de Texto, Resumo Programado de notificações e atualizações automáticas. Cada um leva menos de um minuto.\n\nA WikiTube publica um novo tutorial passo a passo todos os dias. Inscreva-se para não perder o próximo."
+      },
+      "fr": {
+        "title": "8 réglages cachés de l'iPhone que tout débutant devrait activer",
+        "description": "Profitez davantage de votre iPhone ! Dans cette vidéo pas à pas, découvrez huit réglages cachés que tout débutant devrait activer : Toucher le dos, Protection en cas de vol, Localiser et Envoyer la dernière position, Charge optimisée de la batterie, Supprimer les apps inutilisées, Remplacement de texte, Résumé programmé des notifications et mises à jour automatiques. Chacun prend moins d'une minute.\n\nWikiTube publie chaque jour un nouveau tutoriel pas à pas. Abonnez-vous pour ne pas manquer le prochain."
+      },
+      "de": {
+        "title": "8 versteckte iPhone-Einstellungen, die jeder Anfänger aktivieren sollte",
+        "description": "Hole mehr aus deinem iPhone heraus! In diesem Video entdeckst du Schritt für Schritt acht versteckte Einstellungen, die jeder Anfänger aktivieren sollte: Rückseite tippen, Schutz bei gestohlenem Gerät, Wo ist? und Letzten Standort senden, Optimiertes Laden, Nicht genutzte Apps auslagern, Textersetzung, Geplante Zusammenfassung und automatische Updates. Jede dauert weniger als eine Minute.\n\nWikiTube veröffentlicht jeden Tag eine neue Schritt-für-Schritt-Anleitung. Abonniere den Kanal, um die nächste nicht zu verpassen."
+      },
+      "hi": {
+        "title": "iPhone की 8 छिपी हुई सेटिंग्स जो हर शुरुआती को चालू करनी चाहिए",
+        "description": "अपने iPhone का और बेहतर इस्तेमाल करें! इस स्टेप-बाय-स्टेप वीडियो में जानें आठ छिपी हुई सेटिंग्स जो हर शुरुआती को चालू करनी चाहिए: बैक टैप, स्टोलन डिवाइस प्रोटेक्शन, फ़ाइंड माई और सेंड लास्ट लोकेशन, ऑप्टिमाइज़्ड बैटरी चार्जिंग, अनयूज़्ड ऐप्स ऑफ़लोड, टेक्स्ट रिप्लेसमेंट, शेड्यूल्ड समरी और ऑटोमैटिक अपडेट। हर सेटिंग में एक मिनट से कम लगता है।\n\nWikiTube पर हर दिन एक नया स्टेप-बाय-स्टेप ट्यूटोरियल आता है। अगला वीडियो न छूटे, इसलिए सब्सक्राइब करें।"
+      },
+      "it": {
+        "title": "8 impostazioni nascoste dell'iPhone che ogni principiante dovrebbe attivare",
+        "description": "Sfrutta di più il tuo iPhone! In questo video passo passo scopri otto impostazioni nascoste che ogni principiante dovrebbe attivare: Tocco sul retro, Protezione in caso di furto, Dov'è e Invia ultima posizione, Ricarica ottimizzata della batteria, Rimuovi app inutilizzate, Sostituzione testo, Riepilogo programmato delle notifiche e aggiornamenti automatici. Ognuna richiede meno di un minuto.\n\nWikiTube pubblica ogni giorno un nuovo tutorial passo passo. Iscriviti per non perdere il prossimo."
+      },
+      "ja": {
+        "title": "初心者がオンにすべきiPhoneの隠れた設定8選",
+        "description": "iPhoneをもっと便利に使いましょう！このステップ解説では、初心者がオンにしておきたい隠れた設定を8つ紹介します。背面タップ、盗難デバイスの保護、探すと最後の位置情報の送信、バッテリー充電の最適化、未使用のAppを取り除く、ユーザ辞書の短縮入力、通知のまとめ配信、自動アップデート。どれも1分もかかりません。\n\nWikiTubeでは毎日、新しいステップバイステップのハウツー動画を公開しています。次の動画を見逃さないよう、チャンネル登録をお願いします。"
+      },
+      "id": {
+        "title": "8 Pengaturan Tersembunyi iPhone yang Harus Diaktifkan Pemula",
+        "description": "Manfaatkan iPhone Anda lebih baik! Dalam video langkah demi langkah ini, Anda akan menemukan delapan pengaturan tersembunyi yang sebaiknya diaktifkan pemula: Ketuk Belakang, Perlindungan Perangkat Dicuri, Cari dan Kirim Lokasi Terakhir, Pengisian Baterai Teroptimalkan, Singkirkan App Tak Terpakai, Penggantian Teks, Ringkasan Terjadwal untuk notifikasi, dan pembaruan otomatis. Masing-masing kurang dari satu menit.\n\nWikiTube menerbitkan tutorial langkah demi langkah baru setiap hari. Subscribe agar tidak ketinggalan video berikutnya."
+      }
+    }
+  },
+  "short": {
+    "title": "3 hidden iPhone settings to turn on #shorts",
+    "description": "Back Tap, Send Last Location, Optimized Charging. Full 8-setting guide on the channel. #iphone #iphonetips #howto",
+    "hook": "Three hidden iPhone settings you should turn on today.",
+    "steps": [
+      {
+        "title": "Back Tap",
+        "narration": "One. Settings, Accessibility, Touch, Back Tap. Double tap the back for a screenshot."
+      },
+      {
+        "title": "Send Last Location",
+        "narration": "Two. Settings, your name, Find My, and turn on Send Last Location."
+      },
+      {
+        "title": "Optimized Charging",
+        "narration": "Three. Settings, Battery, Charging. Turn on Optimized Battery Charging."
+      }
+    ],
+    "cta": "The full eight-setting guide is on the channel. Follow WikiTube for a new how-to every day."
+  }
+}

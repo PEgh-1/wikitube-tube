@@ -1,0 +1,180 @@
+{
+  "$schema": "../episode.schema.json",
+  "id": "2026-12-12-clean-dryer-vent",
+  "date": "2026-12-12",
+  "slug": "clean-dryer-vent",
+  "category": "Home",
+  "title": "How to Clean Your Dryer Vent (Step by Step)",
+  "hook": "Do your clothes take two cycles to dry, and does the laundry room feel hot and smell of burning? A clogged dryer vent wastes energy, and it is also a fire risk. In seven steps, you'll learn how to clear the lint safely, in about an hour. It is simple, but it matters.",
+  "intro": "Every load leaves lint, and not all of it stops in the trap. The rest travels through the duct to the outside, and slowly builds up. Lint is highly flammable, and a blocked vent traps heat. Cleaning it once a year is one of the most useful home maintenance jobs. Safety comes first. Always unplug the dryer before you start. If you have a gas dryer, or if you are not comfortable with the work, call a professional. Set aside an hour on a quiet weekend, and the job is easier than it sounds.",
+  "youNeed": [
+    "A dryer vent brush kit",
+    "A vacuum with a hose",
+    "A screwdriver",
+    "Foil tape and gloves",
+    "A flashlight"
+  ],
+  "youNeedNarration": "Here's what you need. A dryer vent brush kit, with flexible rods that attach to a drill. A vacuum cleaner with a hose attachment. A screwdriver or a nut driver for the clamps. Foil tape. Work gloves and a dust mask. And a flashlight. A helper can make moving the dryer much easier. Lay a towel on the floor. A helper makes the whole job quicker and safer.",
+  "heroImageQuery": "dryer vent lint brush",
+  "heroImagePrompt": "A clogged lint-filled dryer vent duct being cleaned with a long flexible brush, laundry room, bright light, photorealistic, no text",
+  "steps": [
+    {
+      "title": "Unplug the dryer",
+      "narration": "Step one. Turn off the dryer and unplug it from the wall. If you have a gas dryer, also turn off the gas valve, and do not disconnect the gas line yourself. If you're not sure about your type of dryer, call a professional. Let the dryer cool for at least thirty minutes if you recently used it. Clear the area around it, put on gloves and a dust mask, and open a window for ventilation. Never skip this, since it is the most important safety step in the whole job.",
+      "tip": "Unplug first, and gas dryers need a pro",
+      "mistake": "Working on a plugged-in dryer",
+      "imageQuery": "unplugging dryer outlet",
+      "imagePrompt": "A hand pulling a dryer power plug from a wall outlet in a laundry room, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Pull the dryer out carefully",
+      "narration": "Step two. Slowly slide the dryer away from the wall, just far enough to reach the back. Ask someone to help, and protect the floor with a towel or cardboard. Watch the vent hose and the power cord as you move it. Don't stretch or crush them, and make sure that a gas dryer's flexible line does not kink. If there's too little space, leave the dryer where it is, and clean the duct from the outside. Ask your landlord or building manager first if you rent, because some buildings arrange this service for tenants.",
+      "tip": "Move slowly and protect the floor",
+      "mistake": "Crushing the duct against the wall",
+      "imageQuery": "moving dryer from wall",
+      "imagePrompt": "Two people sliding a dryer away from a laundry room wall, floor protected with cardboard, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Disconnect the duct",
+      "narration": "Step three. Find the vent duct connecting the back of the dryer to the wall. It's held by metal clamps or foil tape. Loosen the clamps with a screwdriver, or peel off the tape, and gently pull the duct free from the dryer and the wall. Look inside. If it's packed with lint, you're in the right place. Check the duct for holes, crushing, or damage, and if it's plastic or foil, plan to replace it with metal. Tighten the clamps again after you clean, so no lint escapes into the room, and the joint stays sealed.",
+      "tip": "Take a photo before disconnecting",
+      "mistake": "Tearing the duct off by force",
+      "imageQuery": "dryer duct clamp",
+      "imagePrompt": "A hand loosening a metal clamp on a silver dryer vent duct behind a dryer with a screwdriver, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Clean the duct",
+      "narration": "Step four. Attach the brush to the flexible rod, and connect it to a drill. Feed it into the duct, running the drill slowly in a clockwise direction, and add more rods as you go. Pull the brush back and forth to loosen the lint. Then use the vacuum hose to remove what's come out. Do this from both ends, inside and outside, if you can. Repeat until no more lint comes out. Wear a dust mask throughout. If the duct is long, more than thirty feet or ten metres, or has several bends, consider hiring a professional.",
+      "tip": "Spin the drill clockwise only",
+      "mistake": "Spinning the brush counterclockwise",
+      "imageQuery": "dryer vent brush drill",
+      "imagePrompt": "A long flexible brush attached to a drill being pushed into a dryer vent duct, lint falling, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Clean the outside vent hood",
+      "narration": "Step five. Go outside, and find the vent hood on the wall. Check that the flap opens freely. Remove any lint, leaves, bird nests or debris blocking it, wearing gloves. If you see a screen or mesh covering the opening, remove it, because it clogs with lint and shouldn't be there. Clean the hood with a brush and a damp cloth. Run the dryer for a few seconds, and confirm that air flows out strongly. If it's weak, there is still a blockage. Keep bushes and snow away from the outside vent, since anything covering it will cut airflow right away.",
+      "tip": "The flap should swing freely",
+      "mistake": "Covering the outlet with a mesh screen",
+      "imageQuery": "outside dryer vent hood",
+      "imagePrompt": "An exterior wall dryer vent hood with the flap open and lint being removed by a gloved hand, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Clean the lint trap and housing",
+      "narration": "Step six. Pull out the lint screen inside the dryer door, and remove all lint by hand. Wash it with warm soapy water and a soft brush every few months, as fabric softener leaves a film that blocks airflow. Let it dry completely. Use the vacuum's narrow attachment to clean the slot where the trap sits, and the back of the dryer where the duct connects. Clean the lint screen after every load as a habit. Signs of a clogged vent include clothes that stay damp, a hot dryer top, and a burning smell.",
+      "tip": "Wash the screen every few months",
+      "mistake": "Skipping the lint trap after each load",
+      "imageQuery": "dryer lint screen",
+      "imagePrompt": "A hand removing a thick layer of grey lint from a dryer lint screen, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Reconnect and test",
+      "narration": "Step seven. Reattach the duct to the dryer and the wall. Use a rigid or semi-rigid metal duct if possible, rather than foil or plastic, which can trap lint and catch fire. Keep the duct as short and straight as you can, and secure the joints with clamps or foil tape, not screws, which catch lint. Push the dryer back without crushing the duct, plug it in, and run it for a few minutes. Check outside for strong airflow. Make a note on your calendar for next year, and keep the brush kit somewhere handy.",
+      "tip": "Metal duct, short and straight",
+      "mistake": "Using screws that catch lint",
+      "imageQuery": "metal dryer duct",
+      "imagePrompt": "A rigid metal dryer duct connected to the back of a dryer with foil tape and a clamp, photorealistic, no text",
+      "media": "photo"
+    }
+  ],
+  "mistakesToAvoid": {
+    "narration": "Here are the mistakes to avoid. First, working on a plugged-in or gas dryer without the right precautions. Always unplug, and call a pro for gas. Second, using a foil or plastic duct, or long, bendy runs, which collect lint and hold heat. And third, waiting too long. Clean the vent at least once a year, or sooner if drying takes longer than usual. If you notice a burning smell, stop using the dryer and investigate straight away. Treat any burning smell as a warning, and don't ignore it.",
+    "items": [
+      "Working on a live or gas dryer",
+      "Using foil or plastic duct",
+      "Waiting years between cleanings"
+    ]
+  },
+  "recap": {
+    "narration": "Let's recap. Unplug the dryer. Pull it out carefully. Disconnect the duct. Clean the duct with a brush and a vacuum. Clean the outside vent hood. Clean the lint trap and housing. And reconnect with a metal duct, then test the airflow. Seven steps, about an hour, and a dryer that dries faster and safer. A clear vent is a safe and efficient vent.",
+    "items": [
+      "Unplug the dryer",
+      "Pull the dryer out carefully",
+      "Disconnect the duct",
+      "Clean the duct",
+      "Clean the outside vent hood",
+      "Clean the lint trap and housing",
+      "Reconnect and test"
+    ]
+  },
+  "outro": "That's how you clean your dryer vent. If this saved you energy and gave you peace of mind, subscribe to WikiTube, because we publish a new how-to every single day. Tell us in the comments how much lint you found, and what you would like us to explain next. See you tomorrow. And clean your lint trap after every load, as a habit.",
+  "metadata": {
+    "title": "How to Clean Your Dryer Vent (Step by Step)",
+    "description": "Clothes taking too long to dry? In this step-by-step video you'll learn how to clean your dryer vent safely: unplug the dryer, pull it out carefully, disconnect the duct, clean it with a brush kit and a vacuum, clear the outside vent hood, clean the lint trap, then reconnect with a metal duct and test the airflow. A clogged vent wastes energy and can be a fire hazard, so do it once a year.\n\nYou'll need: a dryer vent brush kit, a vacuum with a hose, a screwdriver, foil tape and gloves, a flashlight.\n\nWikiTube publishes a new step-by-step how-to video every day. Subscribe so you don't miss the next one.",
+    "tags": [
+      "how to clean dryer vent",
+      "clean dryer vent step by step",
+      "dryer vent cleaning",
+      "dryer lint fire prevention",
+      "dryer taking too long to dry",
+      "clean dryer duct",
+      "dryer vent brush kit",
+      "clean lint trap",
+      "home maintenance",
+      "laundry tips",
+      "how to",
+      "wikitube"
+    ],
+    "thumbnailTitle": "CLEAN YOUR DRYER VENT",
+    "chapters": "auto",
+    "localizations": {
+      "es": {
+        "title": "Cómo limpiar el conducto de la secadora paso a paso",
+        "description": "¿Tu ropa tarda dos ciclos en secarse? En este vídeo paso a paso aprenderás a limpiar el conducto de la secadora con seguridad: desenchufarla, moverla con cuidado, desconectar el conducto, limpiarlo con un kit de cepillos y una aspiradora, despejar la salida exterior, limpiar el filtro de pelusa y volver a conectar con un conducto metálico. Un conducto obstruido gasta energía y puede ser un riesgo de incendio.\n\nWikiTube publica un nuevo tutorial paso a paso cada día. Suscríbete para no perderte el siguiente."
+      },
+      "pt": {
+        "title": "Como limpar o duto da secadora passo a passo",
+        "description": "Suas roupas demoram dois ciclos para secar? Neste vídeo passo a passo você aprende a limpar o duto da secadora com segurança: desligar da tomada, mover com cuidado, desconectar o duto, limpar com um kit de escovas e aspirador, desobstruir a saída externa, limpar o filtro de fiapos e reconectar com um duto metálico. Um duto entupido gasta energia e pode causar incêndio.\n\nA WikiTube publica um novo tutorial passo a passo todos os dias. Inscreva-se para não perder o próximo."
+      },
+      "fr": {
+        "title": "Comment nettoyer le conduit de votre sèche-linge pas à pas",
+        "description": "Votre linge met deux cycles à sécher ? Dans cette vidéo pas à pas, apprenez à nettoyer le conduit de votre sèche-linge en toute sécurité : débrancher, déplacer l'appareil avec précaution, déconnecter le conduit, le nettoyer avec un kit de brosses et un aspirateur, dégager la sortie extérieure, nettoyer le filtre à peluches et reconnecter avec un conduit métallique. Un conduit obstrué gaspille de l'énergie et présente un risque d'incendie.\n\nWikiTube publie chaque jour un nouveau tutoriel pas à pas. Abonnez-vous pour ne pas manquer le prochain."
+      },
+      "de": {
+        "title": "Trocknerabluft reinigen: Schritt für Schritt",
+        "description": "Dauert das Trocknen zwei Durchgänge? In diesem Video lernst du Schritt für Schritt, wie du den Abluftschlauch deines Trockners sicher reinigst: Stecker ziehen, das Gerät vorsichtig verschieben, den Schlauch abnehmen, mit Bürstenset und Staubsauger reinigen, die Außenöffnung freimachen, das Flusensieb säubern und mit einem Metallrohr wieder anschließen. Eine verstopfte Abluft verschwendet Energie und ist ein Brandrisiko.\n\nWikiTube veröffentlicht jeden Tag eine neue Schritt-für-Schritt-Anleitung. Abonniere den Kanal, um die nächste nicht zu verpassen."
+      },
+      "hi": {
+        "title": "ड्रायर वेंट को स्टेप-बाय-स्टेप कैसे साफ करें",
+        "description": "कपड़े सूखने में दो साइकल लगते हैं? इस स्टेप-बाय-स्टेप वीडियो में सीखें ड्रायर वेंट को सुरक्षित तरीके से कैसे साफ करें: प्लग निकालें, ड्रायर को सावधानी से खिसकाएं, डक्ट अलग करें, ब्रश किट और वैक्यूम से साफ करें, बाहर का वेंट खोलें, लिंट ट्रैप साफ करें और धातु के डक्ट से दोबारा जोड़ें। बंद वेंट बिजली बर्बाद करता है और आग का जोखिम भी बढ़ाता है।\n\nWikiTube पर हर दिन एक नया स्टेप-बाय-स्टेप ट्यूटोरियल आता है। अगला वीडियो न छूटे, इसलिए सब्सक्राइब करें।"
+      },
+      "it": {
+        "title": "Come pulire il condotto dell'asciugatrice passo passo",
+        "description": "I tuoi panni impiegano due cicli ad asciugarsi? In questo video passo passo scopri come pulire il condotto dell'asciugatrice in sicurezza: scollegare la spina, spostare l'apparecchio con cautela, staccare il condotto, pulirlo con un kit di spazzole e un aspirapolvere, liberare lo sfiato esterno, pulire il filtro dei pelucchi e ricollegare con un condotto metallico. Un condotto ostruito spreca energia e rischia di causare incendi.\n\nWikiTube pubblica ogni giorno un nuovo tutorial passo passo. Iscriviti per non perdere il prossimo."
+      },
+      "ja": {
+        "title": "衣類乾燥機の排気ダクトの掃除方法（ステップ解説）",
+        "description": "洗濯物が乾くのに2回かかる、ということはありませんか？このステップ解説では、乾燥機の排気ダクトを安全に掃除する方法を紹介します。電源プラグを抜く、本体をそっと動かす、ダクトを外す、ブラシキットと掃除機で掃除する、屋外の排気口を確認する、糸くずフィルターを掃除する、金属ダクトで接続し直す。詰まりは電気代のムダや火災の原因にもなります。\n\nWikiTubeでは毎日、新しいステップバイステップのハウツー動画を公開しています。次の動画を見逃さないよう、チャンネル登録をお願いします。"
+      },
+      "id": {
+        "title": "Cara Membersihkan Saluran Pembuangan Mesin Pengering Langkah demi Langkah",
+        "description": "Pakaian butuh dua siklus untuk kering? Dalam video langkah demi langkah ini, Anda akan belajar membersihkan saluran pembuangan mesin pengering dengan aman: cabut kabel, geser mesin dengan hati-hati, lepas saluran, bersihkan dengan set sikat dan penyedot debu, bersihkan lubang keluar di luar, bersihkan saringan serat, lalu sambungkan kembali dengan saluran logam. Saluran tersumbat memboroskan energi dan berisiko kebakaran.\n\nWikiTube menerbitkan tutorial langkah demi langkah baru setiap hari. Subscribe agar tidak ketinggalan video berikutnya."
+      }
+    }
+  },
+  "short": {
+    "title": "Clean your dryer vent in 3 steps #shorts",
+    "description": "Unplug, brush the duct, clear the outside flap. Full 7-step guide on the channel. #dryer #homemaintenance #howto",
+    "hook": "Clogged dryer vent? Clear the lint safely.",
+    "steps": [
+      {
+        "title": "Unplug it",
+        "narration": "One. Unplug the dryer, and pull it out slowly. Gas dryers need a professional."
+      },
+      {
+        "title": "Brush the duct",
+        "narration": "Two. Disconnect the duct, and use a brush kit and a vacuum to remove the lint."
+      },
+      {
+        "title": "Check outside",
+        "narration": "Three. Clear the outside vent flap, then test the airflow."
+      }
+    ],
+    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+  }
+}

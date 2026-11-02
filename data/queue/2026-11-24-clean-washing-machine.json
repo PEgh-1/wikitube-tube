@@ -1,0 +1,180 @@
+{
+  "$schema": "../episode.schema.json",
+  "id": "2026-11-24-clean-washing-machine",
+  "date": "2026-11-24",
+  "slug": "clean-washing-machine",
+  "category": "Home",
+  "title": "How to Clean a Washing Machine (Front and Top Load)",
+  "hook": "Does your washing machine smell musty, or do your clean clothes come out smelling a little bit off? The machine that cleans everything needs cleaning too. In seven steps, you'll get rid of the smell, the grime and the mould, using ingredients you already have. It's easier than you think.",
+  "intro": "Washing machines collect detergent residue, lint and moisture, especially around the door seal, the detergent drawer and the drain filter. That's a perfect home for bacteria and mould, and the cause of that sour smell. The good news is that a full clean takes about thirty minutes of your time, spread over two quick cycles. The steps are the same for front loaders and top loaders, with a few small differences, which I'll point out as we go.",
+  "youNeed": [
+    "White vinegar",
+    "Baking soda",
+    "Microfiber cloths",
+    "An old toothbrush",
+    "A shallow dish or towel"
+  ],
+  "youNeedNarration": "Here's what you need. About two cups of plain white vinegar. Half a cup of baking soda. A few microfiber cloths and an old toothbrush for the corners. And a shallow dish or an old towel to catch the water when you open the filter. If you have the manual for your machine, keep it close by.",
+  "heroImageQuery": "front load washing machine",
+  "heroImagePrompt": "A clean white front-loading washing machine in a bright laundry room with the door open, folded towels on top, soft daylight, photorealistic, no text",
+  "steps": [
+    {
+      "title": "Empty it and check the manual",
+      "narration": "Step one. Make sure the drum is empty, with no laundry left inside, and check the pockets of anything that has fallen to the bottom. Take a few seconds to remove any stray socks or coins from the rubber seal. Then take a minute to look at your machine's manual or the label inside the door. Some brands recommend a specific cleaner, or a special cleaning cycle called Tub Clean, Drum Clean or Self Clean. If yours has one, use it as the main cycle later. Check as well that the machine is level and the door opens fully. It's a short step, but it avoids mistakes with your particular model.",
+      "tip": "Look for a Tub Clean cycle",
+      "mistake": "Cleaning with laundry still inside",
+      "imageQuery": "empty washing machine drum",
+      "imagePrompt": "An empty stainless steel washing machine drum with the door wide open, bright laundry room, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Wipe the door seal and glass",
+      "narration": "Step two. On a front loader, the rubber door seal is where the mould lives. Gently pull the rubber back and look into the folds. You'll probably find dark spots, hair and slime. Spray the area lightly with a mix of equal parts vinegar and water, or use a cloth dampened with it, and wipe the folds clean. An old toothbrush helps in the tight corners. Do this monthly, since the seal is where most smells begin. Don't use bleach together with vinegar. Wipe the glass, and leave a dry cloth in the seal to catch drips. For a top loader, wipe the rim and the underside of the lid.",
+      "tip": "An old toothbrush reaches the folds",
+      "mistake": "Mixing vinegar with bleach",
+      "imageQuery": "washing machine rubber seal",
+      "imagePrompt": "A hand pulling back the rubber door seal of a washing machine and wiping it with a cloth, bright light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Clean the detergent drawer",
+      "narration": "Step three. Pull out the detergent drawer. On many machines, you press a small tab or lift it slightly, then pull it free. Check your manual if it won't come out. Soak the drawer in a sink of warm water for about ten minutes, then scrub off the mould and sticky residue with the toothbrush. Don't forget the empty space where the drawer sits, because buildup collects there too. Rinse the parts, dry them with a towel, and slide the drawer back into place. This one step is often the main source of the smell. If the drawer is fixed in place, simply scrub it where it is with a toothbrush and a cloth.",
+      "tip": "Soak ten minutes, then scrub",
+      "mistake": "Forgetting the slot behind the drawer",
+      "imageQuery": "washing machine detergent drawer",
+      "imagePrompt": "A removed washing machine detergent drawer soaking in a sink with warm water and a toothbrush beside it, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Run a hot vinegar cycle",
+      "narration": "Step four. Pour two cups of white vinegar into the empty drum, or into the detergent drawer's main compartment, and start the hottest, longest cycle, with no laundry inside. If you have a Tub Clean cycle, choose that instead. The hot water and vinegar help dissolve soap scum, hard water minerals and bacteria. You can pause the cycle for thirty minutes midway, to let the mix soak, then restart it. Never combine vinegar with bleach in the same load, because the fumes are harmful. Run them separately, and rinse in between. Open the door once the cycle finishes, and let the steam escape.",
+      "tip": "Hottest cycle, no laundry",
+      "mistake": "Pouring bleach and vinegar together",
+      "imageQuery": "pouring vinegar washing machine",
+      "imagePrompt": "White vinegar being poured from a bottle into an empty washing machine drum, close-up, bright light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Follow with baking soda",
+      "narration": "Step five. Once the vinegar cycle ends, sprinkle half a cup of baking soda into the drum and run a second hot cycle. Baking soda is a gentle deodorizer, and it neutralizes any remaining smells. When the cycle finishes, open the door and wipe the inside of the drum with a clean microfiber cloth. If you see any residue loosened from the sides, wipe it away. Some manufacturers prefer special machine-cleaning tablets, so use those if the manual says so, instead of vinegar and baking soda. Check the drum for loosened buildup before you close the door.",
+      "tip": "Baking soda neutralizes the smell",
+      "mistake": "Skipping the second cycle",
+      "imageQuery": "baking soda washing machine",
+      "imagePrompt": "A hand sprinkling baking soda into an empty washing machine drum from a small cup, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Clean the drain filter safely",
+      "narration": "Step six. Most front loaders have a small drain filter behind a panel at the bottom corner. Unplug the machine first. Put a shallow dish and a towel on the floor, because water will come out. Open the panel, slowly unscrew the filter counterclockwise and let the water drain. Remove coins, hair and lint, rinse the filter under the tap, and screw it back firmly. Top loaders may have a lint filter or none at all. Check the manual, and if you're unsure, leave this job for a technician. Clean this filter every three months, or when the machine drains slowly.",
+      "tip": "Unplug first and have a towel ready",
+      "mistake": "Opening the filter on a plugged-in machine",
+      "imageQuery": "washing machine drain filter",
+      "imagePrompt": "A hand unscrewing the round drain filter in a small access panel at the bottom of a front-loading washing machine, towel below, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Wipe down and keep it dry",
+      "narration": "Step seven. Finish by wiping the outside, the control panel and the top with a damp cloth. Then leave the door, and the drawer, slightly open so air can dry the inside, and mould can't grow. After washing, don't leave wet clothes in the drum. Use the amount of detergent shown on the packet, because too much creates the residue that feeds smells. A quick wipe of the seal weekly and a full clean once a month will keep your machine fresh. Mark the date on your calendar. Make it a monthly habit and you won't need to rescue the machine again.",
+      "tip": "Leave the door ajar after every wash",
+      "mistake": "Using too much detergent",
+      "imageQuery": "washing machine door open",
+      "imagePrompt": "A front-loading washing machine with its door left slightly open in a tidy laundry room, folded towels beside it, photorealistic, no text",
+      "media": "photo"
+    }
+  ],
+  "mistakesToAvoid": {
+    "narration": "Here are the mistakes to avoid. First, never mix bleach and vinegar. They create toxic fumes, so use one product at a time, and rinse in between. Second, don't use too much detergent. More soap doesn't mean cleaner clothes, it means more residue and more smell. And third, don't close the door tightly after every wash. A closed, damp drum is exactly where mould grows. Leave it open a little, and check the seal every week. When in doubt, follow the manufacturer's instructions.",
+    "items": [
+      "Mixing bleach with vinegar",
+      "Using too much detergent",
+      "Closing the door on a damp drum"
+    ]
+  },
+  "recap": {
+    "narration": "Let's recap. Empty the drum and check the manual. Wipe the door seal and glass. Clean the detergent drawer. Run a hot cycle with vinegar. Follow with a baking soda cycle. Clean the drain filter safely, with the machine unplugged. And wipe it down, then keep the door open to dry. Seven steps, about thirty minutes, and a washing machine that smells fresh again. A clean machine also cleans your clothes better.",
+    "items": [
+      "Empty it and check the manual",
+      "Wipe the door seal and glass",
+      "Clean the detergent drawer",
+      "Run a hot vinegar cycle",
+      "Follow with baking soda",
+      "Clean the drain filter safely",
+      "Wipe down and keep it dry"
+    ]
+  },
+  "outro": "That's how you clean a washing machine, front or top load. If your laundry smells better, subscribe to WikiTube, because we publish a new how-to every single day. Tell us in the comments what you found in your filter, and what you would like us to explain next. See you tomorrow.",
+  "metadata": {
+    "title": "How to Clean a Washing Machine (Front and Top Load)",
+    "description": "Does your washing machine smell musty? In this step-by-step video you'll learn how to clean a washing machine, front load or top load: empty the drum, wipe the door seal, clean the detergent drawer, run a hot vinegar cycle and a baking soda cycle, clean the drain filter safely, and keep the machine dry to stop mould and bad smells. Simple household ingredients, no harsh chemical mixes, and about thirty minutes of your time.\n\nYou'll need: white vinegar, baking soda, microfiber cloths, an old toothbrush, a shallow dish or towel.\n\nWikiTube publishes a new step-by-step how-to video every day. Subscribe so you don't miss the next one.",
+    "tags": [
+      "how to clean washing machine",
+      "clean front load washer",
+      "clean top load washer",
+      "washing machine smell",
+      "washer mold smell",
+      "clean washing machine with vinegar",
+      "clean washing machine filter",
+      "clean washer door seal",
+      "laundry tips",
+      "cleaning hacks",
+      "how to",
+      "wikitube"
+    ],
+    "thumbnailTitle": "STOP THE WASHER SMELL",
+    "chapters": "auto",
+    "localizations": {
+      "es": {
+        "title": "Cómo limpiar una lavadora (de carga frontal y superior)",
+        "description": "¿Tu lavadora huele a humedad? En este vídeo paso a paso aprenderás a limpiar una lavadora, de carga frontal o superior: vaciar el tambor, limpiar la goma de la puerta, lavar el cajón del detergente, hacer un ciclo caliente con vinagre y otro con bicarbonato, limpiar el filtro de desagüe con seguridad y mantenerla seca para evitar moho y malos olores.\n\nWikiTube publica un nuevo tutorial paso a paso cada día. Suscríbete para no perderte el siguiente."
+      },
+      "pt": {
+        "title": "Como limpar a máquina de lavar (frontal e de carga superior)",
+        "description": "Sua máquina de lavar está com cheiro de mofo? Neste vídeo passo a passo você aprende a limpar a máquina de lavar, frontal ou de carga superior: esvaziar o cesto, limpar a borracha da porta, lavar a gaveta do sabão, fazer um ciclo quente com vinagre e outro com bicarbonato, limpar o filtro de drenagem com segurança e manter tudo seco para evitar mofo e mau cheiro.\n\nA WikiTube publica um novo tutorial passo a passo todos os dias. Inscreva-se para não perder o próximo."
+      },
+      "fr": {
+        "title": "Comment nettoyer un lave-linge (chargement frontal ou par le haut)",
+        "description": "Votre lave-linge sent le renfermé ? Dans cette vidéo pas à pas, apprenez à nettoyer un lave-linge à chargement frontal ou par le haut : vider le tambour, nettoyer le joint de porte, laver le bac à lessive, lancer un cycle chaud au vinaigre puis au bicarbonate, nettoyer le filtre de vidange en sécurité et le garder sec pour éviter moisissures et mauvaises odeurs.\n\nWikiTube publie chaque jour un nouveau tutoriel pas à pas. Abonnez-vous pour ne pas manquer le prochain."
+      },
+      "de": {
+        "title": "Waschmaschine reinigen (Frontlader und Toplader)",
+        "description": "Riecht deine Waschmaschine muffig? In diesem Video lernst du Schritt für Schritt, wie du Frontlader und Toplader reinigst: Trommel leeren, Türdichtung abwischen, Einspülschale säubern, einen heißen Waschgang mit Essig und einen mit Natron laufen lassen, den Flusensieb sicher reinigen und die Maschine trocken halten, damit kein Schimmel und kein Geruch entsteht.\n\nWikiTube veröffentlicht jeden Tag eine neue Schritt-für-Schritt-Anleitung. Abonniere den Kanal, um die nächste nicht zu verpassen."
+      },
+      "hi": {
+        "title": "वॉशिंग मशीन कैसे साफ करें (फ्रंट लोड और टॉप लोड)",
+        "description": "क्या आपकी वॉशिंग मशीन से सीलन जैसी बदबू आती है? इस स्टेप-बाय-स्टेप वीडियो में सीखें फ्रंट लोड और टॉप लोड वॉशिंग मशीन कैसे साफ करें: ड्रम खाली करें, दरवाज़े की रबर सील पोंछें, डिटर्जेंट ड्रॉअर धोएं, सिरके और बेकिंग सोडा के साथ गर्म साइकल चलाएं, ड्रेन फ़िल्टर सुरक्षित तरीके से साफ करें और फफूंदी व बदबू से बचने के लिए मशीन सूखी रखें।\n\nWikiTube पर हर दिन एक नया स्टेप-बाय-स्टेप ट्यूटोरियल आता है। अगला वीडियो न छूटे, इसलिए सब्सक्राइब करें।"
+      },
+      "it": {
+        "title": "Come pulire la lavatrice (a carica frontale e dall'alto)",
+        "description": "La tua lavatrice sa di chiuso? In questo video passo passo scopri come pulire la lavatrice, a carica frontale o dall'alto: svuotare il cestello, pulire la guarnizione dell'oblò, lavare il cassetto del detersivo, fare un ciclo caldo con aceto e uno con bicarbonato, pulire il filtro di scarico in sicurezza e tenerla asciutta per evitare muffa e cattivi odori.\n\nWikiTube pubblica ogni giorno un nuovo tutorial passo passo. Iscriviti per non perdere il prossimo."
+      },
+      "ja": {
+        "title": "洗濯機の掃除方法（ドラム式・縦型）",
+        "description": "洗濯機が生乾きのようなにおいがしませんか？このステップ解説では、ドラム式と縦型の洗濯機を掃除する方法を紹介します。洗濯槽を空にする、ドアパッキンを拭く、洗剤ケースを洗う、お酢とお湯での洗浄、重曹での洗浄、排水フィルターを安全に掃除する、そして乾燥させてカビとにおいを防ぐところまで解説します。\n\nWikiTubeでは毎日、新しいステップバイステップのハウツー動画を公開しています。次の動画を見逃さないよう、チャンネル登録をお願いします。"
+      },
+      "id": {
+        "title": "Cara Membersihkan Mesin Cuci (Bukaan Depan dan Atas)",
+        "description": "Mesin cuci Anda berbau apek? Dalam video langkah demi langkah ini, Anda akan belajar membersihkan mesin cuci bukaan depan maupun atas: kosongkan tabung, lap karet pintu, cuci laci deterjen, jalankan siklus air panas dengan cuka dan baking soda, bersihkan filter pembuangan dengan aman, lalu jaga agar tetap kering untuk mencegah jamur dan bau tidak sedap.\n\nWikiTube menerbitkan tutorial langkah demi langkah baru setiap hari. Subscribe agar tidak ketinggalan video berikutnya."
+      }
+    }
+  },
+  "short": {
+    "title": "Clean your washing machine in 3 steps #shorts",
+    "description": "Seal, vinegar cycle, baking soda. Full 7-step guide on the channel. #cleaninghacks #laundry #howto",
+    "hook": "Smelly washing machine? Clean it in three steps.",
+    "steps": [
+      {
+        "title": "Wipe the seal",
+        "narration": "One. Wipe the rubber door seal and the detergent drawer, where mould hides."
+      },
+      {
+        "title": "Vinegar cycle",
+        "narration": "Two. Pour two cups of white vinegar in the empty drum and run the hottest cycle."
+      },
+      {
+        "title": "Baking soda cycle",
+        "narration": "Three. Run a second hot cycle with half a cup of baking soda. Never mix with bleach."
+      }
+    ],
+    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+  }
+}

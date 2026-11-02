@@ -1,0 +1,180 @@
+{
+  "$schema": "../episode.schema.json",
+  "id": "2026-11-18-fix-a-zipper",
+  "date": "2026-11-18",
+  "slug": "fix-a-zipper",
+  "category": "Home",
+  "title": "How to Fix a Zipper (Stuck, Split or Broken Slider)",
+  "hook": "A broken zipper can ruin a favorite jacket, a backpack or a pair of jeans. Before you throw the item away or pay for a repair, try these simple fixes. In a few minutes you'll know how to free a stuck zipper, close a split one, and replace a broken slider.",
+  "intro": "Zippers fail in three main ways. The fabric gets caught, the teeth stop closing behind the slider, or the slider itself comes off the track. Each problem has a different fix, so first we'll work out which one you have. Most repairs need only items from a kitchen drawer or a sewing kit, and a good number take under two minutes, so don't give up on that jacket yet. Take your time, work gently, and keep a steady hand.",
+  "youNeed": [
+    "Needle-nose pliers",
+    "A graphite pencil or soap",
+    "Tweezers",
+    "A replacement slider",
+    "A small piece of cloth"
+  ],
+  "youNeedNarration": "Here's what you need. A pair of small pliers, ideally needle-nose. A graphite pencil, a bar of soap or a candle for lubricating. Tweezers for caught threads. A cloth to protect the metal. And, for the last repair, a replacement slider in the right size. Most of these items are probably in your home already, and the slider costs just a few dollars.",
+  "heroImageQuery": "zipper jacket close up",
+  "heroImagePrompt": "A close-up of a metal zipper slider on a dark jacket, fabric folds, soft window light, shallow depth of field, photorealistic, no text",
+  "steps": [
+    {
+      "title": "Find out what is wrong",
+      "narration": "Step one. Look closely at the zipper, with good light. Is fabric caught between the teeth? Do the teeth separate right behind the slider after you pull it up? Or has the slider slid completely off one side? Run the slider up and down slowly, and feel for the spot where it hesitates. Also check for missing or bent teeth, because a zipper with several teeth missing can't be fixed this way. Knowing the problem first saves you from forcing it, which is the fastest way to break a zipper for good. Take a photo of the damage if you want to compare it before and after, or to show the shop.",
+      "tip": "Diagnose before you pull",
+      "mistake": "Yanking the slider with force",
+      "imageQuery": "inspecting zipper close up",
+      "imagePrompt": "A hand holding a jacket zipper up to bright window light, inspecting the teeth and slider closely, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Free any caught fabric",
+      "narration": "Step two. If fabric or thread is caught, stop pulling right away. Move the slider back down a few millimetres to loosen the fabric, then gently pull the material away from the teeth with tweezers or the point of a pin. Work slowly and do a little at a time. If the fabric is stuck on both sides, hold the zipper flat and wiggle the slider back and forth in tiny movements. A stubborn snag can sometimes be lifted with a small sewing needle. Once it is free, check the cloth for damage. If a few threads are pulled, trim them with small scissors, so they can't catch again. Then test the zipper slowly.",
+      "tip": "Back up first, then lift the fabric",
+      "mistake": "Pulling harder on a snagged zipper",
+      "imageQuery": "tweezers freeing zipper fabric",
+      "imagePrompt": "Fine tweezers gently lifting a thread caught in a metal zipper on a pair of jeans, macro shot, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Lubricate a stiff zipper",
+      "narration": "Step three. If the zipper is stiff but not caught, dirt or friction is the usual cause. Rub a graphite pencil, a dry bar of soap or a candle stub along both rows of teeth, then move the slider up and down several times to spread it. On light fabric, use soap or candle wax, because graphite can leave grey marks. For a very dirty zipper, brush the teeth first with an old toothbrush and a little water, and let it dry. You will feel the improvement straight away. This is also the best fix for zippers on boots, bags and tents, which collect dust and grit all the time. Repeat once a year.",
+      "tip": "Soap or wax on light fabric",
+      "mistake": "Using oil that stains the fabric",
+      "imageQuery": "pencil rubbing zipper teeth",
+      "imagePrompt": "A graphite pencil being rubbed along the metal teeth of an open zipper on a backpack, close-up, warm light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Close a zipper that splits",
+      "narration": "Step four. When the teeth open up behind the slider, the slider has usually stretched and no longer grips. Move it to the bottom of the zipper, and place a cloth over it to protect the metal. Using pliers, gently squeeze the slider on its two sides, just a little, and test it by zipping up. Repeat with tiny squeezes until the zipper closes firmly. Too much force can crush the slider, so go slowly. If you can see the slider is cracked, skip ahead and replace it. After the fix, zip the zipper up and down at least ten times to confirm that it holds. If it still opens, one more tiny squeeze will usually do it.",
+      "tip": "Tiny squeezes, then test again",
+      "mistake": "Crushing the slider in one big squeeze",
+      "imageQuery": "pliers squeezing zipper slider",
+      "imagePrompt": "Small needle-nose pliers gently pinching a metal zipper slider wrapped in a cloth, workbench, soft light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Put a slider back on track",
+      "narration": "Step five. If the slider has come off one side, first remove the bottom stop, the little metal piece at the end, using pliers. Then line up both rows of teeth, and slide the slider on from the bottom, one side at a time, so the teeth enter evenly. Zip it up a few centimetres to check that it closes correctly. If the teeth cross over, start again. Finally, fit the stop back in place, or sew a few firm stitches across the tape to make a new stop. If the zipper is plastic, the same method works, but be gentle, because plastic teeth are easier to break than metal.",
+      "tip": "Start both sides together at the bottom",
+      "mistake": "Forcing the slider on crooked",
+      "imageQuery": "zipper slider threading",
+      "imagePrompt": "Hands threading a metal zipper slider onto two rows of teeth at the bottom of a jacket zipper, close-up, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Replace a worn-out slider",
+      "narration": "Step six. Sometimes the slider is just worn out. Look for a number stamped on the back, like 3, 5 or 8, which gives the zipper size, and buy a matching slider at a craft or sewing shop. Remove the old one and the bottom stop, as in the previous step, and slide the new one on. You can also remove the top stop to do the job from the other end. Then add a new stop, either with pliers or with strong thread. A new slider usually costs only a few dollars. Repair shops often charge much more, so doing it yourself is worth a try.",
+      "tip": "Match the number on the slider",
+      "mistake": "Buying the wrong slider size",
+      "imageQuery": "sewing kit zippers buttons",
+      "imagePrompt": "A sewing kit with a few replacement zipper sliders in different sizes laid out on a wooden table, soft daylight, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Keep your zippers healthy",
+      "narration": "Step seven. A few habits will keep your zippers working for years. Close them fully before washing, so the teeth don't bend or snag other clothes. Don't overstuff bags or jackets, as the strain makes the teeth separate. Pull the slider by the tab, in line with the zipper, and not at an angle. Once or twice a year, wipe the teeth and rub them with soap or wax. If a zipper starts to feel rough, deal with it right away, because small problems get worse quickly. A few seconds of care now will save you a repair later.",
+      "tip": "Zip up before washing",
+      "mistake": "Overstuffing bags past the zipper",
+      "imageQuery": "zipped backpack clean tidy",
+      "imagePrompt": "A neatly zipped backpack on a wooden bench in soft light, clean metal zipper in focus, photorealistic, no text",
+      "media": "photo"
+    }
+  ],
+  "mistakesToAvoid": {
+    "narration": "Here are the mistakes to avoid. First, never force a stuck zipper. Pulling harder bends the teeth and turns an easy fix into a permanent break. Second, don't use oil or grease on clothing, as it can leave marks that are very hard to remove. Use soap, wax or graphite instead. And third, don't squeeze a slider too hard with pliers. A small amount of pressure works, while too much can crack the metal. Patience is the real secret to every zipper repair.",
+    "items": [
+      "Forcing a stuck zipper",
+      "Using oil or grease on fabric",
+      "Squeezing the slider too hard"
+    ]
+  },
+  "recap": {
+    "narration": "Let's run through it again. Find out what is wrong. Free any caught fabric. Lubricate a stiff zipper. Close a zipper that splits. Put a slider back on track. Replace a worn-out slider. And keep your zippers healthy with a few simple habits. Seven steps that can save a jacket, a bag or a favorite pair of jeans, usually in just a few minutes.",
+    "items": [
+      "Find out what is wrong",
+      "Free any caught fabric",
+      "Lubricate a stiff zipper",
+      "Close a zipper that splits",
+      "Put a slider back on track",
+      "Replace a worn-out slider",
+      "Keep your zippers healthy"
+    ]
+  },
+  "outro": "That's how you fix a zipper at home. If this saved your jacket, subscribe to WikiTube, because we publish a new how-to every single day. Tell us in the comments which zipper problem you had, and what you would like us to explain next. See you tomorrow.",
+  "metadata": {
+    "title": "How to Fix a Zipper (Stuck, Split or Broken Slider)",
+    "description": "Don't throw away that jacket yet! In this step-by-step video you'll learn how to fix a zipper at home: free a stuck zipper, lubricate stiff teeth, close a zipper that keeps splitting, put a slider back on its track, and replace a broken or worn-out slider. All you need is a pair of pliers, a pencil or a bar of soap, tweezers and a few minutes of patience. Works for jackets, jeans, bags and backpacks.\n\nYou'll need: needle-nose pliers, a graphite pencil or soap, tweezers, a replacement slider, a small piece of cloth.\n\nWikiTube publishes a new step-by-step how-to video every day. Subscribe so you don't miss the next one.",
+    "tags": [
+      "how to fix a zipper",
+      "zipper repair",
+      "stuck zipper",
+      "zipper keeps separating",
+      "fix broken zipper slider",
+      "replace zipper slider",
+      "zipper came off track",
+      "fix jacket zipper",
+      "fix zipper without sewing",
+      "clothing repair",
+      "how to",
+      "wikitube"
+    ],
+    "thumbnailTitle": "FIX ANY ZIPPER AT HOME",
+    "chapters": "auto",
+    "localizations": {
+      "es": {
+        "title": "Cómo arreglar una cremallera (atascada, abierta o rota)",
+        "description": "¿Se te estropeó la cremallera? Aprende a arreglarla en casa: soltar una cremallera atascada, lubricar los dientes, cerrar una cremallera que se abre sola, volver a colocar el cursor en su carril y cambiar un cursor roto. Solo necesitas unos alicates, un lápiz o jabón y unos minutos. Sirve para chaquetas, vaqueros, bolsos y mochilas.\n\nWikiTube publica un nuevo tutorial paso a paso cada día. Suscríbete para no perderte el siguiente."
+      },
+      "pt": {
+        "title": "Como consertar um zíper (preso, aberto ou quebrado)",
+        "description": "O zíper estragou? Aprenda a consertar em casa: soltar um zíper preso, lubrificar os dentes, fechar um zíper que se abre sozinho, recolocar o cursor no trilho e trocar um cursor quebrado. Você só precisa de um alicate, um lápis ou sabão e alguns minutos. Serve para jaquetas, jeans, bolsas e mochilas.\n\nA WikiTube publica um novo tutorial passo a passo todos os dias. Inscreva-se para não perder o próximo."
+      },
+      "fr": {
+        "title": "Comment réparer une fermeture éclair (coincée, ouverte ou cassée)",
+        "description": "Votre fermeture éclair est en panne ? Apprenez à la réparer à la maison : décoincer un tissu, lubrifier les dents, refermer une fermeture qui s'ouvre toute seule, remettre le curseur sur ses rails et remplacer un curseur cassé. Il vous faut seulement une pince, un crayon ou du savon et quelques minutes. Pour vestes, jeans, sacs et sacs à dos.\n\nWikiTube publie chaque jour un nouveau tutoriel pas à pas. Abonnez-vous pour ne pas manquer le prochain."
+      },
+      "de": {
+        "title": "Reißverschluss reparieren: klemmt, öffnet sich oder Zipper kaputt",
+        "description": "Reißverschluss kaputt? So reparierst du ihn zu Hause: eingeklemmten Stoff lösen, Zähne gleiten lassen, einen sich öffnenden Reißverschluss wieder schließen, den Zipper zurück auf die Schiene setzen und einen defekten Zipper ersetzen. Du brauchst nur eine Zange, einen Bleistift oder Seife und ein paar Minuten. Für Jacken, Jeans, Taschen und Rucksäcke.\n\nWikiTube veröffentlicht jeden Tag eine neue Schritt-für-Schritt-Anleitung. Abonniere den Kanal, um die nächste nicht zu verpassen."
+      },
+      "hi": {
+        "title": "ज़िप कैसे ठीक करें (अटकी हुई, खुलती हुई या टूटी हुई)",
+        "description": "ज़िप खराब हो गई? जानिए घर पर इसे कैसे ठीक करें: अटका हुआ कपड़ा निकालना, दांतों को चिकना करना, बार-बार खुलने वाली ज़िप को बंद करना, स्लाइडर को वापस पटरी पर लगाना और टूटा हुआ स्लाइडर बदलना। बस एक प्लायर, पेंसिल या साबुन और कुछ मिनट चाहिए। जैकेट, जींस, बैग और बैकपैक के लिए उपयोगी।\n\nWikiTube पर हर दिन एक नया स्टेप-बाय-स्टेप ट्यूटोरियल आता है। अगला वीडियो न छूटे, इसलिए सब्सक्राइब करें।"
+      },
+      "it": {
+        "title": "Come riparare una cerniera (bloccata, aperta o rotta)",
+        "description": "Hai la cerniera rotta? Scopri come ripararla a casa: liberare il tessuto incastrato, lubrificare i denti, chiudere una cerniera che si apre da sola, rimettere il cursore sul binario e sostituire un cursore rotto. Bastano una pinza, una matita o del sapone e pochi minuti. Per giacche, jeans, borse e zaini.\n\nWikiTube pubblica ogni giorno un nuovo tutorial passo passo. Iscriviti per non perdere il prossimo."
+      },
+      "ja": {
+        "title": "ファスナーの直し方（動かない・開いてしまう・スライダー破損）",
+        "description": "ファスナーが壊れた？自宅で直す方法を紹介します。布が噛んだ時の外し方、動きが悪い時の潤滑、勝手に開いてしまうファスナーの修理、外れたスライダーの付け直し、壊れたスライダーの交換まで。必要なのはペンチ、鉛筆または石けん、そして数分の時間だけ。ジャケット、ジーンズ、バッグに使えます。\n\nWikiTubeでは毎日、新しいステップバイステップのハウツー動画を公開しています。次の動画を見逃さないよう、チャンネル登録をお願いします。"
+      },
+      "id": {
+        "title": "Cara Memperbaiki Resleting (Macet, Terbuka, atau Rusak)",
+        "description": "Resleting rusak? Pelajari cara memperbaikinya di rumah: melepas kain yang tersangkut, melumasi gigi resleting, menutup resleting yang terbuka sendiri, memasang kembali kepala resleting ke relnya, dan mengganti kepala yang rusak. Anda hanya butuh tang, pensil atau sabun, dan beberapa menit. Cocok untuk jaket, jeans, tas, dan ransel.\n\nWikiTube menerbitkan tutorial langkah demi langkah baru setiap hari. Subscribe agar tidak ketinggalan video berikutnya."
+      }
+    }
+  },
+  "short": {
+    "title": "Fix a stuck zipper in 3 steps #shorts",
+    "description": "Free the fabric, lubricate, squeeze the slider. Full 7-step guide on the channel. #zipper #diy #howto",
+    "hook": "Zipper stuck or splitting? Fix it in three steps.",
+    "steps": [
+      {
+        "title": "Free the fabric",
+        "narration": "One. Back the slider up a little and lift the caught fabric out with tweezers."
+      },
+      {
+        "title": "Lubricate",
+        "narration": "Two. Rub a pencil, soap or candle wax along the teeth and move the slider."
+      },
+      {
+        "title": "Squeeze the slider",
+        "narration": "Three. For a splitting zipper, press the slider gently with pliers, then test it."
+      }
+    ],
+    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+  }
+}

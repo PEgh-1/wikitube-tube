@@ -1,0 +1,180 @@
+{
+  "$schema": "../episode.schema.json",
+  "id": "2026-12-07-cook-chicken-breast-juicy",
+  "date": "2026-12-07",
+  "slug": "cook-chicken-breast-juicy",
+  "category": "Kitchen",
+  "title": "How to Cook Chicken Breast Without Drying It Out",
+  "hook": "Dry, rubbery chicken breast is the most common dinner disappointment. It's lean meat that overcooks in minutes. But with seven simple steps, you can cook chicken breast that is tender, juicy and safe, using just a pan, a little salt and a thermometer. It takes about thirty minutes, start to finish.",
+  "intro": "Chicken breast has very little fat, so there isn't much margin for error. Two things cause most of the dryness. Uneven thickness, where the thin end overcooks while the thick end is still raw, and cooking it for too long. We'll fix both. We'll also use a quick salt brine for extra moisture, and a thermometer, which is the only reliable way to know when chicken is done. Let's get started. Even if you have never cooked chicken before, you can do this. It simply takes attention at the right moments.",
+  "youNeed": [
+    "Boneless chicken breasts",
+    "Salt and black pepper",
+    "A skillet with a lid",
+    "A meat thermometer",
+    "A meat mallet or rolling pin"
+  ],
+  "youNeedNarration": "Here's what you need. Two or three boneless chicken breasts. Coarse salt and pepper. A skillet with a lid. A little oil with a high smoke point. A meat mallet, or a rolling pin or heavy pan. And an instant-read meat thermometer. If you only buy one new kitchen tool this year, make it that thermometer. Nothing here is expensive, and most of it is already in your kitchen.",
+  "heroImageQuery": "juicy sliced chicken breast",
+  "heroImagePrompt": "Sliced juicy golden-brown chicken breast on a white plate with herbs, showing a moist interior, soft side light, shallow depth of field, photorealistic, no text",
+  "steps": [
+    {
+      "title": "Even out the thickness",
+      "narration": "Step one. Place the chicken breast between two sheets of plastic wrap or baking paper on a cutting board. Using a mallet, a rolling pin or the bottom of a heavy pan, gently pound the thickest part until the whole breast is about three quarters of an inch, or two centimetres, thick. Don't pound it into a pancake, because you just want an even shape. Equal thickness means the whole piece cooks at the same speed, which is the key to juicy results. Very large breasts can also be cut in half horizontally to make two thinner cutlets, which cook faster.",
+      "tip": "Pound the thick end, not the whole breast",
+      "mistake": "Cooking a breast with one thick end",
+      "imageQuery": "pounding chicken breast",
+      "imagePrompt": "A chicken breast between sheets of baking paper being gently pounded with a rolling pin on a cutting board, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Brine it for moisture",
+      "narration": "Step two. Dissolve two tablespoons of salt in four cups, or one litre, of cold water. Put the chicken in the water, and leave it for thirty minutes in the fridge. The salt helps the meat hold on to more moisture while it cooks. If you're short of time, skip the brine, and instead salt the chicken generously on both sides fifteen minutes before cooking. Don't brine for more than an hour, or the texture can turn spongy. Raw chicken must always stay in the fridge. Always use a clean bowl and wash it afterward with hot soapy water, since raw chicken juices carry bacteria.",
+      "tip": "Thirty minutes is plenty",
+      "mistake": "Brining for hours and ending up salty",
+      "imageQuery": "chicken salt water bowl",
+      "imagePrompt": "Raw chicken breasts resting in a glass bowl of salted water, kitchen counter, bright light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Dry and season well",
+      "narration": "Step three. Remove the chicken from the brine and pat it very dry with paper towels. Dry meat browns, wet meat steams. Don't rinse raw chicken under the tap, because that splashes bacteria around your sink. Brush each side with a teaspoon of oil, and season with pepper, paprika, garlic powder or any dry spices you like. If you skipped the brine, add salt now. Wash your hands and the board with hot soapy water afterward. Smoked paprika, garlic powder and dried thyme make an easy all-purpose rub, with no sugar to burn in the pan.",
+      "tip": "Dry surface for golden color",
+      "mistake": "Rinsing raw chicken in the sink",
+      "imageQuery": "seasoning chicken breast",
+      "imagePrompt": "Hands sprinkling paprika and pepper on a raw chicken breast on a wooden board, close-up, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Sear in a hot pan",
+      "narration": "Step four. Heat a skillet over medium-high heat for two minutes, then add a thin layer of oil. When it shimmers, lay the chicken in the pan, presentation side down. It should sizzle right away. Leave it alone for five to six minutes without moving it, until the underside is a deep golden brown. Don't crowd the pan. If you're cooking more than two breasts, work in batches. That browned crust is where the flavor comes from. If the pan smokes heavily, lower the heat slightly. A deep golden color is what you want, not black.",
+      "tip": "Don't touch it for five minutes",
+      "mistake": "Moving the chicken before it browns",
+      "imageQuery": "chicken searing skillet",
+      "imagePrompt": "A golden chicken breast searing in a black skillet, light smoke, kitchen stove, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Flip, cover and lower the heat",
+      "narration": "Step five. Flip the chicken with tongs, then turn the heat down to medium-low and cover the pan with a lid. The trapped steam finishes the cooking gently, so the center cooks through without the outside burning. Cook for another five to seven minutes, depending on thickness. Don't keep lifting the lid, because the heat escapes. A gentle finish is the difference between juicy and dry chicken, so be patient and keep the heat low. If your breasts are very thin, three to four minutes will be enough, so start checking early.",
+      "tip": "Low heat plus a lid finishes it gently",
+      "mistake": "Leaving the heat on high to speed up",
+      "imageQuery": "covered skillet chicken",
+      "imagePrompt": "A skillet with a glass lid covering chicken breasts on a stove, steam condensation on the glass, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Check with a thermometer",
+      "narration": "Step six. Don't guess. Push an instant-read thermometer into the thickest part of the breast, without touching the pan. Chicken is safe to eat at 165 degrees Fahrenheit, or 74 Celsius. Take the chicken out of the pan once it reaches that temperature, because it keeps cooking a little as it rests. If it's below 165, cover the pan, and cook for a minute or two more, then check again. Cutting into it to look is not reliable, and it lets the juices escape. Check a second breast as well if you are cooking several, because they never finish at exactly the same time.",
+      "tip": "Aim for 165 degrees Fahrenheit, 74 Celsius",
+      "mistake": "Cutting the chicken open to check",
+      "imageQuery": "thermometer chicken breast",
+      "imagePrompt": "A digital thermometer probe inserted into the thickest part of a cooked chicken breast in a pan, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Rest, then slice",
+      "narration": "Step seven. Move the chicken to a clean board or plate, and let it rest for five to ten minutes. The juices relax and spread back through the meat, instead of running out when you cut. Cover loosely with foil if your kitchen is cool. Then slice across the grain, in slices about half an inch thick. Serve in a salad, a sandwich or with vegetables. Store leftovers in the fridge within two hours, and eat within three to four days. Try the sliced chicken over a salad or inside a wrap for an easy lunch the next day.",
+      "tip": "Rest five minutes before slicing",
+      "mistake": "Slicing the moment it comes off the heat",
+      "imageQuery": "slicing chicken breast",
+      "imagePrompt": "A rested chicken breast being sliced on a wooden cutting board, juicy interior, photorealistic, no text",
+      "media": "photo"
+    }
+  ],
+  "mistakesToAvoid": {
+    "narration": "Here are the mistakes to avoid. First, cooking a thick, uneven breast. The thin part dries out before the thick part is safe. Even it out first. Second, cooking without a thermometer. Overcooking by only a few minutes can ruin the texture, and undercooking is unsafe. And third, slicing right away. Resting keeps the juices where they belong. Do these three things right, and your chicken will be tender every time. Keep it simple, trust the thermometer, and enjoy the result.",
+    "items": [
+      "Cooking uneven, thick breasts",
+      "Guessing the doneness",
+      "Cutting it before it rests"
+    ]
+  },
+  "recap": {
+    "narration": "Let's recap. Even out the thickness. Brine for moisture. Dry and season well. Sear in a hot pan. Flip, cover and lower the heat. Check with a thermometer for 165 degrees. And rest the chicken, then slice across the grain. Seven steps, about thirty minutes of cooking, and chicken breast that stays juicy. Even thickness, gentle heat and a short rest are the three secrets.",
+    "items": [
+      "Even out the thickness",
+      "Brine it for moisture",
+      "Dry and season well",
+      "Sear in a hot pan",
+      "Flip, cover and lower the heat",
+      "Check with a thermometer",
+      "Rest, then slice"
+    ]
+  },
+  "outro": "That's how you cook chicken breast without drying it out. If dinner was juicy tonight, subscribe to WikiTube, because we publish a new how-to every single day. Tell us in the comments how you season your chicken, and what you would like us to explain next. See you tomorrow. Next time, try different spices, because the method stays exactly the same.",
+  "metadata": {
+    "title": "How to Cook Chicken Breast Without Drying It Out",
+    "description": "Tired of dry, rubbery chicken breast? In this step-by-step video you'll learn how to cook chicken breast without drying it out: even out the thickness, brine for moisture, dry and season, sear in a hot pan, finish covered on low heat, check with a thermometer for the safe 165 degrees Fahrenheit (74 Celsius), then rest and slice. A simple stovetop method for juicy, tender chicken every time.\n\nYou'll need: boneless chicken breasts, salt and black pepper, a skillet with a lid, a meat thermometer, a meat mallet or rolling pin.\n\nWikiTube publishes a new step-by-step how-to video every day. Subscribe so you don't miss the next one.",
+    "tags": [
+      "how to cook chicken breast",
+      "juicy chicken breast",
+      "chicken breast not dry",
+      "pan seared chicken breast",
+      "chicken breast in a pan",
+      "how to brine chicken",
+      "chicken breast temperature",
+      "easy chicken dinner",
+      "cooking for beginners",
+      "chicken recipes",
+      "how to",
+      "wikitube"
+    ],
+    "thumbnailTitle": "JUICY CHICKEN, EVERY TIME",
+    "chapters": "auto",
+    "localizations": {
+      "es": {
+        "title": "Cómo cocinar pechuga de pollo sin que quede seca",
+        "description": "¿Pechuga de pollo seca y gomosa? En este vídeo paso a paso aprenderás a cocinar pechuga de pollo sin que se seque: igualar el grosor, dejarla en salmuera, secar y sazonar, sellar en sartén caliente, terminar tapada a fuego bajo, comprobar con termómetro los 74 grados Celsius (165 Fahrenheit) seguros, y dejar reposar antes de cortar. Un método sencillo para pollo jugoso siempre.\n\nWikiTube publica un nuevo tutorial paso a paso cada día. Suscríbete para no perderte el siguiente."
+      },
+      "pt": {
+        "title": "Como cozinhar peito de frango sem ressecar",
+        "description": "Peito de frango seco e borrachudo? Neste vídeo passo a passo você aprende a cozinhar peito de frango sem ressecar: uniformizar a espessura, deixar na salmoura, secar e temperar, selar na frigideira quente, terminar tampado em fogo baixo, conferir com termômetro os 74 graus Celsius (165 Fahrenheit) seguros e deixar descansar antes de fatiar. Um método simples para frango sempre suculento.\n\nA WikiTube publica um novo tutorial passo a passo todos os dias. Inscreva-se para não perder o próximo."
+      },
+      "fr": {
+        "title": "Comment cuire un blanc de poulet sans le dessécher",
+        "description": "Un blanc de poulet sec et caoutchouteux ? Dans cette vidéo pas à pas, apprenez à cuire un blanc de poulet sans le dessécher : uniformiser l'épaisseur, le faire tremper en saumure, le sécher et l'assaisonner, le saisir à la poêle, finir à couvert à feu doux, vérifier au thermomètre les 74 degrés Celsius (165 Fahrenheit) sûrs, puis laisser reposer avant de trancher. Une méthode simple pour un poulet toujours juteux.\n\nWikiTube publie chaque jour un nouveau tutoriel pas à pas. Abonnez-vous pour ne pas manquer le prochain."
+      },
+      "de": {
+        "title": "Hähnchenbrust braten, ohne dass sie trocken wird",
+        "description": "Trockene, zähe Hähnchenbrust? In diesem Video lernst du Schritt für Schritt, wie du Hähnchenbrust saftig brätst: gleichmäßig dick klopfen, in Salzlake einlegen, trocken tupfen und würzen, in der heißen Pfanne anbraten, zugedeckt bei niedriger Hitze fertig garen, mit dem Thermometer die sicheren 74 Grad Celsius (165 Fahrenheit) prüfen und vor dem Schneiden ruhen lassen. Eine einfache Methode für immer saftiges Hähnchen.\n\nWikiTube veröffentlicht jeden Tag eine neue Schritt-für-Schritt-Anleitung. Abonniere den Kanal, um die nächste nicht zu verpassen."
+      },
+      "hi": {
+        "title": "चिकन ब्रेस्ट को सूखा किए बिना कैसे पकाएं",
+        "description": "चिकन ब्रेस्ट सूखा और रबर जैसा बन जाता है? इस स्टेप-बाय-स्टेप वीडियो में सीखें चिकन ब्रेस्ट को सूखा किए बिना कैसे पकाएं: मोटाई बराबर करें, नमक के पानी में रखें, सुखाकर मसाले लगाएं, गर्म पैन में सेंकें, ढककर धीमी आंच पर पूरा पकाएं, थर्मामीटर से सुरक्षित 74 डिग्री सेल्सियस (165 फ़ारेनहाइट) जांचें और काटने से पहले आराम दें। हमेशा रसीले चिकन का आसान तरीका।\n\nWikiTube पर हर दिन एक नया स्टेप-बाय-स्टेप ट्यूटोरियल आता है। अगला वीडियो न छूटे, इसलिए सब्सक्राइब करें।"
+      },
+      "it": {
+        "title": "Come cuocere il petto di pollo senza farlo seccare",
+        "description": "Petto di pollo secco e gommoso? In questo video passo passo scopri come cuocere il petto di pollo senza farlo seccare: uniformare lo spessore, metterlo in salamoia, asciugare e condire, rosolare in padella calda, finire coperto a fuoco basso, controllare con il termometro i 74 gradi Celsius (165 Fahrenheit) sicuri e far riposare prima di affettare. Un metodo semplice per un pollo sempre succoso.\n\nWikiTube pubblica ogni giorno un nuovo tutorial passo passo. Iscriviti per non perdere il prossimo."
+      },
+      "ja": {
+        "title": "鶏むね肉をパサつかせずに焼く方法",
+        "description": "鶏むね肉がパサパサになってしまう方へ。このステップ解説では、むね肉をしっとり焼く方法を紹介します。厚みをそろえる、塩水に漬ける、水気を拭いて味付けする、熱したフライパンで焼き色をつける、ふたをして弱火で火を通す、温度計で安全な74度（華氏165度）を確認する、休ませてから切る。いつでもジューシーに仕上がる簡単な方法です。\n\nWikiTubeでは毎日、新しいステップバイステップのハウツー動画を公開しています。次の動画を見逃さないよう、チャンネル登録をお願いします。"
+      },
+      "id": {
+        "title": "Cara Memasak Dada Ayam Tanpa Kering",
+        "description": "Dada ayam kering dan alot? Dalam video langkah demi langkah ini, Anda akan belajar memasak dada ayam tanpa kering: ratakan ketebalan, rendam dalam air garam, keringkan dan bumbui, goreng di wajan panas, selesaikan dengan ditutup di api kecil, periksa dengan termometer suhu aman 74 derajat Celsius (165 Fahrenheit), lalu diamkan sebelum diiris. Metode sederhana untuk ayam yang selalu juicy.\n\nWikiTube menerbitkan tutorial langkah demi langkah baru setiap hari. Subscribe agar tidak ketinggalan video berikutnya."
+      }
+    }
+  },
+  "short": {
+    "title": "Juicy chicken breast in 3 steps #shorts",
+    "description": "Even thickness, hot pan, thermometer. Full 7-step guide on the channel. #chicken #cooking #howto",
+    "hook": "Stop drying out your chicken breast.",
+    "steps": [
+      {
+        "title": "Even it out",
+        "narration": "One. Pound the thick end until the breast is an even thickness, then dry and season it."
+      },
+      {
+        "title": "Sear, then cover",
+        "narration": "Two. Sear in a hot pan for five minutes, flip, cover, and cook on low."
+      },
+      {
+        "title": "165 and rest",
+        "narration": "Three. Take it out at 165 degrees Fahrenheit, 74 Celsius, and rest it for five minutes."
+      }
+    ],
+    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+  }
+}

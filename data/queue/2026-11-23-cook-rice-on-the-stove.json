@@ -1,0 +1,180 @@
+{
+  "$schema": "../episode.schema.json",
+  "id": "2026-11-23-cook-rice-on-the-stove",
+  "date": "2026-11-23",
+  "slug": "cook-rice-on-the-stove",
+  "category": "Kitchen",
+  "title": "How to Cook Rice Perfectly on the Stove (No Mush)",
+  "hook": "Sticky, mushy or burnt rice at the bottom of the pot: almost everyone has been there. The fix is simpler than you think. In seven steps, you'll cook fluffy rice with separate grains, using only a pot, a lid and a stove, every single time.",
+  "intro": "Rice goes wrong for a few simple reasons. Too much water, too much stirring, too much heat, or a lid lifted at the wrong time. Once you know the rules, rice is one of the easiest foods you can cook, and it costs almost nothing. We'll use plain long-grain white rice as our example, and I'll tell you how to adapt for basmati, jasmine and brown rice along the way. It is a method you will use for the rest of your life.",
+  "youNeed": [
+    "Long-grain white rice",
+    "A pot with a tight lid",
+    "A measuring cup",
+    "A fine mesh strainer",
+    "A fork"
+  ],
+  "youNeedNarration": "Here's what you need. Long-grain white rice. A medium pot with a tight-fitting lid, since the lid is the key to steam. A measuring cup. A fine mesh strainer, or just a bowl. A fork for fluffing at the end. And a pinch of salt, if you like. A kitchen scale is optional, because a simple cup is enough.",
+  "heroImageQuery": "bowl of fluffy white rice",
+  "heroImagePrompt": "A white bowl of fluffy steaming long-grain rice with separate grains, wooden table, soft side light, shallow depth of field, photorealistic, no text",
+  "steps": [
+    {
+      "title": "Measure the rice",
+      "narration": "Step one. Use a measuring cup to measure your rice, and remember the number, because the water will be based on it. One cup of dry rice makes about three cups cooked, which feeds two to three people. Choose a pot that suits the amount, since a pot that is too big dries the rice out, and a pot that is too small boils over. A heavy-bottomed pot spreads the heat more evenly and helps prevent burning. Take a moment to read the instructions on your package, because different varieties of rice have slightly different needs. Measuring takes ten seconds and removes the guesswork.",
+      "tip": "Match the pot size to the rice",
+      "mistake": "Using a huge pot for a small portion",
+      "imageQuery": "measuring cup uncooked rice",
+      "imagePrompt": "A glass measuring cup filled with dry white rice sitting on a kitchen counter next to a pot, bright light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Rinse until the water clears",
+      "narration": "Step two. Put the rice in a strainer or a bowl, and rinse it under cold running water, swishing it with your fingers. The water will start out milky. That cloudiness is surface starch, and it is what makes rice clump and turn gummy. Keep rinsing for about a minute, until the water runs mostly clear. Drain well, and shake off the excess water. Rinsing matters most for basmati and jasmine, while rice that is labelled pre-washed or enriched should not be rinsed. Check the packet if you are unsure. Good rinsing is the difference between restaurant rice and cafeteria rice.",
+      "tip": "Rinse until the water runs clear",
+      "mistake": "Skipping the rinse for long-grain rice",
+      "imageQuery": "rinsing rice strainer",
+      "imagePrompt": "Hands rinsing white rice in a fine mesh strainer under running water in a kitchen sink, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Get the water ratio right",
+      "narration": "Step three. For long-grain white rice, the classic ratio is one cup of rice to one and a half cups of water. Basmati and jasmine are similar, around one to one and a quarter or one and a half. Brown rice needs more, about one to two, and a longer cooking time. Add a pinch of salt, and, if you wish, a small knob of butter or a teaspoon of oil. Always check the instructions on the packet first, since brands differ. The ratio is the secret, so measure it, and don't eyeball it. If you prefer softer rice, add a tablespoon more water, but never much more.",
+      "tip": "One cup rice, one and a half water",
+      "mistake": "Adding extra water just in case",
+      "imageQuery": "pouring water rice",
+      "imagePrompt": "Water being poured from a measuring cup into a saucepan of rinsed rice, steam rising, kitchen counter, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Bring to a boil, stir once",
+      "narration": "Step four. Put the pot on high heat, with the lid off, and bring it to a full boil. As soon as the water bubbles, give the rice a single stir to loosen anything stuck to the bottom, and then don't stir it again. Stirring rice releases starch, which makes it creamy and sticky, great for risotto, but not for fluffy rice. Be ready to move to the next step right away, because the water must not boil away without the lid. It takes only a few minutes to get this far. Use a timer on your phone, and don't walk too far from the kitchen.",
+      "tip": "One stir only, then hands off",
+      "mistake": "Stirring the rice while it cooks",
+      "imageQuery": "rice boiling pot stove",
+      "imagePrompt": "A pot of rice and water coming to a boil on a stove top, small bubbles at the edge, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Cover and simmer on low",
+      "narration": "Step five. Turn the heat down to the lowest setting, cover the pot with the tight lid, and set a timer for fifteen minutes. White long-grain rice usually needs fifteen to eighteen minutes, brown rice around forty-five. Do not lift the lid during this time. The rice cooks in the trapped steam, and every peek lets heat and moisture escape, which leaves you with hard, uneven grains. If your lid is loose, place a clean tea towel under it. If your stove runs hot, use a heat diffuser. A tight lid is non-negotiable, so choose a pot that closes well.",
+      "tip": "No peeking while it cooks",
+      "mistake": "Lifting the lid to check on the rice",
+      "imageQuery": "covered pot simmering",
+      "imagePrompt": "A saucepan with a glass lid simmering gently on a small gas flame, steam on the glass, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Rest it off the heat",
+      "narration": "Step six. When the timer rings, turn off the heat, but keep the lid on, and let the pot sit for ten minutes. This resting time is as important as cooking. The steam spreads evenly through the pot, and the moisture at the bottom is absorbed, so the grains firm up and stop being sticky. Move the pot to a cool burner if you have an electric stove, because the hot ring will keep cooking the bottom. Don't skip it, even when you are hungry and dinner is waiting. Many people think this step is optional, but it is where the texture is decided.",
+      "tip": "Ten minutes of rest is part of the recipe",
+      "mistake": "Opening the pot the second it's done",
+      "imageQuery": "cooked rice pot",
+      "imagePrompt": "A pot of freshly cooked rice with the lid on, resting on a wooden board beside a towel, warm kitchen light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Fluff and store safely",
+      "narration": "Step seven. Remove the lid and gently fluff the rice with a fork, lifting it from the bottom and folding it over. A spoon crushes the grains, but a fork keeps them separate and light. Serve it while it is hot. Leftover rice needs care, because it can carry bacteria that survive cooking. Cool it within one hour, spread out on a tray if you can, then refrigerate it in a covered container and eat it within a day. When reheating, make sure it is steaming hot all the way through. A small splash of water helps in the microwave.",
+      "tip": "Cool leftovers within an hour",
+      "mistake": "Leaving cooked rice out overnight",
+      "imageQuery": "fluffing rice with fork",
+      "imagePrompt": "A fork gently fluffing steaming white rice in a pot, grains separate and light, soft kitchen light, photorealistic, no text",
+      "media": "photo"
+    }
+  ],
+  "mistakesToAvoid": {
+    "narration": "Now, the three mistakes that turn rice into mush. First, skipping the rinse, which leaves too much starch. Second, adding too much water, or measuring by eye. A little extra water is the most common reason for soggy rice. And third, lifting the lid or stirring while it cooks. Every peek lets out the steam, and every stir makes it sticky. Remember also that leftover rice should never sit out on the counter for hours. Cool it quickly and refrigerate it.",
+    "items": [
+      "Skipping the rinse",
+      "Guessing the water amount",
+      "Lifting the lid or stirring"
+    ]
+  },
+  "recap": {
+    "narration": "Let's recap. Measure your rice and pick the right pot. Rinse until the water runs clear. Use the right water ratio. Bring it to a boil and stir just once. Cover and simmer on low without peeking. Rest it off the heat for ten minutes. And fluff it with a fork, then store leftovers safely. Seven steps, about thirty minutes, and fluffy rice every time. Save these steps, and rice will never be a problem again.",
+    "items": [
+      "Measure the rice",
+      "Rinse until the water clears",
+      "Get the water ratio right",
+      "Bring to a boil, stir once",
+      "Cover and simmer on low",
+      "Rest it off the heat",
+      "Fluff and store safely"
+    ]
+  },
+  "outro": "That's how you cook rice perfectly on the stove. If your rice turned out fluffy, subscribe to WikiTube, because we publish a new how-to every single day. Tell us in the comments what you serve with your rice, and what you would like us to explain next. See you tomorrow.",
+  "metadata": {
+    "title": "How to Cook Rice Perfectly on the Stove (No Mush)",
+    "description": "Tired of mushy, sticky or burnt rice? In this step-by-step video you'll learn how to cook rice perfectly on the stove, with fluffy separate grains every time. We cover measuring and rinsing the rice, the right water-to-rice ratio, boiling and simmering, why you shouldn't lift the lid, resting, fluffing, and how to store leftover rice safely. Works for long-grain, basmati and jasmine rice, and we explain brown rice too.\n\nYou'll need: long-grain white rice, a pot with a tight lid, a measuring cup, a fine mesh strainer, a fork.\n\nWikiTube publishes a new step-by-step how-to video every day. Subscribe so you don't miss the next one.",
+    "tags": [
+      "how to cook rice",
+      "how to cook rice on the stove",
+      "fluffy rice",
+      "perfect rice",
+      "rice water ratio",
+      "how to make rice",
+      "stovetop rice",
+      "how to cook white rice",
+      "basmati rice",
+      "cooking for beginners",
+      "how to",
+      "wikitube"
+    ],
+    "thumbnailTitle": "NEVER MUSHY AGAIN",
+    "chapters": "auto",
+    "localizations": {
+      "es": {
+        "title": "Cómo cocinar arroz perfecto en la estufa (sin que quede pastoso)",
+        "description": "¿Arroz pegajoso, pastoso o quemado? En este vídeo paso a paso aprenderás a cocinar arroz perfecto en la estufa, con granos sueltos y esponjosos: medir y enjuagar el arroz, la proporción correcta de agua, hervir y cocer a fuego bajo, por qué no hay que levantar la tapa, el reposo, desgranarlo y guardar las sobras con seguridad. Sirve para arroz de grano largo, basmati y jazmín.\n\nWikiTube publica un nuevo tutorial paso a paso cada día. Suscríbete para no perderte el siguiente."
+      },
+      "pt": {
+        "title": "Como fazer arroz soltinho no fogão (sem empapar)",
+        "description": "Arroz grudento, empapado ou queimado? Neste vídeo passo a passo você aprende a cozinhar arroz perfeito no fogão, com grãos soltinhos: medir e lavar o arroz, a proporção certa de água, ferver e cozinhar em fogo baixo, por que não se deve abrir a tampa, o descanso, soltar os grãos e guardar as sobras com segurança. Vale para arroz de grão longo, basmati e jasmim.\n\nA WikiTube publica um novo tutorial passo a passo todos os dias. Inscreva-se para não perder o próximo."
+      },
+      "fr": {
+        "title": "Comment cuire du riz parfaitement à la casserole (sans qu'il colle)",
+        "description": "Riz collant, pâteux ou brûlé ? Dans cette vidéo pas à pas, apprenez à cuire un riz parfait sur la cuisinière, aux grains bien séparés : mesurer et rincer le riz, bien doser l'eau, porter à ébullition puis cuire à feu doux, pourquoi ne pas soulever le couvercle, le repos, l'égrener et conserver les restes en toute sécurité. Pour le riz long, le basmati et le jasmin.\n\nWikiTube publie chaque jour un nouveau tutoriel pas à pas. Abonnez-vous pour ne pas manquer le prochain."
+      },
+      "de": {
+        "title": "Reis perfekt auf dem Herd kochen (nie wieder matschig)",
+        "description": "Klebriger, matschiger oder angebrannter Reis? In diesem Video lernst du Schritt für Schritt, wie du Reis auf dem Herd perfekt kochst, mit lockeren, getrennten Körnern: Reis abmessen und waschen, das richtige Wasserverhältnis, aufkochen und bei niedriger Hitze garen, warum der Deckel zubleibt, Quellen lassen, auflockern und Reste sicher aufbewahren. Für Langkornreis, Basmati und Jasmin.\n\nWikiTube veröffentlicht jeden Tag eine neue Schritt-für-Schritt-Anleitung. Abonniere den Kanal, um die nächste nicht zu verpassen."
+      },
+      "hi": {
+        "title": "चावल को स्टोव पर परफेक्ट कैसे पकाएं (कभी लसलसा नहीं)",
+        "description": "चावल चिपचिपा, गला हुआ या जला हुआ बन जाता है? इस स्टेप-बाय-स्टेप वीडियो में सीखें स्टोव पर परफेक्ट चावल कैसे पकाएं, खिले-खिले और अलग-अलग दानों के साथ: चावल नापना और धोना, पानी का सही अनुपात, उबालना और धीमी आंच पर पकाना, ढक्कन क्यों नहीं खोलना है, आराम देना, फोर्क से खोलना और बचे चावल सुरक्षित रखना। लंबे दाने वाले, बासमती और जैस्मिन चावल के लिए।\n\nWikiTube पर हर दिन एक नया स्टेप-बाय-स्टेप ट्यूटोरियल आता है। अगला वीडियो न छूटे, इसलिए सब्सक्राइब करें।"
+      },
+      "it": {
+        "title": "Come cuocere il riso perfetto sul fornello (mai più scotto)",
+        "description": "Riso colloso, scotto o bruciato? In questo video passo passo scopri come cuocere il riso perfetto sul fornello, con chicchi sgranati: misurare e sciacquare il riso, la giusta quantità di acqua, portare a bollore e cuocere a fuoco basso, perché non bisogna alzare il coperchio, il riposo, sgranare e conservare gli avanzi in sicurezza. Per riso a chicco lungo, basmati e jasmine.\n\nWikiTube pubblica ogni giorno un nuovo tutorial passo passo. Iscriviti per non perdere il prossimo."
+      },
+      "ja": {
+        "title": "コンロでご飯をふっくら炊く方法（べちゃつかない）",
+        "description": "ご飯がべたべたになる、焦げる、そんな悩みを解消します。このステップ解説では、鍋でお米をふっくらパラリと炊く方法を紹介します。計量と洗い方、水の割合、沸騰から弱火での加熱、途中でふたを開けない理由、蒸らし、ほぐし方、残りご飯の安全な保存まで。長粒米、バスマティ、ジャスミンライスにも使えます。\n\nWikiTubeでは毎日、新しいステップバイステップのハウツー動画を公開しています。次の動画を見逃さないよう、チャンネル登録をお願いします。"
+      },
+      "id": {
+        "title": "Cara Memasak Nasi Pulen di Kompor (Tidak Lembek Lagi)",
+        "description": "Nasi lengket, lembek, atau gosong? Dalam video langkah demi langkah ini, Anda akan belajar memasak nasi sempurna di kompor dengan butiran yang pulen dan terpisah: menakar dan mencuci beras, perbandingan air yang tepat, mendidihkan lalu memasak dengan api kecil, alasan tidak membuka tutup panci, mendiamkan nasi, mengaduk dengan garpu, dan menyimpan sisa nasi dengan aman.\n\nWikiTube menerbitkan tutorial langkah demi langkah baru setiap hari. Subscribe agar tidak ketinggalan video berikutnya."
+      }
+    }
+  },
+  "short": {
+    "title": "Perfect fluffy rice in 3 steps #shorts",
+    "description": "Rinse, right ratio, no peeking. Full 7-step guide on the channel. #rice #cooking #howto",
+    "hook": "Fluffy rice every time, with three simple rules.",
+    "steps": [
+      {
+        "title": "Rinse it",
+        "narration": "One. Rinse the rice until the water runs mostly clear."
+      },
+      {
+        "title": "Right ratio",
+        "narration": "Two. Use one cup of rice to one and a half cups of water. Boil, stir once, cover, and simmer on low."
+      },
+      {
+        "title": "Rest it",
+        "narration": "Three. Don't lift the lid. Rest off the heat for ten minutes, then fluff with a fork."
+      }
+    ],
+    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+  }
+}

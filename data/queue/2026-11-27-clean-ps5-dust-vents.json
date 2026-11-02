@@ -1,0 +1,180 @@
+{
+  "$schema": "../episode.schema.json",
+  "id": "2026-11-27-clean-ps5-dust-vents",
+  "date": "2026-11-27",
+  "slug": "clean-ps5-dust-vents",
+  "category": "Tech",
+  "title": "How to Clean a PS5 (Dust and Vents) Without Opening It",
+  "hook": "Is your PS5 getting loud, hot, or slowing down in long games? Dust is the usual culprit, and you can fix it without opening the console or buying any tools. In seven safe steps, you'll clean the vents, the shell and the controller in about fifteen minutes. Nothing in this video needs tools, and it won't touch your warranty.",
+  "intro": "Your PS5 pulls air in through its vents and pushes it out through the back. Over months, dust gathers on those openings and inside the fan intake. That makes the fan work harder and louder. The good news is that you only need to clean what you can reach from the outside. You should never open the console's body, unscrew anything, or push objects into the fan. Safety first, and results second. If your console is still under warranty and has a serious problem, contact Sony rather than experimenting.",
+  "youNeed": [
+    "A soft dry microfiber cloth",
+    "A soft brush",
+    "A vacuum with a brush head",
+    "Cotton swabs",
+    "A slightly damp cloth"
+  ],
+  "youNeedNarration": "Here's what you need. A soft, dry microfiber cloth. A clean soft brush, like a paintbrush or a makeup brush. A vacuum cleaner with a soft brush head. A few cotton swabs for tiny gaps. And a slightly damp cloth for stains. Don't use any chemicals, sprays or alcohol on the console. All of these are cheap, and you probably have them at home already.",
+  "heroImageQuery": "playstation 5 console living room",
+  "heroImagePrompt": "A white PlayStation 5 console standing on a media shelf in a living room, soft evening light, shallow depth of field, photorealistic, no text",
+  "steps": [
+    {
+      "title": "Power down and unplug",
+      "narration": "Step one. Turn the console off completely. Don't use rest mode, because rest mode keeps parts of the console running. Hold the power button until you hear a second beep, or use the power options on the home screen. Then unplug the power cable and every other cable from the back. Let the PS5 cool down for at least thirty minutes if you were playing. Never clean a console that is plugged in or hot, because dust cleaning near live electronics is the main risk in this whole process. Also pull out any disc or game card, and store them away from the dust. A calm, unplugged console is a safe console.",
+      "tip": "Full shutdown, not rest mode",
+      "mistake": "Cleaning it while it is plugged in",
+      "imageQuery": "unplugging game console cable",
+      "imagePrompt": "A hand unplugging a power cable from the back of a white game console, living room shelf, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Move it to a safe workspace",
+      "narration": "Step two. Carry the console to a table or workbench with good light, away from carpets and pets. Lay a clean towel under it, so you won't scratch the plastic. If you can, take it outside or near an open window, because dust can fly around in the room. Place a sheet of paper or a bowl nearby for any dust that comes off. Wash and dry your hands, since fingerprints and oils on the shell attract more dust over time. Avoid places with a lot of static electricity, such as thick wool rugs, and wear no loose sleeves that could catch on cables.",
+      "tip": "Good light shows the dust",
+      "mistake": "Cleaning on a carpet",
+      "imageQuery": "game console table",
+      "imagePrompt": "A white game console lying on a folded towel on a wooden table with bright window light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Wipe the outside",
+      "narration": "Step three. Wipe the console's outer shell with a dry microfiber cloth. The glossy black center and the white covers show every fingerprint, and a dry cloth is gentle on them. For marks that remain, dampen the cloth very lightly with water, wring it out, and wipe again, then dry the surface. Never use glass cleaner, alcohol or household sprays, which can damage the finish. Keep the damp cloth away from the ports and vent slots. Take your time around the edges, where dust gathers. A small amount of patience goes a long way here, because the glossy parts scratch easily, so avoid rough fabrics like kitchen towels.",
+      "tip": "Dry cloth first, damp only if needed",
+      "mistake": "Using sprays or alcohol on the shell",
+      "imageQuery": "wiping game console",
+      "imagePrompt": "A hand wiping a white game console with a soft microfiber cloth, close-up, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Brush the vents",
+      "narration": "Step four. Find the vent openings at the back and the top and bottom edges. Using a soft, dry brush, gently sweep the dust off the vent slots, working from the inside edge toward the outside, so the dust falls away instead of being pushed in. Use cotton swabs for the narrow gaps. Don't push anything into the vents, and don't let the brush touch the fan blades. If your console has removable cover plates, your manual shows how they come off without tools, but don't remove anything else. Pay extra attention if you keep your console near a window, a pet bed or a carpeted floor, where dust builds up fastest.",
+      "tip": "Sweep dust outward, never inward",
+      "mistake": "Poking objects into the fan",
+      "imageQuery": "brushing console vents",
+      "imagePrompt": "A soft paintbrush gently sweeping dust from the vent slots of a white game console, macro, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Vacuum near the openings",
+      "narration": "Step five. Turn on a vacuum cleaner with a soft brush head, and hold it a few centimetres from each vent, so it pulls the loose dust out. Keep the nozzle close, but not touching the console. Don't push the nozzle into the openings. Go slowly around the intake areas on both sides and the back exhaust. Avoid blasting compressed air into the console, because it can spin the fan too fast, and force dust further inside. If you want more detail, ask a professional, rather than taking the console apart. Go over the area twice, at a slow speed, because dust that is stuck needs a second pass. If your vacuum has several power levels, choose the lowest.",
+      "tip": "Hold the nozzle just above the vents",
+      "mistake": "Blasting compressed air into the fan",
+      "imageQuery": "vacuum near vents",
+      "imagePrompt": "A vacuum cleaner soft brush head held just above the vent of a white game console, workshop light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Clean ports and the controller",
+      "narration": "Step six. Look at the USB and HDMI ports. If you see lint, use a dry cotton swab or a soft brush, gently, and don't blow into them. Then wipe the DualSense controller with a slightly damp, well-wrung cloth, including the grips and buttons. Keep moisture away from the charging port, the speaker holes and the triggers. Wipe it dry with a clean cloth. For stubborn dirt between the buttons, use a dry swab. Let everything dry for a few minutes before you reconnect. Let the controller dry fully for ten minutes before using it, because even a little moisture near the sensors can cause problems.",
+      "tip": "Keep moisture out of the ports",
+      "mistake": "Soaking the controller",
+      "imageQuery": "cleaning controller swab",
+      "imagePrompt": "A cotton swab cleaning the edge of a white game controller next to a microfiber cloth, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Reconnect and give it space",
+      "narration": "Step seven. Place the console back where it lives, and make sure it has room to breathe. Leave at least ten centimetres, or four inches, free at the sides and back. Don't put it in a closed cabinet, on a carpet, or next to a heater. Plug in the cables, switch it on, and listen to the fan. Mark your calendar to repeat this every three months, or more often if you have pets. A cleaner PS5 stays cooler, and quieter. If the fan remains loud after cleaning, or the console shuts down by itself with a warning, talk to Sony support.",
+      "tip": "Leave ten centimetres around it",
+      "mistake": "Putting it in a closed cabinet",
+      "imageQuery": "game console shelf ventilation",
+      "imagePrompt": "A white game console on an open shelf with plenty of space around it, TV in the background, photorealistic, no text",
+      "media": "photo"
+    }
+  ],
+  "mistakesToAvoid": {
+    "narration": "Here are the mistakes to avoid. First, opening the console. It voids your warranty, risks damage, and isn't needed for a basic clean. Second, using liquids, sprays or alcohol on the console, which can seep into the electronics and spoil the finish. And third, cleaning while it is plugged in or hot. Always power it off fully and unplug it first. If your PS5 is still very loud after cleaning, contact Sony support rather than trying something risky. A little regular cleaning always beats a big, risky repair.",
+    "items": [
+      "Opening the console body",
+      "Using sprays, alcohol or lots of liquid",
+      "Cleaning while plugged in or hot"
+    ]
+  },
+  "recap": {
+    "narration": "Let's recap. Power down completely and unplug. Move the console to a safe workspace. Wipe the outside. Brush the vents. Vacuum near the openings, without touching them. Clean the ports and the controller. And reconnect it in a spot with plenty of space around it. Seven steps, about fifteen minutes, and a quieter console that stays cooler during long gaming sessions. Keep it simple and gentle, and your PS5 will thank you.",
+    "items": [
+      "Power down and unplug",
+      "Move it to a safe workspace",
+      "Wipe the outside",
+      "Brush the vents",
+      "Vacuum near the openings",
+      "Clean ports and the controller",
+      "Reconnect and give it space"
+    ]
+  },
+  "outro": "That's how you clean a PS5 safely, without taking it apart. If your console is quieter now, subscribe to WikiTube, because we publish a new how-to every single day. Tell us in the comments if your PS5 was dusty, and what you would like us to explain next. See you tomorrow.",
+  "metadata": {
+    "title": "How to Clean a PS5 (Dust and Vents) Without Opening It",
+    "description": "Is your PS5 loud, hot or full of dust? In this step-by-step video you'll learn how to clean a PS5 safely without opening it: power down and unplug, wipe the shell, brush the vents, vacuum near the openings, clean the ports and the DualSense controller, and give the console room to breathe. No tools, no chemicals, and no risk to your warranty. Also works for PS5 Slim and similar consoles.\n\nYou'll need: a soft dry microfiber cloth, a soft brush, a vacuum with a brush head, cotton swabs, a slightly damp cloth.\n\nWikiTube publishes a new step-by-step how-to video every day. Subscribe so you don't miss the next one.",
+    "tags": [
+      "how to clean ps5",
+      "clean ps5 dust",
+      "ps5 loud fan",
+      "ps5 overheating",
+      "clean ps5 vents",
+      "clean playstation 5",
+      "ps5 maintenance",
+      "clean ps5 slim",
+      "clean dualsense controller",
+      "console cleaning",
+      "how to",
+      "wikitube"
+    ],
+    "thumbnailTitle": "CLEAN YOUR PS5 SAFELY",
+    "chapters": "auto",
+    "localizations": {
+      "es": {
+        "title": "Cómo limpiar una PS5 (polvo y rejillas) sin abrirla",
+        "description": "¿Tu PS5 hace ruido, se calienta o está llena de polvo? En este vídeo paso a paso aprenderás a limpiar una PS5 con seguridad sin abrirla: apagar y desenchufar, limpiar la carcasa, cepillar las rejillas, aspirar cerca de las aberturas, limpiar los puertos y el mando DualSense y dejar espacio para que respire. Sin herramientas ni productos químicos.\n\nWikiTube publica un nuevo tutorial paso a paso cada día. Suscríbete para no perderte el siguiente."
+      },
+      "pt": {
+        "title": "Como limpar um PS5 (poeira e saídas de ar) sem abrir",
+        "description": "Seu PS5 está barulhento, quente ou cheio de poeira? Neste vídeo passo a passo você aprende a limpar o PS5 com segurança sem abrir o console: desligar e desconectar, limpar a carcaça, escovar as saídas de ar, aspirar perto das aberturas, limpar as portas e o controle DualSense e deixar espaço para ele respirar. Sem ferramentas e sem produtos químicos.\n\nA WikiTube publica um novo tutorial passo a passo todos os dias. Inscreva-se para não perder o próximo."
+      },
+      "fr": {
+        "title": "Comment nettoyer une PS5 (poussière et grilles) sans l'ouvrir",
+        "description": "Votre PS5 est bruyante, chauffe ou accumule la poussière ? Dans cette vidéo pas à pas, apprenez à nettoyer une PS5 en toute sécurité sans l'ouvrir : éteindre et débrancher, nettoyer la coque, brosser les grilles, aspirer près des ouvertures, nettoyer les ports et la manette DualSense et laisser de l'espace autour de la console. Sans outils ni produits chimiques.\n\nWikiTube publie chaque jour un nouveau tutoriel pas à pas. Abonnez-vous pour ne pas manquer le prochain."
+      },
+      "de": {
+        "title": "PS5 reinigen (Staub und Lüftung), ohne sie zu öffnen",
+        "description": "Deine PS5 ist laut, heiß oder voller Staub? In diesem Video lernst du Schritt für Schritt, wie du die PS5 sicher reinigst, ohne sie zu öffnen: ausschalten und Stecker ziehen, Gehäuse abwischen, Lüftungsschlitze abbürsten, in der Nähe der Öffnungen saugen, Anschlüsse und DualSense-Controller säubern und der Konsole Platz zum Atmen lassen. Ohne Werkzeug und ohne Chemie.\n\nWikiTube veröffentlicht jeden Tag eine neue Schritt-für-Schritt-Anleitung. Abonniere den Kanal, um die nächste nicht zu verpassen."
+      },
+      "hi": {
+        "title": "PS5 को खोले बिना कैसे साफ करें (धूल और वेंट)",
+        "description": "आपका PS5 शोर करता है, गर्म होता है या धूल से भरा है? इस स्टेप-बाय-स्टेप वीडियो में सीखें PS5 को बिना खोले सुरक्षित तरीके से कैसे साफ करें: बंद करके प्लग निकालें, बाहरी खोल पोंछें, वेंट पर ब्रश करें, खुले हिस्सों के पास वैक्यूम करें, पोर्ट और DualSense कंट्रोलर साफ करें और कंसोल के आसपास हवा के लिए जगह रखें। न औज़ार चाहिए, न केमिकल।\n\nWikiTube पर हर दिन एक नया स्टेप-बाय-स्टेप ट्यूटोरियल आता है। अगला वीडियो न छूटे, इसलिए सब्सक्राइब करें।"
+      },
+      "it": {
+        "title": "Come pulire una PS5 (polvere e prese d'aria) senza aprirla",
+        "description": "La tua PS5 è rumorosa, si scalda o è piena di polvere? In questo video passo passo scopri come pulire la PS5 in sicurezza senza aprirla: spegnere e scollegare, pulire la scocca, spazzolare le griglie, aspirare vicino alle aperture, pulire le porte e il controller DualSense e lasciare spazio per far respirare la console. Senza attrezzi e senza prodotti chimici.\n\nWikiTube pubblica ogni giorno un nuovo tutorial passo passo. Iscriviti per non perdere il prossimo."
+      },
+      "ja": {
+        "title": "PS5を分解せずにホコリと通気口を掃除する方法",
+        "description": "PS5の音が大きい、熱くなる、ホコリが気になる、という方へ。このステップ解説では、本体を開けずにPS5を安全に掃除する方法を紹介します。電源を切ってプラグを抜く、外装を拭く、通気口をブラシで掃除する、開口部の近くで掃除機をかける、端子とDualSenseを掃除する、本体の周りに空間を作るまで。工具も薬品も不要です。\n\nWikiTubeでは毎日、新しいステップバイステップのハウツー動画を公開しています。次の動画を見逃さないよう、チャンネル登録をお願いします。"
+      },
+      "id": {
+        "title": "Cara Membersihkan PS5 (Debu dan Ventilasi) Tanpa Membongkar",
+        "description": "PS5 Anda berisik, panas, atau penuh debu? Dalam video langkah demi langkah ini, Anda akan belajar membersihkan PS5 dengan aman tanpa membukanya: matikan dan cabut kabel, lap bodi luar, sikat lubang ventilasi, sedot debu di dekat bukaan, bersihkan port dan controller DualSense, serta beri ruang agar konsol bisa bernapas. Tanpa alat dan tanpa bahan kimia.\n\nWikiTube menerbitkan tutorial langkah demi langkah baru setiap hari. Subscribe agar tidak ketinggalan video berikutnya."
+      }
+    }
+  },
+  "short": {
+    "title": "Clean your PS5 without opening it #shorts",
+    "description": "Unplug, brush the vents, vacuum nearby. Full 7-step guide on the channel. #ps5 #gaming #howto",
+    "hook": "Loud PS5? Clean the dust out without opening it.",
+    "steps": [
+      {
+        "title": "Unplug it",
+        "narration": "One. Turn the PS5 off completely, unplug it, and let it cool down."
+      },
+      {
+        "title": "Brush the vents",
+        "narration": "Two. Sweep the dust off the vents with a soft dry brush."
+      },
+      {
+        "title": "Vacuum nearby",
+        "narration": "Three. Hold a vacuum with a soft brush a few centimetres away. Never push anything inside."
+      }
+    ],
+    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+  }
+}

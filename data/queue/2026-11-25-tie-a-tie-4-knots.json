@@ -1,0 +1,179 @@
+{
+  "$schema": "../episode.schema.json",
+  "id": "2026-11-25-tie-a-tie-4-knots",
+  "date": "2026-11-25",
+  "slug": "tie-a-tie-4-knots",
+  "category": "Style",
+  "title": "How to Tie a Tie: 4 Knots, Step by Step",
+  "hook": "Interview tomorrow, a wedding on Saturday, and you still can't tie a tie? Don't worry, it is much easier than it looks. In the next few minutes, you'll learn four classic knots, from the quick four-in-hand to the full Windsor, one clear move at a time. No tie-tying experience is needed, and you can follow along with any tie you own.",
+  "intro": "Every tie knot uses the same idea. The wide end of the tie does all the work, while the narrow end hangs still. Once you learn the setup, each knot is just a different sequence of crossing, wrapping and threading. We'll go from the simplest knot to the most formal one. Stand in front of a mirror, take your time, and remember that even people who tie a tie every day needed a few tries at the beginning. Don't worry about speed at first, because accuracy comes before speed.",
+  "youNeed": [
+    "A shirt with a collar",
+    "A necktie",
+    "A mirror",
+    "A few minutes of patience"
+  ],
+  "youNeedNarration": "Here's what you need. A shirt with a collar, buttoned up. A necktie, of course. A mirror, so you can see what your hands are doing. And a few minutes of patience. If you can, practice with an old tie first, so there's no pressure on your good one. Choose a tie that isn't too thick for your first tries.",
+  "heroImageQuery": "man tying necktie mirror",
+  "heroImagePrompt": "Hands tying a navy blue necktie around the collar of a crisp white shirt, close-up in a bright bedroom, shallow depth of field, photorealistic, no text",
+  "steps": [
+    {
+      "title": "Set up your collar and tie",
+      "narration": "Step one. Stand in front of a mirror with your top shirt button done up and your collar raised. Drape the tie around your neck, with the seam facing in. Place the wide end on your right and the narrow end on your left. For most men, the narrow tip should rest just above your belly button, so the wide end hangs much lower. In every knot, only the wide end moves, and the narrow end stays still. Getting this setup right is half the job, so check the lengths before you tie. If your shirt collar is stiff, loosen it slightly. Keep your shoulders relaxed and look straight into the mirror.",
+      "tip": "Narrow tip near your belly button",
+      "mistake": "Starting with both ends the same length",
+      "imageQuery": "necktie around shirt collar",
+      "imagePrompt": "A navy necktie draped around the raised collar of a white shirt, wide end hanging lower than the narrow end, soft window light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "The four-in-hand knot",
+      "narration": "Step two. This is the quickest, most everyday knot. Cross the wide end over the front of the narrow end, to the left. Pass it behind the narrow end and out to the right. Carry it across the front again to the left. Now push it up through the neck loop from underneath, and down through the loop you just made in the front. Pull the wide end down gently to tighten, then slide the knot up to your collar. The result is a slim, slightly asymmetrical knot. It takes about thirty seconds once you've practiced it a few times, and it suits most shirts and most occasions.",
+      "tip": "Great for slim ties and narrow collars",
+      "mistake": "Pulling the narrow end to tighten",
+      "imageQuery": "four in hand knot",
+      "imagePrompt": "A close-up of a finished four-in-hand knot on a striped tie against a pale blue shirt, soft light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "The half Windsor knot",
+      "narration": "Step three. The half Windsor is neater and more balanced, so it works well for work. Cross the wide end over the front, to the left, then pass it under the narrow end and out to the right. Now bring it up through the center toward the neck loop, feed it through the loop and out to the left. Carry it across the front to the right, push it up into the neck loop from underneath, and bring it down through the loop at the front. Tighten gently. Because it uses a bit more fabric than the four-in-hand, it looks best with medium-weight ties.",
+      "tip": "Balanced and perfect for office wear",
+      "mistake": "Rushing and crossing the wrong way",
+      "imageQuery": "half windsor tie knot",
+      "imagePrompt": "A neat triangular half Windsor knot on a dark red tie, worn with a white shirt, close-up, soft studio light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "The full Windsor knot",
+      "narration": "Step four. The full Windsor is the biggest, most symmetrical knot, ideal with wide spread collars and formal events. Cross the wide end over the front to the left, up through the neck loop and down on the left side. Take it behind the narrow end and around to the right. Bring it up to the center, pass it through the neck loop and drop it on the right. Cross it to the left across the front, up through the neck loop, and down through the front loop. Pull to tighten. Because it needs a lot of fabric, choose a thinner tie, or the knot can look bulky and sit too low.",
+      "tip": "Best with a spread collar and thin tie",
+      "mistake": "Using a thick tie for a full Windsor",
+      "imageQuery": "windsor knot formal tie",
+      "imagePrompt": "A large symmetrical Windsor knot on a dark silk tie with a white dress shirt and spread collar, studio light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "The Pratt knot",
+      "narration": "Step five. The Pratt, also called the Shelby, has a clean, medium-sized shape. This one begins with the tie turned inside out, so the back of the tie faces you, with the wide end on your right. Pass the wide end under the narrow end to the left, then up through the center toward the neck loop, through the loop, and down to the left. Carry it across the front to the right, push it up into the neck loop from underneath, and down through the front loop. Tighten. It's a favourite for many people because it looks smart without being bulky. Many find it easier to repeat than the Windsor.",
+      "tip": "Start with the tie inside out",
+      "mistake": "Forgetting to turn the tie inside out",
+      "imageQuery": "pratt shelby tie knot",
+      "imagePrompt": "A medium symmetrical tie knot on a grey patterned tie, white shirt, close-up, soft daylight, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Tighten and add a dimple",
+      "narration": "Step six. Once the last pass is done, don't just yank the tie. Hold the knot with one hand and pull the wide end down slowly with the other, to tighten the knot. Then slide the knot up until it sits snugly under your collar. For a neat dimple, pinch the tie just below the knot as you tighten it, so a small fold forms in the center. Adjust the sides until the knot looks even, and fold your collar down around it. Take a second to check it in the mirror from the front, because small adjustments make a big difference to how professional it looks.",
+      "tip": "Pinch below the knot for a dimple",
+      "mistake": "Leaving the knot loose and low",
+      "imageQuery": "tightening tie knot collar",
+      "imagePrompt": "Fingers pinching a tie just below the knot to form a small dimple, white shirt, close-up, soft light, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Check length and untie it properly",
+      "narration": "Step seven. The tip of the wide end should reach your belt buckle, and the narrow end should be hidden behind it. If it's too short, retie the knot with a longer wide end, or try a smaller knot. When the day is over, untie the tie by reversing the steps. Loosen the knot, then take the wide end back out through the loop. Don't pull the narrow end through the knot, because that twists and damages the fabric. Hang the tie, or roll it up, so it stays smooth. A tie that is stored flat or rolled loosely keeps its shape for many years, and recovers from creases much faster.",
+      "tip": "Tip should touch your belt buckle",
+      "mistake": "Pulling the narrow end through to untie",
+      "imageQuery": "hanging neckties wardrobe",
+      "imagePrompt": "Several neatly hung silk neckties on a wooden rack in a wardrobe, soft light, photorealistic, no text",
+      "media": "photo"
+    }
+  ],
+  "mistakesToAvoid": {
+    "narration": "Here are the mistakes to avoid. First, getting the length wrong. A tie that ends above your belt or below it looks off, so adjust before you finish. Second, picking the wrong knot for the tie. Thick ties suit small knots, and thin ones suit larger ones. And third, tightening in a hurry. Slow tightening gives you a smooth knot, while a quick pull gives you a twisted one. Practice a few times, and the muscle memory will soon take over. Watch out for twisted fabric inside the knot, which spoils the look.",
+    "items": [
+      "Ending above or below the belt",
+      "Using a large knot with a thick tie",
+      "Yanking the knot tight in a hurry"
+    ]
+  },
+  "recap": {
+    "narration": "Let's recap. Set up your collar, with the wide end on the right and lower. Learn the quick four-in-hand. Move up to the half Windsor. Try the full Windsor for formal events. Learn the Pratt knot, tied inside out. Tighten slowly and add a dimple. And check the length, then untie the knot properly at the end of the day. Four knots, and you're ready for any occasion. Practise one knot until it feels automatic before you move to the next.",
+    "items": [
+      "Set up your collar and tie",
+      "The four-in-hand knot",
+      "The half Windsor knot",
+      "The full Windsor knot",
+      "The Pratt knot",
+      "Tighten and add a dimple",
+      "Check length and untie it properly"
+    ]
+  },
+  "outro": "That's how you tie a tie, with four classic knots. If this saved your interview or your wedding, subscribe to WikiTube, because we publish a new how-to every single day. Tell us in the comments which knot is your favorite, and what you would like us to explain next. See you tomorrow.",
+  "metadata": {
+    "title": "How to Tie a Tie: 4 Knots, Step by Step",
+    "description": "Never learned how to tie a tie? In this step-by-step video you'll learn four classic necktie knots: the quick four-in-hand, the balanced half Windsor, the formal full Windsor and the Pratt (Shelby) knot. We start with the right setup and length, show each move clearly, add a dimple, and explain how to untie a tie without damaging it. Perfect for interviews, weddings, school and work. Includes a clear guide to tie length, knot size and a tip for adding a dimple.\n\nYou'll need: a shirt with a collar, a necktie, a mirror, a few minutes of patience.\n\nWikiTube publishes a new step-by-step how-to video every day. Subscribe so you don't miss the next one.",
+    "tags": [
+      "how to tie a tie",
+      "how to tie a windsor knot",
+      "half windsor knot",
+      "four in hand knot",
+      "pratt knot",
+      "tie knots for beginners",
+      "how to tie a necktie",
+      "tie a tie step by step",
+      "easy tie knot",
+      "men's style basics",
+      "how to",
+      "wikitube"
+    ],
+    "thumbnailTitle": "TIE A TIE IN 30 SECONDS",
+    "chapters": "auto",
+    "localizations": {
+      "es": {
+        "title": "Cómo hacer el nudo de corbata: 4 nudos paso a paso",
+        "description": "¿Nunca aprendiste a hacerte el nudo de la corbata? En este vídeo paso a paso aprenderás cuatro nudos clásicos: el rápido nudo simple (four-in-hand), el equilibrado medio Windsor, el formal Windsor completo y el nudo Pratt (Shelby). Empezamos con la posición y el largo correctos, mostramos cada movimiento, añadimos el hoyuelo y explicamos cómo deshacerlo sin dañar la corbata.\n\nWikiTube publica un nuevo tutorial paso a paso cada día. Suscríbete para no perderte el siguiente."
+      },
+      "pt": {
+        "title": "Como dar nó em gravata: 4 nós passo a passo",
+        "description": "Nunca aprendeu a dar nó em gravata? Neste vídeo passo a passo você aprende quatro nós clássicos: o rápido nó simples (four-in-hand), o equilibrado meio Windsor, o formal Windsor completo e o nó Pratt (Shelby). Começamos pela posição e o comprimento certos, mostramos cada movimento, fazemos a covinha e explicamos como desfazer o nó sem estragar a gravata.\n\nA WikiTube publica um novo tutorial passo a passo todos os dias. Inscreva-se para não perder o próximo."
+      },
+      "fr": {
+        "title": "Comment faire un nœud de cravate : 4 nœuds pas à pas",
+        "description": "Vous n'avez jamais appris à nouer une cravate ? Dans cette vidéo pas à pas, apprenez quatre nœuds classiques : le nœud simple rapide (four-in-hand), le demi-Windsor équilibré, le Windsor complet pour les occasions formelles et le nœud Pratt (Shelby). Nous commençons par la bonne longueur, détaillons chaque geste, ajoutons la fossette et expliquons comment défaire la cravate sans l'abîmer.\n\nWikiTube publie chaque jour un nouveau tutoriel pas à pas. Abonnez-vous pour ne pas manquer le prochain."
+      },
+      "de": {
+        "title": "Krawatte binden: 4 Knoten Schritt für Schritt",
+        "description": "Nie gelernt, eine Krawatte zu binden? In diesem Video lernst du vier klassische Krawattenknoten: den schnellen Four-in-Hand, den ausgewogenen Half Windsor, den festlichen Windsor-Knoten und den Pratt-Knoten (Shelby). Wir starten mit der richtigen Länge, zeigen jeden Handgriff, formen die Delle und erklären, wie du die Krawatte öffnest, ohne sie zu beschädigen.\n\nWikiTube veröffentlicht jeden Tag eine neue Schritt-für-Schritt-Anleitung. Abonniere den Kanal, um die nächste nicht zu verpassen."
+      },
+      "hi": {
+        "title": "टाई की गांठ कैसे बांधें: 4 गांठें स्टेप-बाय-स्टेप",
+        "description": "टाई बांधना कभी नहीं सीखा? इस स्टेप-बाय-स्टेप वीडियो में चार क्लासिक टाई नॉट सीखें: तेज़ फ़ोर-इन-हैंड, संतुलित हाफ़ विंडसर, औपचारिक फ़ुल विंडसर और प्रैट (शेल्बी) नॉट। हम सही लंबाई से शुरू करते हैं, हर मूवमेंट दिखाते हैं, डिंपल बनाना सिखाते हैं और बताते हैं कि टाई को खराब किए बिना कैसे खोलें। इंटरव्यू, शादी और ऑफ़िस के लिए बिल्कुल सही।\n\nWikiTube पर हर दिन एक नया स्टेप-बाय-स्टेप ट्यूटोरियल आता है। अगला वीडियो न छूटे, इसलिए सब्सक्राइब करें।"
+      },
+      "it": {
+        "title": "Come fare il nodo alla cravatta: 4 nodi passo passo",
+        "description": "Non hai mai imparato a fare il nodo alla cravatta? In questo video passo passo scopri quattro nodi classici: il rapido nodo semplice (four-in-hand), il bilanciato mezzo Windsor, il formale Windsor completo e il nodo Pratt (Shelby). Partiamo dalla lunghezza giusta, mostriamo ogni movimento, aggiungiamo la fossetta e spieghiamo come sciogliere la cravatta senza rovinarla.\n\nWikiTube pubblica ogni giorno un nuovo tutorial passo passo. Iscriviti per non perdere il prossimo."
+      },
+      "ja": {
+        "title": "ネクタイの結び方：4つの結び方をステップごとに解説",
+        "description": "ネクタイの結び方を習ったことがない方へ。このステップ解説では、手早いプレーンノット（フォー・イン・ハンド）、バランスのよいハーフウィンザー、フォーマルなウィンザーノット、そしてプラット（シェルビー）ノットの4つを紹介します。長さの合わせ方、各ステップの動き、ディンプルの作り方、ネクタイを傷めないほどき方まで。面接や結婚式、仕事にも役立ちます。\n\nWikiTubeでは毎日、新しいステップバイステップのハウツー動画を公開しています。次の動画を見逃さないよう、チャンネル登録をお願いします。"
+      },
+      "id": {
+        "title": "Cara Memakai Dasi: 4 Simpul Langkah demi Langkah",
+        "description": "Belum pernah belajar memakai dasi? Dalam video langkah demi langkah ini, Anda akan belajar empat simpul dasi klasik: four-in-hand yang cepat, half Windsor yang seimbang, Windsor penuh yang formal, dan simpul Pratt (Shelby). Kita mulai dari panjang dasi yang tepat, tunjukkan setiap gerakan, buat lekukan di tengah, dan jelaskan cara membuka dasi tanpa merusaknya. Cocok untuk wawancara, pernikahan, dan kerja.\n\nWikiTube menerbitkan tutorial langkah demi langkah baru setiap hari. Subscribe agar tidak ketinggalan video berikutnya."
+      }
+    }
+  },
+  "short": {
+    "title": "Tie a tie in 3 moves (four-in-hand) #shorts",
+    "description": "The easiest tie knot: cross, wrap, feed through. Full guide with 4 knots on the channel. #tie #style #howto",
+    "hook": "Tie the easiest tie knot in three moves.",
+    "steps": [
+      {
+        "title": "Cross and wrap",
+        "narration": "One. Cross the wide end over the narrow end, then behind it and out to the right."
+      },
+      {
+        "title": "Cross again",
+        "narration": "Two. Carry the wide end across the front to the left."
+      },
+      {
+        "title": "Feed and tighten",
+        "narration": "Three. Push it up through the neck loop, down through the front loop, and tighten."
+      }
+    ],
+    "cta": "The full guide with four knots is on the channel. Follow WikiTube for a new how-to every day."
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "$schema": "../episode.schema.json",
+  "id": "2026-12-03-clean-airpods-case-ear-tips",
+  "date": "2026-12-03",
+  "slug": "clean-airpods-case-ear-tips",
+  "category": "Tech",
+  "title": "How to Clean Your AirPods (Case, Speaker Mesh, Ear Tips)",
+  "hook": "Muffled sound, a low volume on one side, and a case that looks grey and grimy. Earwax and dust are the usual reasons. The good news is that you can clean your AirPods safely in about five minutes, with a few household items and no risk to the speakers. No special tools are needed.",
+  "intro": "AirPods spend their lives in your ears and in your pockets, so it's no surprise they get dirty. The tiny speaker mesh clogs with wax, and the charging case collects lint and dust. But they are delicate and water-sensitive, so the method matters. The golden rules are simple. Keep liquid out of the openings, use soft dry tools on the mesh, and never use sharp objects. We'll follow what Apple recommends, step by step. If you hear a crackle or one side stops charging, clean them first before you assume they are broken.",
+  "youNeed": [
+    "A soft lint-free cloth",
+    "Dry cotton swabs",
+    "A soft-bristled brush",
+    "A little fresh water",
+    "Isopropyl alcohol wipes"
+  ],
+  "youNeedNarration": "Here's what you need. A soft, dry, lint-free cloth, like the one for cleaning glasses. A few dry cotton swabs. A clean, soft-bristled brush, such as a new toothbrush. A little fresh water. And, for the case exterior, a seventy percent isopropyl alcohol wipe. Please don't use sharp tools, or cleaning sprays of any kind. Everything costs just a few dollars.",
+  "heroImageQuery": "white wireless earbuds charging case",
+  "heroImagePrompt": "White wireless earbuds and an open charging case on a clean desk with a soft cloth and cotton swabs beside them, shallow depth of field, photorealistic, no text",
+  "steps": [
+    {
+      "title": "Prepare and take them out",
+      "narration": "Step one. Take the earbuds out of the case, and make sure they aren't playing or connected to an active call. Check which AirPods you have, because the ear tips on the Pro models can be removed, and standard models can't. Work at a clean table with good light, and put a soft cloth under your work area. Wash and dry your hands first, since the oils on fingers add to the grime. Never run your AirPods under a tap, or soak them. This is also a good moment to look at the earbuds for cracks or damage, which water could make worse.",
+      "tip": "Hands clean, desk clean, light on",
+      "mistake": "Rinsing the earbuds under a tap",
+      "imageQuery": "wireless earbuds desk",
+      "imagePrompt": "A pair of white wireless earbuds lying on a soft cloth on a bright desk, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Wipe the outside surfaces",
+      "narration": "Step two. Use a soft, dry, lint-free cloth to wipe the body of each earbud. Apple says you can slightly dampen the cloth with water, or with a seventy percent isopropyl alcohol wipe, for the outer surfaces, but keep moisture away from every opening. Wipe the stems, the glossy casing and the area around the sensors. Use small circular movements, and don't scrub. Don't use bleach, hydrogen peroxide or household cleaners. Let the surface dry completely before moving on. Take your time around the speaker and microphone areas. You can see how dirty they were, by looking at the cloth afterward.",
+      "tip": "Moisture only on the outside shell",
+      "mistake": "Letting liquid run into the openings",
+      "imageQuery": "wiping earbuds cloth",
+      "imagePrompt": "A hand wiping a white earbud with a soft lint-free cloth, close-up, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Clean the speaker mesh",
+      "narration": "Step three. The tiny mesh over the speaker is where wax collects, and it affects the sound the most. Use a clean, dry cotton swab, and gently rub the mesh, using very light pressure. For stubborn dirt, use a soft-bristled brush and sweep it softly across the mesh. Never poke the mesh with a pin, toothpick or any sharp tool, because it can easily tear. Do not use compressed air or any liquid on the mesh. Go slowly, and take your time. A bright lamp helps you see the mesh clearly. Change to a fresh swab as soon as the tip gets dirty.",
+      "tip": "Light pressure, dry swab only",
+      "mistake": "Poking the mesh with a pin",
+      "imageQuery": "cotton swab earbud mesh",
+      "imagePrompt": "A dry cotton swab gently cleaning the speaker mesh of a white earbud, macro shot, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Remove stuck earwax",
+      "narration": "Step four. If wax is stuck in the mesh, keep using a fresh dry swab, replacing it when it gets dirty. Hold the earbud so the mesh faces downward, so loosened wax falls away instead of falling back in. For wax that doesn't budge, a small piece of sticky putty used for posters can lift it off, if pressed on gently and pulled away. Don't use any liquid, and stop if the earbud gets damaged. Check sound quality afterward. Be patient, as it can take several swabs. Gentle repetition works better than pressure.",
+      "tip": "Mesh facing down so wax falls out",
+      "mistake": "Pushing wax deeper into the speaker",
+      "imageQuery": "removing earbud earwax",
+      "imagePrompt": "A white earbud held mesh down while a cotton swab removes a speck of wax, close-up, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Wash the ear tips",
+      "narration": "Step five. If you have AirPods Pro or another model with removable silicone ear tips, take them off by pulling them gently from the earbud. Wash them under running water, since Apple advises against soap, and dry them completely with a lint-free cloth. They must be fully dry before you put them back, otherwise the water gets into the earbud. Press the tips back on firmly until they click. If the tips are torn or discolored, replace them. Wipe your ears with a clean cloth too, because it keeps wax from building up again.",
+      "tip": "Let the tips dry completely",
+      "mistake": "Refitting tips while still damp",
+      "imageQuery": "rinsing silicone ear tips",
+      "imagePrompt": "Silicone ear tips from wireless earbuds being rinsed under a gentle stream of water, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Clean the charging case",
+      "narration": "Step six. Open the case, and wipe the outside with a dry cloth, or a slightly dampened one. Apple says a seventy percent isopropyl wipe is fine on the outside. For the inside, where lint and dust build up, use a dry cotton swab or a soft brush to clear the earbud wells, and the hinge. Don't let liquid into the charging port or the case's openings. Never use a sharp object in the Lightning or USB-C port. Leave the lid open for a few minutes to air out. Check the hinge and the lid, which often hide fluff, and which can stop the case from closing correctly.",
+      "tip": "Dry swab for the earbud wells",
+      "mistake": "Using liquid on the charging port",
+      "imageQuery": "earbuds charging case clean",
+      "imagePrompt": "An open white earbud charging case being cleaned with a small soft brush, close-up, photorealistic, no text",
+      "media": "photo"
+    },
+    {
+      "title": "Dry, test and keep them clean",
+      "narration": "Step seven. Let everything dry for several minutes, then put the earbuds in the case and check that they charge. Play some music and listen for a clear sound on both sides. If one side is still quiet, repeat the mesh cleaning gently. To keep them clean longer, wipe the earbuds after each use, store them in their case, and avoid wearing them during heavy sweating. Clean your AirPods about every two weeks. If problems remain, contact Apple support. Make a habit of cleaning them every other weekend, and the sound will stay crisp.",
+      "tip": "Wipe them after every workout",
+      "mistake": "Storing them loose in a pocket",
+      "imageQuery": "earbuds back in case",
+      "imagePrompt": "A person placing white earbuds back into their charging case on a desk, photorealistic, no text",
+      "media": "photo"
+    }
+  ],
+  "mistakesToAvoid": {
+    "narration": "Let's finish with the mistakes to avoid. First, using sharp objects like pins or toothpicks on the mesh. They tear it, and ruin the sound. Second, using too much liquid or sprays, which can destroy the electronics inside. And third, using compressed air or a vacuum on the speaker, which can damage the delicate parts. Keep it gentle, keep it dry, and keep patient, and your earbuds will sound like new. If your AirPods get wet, let them dry fully before charging.",
+    "items": [
+      "Using pins or sharp tools on the mesh",
+      "Letting liquid into any opening",
+      "Using compressed air or a vacuum"
+    ]
+  },
+  "recap": {
+    "narration": "Let's recap. Prepare and take the earbuds out. Wipe the outside surfaces. Clean the speaker mesh with a dry swab. Remove stuck earwax. Wash the ear tips, if yours come off, and dry them fully. Clean the charging case. And let everything dry, test the sound, and keep them clean with a simple routine. Seven steps, five minutes, and AirPods that sound crisp again. A gentle, dry routine is all you need.",
+    "items": [
+      "Prepare and take them out",
+      "Wipe the outside surfaces",
+      "Clean the speaker mesh",
+      "Remove stuck earwax",
+      "Wash the ear tips",
+      "Clean the charging case",
+      "Dry, test and keep them clean"
+    ]
+  },
+  "outro": "That's how you clean your AirPods, the case and the ear tips. If your sound is clearer now, subscribe to WikiTube, because we publish a new how-to every single day. Tell us in the comments how dirty your AirPods were, and what you would like us to explain next. See you tomorrow.",
+  "metadata": {
+    "title": "How to Clean Your AirPods (Case, Speaker Mesh, Ear Tips)",
+    "description": "Muffled sound or a grimy case? In this step-by-step video you'll learn how to clean your AirPods, including the charging case, the speaker mesh and the ear tips. We cover wiping the outside, cleaning the mesh with a dry swab, removing earwax safely, washing silicone ear tips, cleaning the case, and drying and testing. Safe methods only, with no sharp tools and no liquid in the openings.\n\nYou'll need: a soft lint-free cloth, dry cotton swabs, a soft-bristled brush, a little fresh water, isopropyl alcohol wipes.\n\nWikiTube publishes a new step-by-step how-to video every day. Subscribe so you don't miss the next one.",
+    "tags": [
+      "how to clean airpods",
+      "clean airpods case",
+      "clean airpods pro",
+      "airpods speaker mesh",
+      "remove earwax airpods",
+      "clean airpods ear tips",
+      "airpods muffled sound",
+      "clean earbuds",
+      "airpods tips",
+      "tech cleaning",
+      "how to",
+      "wikitube"
+    ],
+    "thumbnailTitle": "CLEAN AIRPODS SAFELY",
+    "chapters": "auto",
+    "localizations": {
+      "es": {
+        "title": "Cómo limpiar tus AirPods (estuche, rejilla y almohadillas)",
+        "description": "¿Sonido apagado o estuche sucio? En este vídeo paso a paso aprenderás a limpiar tus AirPods, incluyendo el estuche, la rejilla del altavoz y las almohadillas: limpiar el exterior, limpiar la rejilla con un bastoncillo seco, quitar la cera con seguridad, lavar las almohadillas de silicona, limpiar el estuche y secar y probar. Solo métodos seguros, sin objetos punzantes y sin líquido en las aberturas.\n\nWikiTube publica un nuevo tutorial paso a paso cada día. Suscríbete para no perderte el siguiente."
+      },
+      "pt": {
+        "title": "Como limpar seus AirPods (estojo, grade e borrachinhas)",
+        "description": "Som abafado ou estojo sujo? Neste vídeo passo a passo você aprende a limpar seus AirPods, incluindo o estojo, a grade do alto-falante e as borrachinhas: limpar a parte externa, limpar a grade com um cotonete seco, remover cera com segurança, lavar as borrachinhas de silicone, limpar o estojo, secar e testar. Apenas métodos seguros, sem objetos pontiagudos e sem líquido nas aberturas.\n\nA WikiTube publica um novo tutorial passo a passo todos os dias. Inscreva-se para não perder o próximo."
+      },
+      "fr": {
+        "title": "Comment nettoyer vos AirPods (boîtier, grille et embouts)",
+        "description": "Son étouffé ou boîtier sale ? Dans cette vidéo pas à pas, apprenez à nettoyer vos AirPods, y compris le boîtier, la grille du haut-parleur et les embouts : essuyer l'extérieur, nettoyer la grille avec un coton-tige sec, retirer le cérumen en sécurité, laver les embouts en silicone, nettoyer le boîtier, sécher et tester. Uniquement des méthodes sûres, sans objet pointu ni liquide dans les ouvertures.\n\nWikiTube publie chaque jour un nouveau tutoriel pas à pas. Abonnez-vous pour ne pas manquer le prochain."
+      },
+      "de": {
+        "title": "AirPods reinigen (Ladecase, Lautsprechergitter und Ohrstöpsel)",
+        "description": "Dumpfer Klang oder schmutziges Case? In diesem Video lernst du Schritt für Schritt, wie du deine AirPods reinigst, einschließlich Ladecase, Lautsprechergitter und Ohrstöpseln: Außenseite abwischen, Gitter mit trockenem Wattestäbchen säubern, Ohrenschmalz sicher entfernen, Silikon-Ohrstöpsel waschen, Case reinigen, trocknen und testen. Nur sichere Methoden, ohne spitze Gegenstände und ohne Flüssigkeit in den Öffnungen.\n\nWikiTube veröffentlicht jeden Tag eine neue Schritt-für-Schritt-Anleitung. Abonniere den Kanal, um die nächste nicht zu verpassen."
+      },
+      "hi": {
+        "title": "अपने AirPods कैसे साफ करें (केस, स्पीकर जाली और ईयर टिप्स)",
+        "description": "आवाज़ दबी हुई है या केस गंदा हो गया है? इस स्टेप-बाय-स्टेप वीडियो में सीखें अपने AirPods को केस, स्पीकर की जाली और ईयर टिप्स समेत कैसे साफ करें: बाहरी हिस्सा पोंछें, सूखे कॉटन स्वैब से जाली साफ करें, कान का मैल सुरक्षित तरीके से हटाएं, सिलिकॉन टिप्स धोएं, केस साफ करें, सुखाकर टेस्ट करें। केवल सुरक्षित तरीके, कोई नुकीली चीज़ या खुले हिस्सों में तरल नहीं।\n\nWikiTube पर हर दिन एक नया स्टेप-बाय-स्टेप ट्यूटोरियल आता है। अगला वीडियो न छूटे, इसलिए सब्सक्राइब करें।"
+      },
+      "it": {
+        "title": "Come pulire i tuoi AirPods (custodia, griglia e gommini)",
+        "description": "Suono ovattato o custodia sporca? In questo video passo passo scopri come pulire i tuoi AirPods, compresi custodia, griglia dell'altoparlante e gommini: pulire l'esterno, pulire la griglia con un cotton fioc asciutto, rimuovere il cerume in sicurezza, lavare i gommini in silicone, pulire la custodia, asciugare e testare. Solo metodi sicuri, senza oggetti appuntiti e senza liquidi nelle aperture.\n\nWikiTube pubblica ogni giorno un nuovo tutorial passo passo. Iscriviti per non perdere il prossimo."
+      },
+      "ja": {
+        "title": "AirPodsの掃除方法（ケース・スピーカーメッシュ・イヤーチップ）",
+        "description": "音がこもる、ケースが汚れている、という方へ。このステップ解説では、AirPodsをケース、スピーカーメッシュ、イヤーチップまで含めて掃除する方法を紹介します。外側を拭く、乾いた綿棒でメッシュを掃除する、耳垢を安全に取る、シリコンのイヤーチップを洗う、ケースを掃除する、乾かしてテストするまで。尖ったものや開口部への水分は使いません。\n\nWikiTubeでは毎日、新しいステップバイステップのハウツー動画を公開しています。次の動画を見逃さないよう、チャンネル登録をお願いします。"
+      },
+      "id": {
+        "title": "Cara Membersihkan AirPods (Case, Mesh Speaker, dan Ear Tips)",
+        "description": "Suara teredam atau case kotor? Dalam video langkah demi langkah ini, Anda akan belajar membersihkan AirPods, termasuk case, mesh speaker, dan ear tips: lap bagian luar, bersihkan mesh dengan cotton bud kering, angkat kotoran telinga dengan aman, cuci ear tips silikon, bersihkan case, lalu keringkan dan uji. Hanya cara aman, tanpa benda tajam dan tanpa cairan di lubang.\n\nWikiTube menerbitkan tutorial langkah demi langkah baru setiap hari. Subscribe agar tidak ketinggalan video berikutnya."
+      }
+    }
+  },
+  "short": {
+    "title": "Clean your AirPods in 3 steps #shorts",
+    "description": "Wipe, dry swab the mesh, wash the tips. Full 7-step guide on the channel. #airpods #cleaning #howto",
+    "hook": "Muffled AirPods? Clean them safely in three steps.",
+    "steps": [
+      {
+        "title": "Wipe the outside",
+        "narration": "One. Wipe the earbuds with a soft, dry, lint-free cloth. Keep moisture out of the openings."
+      },
+      {
+        "title": "Dry swab the mesh",
+        "narration": "Two. Gently rub the speaker mesh with a dry cotton swab. Never use a pin."
+      },
+      {
+        "title": "Wash the tips",
+        "narration": "Three. Rinse removable silicone ear tips with water, and dry them completely."
+      }
+    ],
+    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+  }
+}

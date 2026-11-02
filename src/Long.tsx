@@ -4,7 +4,7 @@ import { C } from "./theme";
 import type { LongProps, Scene } from "./types";
 import { PreRoll, Hook, YouNeed, Step, Mistakes, Recap, Outro } from "./scenes/long";
 import { Subtitles, SceneAudio } from "./components/Subtitles";
-import { FadeOut } from "./components/ui";
+import { SceneWipe } from "./components/motion";
 
 const SceneView: React.FC<{ scene: Scene; durationInFrames: number }> = ({ scene, durationInFrames }) => {
   switch (scene.type) {
@@ -38,10 +38,11 @@ export const Long: React.FC<LongProps> = ({ timeline, options }) => {
         const darkSubs = scene.type === "step" && scene.layout === "full";
         return (
           <Sequence key={`${scene.type}-${i}`} from={from} durationInFrames={dur} name={`${i}-${scene.type}${"index" in scene ? `-${scene.index}` : ""}`}>
-            <FadeOut durationInFrames={dur} frames={8}>
+            <AbsoluteFill>
               <SceneView scene={scene} durationInFrames={dur} />
               {burn && scene.segments.length > 0 && <Subtitles segments={scene.segments} sceneStart={scene.start} dark={darkSubs} />}
-            </FadeOut>
+            </AbsoluteFill>
+            <SceneWipe durationInFrames={dur} enter={i > 0} exit={i < timeline.scenes.length - 1} />
             <SceneAudio segments={scene.segments} sceneStart={scene.start} enabled={options?.audio ?? true} />
           </Sequence>
         );

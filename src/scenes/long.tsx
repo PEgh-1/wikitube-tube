@@ -3,6 +3,10 @@ import { AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig, Eas
 import { C, FONT } from "../theme";
 import { Frame, Logo, LogoCorner, Pop, SlideUp, ProgressBar, StepBadge, KenBurns, TipPill } from "../components/ui";
 import type { HookScene, YouNeedScene, StepScene, MistakesScene, RecapScene } from "../types";
+import { MultiShot, KeywordBurst, KeywordSfx } from "../components/motion";
+import { IconBadge } from "../components/icons";
+
+const shotsOf = (scene: StepScene) => (scene.images?.length ? scene.images : [scene.image]);
 
 // ---------- Pré-roll logo (3 s) ----------
 export const PreRoll: React.FC = () => {
@@ -161,13 +165,20 @@ const StepSplit: React.FC<{ scene: StepScene; durationInFrames: number }> = ({ s
         <div style={{ marginTop: 34 }}>
           <TipPill text={scene.tip} />
         </div>
+        <div style={{ marginTop: 44, height: 110 }}>
+          <KeywordBurst keywords={scene.keywords} size={60} />
+        </div>
       </div>
-      <Pop delay={4} style={{ flex: 1, display: "flex", justifyContent: "center" }}>
-        <div style={{ width: 800, height: 560, borderRadius: 48, overflow: "hidden", boxShadow: "0 24px 60px rgba(27,42,65,0.16)", border: `10px solid ${C.white}` }}>
-          <KenBurns image={scene.image} durationInFrames={durationInFrames} direction={scene.index} />
+      <Pop delay={4} style={{ flex: 1, display: "flex", justifyContent: "center", position: "relative" }}>
+        <div style={{ width: 800, height: 600, borderRadius: 48, overflow: "hidden", boxShadow: "0 24px 60px rgba(27,42,65,0.16)", border: `10px solid ${C.white}` }}>
+          <MultiShot shots={shotsOf(scene)} durationInFrames={durationInFrames} seed={scene.index} />
+        </div>
+        <div style={{ position: "absolute", left: 10, bottom: -40 }}>
+          <IconBadge name={scene.icon} size={160} delay={14} />
         </div>
       </Pop>
     </AbsoluteFill>
+    <KeywordSfx keywords={scene.keywords} />
   </Frame>
 );
 
@@ -175,16 +186,21 @@ const StepSplit: React.FC<{ scene: StepScene; durationInFrames: number }> = ({ s
 const StepFull: React.FC<{ scene: StepScene; durationInFrames: number }> = ({ scene, durationInFrames }) => (
   <Frame bg={C.ink} dots={false}>
     <AbsoluteFill>
-      <KenBurns
-        image={scene.image}
+      <MultiShot
+        shots={shotsOf(scene)}
         durationInFrames={durationInFrames}
-        direction={scene.index + 1}
-        zoomFrom={1.0}
-        zoomTo={1.1}
+        seed={scene.index + 1}
         overlay={`linear-gradient(180deg, rgba(27,42,65,0.55) 0%, rgba(27,42,65,0.05) 35%, rgba(27,42,65,0.15) 60%, rgba(27,42,65,0.92) 100%)`}
       />
     </AbsoluteFill>
     <StepHeader scene={scene} onDark />
+    <div style={{ position: "absolute", left: 110, top: 300, right: 700 }}>
+      <KeywordBurst keywords={scene.keywords} dark size={76} />
+    </div>
+    <div style={{ position: "absolute", right: 110, bottom: 170 }}>
+      <IconBadge name={scene.icon} size={170} delay={14} />
+    </div>
+    <KeywordSfx keywords={scene.keywords} />
     <div style={{ position: "absolute", left: 110, bottom: 170, right: 110, display: "flex", alignItems: "flex-end", gap: 40 }}>
       <StepBadge n={scene.index} size={140} />
       <div style={{ flex: 1 }}>
@@ -205,9 +221,16 @@ const StepCard: React.FC<{ scene: StepScene; durationInFrames: number }> = ({ sc
     <StepHeader scene={scene} />
     <Pop delay={2} style={{ position: "absolute", top: 140, left: 110, right: 110 }}>
       <div style={{ height: 600, borderRadius: 40, overflow: "hidden", boxShadow: "0 24px 60px rgba(27,42,65,0.16)" }}>
-        <KenBurns image={scene.image} durationInFrames={durationInFrames} direction={scene.index + 2} overlay="linear-gradient(90deg, rgba(27,42,65,0.25), transparent 40%)" />
+        <MultiShot shots={shotsOf(scene)} durationInFrames={durationInFrames} seed={scene.index + 2} overlay="linear-gradient(90deg, rgba(27,42,65,0.35), transparent 45%)" />
+      </div>
+      <div style={{ position: "absolute", left: 50, bottom: 50 }}>
+        <KeywordBurst keywords={scene.keywords} dark size={70} />
+      </div>
+      <div style={{ position: "absolute", right: 40, top: 40 }}>
+        <IconBadge name={scene.icon} size={150} delay={14} bg={C.teal} color={C.white} />
       </div>
     </Pop>
+    <KeywordSfx keywords={scene.keywords} />
     <div style={{ position: "absolute", left: 110, right: 110, top: 780, display: "flex", alignItems: "center", gap: 40 }}>
       <StepBadge n={scene.index} size={110} color={C.teal} />
       <SlideUp delay={6} style={{ flex: 1, fontSize: fitTitle(scene.title, 66), fontWeight: 900, lineHeight: 1.08 }}>

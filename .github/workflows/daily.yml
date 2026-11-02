@@ -19,6 +19,10 @@ on:
         description: "Mode mock : silences + images de substitution, aucune clé API utilisée"
         type: boolean
         default: false
+      excerpt:
+        description: "Aperçu seulement : scène à extraire (ex. step-2), 45 s, sans upload"
+        required: false
+        default: ""
 
 concurrency:
   group: wikitube-daily
@@ -59,6 +63,18 @@ jobs:
       - name: Navigateur Remotion
         run: npx remotion browser ensure
 
+      - name: Cache voix et visuels
+        # Évite de re-payer la voix ElevenLabs quand on relance un même épisode (aperçu puis rendu complet).
+        uses: actions/cache@v4
+        with:
+          path: |
+            public/assets
+            build/*/tts.json
+            build/*/words.json
+            build/*/images.json
+          key: wikitube-assets-${{ github.run_id }}
+          restore-keys: wikitube-assets-
+
       - name: Pipeline quotidien
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
@@ -79,6 +95,7 @@ jobs:
           if [ -n "${{ inputs.date }}" ]; then ARGS="$ARGS --date ${{ inputs.date }}"; fi
           if [ "${{ inputs.skip_upload }}" = "true" ]; then ARGS="$ARGS --skip-upload"; fi
           if [ "${{ inputs.mock }}" = "true" ]; then ARGS="$ARGS --mock"; fi
+          if [ -n "${{ inputs.excerpt }}" ]; then ARGS="$ARGS --skip-upload --excerpt ${{ inputs.excerpt }}"; fi
           echo "npm run daily -- $ARGS"
           npm run daily -- $ARGS
 
@@ -124,7 +141,7 @@ jobs:
 
       - name: Commit de l'état (file d'attente, done, journal)
         # Un test (skip_upload ou mock) ne consomme pas la file d'attente
-        if: always() && inputs.skip_upload != true && inputs.mock != true
+        if: always() && inputs.skip_upload != true && inputs.mock != true && inputs.excerpt == ''
         run: |
           git config user.name "wikitube-bot"
           git config user.email "wikitube-bot@users.noreply.github.com"

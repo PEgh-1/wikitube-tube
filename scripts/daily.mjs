@@ -16,11 +16,14 @@ const steps = [
   { id: "generate", cmd: [script("generate.mjs"), ...(args.date ? ["--date", args.date] : []), ...(args.episode ? ["--episode", args.episode, "--keep"] : [])] },
   { id: "tts", cmd: [script("tts.mjs"), ...(mock ? ["--mock"] : [])] },
   { id: "images", cmd: [script("images.mjs"), ...(mock ? ["--mock"] : [])] },
-  { id: "render", cmd: [script("render.mjs"), ...(args.fps ? ["--fps", String(args.fps)] : []), ...(args["no-subtitles"] ? ["--no-subtitles"] : [])] },
+  { id: "render", cmd: [script("render.mjs"), ...(args.fps ? ["--fps", String(args.fps)] : []), ...(args["no-subtitles"] ? ["--no-subtitles"] : []), ...(args.excerpt ? ["--excerpt", String(args.excerpt)] : [])] },
   { id: "srt", cmd: [script("build-srt.mjs")] },
   { id: "qc", cmd: [script("qc.mjs"), ...(mock ? ["--mock"] : [])] },
   { id: "upload", cmd: [script("upload.mjs"), ...(args["dry-run"] ? ["--dry-run"] : [])], skip: skipUpload },
 ];
+
+// Mode aperçu : on s'arrête après le rendu de l'extrait (ni SRT, ni QC, ni upload).
+if (args.excerpt) for (const st of steps) if (["srt", "qc", "upload"].includes(st.id)) st.skip = true;
 
 const fromIdx = args.from ? steps.findIndex((s) => s.id === args.from) : 0;
 const started = Date.now();

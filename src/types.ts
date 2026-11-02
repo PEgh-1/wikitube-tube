@@ -1,4 +1,5 @@
 export type Word = { w: string; s: number; e: number };
+export type Keyword = { text: string; at: number; end: number; icon?: string | null };
 
 export type Segment = {
   id: string;
@@ -12,6 +13,7 @@ export type ImageRef = {
   key?: string;
   file: string; // relatif à public/
   kind?: "photo" | "video";
+  duration?: number;
   width?: number | null;
   height?: number | null;
   credit?: string | null;
@@ -34,6 +36,9 @@ export type StepScene = SceneBase & {
   title: string;
   tip: string;
   image?: ImageRef;
+  images?: ImageRef[];
+  icon?: string;
+  keywords?: Keyword[];
   layout: "split" | "full" | "card";
 };
 export type MistakesScene = SceneBase & { type: "mistakes"; items: string[] };

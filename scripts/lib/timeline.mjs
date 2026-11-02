@@ -1,6 +1,7 @@
 // Calcule la timeline (en secondes) du long et du Short à partir de l'épisode et des
 // durées audio. Consommée par render.mjs (inputProps Remotion), build-srt.mjs et les chapitres.
 import { FPS, fmtTime } from "./common.mjs";
+import { pickKeywords, stepIcon } from "./motion.mjs";
 
 export const PREROLL_SEC = 3;
 export const GAP_SEC = 0.7; // respiration après chaque segment narré
@@ -49,10 +50,15 @@ export function buildLongTimeline(ep, tts, images, { fps = FPS } = {}) {
         title: s.title,
         tip: s.tip,
         image: images.steps[i],
+        images: (images.stepShots?.[i] ?? [images.steps[i]]).filter(Boolean),
+        icon: stepIcon(s),
         layout: ["split", "full", "card"][i % 3],
       },
       [`step-${i + 1}`],
     );
+    const sc = scenes[scenes.length - 1];
+    const sg = sc.segments[0];
+    sc.keywords = pickKeywords(sg.words, sg.at - sc.start, [s.title, s.tip]);
   });
   push({ type: "mistakes", items: ep.mistakesToAvoid.items }, ["mistakes"]);
   push({ type: "recap", items: ep.recap.items ?? ep.steps.map((s) => s.title) }, ["recap"]);

@@ -94,6 +94,54 @@ export async function searchPhoto(query, { apiKey, minWidth = 1920, perPage = 10
   return parsePhotos(json, { minWidth, exclude });
 }
 
+/** Liste de candidats bruts (avec tags) pour un classement par pertinence côté appelant. */
+export function parsePhotoList(json, { minWidth = 1600 } = {}) {
+  return (json?.hits ?? [])
+    .map((h) => {
+      const full = h.imageURL || h.fullHDURL || null;
+      const downloadUrl = full || h.largeImageURL;
+      const width = h.imageURL ? h.imageWidth : h.fullHDURL ? Math.min(h.imageWidth, 1920) : Math.min(h.imageWidth, 1280);
+      const ratio = h.imageWidth / h.imageHeight;
+      return {
+        id: h.id,
+        kind: "photo",
+        downloadUrl,
+        width,
+        height: Math.round(width / ratio),
+        ratio,
+        tags: String(h.tags ?? "").toLowerCase(),
+        likes: h.likes ?? 0,
+        photographer: h.user,
+        photographerUrl: h.user_id ? `https://pixabay.com/users/${h.user}-${h.user_id}/` : null,
+        pageUrl: h.pageURL,
+        wide: h.imageWidth >= minWidth,
+      };
+    })
+    .filter((x) => x.downloadUrl && x.ratio >= 1.2);
+}
+
+export function parseVideoList(json, { minWidth = 1280, minDuration = 5, maxDuration = 60 } = {}) {
+  const out = [];
+  for (const v of json?.hits ?? []) {
+    if (v.duration > maxDuration || v.duration < minDuration) continue;
+    const variants = ["large", "medium", "small"].map((k) => v.videos?.[k]).filter((f) => f?.url && f.width >= minWidth);
+    const f = variants.sort((a, b) => Math.abs(a.width - 1920) - Math.abs(b.width - 1920))[0];
+    if (!f || f.width / f.height < 1.3) continue;
+    out.push({ id: `v${v.id}`, kind: "video", downloadUrl: f.url, width: f.width, height: f.height, duration: v.duration, tags: String(v.tags ?? "").toLowerCase(), likes: v.likes ?? 0, photographer: v.user, photographerUrl: v.user_id ? `https://pixabay.com/users/${v.user}-${v.user_id}/` : null, pageUrl: v.pageURL });
+  }
+  return out;
+}
+
+export async function searchPhotoList(query, { apiKey, perPage = 40, fetchImpl = fetch } = {}) {
+  const json = await getJson(buildPhotoUrl(query, { apiKey, minWidth: 1280, perPage }), fetchImpl);
+  return parsePhotoList(json);
+}
+
+export async function searchVideoList(query, { apiKey, perPage = 30, fetchImpl = fetch } = {}) {
+  const json = await getJson(buildVideoUrl(query, { apiKey, minWidth: 1280, perPage }), fetchImpl);
+  return parseVideoList(json);
+}
+
 export async function searchVideo(query, { apiKey, minWidth = 1920, perPage = 10, maxDuration = 30, fetchImpl = fetch } = {}) {
   const json = await getJson(buildVideoUrl(query, { apiKey, minWidth, perPage }), fetchImpl);
   return parseVideos(json, { minWidth, maxDuration });

@@ -13,6 +13,10 @@ import * as pexels from "./providers/pexels.mjs";
 import * as pixabay from "./providers/pixabay.mjs";
 import * as gemini from "./providers/gemini.mjs";
 import { placeholderPng } from "./lib/png.mjs";
+import { subjectTokens, queryVariants, rank } from "./lib/relevance.mjs";
+
+const SHOTS_PER_STEP = Number(process.env.SHOTS_PER_STEP ?? 3); // visuels par étape (dont 1 clip vidéo si trouvé)
+const MANIFEST_VERSION = 2;
 
 const args = parseArgs();
 const mock = Boolean(args.mock);
@@ -27,7 +31,10 @@ const buildDir = path.join(DIRS.build, episodeId);
 const episode = readJson(path.join(buildDir, "episode.json"));
 const imgDir = ensureDir(path.join(DIRS.assets, episodeId, "images"));
 const manifestFile = path.join(buildDir, "images.json");
-const previous = exists(manifestFile) && !args.force ? readJson(manifestFile) : null;
+let previous = exists(manifestFile) && !args.force ? readJson(manifestFile) : null;
+if (previous && previous.version !== MANIFEST_VERSION) previous = null;
+const subject = subjectTokens(episode.heroImageQuery, episode.steps.map((s) => s.imageQuery));
+const multi = stockName === "pixabay" && !mock && typeof pixabay.searchPhotoList === "function";
 
 const targets = [
   { key: "hero", query: episode.heroImageQuery, prompt: episode.heroImagePrompt, media: "photo", seed: 0 },
@@ -43,6 +50,7 @@ for (const t of targets) {
   if (prev && exists(path.join(DIRS.public, prev.file)) && prev.query === t.query && Boolean(prev.mock) === mock) {
     results[t.key] = prev;
     if (prev.id) used.add(prev.id);
+    for (const sh of prev.shots ?? []) if (sh.id) used.add(sh.id);
     log.info(`↷ ${t.key} (cache)`);
     continue;
   }
@@ -63,6 +71,9 @@ for (const t of targets) {
       log.warn(`gemini ${t.key} : ${e.message} → repli ${stockLabel}`);
     }
   }
+  if (!got && multi) {
+    got = await fromPixabayRanked(t);
+  }
   if (!got) {
     got = await fromStock(t);
   }
@@ -79,6 +90,63 @@ for (const t of targets) {
     got = entry(t, { kind: "photo", width: 1920, height: 1080, mock: true, credit: "placeholder" }, file);
   }
   results[t.key] = got;
+}
+
+// Pixabay classé par pertinence : plusieurs requêtes (précise → large), tags notés, sujet obligatoire.
+async function fromPixabayRanked(t) {
+  const variants = queryVariants(t.query, subject);
+  const cands = [];
+  for (const q of variants) {
+    try {
+      cands.push(...(await pixabay.searchPhotoList(q, { apiKey })));
+    } catch (e) {
+      log.warn(`Pixabay « ${q} » : ${e.message}`);
+    }
+    if (rank(cands, t.query, subject, used).length >= SHOTS_PER_STEP + 2) break;
+  }
+  const ranked = rank(cands, t.query, subject, used);
+  // Avec le nom principal du sujet (score ≥ 7) en priorité ; les autres seulement en dernier recours.
+  const strong = ranked.filter((p) => p.score >= 7);
+  const photos = strong.length ? strong : ranked;
+  let video = null;
+  if (t.key !== "hero") {
+    const vc = [];
+    for (const q of variants.slice(1, 4)) {
+      try {
+        vc.push(...(await pixabay.searchVideoList(q, { apiKey })));
+      } catch (e) {
+        log.warn(`Pixabay vidéo « ${q} » : ${e.message}`);
+      }
+      if (rank(vc, t.query, subject, used).length) break;
+    }
+    // Un clip n'est retenu que s'il montre le sujet principal (score ≥ 8 ≈ sujet + nom principal + 1 action).
+    video = rank(vc, t.query, subject, used).find((v) => v.score >= 8) ?? null;
+  }
+  const picks = [];
+  if (video) picks.push(video);
+  for (const p of photos) {
+    if (picks.length >= (t.key === "hero" ? 1 : SHOTS_PER_STEP)) break;
+    picks.push(p);
+  }
+  if (!picks.length) return null;
+  const shots = [];
+  for (const [j, p] of picks.entries()) {
+    used.add(p.id);
+    const ext = p.kind === "video" ? "mp4" : "jpg";
+    const file = path.join(imgDir, `${t.key}${j ? `-${j + 1}` : ""}.${ext}`);
+    try {
+      await stock.download(p.downloadUrl, file);
+    } catch (e) {
+      log.warn(`téléchargement ${p.id} : ${e.message}`);
+      continue;
+    }
+    const { tags, ratio, wide, score, ...meta } = p;
+    shots.push(entry(t, { ...meta, score, source: "pixabay", credit: `Pixabay / ${p.photographer}` }, file));
+    log.info(`✔ ${t.key} #${j + 1} ${p.kind} Pixabay ${p.id} (score ${score}) « ${tags.slice(0, 60)} »`);
+  }
+  if (!shots.length) return null;
+  const firstPhoto = shots.find((x) => x.kind !== "video") ?? shots[0];
+  return { ...firstPhoto, shots };
 }
 
 async function fromStock(t) {
@@ -108,15 +176,25 @@ function entry(t, meta, file) {
 
 const manifest = {
   episodeId,
+  version: MANIFEST_VERSION,
+  subject,
   mock,
   provider: mock ? "mock" : providerName,
   generatedAt: new Date().toISOString(),
-  hero: results.hero,
-  steps: episode.steps.map((_, i) => results[`step-${i + 1}`]),
+  hero: stripShots(results.hero),
+  steps: episode.steps.map((_, i) => stripShots(results[`step-${i + 1}`])),
+  stepShots: episode.steps.map((_, i) => results[`step-${i + 1}`]?.shots ?? [stripShots(results[`step-${i + 1}`])]),
   all: results,
   credits: Object.values(results)
+    .flatMap((r) => r.shots ?? [r])
     .filter((r) => r.credit && r.pageUrl)
     .map((r) => `${r.credit} — ${r.pageUrl}`),
 };
 writeJson(manifestFile, manifest);
+
+function stripShots(r) {
+  if (!r) return r;
+  const { shots, ...rest } = r;
+  return rest;
+}
 log.info(`${Object.keys(results).length} visuels → ${path.relative(DIRS.root, manifestFile)}`);

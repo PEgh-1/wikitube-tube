@@ -192,8 +192,9 @@ export const TipPill: React.FC<{ text: string; delay?: number; dark?: boolean; s
   </SlideUp>
 );
 
-export const LogoCorner: React.FC<{ top?: number; left?: number; size?: number; onDark?: boolean }> = ({ top = 36, left = 80, size = 44, onDark }) => (
-  <div style={{ position: "absolute", top, left }}>
-    <Logo size={size} onDark={onDark} />
+// Logo d'angle sur pastille crème : lisible sur toutes les images (claires ou sombres).
+export const LogoCorner: React.FC<{ top?: number; left?: number; size?: number; onDark?: boolean }> = ({ top = 36, left = 80, size = 44 }) => (
+  <div style={{ position: "absolute", top: top - size * 0.22, left: left - size * 0.35, background: "rgba(251,247,239,0.94)", padding: `${size * 0.22}px ${size * 0.35}px`, borderRadius: size * 0.4, boxShadow: "0 6px 18px rgba(27,42,65,0.12)" }}>
+    <Logo size={size} />
   </div>
 );

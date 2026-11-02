@@ -4,6 +4,7 @@
 //   node scripts/render.mjs                  # tout
 //   node scripts/render.mjs --only long|short|thumb
 //   options : --episode <id> --fps 24 (test) --no-subtitles --concurrency 2 --crf 20
+//   aperçu  : --excerpt step-2 [--excerpt-sec 45] → out/<id>/excerpt.mp4 (long uniquement, à partir de 1 s avant la scène)
 import path from "node:path";
 import fs from "node:fs";
 import { bundle } from "@remotion/bundler";
@@ -84,7 +85,7 @@ const serveUrl = await bundle({
 
 const common = { serveUrl, browserExecutable, chromiumOptions, logLevel: "warn" };
 
-async function renderVideo(id, timeline, outFile) {
+async function renderVideo(id, timeline, outFile, frameRange = null) {
   log.step(`Rendu ${id} → ${path.relative(DIRS.root, outFile)}`);
   const inputProps = { timeline, options: { burnSubtitles, audio: true } };
   const composition = await selectComposition({ ...common, id, inputProps });
@@ -99,11 +100,13 @@ async function renderVideo(id, timeline, outFile) {
     concurrency,
     inputProps,
     outputLocation: outFile,
+    ...(frameRange ? { frameRange } : {}),
     audioCodec: "aac",
     audioBitrate: "192k",
     x264Preset: "medium",
     onProgress: throttle(({ renderedFrames, encodedFrames }) => {
-      const pct = ((encodedFrames / composition.durationInFrames) * 100).toFixed(0);
+      const total = frameRange ? frameRange[1] - frameRange[0] + 1 : composition.durationInFrames;
+      const pct = ((encodedFrames / total) * 100).toFixed(0);
       const fpsNow = renderedFrames / ((Date.now() - started) / 1000);
       log.info(`${id} ${pct}% — ${renderedFrames}/${composition.durationInFrames} frames (${fpsNow.toFixed(1)} fps)`);
     }, 15000),
@@ -111,6 +114,17 @@ async function renderVideo(id, timeline, outFile) {
   const d = mediaDuration(outFile);
   log.info(`✔ ${id} ${d.toFixed(1)} s en ${((Date.now() - started) / 1000 / 60).toFixed(1)} min`);
   return d;
+}
+
+if (args.excerpt) {
+  const [type, n] = String(args.excerpt).split("-");
+  const sc = longTl.scenes.find((x) => x.type === type && (n === undefined || String(x.index) === n));
+  if (!sc) throw new Error(`Scène introuvable pour --excerpt ${args.excerpt}`);
+  const start = Math.max(0, Math.round((sc.start - 1) * fps));
+  const end = Math.min(longTl.durationInFrames - 1, start + Math.round(Number(args["excerpt-sec"] ?? 45) * fps));
+  await renderVideo("Long", longTl, path.join(outDir, "excerpt.mp4"), [start, end]);
+  log.info(`Extrait ${args.excerpt} : ${(start / fps).toFixed(1)} → ${(end / fps).toFixed(1)} s`);
+  process.exit(0);
 }
 
 if (only === "all" || only === "thumb") {

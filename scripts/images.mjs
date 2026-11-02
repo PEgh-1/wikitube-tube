@@ -18,6 +18,7 @@ import { groupShots, shotPrompt, illustrate } from "./lib/shots.mjs";
 
 const SHOTS_PER_STEP = Number(process.env.SHOTS_PER_STEP ?? 3); // visuels par étape (dont 1 clip vidéo si trouvé)
 const MANIFEST_VERSION = 3;
+const queryCache = new Map(); // requêtes Pixabay déjà faites pendant ce run
 
 const args = parseArgs();
 const mock = Boolean(args.mock);
@@ -133,7 +134,6 @@ async function fromGemini(t) {
 
 // Pixabay « strict » : une photo/clip par phrase seulement si elle s'y prête vraiment
 // (nom principal du sujet + ≥ 2 mots de la phrase dans les tags), sinon illustration animée Remotion.
-const queryCache = new Map();
 async function cachedSearch(kind, q) {
   const k = `${kind}:${q}`;
   if (!queryCache.has(k)) {

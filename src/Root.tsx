@@ -3,6 +3,7 @@ import { Composition, Still } from "remotion";
 import { Long } from "./Long";
 import { Short } from "./Short";
 import { Thumbnail } from "./Thumbnail";
+import { ThumbPro, type ThumbProProps } from "./ThumbPro";
 import type { LongProps, ShortProps, ThumbnailProps } from "./types";
 import { demoLong, demoShort } from "./fixtures/demo";
 
@@ -45,6 +46,13 @@ export const Root: React.FC = () => (
       width={1280}
       height={720}
       defaultProps={{ title: "Clean cast iron the RIGHT way", stepCount: 7, category: "Kitchen" } as ThumbnailProps}
+    />
+    <Still
+      id="ThumbPro"
+      component={ThumbPro}
+      width={1280}
+      height={720}
+      defaultProps={{ photo: "thumbs/toilet.jpg", lines: [{ text: "TOILET" }, { text: "CLOGGED?", hi: true }], badge: "NO PLUMBER NEEDED", mascot: "panic" } as ThumbProProps}
     />
   </>
 );

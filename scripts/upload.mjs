@@ -138,9 +138,26 @@ log.step(`Upload ${episodeId}${dry ? " (dry-run)" : ""}`);
 log.info(`Long programmé : ${publishAt ? publishAt.toISOString() : privacy} — Short : ${shortPublishAt ? shortPublishAt.toISOString() : privacy}`);
 
 const result = { episodeId, uploadedAt: new Date().toISOString(), dryRun: dry };
-const baseStatus = { privacyStatus: privacy, selfDeclaredMadeForKids: false, license: "youtube", embeddable: true, publicStatsViewable: true };
+const baseStatus = { privacyStatus: privacy, selfDeclaredMadeForKids: false, containsSyntheticMedia: true, license: "youtube", embeddable: true, publicStatsViewable: true };
 
-// Long
+// Journal de publication : écrit dès que le long est en ligne, complété après le Short (reprise sans doublon).
+const logFile = path.join(DIRS.data, "published.json");
+function record() {
+  if (dry) return;
+  const published = exists(logFile) ? readJson(logFile) : [];
+  const entry = { episodeId, title: meta.long.title, long: result.long, short: result.short ?? null, uploadedAt: result.uploadedAt };
+  const i = published.findIndex((e) => e.episodeId === episodeId);
+  if (i >= 0) published[i] = { ...published[i], ...entry, short: entry.short ?? published[i].short ?? null };
+  else published.push(entry);
+  writeJson(logFile, published);
+}
+
+// Long (--skip-long --long-url <url> : le long est déjà en ligne, on n'envoie que le Short)
+const skipLong = Boolean(args["skip-long"]);
+if (skipLong) {
+  if (!args["long-url"]) throw new Error("--skip-long demande --long-url");
+  result.long = { videoId: String(args["long-url"]).split("/").pop(), publishAt: publishAt?.toISOString() ?? null, url: String(args["long-url"]) };
+}
 const longFile = path.join(DIRS.root, meta.long.file);
 const longSnippet = {
   title: meta.long.title,
@@ -150,18 +167,27 @@ const longSnippet = {
   defaultLanguage: "en",
   defaultAudioLanguage: "en",
 };
-const longVideo = await uploadVideo(longFile, longSnippet, { ...baseStatus, ...(publishAt ? { publishAt: publishAt.toISOString() } : {}) }, meta.long.localizations);
-result.long = { videoId: longVideo.id, publishAt: publishAt?.toISOString() ?? null, url: `https://youtu.be/${longVideo.id}` };
-log.info(`✔ long → ${result.long.url}`);
+const longVideo = skipLong ? { id: result.long.videoId } : await uploadVideo(longFile, longSnippet, { ...baseStatus, ...(publishAt ? { publishAt: publishAt.toISOString() } : {}) }, meta.long.localizations);
+if (!skipLong) {
+  result.long = { videoId: longVideo.id, publishAt: publishAt?.toISOString() ?? null, url: `https://youtu.be/${longVideo.id}` };
+  log.info(`✔ long → ${result.long.url}`);
+  record();
+}
 
-const thumb = [path.join(DIRS.root, meta.long.thumbnail), path.join(DIRS.root, meta.long.thumbnail).replace(/\.png$/, ".jpg")].find((f) => exists(f) && fs.statSync(f).size <= 2 * 1024 * 1024);
+const thumb = skipLong ? null : [path.join(DIRS.root, meta.long.thumbnail), path.join(DIRS.root, meta.long.thumbnail).replace(/\.png$/, ".jpg")].find((f) => exists(f) && fs.statSync(f).size <= 2 * 1024 * 1024);
 if (thumb) {
-  await setThumbnail(longVideo.id, thumb);
-  log.info("✔ miniature");
-} else log.warn("Miniature absente ou > 2 Mo : ignorée");
+  try {
+    await setThumbnail(longVideo.id, thumb);
+    result.thumbnail = true;
+    log.info("✔ miniature");
+  } catch (e) {
+    result.thumbnail = false;
+    log.warn(`thumbnails.set : ${e.message}`);
+  }
+} else if (!skipLong) log.warn("Miniature absente ou > 2 Mo : ignorée");
 
 const srt = path.join(DIRS.root, meta.long.srt);
-if (exists(srt)) {
+if (!skipLong && exists(srt)) {
   try {
     await insertCaption(longVideo.id, srt);
     log.info("✔ sous-titres EN (captions.insert)");
@@ -170,7 +196,7 @@ if (exists(srt)) {
   }
 }
 
-if (meta.playlistId) {
+if (!skipLong && meta.playlistId) {
   try {
     await addToPlaylist(meta.playlistId, longVideo.id);
     log.info(`✔ playlist ${meta.playlistId}`);
@@ -196,10 +222,5 @@ if (!args["skip-short"]) {
 }
 
 writeJson(path.join(buildDir, "upload.json"), result);
-if (!dry) {
-  const logFile = path.join(DIRS.data, "published.json");
-  const published = exists(logFile) ? readJson(logFile) : [];
-  published.push({ episodeId, title: meta.long.title, long: result.long, short: result.short ?? null, uploadedAt: result.uploadedAt });
-  writeJson(logFile, published);
-}
+record();
 log.info("Upload terminé.");

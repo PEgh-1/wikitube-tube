@@ -1,0 +1,45 @@
+name: Mise en ligne des épisodes vérifiés
+
+# Déclenché par une modification de publish/queue.json : envoie sur YouTube (programmé, privé jusqu'à l'heure)
+# les épisodes déjà rendus et contrôlés, stockés sur la branche release-assets. Aucun nouveau rendu.
+on:
+  push:
+    branches: [test-gemini-web]
+    paths: ["publish/queue.json"]
+
+concurrency:
+  group: wikitube-publish
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Fichiers vérifiés
+        run: git clone --depth 1 --branch release-assets "https://github.com/${{ github.repository }}.git" _rel
+      - name: Mise en ligne
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          YT_PLAYLIST_ID: ${{ vars.YT_PLAYLIST_ID }}
+        run: node scripts/tools/publish-release.mjs --assets _rel
+      - name: Journal de publication
+        if: always()
+        run: |
+          git config user.name "wikitube-bot"
+          git config user.email "wikitube-bot@users.noreply.github.com"
+          git add data/published.json 2>/dev/null || true
+          if git diff --cached --quiet; then echo "rien à enregistrer"; else
+            git commit -m "chore(publish): run ${{ github.run_id }}"
+            git pull --rebase origin ${{ github.ref_name }} || true
+            git push
+          fi

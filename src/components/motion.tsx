@@ -145,7 +145,14 @@ const Shot: React.FC<{ image?: ImageRef; len: number; first: boolean; move: numb
   } else if (image?.kind === "video") {
     const dur = Number((image as ImageRef & { duration?: number }).duration ?? 0);
     const rate = dur > 0 ? Math.max(0.5, Math.min(1, dur / (len / fps))) : 1;
-    el = <OffthreadVideo src={staticFile(image.file)} muted playbackRate={rate} style={{ ...media, transform }} />;
+    el = (
+      <>
+        <div style={{ position: "absolute", inset: 0, transform, transformOrigin: origin }}>
+          <OffthreadVideo src={staticFile(image.file)} muted playbackRate={rate} style={media} />
+        </div>
+        <NotesLayer notes={image.notes} box={box} focus={focus} fromFrame={fromFrame} cam={cam} file={(image as ImageRef & { poster?: string }).poster ?? undefined} />
+      </>
+    );
   } else if (image?.compareFile) {
     el = <BeforeAfter before={image.compareFile} after={image.file} labels={image.compareLabels ?? undefined} len={len - TRANS} />;
   } else if (image) {

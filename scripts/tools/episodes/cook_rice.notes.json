@@ -347,7 +347,8 @@
      "size": 1
     }
    ],
-   "punch": "single"
+   "punch": "single",
+   "clip": "step-4-2.mp4"
   },
   "4-3": {
    "focus": [
@@ -407,7 +408,8 @@
      ],
      "size": 1.2
     }
-   ]
+   ],
+   "clip": "step-4-4.mp4"
   },
   "4-5": {
    "focus": [

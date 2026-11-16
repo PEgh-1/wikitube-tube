@@ -8,7 +8,7 @@
 //   options : --episode <id> --force
 import fs from "node:fs";
 import path from "node:path";
-import { DIRS, parseArgs, readJson, writeJson, log, ensureDir, exists, requireEnv } from "./lib/common.mjs";
+import { DIRS, parseArgs, readJson, writeJson, log, ensureDir, exists, requireEnv, mediaDuration } from "./lib/common.mjs";
 import * as pexels from "./providers/pexels.mjs";
 import * as pixabay from "./providers/pixabay.mjs";
 import * as gemini from "./providers/gemini.mjs";
@@ -86,6 +86,16 @@ function fromPregen(t) {
     // Avant / après : seconde image (« avant ») balayée par un curseur.
     const cmp = sh.compare ? copy(sh.compare.file, `${t.key}-${j + 1}-before`) : null;
     shots.push({ ...base, text: sh.text, wordStart, prompt: sh.prompt, focus: sh.focus ?? null, notes: sh.notes ?? null, fx: sh.fx ?? null, punchOn: sh.punch ? [].concat(sh.punch) : null, compareFile: cmp ? path.relative(DIRS.public, cmp).split(path.sep).join("/") : null, compareLabels: cmp ? (sh.compare.labels ?? null) : null });
+    // Clip animé (Gemini vidéo, à partir de la même photo) : il remplace la photo à l'écran, annotations conservées.
+    const clip = sh.clip ? copy(sh.clip, `${t.key}-${j + 1}`) : null;
+    if (clip) {
+      const last = shots[shots.length - 1];
+      last.poster = last.file;
+      last.file = path.relative(DIRS.public, clip).split(path.sep).join("/");
+      last.kind = "video";
+      last.duration = mediaDuration(clip);
+      last.fx = null;
+    }
     // Second plan de la même phrase : gros plan dédié (cut.file) ou zoom sur le geste (même image).
     if (sh.cut) {
       const at = Math.max(1, words.findIndex((w) => clean(w) === clean(sh.cut.on ?? "")));
@@ -96,7 +106,7 @@ function fromPregen(t) {
     log.info(`✔ ${t.key} phrase ${j + 1}/${list.length} pré-générée${sh.cut ? " (2 plans)" : ""} — « ${sh.text.slice(0, 50)} »`);
   }
   const firstPhoto = shots.find((x) => x.kind === "photo");
-  return firstPhoto ? { ...firstPhoto, shots } : null;
+  return firstPhoto ? { ...firstPhoto, shots } : null; // un clip n'est jamais l'image principale (récap, Short, miniature)
 }
 
 for (const t of targets) {

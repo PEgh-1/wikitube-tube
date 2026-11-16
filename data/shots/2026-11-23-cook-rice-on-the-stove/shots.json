@@ -460,7 +460,8 @@
             "size": 1
           }
         ],
-        "punch": "single"
+        "punch": "single",
+        "clip": "step-4-2.mp4"
       },
       {
         "text": "Stirring rice releases starch, which makes it creamy and sticky, great for risotto, but not for fluffy rice.",
@@ -526,7 +527,8 @@
             ],
             "size": 1.2
           }
-        ]
+        ],
+        "clip": "step-4-4.mp4"
       },
       {
         "text": "It takes only a few minutes to get this far. Use a timer on your phone, and don't walk too far from the kitchen.",

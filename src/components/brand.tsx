@@ -268,6 +268,27 @@ export const InfoCard: React.FC<{ cards?: InfoCardData[]; width?: number }> = ({
   );
 };
 
+/** Vrai quand un encart est à l'écran (pour laisser la place à l'astuce de Wiki le reste du temps). */
+export function useCardActive(cards?: InfoCardData[]): boolean {
+  return useWindow(cards, 4.8) !== null;
+}
+
+/** Wiki donne l'astuce de l'étape dans une bulle (occupe l'espace libre quand aucun encart n'est affiché). */
+export const TipBubble: React.FC<{ text: string; delay?: number; width?: number }> = ({ text, delay = 20, width = 420 }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const s = spring({ frame: frame - delay - 8, fps, config: { damping: 12, stiffness: 170 } });
+  return (
+    <div style={{ display: "flex", alignItems: "flex-end", gap: 6 }}>
+      <Mascot pose="point" height={230} delay={delay} />
+      <div style={{ width, marginBottom: 70, transform: `scale(${s}) rotate(-2deg)`, transformOrigin: "0% 100%", background: C.white, border: `5px solid ${C.ink}`, borderRadius: "26px 26px 26px 6px", padding: "14px 24px 18px", boxShadow: `8px 8px 0 ${C.sun}` }}>
+        <div style={{ fontFamily: FONT, fontSize: 24, fontWeight: 900, letterSpacing: 4, color: C.coral }}>TIP</div>
+        <div style={{ fontFamily: HAND, fontWeight: 700, fontSize: 46, lineHeight: 1.02, color: C.ink }}>{text}</div>
+      </div>
+    </div>
+  );
+};
+
 // ---------- Coche du matériel ----------
 export const TickNote: React.FC<{ ticks?: Tick[] }> = ({ ticks }) => {
   const { fps } = useVideoConfig();

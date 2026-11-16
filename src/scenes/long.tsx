@@ -3,7 +3,7 @@ import { AbsoluteFill, Audio, interpolate, spring, staticFile, useCurrentFrame, 
 import { C, FONT } from "../theme";
 import { Frame, Logo, LogoCorner, Pop, SlideUp, ProgressBar, StepBadge, KenBurns, TipPill } from "../components/ui";
 import type { HookScene, YouNeedScene, StepScene, MistakesScene, RecapScene, PrerollScene, OutroScene } from "../types";
-import { Mascot, WMark, FactChip, InfoCard, TickNote, CueSfx, Tape, HAND } from "../components/brand";
+import { Mascot, WMark, FactChip, InfoCard, TickNote, CueSfx, Tape, HAND, TipBubble, useCardActive } from "../components/brand";
 import { MultiShot, KeywordBurst, KeywordSfx, useIllustrationActive } from "../components/motion";
 import { IconBadge } from "../components/icons";
 
@@ -200,6 +200,7 @@ const StepHeader: React.FC<{ scene: StepScene; onDark?: boolean }> = ({ scene, o
 /** Variante A : page de notice — titre et encarts à gauche, grande photo scotchée à droite. */
 const StepSplit: React.FC<{ scene: StepScene; durationInFrames: number }> = ({ scene, durationInFrames }) => {
   const rich = isRich(scene);
+  const cardOn = useCardActive(scene.cards);
   if (!rich)
     return (
       <Frame>
@@ -241,12 +242,17 @@ const StepSplit: React.FC<{ scene: StepScene; durationInFrames: number }> = ({ s
           <TickNote ticks={scene.ticks} />
         </div>
       </div>
-      <div style={{ position: "absolute", left: 120, bottom: 70 }}>
-        <InfoCard cards={scene.cards} width={590} />
+      <div style={{ position: "absolute", left: 130, bottom: 70 }}>
+        <InfoCard cards={scene.cards} width={600} />
       </div>
-      <Pop delay={3} style={{ position: "absolute", right: 90, top: 160, width: 1110 }}>
+      {!cardOn && (
+        <div style={{ position: "absolute", left: 70, bottom: 60 }}>
+          <TipBubble text={scene.tip} width={340} />
+        </div>
+      )}
+      <Pop delay={3} style={{ position: "absolute", right: 90, top: 160, width: 1040 }}>
         <div style={{ height: 800, borderRadius: 36, overflow: "hidden", boxShadow: "0 24px 60px rgba(27,42,65,0.18)", border: `10px solid ${C.white}`, boxSizing: "border-box" }}>
-          <MultiShot shots={shotsOf(scene)} durationInFrames={durationInFrames} seed={scene.index} starts={scene.shotStarts} box={[1090, 780]} />
+          <MultiShot shots={shotsOf(scene)} durationInFrames={durationInFrames} seed={scene.index} starts={scene.shotStarts} box={[1020, 780]} />
         </div>
         <Tape side="l" inset={150} />
         <Tape side="r" inset={150} />
@@ -303,7 +309,7 @@ const StepFull: React.FC<{ scene: StepScene; durationInFrames: number }> = ({ sc
         </>
       )}
       <StepCues scene={scene} />
-      <div style={{ position: "absolute", left: 110, bottom: 130, right: rich ? 770 : 110, display: "flex", alignItems: "flex-end", gap: 40 }}>
+      <div style={{ position: "absolute", left: 110, bottom: 130, right: rich ? 860 : 110, display: "flex", alignItems: "flex-end", gap: 40 }}>
         <StepBadge n={scene.index} size={140} />
         <div style={{ flex: 1 }}>
           <SlideUp delay={6} style={{ fontSize: fitTitle(scene.title, rich ? 72 : 84), fontWeight: 900, lineHeight: 1.06, color: C.white, textShadow: "0 4px 24px rgba(0,0,0,0.35)" }}>
@@ -318,6 +324,7 @@ const StepFull: React.FC<{ scene: StepScene; durationInFrames: number }> = ({ sc
 /** Variante C : grande image en bandeau haut (photo scotchée sur la notice), titre + encart dessous. */
 const StepCard: React.FC<{ scene: StepScene; durationInFrames: number }> = ({ scene, durationInFrames }) => {
   const rich = isRich(scene);
+  const cardOn = useCardActive(scene.cards);
   return (
     <Frame bg={C.mint}>
       <StepHeader scene={scene} />
@@ -356,8 +363,13 @@ const StepCard: React.FC<{ scene: StepScene; durationInFrames: number }> = ({ sc
           </div>
         )}
       </div>
+      {rich && !cardOn && (
+        <div style={{ position: "absolute", right: 120, bottom: 14 }}>
+          <TipBubble text={scene.tip} width={430} />
+        </div>
+      )}
       {rich && (
-        <div style={{ position: "absolute", right: 110, top: 818 }}>
+        <div style={{ position: "absolute", right: 110, top: 806 }}>
           <InfoCard cards={scene.cards} />
         </div>
       )}

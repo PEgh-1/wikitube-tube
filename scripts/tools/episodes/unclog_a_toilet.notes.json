@@ -1,0 +1,908 @@
+{
+ "shots": {
+  "1-1": {
+   "focus": [
+    0.55,
+    0.5
+   ],
+   "notes": [
+    {
+     "type": "cross",
+     "at": [
+      0.76,
+      0.21
+     ],
+     "r": 0.05,
+     "text": "Don't flush again",
+     "label": [
+      0.42,
+      0.14
+     ],
+     "on": "do"
+    }
+   ]
+  },
+  "1-2": {
+   "focus": [
+    0.51,
+    0.6
+   ],
+   "cut": {
+    "on": "push",
+    "zoom": 1.3,
+    "focus": [
+     0.51,
+     0.62
+    ],
+    "notes": [
+     {
+      "type": "arrow",
+      "at": [
+       0.51,
+       0.64
+      ],
+      "text": "Push the flapper down",
+      "label": [
+       0.4,
+       0.3
+      ],
+      "on": "flapper"
+     }
+    ]
+   }
+  },
+  "1-3": {
+   "focus": [
+    0.47,
+    0.55
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.47,
+      0.66
+     ],
+     "r": 0.09,
+     "text": "Sealed: no more water in",
+     "label": [
+      0.45,
+      0.16
+     ],
+     "on": "stops"
+    }
+   ]
+  },
+  "1-4": {
+   "focus": [
+    0.65,
+    0.55
+   ],
+   "notes": [
+    {
+     "type": "swirl",
+     "at": [
+      0.73,
+      0.63
+     ],
+     "r": 0.075,
+     "text": "Clockwise = closed",
+     "label": [
+      0.5,
+      0.24
+     ],
+     "on": "turn"
+    }
+   ]
+  },
+  "1-5": {
+   "focus": [
+    0.5,
+    0.55
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.5,
+      0.6
+     ],
+     "text": "The level stays put",
+     "label": [
+      0.3,
+      0.22
+     ],
+     "on": "level"
+    }
+   ]
+  },
+  "2-1": {
+   "focus": [
+    0.4,
+    0.55
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.24,
+      0.62
+     ],
+     "text": "All around the base",
+     "label": [
+      0.26,
+      0.28
+     ],
+     "on": "towels"
+    }
+   ]
+  },
+  "2-2": {
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.27,
+      0.22
+     ],
+     "text": "Open a window",
+     "label": [
+      0.2,
+      0.55
+     ],
+     "on": "open"
+    }
+   ]
+  },
+  "2-3": {
+   "focus": [
+    0.6,
+    0.6
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.72,
+      0.8
+     ],
+     "text": "Bail into the bucket",
+     "label": [
+      0.56,
+      0.36
+     ],
+     "on": "bail"
+    }
+   ]
+  },
+  "2-4": {
+   "focus": [
+    0.45,
+    0.6
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.45,
+      0.6
+     ],
+     "r": 0.1,
+     "text": "About half full",
+     "label": [
+      0.22,
+      0.28
+     ],
+     "on": "enough"
+    }
+   ]
+  },
+  "3-1": {
+   "focus": [
+    0.55,
+    0.6
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.555,
+      0.71
+     ],
+     "text": "The flange (soft sleeve)",
+     "label": [
+      0.24,
+      0.56
+     ],
+     "on": "sleeve"
+    }
+   ]
+  },
+  "3-2": {
+   "focus": [
+    0.45,
+    0.72
+   ],
+   "notes": [
+    {
+     "type": "cross",
+     "at": [
+      0.36,
+      0.84
+     ],
+     "r": 0.06,
+     "text": "Sink plunger",
+     "label": [
+      0.16,
+      0.5
+     ],
+     "on": "flat"
+    },
+    {
+     "type": "arrow",
+     "at": [
+      0.52,
+      0.82
+     ],
+     "text": "Toilet plunger",
+     "label": [
+      0.74,
+      0.55
+     ],
+     "on": "cannot"
+    }
+   ]
+  },
+  "3-3": {
+   "focus": [
+    0.5,
+    0.65
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.54,
+      0.78
+     ],
+     "text": "Warm rubber seals better",
+     "label": [
+      0.26,
+      0.34
+     ],
+     "on": "hot"
+    }
+   ]
+  },
+  "3-4": {
+   "focus": [
+    0.5,
+    0.6
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.47,
+      0.5
+     ],
+     "text": "At an angle: air escapes",
+     "label": [
+      0.22,
+      0.3
+     ],
+     "on": "angle"
+    }
+   ],
+   "cut": {
+    "on": "then",
+    "zoom": 1.25,
+    "focus": [
+     0.48,
+     0.66
+    ],
+    "notes": [
+     {
+      "type": "circle",
+      "at": [
+       0.48,
+       0.7
+      ],
+      "r": 0.085,
+      "text": "Sleeve in the drain",
+      "label": [
+       0.7,
+       0.42
+      ],
+      "on": "sleeve"
+     }
+    ]
+   }
+  },
+  "3-5": {
+   "focus": [
+    0.5,
+    0.62
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.51,
+      0.6
+     ],
+     "text": "First push: slow",
+     "label": [
+      0.26,
+      0.4
+     ],
+     "on": "slow"
+    }
+   ]
+  },
+  "4-1": {
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.52,
+      0.42
+     ],
+     "text": "Straight up and down",
+     "label": [
+      0.3,
+      0.86
+     ],
+     "on": "straight"
+    }
+   ]
+  },
+  "4-2": {
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.5,
+      0.58
+     ],
+     "text": "Pull = suction",
+     "label": [
+      0.26,
+      0.86
+     ],
+     "on": "pull"
+    }
+   ]
+  },
+  "4-3": {
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.5,
+      0.56
+     ],
+     "text": "One sharp pull",
+     "label": [
+      0.28,
+      0.86
+     ],
+     "on": "yank"
+    }
+   ]
+  },
+  "4-4": {
+   "focus": [
+    0.5,
+    0.55
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.5,
+      0.62
+     ],
+     "r": 0.1,
+     "text": "Water drops: clog moved",
+     "label": [
+      0.5,
+      0.11
+     ],
+     "on": "rushes"
+    }
+   ]
+  },
+  "4-5": {
+   "focus": [
+    0.5,
+    0.5
+   ]
+  },
+  "5-1": {
+   "focus": [
+    0.55,
+    0.5
+   ]
+  },
+  "5-2": {
+   "focus": [
+    0.5,
+    0.6
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.42,
+      0.52
+     ],
+     "text": "Hot from the tap",
+     "label": [
+      0.64,
+      0.4
+     ],
+     "on": "hot"
+    }
+   ]
+  },
+  "5-3": {
+   "focus": [
+    0.52,
+    0.5
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.5,
+      0.4
+     ],
+     "text": "From waist height",
+     "label": [
+      0.22,
+      0.48
+     ],
+     "on": "waist"
+    }
+   ]
+  },
+  "5-4": {
+   "focus": [
+    0.5,
+    0.55
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.44,
+      0.72
+     ],
+     "text": "Soap lubricates the pipe",
+     "label": [
+      0.24,
+      0.42
+     ],
+     "on": "soap"
+    }
+   ]
+  },
+  "5-5": {
+   "focus": [
+    0.5,
+    0.6
+   ]
+  },
+  "6-1": {
+   "focus": [
+    0.55,
+    0.5
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.5,
+      0.74
+     ],
+     "text": "Rubber sleeve",
+     "label": [
+      0.24,
+      0.62
+     ],
+     "on": "for"
+    },
+    {
+     "type": "arrow",
+     "at": [
+      0.66,
+      0.21
+     ],
+     "text": "Crank handle",
+     "label": [
+      0.84,
+      0.36
+     ],
+     "on": "still"
+    }
+   ]
+  },
+  "6-2": {
+   "focus": [
+    0.55,
+    0.6
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.585,
+      0.7
+     ],
+     "r": 0.065,
+     "text": "Rubber protects the bowl",
+     "label": [
+      0.27,
+      0.38
+     ],
+     "on": "rubber"
+    }
+   ]
+  },
+  "6-3": {
+   "focus": [
+    0.55,
+    0.5
+   ],
+   "notes": [
+    {
+     "type": "swirl",
+     "at": [
+      0.69,
+      0.27
+     ],
+     "r": 0.055,
+     "text": "Crank clockwise",
+     "label": [
+      0.85,
+      0.56
+     ],
+     "on": "turning"
+    }
+   ]
+  },
+  "6-4": {
+   "focus": [
+    0.55,
+    0.5
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.58,
+      0.42
+     ],
+     "text": "Gentle pressure only",
+     "label": [
+      0.26,
+      0.44
+     ],
+     "on": "resistance"
+    }
+   ]
+  },
+  "6-5": {
+   "focus": [
+    0.6,
+    0.6
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.725,
+      0.68
+     ],
+     "text": "Clog out, into the bucket",
+     "label": [
+      0.36,
+      0.38
+     ],
+     "on": "drop"
+    }
+   ]
+  },
+  "7-1": {
+   "focus": [
+    0.4,
+    0.55
+   ],
+   "notes": [
+    {
+     "type": "swirl",
+     "at": [
+      0.44,
+      0.66
+     ],
+     "r": 0.085,
+     "text": "Counter-clockwise = open",
+     "label": [
+      0.52,
+      0.18
+     ],
+     "on": "valve"
+    }
+   ]
+  },
+  "7-2": {
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.52,
+      0.62
+     ],
+     "text": "Ready to close it",
+     "label": [
+      0.34,
+      0.18
+     ],
+     "on": "flapper"
+    }
+   ]
+  },
+  "7-3": {
+   "focus": [
+    0.5,
+    0.55
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.5,
+      0.6
+     ],
+     "r": 0.1,
+     "text": "Strong swirl = cleared",
+     "label": [
+      0.5,
+      0.11
+     ],
+     "on": "watch"
+    }
+   ]
+  },
+  "7-4": {
+   "focus": [
+    0.6,
+    0.5
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.62,
+      0.56
+     ],
+     "text": "Disinfect everything",
+     "label": [
+      0.32,
+      0.18
+     ],
+     "on": "disinfect"
+    }
+   ]
+  }
+ },
+ "extras": {
+  "step-1": {
+   "cards": [
+    {
+     "shot": 1,
+     "on": "flush",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "A second flush sends a full tank into a blocked bowl.",
+     "dur": 4.4
+    }
+   ]
+  },
+  "step-2": {
+   "ticks": [
+    {
+     "shot": 1,
+     "on": "towels",
+     "label": "Old towels"
+    },
+    {
+     "shot": 2,
+     "on": "gloves",
+     "label": "Rubber gloves"
+    }
+   ],
+   "facts": [
+    {
+     "shot": 3,
+     "on": "half",
+     "kind": "measure",
+     "big": "½ full",
+     "small": "is the target",
+     "dur": 3.6
+    }
+   ],
+   "cards": [
+    {
+     "shot": 4,
+     "on": "enough",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "Water over the cup lets the plunger push water, not air.",
+     "dur": 4.6
+    }
+   ]
+  },
+  "step-3": {
+   "ticks": [
+    {
+     "shot": 1,
+     "on": "plunger",
+     "label": "Flange plunger"
+    }
+   ],
+   "facts": [
+    {
+     "shot": 3,
+     "on": "minute",
+     "kind": "timer",
+     "big": "1 min",
+     "small": "under hot water",
+     "dur": 3.6
+    }
+   ],
+   "cards": [
+    {
+     "shot": 5,
+     "on": "gentle",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "A gentle first push lets the air out, not the water.",
+     "dur": 4.4
+    }
+   ]
+  },
+  "step-4": {
+   "facts": [
+    {
+     "shot": 1,
+     "on": "fifteen",
+     "kind": "measure",
+     "big": "15–20",
+     "small": "strokes",
+     "dur": 4.0
+    },
+    {
+     "shot": 5,
+     "on": "two",
+     "kind": "measure",
+     "big": "×2–3",
+     "small": "more rounds",
+     "dur": 3.6
+    }
+   ],
+   "cards": [
+    {
+     "shot": 2,
+     "on": "suction",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "The pull loosens the clog as much as the push.",
+     "dur": 4.2
+    }
+   ]
+  },
+  "step-5": {
+   "ticks": [
+    {
+     "shot": 1,
+     "on": "soap",
+     "label": "Dish soap"
+    },
+    {
+     "shot": 2,
+     "on": "bucket",
+     "label": "Bucket of hot water"
+    }
+   ],
+   "facts": [
+    {
+     "shot": 1,
+     "on": "half",
+     "kind": "measure",
+     "big": "½ cup",
+     "small": "dish soap",
+     "dur": 3.0
+    },
+    {
+     "shot": 4,
+     "on": "fifteen",
+     "kind": "timer",
+     "big": "15–20 min",
+     "small": "let it soak",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 2,
+     "on": "boiling",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Boiling water can crack the porcelain.",
+     "dur": 4.2
+    },
+    {
+     "shot": 3,
+     "on": "weight",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "Falling water adds pressure on the clog.",
+     "dur": 4.0
+    }
+   ]
+  },
+  "step-6": {
+   "ticks": [
+    {
+     "shot": 1,
+     "on": "auger",
+     "label": "Toilet auger"
+    }
+   ],
+   "cards": [
+    {
+     "shot": 4,
+     "on": "gently",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Never force the cable. It can kink or scratch the bowl.",
+     "dur": 4.4
+    }
+   ]
+  },
+  "step-7": {
+   "facts": [
+    {
+     "shot": 3,
+     "on": "once",
+     "kind": "measure",
+     "big": "1 flush",
+     "small": "to test",
+     "dur": 3.2
+    }
+   ]
+  }
+ }
+}

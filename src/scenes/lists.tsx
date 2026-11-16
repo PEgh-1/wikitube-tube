@@ -91,7 +91,7 @@ export const Mistakes: React.FC<{ scene: MistakesScene; durationInFrames: number
   const stampIn = spring({ frame: local - 2, fps, config: { damping: 9, stiffness: 240 } });
   const stampOp = interpolate(local, [2, 5, 34, 52], [0, 0.95, 0.95, 0], clamp);
   const titleOut = intro ? 1 : interpolate(local, [0, 8], [1, 0], clamp);
-  const shake = useShake(scene.items.map((_, i) => at(i) / fps + 0.14), 12);
+  const shake = useShake(scene.items.map((_, i) => at(i) / fps + 0.14), 18);
   return (
     <Frame bg={C.ink} dots={false}>
       <AbsoluteFill style={{ transform: shake }}>

@@ -110,13 +110,13 @@ const Shot: React.FC<{ image?: ImageRef; len: number; first: boolean; move: numb
   // Travelling lent continu : l'image ne se fige jamais, même après le glissement vers le geste.
   // Amplitude proportionnelle à la durée du plan (plans longs : jusqu'à 8 %), sens alterné d'un plan à l'autre.
   const lin = Math.min(1, frame / Math.max(1, len));
-  const amp = Math.min(0.08, 0.011 * (len / fps));
+  const amp = Math.min(0.12, 0.017 * (len / fps));
   const pushIn = seed % 2 === 0;
   if (!image?.zoom && image?.kind !== "illustration") scale += pushIn ? amp * lin : amp * (1 - lin);
   // Coups de zoom sur les mots forts : saut net, tenu jusqu'à la fin du plan.
   for (const p of image?.punches ?? []) {
     const pf = Math.round(p * fps) - fromFrame;
-    if (frame >= pf) scale += 0.075 * spring({ frame: frame - pf, fps, config: { damping: 22, stiffness: 300 } });
+    if (frame >= pf) scale += 0.11 * spring({ frame: frame - pf, fps, config: { damping: 20, stiffness: 320 } });
   }
   // Mise au point : à l'arrivée de la première annotation, le fond se floute autour du geste.
   const firstNote = (image?.notes ?? []).find((n) => n.type !== "loupe" && n.type !== "inset");

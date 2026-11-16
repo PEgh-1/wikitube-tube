@@ -1,0 +1,392 @@
+{
+ "shots": {},
+ "extras": {
+  "intro": {
+   "pose": "nose",
+   "diagram": "washer",
+   "title": "Where the smell hides",
+   "mode": "spots",
+   "chips": [
+    {
+     "on": "seal",
+     "label": "Door seal",
+     "sub": "mould in the folds",
+     "mode": "seal"
+    },
+    {
+     "on": "drawer",
+     "label": "Detergent drawer",
+     "sub": "sticky residue",
+     "mode": "drawer"
+    },
+    {
+     "on": "filter",
+     "label": "Drain filter",
+     "sub": "lint and coins",
+     "mode": "filter"
+    },
+    {
+     "on": "bacteria",
+     "label": "",
+     "mode": "spots",
+     "hidden": true
+    },
+    {
+     "on": "thirty",
+     "label": "",
+     "mode": "cycle",
+     "hidden": true
+    },
+    {
+     "on": "loaders",
+     "label": "",
+     "mode": "dry",
+     "hidden": true
+    }
+   ],
+   "gags": []
+  },
+  "step-1": {
+   "gags": [
+    {
+     "shot": 2,
+     "on": "socks",
+     "pose": "idea",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "cards": [
+    {
+     "shot": 4,
+     "on": "special",
+     "kind": "why",
+     "title": "Good to know",
+     "text": "Tub Clean, Drum Clean, Self Clean: same idea, different names.",
+     "dur": 5.0
+    }
+   ]
+  },
+  "step-2": {
+   "diagrams": [
+    {
+     "shot": 1,
+     "on": "seal",
+     "name": "washer",
+     "mode": "seal",
+     "title": "The door seal",
+     "dur": 4.2
+    }
+   ],
+   "gags": [
+    {
+     "shot": 2,
+     "on": "slime",
+     "pose": "nose",
+     "side": "left",
+     "dur": 3.0
+    }
+   ],
+   "ticks": [
+    {
+     "shot": 3,
+     "on": "vinegar",
+     "label": "Vinegar + water, half and half"
+    },
+    {
+     "shot": 4,
+     "on": "toothbrush",
+     "label": "Old toothbrush"
+    }
+   ],
+   "cards": [
+    {
+     "shot": 6,
+     "on": "bleach",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Bleach plus vinegar makes toxic fumes. One product at a time.",
+     "dur": 3.6
+    }
+   ]
+  },
+  "step-3": {
+   "diagrams": [
+    {
+     "shot": 1,
+     "on": "drawer",
+     "name": "washer",
+     "mode": "drawer",
+     "title": "The detergent drawer",
+     "dur": 3.6
+    }
+   ],
+   "facts": [
+    {
+     "shot": 3,
+     "on": "ten",
+     "kind": "timer",
+     "big": "10 min",
+     "small": "soak in warm water",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 4,
+     "on": "buildup",
+     "kind": "why",
+     "title": "Why",
+     "text": "The space behind the drawer stays damp, so mould grows there.",
+     "dur": 4.6
+    }
+   ],
+   "gags": [
+    {
+     "shot": 6,
+     "on": "smell",
+     "pose": "nose",
+     "side": "right",
+     "dur": 3.0
+    }
+   ]
+  },
+  "step-4": {
+   "facts": [
+    {
+     "shot": 1,
+     "on": "two",
+     "kind": "measure",
+     "big": "2 cups",
+     "small": "white vinegar",
+     "dur": 4.0
+    },
+    {
+     "shot": 4,
+     "on": "thirty",
+     "kind": "timer",
+     "big": "30 min",
+     "small": "pause to soak",
+     "dur": 3.6
+    }
+   ],
+   "diagrams": [
+    {
+     "shot": 3,
+     "on": "hot",
+     "name": "washer",
+     "mode": "cycle",
+     "title": "Hot water + vinegar",
+     "dur": 5.2
+    }
+   ],
+   "cards": [
+    {
+     "shot": 5,
+     "on": "never",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Never vinegar and bleach in the same load.",
+     "dur": 4.6
+    }
+   ],
+   "gags": [
+    {
+     "shot": 6,
+     "on": "steam",
+     "pose": "thumbs",
+     "side": "left",
+     "dur": 2.8
+    }
+   ]
+  },
+  "step-5": {
+   "facts": [
+    {
+     "shot": 1,
+     "on": "half",
+     "kind": "measure",
+     "big": "½ cup",
+     "small": "baking soda",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 2,
+     "on": "neutralizes",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "It neutralizes the last sour smells.",
+     "dur": 4.0
+    }
+   ],
+   "ticks": [
+    {
+     "shot": 3,
+     "on": "microfiber",
+     "label": "Microfiber cloth"
+    }
+   ]
+  },
+  "step-6": {
+   "diagrams": [
+    {
+     "shot": 1,
+     "on": "filter",
+     "name": "washer",
+     "mode": "filter",
+     "title": "The drain filter",
+     "dur": 5.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 2,
+     "on": "unplug",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Never open the filter with the machine plugged in.",
+     "dur": 3.4
+    }
+   ],
+   "ticks": [
+    {
+     "shot": 3,
+     "on": "dish",
+     "label": "Shallow dish + towel"
+    }
+   ],
+   "gags": [
+    {
+     "shot": 4,
+     "on": "drain",
+     "pose": "wet",
+     "side": "left",
+     "dur": 3.0
+    }
+   ],
+   "facts": [
+    {
+     "shot": 8,
+     "on": "three",
+     "kind": "timer",
+     "big": "Every 3 months",
+     "small": "clean the filter",
+     "dur": 4.0
+    }
+   ]
+  },
+  "step-7": {
+   "diagrams": [
+    {
+     "shot": 2,
+     "on": "open",
+     "name": "washer",
+     "mode": "dry",
+     "title": "Let it breathe",
+     "dur": 5.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 3,
+     "on": "wet",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Wet laundry left inside brings the smell back.",
+     "dur": 3.6
+    }
+   ],
+   "facts": [
+    {
+     "shot": 5,
+     "on": "month",
+     "kind": "timer",
+     "big": "Once a month",
+     "small": "full clean",
+     "dur": 4.0
+    }
+   ],
+   "gags": [
+    {
+     "shot": 6,
+     "on": "habit",
+     "pose": "thumbs",
+     "side": "right",
+     "dur": 2.8
+    }
+   ]
+  },
+  "step-8": {
+   "gags": [
+    {
+     "shot": 1,
+     "on": "habits",
+     "pose": "idea",
+     "side": "right",
+     "dur": 2.8
+    }
+   ],
+   "cards": [
+    {
+     "shot": 3,
+     "on": "kinked",
+     "kind": "why",
+     "title": "Why",
+     "text": "A kinked hose holds dirty water that goes stale.",
+     "dur": 4.4
+    }
+   ]
+  },
+  "step-9": {
+   "gags": [
+    {
+     "shot": 3,
+     "on": "banging",
+     "pose": "panic",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "cards": [
+    {
+     "shot": 4,
+     "on": "burning",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Burning smell: unplug and stop using the machine.",
+     "dur": 5.0
+    }
+   ]
+  },
+  "step-10": {
+   "gags": [
+    {
+     "shot": 1,
+     "on": "fresh",
+     "pose": "thumbs",
+     "side": "right",
+     "dur": 2.8
+    }
+   ],
+   "facts": [
+    {
+     "shot": 2,
+     "on": "month",
+     "kind": "timer",
+     "big": "1× a month",
+     "small": "hot cleaning cycle",
+     "dur": 4.0
+    }
+   ],
+   "ticks": [
+    {
+     "shot": 3,
+     "on": "door",
+     "label": "Door and drawer open"
+    }
+   ]
+  }
+ }
+}

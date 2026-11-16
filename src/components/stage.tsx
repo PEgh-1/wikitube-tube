@@ -304,8 +304,93 @@ export const RicePot: React.FC<{ mode: string; local: number; width?: number }> 
   );
 };
 
+// ---------- Schéma : la machine à laver vue de face (joint, tiroir, cycle, filtre, séchage) ----------
+export const Washer: React.FC<{ mode: string; local: number; width?: number }> = ({ mode, local, width = 800 }) => {
+  const pulse = 1 + Math.sin(local / 5) * 0.08;
+  const hot = (m: string) => mode === m || mode === "spots";
+  const drawerOut = mode === "drawer" ? interpolate(local, [4, 22], [0, 1], { ...clamp, easing: Easing.out(Easing.cubic) }) : 0;
+  const ajar = mode === "dry" ? interpolate(local, [4, 24], [0, 1], { ...clamp, easing: Easing.out(Easing.cubic) }) : 0;
+  const capOut = mode === "filter" ? interpolate(local, [6, 30], [0, 1], clamp) : 0;
+  const label = (x: number, y: number, text: string, size = 40, color: string = C.ink, anchor: "start" | "middle" | "end" = "start") => (
+    <text x={x} y={y} fontFamily={HAND} fontWeight={700} fontSize={size} fill={color} textAnchor={anchor}>
+      {text}
+    </text>
+  );
+  const ring = (cx: number, cy: number, r: number) => <circle cx={cx} cy={cy} r={r * pulse} fill="none" stroke={C.coral} strokeWidth={9} strokeDasharray="16 12" />;
+  return (
+    <svg width={width} height={(width * 560) / 800} viewBox="0 0 800 560" style={{ display: "block" }}>
+      {/* carrosserie */}
+      <rect x={250} y={30} width={300} height={496} rx={22} fill={C.white} stroke={C.ink} strokeWidth={9} />
+      <path d="M250 112 H550" stroke={C.ink} strokeWidth={7} />
+      <rect x={284} y={526} width={36} height={14} rx={5} fill={C.ink} />
+      <rect x={480} y={526} width={36} height={14} rx={5} fill={C.ink} />
+      {/* bandeau : tiroir, programmateur */}
+      <g transform={`translate(${-drawerOut * 70} ${-drawerOut * 6})`}>
+        <rect x={268} y={50} width={100} height={44} rx={9} fill={hot("drawer") ? C.sun : C.paper} stroke={C.ink} strokeWidth={7} />
+        <path d="M290 72 H346" stroke={C.ink} strokeWidth={6} strokeLinecap="round" />
+      </g>
+      <circle cx={486} cy={72} r={24} fill={C.paper} stroke={C.ink} strokeWidth={7} />
+      <path d="M486 72 L486 54" stroke={C.coral} strokeWidth={7} strokeLinecap="round" transform={`rotate(${mode === "cycle" ? local * 2 : 30} 486 72)`} />
+      {/* hublot : joint, vitre, tambour */}
+      <circle cx={400} cy={296} r={128} fill={hot("seal") ? C.sun : "#AEB6C4"} stroke={C.ink} strokeWidth={8} />
+      <clipPath id="drum">
+        <circle cx={400} cy={296} r={98} />
+      </clipPath>
+      <circle cx={400} cy={296} r={98} fill={C.paper} stroke={C.ink} strokeWidth={7} />
+      {mode === "cycle" && (
+        <g clipPath="url(#drum)">
+          <path d={`M290 ${318 + Math.sin(local / 6) * 8} Q345 ${296 + Math.cos(local / 5) * 14} 400 ${318 + Math.sin(local / 7) * 8} T510 ${316 + Math.cos(local / 6) * 8} V410 H290 Z`} fill={C.teal} opacity={0.6} />
+          {[0, 1, 2, 3, 4].map((i) => {
+            const k = ((local / 24 + i / 5) % 1 + 1) % 1;
+            return <circle key={i} cx={330 + i * 34} cy={380 - k * 70} r={6 + (i % 3) * 3} fill="none" stroke={C.white} strokeWidth={4} opacity={1 - k} />;
+          })}
+        </g>
+      )}
+      {mode === "cycle" && <path d="M400 216 A80 80 0 1 1 330 256" fill="none" stroke={C.coral} strokeWidth={8} strokeLinecap="round" strokeDasharray="22 16" strokeDashoffset={-local * 3} />}
+      {/* moisissures dans le pli du joint */}
+      {(mode === "seal" || mode === "spots") && [352, 384, 418, 448].map((x, i) => <circle key={x} cx={x} cy={404 + (i % 2) * 8} r={6 + (i % 2) * 2} fill={C.ink} />)}
+      {/* porte entrouverte + air qui circule */}
+      {ajar > 0 && (
+        <>
+          <ellipse cx={400 + ajar * 96} cy={296} rx={128 - ajar * 82} ry={128} fill="rgba(174,182,196,0.55)" stroke={C.ink} strokeWidth={8} />
+          {[250, 296, 342].map((y, i) => (
+            <path key={y} d={`M120 ${y} q26 -18 52 0 t52 0 t52 0`} fill="none" stroke={C.teal} strokeWidth={8} strokeLinecap="round" strokeDasharray="20 14" strokeDashoffset={-local * 3 + i * 9} />
+          ))}
+        </>
+      )}
+      {/* filtre de vidange */}
+      <rect x={470} y={452} width={62} height={46} rx={8} fill={hot("filter") ? C.sun : C.paper} stroke={C.ink} strokeWidth={7} />
+      <g transform={`translate(${capOut * 78} ${capOut * 6}) rotate(${-capOut * 200} 501 475)`}>
+        <circle cx={501} cy={475} r={14} fill={C.white} stroke={C.ink} strokeWidth={6} />
+        <path d="M491 475 H511" stroke={C.ink} strokeWidth={5} strokeLinecap="round" />
+      </g>
+      {mode === "filter" && capOut > 0.5 && (
+        <>
+          <path d="M506 486 Q560 500 600 532" fill="none" stroke={C.teal} strokeWidth={10} strokeLinecap="round" strokeDasharray="16 12" strokeDashoffset={-local * 3} />
+          <path d="M560 532 H680 L668 548 H572 Z" fill={C.white} stroke={C.ink} strokeWidth={7} strokeLinejoin="round" />
+        </>
+      )}
+      {/* zones à problème */}
+      {mode === "spots" && (
+        <>
+          {ring(318, 72, 66)}
+          {ring(400, 404, 74)}
+          {ring(501, 475, 52)}
+        </>
+      )}
+      {/* légendes */}
+      {(mode === "drawer" || mode === "spots") && label(228, 82, "Drawer", 44, C.coral, "end")}
+      {(mode === "seal" || mode === "spots") && label(228, 414, "Door seal", 44, C.coral, "end")}
+      {(mode === "filter" || mode === "spots") && label(572, 462, "Drain filter", 44, C.coral)}
+      {mode === "cycle" && label(572, 300, "Hot + vinegar", 44, C.coral)}
+      {mode === "dry" && label(120, 420, "Air dries the drum", 44, C.teal)}
+    </svg>
+  );
+};
+
 const DIAGRAMS: Record<string, React.FC<{ mode: string; local: number; width?: number }>> = {
   "toilet-trap": ({ mode, local, width }) => <ToiletTrap mode={mode as TrapMode} local={local} width={width} />,
+  "washer": ({ mode, local, width }) => <Washer mode={mode} local={local} width={width} />,
   "rice-pot": ({ mode, local, width }) => <RicePot mode={mode} local={local} width={width} />,
   "house-drain": ({ mode, local, width }) => <HouseDrain mode={mode} local={local} width={width} />,
 };

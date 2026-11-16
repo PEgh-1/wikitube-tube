@@ -73,7 +73,7 @@ export const FxLayer: React.FC<{ fx?: Fx[] | null; box: [number, number]; focus:
 };
 
 /** Secousse d'impact : micro-tremblement amorti de l'image après chaque instant donné (s, relatifs à la scène). */
-export function useShake(times: number[], strength = 9): string {
+export function useShake(times: number[], strength = 14): string {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   let x = 0;
@@ -85,5 +85,5 @@ export function useShake(times: number[], strength = 9): string {
     x += Math.sin(f * 2.6) * d;
     y += Math.cos(f * 3.3) * d * 0.7;
   }
-  return x || y ? `translate(${x.toFixed(1)}px, ${y.toFixed(1)}px) scale(1.012)` : "none";
+  return x || y ? `translate(${x.toFixed(1)}px, ${y.toFixed(1)}px) scale(1.02)` : "none";
 }

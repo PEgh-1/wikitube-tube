@@ -75,7 +75,8 @@
             ],
             "on": "do"
           }
-        ]
+        ],
+        "punch": "not"
       },
       {
         "text": "A second flush sends a full tank, at least a gallon and a half of water, into a bowl that has nowhere to drain.",
@@ -99,7 +100,8 @@
             ],
             "on": "full"
           }
-        ]
+        ],
+        "punch": "nowhere"
       },
       {
         "text": "Lift the lid off the tank and push the rubber flapper down over the hole at the bottom.",
@@ -279,6 +281,17 @@
             ],
             "on": "bail"
           }
+        ],
+        "punch": "half",
+        "fx": [
+          {
+            "type": "drops",
+            "at": [
+              0.6,
+              0.6
+            ],
+            "size": 0.7
+          }
         ]
       },
       {
@@ -370,7 +383,8 @@
             ],
             "on": "cannot"
           }
-        ]
+        ],
+        "punch": "cannot"
       },
       {
         "text": "Run the plunger under hot water for a minute so the rubber softens.",
@@ -393,6 +407,16 @@
               0.4
             ],
             "on": "hot"
+          }
+        ],
+        "fx": [
+          {
+            "type": "steam",
+            "at": [
+              0.5,
+              0.5
+            ],
+            "size": 0.7
           }
         ]
       },
@@ -517,7 +541,8 @@
             ],
             "on": "straight"
           }
-        ]
+        ],
+        "punch": "fifteen"
       },
       {
         "text": "Push firmly, but pull just as hard, because the suction does half the work.",
@@ -589,7 +614,8 @@
             ],
             "on": "yank"
           }
-        ]
+        ],
+        "punch": "sharply"
       },
       {
         "text": "If the water rushes down the drain, the clog has moved.",
@@ -658,6 +684,17 @@
             ],
             "on": "hot"
           }
+        ],
+        "punch": "never",
+        "fx": [
+          {
+            "type": "steam",
+            "at": [
+              0.5,
+              0.44999999999999996
+            ],
+            "size": 0.9
+          }
         ]
       },
       {
@@ -682,6 +719,16 @@
             ],
             "on": "waist"
           }
+        ],
+        "fx": [
+          {
+            "type": "steam",
+            "at": [
+              0.52,
+              0.35
+            ],
+            "size": 0.9
+          }
         ]
       },
       {
@@ -705,6 +752,17 @@
               0.42
             ],
             "on": "soap"
+          }
+        ],
+        "punch": "fifteen",
+        "fx": [
+          {
+            "type": "bubbles",
+            "at": [
+              0.5,
+              0.55
+            ],
+            "size": 1.0
           }
         ]
       },
@@ -861,7 +919,8 @@
             ],
             "on": "resistance"
           }
-        ]
+        ],
+        "punch": "gently"
       },
       {
         "text": "Then wind the cable back out slowly and drop whatever comes up into the bucket.",
@@ -961,7 +1020,8 @@
             ],
             "on": "watch"
           }
-        ]
+        ],
+        "punch": "once"
       },
       {
         "text": "If the water rises instead, close the flapper right away and go back to the auger.",
@@ -1034,6 +1094,16 @@
             ],
             "on": "disinfect"
           }
+        ],
+        "fx": [
+          {
+            "type": "sparkle",
+            "at": [
+              0.6,
+              0.5
+            ],
+            "size": 1.0
+          }
         ]
       }
     ],
@@ -1054,7 +1124,8 @@
         "focus": [
           0.5,
           0.6
-        ]
+        ],
+        "punch": "overnight"
       },
       {
         "text": "The second one is a wet and dry shop vacuum, if you own one, and never a regular household vacuum.",
@@ -1191,7 +1262,8 @@
             ],
             "on": "toy"
           }
-        ]
+        ],
+        "punch": "deeper"
       },
       {
         "text": "And sign number four: the same toilet clogs every few days, which points to a deeper problem that a pro should look at.",
@@ -1211,6 +1283,16 @@
         "focus": [
           0.45,
           0.6
+        ],
+        "fx": [
+          {
+            "type": "sparkle",
+            "at": [
+              0.45,
+              0.6
+            ],
+            "size": 1.2
+          }
         ]
       },
       {
@@ -1244,7 +1326,8 @@
             ],
             "on": "trash"
           }
-        ]
+        ],
+        "punch": "trash"
       },
       {
         "text": "When you use a lot of paper, flush twice: once halfway through, and once at the end.",
@@ -1298,6 +1381,16 @@
         "focus": [
           0.66,
           0.6
+        ],
+        "fx": [
+          {
+            "type": "sparkle",
+            "at": [
+              0.66,
+              0.6
+            ],
+            "size": 1.0
+          }
         ]
       }
     ]

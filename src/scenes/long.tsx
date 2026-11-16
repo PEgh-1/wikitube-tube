@@ -260,7 +260,15 @@ const StepStage: React.FC<{ scene: StepScene; durationInFrames: number }> = ({ s
   const shrink = interpolate(frame, [70, 92], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.inOut(Easing.cubic) });
   const tipFrom = Math.round(durationInFrames * 0.5);
   // La bulle d'astuce reste 9 s au plus : la fin de la scène revient à l'image seule.
-  const tipOn = !cardOn && !diagramOn && !gagOn && frame >= tipFrom && frame < Math.min(durationInFrames - 20, tipFrom + 9 * fps);
+  // Pas de bulle d'astuce pendant un plan avant/après : le curseur traverse l'écran.
+  const starts = scene.shotStarts ?? [];
+  const compareOn = (scene.images ?? []).some((im, j) => {
+    if (!im?.compareFile) return false;
+    const a = (starts[j] ?? 0) * fps;
+    const b = (j + 1 < starts.length ? starts[j + 1] : durationInFrames / fps) * fps;
+    return frame >= a - 6 && frame < b + 6;
+  });
+  const tipOn = !compareOn && !cardOn && !diagramOn && !gagOn && frame >= tipFrom && frame < Math.min(durationInFrames - 20, tipFrom + 9 * fps);
   const accent = [C.coral, C.teal, C.sun][scene.index % 3];
   // Secousse d'impact : tampons « à éviter », croix sur l'image et entrées de Wiki.
   const shake = useShake([

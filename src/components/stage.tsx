@@ -379,11 +379,12 @@ export const Washer: React.FC<{ mode: string; local: number; width?: number }> =
         </>
       )}
       {/* légendes */}
-      {(mode === "drawer" || mode === "spots") && label(228, 82, "Drawer", 44, C.coral, "end")}
+      {(mode === "drawer" || mode === "spots") && label(176, 60, "Drawer", 44, C.coral, "end")}
       {(mode === "seal" || mode === "spots") && label(228, 414, "Door seal", 44, C.coral, "end")}
-      {(mode === "filter" || mode === "spots") && label(572, 462, "Drain filter", 44, C.coral)}
+      {(mode === "filter" || mode === "spots") && label(580, 436, "Drain filter", 44, C.coral)}
       {mode === "cycle" && label(572, 300, "Hot + vinegar", 44, C.coral)}
-      {mode === "dry" && label(120, 420, "Air dries the drum", 44, C.teal)}
+      {mode === "dry" && label(226, 404, "Air dries", 40, C.teal, "end")}
+      {mode === "dry" && label(226, 448, "the drum", 40, C.teal, "end")}
     </svg>
   );
 };

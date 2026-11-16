@@ -1,5 +1,896 @@
 {
- "shots": {},
+ "shots": {
+  "1-1": {
+   "focus": [
+    0.55,
+    0.55
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.55,
+      0.55
+     ],
+     "text": "Empty drum",
+     "label": [
+      0.25,
+      0.2
+     ],
+     "on": "empty"
+    }
+   ]
+  },
+  "1-2": {
+   "focus": [
+    0.54,
+    0.5
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.54,
+      0.52
+     ],
+     "r": 0.1,
+     "on": "socks",
+     "text": "Hidden in the seal",
+     "label": [
+      0.3,
+      0.2
+     ]
+    }
+   ]
+  },
+  "1-3": {
+   "focus": [
+    0.5,
+    0.45
+   ]
+  },
+  "1-4": {
+   "focus": [
+    0.5,
+    0.45
+   ],
+   "notes": [
+    {
+     "type": "inset",
+     "at": [
+      0.53,
+      0.38
+     ],
+     "lens": [
+      0.78,
+      0.36
+     ],
+     "r": 0.12,
+     "zoom": 2.4,
+     "text": "A cleaning cycle?",
+     "on": "cycle"
+    }
+   ]
+  },
+  "1-5": {
+   "focus": [
+    0.5,
+    0.45
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.5,
+      0.33
+     ],
+     "r": 0.09,
+     "on": "level",
+     "text": "Level",
+     "label": [
+      0.25,
+      0.25
+     ]
+    }
+   ]
+  },
+  "1-6": {
+   "focus": [
+    0.5,
+    0.55
+   ]
+  },
+  "2-1": {
+   "focus": [
+    0.55,
+    0.6
+   ]
+  },
+  "2-2": {
+   "focus": [
+    0.45,
+    0.55
+   ],
+   "notes": [
+    {
+     "type": "loupe",
+     "at": [
+      0.45,
+      0.56
+     ],
+     "lens": [
+      0.76,
+      0.4
+     ],
+     "r": 0.14,
+     "zoom": 2.2,
+     "text": "Mould in the fold",
+     "on": "dark"
+    }
+   ]
+  },
+  "2-3": {
+   "focus": [
+    0.5,
+    0.5
+   ]
+  },
+  "2-4": {
+   "focus": [
+    0.52,
+    0.52
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.52,
+      0.52
+     ],
+     "text": "Into the tight corners",
+     "label": [
+      0.72,
+      0.2
+     ],
+     "on": "tight"
+    }
+   ]
+  },
+  "2-5": {
+   "focus": [
+    0.5,
+    0.55
+   ],
+   "compare": {
+    "file": "step-2-2.jpg",
+    "labels": [
+     "Before",
+     "After"
+    ]
+   }
+  },
+  "2-6": {
+   "focus": [
+    0.55,
+    0.4
+   ],
+   "punch": "bleach",
+   "notes": [
+    {
+     "type": "cross",
+     "at": [
+      0.55,
+      0.35
+     ],
+     "r": 0.07,
+     "text": "Never together",
+     "label": [
+      0.25,
+      0.55
+     ],
+     "on": "bleach"
+    }
+   ]
+  },
+  "2-7": {
+   "focus": [
+    0.5,
+    0.5
+   ]
+  },
+  "2-8": {
+   "focus": [
+    0.45,
+    0.6
+   ]
+  },
+  "3-1": {
+   "focus": [
+    0.44,
+    0.52
+   ]
+  },
+  "3-2": {
+   "focus": [
+    0.45,
+    0.6
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.45,
+      0.62
+     ],
+     "r": 0.07,
+     "on": "tab",
+     "text": "Release tab",
+     "label": [
+      0.25,
+      0.25
+     ]
+    }
+   ]
+  },
+  "3-3": {
+   "focus": [
+    0.44,
+    0.5
+   ],
+   "punch": "ten",
+   "fx": [
+    {
+     "type": "bubbles",
+     "at": [
+      0.4,
+      0.78
+     ],
+     "size": 1.2
+    }
+   ]
+  },
+  "3-4": {
+   "focus": [
+    0.4,
+    0.45
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.36,
+      0.38
+     ],
+     "text": "Clean the cavity too",
+     "label": [
+      0.72,
+      0.2
+     ],
+     "on": "space"
+    }
+   ]
+  },
+  "3-5": {
+   "focus": [
+    0.5,
+    0.5
+   ]
+  },
+  "3-6": {
+   "focus": [
+    0.55,
+    0.5
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.55,
+      0.5
+     ],
+     "r": 0.16,
+     "on": "source",
+     "text": "Mould + old detergent",
+     "label": [
+      0.3,
+      0.2
+     ]
+    }
+   ]
+  },
+  "3-7": {
+   "focus": [
+    0.55,
+    0.55
+   ]
+  },
+  "4-1": {
+   "focus": [
+    0.5,
+    0.45
+   ],
+   "punch": "two",
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.5,
+      0.4
+     ],
+     "text": "Straight into the drum",
+     "label": [
+      0.25,
+      0.2
+     ],
+     "on": "drum"
+    }
+   ]
+  },
+  "4-2": {
+   "focus": [
+    0.55,
+    0.45
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.57,
+      0.4
+     ],
+     "r": 0.06,
+     "on": "tub",
+     "text": "Tub Clean",
+     "label": [
+      0.3,
+      0.3
+     ]
+    }
+   ]
+  },
+  "4-3": {
+   "focus": [
+    0.45,
+    0.55
+   ]
+  },
+  "4-4": {
+   "focus": [
+    0.6,
+    0.45
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.64,
+      0.36
+     ],
+     "r": 0.05,
+     "on": "pause",
+     "text": "Pause",
+     "label": [
+      0.4,
+      0.2
+     ]
+    }
+   ]
+  },
+  "4-5": {
+   "focus": [
+    0.5,
+    0.4
+   ],
+   "punch": "never"
+  },
+  "4-6": {
+   "focus": [
+    0.45,
+    0.5
+   ],
+   "fx": [
+    {
+     "type": "steam",
+     "at": [
+      0.42,
+      0.45
+     ],
+     "size": 1.1
+    }
+   ]
+  },
+  "5-1": {
+   "focus": [
+    0.48,
+    0.5
+   ],
+   "punch": "half"
+  },
+  "5-2": {
+   "focus": [
+    0.5,
+    0.45
+   ]
+  },
+  "5-3": {
+   "focus": [
+    0.52,
+    0.5
+   ]
+  },
+  "5-4": {
+   "focus": [
+    0.45,
+    0.6
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.44,
+      0.65
+     ],
+     "text": "Loosened residue",
+     "label": [
+      0.55,
+      0.25
+     ],
+     "on": "residue"
+    }
+   ]
+  },
+  "5-5": {
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.53,
+      0.5
+     ],
+     "r": 0.06,
+     "on": "tablets",
+     "text": "Or a cleaning tablet",
+     "label": [
+      0.7,
+      0.25
+     ]
+    }
+   ]
+  },
+  "5-6": {
+   "focus": [
+    0.55,
+    0.6
+   ],
+   "fx": [
+    {
+     "type": "sparkle",
+     "at": [
+      0.56,
+      0.66
+     ],
+     "size": 1
+    }
+   ]
+  },
+  "6-1": {
+   "focus": [
+    0.6,
+    0.6
+   ]
+  },
+  "6-2": {
+   "focus": [
+    0.7,
+    0.55
+   ],
+   "punch": "unplug",
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.77,
+      0.62
+     ],
+     "r": 0.08,
+     "on": "unplug",
+     "text": "Unplugged",
+     "label": [
+      0.45,
+      0.3
+     ]
+    }
+   ]
+  },
+  "6-3": {
+   "focus": [
+    0.5,
+    0.7
+   ]
+  },
+  "6-4": {
+   "focus": [
+    0.47,
+    0.6
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.47,
+      0.66
+     ],
+     "text": "Counterclockwise, slowly",
+     "label": [
+      0.7,
+      0.3
+     ],
+     "on": "unscrew"
+    }
+   ],
+   "fx": [
+    {
+     "type": "drops",
+     "at": [
+      0.47,
+      0.72
+     ],
+     "size": 0.7
+    }
+   ]
+  },
+  "6-5": {
+   "focus": [
+    0.53,
+    0.55
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.52,
+      0.55
+     ],
+     "r": 0.12,
+     "on": "coins",
+     "text": "Lint, hair, coins",
+     "label": [
+      0.25,
+      0.25
+     ]
+    }
+   ],
+   "fx": [
+    {
+     "type": "drops",
+     "at": [
+      0.55,
+      0.75
+     ],
+     "size": 0.8
+    }
+   ]
+  },
+  "6-6": {
+   "focus": [
+    0.5,
+    0.55
+   ]
+  },
+  "6-7": {
+   "focus": [
+    0.5,
+    0.5
+   ]
+  },
+  "6-8": {
+   "focus": [
+    0.58,
+    0.55
+   ],
+   "fx": [
+    {
+     "type": "sparkle",
+     "at": [
+      0.58,
+      0.55
+     ],
+     "size": 0.8
+    }
+   ]
+  },
+  "7-1": {
+   "focus": [
+    0.45,
+    0.5
+   ]
+  },
+  "7-2": {
+   "focus": [
+    0.35,
+    0.5
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.38,
+      0.36
+     ],
+     "r": 0.07,
+     "on": "slightly",
+     "text": "Left open",
+     "label": [
+      0.2,
+      0.2
+     ]
+    }
+   ]
+  },
+  "7-3": {
+   "focus": [
+    0.54,
+    0.6
+   ],
+   "punch": "wet",
+   "notes": [
+    {
+     "type": "cross",
+     "at": [
+      0.54,
+      0.6
+     ],
+     "r": 0.09,
+     "text": "Take them out",
+     "label": [
+      0.3,
+      0.2
+     ],
+     "on": "wet"
+    }
+   ]
+  },
+  "7-4": {
+   "focus": [
+    0.47,
+    0.55
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.47,
+      0.55
+     ],
+     "r": 0.08,
+     "on": "amount",
+     "text": "The measured amount",
+     "label": [
+      0.25,
+      0.25
+     ]
+    }
+   ]
+  },
+  "7-5": {
+   "focus": [
+    0.5,
+    0.6
+   ]
+  },
+  "7-6": {
+   "focus": [
+    0.4,
+    0.45
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.35,
+      0.42
+     ],
+     "r": 0.07,
+     "on": "calendar",
+     "text": "Monthly clean",
+     "label": [
+      0.3,
+      0.75
+     ]
+    }
+   ]
+  },
+  "8-1": {
+   "focus": [
+    0.5,
+    0.5
+   ]
+  },
+  "8-2": {
+   "focus": [
+    0.52,
+    0.55
+   ]
+  },
+  "8-3": {
+   "focus": [
+    0.35,
+    0.65
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.25,
+      0.74
+     ],
+     "r": 0.09,
+     "on": "hose",
+     "text": "No kink in the hose",
+     "label": [
+      0.3,
+      0.3
+     ]
+    }
+   ]
+  },
+  "8-4": {
+   "focus": [
+    0.5,
+    0.52
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.5,
+      0.52
+     ],
+     "r": 0.07,
+     "on": "amount"
+    }
+   ]
+  },
+  "9-1": {
+   "focus": [
+    0.5,
+    0.6
+   ]
+  },
+  "9-2": {
+   "focus": [
+    0.5,
+    0.6
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.49,
+      0.68
+     ],
+     "text": "Water that will not drain",
+     "label": [
+      0.3,
+      0.2
+     ],
+     "on": "drain"
+    }
+   ]
+  },
+  "9-3": {
+   "focus": [
+    0.55,
+    0.7
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.6,
+      0.78
+     ],
+     "r": 0.14,
+     "on": "leaking",
+     "text": "A leak",
+     "label": [
+      0.75,
+      0.3
+     ]
+    }
+   ]
+  },
+  "9-4": {
+   "focus": [
+    0.3,
+    0.5
+   ],
+   "punch": "burning",
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.2,
+      0.48
+     ],
+     "r": 0.08,
+     "on": "unplug",
+     "text": "Unplug it",
+     "label": [
+      0.5,
+      0.25
+     ]
+    }
+   ]
+  },
+  "10-1": {
+   "focus": [
+    0.45,
+    0.6
+   ],
+   "fx": [
+    {
+     "type": "sparkle",
+     "at": [
+      0.45,
+      0.6
+     ],
+     "size": 1.1
+    }
+   ]
+  },
+  "10-2": {
+   "focus": [
+    0.58,
+    0.4
+   ],
+   "punch": "month",
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.6,
+      0.32
+     ],
+     "r": 0.06,
+     "on": "hot"
+    }
+   ]
+  },
+  "10-3": {
+   "focus": [
+    0.5,
+    0.6
+   ]
+  },
+  "10-4": {
+   "focus": [
+    0.54,
+    0.5
+   ],
+   "notes": [
+    {
+     "type": "inset",
+     "at": [
+      0.54,
+      0.48
+     ],
+     "lens": [
+      0.25,
+      0.4
+     ],
+     "r": 0.13,
+     "zoom": 2.0,
+     "text": "Care label",
+     "on": "labels"
+    }
+   ]
+  }
+ },
  "extras": {
   "intro": {
    "pose": "nose",

@@ -5,7 +5,7 @@
   "slug": "clean-ps5-dust-vents",
   "category": "Tech",
   "title": "How to Clean a PS5 (Dust and Vents) Without Opening It",
-  "hook": "Is your PS5 getting loud, hot, or slowing down in long games? Dust is the usual culprit, and you can fix it without opening the console or buying any tools. In seven safe steps, you'll clean the vents, the shell and the controller in about fifteen minutes. Nothing in this video needs tools, and it won't touch your warranty.",
+  "hook": "Is your PS5 getting loud, hot, or slowing down in long games? Dust is the usual culprit, and you can fix it without opening the console or buying any tools. In seven safe steps, you'll clean the vents, the shell and the controller in about fifteen minutes. Nothing in this video needs tools, and it won't touch your warranty. Plus what to do if it stays loud.",
   "intro": "Your PS5 pulls air in through its vents and pushes it out through the back. Over months, dust gathers on those openings and inside the fan intake. That makes the fan work harder and louder. The good news is that you only need to clean what you can reach from the outside. You should never open the console's body, unscrew anything, or push objects into the fan. Safety first, and results second. If your console is still under warranty and has a serious problem, contact Sony rather than experimenting.",
   "youNeed": [
     "A soft dry microfiber cloth",
@@ -82,6 +82,35 @@
       "media": "photo"
     }
   ],
+  "bonus": [
+    {
+      "label": "NOT WORKING?",
+      "title": "Still loud or hot after cleaning",
+      "narration": "If your console is still noisy, check a few simple things first. A closed cabinet, a thick carpet or a spot beside a radiator makes any console run hotter. Some fan noise is normal during demanding games, so compare it with the home screen.",
+      "tip": "Compare the noise at the home screen",
+      "imageQuery": "game console shelf ventilation",
+      "imagePrompt": "A white PlayStation 5 console standing upright on an open wooden shelf with clear space around it, a living room with soft evening light, nothing blocking the sides or back. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "CALL A PRO",
+      "title": "When to contact support",
+      "narration": "A grinding or rattling sound points to a failing fan. A burning smell is a reason to switch off and unplug the console at once. Repeated shutdowns with a temperature warning, even with clean vents, need an expert. If any liquid gets inside, unplug it, do not switch it on, and contact support.",
+      "tip": "A burning smell means unplug it now",
+      "imageQuery": "game console repair technician",
+      "imagePrompt": "A hand holding a white game console controller beside an unplugged console on a desk, a power cable lying disconnected next to it, neutral indoor light. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "PREVENTION",
+      "title": "Keep dust out for good",
+      "narration": "Keep the console off the floor, where carpet fibers and pet hair get pulled into the intake. Switch it fully off when you will not play for several days. A dust cover can help while the console is off and cool, but never when it is on.",
+      "tip": "Never cover it while it is on",
+      "imageQuery": "console on shelf living room",
+      "imagePrompt": "A white game console on a raised wooden TV stand in a tidy living room, a small feather duster resting on the shelf beside it, bright natural light. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    }
+  ],
   "mistakesToAvoid": {
     "narration": "Here are the mistakes to avoid. First, opening the console. It voids your warranty, risks damage, and isn't needed for a basic clean. Second, using liquids, sprays or alcohol on the console, which can seep into the electronics and spoil the finish. And third, cleaning while it is plugged in or hot. Always power it off fully and unplug it first. If your PS5 is still very loud after cleaning, contact Sony support rather than trying something risky. A little regular cleaning always beats a big, risky repair.",
     "items": [
@@ -91,7 +120,7 @@
     ]
   },
   "recap": {
-    "narration": "Let's recap. Power down completely and unplug. Move the console to a safe workspace. Wipe the outside. Brush the vents. Vacuum near the openings, without touching them. Clean the ports and the controller. And reconnect it in a spot with plenty of space around it. Seven steps, about fifteen minutes, and a quieter console that stays cooler during long gaming sessions. Keep it simple and gentle, and your PS5 will thank you.",
+    "narration": "Let's recap. Power down completely and unplug. Move the console to a safe workspace. Wipe the outside. Brush the vents. Vacuum near the openings, without touching them. Clean the ports and the controller. And reconnect it in a spot with plenty of space around it. Seven steps, about fifteen minutes, and a quieter console that stays cooler during long gaming sessions. If it still runs loud, check its placement, and contact support when needed.",
     "items": [
       "Power down and unplug",
       "Move it to a safe workspace",

@@ -5,7 +5,7 @@
   "slug": "clean-c-drive-windows-11",
   "category": "Tech",
   "title": "How to Clean Up Your C Drive on Windows 11 (Fast)",
-  "hook": "Is your C drive almost full, and Windows keeps nagging you about low disk space? In the next few minutes you'll clear gigabytes of junk with seven safe steps, using only the tools already built into Windows 11.",
+  "hook": "Is your C drive almost full, and Windows keeps nagging you about low disk space? In the next few minutes you'll clear gigabytes of junk with seven safe steps, using only the tools already built into Windows 11, and what to do if space still runs short.",
   "intro": "Over time, Windows 11 piles up temporary files, old update leftovers, forgotten downloads and apps you never open. None of this cleanup needs special software or any risky tricks. Everything we'll do is built into Windows, so you can't break anything, and most people recover somewhere between five and fifty gigabytes in about ten minutes. Let's go step by step, starting with the simplest wins first. So grab a coffee, and let's get your PC breathing again.",
   "youNeed": [
     "A PC running Windows 11",
@@ -81,6 +81,35 @@
       "media": "photo"
     }
   ],
+  "bonus": [
+    {
+      "label": "STILL STUCK?",
+      "title": "If the space will not come back",
+      "narration": "Still short on space after all seven steps? Open the Storage page again and look at the biggest category. Check the folders where your phone or camera backs up photos, since those copies quietly fill a drive. Move very large videos to an external drive. Leave unfamiliar system files alone unless you know exactly what they do.",
+      "tip": "Clean the biggest category first",
+      "imageQuery": "windows storage settings laptop",
+      "imagePrompt": "A laptop on a tidy desk showing a plain storage settings screen with a colored bar that is almost full, a hand resting on the trackpad, no readable text on screen. Photorealistic photograph for a how-to video. Bright natural light, clean and uncluttered. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "GO FURTHER",
+      "title": "When the drive is simply too small",
+      "narration": "If you keep running out of room, the drive itself may be too small. Many desktops, and some laptops, accept a second or larger internal drive. For photos and videos, an external drive is the simplest option. Back up your files before any upgrade, and ask a technician if you are unsure about opening the case.",
+      "tip": "Back up before any upgrade",
+      "imageQuery": "external hard drive laptop",
+      "imagePrompt": "A slim external hard drive connected by a cable to a laptop on a wooden desk, a small plant beside it, seen from a three-quarter angle. Photorealistic photograph for a how-to video. Bright natural light, clean and uncluttered. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "KEEP IT CLEAN",
+      "title": "Keep the space free",
+      "narration": "Set a reminder to check your free space every few months. Look through the Downloads folder once a month, because installers pile up there. Uninstall a program as soon as you stop using it. Keep new photos and videos on an external drive or in the cloud from the start.",
+      "tip": "Check free space every few months",
+      "imageQuery": "calendar reminder desk laptop",
+      "imagePrompt": "A desk calendar with a circled date next to an open laptop and a cup of coffee, morning light through a window. Photorealistic photograph for a how-to video. Bright natural light, clean and uncluttered. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    }
+  ],
   "mistakesToAvoid": {
     "narration": "Now, the mistakes to avoid. First, never delete files from the Windows or Program Files folders by hand. Windows needs them, and removing them can stop your PC from starting. Second, skip those free registry cleaners and so-called PC boosters. They promise miracles and often cause more problems than they solve. And third, don't clear the Recycle Bin before checking what's inside, because after that, a deleted file is very hard to recover. Take it slowly, and ask yourself before every deletion: do I know what this is?",
     "items": [
@@ -90,7 +119,7 @@
     ]
   },
   "recap": {
-    "narration": "Let's run through it once more. Check what's using your space. Delete temporary files. Run Disk Cleanup for system files. Uninstall apps you don't use. Empty Downloads and the Recycle Bin. Move big files to an external drive or the cloud. And switch on Storage Sense so Windows keeps tidy by itself. Seven steps, ten minutes, and a much faster PC. Do this once every few months and it stays that way.",
+    "narration": "Let's run through it once more. Check what's using your space. Delete temporary files. Run Disk Cleanup for system files. Uninstall apps you don't use. Empty Downloads and the Recycle Bin. Move big files to an external drive or the cloud. And switch on Storage Sense so Windows keeps tidy by itself. Seven steps, ten minutes, and a much faster PC. Then check the bonus sections if space still runs short.",
     "items": [
       "See what is eating your space",
       "Delete temporary files",

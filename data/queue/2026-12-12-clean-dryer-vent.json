@@ -5,7 +5,7 @@
   "slug": "clean-dryer-vent",
   "category": "Home",
   "title": "How to Clean Your Dryer Vent (Step by Step)",
-  "hook": "Do your clothes take two cycles to dry, and does the laundry room feel hot and smell of burning? A clogged dryer vent wastes energy, and it is also a fire risk. In seven steps, you'll learn how to clear the lint safely, in about an hour. It is simple, but it matters.",
+  "hook": "Do your clothes take two cycles to dry, and does the laundry room feel hot and smell of burning? A clogged dryer vent wastes energy, and it is also a fire risk. In seven steps, you'll learn how to clear the lint safely, in about an hour. It is simple, but it matters, and what to do if it still dries slowly.",
   "intro": "Every load leaves lint, and not all of it stops in the trap. The rest travels through the duct to the outside, and slowly builds up. Lint is highly flammable, and a blocked vent traps heat. Cleaning it once a year is one of the most useful home maintenance jobs. Safety comes first. Always unplug the dryer before you start. If you have a gas dryer, or if you are not comfortable with the work, call a professional. Set aside an hour on a quiet weekend, and the job is easier than it sounds.",
   "youNeed": [
     "A dryer vent brush kit",
@@ -82,6 +82,35 @@
       "media": "photo"
     }
   ],
+  "bonus": [
+    {
+      "label": "NOT WORKING?",
+      "title": "If it still dries slowly",
+      "narration": "If the dryer is still slow, look for the next cause. Check the outside flap, and make sure it opens fully when the dryer runs. Pour a little water on the lint screen. If it pools instead of soaking in, a film of softener is blocking the mesh, so scrub it. Look for sharp bends or a crushed duct behind the dryer. Do not overload the drum, because clothes need room to tumble.",
+      "tip": "Water on the screen should soak in",
+      "imageQuery": "lint screen dryer water test",
+      "imagePrompt": "A hand holding a clean dryer lint screen over a sink while a small amount of water is poured onto the mesh, droplets visible. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, soft daylight. Adult hands, no face visible. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "CALL A PRO",
+      "title": "When to call a professional",
+      "narration": "Some vents are not a do-it-yourself job. If the duct runs a long way, through the roof, or inside a wall or ceiling, a professional has the right tools. The same goes for any gas dryer problem. If you smell gas, leave the house and call the gas company. If a burning smell returns after cleaning, unplug the dryer and have a technician check it.",
+      "tip": "Gas dryers need a technician",
+      "imageQuery": "technician inspecting dryer vent",
+      "imagePrompt": "A service technician in work gloves kneeling behind a pulled-out dryer and inspecting the metal vent duct with a flashlight. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, soft daylight. Adult hands, no face visible. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "PREVENTION",
+      "title": "Daily habits that prevent fires",
+      "narration": "Small habits do most of the work. Empty the lint screen after every load, because it is the first place lint collects. Do not run the dryer when you are out of the house or asleep. Never dry items that contain gasoline, cooking oil or other flammable substances, because they can heat up on their own. Keep the area around the dryer clear of clutter, and keep a working smoke alarm nearby.",
+      "tip": "Empty the lint screen every load",
+      "imageQuery": "removing lint from dryer filter",
+      "imagePrompt": "A hand pulling a gray layer of lint off the lint screen of an open dryer, a tidy laundry basket beside the machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, soft daylight. Adult hands, no face visible. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    }
+  ],
   "mistakesToAvoid": {
     "narration": "Here are the mistakes to avoid. First, working on a plugged-in or gas dryer without the right precautions. Always unplug, and call a pro for gas. Second, using a foil or plastic duct, or long, bendy runs, which collect lint and hold heat. And third, waiting too long. Clean the vent at least once a year, or sooner if drying takes longer than usual. If you notice a burning smell, stop using the dryer and investigate straight away. Treat any burning smell as a warning, and don't ignore it.",
     "items": [
@@ -91,7 +120,7 @@
     ]
   },
   "recap": {
-    "narration": "Let's recap. Unplug the dryer. Pull it out carefully. Disconnect the duct. Clean the duct with a brush and a vacuum. Clean the outside vent hood. Clean the lint trap and housing. And reconnect with a metal duct, then test the airflow. Seven steps, about an hour, and a dryer that dries faster and safer. A clear vent is a safe and efficient vent.",
+    "narration": "Let's recap. Unplug the dryer. Pull it out carefully. Disconnect the duct. Clean the duct with a brush and a vacuum. Clean the outside vent hood. Clean the lint trap and housing. And reconnect with a metal duct, then test the airflow. Seven steps, about an hour, and a dryer that dries faster and safer. Bonus sections cover what to check if drying is still slow, when to call a professional, and the daily habits that prevent dryer fires.",
     "items": [
       "Unplug the dryer",
       "Pull the dryer out carefully",

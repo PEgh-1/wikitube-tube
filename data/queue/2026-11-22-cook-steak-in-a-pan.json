@@ -5,7 +5,7 @@
   "slug": "cook-steak-in-a-pan",
   "category": "Kitchen",
   "title": "How to Cook Steak Perfectly in a Pan (Beginner Method)",
-  "hook": "Restaurant steaks cost a fortune, and cooking one at home can go wrong in a hurry, with grey meat and a smoky kitchen. But with seven simple steps, you can cook a juicy steak with a deep brown crust in a regular pan, in about fifteen minutes. No special equipment is required, apart from a good pan.",
+  "hook": "Restaurant steaks cost a fortune, and cooking one at home can go wrong in a hurry, with grey meat and a smoky kitchen. But with seven simple steps, you can cook a juicy steak with a deep brown crust in a regular pan, in about fifteen minutes. No special equipment is required, apart from a good pan, and how to fix problems.",
   "intro": "A great steak depends on three things. A dry surface, a very hot pan, and a short rest at the end. That's it. You don't need a grill, a special cut or a fancy sauce. We'll use a thick steak, salt, a little oil and a skillet. Once you understand why each step matters, you can repeat this result every time, with ribeye, sirloin, strip steak or whichever cut you prefer. Don't be afraid of high heat, because that is what makes the difference. Open a window, and let's begin.",
   "youNeed": [
     "A steak, one inch thick or more",
@@ -82,6 +82,35 @@
       "media": "photo"
     }
   ],
+  "bonus": [
+    {
+      "label": "TROUBLESHOOTING",
+      "title": "Fixing common problems",
+      "narration": "If your steak turned grey, the pan was not hot enough, or you cooked too much meat at once. Cook one or two steaks at a time. If the kitchen fills with smoke, switch on the fan and check that your oil has a high smoke point. Add the butter late, because it burns quickly.",
+      "tip": "Add the butter late",
+      "imageQuery": "smoky pan steak kitchen",
+      "imagePrompt": "A heavy skillet with a seared steak and a little light smoke rising, a kitchen extractor fan above, bright kitchen. Photorealistic photograph for a how-to video. Bright natural light, clean and uncluttered. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "GO FURTHER",
+      "title": "Take it one step further",
+      "narration": "For a very thick steak, try a reverse sear. Cook it first in a low oven, around 250 degrees Fahrenheit or 120 Celsius, until it is about fifteen degrees below your target temperature. Then sear it in a very hot pan. After resting, add a splash of stock to the pan for a quick sauce.",
+      "tip": "Thick steaks love a reverse sear",
+      "imageQuery": "steak thermometer cooking",
+      "imagePrompt": "A thick steak on a wire rack on a baking tray with a digital meat thermometer inserted in the center, kitchen counter. Photorealistic photograph for a how-to video. Bright natural light, clean and uncluttered. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "KEEP LEFTOVERS",
+      "title": "Store and reheat leftovers",
+      "narration": "Put leftover steak in a covered container in the fridge within two hours, and eat it within three to four days. Cold sliced steak is wonderful in salads and sandwiches. To reheat it, use a low oven or a pan with a little butter, so it does not turn tough. Make it steaming hot all the way through.",
+      "tip": "Fridge within two hours",
+      "imageQuery": "sliced steak container fridge",
+      "imagePrompt": "Slices of cooked steak in a glass food container with a lid on a kitchen counter, a fork beside it, bright light. Photorealistic photograph for a how-to video. Bright natural light, clean and uncluttered. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    }
+  ],
   "mistakesToAvoid": {
     "narration": "Here are the three mistakes that ruin most steaks. First, a wet steak and a lukewarm pan. This steams the meat, and it turns grey. Dry it, and heat the pan properly. Second, moving the steak around. Every time you lift it, you lose the crust that is forming. And third, slicing straight away. The juices need a few minutes to settle, otherwise they pour out on the board and the steak tastes dry. Avoid these three, and you'll get great steak. Practice makes this easy, and the second steak is always better than the first.",
     "items": [
@@ -91,7 +120,7 @@
     ]
   },
   "recap": {
-    "narration": "Let's recap. Pick a thick steak and pat it dry. Season generously with salt. Get the pan very hot. Sear without moving it. Flip, add butter, garlic and thyme, and baste. Check the temperature with a thermometer. And rest the steak, then slice across the grain. Seven steps, fifteen minutes, and a steak you'd be happy to pay for in a restaurant.",
+    "narration": "Let's recap. Pick a thick steak and pat it dry. Season generously with salt. Get the pan very hot. Sear without moving it. Flip, add butter, garlic and thyme, and baste. Check the temperature with a thermometer. And rest the steak, then slice across the grain. The bonus sections cover fixes, a reverse sear and leftovers.",
     "items": [
       "Pick and prep your steak",
       "Season generously with salt",

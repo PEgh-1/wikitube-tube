@@ -5,7 +5,7 @@
   "slug": "clean-macbook-screen-keyboard",
   "category": "Tech",
   "title": "How to Clean a MacBook Screen and Keyboard (Safely)",
-  "hook": "Fingerprints on the screen, crumbs under the keys, and a trackpad that feels sticky. Cleaning a MacBook the wrong way can scratch the display or damage the keyboard. Here are seven safe steps to make yours look new again in about five minutes, with nothing more than a cloth and a little water.",
+  "hook": "Fingerprints on the screen, crumbs under the keys, and a trackpad that feels sticky. Cleaning a MacBook the wrong way can scratch the display or damage the keyboard. Here are seven safe steps to make yours look new again in about five minutes, with nothing more than a cloth and a little water, and what to do if marks stay.",
   "intro": "A MacBook is easy to clean, as long as you respect two rules. Use as little liquid as possible, and never spray anything directly onto the computer. Moisture that gets into the keyboard or the speakers can cause real damage, while a soft cloth costs almost nothing and does the job. Apple's own advice is simple, and we'll follow it step by step, so you can clean with confidence. Take your time, and work in a well-lit room, because streaks and dust are much easier to see in good light.",
   "youNeed": [
     "Two microfiber cloths",
@@ -81,6 +81,35 @@
       "media": "photo"
     }
   ],
+  "bonus": [
+    {
+      "label": "NOT WORKING?",
+      "title": "If marks will not come off",
+      "narration": "If a smudge stays, your cloth is probably the problem. A dirty cloth just moves grease around, so use a fresh one, and wash used cloths with mild soap and no fabric softener. Never scrape a mark with a fingernail. Faint marks may be wear on the coating, which no cleaning will remove.",
+      "tip": "A clean cloth beats more pressure",
+      "imageQuery": "laptop screen smudge",
+      "imagePrompt": "A MacBook-style silver laptop with the screen tilted toward a window, faint fingerprint smudges visible in the light, clean desk. Photorealistic photograph for a how-to video. Bright natural light, clean and uncluttered. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "CALL A PRO",
+      "title": "When to contact Apple",
+      "narration": "If keys stick or stop working after cleaning, ask Apple or an authorized service provider. The same goes for lines or dead spots on the display. If the case bulges or the trackpad seems to lift, stop using the laptop and have the battery checked, because a swollen battery can be unsafe.",
+      "tip": "Swollen case? Stop using it",
+      "imageQuery": "laptop repair service",
+      "imagePrompt": "A silver laptop lying closed on a repair counter next to a small screwdriver set, bright shop lighting, no people visible. Photorealistic photograph for a how-to video. Bright natural light, clean and uncluttered. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "KEEP IT CLEAN",
+      "title": "Keep it clean between wipes",
+      "narration": "Keep a clean microfiber cloth in a small pouch in your bag, so grit never scratches the screen. Replace the cloth when it looks worn. Do not leave the laptop in a hot car or in direct sun for hours, and carry it in a padded sleeve.",
+      "tip": "Keep a clean cloth in a pouch",
+      "imageQuery": "microfiber cloth laptop sleeve",
+      "imagePrompt": "A folded gray microfiber cloth in a small pouch next to a padded laptop sleeve on a desk, soft daylight. Photorealistic photograph for a how-to video. Bright natural light, clean and uncluttered. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    }
+  ],
   "mistakesToAvoid": {
     "narration": "Let's go through the mistakes to avoid. First, never spray any liquid directly on the MacBook. It can flow into the keyboard and speakers and cause damage that isn't covered by warranty. Second, don't use glass cleaner, bleach, vinegar or aerosols, as they can strip the coating from the screen. And third, don't scrub or press hard. A gentle touch and a clean cloth beat force every time, and the display can be marked easily by pressure. If you ever spill a drink on the keyboard, switch it off at once, unplug it, and contact Apple, before you try to clean it yourself.",
     "items": [
@@ -90,7 +119,7 @@
     ]
   },
   "recap": {
-    "narration": "Let's go through the whole routine one more time. Shut down and unplug. Dust the screen with a dry cloth. Wipe with a barely damp cloth. Dry it and check for streaks. Clear crumbs with short bursts of air. Wipe the keys and trackpad. And keep the Mac clean with a few small habits. Seven steps, five minutes, and a MacBook that looks cared for. Repeat the quick wipe every week, and the full routine once a month.",
+    "narration": "Let's go through the whole routine one more time. Shut down and unplug. Dust the screen with a dry cloth. Wipe with a barely damp cloth. Dry it and check for streaks. Clear crumbs with short bursts of air. Wipe the keys and trackpad. And keep the Mac clean with a few small habits. Seven steps, five minutes, and a MacBook that looks cared for. The bonus sections cover stubborn marks, Apple and daily care.",
     "items": [
       "Shut down and unplug",
       "Dust the screen first",

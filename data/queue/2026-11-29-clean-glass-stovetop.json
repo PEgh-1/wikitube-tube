@@ -5,7 +5,7 @@
   "slug": "clean-glass-stovetop",
   "category": "Kitchen",
   "title": "The Best Way to Clean a Glass Stovetop Without Scratching",
-  "hook": "A glass stovetop looks beautiful until it's covered in burnt-on spills and cloudy streaks. And one wrong scrub can leave scratches forever. Here are seven safe steps to bring your glass cooktop back to a mirror shine without damaging it. No special skills are needed, just patience.",
+  "hook": "A glass stovetop looks beautiful until it's covered in burnt-on spills and cloudy streaks. And one wrong scrub can leave scratches forever. Here are seven safe steps to bring your glass cooktop back to a mirror shine without damaging it. No special skills are needed, just patience. We also cover what to do with the toughest stains.",
   "intro": "Glass-ceramic cooktops are tougher than they look, but they can scratch. The golden rule is simple: soften first, and scrape only when you must. Heat bakes spills onto the glass, so the cleaning is about loosening them with a gentle product and some time, then lifting them off. We'll use baking soda, a little vinegar, a cooktop cleaner, and a razor scraper for the really stubborn spots. Always check your manual for any special instructions from the maker. The whole job takes about half an hour, and most of that is waiting for the cleaner to work.",
   "youNeed": [
     "Baking soda",
@@ -82,6 +82,35 @@
       "media": "photo"
     }
   ],
+  "bonus": [
+    {
+      "label": "STILL STUCK?",
+      "title": "Toughest stains and haze",
+      "narration": "If a spot survives the paste and the scraper, do not scrub harder. Melted sugar and plastic are special cases, because they can pit the glass as they cool. Many manufacturers say to scrape them off while the surface is still warm, so check your manual first. A white or rainbow haze that wipes clean is usually mineral film, and cooktop cream removes it.",
+      "tip": "Check your manual for melted sugar",
+      "imageQuery": "burnt stain glass cooktop",
+      "imagePrompt": "A close view of a glass cooktop with a small dark burnt spot, a razor scraper held flat at a shallow angle beside it, a hand in an oven mitt at the edge of the frame. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "CALL A PRO",
+      "title": "When the glass is damaged",
+      "narration": "Cleaning cannot fix damaged glass. If you see a crack, even a hairline one, stop using the cooktop. Spills can reach the electrical parts underneath, and the glass can break further when it heats up. Switch it off at the circuit breaker and call an appliance technician. Deep scratches cannot be buffed out, but they are usually only cosmetic. Have the technician check the unit before you use it again.",
+      "tip": "A cracked cooktop stays switched off",
+      "imageQuery": "appliance repair technician kitchen",
+      "imagePrompt": "A technician in a plain work shirt kneeling beside a built-in electric cooktop in a modern kitchen, a small toolbox on the floor, bright kitchen light, no face visible. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "KEEP IT THAT WAY",
+      "title": "Protect the glass from scratches",
+      "narration": "Most scratches come from things under the pans, not from cleaning. Grains of salt, sugar or rice trapped beneath a pot grind into the glass when it moves. Wipe the bottom of each pan before it goes on. Do not use the cooktop as extra counter space, and do not drop cans or heavy lids on it. Rough cast iron bottoms scratch easily, so lift them instead of dragging them.",
+      "tip": "Wipe pan bottoms before cooking",
+      "imageQuery": "flat bottom pan cooktop",
+      "imagePrompt": "A clean stainless steel frying pan with a flat bottom sitting on a shiny black glass cooktop, a folded microfiber cloth beside it, bright modern kitchen. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    }
+  ],
   "mistakesToAvoid": {
     "narration": "Here are the three mistakes that scratch glass stovetops. First, using abrasive pads, steel wool or gritty powders. They leave permanent marks. Second, cleaning while the surface is hot, which can burn you and leave streaks. And third, scraping with the corner of the blade or at a steep angle. Keep the blade flat and shallow, use light pressure, and let the cleaner and time do the work. When in doubt, check your manual. If you are ever unsure, test any new product on a small corner first.",
     "items": [
@@ -91,7 +120,7 @@
     ]
   },
   "recap": {
-    "narration": "Let's recap. Switch off and let it cool. Wipe off loose debris. Make a baking soda paste and warm it with a damp towel. Wipe it clean. Scrape stubborn spots safely with a flat blade. Polish with cooktop cleaner. And build the habits that prevent burnt-on messes. Seven steps, about thirty minutes, and a stovetop that gleams. Soften first, scrape last, and your glass will stay perfect.",
+    "narration": "Let's recap. Switch off and let it cool. Wipe off loose debris. Make a baking soda paste and warm it with a damp towel. Wipe it clean. Scrape stubborn spots safely with a flat blade. Polish with cooktop cleaner. And build the habits that prevent burnt-on messes. Seven steps, about thirty minutes, and a stovetop that gleams. For stubborn stains, take extra care, and a cracked cooktop needs a technician.",
     "items": [
       "Switch off and let it cool",
       "Wipe off the loose debris",

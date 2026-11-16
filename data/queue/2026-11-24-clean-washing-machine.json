@@ -5,7 +5,7 @@
   "slug": "clean-washing-machine",
   "category": "Home",
   "title": "How to Clean a Washing Machine (Front and Top Load)",
-  "hook": "Does your washing machine smell musty, or do your clean clothes come out smelling a little bit off? The machine that cleans everything needs cleaning too. In seven steps, you'll get rid of the smell, the grime and the mould, using ingredients you already have. It's easier than you think.",
+  "hook": "Does your washing machine smell musty, or do your clean clothes come out smelling a little bit off? The machine that cleans everything needs cleaning too. In seven steps, you'll get rid of the smell, the grime and the mould, using ingredients you already have. It's easier than you think, and what to do if the smell returns.",
   "intro": "Washing machines collect detergent residue, lint and moisture, especially around the door seal, the detergent drawer and the drain filter. That's a perfect home for bacteria and mould, and the cause of that sour smell. The good news is that a full clean takes about thirty minutes of your time, spread over two quick cycles. The steps are the same for front loaders and top loaders, with a few small differences, which I'll point out as we go.",
   "youNeed": [
     "White vinegar",
@@ -82,6 +82,35 @@
       "media": "photo"
     }
   ],
+  "bonus": [
+    {
+      "label": "TROUBLESHOOTING",
+      "title": "If the smell comes back",
+      "narration": "If the smell comes back, look at your habits first. Wet clothes left in the drum smell bad, and people often blame the machine. Check that the drain hose is not kinked, so water does not sit in it. Use only the detergent amount shown on the packet, then repeat the hot cleaning cycle and wipe the seal more often.",
+      "tip": "Do not leave wet clothes inside",
+      "imageQuery": "washing machine laundry room",
+      "imagePrompt": "A front-loading washing machine with its door open in a bright laundry room, a clean towel hanging on a rail beside it. Photorealistic photograph for a how-to video. Bright natural light, clean and uncluttered. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "CALL A PRO",
+      "title": "When to call a technician",
+      "narration": "Cleaning cannot fix everything. If water will not drain even after you cleaned the filter, call a technician. The same goes for water leaking from the door or the bottom, or loud banging and grinding. If you smell burning, switch the machine off, unplug it, and do not use it until it has been checked.",
+      "tip": "Burning smell: unplug at once",
+      "imageQuery": "appliance repair technician",
+      "imagePrompt": "A repair technician's hands holding a screwdriver near the back panel of a washing machine in a laundry room, face not visible. Photorealistic photograph for a how-to video. Bright natural light, clean and uncluttered. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "KEEP IT CLEAN",
+      "title": "Keep it fresh",
+      "narration": "A short routine keeps the machine fresh. Run a hot cleaning cycle about once a month. Take wet laundry out as soon as the cycle ends, and leave the door and drawer open between washes. Wash some loads at the hottest setting the labels allow, because warm, damp conditions are where mould grows.",
+      "tip": "Run a hot cycle once a month",
+      "imageQuery": "laundry basket fresh towels",
+      "imagePrompt": "A woven laundry basket of folded white towels next to a washing machine with its door open, bright laundry room. Photorealistic photograph for a how-to video. Bright natural light, clean and uncluttered. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    }
+  ],
   "mistakesToAvoid": {
     "narration": "Here are the mistakes to avoid. First, never mix bleach and vinegar. They create toxic fumes, so use one product at a time, and rinse in between. Second, don't use too much detergent. More soap doesn't mean cleaner clothes, it means more residue and more smell. And third, don't close the door tightly after every wash. A closed, damp drum is exactly where mould grows. Leave it open a little, and check the seal every week. When in doubt, follow the manufacturer's instructions.",
     "items": [
@@ -91,7 +120,7 @@
     ]
   },
   "recap": {
-    "narration": "Let's recap. Empty the drum and check the manual. Wipe the door seal and glass. Clean the detergent drawer. Run a hot cycle with vinegar. Follow with a baking soda cycle. Clean the drain filter safely, with the machine unplugged. And wipe it down, then keep the door open to dry. Seven steps, about thirty minutes, and a washing machine that smells fresh again. A clean machine also cleans your clothes better.",
+    "narration": "Let's recap. Empty the drum and check the manual. Wipe the door seal and glass. Clean the detergent drawer. Run a hot cycle with vinegar. Follow with a baking soda cycle. Clean the drain filter safely, with the machine unplugged. And wipe it down, then keep the door open to dry. Seven steps, about thirty minutes, and a washing machine that smells fresh again. The bonus sections cover returning smells, technicians and a fresh routine.",
     "items": [
       "Empty it and check the manual",
       "Wipe the door seal and glass",

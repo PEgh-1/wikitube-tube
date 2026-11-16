@@ -5,7 +5,7 @@
   "slug": "gardening-for-beginners",
   "category": "Garden",
   "title": "Gardening for Beginners: How to Start Your First Garden",
-  "hook": "Starting a garden sounds easy, until the plants die and you don't know why. The good news is that a small, well-planned first garden almost always works. Here are seven steps to grow your first plants, with no experience needed.",
+  "hook": "Starting a garden sounds easy, until the plants die and you don't know why. The good news is that a small, well-planned first garden almost always works. Here are seven steps to grow your first plants, with no experience needed, and what to do when plants struggle.",
   "intro": "Most beginners fail for three reasons. They plant in the wrong spot, they start far too big, and they pick plants that are difficult to grow. We'll avoid all three. You'll choose a sunny place, build a small bed, improve the soil, and grow easy plants that reward you quickly. A garden the size of a doormat can feed you salad for weeks, so don't worry about space. We'll go step by step, and by the end you will have a clear plan, ready to put into the ground this weekend.",
   "youNeed": [
     "A sunny spot outdoors",
@@ -82,6 +82,35 @@
       "media": "photo"
     }
   ],
+  "bonus": [
+    {
+      "label": "NOT WORKING?",
+      "title": "If your plants struggle",
+      "narration": "Every beginner meets problems, and most are easy to read. Yellow leaves and soggy soil usually mean too much water, so let the soil dry. Holes in leaves point to slugs or caterpillars, which you can pick off by hand in the evening. Tall, weak seedlings need more light. Change one thing at a time, so you learn what worked.",
+      "tip": "Change only one thing at a time",
+      "imageQuery": "yellow leaves tomato plant",
+      "imagePrompt": "A close-up of a green garden plant with a few yellowing leaves in dark soil, a gardener's hand gently holding one leaf. Photorealistic photograph for a how-to video. Bright natural light, clean and uncluttered. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "GO FURTHER",
+      "title": "Grow more next year",
+      "narration": "Once your first bed works, you can grow more. Sow a second round of radishes or lettuce every two weeks, so harvests keep coming. Add a second bed or a few extra pots, and start a small compost bin for free fertilizer. Write down what you planted and when, because those notes will be worth more than any book.",
+      "tip": "Keep a simple garden notebook",
+      "imageQuery": "vegetable garden harvest basket",
+      "imagePrompt": "A wicker basket of fresh radishes, lettuce and herbs on a wooden garden bench, a small raised bed in the background. Photorealistic photograph for a how-to video. Bright natural light, clean and uncluttered. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "PREVENTION",
+      "title": "Prevent common problems",
+      "narration": "A few habits stop most problems early. Water at the base of the plants, early in the day, so leaves can dry. Do not grow the same crop in the same spot every year, because pests build up in the soil. Pick off sick leaves quickly, and choose plants that suit your climate.",
+      "tip": "Rotate crops every year",
+      "imageQuery": "watering plants morning garden",
+      "imagePrompt": "A watering can pouring a gentle stream at the base of young vegetable plants in a small garden bed, morning sunlight. Photorealistic photograph for a how-to video. Bright natural light, clean and uncluttered. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    }
+  ],
   "mistakesToAvoid": {
     "narration": "Let's finish with the mistakes that stop most new gardeners. One, planting too much, too soon, which leads to overwhelm and a neglected plot. Two, overwatering. More plants die from too much water than too little, especially in pots with no drainage holes. And three, ignoring your local planting calendar. Planting tomatoes before the last frost, or lettuce in midsummer heat, is a recipe for disappointment. Start small, check your soil, and be patient. Every gardener has lost a few plants, and each mistake is a lesson.",
     "items": [
@@ -91,7 +120,7 @@
     ]
   },
   "recap": {
-    "narration": "Let's recap. Pick a sunny spot. Start small. Prepare the soil with compost. Choose easy plants. Plant at the right depth and spacing. Water deeply and less often. And mulch, weed and check your garden every week. Follow these seven steps, and you'll be picking your own food in a matter of weeks. Gardening is a skill you learn by doing, so start now.",
+    "narration": "Let's recap. Pick a sunny spot. Start small. Prepare the soil with compost. Choose easy plants. Plant at the right depth and spacing. Water deeply and less often. And mulch, weed and check your garden every week. Follow these seven steps, and you'll be picking your own food in a matter of weeks. The bonus sections cover problems, next year and prevention.",
     "items": [
       "Pick a sunny spot",
       "Start small",

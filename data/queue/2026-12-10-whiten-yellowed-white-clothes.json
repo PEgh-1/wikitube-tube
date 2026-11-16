@@ -5,7 +5,7 @@
   "slug": "whiten-yellowed-white-clothes",
   "category": "Home",
   "title": "How to Whiten Yellowed White Clothes (No Harsh Bleach)",
-  "hook": "Your favorite white shirt has turned yellow, especially under the arms, and nothing in the wash seems to help. Don't throw it away yet. In seven steps, you'll learn how to bring white clothes back to bright white, without chlorine bleach. It costs only a few dollars.",
+  "hook": "Your favorite white shirt has turned yellow, especially under the arms, and nothing in the wash seems to help. Don't throw it away yet. In seven steps, you'll learn how to bring white clothes back to bright white, without chlorine bleach. It costs only a few dollars, and what to do if the yellow stays.",
   "intro": "Clothes turn yellow for a few reasons. Sweat and deodorant build up in the fibres, detergent residue is left behind, or white fabric simply ages while stored. Regular washing doesn't remove that buildup, but a soak does. We'll use baking soda, vinegar and an oxygen booster, which are all gentler than chlorine bleach. Before we begin, check the care label, and test any method on a hidden seam first. And remember the golden rule: never mix cleaning products. The whole process takes a few hours, but most of that time is just waiting while the soak works for you.",
   "youNeed": [
     "Baking soda",
@@ -82,6 +82,35 @@
       "media": "photo"
     }
   ],
+  "bonus": [
+    {
+      "label": "NOT WORKING?",
+      "title": "When the yellow will not budge",
+      "narration": "If the yellow is still there, think about the cause. Sweat and body oil stains respond to soaking, but a repeat soak is often needed, so do a second round. Orange or brown spots may be rust, which needs a rust remover made for fabric, used as the label says. Test any product on a hidden seam first. Very old yellowing in aged fabric can be permanent, and more scrubbing will only wear the fibers.",
+      "tip": "Test on a hidden seam first",
+      "imageQuery": "yellow stain white shirt collar",
+      "imagePrompt": "A white cotton shirt collar laid flat on a table showing a faint yellow stain, a small brush and a bowl of water beside it. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, soft daylight. Adult hands, no face visible. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "CALL A PRO",
+      "title": "When to call a dry cleaner",
+      "narration": "Some white items are better left to a professional. Silk, wool, lace and anything labeled dry clean only can be ruined by a hot soak. The same goes for wedding dresses, christening gowns and family heirlooms, where a mistake cannot be undone. Tell the cleaner what the stain is and how old it is. A good cleaner can often lift a stain that has resisted home care, and will say honestly if it cannot.",
+      "tip": "Heirlooms and silk need a pro",
+      "imageQuery": "dry cleaner white dress garment",
+      "imagePrompt": "A delicate white lace dress hanging in a garment bag on a rail inside a clean dry cleaning shop. Photorealistic photograph for a home how-to video. Bright, tidy home interior, soft daylight. Adult hands, no face visible. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "PREVENTION",
+      "title": "Habits that stop new yellowing",
+      "narration": "Many yellow underarm stains form when sweat reacts with aluminum compounds in antiperspirant. A thin undershirt takes the sweat in place of your white shirt. Rinse fresh stains in cold water as soon as you can. Wash white shirts after one or two wears, because body oils build up and darken slowly. Do not overload the machine, so dirt can rinse out.",
+      "tip": "An undershirt protects the shirt",
+      "imageQuery": "white shirts folded stack wardrobe",
+      "imagePrompt": "A neat stack of bright white folded shirts and a white undershirt on a wooden shelf in a wardrobe. Photorealistic photograph for a home how-to video. Bright, tidy home interior, soft daylight. Adult hands, no face visible. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    }
+  ],
   "mistakesToAvoid": {
     "narration": "Here are the mistakes to avoid. First, mixing products. Never combine chlorine bleach with vinegar, ammonia or other cleaners, as it can create dangerous fumes. Second, using too much detergent, which leaves a dulling film. And third, drying the item in a hot dryer before the stain is completely gone. Heat sets stains, and then they are far harder to remove. Soak, check, and only then dry. Patience, gentle products and sunshine do most of the work.",
     "items": [
@@ -91,7 +120,7 @@
     ]
   },
   "recap": {
-    "narration": "Let's recap. Check the labels and sort. Pretreat the yellow stains. Soak in hot water with baking soda. Try an oxygen booster soak for stubborn yellowing. Wash on a warm cycle. Dry in the sun. And keep whites white with a few simple habits. Seven steps, mostly waiting, and clothes that look new again. Do it once a month for whites that stay bright all year. Whiter clothes, less waste, and no harsh chemicals.",
+    "narration": "Let's recap. Check the labels and sort. Pretreat the yellow stains. Soak in hot water with baking soda. Try an oxygen booster soak for stubborn yellowing. Wash on a warm cycle. Dry in the sun. And keep whites white with a few simple habits. Seven steps, mostly waiting, and clothes that look new again. Do it once a month for whites that stay bright all year. Bonus sections cover what to do if the yellow stays, when to call a dry cleaner, and the habits that stop new yellowing.",
     "items": [
       "Check labels and sort",
       "Pretreat the yellow stains",

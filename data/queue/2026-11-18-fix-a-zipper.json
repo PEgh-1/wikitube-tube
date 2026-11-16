@@ -5,7 +5,7 @@
   "slug": "fix-a-zipper",
   "category": "Home",
   "title": "How to Fix a Zipper (Stuck, Split or Broken Slider)",
-  "hook": "A broken zipper can ruin a favorite jacket, a backpack or a pair of jeans. Before you throw the item away or pay for a repair, try these simple fixes. In a few minutes you'll know how to free a stuck zipper, close a split one, and replace a broken slider.",
+  "hook": "A broken zipper can ruin a favorite jacket, a backpack or a pair of jeans. Before you throw the item away or pay for a repair, try these simple fixes. In a few minutes you'll know how to free a stuck zipper, close a split one, and replace a broken slider, and what to do if nothing works.",
   "intro": "Zippers fail in three main ways. The fabric gets caught, the teeth stop closing behind the slider, or the slider itself comes off the track. Each problem has a different fix, so first we'll work out which one you have. Most repairs need only items from a kitchen drawer or a sewing kit, and a good number take under two minutes, so don't give up on that jacket yet. Take your time, work gently, and keep a steady hand.",
   "youNeed": [
     "Needle-nose pliers",
@@ -82,6 +82,35 @@
       "media": "photo"
     }
   ],
+  "bonus": [
+    {
+      "label": "NOT WORKING?",
+      "title": "If the zipper still fails",
+      "narration": "If none of the fixes worked, look at the teeth again. Squeezing the slider cannot repair missing or cracked teeth. A bent metal tooth can sometimes be straightened with small pliers. If the teeth are damaged and the slider is fine, replacing the whole zipper is the only lasting fix.",
+      "tip": "Damaged teeth need a new zipper",
+      "imageQuery": "broken zipper teeth close up",
+      "imagePrompt": "A close-up of an open jacket zipper with a few missing teeth visible, held flat on a table under bright light. Photorealistic photograph for a how-to video. Bright natural light, clean and uncluttered. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "CALL A PRO",
+      "title": "When to see a tailor",
+      "narration": "Some jobs belong to a tailor or a repair shop. Replacing a full zipper on a coat or jeans means unpicking seams and sewing them back, which is hard to do neatly at home. Leather, down jackets and expensive pieces deserve a professional. Ask for a price first, because a repair often costs far less than a new coat.",
+      "tip": "Ask for a price before you decide",
+      "imageQuery": "tailor sewing machine",
+      "imagePrompt": "A tailor's workbench with a sewing machine, a dark jacket under the needle and spools of thread, warm workshop light, no face visible. Photorealistic photograph for a how-to video. Bright natural light, clean and uncluttered. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "PREVENTION",
+      "title": "Make zippers last longer",
+      "narration": "Keep a few spare sliders in your sewing kit, because they are small and cheap. Fix small problems at once, since a zipper that keeps splitting wears the slider down further. Zip a jacket to the top when you hang it, and take hard objects out of bag pockets.",
+      "tip": "Fix small problems early",
+      "imageQuery": "sewing kit spare zippers",
+      "imagePrompt": "An open sewing kit on a table with spools of thread, small metal zipper sliders in a dish, and a folded jacket beside it. Photorealistic photograph for a how-to video. Bright natural light, clean and uncluttered. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    }
+  ],
   "mistakesToAvoid": {
     "narration": "Here are the mistakes to avoid. First, never force a stuck zipper. Pulling harder bends the teeth and turns an easy fix into a permanent break. Second, don't use oil or grease on clothing, as it can leave marks that are very hard to remove. Use soap, wax or graphite instead. And third, don't squeeze a slider too hard with pliers. A small amount of pressure works, while too much can crack the metal. Patience is the real secret to every zipper repair.",
     "items": [
@@ -91,7 +120,7 @@
     ]
   },
   "recap": {
-    "narration": "Let's run through it again. Find out what is wrong. Free any caught fabric. Lubricate a stiff zipper. Close a zipper that splits. Put a slider back on track. Replace a worn-out slider. And keep your zippers healthy with a few simple habits. Seven steps that can save a jacket, a bag or a favorite pair of jeans, usually in just a few minutes.",
+    "narration": "Let's run through it again. Find out what is wrong. Free any caught fabric. Lubricate a stiff zipper. Close a zipper that splits. Put a slider back on track. Replace a worn-out slider. And keep your zippers healthy with a few simple habits. If it still fails, the bonus sections cover a tailor and prevention.",
     "items": [
       "Find out what is wrong",
       "Free any caught fabric",

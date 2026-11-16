@@ -5,7 +5,7 @@
   "slug": "unclog-toilet-without-plunger",
   "category": "Home",
   "title": "How to Unclog a Toilet Without a Plunger (3 Methods)",
-  "hook": "The water is rising, there's no plunger in the house, and it feels like an emergency. Stay calm, because most clogs can be cleared with things you already own. In seven steps, you'll learn three safe methods to unclog a toilet without a plunger. No special tools or skills are needed.",
+  "hook": "The water is rising, there's no plunger in the house, and it feels like an emergency. Stay calm, because most clogs can be cleared with things you already own. In seven steps, you'll learn three safe methods to unclog a toilet without a plunger. No special tools or skills are needed, and what to try if it still will not drain.",
   "intro": "Most toilet clogs are simply too much paper or waste stuck in the curve of the drain. Three methods can often fix that. Hot water with dish soap, which lubricates and softens the blockage. Baking soda with vinegar, which fizzes and can help break it up. And a toilet auger, or a homemade wire tool, which reaches the clog directly. We'll start with the gentlest one. Please do not use strong chemical drain cleaners in a toilet. If the water is rising fast, act right away, and follow the first step before anything else.",
   "youNeed": [
     "Rubber gloves",
@@ -82,6 +82,35 @@
       "media": "photo"
     }
   ],
+  "bonus": [
+    {
+      "label": "NOT WORKING?",
+      "title": "If the water will not go down",
+      "narration": "If nothing has worked, read the clues first. Watch the water level for ten minutes. If it sinks a little, the clog is only partial, so add more soap and hot water, and wait longer. If it does not move at all, the blockage is solid and may be past your tools. Scoop the water into a bucket until the bowl is nearly empty, so nothing can overflow.",
+      "tip": "A slow drop means progress",
+      "imageQuery": "toilet bowl water level",
+      "imagePrompt": "A white toilet bowl with clear water sitting at a steady level, a blue plastic bucket and a plastic cup on the grey tile floor beside it. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom, soft daylight, spotless. Adult hands, no face visible. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "PRO TIPS",
+      "title": "Clean up without mixing cleaners",
+      "narration": "Wash the floor with hot water and soap first, then wipe it with disinfectant. Use only one product at a time. Never mix bleach with ammonia or with vinegar, because they give off dangerous fumes. Put used towels in a hot wash, and throw cloths and paper towels in the trash, not the toilet. Finish by washing your hands with soap for at least twenty seconds.",
+      "tip": "One cleaner at a time",
+      "imageQuery": "washing hands soap sink",
+      "imagePrompt": "Hands lathering with white soap under a running chrome tap over a white bathroom sink, a folded clean towel and a spray bottle of cleaner on the counter. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom, soft daylight, spotless. Adult hands, no face visible. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "PREVENTION",
+      "title": "Habits that stop the next clog",
+      "narration": "A weak flush causes many clogs, so start with the tank. The water in the tank should sit a little below the top of the overflow tube. If it looks low, the fill valve can usually be adjusted. Mineral deposits can also block the small holes under the rim, and a soak with white vinegar loosens them. Finally, use less paper per flush, and flush twice when you need more.",
+      "tip": "A strong flush prevents clogs",
+      "imageQuery": "toilet tank open water level",
+      "imagePrompt": "The porcelain lid of a white toilet tank leaning against the wall, the open tank showing clear water level and a white overflow tube. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom, soft daylight, spotless. Adult hands, no face visible. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    }
+  ],
   "mistakesToAvoid": {
     "narration": "Here are the mistakes to avoid. First, flushing again and again, which can flood the bathroom. Stop the water first. Second, using boiling water or strong chemical drain cleaners. Boiling water can crack porcelain, and chemicals can splash back and damage pipes. And third, forcing tools into the drain. Gentle pressure is enough. If nothing works, a plumber will save you time and money. Most clogs are easy to prevent, with a little care about what goes down the drain.",
     "items": [
@@ -91,7 +120,7 @@
     ]
   },
   "recap": {
-    "narration": "Let's recap. Stop the water first. Try hot water and dish soap. Check if the water drops. Use baking soda and vinegar for mild clogs. Reach the clog with a toilet auger or a wrapped hanger. Flush carefully. And know when to call a plumber. Seven steps, about an hour, and no plunger needed. Stay calm, go gently, and let patience do the work.",
+    "narration": "Let's recap. Stop the water first. Try hot water and dish soap. Check if the water drops. Use baking soda and vinegar for mild clogs. Reach the clog with a toilet auger or a wrapped hanger. Flush carefully. And know when to call a plumber. Seven steps, about an hour, and no plunger needed. Bonus tips cover what to check if the water will not move, safe cleanup, and preventing the next clog.",
     "items": [
       "Stop the water first",
       "Try hot water and dish soap",

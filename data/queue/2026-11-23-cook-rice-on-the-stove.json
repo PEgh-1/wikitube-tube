@@ -5,7 +5,7 @@
   "slug": "cook-rice-on-the-stove",
   "category": "Kitchen",
   "title": "How to Cook Rice Perfectly on the Stove (No Mush)",
-  "hook": "Sticky, mushy or burnt rice at the bottom of the pot: almost everyone has been there. The fix is simpler than you think. In seven steps, you'll cook fluffy rice with separate grains, using only a pot, a lid and a stove, every single time.",
+  "hook": "Sticky, mushy or burnt rice at the bottom of the pot: almost everyone has been there. The fix is simpler than you think. In seven steps, you'll cook fluffy rice with separate grains, using only a pot, a lid and a stove, every single time, and how to rescue rice that goes wrong.",
   "intro": "Rice goes wrong for a few simple reasons. Too much water, too much stirring, too much heat, or a lid lifted at the wrong time. Once you know the rules, rice is one of the easiest foods you can cook, and it costs almost nothing. We'll use plain long-grain white rice as our example, and I'll tell you how to adapt for basmati, jasmine and brown rice along the way. It is a method you will use for the rest of your life.",
   "youNeed": [
     "Long-grain white rice",
@@ -82,6 +82,35 @@
       "media": "photo"
     }
   ],
+  "bonus": [
+    {
+      "label": "NOT WORKING?",
+      "title": "How to rescue your rice",
+      "narration": "Rice went wrong? Most of it can be saved. If it is mushy, spread it on a tray to dry, or turn it into fried rice. If it is hard in the middle, add two or three tablespoons of water, cover the pot, and steam it on very low heat for a few minutes. If the bottom is burnt, do not scrape it. Spoon out the good rice from the top.",
+      "tip": "Never scrape a burnt bottom",
+      "imageQuery": "fried rice pan wok",
+      "imagePrompt": "A pan of golden fried rice with vegetables and egg on a stove, steam rising, seen from above. Photorealistic photograph for a how-to video. Bright natural light, clean and uncluttered. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "GO FURTHER",
+      "title": "Add more flavor",
+      "narration": "Plain rice is only the start. Toast the dry rice in a little oil for a minute before adding the water, which gives a nutty taste. Cook it in stock instead of water, or drop in a bay leaf or a cinnamon stick. After fluffing, fold in lemon zest or fresh herbs. For fried rice, use rice cooked and chilled the day before.",
+      "tip": "Toast the rice before the water",
+      "imageQuery": "rice spices bay leaf cardamom",
+      "imagePrompt": "A pot of cooked white rice with a bay leaf, a cinnamon stick and cardamom pods beside it on a wooden board, warm kitchen light. Photorealistic photograph for a how-to video. Bright natural light, clean and uncluttered. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "PREVENTION",
+      "title": "Prevent a burnt pot",
+      "narration": "A burnt pot is easy to avoid. Use a heavy-bottomed pot with a tight lid, and keep the heat as low as it will go. Set a timer, so you never have to guess. If you cook a larger amount, use a bigger pot and add a few extra minutes. If rice does stick, soak the pot in hot soapy water for half an hour.",
+      "tip": "Soak a stuck pot with hot soapy water",
+      "imageQuery": "heavy pot lid stove",
+      "imagePrompt": "A heavy stainless steel pot with a glass lid on a gas stove burner on low flame, a kitchen timer on the counter. Photorealistic photograph for a how-to video. Bright natural light, clean and uncluttered. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    }
+  ],
   "mistakesToAvoid": {
     "narration": "Now, the three mistakes that turn rice into mush. First, skipping the rinse, which leaves too much starch. Second, adding too much water, or measuring by eye. A little extra water is the most common reason for soggy rice. And third, lifting the lid or stirring while it cooks. Every peek lets out the steam, and every stir makes it sticky. Remember also that leftover rice should never sit out on the counter for hours. Cool it quickly and refrigerate it.",
     "items": [
@@ -91,7 +120,7 @@
     ]
   },
   "recap": {
-    "narration": "Let's recap. Measure your rice and pick the right pot. Rinse until the water runs clear. Use the right water ratio. Bring it to a boil and stir just once. Cover and simmer on low without peeking. Rest it off the heat for ten minutes. And fluff it with a fork, then store leftovers safely. Seven steps, about thirty minutes, and fluffy rice every time. Save these steps, and rice will never be a problem again.",
+    "narration": "Let's recap. Measure your rice and pick the right pot. Rinse until the water runs clear. Use the right water ratio. Bring it to a boil and stir just once. Cover and simmer on low without peeking. Rest it off the heat for ten minutes. And fluff it with a fork, then store leftovers safely. Seven steps, about thirty minutes, and fluffy rice every time. The bonus sections cover rescuing rice, flavor and burnt pots.",
     "items": [
       "Measure the rice",
       "Rinse until the water clears",

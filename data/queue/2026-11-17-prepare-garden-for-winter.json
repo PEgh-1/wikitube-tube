@@ -5,7 +5,7 @@
   "slug": "prepare-garden-for-winter",
   "category": "Garden",
   "title": "How to Prepare Your Garden for Winter (Soil, Mulch, Bulbs)",
-  "hook": "Winter can undo a whole year of gardening in a single cold snap. But a few hours of work this month can protect your soil, your perennials and your spring bulbs. Here are the seven steps to prepare your garden for winter, in the order that works best. No special skills are needed, and most of it fits into one weekend.",
+  "hook": "Winter can undo a whole year of gardening in a single cold snap. But a few hours of work this month can protect your soil, your perennials and your spring bulbs. Here are the seven steps to prepare your garden for winter, in the order that works best. No special skills are needed, and most of it fits into one weekend, plus a few extra tips.",
   "intro": "The goal of winter prep is simple. You want to remove anything that could spread disease or pests, feed the soil while it rests, and cover whatever needs protection. Do these jobs on a dry day, before the ground freezes hard, and your garden will wake up stronger and need far less work next spring. Everything we'll do uses basic tools and materials like fallen leaves and compost, which you may already have at home. Think of it as tucking your garden in for a long, healthy sleep.",
   "youNeed": [
     "Garden gloves",
@@ -83,6 +83,35 @@
       "media": "photo"
     }
   ],
+  "bonus": [
+    {
+      "label": "TROUBLESHOOTING",
+      "title": "Common winter questions",
+      "narration": "Not sure about a plant? Check whether it is hardy in your area, because hardy perennials usually need only mulch. Water evergreens well before the ground freezes. If a plant looks dead after the first frost, wait until spring before pulling it out.",
+      "tip": "Wait for spring before pulling plants",
+      "imageQuery": "frosty garden shrubs",
+      "imagePrompt": "A winter garden bed in early morning with a light frost on green shrubs and an evergreen bush, a wooden fence in the background. Photorealistic photograph for a how-to video. Bright natural light, clean and uncluttered. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "PRO TIPS",
+      "title": "Tips for an easier spring",
+      "narration": "Mark your bulb spots with small stakes, so you do not dig them up in spring. Keep a separate bin of leaves for leaf mould, which takes a year or two to break down. Brush heavy snow gently off bending branches, but never shake ones coated in ice.",
+      "tip": "Mark bulb spots with stakes",
+      "imageQuery": "garden bulbs marker stakes",
+      "imagePrompt": "Small wooden stakes pushed into dark garden soil in a neat row, a gloved hand holding a trowel next to them, soft autumn light. Photorealistic photograph for a how-to video. Bright natural light, clean and uncluttered. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "KEEP IT THAT WAY",
+      "title": "Watch the garden all winter",
+      "narration": "Walk through the garden after storms, and put back any mulch that blew away. Check stored bulbs once a month for rot or mould. Water evergreens and containers during dry spells, as long as the soil is not frozen.",
+      "tip": "Check mulch after every storm",
+      "imageQuery": "garden mulch winter",
+      "imagePrompt": "A gloved hand spreading brown bark mulch around a shrub in a calm winter garden, a wheelbarrow in the background. Photorealistic photograph for a how-to video. Bright natural light, clean and uncluttered. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    }
+  ],
   "mistakesToAvoid": {
     "narration": "Before you go, three mistakes to avoid. First, don't cut everything down to bare soil. Leaving some stems and seed heads standing gives wildlife food and shelter, and it looks lovely in frost. Second, don't mulch too thickly, and never pile it against stems, because that invites rot and nibbling rodents. And third, don't leave diseased leaves or plants in the bed or on the compost heap. A sick plant left behind is the easiest way to start next season with the same problems. Winter care is mostly about doing less, but doing it at the right time.",
     "items": [
@@ -92,7 +121,7 @@
     ]
   },
   "recap": {
-    "narration": "Let's recap. Clear spent and diseased plants. Pull weeds and rake leaves. Plant your spring bulbs. Feed the soil with compost. Mulch around perennials. Protect tender plants and pots. And drain your hoses and clean your tools. Most of this takes a single weekend, and the payoff lasts all year, so do it before the ground freezes.",
+    "narration": "Let's recap. Clear spent and diseased plants. Pull weeds and rake leaves. Plant your spring bulbs. Feed the soil with compost. Mulch around perennials. Protect tender plants and pots. And drain your hoses and clean your tools. The bonus sections add winter answers, small tips and checks.",
     "items": [
       "Clear away spent plants",
       "Pull weeds and rake leaves",

@@ -5,7 +5,7 @@
   "slug": "start-raised-bed-vegetable-garden",
   "category": "Garden",
   "title": "How to Start a Vegetable Garden in a Raised Bed",
-  "hook": "A raised bed is the easiest way to grow vegetables, even with poor soil, a bad back or a small yard. You control the soil, the weeds stay low, and the harvest is bigger. In seven steps, you'll build and plant your first raised bed this weekend. No experience is needed, and you can finish the build in an afternoon.",
+  "hook": "A raised bed is the easiest way to grow vegetables, even with poor soil, a bad back or a small yard. You control the soil, the weeds stay low, and the harvest is bigger. In seven steps, you'll build and plant your first raised bed this weekend. No experience is needed, and you can finish the build in an afternoon, and what to do when plants struggle.",
   "intro": "Raised beds warm up faster in spring, drain better, and are easier to look after than a garden dug into the ground. You can build one from simple wooden boards in an afternoon. The secret to success is a good location, a well-built frame, and a rich soil mix. We'll go through each stage, from choosing the site to planting your first seedlings, with tips to avoid the common beginner problems. A raised bed also lets you start growing on poor ground, where digging would be hard work.",
   "youNeed": [
     "Untreated wood boards",
@@ -82,6 +82,35 @@
       "media": "photo"
     }
   ],
+  "bonus": [
+    {
+      "label": "NOT WORKING?",
+      "title": "When plants struggle",
+      "narration": "Yellow leaves often mean too much water, or soil that is short of nutrients. Push a finger two inches into the soil to see which. If it is soggy, water less. If it is dry and the plants look pale, mix in some compost, or a balanced fertilizer used as the label says. If leaves have holes, check under them in the evening, and pick off slugs and caterpillars by hand.",
+      "tip": "Check the soil before you act",
+      "imageQuery": "yellow leaves vegetable plant garden",
+      "imagePrompt": "A gardener's hand turning over a green tomato leaf with a few small holes and pale patches, a raised bed with healthy plants blurred behind. Photorealistic photograph for a home how-to video. Sunny backyard garden, natural light. Adult hands, no face visible. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "GO FURTHER",
+      "title": "Get more from the same space",
+      "narration": "Once the bed is running, a few tricks make it more productive. Grow climbers like beans, peas and cucumbers up a trellis, which saves floor space. Sow fast crops like radishes between slow ones like tomatoes, and harvest them before the big plants need the room. Sow lettuce every two weeks, so you never get everything at once. A simple hoop covered with garden fabric protects young plants from light frost.",
+      "tip": "Grow up, not just out",
+      "imageQuery": "raised bed trellis beans",
+      "imagePrompt": "A wooden raised garden bed with green bean plants climbing a tall trellis at the back and rows of lettuce and radishes in front. Photorealistic photograph for a home how-to video. Sunny backyard garden, natural light. Adult hands, no face visible. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "KEEP IT HEALTHY",
+      "title": "Keep the soil healthy",
+      "narration": "Avoid stepping on the bed, because compacted soil holds less air. Do not work it when it is very wet, since it clumps and sets hard. Water at the base of the plants, so leaves stay dry, which helps prevent many fungal diseases. Remove diseased plants, and throw them in the trash instead of the compost pile. Keep the surface covered with mulch, so bare soil never dries out and washes away.",
+      "tip": "Never walk on the bed",
+      "imageQuery": "hands holding dark compost soil",
+      "imagePrompt": "Two hands cupped around a handful of dark, crumbly, rich garden soil above a raised bed, mulch visible on the surface. Photorealistic photograph for a home how-to video. Sunny backyard garden, natural light. Adult hands, no face visible. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    }
+  ],
   "mistakesToAvoid": {
     "narration": "Here are the mistakes to avoid. First, placing the bed in too much shade. Even the best soil can't make up for a lack of sun. Second, using poor soil, or filling the bed with plain garden dirt, which compacts and drains badly. And third, forgetting to water. Raised beds dry out faster than the ground, so check them often. Get the sun, the soil and the water right, and the rest is easy. A little planning before you build saves a lot of work afterward.",
     "items": [
@@ -91,7 +120,7 @@
     ]
   },
   "recap": {
-    "narration": "Let's recap. Choose a sunny, level spot. Build a frame from untreated wood. Line the bottom with cardboard. Fill with half topsoil and half compost. Plan and plant. Water deeply and add mulch. And maintain your bed and replant as crops finish. Seven steps, one weekend, and vegetables growing at your doorstep. Sun, soil and water: get those three right.",
+    "narration": "Let's recap. Choose a sunny, level spot. Build a frame from untreated wood. Line the bottom with cardboard. Fill with half topsoil and half compost. Plan and plant. Water deeply and add mulch. And maintain your bed and replant as crops finish. Seven steps, one weekend, and vegetables growing at your doorstep. Bonus sections cover what to do when plants struggle, how to get more from the same space, and how to keep the soil healthy.",
     "items": [
       "Choose a sunny, level spot",
       "Build the frame",

@@ -5,7 +5,7 @@
   "slug": "clean-pc-make-it-faster",
   "category": "Tech",
   "title": "How to Clean Your PC and Make It Faster in 10 Minutes",
-  "hook": "Is your computer slow to start, noisy, and full of things you never use? Most PCs don't need replacing, they need a good clean. In ten minutes you can clear junk files, switch off startup apps, and even blow out the dust, using seven simple steps. No technical skills are needed.",
+  "hook": "Is your computer slow to start, noisy, and full of things you never use? Most PCs don't need replacing, they need a good clean. In ten minutes you can clear junk files, switch off startup apps, and even blow out the dust, using seven simple steps. No technical skills are needed, and what to do if it is still slow.",
   "intro": "A PC slows down for two reasons. Inside the software, junk files, background programs and browser clutter pile up. Inside the case, dust blocks the airflow and heats up the processor. We'll deal with both. Everything here uses tools already built into Windows, plus a can of compressed air. You don't need to buy any software, and you can't harm your files by following these steps in order. So let's start with the easiest win, and work our way toward the dust.",
   "youNeed": [
     "A Windows PC",
@@ -81,6 +81,35 @@
       "media": "photo"
     }
   ],
+  "bonus": [
+    {
+      "label": "STILL STUCK?",
+      "title": "If the PC is still slow",
+      "narration": "Still slow? Open Task Manager and see which program uses the most memory or disk. Update or remove any app that is always at the top. If your PC still has an old hard drive, a solid state drive is usually the biggest speed upgrade you can make.",
+      "tip": "A solid state drive is a big upgrade",
+      "imageQuery": "desktop computer slow monitor",
+      "imagePrompt": "A desktop computer monitor on a desk with a blurred loading circle on screen and a hand resting on the mouse, calm daylight. Photorealistic photograph for a how-to video. Bright natural light, clean and uncluttered. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "CALL A PRO",
+      "title": "When to call a technician",
+      "narration": "Some signs point to hardware. Loud grinding or clicking from the drive means you should back up your files right away. Repeated overheating shutdowns suggest a failing fan. If you smell burning, turn the PC off, unplug it, and do not switch it on again.",
+      "tip": "Back up first if the drive clicks",
+      "imageQuery": "computer repair technician",
+      "imagePrompt": "A technician's hands holding a small screwdriver over an opened desktop computer on a workbench, tidy tools around, face not visible. Photorealistic photograph for a how-to video. Bright natural light, clean and uncluttered. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "KEEP IT THAT WAY",
+      "title": "Keep it running fast",
+      "narration": "Restart your PC at least once a week, and let updates install. Download programs only from the maker's own site or the official store, and untick extra programs offered during installs. Keep a backup of your important files, and put a quarterly reminder in your calendar.",
+      "tip": "Untick extras during installs",
+      "imageQuery": "laptop on desk calendar",
+      "imagePrompt": "A laptop on a clean desk next to a small paper calendar and a cup of tea, soft window light, shot from a slight angle. Photorealistic photograph for a how-to video. Bright natural light, clean and uncluttered. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    }
+  ],
   "mistakesToAvoid": {
     "narration": "Here are three mistakes to avoid. First, don't install registry cleaners or PC booster programs. They promise speed, but they can break Windows or sell you something you don't need. Second, never delete files from the Windows folder, even if they look old. And third, don't use a vacuum cleaner or a damp cloth inside your computer. Static electricity and moisture can destroy components, so stay with compressed air and a dry cloth, and always unplug the PC first. If you feel unsure about opening your computer, simply clean the outside and the vents, and leave the rest to a technician.",
     "items": [
@@ -90,7 +119,7 @@
     ]
   },
   "recap": {
-    "narration": "Let's recap. Restart and update Windows. Switch off startup apps. Remove programs you don't use. Clear browser clutter. Delete junk files. Run a security scan. And blow the dust out of the case. Do this routine every few months, and your PC will start faster, run quieter and last longer, without any need for extra software. Mark a reminder in your calendar for three months from now. Seven small jobs, one fast computer.",
+    "narration": "Let's recap. Restart and update Windows. Switch off startup apps. Remove programs you don't use. Clear browser clutter. Delete junk files. Run a security scan. And blow the dust out of the case. Do this routine every few months, and your PC will start faster, run quieter and last longer, without any need for extra software. Mark a reminder in your calendar for three months from now. If it is still slow, see the bonus sections, and stay fast with a quarterly reminder.",
     "items": [
       "Restart and update Windows",
       "Switch off startup apps",

@@ -5,7 +5,7 @@
   "slug": "clean-windows-without-streaks",
   "category": "Home",
   "title": "How to Clean Windows Without Streaks (Inside and Out)",
-  "hook": "You wash your windows, and they dry with streaks, smears and cloudy patches. It's frustrating, and the mistake is usually in the method, not the cleaner. In seven steps, you'll learn how professionals get windows crystal clear, inside and out, with simple supplies. No expensive products are needed.",
+  "hook": "You wash your windows, and they dry with streaks, smears and cloudy patches. It's frustrating, and the mistake is usually in the method, not the cleaner. In seven steps, you'll learn how professionals get windows crystal clear, inside and out, with simple supplies. No expensive products are needed, and how to fix streaks that still appear.",
   "intro": "Streaks happen for three main reasons. Cleaning in direct sun, so the liquid dries too fast. Using too much cleaner, which leaves a film. And using the wrong cloth, which leaves lint or just pushes dirt around. Fix those three things, and you can get a streak-free result with a bucket and a squeegee. We'll cover windows you can safely reach from the ground floor, from the inside and the outside. Never lean out of upper-floor windows, or use ladders without help. If you wash from the top down, and from one window to the next, it takes about ten minutes per window.",
   "youNeed": [
     "A bucket of warm water",
@@ -82,6 +82,35 @@
       "media": "photo"
     }
   ],
+  "bonus": [
+    {
+      "label": "NOT WORKING?",
+      "title": "Still streaky? Find the cause",
+      "narration": "If streaks remain, work out which side they are on. Wipe the inside with horizontal strokes and the outside with vertical strokes. The direction of a streak then tells you which side to fix. Streaks usually mean too much soap, a dirty blade or cloth, or hard water. For hard water spots, wipe with a cloth dampened with white vinegar and water. Do not wash microfiber cloths with fabric softener, because it leaves a film.",
+      "tip": "Inside horizontal, outside vertical",
+      "imageQuery": "streaky window glass sunlight",
+      "imagePrompt": "A window pane with faint streaks visible in low sunlight, a hand holding a microfiber cloth ready to wipe, bright room behind. Photorealistic photograph for a home how-to video. Bright, tidy home interior, soft daylight. Adult hands, no face visible. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "CALL A PRO",
+      "title": "When to call a professional",
+      "narration": "Some windows are better left to professionals. Upper-floor windows, and any glass you can only reach by leaning out, are a fall risk. Fog or moisture trapped between the two panes of a double-pane window means the seal has failed, and cleaning cannot fix it. Paint overspray and etching from hard water also need an expert's tools. A pro can tell you whether the glass can be saved.",
+      "tip": "Fog between panes needs a pro",
+      "imageQuery": "window cleaner professional ladder house",
+      "imagePrompt": "A professional window cleaner in work clothes on a ladder wiping a large upper-floor window of a house with a squeegee, seen from the garden. Photorealistic photograph for a home how-to video. Bright, tidy home interior, soft daylight. Adult hands, no face visible. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "KEEP IT CLEAN",
+      "title": "Keep windows clear longer",
+      "narration": "A few habits keep glass clear longer. Wipe fingerprints and smudges right away with a damp microfiber cloth. Wash your cloths without fabric softener, and let them air dry. Clean the glass a couple of times a year, and the screens and tracks at the same time. Wipe away condensation on cold mornings, so mold does not start. Keep a small squeegee near the bathroom window for quick wipes.",
+      "tip": "Wipe smudges right away",
+      "imageQuery": "clean window sunlight living room",
+      "imagePrompt": "A spotless large window flooding a living room with sunlight, a folded microfiber cloth and a small squeegee on the windowsill. Photorealistic photograph for a home how-to video. Bright, tidy home interior, soft daylight. Adult hands, no face visible. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    }
+  ],
   "mistakesToAvoid": {
     "narration": "Here are the mistakes to avoid. First, cleaning in direct sunlight. The liquid dries before you can wipe, and the sun gives you streaks. Second, using too much soap or cleaner. A little is enough, and more only leaves a film. And third, using dirty cloths or a dirty squeegee blade. They spread dirt, rather than lifting it. For upper floors, hire a professional or use a proper extension pole, and never lean out of a window. Be careful with glass edges and ladders, and ask for help whenever you can.",
     "items": [
@@ -91,7 +120,7 @@
     ]
   },
   "recap": {
-    "narration": "Let's recap. Pick the right time, and gather your supplies. Dust the frame and the glass. Mix a simple solution with just a little soap. Wash the glass. Squeegee in clean strokes. Dry the edges and polish. And clean the tracks and screens. Seven steps, about an hour for a whole house, and windows that let the light in. Choose the right time, use less soap, and keep your tools clean.",
+    "narration": "Let's recap. Pick the right time, and gather your supplies. Dust the frame and the glass. Mix a simple solution with just a little soap. Wash the glass. Squeegee in clean strokes. Dry the edges and polish. And clean the tracks and screens. Seven steps, about an hour for a whole house, and windows that let the light in. Bonus sections cover how to track down stubborn streaks, when to call a professional, and how to keep windows clear longer.",
     "items": [
       "Pick the right time and gather supplies",
       "Dust the frame and the glass",

@@ -5,7 +5,7 @@
   "slug": "car-maintenance-beginners",
   "category": "Car",
   "title": "Car Maintenance for Beginners: 8 Checks to Do Yourself",
-  "hook": "You don't need to be a mechanic to keep your car safe and reliable. Eight simple checks, done once a month, can catch problems early and save you hundreds on repairs. Here's how to do each one in minutes, with no special tools and no jacks. It's easier than you think.",
+  "hook": "You don't need to be a mechanic to keep your car safe and reliable. Eight simple checks, done once a month, can catch problems early and save you hundreds on repairs. Here's how to do each one in minutes, with no special tools and no jacks. It's easier than you think. We also cover what to do when a reading looks wrong.",
   "intro": "Regular checks are the cheapest insurance for your car. Every check in this video is visual, or takes a single simple tool. We won't touch brakes, jack up the car or work on anything that could be dangerous. Park on level ground, switch off the engine, put the handbrake on, and keep your owner's manual nearby, because it shows exactly where everything is located on your model. Set a reminder on the first weekend of each month, and the whole routine takes about twenty minutes.",
   "youNeed": [
     "Your owner's manual",
@@ -91,6 +91,35 @@
       "media": "photo"
     }
   ],
+  "bonus": [
+    {
+      "label": "TROUBLESHOOTING",
+      "title": "When a reading looks wrong",
+      "narration": "If a reading looks odd, check it again before you worry. Cold weather lowers tire pressure, so a warning light on the first cold morning often just needs air. Oil that looks dark is not automatically bad, because oil darkens as it works. Milky oil, or an oily film in the coolant, means stop driving and call a mechanic.",
+      "tip": "Milky oil means stop and call",
+      "imageQuery": "car dipstick oil check",
+      "imagePrompt": "A hand holding a car dipstick wiped on a white rag to show a thin line of amber oil, the open hood of a car blurred in the background, daylight. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "CALL A PRO",
+      "title": "When to call a mechanic",
+      "narration": "A red warning light, or a temperature needle rising into the red, means pull over safely and switch the engine off. Grinding or squealing when you brake, or a car that pulls to one side, needs a professional. A puddle under the car, or a burning smell, is another reason to call.",
+      "tip": "Red light: stop safely",
+      "imageQuery": "mechanic garage car inspection",
+      "imagePrompt": "A mechanic in blue coveralls looking at the open hood of a car in a bright garage, a rolling tool cart in the background, seen from behind so no face is visible. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "PREVENTION",
+      "title": "Make it a monthly habit",
+      "narration": "Pick one day each month, like the first Saturday, and set a reminder on your phone. Write each reading in a notes app, so you can spot changes. Follow the service schedule in your manual for oil changes and tire rotation.",
+      "tip": "Same day every month",
+      "imageQuery": "car glove box tire gauge",
+      "imagePrompt": "An open car glove box holding a tire pressure gauge, a folded rag, a small flashlight and an owner's manual, neatly arranged, interior light. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    }
+  ],
   "mistakesToAvoid": {
     "narration": "Here are three mistakes beginners make. First, checking fluids on a hot engine or on sloping ground. The readings will be wrong, and hot coolant is dangerous. Second, ignoring small warnings. A dim light, a low reading or a strange noise is much cheaper to fix early. And third, trying to do jobs beyond your experience, like working under a car or on the brakes. For those, always use a professional. Write the date of each check in your phone, so that you can spot changes over time.",
     "items": [
@@ -100,7 +129,7 @@
     ]
   },
   "recap": {
-    "narration": "Let's recap. Check your tire pressure. Inspect the tread. Check the engine oil. Look at the coolant level. Top up the washer fluid and check the wipers. Test all your lights. Look over the battery. And read the dashboard and your manual. Eight quick checks, once a month, and your car will be safer and cheaper to run. Make it a habit, and you'll catch problems early.",
+    "narration": "Let's recap. Check your tire pressure. Inspect the tread. Check the engine oil. Look at the coolant level. Top up the washer fluid and check the wipers. Test all your lights. Look over the battery. And read the dashboard and your manual. Eight quick checks, once a month, and your car will be safer and cheaper to run. If a reading looks wrong, double-check it, and call a mechanic for red warnings.",
     "items": [
       "Check tire pressure",
       "Inspect your tire tread",

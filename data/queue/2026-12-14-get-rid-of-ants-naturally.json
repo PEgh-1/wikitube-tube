@@ -5,7 +5,7 @@
   "slug": "get-rid-of-ants-naturally",
   "category": "Home",
   "title": "How to Get Rid of Ants Naturally (Garden and Kitchen)",
-  "hook": "A line of ants marching across your kitchen counter is annoying, and spraying chemicals around food and pets isn't appealing. The good news is that you can solve most ant problems naturally. In seven steps, you'll learn how to find them, block them and keep them out, indoors and in the garden. It takes patience, but it works.",
+  "hook": "A line of ants marching across your kitchen counter is annoying, and spraying chemicals around food and pets isn't appealing. The good news is that you can solve most ant problems naturally. In seven steps, you'll learn how to find them, block them and keep them out, indoors and in the garden. It takes patience, but it works, and what to do if they keep coming back.",
   "intro": "Ants are looking for food, water and shelter. They follow invisible scent trails left by scouts, so one tiny crumb can bring an entire colony. To get rid of them for good, you have to do three things. Remove what attracts them, erase their trails, and block the ways in. Natural methods work best when you combine them. Safety note: keep any oils, powders or cleaners away from pets and children, and never mix products. Ants are actually useful outdoors, as they aerate soil and eat pests, so our goal is only to keep them out of your home.",
   "youNeed": [
     "White vinegar and water",
@@ -82,6 +82,35 @@
       "media": "photo"
     }
   ],
+  "bonus": [
+    {
+      "label": "NOT WORKING?",
+      "title": "If the ants keep coming",
+      "narration": "If ants keep coming back, they probably have another way in. Watch for a second trail, and check damp spots, such as under sinks and around window frames. Ants love moisture, so fix any leak. Look outside too, because plants or branches touching the wall act as bridges. Keep wiping with vinegar every day for a week or two. A new trail only means another entry point to close.",
+      "tip": "A new trail is a new entry point",
+      "imageQuery": "ants trail window frame",
+      "imagePrompt": "A thin line of small black ants walking along a white window frame and sill, a hand holding a damp cloth nearby. Photorealistic photograph for a home how-to video. Bright, tidy home interior, soft daylight. Adult hands, no face visible. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "PRO TIPS",
+      "title": "Identify your ants",
+      "narration": "Knowing which ants you have makes the fix easier. Look at the size, the color and how they move. Take a clear photo of a few ants, or tape one to a card. A local garden center or pest control service can often identify them from a photo. Note where and when you see them, such as at night in the kitchen. That record helps you, or a pro, decide where to focus.",
+      "tip": "A clear photo helps identification",
+      "imageQuery": "ant close up magnifying glass",
+      "imagePrompt": "A magnifying glass held over a few small black ants on a kitchen counter, the ants sharply in focus, a smartphone camera pointing at them. Photorealistic photograph for a home how-to video. Bright, tidy home interior, soft daylight. Adult hands, no face visible. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "PREVENTION",
+      "title": "Keep ants out for good",
+      "narration": "Trim branches and shrubs that touch the walls. Move mulch and firewood a few inches away from the foundation. Keep trash can lids shut, and rinse recycling before you store it. Empty the pet water bowl at night, and wipe up pet food. Inside, check the fruit bowl and the corners of the pantry each week. Ants only stay where they find something to eat.",
+      "tip": "Cut off food, water and bridges",
+      "imageQuery": "trimming shrubs near house wall",
+      "imagePrompt": "Pruning shears trimming a shrub branch that touches the outside wall of a house, a clear gap left between the plants and the wall. Photorealistic photograph for a home how-to video. Sunny backyard garden, natural light. Adult hands, no face visible. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    }
+  ],
   "mistakesToAvoid": {
     "narration": "Here are the mistakes to avoid. First, spraying the visible ants without removing the food source. More will come. Second, using strong chemicals or essential oils around pets and children. Even natural products can be harmful in the wrong place. And third, giving up too early. Natural methods work through repetition, so keep it up for at least a week. If the problem keeps growing, there may be a nest in your wall. Also remember that the ants you see are only a small part of the colony, so the real fix is cutting off their supply. Be patient, be consistent, and be careful around pets.",
     "items": [
@@ -91,7 +120,7 @@
     ]
   },
   "recap": {
-    "narration": "Let's recap. Find the trail and the entry point. Clean up food and water sources. Erase the scent trails with vinegar. Seal the entry points. Use natural deterrents like cinnamon or diatomaceous earth. Deal with ants and aphids in the garden. And be consistent, and know when to call a professional. Seven steps, no harsh chemicals, and a kitchen that stays ant free. Remove, erase, block, and repeat. Do that for a week, and most kitchens are ant free.",
+    "narration": "Let's recap. Find the trail and the entry point. Clean up food and water sources. Erase the scent trails with vinegar. Seal the entry points. Use natural deterrents like cinnamon or diatomaceous earth. Deal with ants and aphids in the garden. And be consistent, and know when to call a professional. Seven steps, no harsh chemicals, and a kitchen that stays ant free. Remove, erase, block, and repeat. Bonus sections cover what to do if the ants keep coming, how to identify them, and how to keep them out for good.",
     "items": [
       "Find the trail and the entry point",
       "Clean up food and water sources",

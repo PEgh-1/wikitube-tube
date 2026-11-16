@@ -5,7 +5,7 @@
   "slug": "clean-between-oven-door-glass",
   "category": "Kitchen",
   "title": "How to Clean Between the Glass on Your Oven Door",
-  "hook": "Greasy streaks and dark spots trapped between the panes of your oven door can't be reached with a cloth. It's one of the most annoying cleaning problems in any kitchen. But with the right steps, you can get inside the door safely and make the glass crystal clear again. Take it slowly and it's very manageable.",
+  "hook": "Greasy streaks and dark spots trapped between the panes of your oven door can't be reached with a cloth. It's one of the most annoying cleaning problems in any kitchen. But with the right steps, you can get inside the door safely and make the glass crystal clear again. Take it slowly and it's very manageable. We also cover what to do if the door will not come apart.",
   "intro": "Most oven doors are made of two or three layers of glass, and splashes of grease get in through small vents at the top. To clean them, you need to remove the door, and take the glass apart. That sounds scary, but on most ovens it takes about thirty minutes, and requires only a screwdriver. A word of caution before we start. Door designs vary, so look at your manual or the maker's website for the exact method for your model. If your door is sealed and has no screws, don't force it, and talk to the manufacturer.",
   "youNeed": [
     "A screwdriver",
@@ -82,6 +82,35 @@
       "media": "photo"
     }
   ],
+  "bonus": [
+    {
+      "label": "STILL STUCK?",
+      "title": "If the glass stays cloudy",
+      "narration": "If the glass is still cloudy after washing, check each pane on both sides. Many doors have three layers, and the film can sit on a surface you skipped. A haze that survives a careful wash is usually etching, damage from years of grease and strong cleaners, and it cannot be polished away. In that case, order replacement glass from the maker using your oven's model number.",
+      "tip": "Order glass by model number",
+      "imageQuery": "oven door glass cloudy",
+      "imagePrompt": "A hand holding a clean glass oven door pane up to a window to check for haze, a folded towel and a small screw cup on the kitchen table in the background. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "CALL A PRO",
+      "title": "When to call a technician",
+      "narration": "Some situations call for a technician. Hinge springs are under tension, so if the door will not release or snaps back when you remove it, stop and call. If you have a gas oven and smell gas at any point, leave the house, and call your gas emergency number from outside. Do not switch anything on or off, and stay out until it is safe.",
+      "tip": "Smell gas? Leave, then call",
+      "imageQuery": "oven repair technician",
+      "imagePrompt": "A technician in work gloves crouching in front of a freestanding oven with its door open, a screwdriver in one hand and a small toolbox on the floor, no face visible. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "KEEP IT CLEAN",
+      "title": "Keep grease off the glass",
+      "narration": "A few habits keep grease from building up again. Cover roasting dishes with a lid or loose foil, so fat does not spit onto the glass. Put a baking sheet on the lower rack to catch drips. Wipe the inside of the door after it has cooled, while spills are still soft. Do not rub the rubber seal around the door, because cleaners can damage it.",
+      "tip": "Cover dishes, catch the drips",
+      "imageQuery": "clean oven inside kitchen",
+      "imagePrompt": "A clean oven with its door open showing a lower rack with a baking sheet, a covered roasting dish on the middle rack, bright kitchen light. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    }
+  ],
   "mistakesToAvoid": {
     "narration": "Here are the mistakes to avoid. First, rushing without reading your manual or taking photos. If you can't remember how the parts fit, reassembly is hard. Second, using abrasive tools or razor blades on the glass, which leave scratches that trap grease. And third, forcing parts that don't want to move. If something sticks, stop and check the instructions, or ask a technician. Safety comes first with ovens, glass and hinges. If anything feels unsafe, a technician can do this job quickly.",
     "items": [
@@ -91,7 +120,7 @@
     ]
   },
   "recap": {
-    "narration": "Let's recap. Switch off the oven and let it cool. Remove the door, using the hinge locks. Open the top trim. Slide out the glass panes. Wash and dry each pane. Reassemble in the same order. And refit the door and test it. Seven steps, about forty minutes, and an oven door you can see through again. Photos and patience are the secret tools here.",
+    "narration": "Let's recap. Switch off the oven and let it cool. Remove the door, using the hinge locks. Open the top trim. Slide out the glass panes. Wash and dry each pane. Reassemble in the same order. And refit the door and test it. Seven steps, about forty minutes, and an oven door you can see through again. If the glass stays cloudy, replace it, and call a technician if anything feels unsafe.",
     "items": [
       "Switch off and cool the oven",
       "Remove the oven door",

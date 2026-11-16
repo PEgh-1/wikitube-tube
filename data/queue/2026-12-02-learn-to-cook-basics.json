@@ -5,7 +5,7 @@
   "slug": "learn-to-cook-basics",
   "category": "Kitchen",
   "title": "Learn to Cook: 8 Kitchen Basics Every Beginner Should Know",
-  "hook": "Cooking feels hard when you're a beginner, but most of it comes down to a handful of habits. Learn these eight kitchen basics, and every recipe you try will turn out better. Chefs use them every day, and you can start with your very next meal. You don't need talent, just practice.",
+  "hook": "Cooking feels hard when you're a beginner, but most of it comes down to a handful of habits. Learn these eight kitchen basics, and every recipe you try will turn out better. Chefs use them every day, and you can start with your very next meal. You don't need talent, just practice. We also cover how to rescue a dish that goes wrong.",
   "intro": "Recipes tell you what to cook, but not how to cook well. The difference between a stressful dinner and a relaxed one usually comes from technique. Prepare before you start, use your knife safely, season as you go, control the heat, and keep your kitchen clean. None of this needs expensive equipment. A sharp knife, a pan, and some attention are enough. Let's go through the eight basics one at a time. Take one basic at a time, and don't try to master everything in a single week.",
   "youNeed": [
     "A sharp chef's knife",
@@ -91,6 +91,35 @@
       "media": "photo"
     }
   ],
+  "bonus": [
+    {
+      "label": "STILL STUCK?",
+      "title": "Rescue a dish that went wrong",
+      "narration": "Even good cooks have dishes go wrong, and most can be saved. If a dish is too salty, add more of the other ingredients, or a splash of water and a little lemon juice. If it is too spicy, stir in something creamy or a pinch of sugar. If the bottom has burned, do not scrape it.",
+      "tip": "Never scrape the burnt part",
+      "imageQuery": "cooking pot stirring kitchen",
+      "imagePrompt": "A wooden spoon stirring a pot of simmering tomato sauce on a stove, a clean spoon and a small bowl of lemon wedges on the counter beside it, warm kitchen light. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "PRO TIPS",
+      "title": "Small upgrades that matter",
+      "narration": "Pat meat and vegetables dry before they hit the pan, because dry food browns and wet food steams. Keep salt in a small bowl, so you can season with your fingers and feel how much you use. A cheap digital thermometer takes the guesswork out of meat.",
+      "tip": "Dry food browns, wet food steams",
+      "imageQuery": "chef seasoning salt kitchen",
+      "imagePrompt": "A hand pinching coarse salt from a small wooden bowl over a seared chicken breast resting on a cutting board, a digital thermometer lying beside it, bright home kitchen. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "KEEP PRACTICING",
+      "title": "Keep getting better",
+      "narration": "Choose one easy recipe, like scrambled eggs, roasted vegetables or a pasta sauce, and cook it three times in a week. Each time, change one thing, and notice the difference. Keep a basic pantry of oil, salt, pepper, garlic, onions and canned tomatoes. Soon you will cook without checking the recipe at every step.",
+      "tip": "Cook the same dish three times",
+      "imageQuery": "home cooking dinner table",
+      "imagePrompt": "A simple home-cooked dinner of roasted vegetables and rice on a wooden table, a small notebook and a pen beside the plate, warm evening light. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    }
+  ],
   "mistakesToAvoid": {
     "narration": "Here are the mistakes to avoid. First, rushing without preparing. Chopping while your onions burn is the fastest road to stress. Second, ignoring the heat. Burnt garlic and raw centers are usually heat problems, not recipe problems. And third, not tasting. A recipe cannot know your ingredients, so your tongue has to be the judge. Follow the recipe, but trust what you taste, and adjust. Everyone burns something at first, and each mistake teaches you something new.",
     "items": [
@@ -100,7 +129,7 @@
     ]
   },
   "recap": {
-    "narration": "Let's recap. Read the recipe and prepare everything first. Use your knife safely. Season as you go. Control the heat. Don't crowd the pan. Practice food safety. Let food rest. And clean as you cook. Eight habits, and every recipe you try will taste better. Cooking is a skill you build with practice, so pick a recipe and start tonight. Practice these eight, and you will cook with confidence.",
+    "narration": "Let's recap. Read the recipe and prepare everything first. Use your knife safely. Season as you go. Control the heat. Don't crowd the pan. Practice food safety. Let food rest. And clean as you cook. Eight habits, and every recipe you try will taste better. Cooking is a skill you build with practice, so pick a recipe and start tonight. And if a dish goes wrong, most mistakes can be saved.",
     "items": [
       "Read the recipe, then prepare",
       "Use your knife safely",

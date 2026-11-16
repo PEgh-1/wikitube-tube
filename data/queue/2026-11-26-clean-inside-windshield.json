@@ -5,7 +5,7 @@
   "slug": "clean-inside-windshield",
   "category": "Car",
   "title": "How to Clean Inside Your Windshield (No Haze, No Streaks)",
-  "hook": "You clean the inside of your windshield, and it looks worse than before. Smears, a greasy haze, and a blinding glare at sunset. The problem isn't you, it's the method. In seven steps, you'll learn the simple way to get the glass truly clear. It takes about ten minutes, costs almost nothing, and you will notice the difference immediately.",
+  "hook": "You clean the inside of your windshield, and it looks worse than before. Smears, a greasy haze, and a blinding glare at sunset. The problem isn't you, it's the method. In seven steps, you'll learn the simple way to get the glass truly clear. It takes about ten minutes, costs almost nothing, and you will notice the difference immediately. Plus a fix for stubborn haze.",
   "intro": "The inside of a windshield gets a special kind of dirt. It's a thin oily film, caused by plastics and vinyl in the dashboard that release vapors in the heat, and by your own breath and fingers. A regular wipe just spreads that film around. The fix is a clean dry start, two cloths, and a very light touch of cleaner. Everything we'll use is cheap and safe for the car's interior. Before we start, remember never to clean the windshield while driving, and only do this with the car parked.",
   "youNeed": [
     "Two clean microfiber cloths",
@@ -82,6 +82,35 @@
       "media": "photo"
     }
   ],
+  "bonus": [
+    {
+      "label": "STILL STUCK?",
+      "title": "Haze that keeps coming back",
+      "narration": "Still hazy? Try a two-pass wash: first a cloth barely damp with distilled water and one drop of dish soap, which lifts oily film, then plain distilled water to remove the soap. If haze returns within days, the dashboard plastic is probably releasing vapor onto the glass.",
+      "tip": "Soap first, then plain water",
+      "imageQuery": "car windshield cleaning microfiber",
+      "imagePrompt": "A hand holding a folded white microfiber cloth against the inside of a car windshield, a small glass bowl of clear water on the dashboard towel, sunlit hazy glass on one side and clear glass on the other, interior view from the passenger seat. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "CALL A PRO",
+      "title": "When to call a glass shop",
+      "narration": "Some windshield problems are not a cleaning job. A small chip can often be repaired if you act early, so cover it with clear tape to keep dirt out. After a replacement, a camera behind the mirror may need recalibrating.",
+      "tip": "Tape a chip, then get it repaired early",
+      "imageQuery": "windshield chip repair",
+      "imagePrompt": "Close-up of a small star-shaped chip in a car windshield with a strip of clear tape over it, blurred road and trees visible through the glass, daylight. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "KEEP IT CLEAN",
+      "title": "Keep the glass clear longer",
+      "narration": "Keep your glass cloths in a zip bag in the glove box, so they stay clean. Wipe your wiper blades with a damp cloth now and then, because a dirty blade smears the glass. Replace the cabin air filter on the schedule in your manual, since a clogged one lets in more dust.",
+      "tip": "One cloth just for glass",
+      "imageQuery": "car interior dashboard clean",
+      "imagePrompt": "A tidy car interior seen from the driver seat, a folded microfiber cloth resting on the passenger seat, a spotless windshield showing a bright street ahead, soft morning light. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    }
+  ],
   "mistakesToAvoid": {
     "narration": "Let's look at the mistakes that cause streaks. First, spraying cleaner directly onto the glass. It runs onto your dashboard, and it leaves too much liquid behind. Second, using a dirty or used cloth, or a paper towel, which leaves lint. And third, cleaning in the sun, on hot glass, where the liquid dries before you can wipe it. Do the job in the shade, use clean microfiber, and go lightly with the cleaner. It really is that simple. Keep a dedicated glass cloth, and wash it without fabric softener, which leaves a greasy film.",
     "items": [
@@ -91,7 +120,7 @@
     ]
   },
   "recap": {
-    "narration": "Let's recap. Park in the shade and prepare the car. Dust and wipe the glass dry first. Find a way to reach every corner. Apply a little cleaner to the cloth, not the glass. Buff with a second dry cloth. Check the glass at an angle. And keep the haze from coming back with a few good habits. Seven steps, about ten minutes, and a windshield you can't see at all. Do it once, and you will see why it matters.",
+    "narration": "Let's recap. Park in the shade and prepare the car. Dust and wipe the glass dry first. Find a way to reach every corner. Apply a little cleaner to the cloth, not the glass. Buff with a second dry cloth. Check the glass at an angle. And keep the haze from coming back with a few good habits. Seven steps, about ten minutes, and a windshield you can't see at all. If haze comes back, use the two-pass wash, and know when a glass shop is needed.",
     "items": [
       "Park in the shade and prep",
       "Dust and wipe it dry first",

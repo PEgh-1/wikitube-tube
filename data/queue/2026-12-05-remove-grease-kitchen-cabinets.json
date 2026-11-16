@@ -5,7 +5,7 @@
   "slug": "remove-grease-kitchen-cabinets",
   "category": "Home",
   "title": "How to Remove Sticky Grease From Kitchen Cabinets Easily",
-  "hook": "Sticky, yellowish film on your kitchen cabinets, especially above the stove and around the handles. It attracts dust, and gets worse every month. In seven steps, you'll learn how to dissolve it with gentle products, with no harsh scrubbing and no damage to the finish. It's easier than it looks.",
+  "hook": "Sticky, yellowish film on your kitchen cabinets, especially above the stove and around the handles. It attracts dust, and gets worse every month. In seven steps, you'll learn how to dissolve it with gentle products, with no harsh scrubbing and no damage to the finish. It's easier than it looks. We also cover what to do if it still feels sticky.",
   "intro": "Cabinet grease is a mix of cooking oil vapor, steam and dust that sticks to every surface in your kitchen. Because it builds up slowly, you may not notice until you touch it. The trick is to use a degreaser that breaks the oil down, rather than scrubbing hard, which can wear the finish. We'll start with the mildest option, and move up only if needed. First, a quick note. Always test any cleaner in a hidden spot. The whole job is gentle rather than heavy, so put on some music and take it one door at a time. You will be surprised how different the kitchen looks afterwards.",
   "youNeed": [
     "Warm water and dish soap",
@@ -82,6 +82,35 @@
       "media": "photo"
     }
   ],
+  "bonus": [
+    {
+      "label": "STILL STUCK?",
+      "title": "If it still feels sticky",
+      "narration": "If a spot still feels tacky, the grease has probably hardened. Lay a cloth wrung out in hot soapy water on the spot for a couple of minutes to soften it, then wipe. Handles and knobs get the oiliest, so clean them with a soft toothbrush. A stickiness that stays after rinsing may be leftover soap, so wipe once more with plain water.",
+      "tip": "Soften hardened grease with a warm cloth",
+      "imageQuery": "kitchen cabinet handle cleaning",
+      "imagePrompt": "A hand with a soft toothbrush cleaning around a brushed metal cabinet handle on a white kitchen cabinet door, a damp yellow microfiber cloth beside it, bright morning light. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "GO FURTHER",
+      "title": "When cleaning is not enough",
+      "narration": "Sometimes the problem is the finish, not the grease. Dull patches, peeling edges or swollen corners mean the surface is already damaged, and cleaning cannot fix that. Thermofoil doors near an oven can peel because of heat. For small chips on painted doors, matching touch-up paint can help. If many doors are damaged, a cabinet painter or refacing company can advise you.",
+      "tip": "Clean before any touch-up",
+      "imageQuery": "painted kitchen cabinet touch up",
+      "imagePrompt": "A hand holding a small brush with white paint near a chipped corner on a kitchen cabinet door, a clean damp cloth lying on the counter below, bright daylight. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "KEEP IT CLEAN",
+      "title": "Keep grease off the doors",
+      "narration": "Some habits keep grease away from the doors. Use a splatter screen on the pan when you fry. Wipe the oil bottle and spice jars you keep near the stove, because they carry grease onto the cabinets when you touch them. Let the range hood run for a few minutes after cooking, to clear the airborne grease. Dust the tops of the cabinets once a season.",
+      "tip": "Run the hood after cooking",
+      "imageQuery": "splatter screen frying pan",
+      "imagePrompt": "A stainless steel frying pan with a mesh splatter screen on a stove, clean white cabinets above it and a range hood glowing softly, bright modern kitchen. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    }
+  ],
   "mistakesToAvoid": {
     "narration": "Here are the mistakes to avoid. First, using too much water on wood. It can swell, warp or stain the surface, so keep the cloth damp, not wet. Second, scrubbing hard with abrasive pads, which scratch the finish and make future grease stick even more. And third, using harsh chemicals without testing. Some cleaners strip paint or varnish. Be gentle, test first, and let the soap do the work. A little patience beats a lot of scrubbing every time.",
     "items": [
@@ -91,7 +120,7 @@
     ]
   },
   "recap": {
-    "narration": "Let's recap. Clear the area and test in a hidden spot. Dust and dry wipe first. Mix a gentle degreaser. Wipe and let it work. Treat thick buildup with baking soda. Rinse and dry thoroughly. And stop the grease from coming back with a weekly wipe. Seven steps, about an hour, and kitchen cabinets that feel clean again. Gentle products, a little time, and dry cloths do all the work.",
+    "narration": "Let's recap. Clear the area and test in a hidden spot. Dust and dry wipe first. Mix a gentle degreaser. Wipe and let it work. Treat thick buildup with baking soda. Rinse and dry thoroughly. And stop the grease from coming back with a weekly wipe. Seven steps, about an hour, and kitchen cabinets that feel clean again. If it stays sticky, soften it with warmth, and keep grease away with a few habits.",
     "items": [
       "Empty the area and test",
       "Dust and dry wipe first",

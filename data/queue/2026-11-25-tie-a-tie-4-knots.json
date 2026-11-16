@@ -5,7 +5,7 @@
   "slug": "tie-a-tie-4-knots",
   "category": "Style",
   "title": "How to Tie a Tie: 4 Knots, Step by Step",
-  "hook": "Interview tomorrow, a wedding on Saturday, and you still can't tie a tie? Don't worry, it is much easier than it looks. In the next few minutes, you'll learn four classic knots, from the quick four-in-hand to the full Windsor, one clear move at a time. No tie-tying experience is needed, and you can follow along with any tie you own.",
+  "hook": "Interview tomorrow, a wedding on Saturday, and you still can't tie a tie? Don't worry, it is much easier than it looks. In the next few minutes, you'll learn four classic knots, from the quick four-in-hand to the full Windsor, one clear move at a time. No tie-tying experience is needed, and you can follow along with any tie you own, plus a few helpful extras.",
   "intro": "Every tie knot uses the same idea. The wide end of the tie does all the work, while the narrow end hangs still. Once you learn the setup, each knot is just a different sequence of crossing, wrapping and threading. We'll go from the simplest knot to the most formal one. Stand in front of a mirror, take your time, and remember that even people who tie a tie every day needed a few tries at the beginning. Don't worry about speed at first, because accuracy comes before speed.",
   "youNeed": [
     "A shirt with a collar",
@@ -81,6 +81,35 @@
       "media": "photo"
     }
   ],
+  "bonus": [
+    {
+      "label": "TROUBLESHOOTING",
+      "title": "Fixing a crooked knot",
+      "narration": "If your knot leans to one side, one pass was loose, so pull each pass snug. If the seam shows at the front, the tie is twisted, so lay it flat and start again. If the wide end ends up too short, start with the narrow end a little higher.",
+      "tip": "Snug every pass before the next",
+      "imageQuery": "man adjusting tie mirror",
+      "imagePrompt": "A man in a white shirt adjusting a navy tie knot in front of a mirror, face not visible, soft window light. Photorealistic photograph for a how-to video. Bright natural light, clean and uncluttered. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "GO FURTHER",
+      "title": "Match the knot to the shirt",
+      "narration": "A wide spread collar suits a larger knot, like the Windsor. A narrow collar looks better with a small four-in-hand. The knot should fill the space between the collar points. When in doubt, the half Windsor works with almost everything.",
+      "tip": "The half Windsor fits almost anything",
+      "imageQuery": "shirt collar tie knot",
+      "imagePrompt": "A white dress shirt with a spread collar and a neatly tied navy tie, shown close up on a wooden table. Photorealistic photograph for a how-to video. Bright natural light, clean and uncluttered. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "KEEP YOUR TIES",
+      "title": "Care for your ties",
+      "narration": "Never leave a tie knotted overnight, because it stretches the fabric. Hang it on a rack, or roll it loosely in a drawer. Steam out wrinkles in a steamy bathroom, and take silk ties to a dry cleaner instead of scrubbing stains.",
+      "tip": "Never store a tie knotted",
+      "imageQuery": "tie rack hanging ties",
+      "imagePrompt": "A wooden wardrobe tie rack with several neatly hung ties in different colors, soft indoor light. Photorealistic photograph for a how-to video. Bright natural light, clean and uncluttered. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    }
+  ],
   "mistakesToAvoid": {
     "narration": "Here are the mistakes to avoid. First, getting the length wrong. A tie that ends above your belt or below it looks off, so adjust before you finish. Second, picking the wrong knot for the tie. Thick ties suit small knots, and thin ones suit larger ones. And third, tightening in a hurry. Slow tightening gives you a smooth knot, while a quick pull gives you a twisted one. Practice a few times, and the muscle memory will soon take over. Watch out for twisted fabric inside the knot, which spoils the look.",
     "items": [
@@ -90,7 +119,7 @@
     ]
   },
   "recap": {
-    "narration": "Let's recap. Set up your collar, with the wide end on the right and lower. Learn the quick four-in-hand. Move up to the half Windsor. Try the full Windsor for formal events. Learn the Pratt knot, tied inside out. Tighten slowly and add a dimple. And check the length, then untie the knot properly at the end of the day. Four knots, and you're ready for any occasion. Practise one knot until it feels automatic before you move to the next.",
+    "narration": "Let's recap. Set up your collar, with the wide end on the right and lower. Learn the quick four-in-hand. Move up to the half Windsor. Try the full Windsor for formal events. Learn the Pratt knot, tied inside out. Tighten slowly and add a dimple. And check the length, then untie the knot properly at the end of the day. Four knots, and you're ready for any occasion. The bonus sections cover crooked knots, matching and tie care.",
     "items": [
       "Set up your collar and tie",
       "The four-in-hand knot",

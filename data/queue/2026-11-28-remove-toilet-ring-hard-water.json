@@ -5,7 +5,7 @@
   "slug": "remove-toilet-ring-hard-water",
   "category": "Home",
   "title": "How to Remove Toilet Rings and Hard Water Stains Fast",
-  "hook": "That brown or orange ring in your toilet bowl won't go away, no matter how much you brush. It's not dirt, it's hard water minerals, and ordinary cleaners barely touch it. In seven steps, you'll learn the simple method that dissolves the ring, using ingredients you may already own. It works on rust-colored rings, too.",
+  "hook": "That brown or orange ring in your toilet bowl won't go away, no matter how much you brush. It's not dirt, it's hard water minerals, and ordinary cleaners barely touch it. In seven steps, you'll learn the simple method that dissolves the ring, using ingredients you may already own. It works on rust-colored rings, too. We also cover what to do if the stain will not budge.",
   "intro": "Toilet rings form where the water line sits. Minerals like calcium, magnesium and iron settle on the porcelain and harden over time, and bacteria love the rough surface. A normal brush glides over them. What works is an acidic cleaner that dissolves the minerals, plus a little patience while it soaks. Before we begin, one safety rule you must remember: never mix cleaning products, especially bleach with vinegar or any acid. The method takes about ten minutes of your time, and the rest is waiting.",
   "youNeed": [
     "White vinegar or citric acid",
@@ -82,6 +82,35 @@
       "media": "photo"
     }
   ],
+  "bonus": [
+    {
+      "label": "STILL STUCK?",
+      "title": "When the ring will not budge",
+      "narration": "If the stain survived two soaks, look closer at what it is. A pink or orange slimy film that wipes off easily is not hard water at all. It is bacterial growth, and an ordinary toilet cleaner handles it. A ring that returns a few days after you remove it points to minerals or iron in your water. Then repeat the soak on a schedule.",
+      "tip": "Slime wipes off, minerals do not",
+      "imageQuery": "toilet bowl stain close up",
+      "imagePrompt": "Close-up of the waterline inside a white porcelain toilet bowl with a faint orange-brown ring, a toilet brush resting nearby, bright bathroom light. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "GO FURTHER",
+      "title": "Fix the cause, not just the ring",
+      "narration": "To stop fighting the ring, deal with the water itself. Your water utility can tell you how hard your supply is, and a cheap test kit does the same. If a stain trail runs from under the rim or down to the drain, the tank may be leaking slowly into the bowl. A plumber can also advise you about a water softener.",
+      "tip": "Check the flapper for slow leaks",
+      "imageQuery": "water hardness test kit",
+      "imagePrompt": "A hand holding a small water test strip over a glass of clear tap water on a white bathroom counter, a faucet with light mineral buildup out of focus behind. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "KEEP IT THAT WAY",
+      "title": "Habits that keep rings away",
+      "narration": "A few small habits make rings much less likely. Do not drop bleach tablets into the tank. They damage the rubber parts, and they should never meet vinegar or citric acid. Flush a spare toilet once a week, because water that sits still is where rings form. Brush the bowl after cleaning the bathroom, while any stain is still thin.",
+      "tip": "Still water grows rings",
+      "imageQuery": "clean toilet bathroom brush",
+      "imagePrompt": "A spotless white toilet with a closed lid in a bright bathroom, a clean toilet brush in a white holder beside it, soft daylight on grey floor tiles. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    }
+  ],
   "mistakesToAvoid": {
     "narration": "Here are the mistakes to avoid. First, and most important, never mix cleaning products. Bleach with vinegar or ammonia makes toxic gas. Second, don't scrub aggressively with abrasive tools. They scratch the porcelain, and scratches collect even more stains. And third, don't give up after ten minutes. These minerals need time. Let the acid soak and do the hard work for you, then finish with a brush. If a stain does not move after two soaks, it may be rust, which needs a dedicated rust remover. Follow its label carefully.",
     "items": [
@@ -91,7 +120,7 @@
     ]
   },
   "recap": {
-    "narration": "Let's recap. Ventilate, put on gloves and never mix products. Lower the water level. Apply vinegar or citric acid. Let it soak. Brush gently. Use a wet pumice stone on the stubborn parts. And rinse, then prevent the ring with a weekly routine. Seven steps, mostly waiting, and a toilet bowl that looks new again. Remember, soaking does the hard work, not your arm.",
+    "narration": "Let's recap. Ventilate, put on gloves and never mix products. Lower the water level. Apply vinegar or citric acid. Let it soak. Brush gently. Use a wet pumice stone on the stubborn parts. And rinse, then prevent the ring with a weekly routine. Seven steps, mostly waiting, and a toilet bowl that looks new again. If the ring stays, work out what it is, then fix the cause.",
     "items": [
       "Ventilate and glove up",
       "Lower the water level",

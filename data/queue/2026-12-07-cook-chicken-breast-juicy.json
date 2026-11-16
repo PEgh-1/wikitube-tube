@@ -5,7 +5,7 @@
   "slug": "cook-chicken-breast-juicy",
   "category": "Kitchen",
   "title": "How to Cook Chicken Breast Without Drying It Out",
-  "hook": "Dry, rubbery chicken breast is the most common dinner disappointment. It's lean meat that overcooks in minutes. But with seven simple steps, you can cook chicken breast that is tender, juicy and safe, using just a pan, a little salt and a thermometer. It takes about thirty minutes, start to finish.",
+  "hook": "Dry, rubbery chicken breast is the most common dinner disappointment. It's lean meat that overcooks in minutes. But with seven simple steps, you can cook chicken breast that is tender, juicy and safe, using just a pan, a little salt and a thermometer. It takes about thirty minutes, start to finish, plus what to do if it still comes out dry.",
   "intro": "Chicken breast has very little fat, so there isn't much margin for error. Two things cause most of the dryness. Uneven thickness, where the thin end overcooks while the thick end is still raw, and cooking it for too long. We'll fix both. We'll also use a quick salt brine for extra moisture, and a thermometer, which is the only reliable way to know when chicken is done. Let's get started. Even if you have never cooked chicken before, you can do this. It simply takes attention at the right moments.",
   "youNeed": [
     "Boneless chicken breasts",
@@ -82,6 +82,35 @@
       "media": "photo"
     }
   ],
+  "bonus": [
+    {
+      "label": "NOT WORKING?",
+      "title": "If the chicken is dry or pink",
+      "narration": "If the chicken came out dry, you can still save dinner. Slice it thinly, and warm it for a minute in broth. You can also shred it for tacos or soup. If the center is pink, do not guess. Pink can be safe, and white can be raw, so trust only the thermometer. If it reads below 165 degrees Fahrenheit, return it to the pan.",
+      "tip": "Trust the thermometer, not the color",
+      "imageQuery": "shredded chicken breast bowl",
+      "imagePrompt": "Sliced cooked chicken breast on a white plate with a spoonful of glossy pan sauce poured over it, a skillet with a little broth in the background. Photorealistic photograph for a home how-to video. Bright, clean modern kitchen, soft daylight. Adult hands, no face visible. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "PRO TIPS",
+      "title": "Check your thermometer",
+      "narration": "A thermometer is only useful if it is accurate. Test it in a glass of ice water: it should read 32 degrees Fahrenheit, or 0 Celsius. If it is off by a few degrees, adjust it if you can, or replace it. Slide the tip into the thickest part, away from the pan. Wait until the number stops moving. Wash the probe with hot soapy water after each use.",
+      "tip": "Ice water should read 32 F",
+      "imageQuery": "meat thermometer ice water glass",
+      "imagePrompt": "A digital instant-read thermometer standing in a clear glass full of ice cubes and water on a wooden countertop. Photorealistic photograph for a home how-to video. Bright, clean modern kitchen, soft daylight. Adult hands, no face visible. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "KEEP IT FRESH",
+      "title": "Store and reheat leftovers safely",
+      "narration": "Spread the chicken in a shallow container so it cools quickly, then cover it and refrigerate. For longer storage, freeze it, and thaw it overnight in the fridge, never on the counter. Reheat leftovers until they are steaming hot all the way through, or 165 degrees Fahrenheit again. Add a splash of water or broth, and cover the dish, so the meat stays tender.",
+      "tip": "Reheat to 165 F, steaming hot",
+      "imageQuery": "chicken leftovers glass container fridge",
+      "imagePrompt": "Sliced cooked chicken breast packed in a shallow glass container with a lid, placed on a shelf inside a clean refrigerator. Photorealistic photograph for a home how-to video. Bright, clean modern kitchen, soft daylight. Adult hands, no face visible. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    }
+  ],
   "mistakesToAvoid": {
     "narration": "Here are the mistakes to avoid. First, cooking a thick, uneven breast. The thin part dries out before the thick part is safe. Even it out first. Second, cooking without a thermometer. Overcooking by only a few minutes can ruin the texture, and undercooking is unsafe. And third, slicing right away. Resting keeps the juices where they belong. Do these three things right, and your chicken will be tender every time. Keep it simple, trust the thermometer, and enjoy the result.",
     "items": [
@@ -91,7 +120,7 @@
     ]
   },
   "recap": {
-    "narration": "Let's recap. Even out the thickness. Brine for moisture. Dry and season well. Sear in a hot pan. Flip, cover and lower the heat. Check with a thermometer for 165 degrees. And rest the chicken, then slice across the grain. Seven steps, about thirty minutes of cooking, and chicken breast that stays juicy. Even thickness, gentle heat and a short rest are the three secrets.",
+    "narration": "Let's recap. Even out the thickness. Brine for moisture. Dry and season well. Sear in a hot pan. Flip, cover and lower the heat. Check with a thermometer for 165 degrees. And rest the chicken, then slice across the grain. Seven steps, about thirty minutes of cooking, and chicken breast that stays juicy. Bonus sections cover rescuing dry or pink chicken, checking your thermometer, and storing leftovers safely.",
     "items": [
       "Even out the thickness",
       "Brine it for moisture",

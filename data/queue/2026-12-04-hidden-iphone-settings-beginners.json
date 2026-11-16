@@ -5,7 +5,7 @@
   "slug": "hidden-iphone-settings-beginners",
   "category": "Tech",
   "title": "8 Hidden iPhone Settings Beginners Should Turn On",
-  "hook": "Your iPhone can do far more than most people ever discover. A few settings, hidden deep in the menus, can protect your phone, save your battery, free up storage and make daily use faster. Here are eight to switch on today, and each takes less than a minute. None of it needs any technical knowledge.",
+  "hook": "Your iPhone can do far more than most people ever discover. A few settings, hidden deep in the menus, can protect your phone, save your battery, free up storage and make daily use faster. Here are eight to switch on today, and each takes less than a minute. None of it needs any technical knowledge. We also cover what to do if you cannot find a setting.",
   "intro": "Apple builds many useful features into every iPhone, but it doesn't always switch them on for you. Some protect you if your phone is stolen, some stretch the life of your battery, and some simply save time. We'll walk through each setting, show exactly where to find it, and explain why it matters. Menu names can differ a little between iOS versions, so if you cannot find one, use the search bar at the top of Settings.",
   "youNeed": [
     "An iPhone",
@@ -90,6 +90,35 @@
       "media": "photo"
     }
   ],
+  "bonus": [
+    {
+      "label": "TROUBLESHOOTING",
+      "title": "Cannot find a setting?",
+      "narration": "If a setting is missing, there are three common reasons. Menu names move around between versions, so use the search bar at the top of Settings. Some features need a recent phone or software: Back Tap needs an iPhone 8 or later, and Stolen Device Protection needs iOS 17.3 or later. If a switch is grayed out, a restriction or a work profile may control it.",
+      "tip": "Use the search bar in Settings",
+      "imageQuery": "iphone settings search screen",
+      "imagePrompt": "A hand holding an iPhone showing the Settings app with the search field at the top, a cup of coffee on a wooden table nearby, bright indoor light. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "GO FURTHER",
+      "title": "Two safety extras",
+      "narration": "Two more settings are worth a minute. First, set up your Medical ID in the Health app, with emergency contacts. Someone can see it from the lock screen in an emergency, even without your passcode. Second, turn on Silence Unknown Callers in the Phone settings, so calls from numbers not in your contacts go straight to voicemail. Both can be changed back at any time.",
+      "tip": "Add emergency contacts today",
+      "imageQuery": "iphone medical id emergency",
+      "imagePrompt": "A hand holding an iPhone showing a plain emergency information screen with a red cross symbol, sitting on a kitchen counter, soft daylight, nothing readable on the screen. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "PREVENTION",
+      "title": "Back up your phone",
+      "narration": "The best protection is a recent backup. Open Settings, tap your name, choose iCloud, then iCloud Backup, and turn it on. The phone will back up overnight when it is charging and connected to Wi-Fi. Turn on two-factor authentication for your Apple Account too. Never share your passcode or the verification codes sent to you. Apple will not call you and ask for them.",
+      "tip": "Never share verification codes",
+      "imageQuery": "iphone charging overnight bedside",
+      "imagePrompt": "An iPhone charging on a bedside table next to a small lamp at night, a glass of water beside it, warm light, screen showing only a dim lock screen with no text. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    }
+  ],
   "mistakesToAvoid": {
     "narration": "Before you go, three mistakes to avoid. First, turning on settings you don't understand. Read each description, and change one thing at a time. Second, ignoring security. Updates, Find My and Stolen Device Protection protect your photos and accounts. And third, never checking your storage until it's full. A little maintenance each month saves the stress of the dreaded storage full message at an awkward moment. None of these settings is permanent, so experiment freely.",
     "items": [
@@ -99,7 +128,7 @@
     ]
   },
   "recap": {
-    "narration": "Let's recap. Turn on Back Tap. Switch on Stolen Device Protection. Enable Find My and Send Last Location. Use Optimized Battery Charging. Offload unused apps. Create text shortcuts. Schedule your notifications. And turn on automatic updates. Eight settings, about five minutes, and an iPhone that is safer, tidier and faster to use. Which one will you turn on first?",
+    "narration": "Let's recap. Turn on Back Tap. Switch on Stolen Device Protection. Enable Find My and Send Last Location. Use Optimized Battery Charging. Offload unused apps. Create text shortcuts. Schedule your notifications. And turn on automatic updates. Eight settings, about five minutes, and an iPhone that is safer, tidier and faster to use. And if a setting is missing, search for it, and back up your phone.",
     "items": [
       "Turn on Back Tap",
       "Switch on Stolen Device Protection",

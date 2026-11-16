@@ -5,7 +5,7 @@
   "slug": "clean-silver-jewelry-at-home",
   "category": "Home",
   "title": "How to Clean Silver Jewelry at Home (3 Methods)",
-  "hook": "Silver rings, chains and earrings turn dull and dark with time, and a trip to the jeweler isn't always necessary. In seven steps, you'll learn three simple ways to remove tarnish at home, using soap, baking soda and aluminum foil, and bring back the shine. It takes about twenty minutes, and costs almost nothing.",
+  "hook": "Silver rings, chains and earrings turn dull and dark with time, and a trip to the jeweler isn't always necessary. In seven steps, you'll learn three simple ways to remove tarnish at home, using soap, baking soda and aluminum foil, and bring back the shine. It takes about twenty minutes, and costs almost nothing, and what to do if the tarnish stays.",
   "intro": "Silver tarnishes when it reacts with sulfur in the air, in food, and even on your skin. The result is that dark, dull layer. The good news is that it's only a thin surface layer, and it can be removed. The right method depends on your piece. A gentle wash is safe for almost everything, while stronger methods are only for solid silver without delicate stones. We'll go from the gentlest to the strongest, so start at the beginning, and move on only if needed. Never try to clean a valuable heirloom without asking a jeweler first.",
   "youNeed": [
     "Mild dish soap and warm water",
@@ -82,6 +82,35 @@
       "media": "photo"
     }
   ],
+  "bonus": [
+    {
+      "label": "NOT WORKING?",
+      "title": "If the tarnish stays",
+      "narration": "If the tarnish stays, check your setup before you try again. The foil must touch the silver, the water must be very hot, and the piece must be fully covered. Repeat the bath once, and use a soft toothbrush on the crevices. Do not scrub harder, because silver is soft and scratches easily. If the piece is plated, stop, because thin plating can wear through.",
+      "tip": "Repeat once, never scrub harder",
+      "imageQuery": "tarnished silver chain close up",
+      "imagePrompt": "A darkened tarnished silver chain bracelet on a white cloth next to a ceramic bowl lined with aluminum foil, close-up. Photorealistic photograph for a home how-to video. Bright, tidy home interior, soft daylight. Adult hands, no face visible. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "CALL A PRO",
+      "title": "When to see a jeweler",
+      "narration": "Some pieces are worth a visit to a jeweler. Antiques and family heirlooms deserve a professional's judgment before anything goes in water. Pearls, opals, turquoise and other soft stones need special care. A jeweler can also tighten loose stones, fix a weak clasp, and check the small metal prongs that hold a stone in place. Deep pitting or flaking plating needs a jeweler's opinion.",
+      "tip": "Antiques and soft stones need a pro",
+      "imageQuery": "jeweler repairing ring workbench",
+      "imagePrompt": "A jeweler's hands holding a silver ring with a small stone under a bright bench lamp, fine tools on a workbench. Photorealistic photograph for a home how-to video. Bright, tidy home interior, soft daylight. Adult hands, no face visible. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "KEEP IT SHINING",
+      "title": "Daily habits that slow tarnish",
+      "narration": "Tarnish comes from sulfur in the air, and your daily habits matter. Put on perfume, hairspray and lotion before your jewelry, never after. Take silver off before swimming, because chlorine can damage it, and before showering or cleaning. Wiping each piece with a soft cloth after wearing removes oils and sweat. Keep silver away from rubber bands, wool and eggs, which all contain sulfur.",
+      "tip": "Jewelry goes on last, off first",
+      "imageQuery": "silver necklace dressing table",
+      "imagePrompt": "A shiny silver necklace and earrings resting on a soft cloth on a dressing table, a perfume bottle placed to one side. Photorealistic photograph for a home how-to video. Bright, tidy home interior, soft daylight. Adult hands, no face visible. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    }
+  ],
   "mistakesToAvoid": {
     "narration": "Here are the mistakes to avoid. First, using abrasive cleaners or toothpaste, which scratch silver, and leave dull marks. Second, soaking pieces with pearls, opals, turquoise or glued stones. They can crack or lose color. And third, cleaning oxidized or antique silver the same way, which removes the dark detail that gives it character. When in doubt, use soap and water, or ask a jeweler. If you own valuable or antique silver, a jeweler is always the safest choice.",
     "items": [
@@ -91,7 +120,7 @@
     ]
   },
   "recap": {
-    "narration": "Let's recap. Check what you're cleaning. Start with soap and water. Move up to a baking soda paste. Use the foil and baking soda bath on solid silver only. Rinse and dry thoroughly. Polish with a silver cloth. And store your silver to slow down tarnish. Seven steps, about twenty minutes, and your silver will shine again. Start gentle, escalate only when needed, and keep it dry.",
+    "narration": "Let's recap. Check what you're cleaning. Start with soap and water. Move up to a baking soda paste. Use the foil and baking soda bath on solid silver only. Rinse and dry thoroughly. Polish with a silver cloth. And store your silver to slow down tarnish. Seven steps, about twenty minutes, and your silver will shine again. Bonus sections cover what to do if the tarnish stays, when to see a jeweler, and the daily habits that keep silver shining.",
     "items": [
       "Check what you're cleaning",
       "Method one: soap and water",

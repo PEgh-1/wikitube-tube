@@ -5,7 +5,7 @@
   "slug": "clean-airpods-case-ear-tips",
   "category": "Tech",
   "title": "How to Clean Your AirPods (Case, Speaker Mesh, Ear Tips)",
-  "hook": "Muffled sound, a low volume on one side, and a case that looks grey and grimy. Earwax and dust are the usual reasons. The good news is that you can clean your AirPods safely in about five minutes, with a few household items and no risk to the speakers. No special tools are needed.",
+  "hook": "Muffled sound, a low volume on one side, and a case that looks grey and grimy. Earwax and dust are the usual reasons. The good news is that you can clean your AirPods safely in about five minutes, with a few household items and no risk to the speakers. No special tools are needed. We also cover what to do if the sound is still not right.",
   "intro": "AirPods spend their lives in your ears and in your pockets, so it's no surprise they get dirty. The tiny speaker mesh clogs with wax, and the charging case collects lint and dust. But they are delicate and water-sensitive, so the method matters. The golden rules are simple. Keep liquid out of the openings, use soft dry tools on the mesh, and never use sharp objects. We'll follow what Apple recommends, step by step. If you hear a crackle or one side stops charging, clean them first before you assume they are broken.",
   "youNeed": [
     "A soft lint-free cloth",
@@ -82,6 +82,35 @@
       "media": "photo"
     }
   ],
+  "bonus": [
+    {
+      "label": "NOT WORKING?",
+      "title": "Sound still off or not charging",
+      "narration": "If one side still sounds quiet, check the balance setting before you clean again. On your iPhone, open Settings, Accessibility, then Audio and Visual, and make sure the balance slider sits in the middle. If an earbud does not charge, wipe the small metal contacts at the bottom with a dry cotton swab. Then forget the AirPods in your Bluetooth settings, and pair them again.",
+      "tip": "Check the balance slider",
+      "imageQuery": "airpods charging case contacts",
+      "imagePrompt": "A white earbud held up beside an open charging case on a clean desk, a dry cotton swab touching the small metal contact at the bottom of the earbud, soft light. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "CALL A PRO",
+      "title": "When to contact Apple",
+      "narration": "Some problems cannot be fixed with a swab. If an earbud or the case has been in water, dry it with a cloth and contact Apple. If one earbud will not charge, or the battery drains very fast, even after cleaning, the battery may be worn. Crackling or distorted sound after a clean mesh also points to a hardware fault. Do not open the case or the earbuds yourself.",
+      "tip": "Crackling after cleaning is hardware",
+      "imageQuery": "smartphone support service",
+      "imagePrompt": "A person holding a smartphone beside an open white earbud case on a desk, the phone showing a plain support page, a notebook nearby, soft office light. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "KEEP IT CLEAN",
+      "title": "Keep them clean longer",
+      "narration": "A few habits will keep wax and lint away. Wipe the earbuds with a dry cloth after each use, especially after exercise. Keep the case closed, and do not carry it loose in a pocket full of lint. Make sure your ears are dry before you put the earbuds in. Check the ear tips every few months, and replace them when they look worn.",
+      "tip": "Wipe after each use",
+      "imageQuery": "earbuds case pocket clean",
+      "imagePrompt": "A white earbud case sitting closed on a wooden table next to a folded gray microfiber cloth and a small potted plant, bright natural light. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    }
+  ],
   "mistakesToAvoid": {
     "narration": "Let's finish with the mistakes to avoid. First, using sharp objects like pins or toothpicks on the mesh. They tear it, and ruin the sound. Second, using too much liquid or sprays, which can destroy the electronics inside. And third, using compressed air or a vacuum on the speaker, which can damage the delicate parts. Keep it gentle, keep it dry, and keep patient, and your earbuds will sound like new. If your AirPods get wet, let them dry fully before charging.",
     "items": [
@@ -91,7 +120,7 @@
     ]
   },
   "recap": {
-    "narration": "Let's recap. Prepare and take the earbuds out. Wipe the outside surfaces. Clean the speaker mesh with a dry swab. Remove stuck earwax. Wash the ear tips, if yours come off, and dry them fully. Clean the charging case. And let everything dry, test the sound, and keep them clean with a simple routine. Seven steps, five minutes, and AirPods that sound crisp again. A gentle, dry routine is all you need.",
+    "narration": "Let's recap. Prepare and take the earbuds out. Wipe the outside surfaces. Clean the speaker mesh with a dry swab. Remove stuck earwax. Wash the ear tips, if yours come off, and dry them fully. Clean the charging case. And let everything dry, test the sound, and keep them clean with a simple routine. Seven steps, five minutes, and AirPods that sound crisp again. If the sound is still off, check the balance, and contact Apple for hardware faults.",
     "items": [
       "Prepare and take them out",
       "Wipe the outside surfaces",

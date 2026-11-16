@@ -5,7 +5,7 @@
   "slug": "cook-pasta-properly",
   "category": "Kitchen",
   "title": "How to Cook Pasta Properly (Salt, Timing, Sauce)",
-  "hook": "Pasta looks like the easiest food in the world, and yet it so often ends up bland, sticky or mushy. A few small habits make a huge difference. In seven steps, you'll cook pasta with the right salt, the right timing and a sauce that actually clings. It takes no extra time, and costs nothing.",
+  "hook": "Pasta looks like the easiest food in the world, and yet it so often ends up bland, sticky or mushy. A few small habits make a huge difference. In seven steps, you'll cook pasta with the right salt, the right timing and a sauce that actually clings. It takes no extra time, and costs nothing, and how to fix it when it goes wrong.",
   "intro": "Good pasta isn't about fancy ingredients. It's about technique. Use plenty of water, salt it well, stop cooking at the right moment, and finish the pasta in the sauce rather than just pouring sauce on top. Italian cooks do this every day, and it takes no extra time. The same method works for spaghetti, penne, fusilli and almost every dried pasta shape you find in the shop. Once you try it, you'll never go back to the old way.",
   "youNeed": [
     "Dried pasta",
@@ -82,6 +82,35 @@
       "media": "photo"
     }
   ],
+  "bonus": [
+    {
+      "label": "NOT WORKING?",
+      "title": "Fixing common pasta problems",
+      "narration": "Most pasta problems have a simple fix. If the pasta is stuck together, toss it in the hot sauce with a splash of pasta water, and it will loosen. If the sauce is too thin, simmer it with the pasta for another minute. If it tastes flat, add a pinch of salt or some cheese. Overcooked pasta cannot be saved, so use it in a baked dish or soup.",
+      "tip": "Pasta water loosens clumps",
+      "imageQuery": "tossing spaghetti in pan sauce",
+      "imagePrompt": "Spaghetti being tossed with tomato sauce in a wide steel pan on a stove, a ladle of cloudy pasta water held above it. Photorealistic photograph for a home how-to video. Bright, clean modern kitchen, soft daylight. Adult hands, no face visible. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "GO FURTHER",
+      "title": "Match the shape to the sauce",
+      "narration": "The right shape makes a better dish. Long, thin pasta like spaghetti suits light, smooth sauces with oil or tomato. Short shapes with ridges or hollows, like penne or rigatoni, catch thick, chunky sauces. Wide ribbons suit rich, creamy sauces. Fresh pasta cooks in only a few minutes, so stay by the pot and taste early. Whole wheat and gluten-free pasta vary a lot, so follow the package and taste sooner.",
+      "tip": "Ridges and hollows hold chunky sauce",
+      "imageQuery": "pasta shapes variety wooden table",
+      "imagePrompt": "Different dried pasta shapes, spaghetti, penne, rigatoni and tagliatelle, arranged in separate neat groups on a rustic wooden table. Photorealistic photograph for a home how-to video. Bright, clean modern kitchen, soft daylight. Adult hands, no face visible. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "KEEP IT FRESH",
+      "title": "Store leftovers the right way",
+      "narration": "Leftover pasta keeps well if you cool it quickly. Within two hours of cooking, put it in a container in the fridge. Toss it with a teaspoon of oil first, so it does not set into one block. Eat it within three to four days. To reheat, add a splash of water, and warm it in a pan or covered in the microwave until steaming hot. Plain cooked pasta also freezes well.",
+      "tip": "Cool fast, eat within 3 to 4 days",
+      "imageQuery": "leftover pasta container fridge",
+      "imagePrompt": "Cooked pasta with a light coating of oil packed in a clear glass container with a lid on a refrigerator shelf. Photorealistic photograph for a home how-to video. Bright, clean modern kitchen, soft daylight. Adult hands, no face visible. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    }
+  ],
   "mistakesToAvoid": {
     "narration": "Here are three mistakes to avoid. First, too little water or too little salt. That's what makes pasta sticky and bland. Second, rinsing the pasta, or adding oil to the water. Both stop the sauce from clinging. And third, overcooking. Pasta continues to soften in the sauce, so take it out while it still has a bite. Fix these three things, and your weeknight pasta will taste like it came from a good restaurant. Pasta is forgiving when you respect the basics, so stay relaxed and keep tasting as you go. Put these habits together, and good pasta becomes automatic.",
     "items": [
@@ -91,7 +120,7 @@
     ]
   },
   "recap": {
-    "narration": "Let's recap. Use a big pot of water. Salt it well. Add the pasta and stir at the start. Time it, and taste. Save a mug of pasta water. Drain, but don't rinse. And finish the pasta in the sauce. Seven steps, about fifteen minutes, and pasta that tastes the way it should. Remember the rule: lots of water, plenty of salt, and a bite in the middle.",
+    "narration": "Let's recap. Use a big pot of water. Salt it well. Add the pasta and stir at the start. Time it, and taste. Save a mug of pasta water. Drain, but don't rinse. And finish the pasta in the sauce. Seven steps, about fifteen minutes, and pasta that tastes the way it should. Bonus sections cover how to fix common pasta problems, how to match shape to sauce, and how to store leftovers.",
     "items": [
       "Use a big pot of water",
       "Salt the water well",

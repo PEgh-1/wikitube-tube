@@ -5,7 +5,7 @@
   "slug": "kitchen-tricks-wish-you-knew",
   "category": "Kitchen",
   "title": "8 Kitchen Tricks You'll Wish You Knew Earlier",
-  "hook": "Some kitchen tricks are so simple and so useful that you'll wonder why nobody told you sooner. Here are eight, tested and safe, that save time, cut waste and make cooking easier. Each takes less than a minute to learn, and you can use them tonight. Let's go.",
+  "hook": "Some kitchen tricks are so simple and so useful that you'll wonder why nobody told you sooner. Here are eight, tested and safe, that save time, cut waste and make cooking easier. Each takes less than a minute to learn, and you can use them tonight. Let's go, and what to do when a trick fails, and fixes when one fails.",
   "intro": "Professional cooks use small habits and shortcuts that never appear in recipes. They aren't gadgets or secret ingredients. They simply make everyday jobs faster, safer or tastier. We'll look at eight of them, from peeling garlic in seconds to rescuing hard brown sugar. You don't need any special equipment for any of them. Everything is already in your kitchen, so grab a knife, a bowl and let's get started.",
   "youNeed": [
     "A chef's knife",
@@ -91,6 +91,35 @@
       "media": "photo"
     }
   ],
+  "bonus": [
+    {
+      "label": "NOT WORKING?",
+      "title": "When a trick does not work",
+      "narration": "Every trick has a limit. Very fresh eggs are the hardest to peel, so use eggs that are a week or two old. Revived bread goes stale again fast, so eat it the same day. Brown sugar hardens again, so keep a slice of bread in the container too. Cold citrus gives less juice, so use fruit at room temperature.",
+      "tip": "Older eggs peel more easily",
+      "imageQuery": "peeling hard boiled egg",
+      "imagePrompt": "Hands peeling a hard-boiled egg with the shell coming away in one piece, a bowl of ice water and a few shell fragments on the counter. Photorealistic photograph for a home how-to video. Bright, clean modern kitchen, soft daylight. Adult hands, no face visible. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "GO FURTHER",
+      "title": "More ideas that use the freezer",
+      "narration": "Freezing saves a lot of food. Freeze lemon juice in ice cube trays, and keep ginger whole in the freezer, then grate it frozen. Chop spare herbs, press them into a tray with olive oil, and freeze them. Slice bread before freezing, so you can toast just one slice at a time. Label everything with the date, and use it within a few months.",
+      "tip": "Freeze herbs in olive oil",
+      "imageQuery": "ice cube tray frozen herbs olive oil",
+      "imagePrompt": "A silicone ice cube tray filled with chopped green herbs set in olive oil, next to a lemon and a piece of ginger on a wooden board. Photorealistic photograph for a home how-to video. Bright, clean modern kitchen, soft daylight. Adult hands, no face visible. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "label": "KEEP IT SAFE",
+      "title": "Safe habits for the whole kitchen",
+      "narration": "A safe kitchen starts with a sharp knife, because a dull blade slips. Keep a separate cutting board just for raw meat. Wash your hands, boards and knives with hot soapy water after touching raw meat. Put leftovers in the fridge within two hours of cooking. Use the oldest food first, and check the dates on packages before you cook.",
+      "tip": "A sharp knife is a safer knife",
+      "imageQuery": "chef knife cutting board vegetables",
+      "imagePrompt": "A sharp chef's knife and two separate cutting boards, one with sliced vegetables, on a clean kitchen counter beside a soapy sink. Photorealistic photograph for a home how-to video. Bright, clean modern kitchen, soft daylight. Adult hands, no face visible. 16:9 landscape format. No text, no letters, no logos, no watermark.",
+      "media": "photo"
+    }
+  ],
   "mistakesToAvoid": {
     "narration": "Before you try these, a few cautions. First, always cut away from your hands, and keep your fingers clear of the blade. Fast does not mean careless. Second, be careful with microwaved food. Steam and hot items can burn you, so use short bursts, and test the heat. And third, don't take shortcuts with food safety. Throw away eggs that float, and keep your eggs refrigerated. A great trick is one that is also safe. If something feels dangerous, skip the trick, since no shortcut is worth an injury.",
     "items": [
@@ -100,7 +129,7 @@
     ]
   },
   "recap": {
-    "narration": "Let's recap the eight tricks. Stop your cutting board from sliding. Peel garlic in seconds. Test eggs for freshness. Revive stale bread. Soften hard brown sugar. Keep herbs fresh longer. Get more juice from citrus. And peel boiled eggs easily with ice water. Try one tonight, and you'll wonder how you ever cooked without it. Small habits like these add up to a faster, calmer kitchen.",
+    "narration": "Let's recap the eight tricks. Stop your cutting board from sliding. Peel garlic in seconds. Test eggs for freshness. Revive stale bread. Soften hard brown sugar. Keep herbs fresh longer. Get more juice from citrus. And peel boiled eggs easily with ice water. Try one tonight, and you'll wonder how you ever cooked without it. Bonus sections cover failed tricks, freezer ideas and safe kitchen habits.",
     "items": [
       "Stop the cutting board sliding",
       "Peel garlic in seconds",

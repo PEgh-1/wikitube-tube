@@ -121,7 +121,7 @@ if (args.excerpt) {
   const sc = longTl.scenes.find((x) => x.type === type && (n === undefined || String(x.index) === n));
   if (!sc) throw new Error(`Scène introuvable pour --excerpt ${args.excerpt}`);
   const start = Math.max(0, Math.round((sc.start - 1) * fps));
-  const end = Math.min(longTl.durationInFrames - 1, start + Math.round(Number(args["excerpt-sec"] ?? 45) * fps));
+  const end = Math.min(longTl.durationInFrames - 1, start + Math.round(Number(args["excerpt-sec"] ?? process.env.EXCERPT_SEC ?? 62) * fps));
   await renderVideo("Long", longTl, path.join(outDir, "excerpt.mp4"), [start, end]);
   log.info(`Extrait ${args.excerpt} : ${(start / fps).toFixed(1)} → ${(end / fps).toFixed(1)} s`);
   process.exit(0);

@@ -6,7 +6,7 @@
 //   options : --episode <id> --force (re-synthétise même si le mp3 existe) --only long|short
 import fs from "node:fs";
 import path from "node:path";
-import { DIRS, parseArgs, readJson, writeJson, log, ensureDir, exists, run, mediaDuration, requireEnv, wordCount } from "./lib/common.mjs";
+import { DIRS, parseArgs, readJson, writeJson, log, ensureDir, exists, run, mediaDuration, requireEnv, wordCount, parseLoudnorm } from "./lib/common.mjs";
 import { synthesize, DEFAULT_MODEL, getSubscription } from "./providers/elevenlabs.mjs";
 
 const args = parseArgs();
@@ -77,12 +77,11 @@ log.info(`Narration long ≈ ${(longSec / 60).toFixed(1)} min, short ≈ ${short
 /** Normalisation loudness à -14 LUFS (deux passes) pour que le mix final soit déjà au bon niveau. */
 async function normalize(input, output) {
   const first = await run("ffmpeg", ["-hide_banner", "-nostats", "-i", input, "-af", "loudnorm=I=-14:TP=-1.5:LRA=11:print_format=json", "-f", "null", "-"], { quiet: true, allowFail: true });
-  const m = first.stderr.match(/\{[\s\S]*?\}\s*$/);
-  if (!m) {
+  const j = parseLoudnorm(first.stderr);
+  if (!j) {
     fs.copyFileSync(input, output);
     return;
   }
-  const j = JSON.parse(m[0]);
   const af = `loudnorm=I=-14:TP=-1.5:LRA=11:measured_I=${j.input_i}:measured_TP=${j.input_tp}:measured_LRA=${j.input_lra}:measured_thresh=${j.input_thresh}:offset=${j.target_offset}:linear=true,aresample=44100`;
   await run("ffmpeg", ["-y", "-hide_banner", "-loglevel", "error", "-i", input, "-af", af, "-ar", "44100", "-c:a", "libmp3lame", "-b:a", "128k", output], { quiet: true });
 }

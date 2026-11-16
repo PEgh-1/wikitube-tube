@@ -225,7 +225,7 @@ const BonusBadge: React.FC<{ label: string; size?: number }> = ({ label, size = 
   const { fps } = useVideoConfig();
   const sp = spring({ frame, fps, config: { damping: 10, stiffness: 200 } });
   const l = label.toLowerCase();
-  const kind = l.includes("pro") || l.includes("call") ? "phone" : l.includes("prevent") ? "shield" : "question";
+  const kind = l.includes("call") || /\bpro\b/.test(l) ? "phone" : l.includes("prevent") || l.includes("keep") ? "shield" : l.includes("tip") || l.includes("further") ? "star" : "question";
   return (
     <div style={{ width: size, height: size, borderRadius: size * 0.25, background: C.sun, border: `6px solid ${C.ink}`, boxSizing: "border-box", display: "inline-flex", alignItems: "center", justifyContent: "center", transform: `scale(${sp}) rotate(${(1 - sp) * -20 - 3}deg)`, boxShadow: "8px 8px 0 rgba(27,42,65,0.55)", flexShrink: 0 }}>
       <svg width={size * 0.62} height={size * 0.62} viewBox="0 0 64 64" fill="none" stroke={C.ink} strokeWidth={7} strokeLinecap="round" strokeLinejoin="round">
@@ -236,6 +236,7 @@ const BonusBadge: React.FC<{ label: string; size?: number }> = ({ label, size = 
           </>
         )}
         {kind === "phone" && <path d="M14 8 L24 8 L28 22 L21 27 C25 36 30 41 38 44 L43 37 L57 41 L57 51 C57 55 53 58 49 57 C27 54 11 38 8 16 C7 12 10 8 14 8 Z" />}
+        {kind === "star" && <path d="M32 6 L39.5 23 L58 25 L44 37.5 L48 56 L32 46.5 L16 56 L20 37.5 L6 25 L24.5 23 Z" />}
         {kind === "shield" && (
           <>
             <path d="M32 6 L54 14 L54 30 C54 44 45 54 32 59 C19 54 10 44 10 30 L10 14 Z" />

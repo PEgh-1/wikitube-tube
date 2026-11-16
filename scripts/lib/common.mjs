@@ -108,16 +108,26 @@ export function mediaDuration(file) {
   return d;
 }
 
-/** Mesure l'intégrale de loudness (LUFS) via loudnorm (1re passe). */
+/** Extrait le bloc JSON de loudnorm où qu'il soit dans la sortie de ffmpeg (selon la version, des lignes le suivent). */
+export function parseLoudnorm(stderr) {
+  const all = String(stderr ?? "").match(/\{[^{}]*"input_i"[^{}]*\}/g);
+  if (!all?.length) return null;
+  try {
+    return JSON.parse(all[all.length - 1]);
+  } catch {
+    return null;
+  }
+}
+
+/** Mesure l'intégrale de loudness (LUFS) via loudnorm (1re passe, audio seul). */
 export async function measureLoudness(file) {
   const r = await run(
     "ffmpeg",
-    ["-hide_banner", "-nostats", "-i", file, "-af", "loudnorm=I=-14:TP=-1.5:LRA=11:print_format=json", "-f", "null", "-"],
+    ["-hide_banner", "-nostats", "-i", file, "-vn", "-af", "loudnorm=I=-14:TP=-1.5:LRA=11:print_format=json", "-f", "null", "-"],
     { quiet: true, allowFail: true },
   );
-  const m = r.stderr.match(/\{[\s\S]*?\}\s*$/);
-  if (!m) return null;
-  const j = JSON.parse(m[0]);
+  const j = parseLoudnorm(r.stderr);
+  if (!j) return null;
   return {
     integrated: Number(j.input_i),
     truePeak: Number(j.input_tp),
@@ -125,6 +135,21 @@ export async function measureLoudness(file) {
     threshold: Number(j.input_thresh),
     raw: j,
   };
+}
+
+/**
+ * Mastering du rendu : le mixage final (voix + musique + bruitages) est ramené à -14 LUFS, pic ≤ -1,5 dBTP.
+ * L'image n'est pas réencodée. Sans mesure exploitable (silence, mode mock), le fichier est laissé tel quel.
+ */
+export async function masterLoudness(file, target = -14) {
+  const l = await measureLoudness(file);
+  if (!l || !Number.isFinite(l.integrated) || l.integrated < -60) return null;
+  const j = l.raw;
+  const af = `loudnorm=I=${target}:TP=-1.5:LRA=11:measured_I=${j.input_i}:measured_TP=${j.input_tp}:measured_LRA=${j.input_lra}:measured_thresh=${j.input_thresh}:offset=${j.target_offset}:linear=true`;
+  const tmp = file.replace(/\.mp4$/, ".master.mp4");
+  await run("ffmpeg", ["-y", "-hide_banner", "-loglevel", "error", "-i", file, "-map", "0:v:0", "-map", "0:a:0", "-c:v", "copy", "-af", af, "-ar", "48000", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", tmp], { quiet: true });
+  fs.renameSync(tmp, file);
+  return { before: l.integrated, after: (await measureLoudness(file))?.integrated ?? null };
 }
 
 // ---------- Texte ----------

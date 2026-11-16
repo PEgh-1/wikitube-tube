@@ -10,7 +10,7 @@ import fs from "node:fs";
 import { bundle } from "@remotion/bundler";
 import { renderMedia, renderStill, selectComposition, ensureBrowser } from "@remotion/renderer";
 import { creditsLine } from "./lib/credits.mjs";
-import { DIRS, FPS, parseArgs, readJson, writeJson, log, ensureDir, mediaDuration, run } from "./lib/common.mjs";
+import { DIRS, FPS, parseArgs, readJson, writeJson, log, ensureDir, mediaDuration, run, masterLoudness } from "./lib/common.mjs";
 import { buildLongTimeline, buildShortTimeline, chaptersText, subsetTimeline } from "./lib/timeline.mjs";
 import { LOCALES } from "./lib/episode.mjs";
 
@@ -113,6 +113,9 @@ async function renderVideo(id, timeline, outFile, frameRange = null) {
       log.info(`${id} ${pct}% — ${renderedFrames}/${composition.durationInFrames} frames (${fpsNow.toFixed(1)} fps)`);
     }, 15000),
   });
+  // Mastering : mixage final ramené à -14 LUFS (cible YouTube), image inchangée.
+  const m = await masterLoudness(outFile).catch((e) => (log.warn(`mastering ${id} : ${e.message}`), null));
+  if (m) log.info(`♪ ${id} volume ${m.before.toFixed(1)} → ${m.after?.toFixed(1) ?? "?"} LUFS`);
   const d = mediaDuration(outFile);
   log.info(`✔ ${id} ${d.toFixed(1)} s en ${((Date.now() - started) / 1000 / 60).toFixed(1)} min`);
   return d;

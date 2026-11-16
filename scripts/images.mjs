@@ -47,9 +47,47 @@ const apiKey = mock ? null : requireEnv(stockName === "pexels" ? "PEXELS_API_KEY
 const used = new Set();
 const results = {};
 
+// Plans pré-générés (Gemini web via navigateur, sans API) : data/shots/<id>/shots.json + images commitées.
+// Format : { shots: { "step-2": [{ text, prompt, file }] } } — les textes mis bout à bout = la narration de l'étape.
+const pregenDir = path.join(DIRS.data, "shots", episodeId);
+const pregen = exists(path.join(pregenDir, "shots.json")) ? readJson(path.join(pregenDir, "shots.json")) : null;
+function fromPregen(t) {
+  const list = pregen?.shots?.[t.key];
+  if (!list?.length || !t.step) return null;
+  const norm = (x) => x.replace(/\s+/g, " ").trim();
+  if (norm(list.map((x) => x.text).join(" ")) !== norm(t.step.narration)) {
+    log.warn(`plans pré-générés ${t.key} : textes ≠ narration → ignorés`);
+    return null;
+  }
+  let idx = 0;
+  const shots = [];
+  for (const [j, sh] of list.entries()) {
+    const wordStart = idx;
+    idx += sh.text.split(/\s+/).filter(Boolean).length;
+    const src = sh.file ? path.join(pregenDir, sh.file) : null;
+    if (src && exists(src)) {
+      const file = path.join(imgDir, `${t.key}-${j + 1}${path.extname(src)}`);
+      fs.copyFileSync(src, file);
+      shots.push({ ...entry(t, { kind: "photo", width: 1920, height: 1080, provider: "gemini-web", credit: null }, file), text: sh.text, wordStart, prompt: sh.prompt });
+      log.info(`✔ ${t.key} plan ${j + 1}/${list.length} pré-généré — « ${sh.text.slice(0, 60)} »`);
+    } else {
+      const ill = illustrate(sh.text);
+      shots.push({ key: t.key, query: t.query, kind: "illustration", file: "", ...ill, text: sh.text, wordStart, provider: "remotion" });
+      log.warn(`${t.key} plan ${j + 1} : image pré-générée absente → illustration Remotion`);
+    }
+  }
+  const firstPhoto = shots.find((x) => x.kind === "photo");
+  return firstPhoto ? { ...firstPhoto, shots } : null;
+}
+
 for (const t of targets) {
   const prev = previous?.all?.[t.key];
   const wantGemini = providerName === "gemini" && gemini.isConfigured() && !mock;
+  const pre = mock ? null : fromPregen(t);
+  if (pre) {
+    results[t.key] = pre;
+    continue;
+  }
   if (prev && exists(path.join(DIRS.public, prev.file)) && prev.query === t.query && Boolean(prev.mock) === mock && (prev.provider === "gemini") === wantGemini) {
     results[t.key] = prev;
     if (prev.id) used.add(prev.id);

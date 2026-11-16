@@ -1,0 +1,61 @@
+{
+  "episodeId": "2026-11-03-clean-cast-iron-skillet",
+  "source": "gemini-web (navigateur, sans API)",
+  "style": "Photorealistic photograph for a cooking how-to video. Home kitchen with a light oak countertop and white subway tiles, natural soft window light, warm tones, shallow depth of field. Always the same well-used black cast iron skillet (10 inch, one long handle). 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+  "shots": {
+    "step-2": [
+      {
+        "text": "Step two. For anything that didn't rinse off, pour in a generous handful of coarse salt and a splash of water.",
+        "prompt": "Close-up, three-quarter view from above: a hand pours a generous handful of coarse sea salt into a black cast iron skillet that still has a few stuck-on browned food bits, a small splash of water glistening at the bottom. Photorealistic photograph for a cooking how-to video. Home kitchen with a light oak countertop and white subway tiles, natural soft window light, warm tones, shallow depth of field. Always the same well-used black cast iron skillet (10 inch, one long handle). 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-2-1.jpg"
+      },
+      {
+        "text": "Work it around with a towel or your brush in small circles.",
+        "prompt": "Close-up: a hand scrubs coarse salt in small circles inside the black cast iron skillet with a folded beige cotton kitchen towel, salt grains scattered across the dark surface. Photorealistic photograph for a cooking how-to video. Home kitchen with a light oak countertop and white subway tiles, natural soft window light, warm tones, shallow depth of field. Always the same well-used black cast iron skillet (10 inch, one long handle). 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-2-2.jpg"
+      },
+      {
+        "text": "The salt grains scrub away stuck-on bits without cutting into the seasoning the way a steel scouring pad would.",
+        "prompt": "Macro shot: white coarse salt grains rubbing against stuck-on brown bits on the glossy black seasoned surface of a cast iron skillet; a steel wool scouring pad lies unused and out of focus on the counter behind. Photorealistic photograph for a cooking how-to video. Home kitchen with a light oak countertop and white subway tiles, natural soft window light, warm tones, shallow depth of field. Always the same well-used black cast iron skillet (10 inch, one long handle). 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-2-3.jpg"
+      },
+      {
+        "text": "When the salt turns brown, you've picked up the grime.",
+        "prompt": "Top-down view: the black cast iron skillet filled with coarse salt that has turned brown and grey with grime, next to a little pile of clean white salt on the counter for contrast. Photorealistic photograph for a cooking how-to video. Home kitchen with a light oak countertop and white subway tiles, natural soft window light, warm tones, shallow depth of field. Always the same well-used black cast iron skillet (10 inch, one long handle). 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-2-4.jpg"
+      },
+      {
+        "text": "Rinse it out and check the surface.",
+        "prompt": "A hand holds the black cast iron skillet under a running kitchen tap, dirty brown salt washing away and revealing a clean, smooth black surface, water droplets catching the light. Photorealistic photograph for a cooking how-to video. Home kitchen with a light oak countertop and white subway tiles, natural soft window light, warm tones, shallow depth of field. Always the same well-used black cast iron skillet (10 inch, one long handle). 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-2-5.jpg"
+      }
+    ],
+    "step-3": [
+      {
+        "text": "Step three. Stuck-on food that won't budge gets the boiling trick.",
+        "prompt": "Close-up: a black cast iron skillet on the counter with a stubborn layer of burnt, crusted food stuck to the bottom, a stiff brush lying beside it. Photorealistic photograph for a cooking how-to video. Home kitchen with a light oak countertop and white subway tiles, natural soft window light, warm tones, shallow depth of field. Always the same well-used black cast iron skillet (10 inch, one long handle). 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-3-1.jpg"
+      },
+      {
+        "text": "Add a centimetre of water to the pan, put it back on the stove and bring it to a simmer for two or three minutes.",
+        "prompt": "A black cast iron skillet on a gas stove burner with a low blue flame, a shallow centimetre of water gently simmering inside, small bubbles and light steam rising. Photorealistic photograph for a cooking how-to video. Home kitchen with a light oak countertop and white subway tiles, natural soft window light, warm tones, shallow depth of field. Always the same well-used black cast iron skillet (10 inch, one long handle). 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-3-2.jpg"
+      },
+      {
+        "text": "The heat and the water loosen the burnt layer, and a gentle nudge with a wooden spatula lifts it right off.",
+        "prompt": "Close-up: a hand uses a wooden spatula to gently lift a burnt layer off the bottom of a black cast iron skillet filled with shallow simmering water, the residue peeling away easily. Photorealistic photograph for a cooking how-to video. Home kitchen with a light oak countertop and white subway tiles, natural soft window light, warm tones, shallow depth of field. Always the same well-used black cast iron skillet (10 inch, one long handle). 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-3-3.jpg"
+      },
+      {
+        "text": "Pour the water out and move on.",
+        "prompt": "Hands holding the black cast iron skillet by its handle with a kitchen towel, pouring cloudy hot water out into a stainless steel sink, steam rising. Photorealistic photograph for a cooking how-to video. Home kitchen with a light oak countertop and white subway tiles, natural soft window light, warm tones, shallow depth of field. Always the same well-used black cast iron skillet (10 inch, one long handle). 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-3-4.jpg"
+      },
+      {
+        "text": "Never let the pan sit in that water once the heat is off.",
+        "prompt": "A neglected black cast iron skillet left soaking, full of murky cold water in a kitchen sink, slight orange rust starting on the rim, dull flat light, a mood of something being ruined. Photorealistic photograph for a cooking how-to video. Home kitchen with a light oak countertop and white subway tiles, natural soft window light, warm tones, shallow depth of field. Always the same well-used black cast iron skillet (10 inch, one long handle). 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-3-5.jpg"
+      }
+    ]
+  }
+}

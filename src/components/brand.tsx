@@ -89,7 +89,7 @@ const NoteView: React.FC<{ note: Note; box: [number, number]; focus: [number, nu
   const draw = interpolate(local, [0, 9], [0, 1], { ...clamp, easing: Easing.out(Easing.cubic) });
   const draw2 = interpolate(local, [6, 14], [0, 1], { ...clamp, easing: Easing.out(Easing.cubic) });
   const pop = spring({ frame: local - (note.type === "arrow" ? 0 : 5), fps, config: { damping: 11, stiffness: 200 } });
-  const r = (note.r ?? 0.08) * w * (note.type === "loupe" ? 1 : cam.s);
+  const r = (note.r ?? 0.08) * w * (note.type === "loupe" || note.type === "inset" ? 1 : cam.s);
   const isCross = note.type === "cross";
   const color = isCross ? C.coral : C.sun;
   const paths: React.ReactNode[] = [];
@@ -118,7 +118,7 @@ const NoteView: React.FC<{ note: Note; box: [number, number]; focus: [number, nu
     }
   };
 
-  if (note.type === "loupe") {
+  if (note.type === "loupe" || note.type === "inset") {
     // Loupe : la zone visée est agrandie dans une lentille, reliée à sa cible ; le reste de l'image s'assombrit.
     const Lc = { x: (note.lens?.[0] ?? 0.28) * w, y: (note.lens?.[1] ?? 0.42) * h };
     const z = note.zoom ?? 2.3;
@@ -131,7 +131,7 @@ const NoteView: React.FC<{ note: Note; box: [number, number]; focus: [number, nu
     const ring = 0.035 * w;
     const E1 = { x: Lc.x + (dx / len) * (r + 8), y: Lc.y + (dy / len) * (r + 8) };
     const E2 = { x: P.x - (dx / len) * ring, y: P.y - (dy / len) * ring };
-    const dim = interpolate(local, [0, 10], [0, 0.42], clamp);
+    const dim = note.type === "inset" ? 0 : interpolate(local, [0, 10], [0, 0.42], clamp);
     return (
       <>
         <AbsoluteFill style={{ background: C.ink, opacity: dim }} />

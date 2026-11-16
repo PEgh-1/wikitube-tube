@@ -100,7 +100,8 @@
             "r": 0.2,
             "on": "three"
           }
-        ]
+        ],
+        "punch": "three"
       },
       {
         "text": "Choose a pot that suits the amount, since a pot that is too big dries the rice out, and a pot that is too small boils over.",
@@ -178,6 +179,16 @@
             ],
             "on": "swishing"
           }
+        ],
+        "fx": [
+          {
+            "type": "drops",
+            "at": [
+              0.53,
+              0.85
+            ],
+            "size": 0.8
+          }
         ]
       },
       {
@@ -202,7 +213,8 @@
             ],
             "on": "cloudiness"
           }
-        ]
+        ],
+        "punch": "starch"
       },
       {
         "text": "Keep rinsing for about a minute, until the water runs mostly clear.",
@@ -227,6 +239,16 @@
         "focus": [
           0.55,
           0.45
+        ],
+        "fx": [
+          {
+            "type": "drops",
+            "at": [
+              0.55,
+              0.72
+            ],
+            "size": 1
+          }
         ]
       },
       {
@@ -316,7 +338,8 @@
             ],
             "on": "half"
           }
-        ]
+        ],
+        "punch": "half"
       },
       {
         "text": "Basmati and jasmine are similar, around one to one and a quarter or one and a half.",
@@ -370,7 +393,8 @@
         "focus": [
           0.52,
           0.5
-        ]
+        ],
+        "punch": "never"
       }
     ],
     "step-4": [
@@ -384,18 +408,29 @@
         ],
         "notes": [
           {
-            "type": "circle",
+            "type": "inset",
             "at": [
               0.6,
               0.68
             ],
-            "r": 0.07,
+            "lens": [
+              0.2,
+              0.38
+            ],
+            "r": 0.12,
+            "zoom": 2.4,
             "text": "High heat",
-            "label": [
-              0.25,
+            "on": "high"
+          }
+        ],
+        "fx": [
+          {
+            "type": "steam",
+            "at": [
+              0.4,
               0.3
             ],
-            "on": "high"
+            "size": 0.7
           }
         ]
       },
@@ -406,7 +441,26 @@
         "focus": [
           0.55,
           0.5
-        ]
+        ],
+        "fx": [
+          {
+            "type": "steam",
+            "at": [
+              0.52,
+              0.38
+            ],
+            "size": 1.1
+          },
+          {
+            "type": "bubbles",
+            "at": [
+              0.52,
+              0.52
+            ],
+            "size": 1
+          }
+        ],
+        "punch": "single"
       },
       {
         "text": "Stirring rice releases starch, which makes it creamy and sticky, great for risotto, but not for fluffy rice.",
@@ -454,6 +508,24 @@
             ],
             "on": "ready"
           }
+        ],
+        "fx": [
+          {
+            "type": "steam",
+            "at": [
+              0.42,
+              0.42
+            ],
+            "size": 1
+          },
+          {
+            "type": "bubbles",
+            "at": [
+              0.42,
+              0.6
+            ],
+            "size": 1.2
+          }
         ]
       },
       {
@@ -479,6 +551,16 @@
             ],
             "on": "timer"
           }
+        ],
+        "fx": [
+          {
+            "type": "steam",
+            "at": [
+              0.55,
+              0.35
+            ],
+            "size": 0.7
+          }
         ]
       }
     ],
@@ -490,7 +572,18 @@
         "focus": [
           0.72,
           0.5
-        ]
+        ],
+        "fx": [
+          {
+            "type": "steam",
+            "at": [
+              0.72,
+              0.45
+            ],
+            "size": 0.6
+          }
+        ],
+        "punch": "fifteen"
       },
       {
         "text": "White long-grain rice usually needs fifteen to eighteen minutes, brown rice around forty-five.",
@@ -502,12 +595,18 @@
         ],
         "notes": [
           {
-            "type": "circle",
+            "type": "inset",
             "at": [
               0.72,
               0.74
             ],
-            "r": 0.07,
+            "lens": [
+              0.2,
+              0.4
+            ],
+            "r": 0.12,
+            "zoom": 2.2,
+            "text": "15 to 18 min",
             "on": "fifteen"
           }
         ]
@@ -535,7 +634,8 @@
             ],
             "on": "not"
           }
-        ]
+        ],
+        "punch": "not"
       },
       {
         "text": "The rice cooks in the trapped steam, and every peek lets heat and moisture escape, which leaves you with hard, uneven grains.",
@@ -544,7 +644,18 @@
         "focus": [
           0.45,
           0.5
-        ]
+        ],
+        "fx": [
+          {
+            "type": "steam",
+            "at": [
+              0.52,
+              0.42
+            ],
+            "size": 1
+          }
+        ],
+        "punch": "peek"
       },
       {
         "text": "If your lid is loose, place a clean tea towel under it.",
@@ -645,7 +756,8 @@
             ],
             "on": "off"
           }
-        ]
+        ],
+        "punch": "ten"
       },
       {
         "text": "This resting time is as important as cooking.",
@@ -705,7 +817,18 @@
         "focus": [
           0.52,
           0.5
-        ]
+        ],
+        "fx": [
+          {
+            "type": "steam",
+            "at": [
+              0.52,
+              0.4
+            ],
+            "size": 0.9
+          }
+        ],
+        "punch": "texture"
       }
     ],
     "step-7": [
@@ -731,6 +854,16 @@
             ],
             "on": "lifting"
           }
+        ],
+        "fx": [
+          {
+            "type": "steam",
+            "at": [
+              0.5,
+              0.42
+            ],
+            "size": 1
+          }
         ]
       },
       {
@@ -740,6 +873,16 @@
         "focus": [
           0.5,
           0.65
+        ],
+        "fx": [
+          {
+            "type": "steam",
+            "at": [
+              0.5,
+              0.6
+            ],
+            "size": 0.8
+          }
         ]
       },
       {
@@ -773,7 +916,8 @@
             ],
             "on": "spread"
           }
-        ]
+        ],
+        "punch": "one"
       },
       {
         "text": "When reheating, make sure it is steaming hot all the way through. A small splash of water helps in the microwave.",
@@ -796,6 +940,16 @@
               0.3
             ],
             "on": "steaming"
+          }
+        ],
+        "fx": [
+          {
+            "type": "steam",
+            "at": [
+              0.47,
+              0.38
+            ],
+            "size": 0.9
           }
         ]
       }
@@ -850,7 +1004,8 @@
             ],
             "on": "burnt"
           }
-        ]
+        ],
+        "punch": "scrape"
       }
     ],
     "step-9": [
@@ -870,6 +1025,16 @@
         "focus": [
           0.52,
           0.6
+        ],
+        "fx": [
+          {
+            "type": "steam",
+            "at": [
+              0.52,
+              0.5
+            ],
+            "size": 0.6
+          }
         ]
       },
       {
@@ -879,6 +1044,16 @@
         "focus": [
           0.52,
           0.45
+        ],
+        "fx": [
+          {
+            "type": "steam",
+            "at": [
+              0.52,
+              0.55
+            ],
+            "size": 0.6
+          }
         ]
       },
       {
@@ -933,7 +1108,8 @@
             ],
             "on": "low"
           }
-        ]
+        ],
+        "punch": "low"
       },
       {
         "text": "Set a timer, so you never have to guess.",
@@ -945,12 +1121,17 @@
         ],
         "notes": [
           {
-            "type": "circle",
+            "type": "inset",
             "at": [
               0.6,
               0.72
             ],
-            "r": 0.07,
+            "lens": [
+              0.22,
+              0.4
+            ],
+            "r": 0.12,
+            "zoom": 2.2,
             "on": "timer"
           }
         ]
@@ -971,6 +1152,16 @@
         "focus": [
           0.5,
           0.6
+        ],
+        "fx": [
+          {
+            "type": "steam",
+            "at": [
+              0.5,
+              0.5
+            ],
+            "size": 0.6
+          }
         ]
       }
     ]

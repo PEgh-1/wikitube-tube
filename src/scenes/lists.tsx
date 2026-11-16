@@ -6,6 +6,7 @@ import { C, FONT } from "../theme";
 import { Frame, LogoCorner, SlideUp, KenBurns } from "../components/ui";
 import { Mascot, CueSfx, HAND } from "../components/brand";
 import { MultiShot } from "../components/motion";
+import { useShake } from "../components/fx";
 import type { YouNeedScene, MistakesScene, RecapScene } from "../types";
 
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
@@ -90,9 +91,10 @@ export const Mistakes: React.FC<{ scene: MistakesScene; durationInFrames: number
   const stampIn = spring({ frame: local - 2, fps, config: { damping: 9, stiffness: 240 } });
   const stampOp = interpolate(local, [2, 5, 34, 52], [0, 0.95, 0.95, 0], clamp);
   const titleOut = intro ? 1 : interpolate(local, [0, 8], [1, 0], clamp);
+  const shake = useShake(scene.items.map((_, i) => at(i) / fps + 0.14), 12);
   return (
     <Frame bg={C.ink} dots={false}>
-      <AbsoluteFill>
+      <AbsoluteFill style={{ transform: shake }}>
         {photos ? (
           <MultiShot shots={scene.images ?? []} durationInFrames={durationInFrames} seed={5} starts={starts} box={[1920, 1080]} overlay="linear-gradient(180deg, rgba(27,42,65,0.6) 0%, rgba(27,42,65,0) 20%, rgba(27,42,65,0) 58%, rgba(27,42,65,0.85) 100%)" />
         ) : (

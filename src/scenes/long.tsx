@@ -7,6 +7,7 @@ import { Mascot, WMark, FactChip, InfoCard, TickNote, CueSfx, Tape, HAND, TipBub
 import { WikiGag, DiagramPanel, DiagramView, useCue } from "../components/stage";
 import { MultiShot, KeywordBurst, KeywordSfx, useIllustrationActive } from "../components/motion";
 import { IconBadge } from "../components/icons";
+import { useShake } from "../components/fx";
 
 const shotsOf = (scene: StepScene) => (scene.images?.length ? scene.images : [scene.image]);
 
@@ -261,9 +262,15 @@ const StepStage: React.FC<{ scene: StepScene; durationInFrames: number }> = ({ s
   // La bulle d'astuce reste 9 s au plus : la fin de la scène revient à l'image seule.
   const tipOn = !cardOn && !diagramOn && !gagOn && frame >= tipFrom && frame < Math.min(durationInFrames - 20, tipFrom + 9 * fps);
   const accent = [C.coral, C.teal, C.sun][scene.index % 3];
+  // Secousse d'impact : tampons « à éviter », croix sur l'image et entrées de Wiki.
+  const shake = useShake([
+    ...(scene.cards ?? []).filter((c) => c.kind === "avoid").map((c) => (c.t ?? 0) + 0.27),
+    ...(scene.gags ?? []).map((g) => (g.t ?? 0) + 0.12),
+    ...shotsOf(scene).flatMap((im) => (im?.notes ?? []).filter((n) => n.type === "cross").map((n) => (n.t ?? 0) + 0.2)),
+  ]);
   return (
     <Frame bg={C.ink} dots={false}>
-      <AbsoluteFill>
+      <AbsoluteFill style={{ transform: shake }}>
         <MultiShot
           shots={shotsOf(scene)}
           durationInFrames={durationInFrames}

@@ -6,6 +6,7 @@ import { DrawIcon } from "./icons";
 import { Illustration } from "./illustration";
 import { NotesLayer, imageToBox } from "./brand";
 import { BeforeAfter, SignedTransition } from "./stage";
+import { FxLayer } from "./fx";
 
 const TRANS = 16; // frames de transition entre plans / scènes
 
@@ -106,6 +107,26 @@ const Shot: React.FC<{ image?: ImageRef; len: number; first: boolean; move: numb
     tx = 0;
     ty = 0;
   }
+  // Travelling lent continu : l'image ne se fige jamais, même après le glissement vers le geste.
+  // Amplitude proportionnelle à la durée du plan (plans longs : jusqu'à 8 %), sens alterné d'un plan à l'autre.
+  const lin = Math.min(1, frame / Math.max(1, len));
+  const amp = Math.min(0.08, 0.011 * (len / fps));
+  const pushIn = seed % 2 === 0;
+  if (!image?.zoom && image?.kind !== "illustration") scale += pushIn ? amp * lin : amp * (1 - lin);
+  // Coups de zoom sur les mots forts : saut net, tenu jusqu'à la fin du plan.
+  for (const p of image?.punches ?? []) {
+    const pf = Math.round(p * fps) - fromFrame;
+    if (frame >= pf) scale += 0.075 * spring({ frame: frame - pf, fps, config: { damping: 22, stiffness: 300 } });
+  }
+  // Mise au point : à l'arrivée de la première annotation, le fond se floute autour du geste.
+  const firstNote = (image?.notes ?? []).find((n) => n.type !== "loupe" && n.type !== "inset");
+  let rack = 0;
+  let rackAt: [number, number] = [0.5, 0.5];
+  if (firstNote && !image?.compareFile) {
+    const f0 = Math.round((firstNote.t ?? 0) * fps) - fromFrame;
+    rack = interpolate(frame, [f0 - 8, f0 + 16], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.inOut(Easing.cubic) });
+    rackAt = imageToBox(firstNote.at[0], firstNote.at[1], box, focus);
+  }
   const origin = `${ox * 100}% ${oy * 100}%`;
   const cam = { s: scale, ox, oy, tx: tx / 100, ty: ty / 100 };
   // Entrée : volet diagonal depuis la droite + flash léger (coupe franche pour un second plan).
@@ -133,6 +154,13 @@ const Shot: React.FC<{ image?: ImageRef; len: number; first: boolean; move: numb
       <>
         <div style={{ position: "absolute", inset: 0, transform, transformOrigin: origin }}>
           <Img src={staticFile(image.file)} style={media} />
+          {rack > 0.01 && (
+            <Img
+              src={staticFile(image.file)}
+              style={{ ...media, filter: "blur(5px) brightness(0.92)", opacity: rack, WebkitMaskImage: `radial-gradient(circle at ${rackAt[0] * 100}% ${rackAt[1] * 100}%, transparent 0%, transparent 27%, black 58%)`, maskImage: `radial-gradient(circle at ${rackAt[0] * 100}% ${rackAt[1] * 100}%, transparent 0%, transparent 27%, black 58%)` }}
+            />
+          )}
+          <FxLayer fx={image.fx} box={box} focus={focus} />
         </div>
         <NotesLayer notes={image.notes} box={box} focus={focus} fromFrame={fromFrame} cam={cam} file={image.file} />
       </>

@@ -10,7 +10,7 @@ export type Segment = {
 };
 
 export type Note = {
-  type: "arrow" | "circle" | "swirl" | "cross" | "loupe";
+  type: "arrow" | "circle" | "swirl" | "cross" | "loupe" | "inset"; // inset : médaillon gros plan, sans assombrir l'image
   lens?: [number, number]; // centre de la loupe (cadre affiché, 0-1)
   zoom?: number; // grossissement de la loupe
   at: [number, number]; // cible, en coordonnées image (0-1)
@@ -20,6 +20,7 @@ export type Note = {
   on?: string;
   t?: number; // apparition (s, relative à la scène)
 };
+export type Fx = { type: "steam" | "bubbles" | "drops" | "sparkle"; at: [number, number]; size?: number };
 export type Fact = { t?: number; dur?: number; kind: "timer" | "measure"; big: string; small?: string };
 export type InfoCardData = { t?: number; dur?: number; kind: "why" | "avoid"; title: string; text: string };
 export type Gag = { t?: number; dur?: number; pose: string; side?: "left" | "right" | "bottom"; on?: string; shot?: number };
@@ -32,6 +33,8 @@ export type ImageRef = {
   zoom?: number | null; // second plan de la phrase : zoom sur le geste (même image)
   sub?: boolean; // second plan d'une même phrase (coupe franche)
   notes?: Note[] | null;
+  fx?: Fx[] | null; // effets d'ambiance animés sur la photo
+  punches?: number[] | null; // coups de zoom calés sur la voix (s, relatifs à la scène)
   compareFile?: string | null; // image « avant » (avant / après)
   compareLabels?: [string, string] | null;
   key?: string;

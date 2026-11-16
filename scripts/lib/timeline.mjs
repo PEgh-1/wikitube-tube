@@ -182,6 +182,8 @@ function resolveExtras(sc, sg, extras) {
   const r2 = (x) => Math.round(x * 100) / 100;
   shots.forEach((im, j) => {
     if (im?.notes) im.notes = im.notes.map((n) => ({ ...n, t: r2(timeOf(j, n.on)) }));
+    // Coups de zoom : seulement si le mot est bien trouvé dans la phrase (pas de repli).
+    if (im?.punchOn) im.punches = im.punchOn.map((w) => timeOf(j, w, -1)).filter((t) => t > shotStart(j) + 0.3).map(r2);
   });
   if (!extras) return;
   const first = (shotNo) => {

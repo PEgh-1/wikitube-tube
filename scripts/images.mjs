@@ -85,7 +85,7 @@ function fromPregen(t) {
     const base = entry(t, { kind: "photo", width: 1920, height: 1080, provider: "gemini-web", credit: null }, file);
     // Avant / après : seconde image (« avant ») balayée par un curseur.
     const cmp = sh.compare ? copy(sh.compare.file, `${t.key}-${j + 1}-before`) : null;
-    shots.push({ ...base, text: sh.text, wordStart, prompt: sh.prompt, focus: sh.focus ?? null, notes: sh.notes ?? null, compareFile: cmp ? path.relative(DIRS.public, cmp).split(path.sep).join("/") : null, compareLabels: cmp ? (sh.compare.labels ?? null) : null });
+    shots.push({ ...base, text: sh.text, wordStart, prompt: sh.prompt, focus: sh.focus ?? null, notes: sh.notes ?? null, fx: sh.fx ?? null, punchOn: sh.punch ? [].concat(sh.punch) : null, compareFile: cmp ? path.relative(DIRS.public, cmp).split(path.sep).join("/") : null, compareLabels: cmp ? (sh.compare.labels ?? null) : null });
     // Second plan de la même phrase : gros plan dédié (cut.file) ou zoom sur le geste (même image).
     if (sh.cut) {
       const at = Math.max(1, words.findIndex((w) => clean(w) === clean(sh.cut.on ?? "")));

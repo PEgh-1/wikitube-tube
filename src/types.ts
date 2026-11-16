@@ -50,7 +50,8 @@ export type SceneBase = {
 };
 
 export type PrerollScene = SceneBase & { type: "preroll"; baseline?: string | null };
-export type HookScene = SceneBase & { type: "hook"; title: string; category: string; stepCount: number; image?: ImageRef };
+export type HookScene = SceneBase & {
+  part?: "cold" | "intro"; type: "hook"; title: string; category: string; stepCount: number; image?: ImageRef };
 export type YouNeedScene = SceneBase & { type: "youneed"; items: string[] };
 export type StepScene = SceneBase & {
   type: "step";

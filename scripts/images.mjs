@@ -98,6 +98,14 @@ function fromPregen(t) {
 for (const t of targets) {
   const prev = previous?.all?.[t.key];
   const wantGemini = providerName === "gemini" && gemini.isConfigured() && !mock;
+  // Image d'ouverture pré-générée (shots.json → hero.file)
+  if (!mock && t.key === "hero" && pregen?.hero?.file && exists(path.join(pregenDir, pregen.hero.file))) {
+    const file = path.join(imgDir, `hero${path.extname(pregen.hero.file)}`);
+    fs.copyFileSync(path.join(pregenDir, pregen.hero.file), file);
+    results[t.key] = entry(t, { kind: "photo", width: 1920, height: 1080, provider: "gemini-web", credit: null }, file);
+    log.info("✔ hero pré-généré");
+    continue;
+  }
   const pre = mock ? null : fromPregen(t);
   if (pre) {
     results[t.key] = pre;

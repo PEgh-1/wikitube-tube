@@ -303,12 +303,12 @@ export const CueSfx: React.FC<{ cues: { t: number; sfx: "pencil" | "stamp" | "ti
 };
 
 /** Morceaux de ruban adhésif en haut d'une photo (esprit notice / carnet), à l'écart du logo et du compteur d'étapes. */
-export const Tape: React.FC<{ side: "l" | "r"; width?: number }> = ({ side, width = 190 }) => (
+export const Tape: React.FC<{ side: "l" | "r"; width?: number; inset?: number }> = ({ side, width = 190, inset }) => (
   <div
     style={{
       position: "absolute",
       top: -24,
-      ...(side === "l" ? { left: 430, transform: "rotate(-5deg)" } : { right: 470, transform: "rotate(4deg)" }),
+      ...(side === "l" ? { left: inset ?? 430, transform: "rotate(-5deg)" } : { right: inset ?? 470, transform: "rotate(4deg)" }),
       width,
       height: 48,
       background: "rgba(255,201,77,0.85)",

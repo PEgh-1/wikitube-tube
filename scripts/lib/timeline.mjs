@@ -4,7 +4,7 @@ import { FPS, fmtTime } from "./common.mjs";
 import { pickKeywords, stepIcon } from "./motion.mjs";
 
 export const PREROLL_SEC = 3;
-export const OPEN_VOICE_AT = 1.0; // la voix démarre sur la fin du jingle
+export const OPEN_VOICE_AT = 0.55; // la voix démarre sur la fin du jingle
 export const GAP_SEC = 0.7; // respiration après chaque segment narré
 export const OUTRO_TAIL_SEC = 1.6;
 export const SHORT_GAP_SEC = 0.35;
@@ -38,17 +38,27 @@ export function buildLongTimeline(ep, tts, images, { fps = FPS, brand = null } =
     t = roundToFrame(t + duration, fps);
   };
 
-  // Ouverture signée : jingle (1 s) puis baseline dite par la voix quand le segment existe.
+  // Ouverture signée (jingle + baseline dite par la voix). Par défaut l'accroche passe d'abord :
+  // accroche → signature courte → introduction (meilleure rétention des premières secondes).
   const open = tts.segments["brand-open"];
-  if (open) {
-    const dur = roundToFrame(Math.max(PREROLL_SEC, OPEN_VOICE_AT + open.duration + 0.6), fps);
-    scenes.push({ type: "preroll", start: 0, duration: dur, baseline: brand?.baseline ?? null, segments: [{ id: "brand-open", file: open.file, at: OPEN_VOICE_AT, duration: open.duration, words: open.words }] });
-    t = dur;
+  const hookScene = { type: "hook", title: ep.title, category: ep.category, stepCount: ep.steps.length, image: images.hero };
+  const signature = () => {
+    const dur = roundToFrame(Math.max(PREROLL_SEC, OPEN_VOICE_AT + open.duration + 0.45), fps);
+    scenes.push({ type: "preroll", start: roundToFrame(t, fps), duration: dur, baseline: brand?.baseline ?? null, segments: [{ id: "brand-open", file: open.file, at: roundToFrame(t + OPEN_VOICE_AT, fps), duration: open.duration, words: open.words }] });
+    t = roundToFrame(t + dur, fps);
+  };
+  if (open && brand?.hookFirst) {
+    push({ ...hookScene, part: "cold" }, ["hook"], 0.35);
+    signature();
+    push({ ...hookScene, part: "intro" }, ["intro"]);
   } else {
-    scenes.push({ type: "preroll", start: 0, duration: PREROLL_SEC, segments: [] });
-    t = PREROLL_SEC;
+    if (open) signature();
+    else {
+      scenes.push({ type: "preroll", start: 0, duration: PREROLL_SEC, segments: [] });
+      t = PREROLL_SEC;
+    }
+    push(hookScene, ["hook", "intro"]);
   }
-  push({ type: "hook", title: ep.title, category: ep.category, stepCount: ep.steps.length, image: images.hero }, ["hook", "intro"]);
   push({ type: "youneed", items: ep.youNeed }, ["youneed"]);
   ep.steps.forEach((s, i) => {
     push(

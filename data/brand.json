@@ -1,7 +1,8 @@
 {
   "name": "WikiTube",
   "mascot": "Wiki",
-  "baseline": "Anything you want to do, step by step.",
-  "open": "This is WikiTube. Anything you want to do, step by step.",
-  "close": "That's WikiTube. Step by step, you've got this."
+  "baseline": "Whatever it is, here's how.",
+  "open": "WikiTube. Whatever it is, here's how.",
+  "close": "That's WikiTube. Whatever it is, here's how.",
+  "hookFirst": true
 }

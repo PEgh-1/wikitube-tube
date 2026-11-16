@@ -1,0 +1,192 @@
+{
+  "episodeId": "2026-11-04-unclog-a-toilet",
+  "version": 2,
+  "source": "gemini-web (navigateur, sans API)",
+  "style": "Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+  "hero": {
+    "prompt": "A clean white toilet in a bright modern bathroom, a black flange plunger with a wooden handle standing next to it and a blue bucket beside, front three-quarter view. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+    "file": "hero.jpg"
+  },
+  "shots": {
+    "step-1": [
+      {
+        "text": "Step one. If the bowl is filling up, do not flush again.",
+        "prompt": "Close-up of a white toilet bowl with the clear water level very high, almost at the rim; a bare hand hovering near the chrome flush handle, hesitating. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-1-1.jpg"
+      },
+      {
+        "text": "Lift the lid off the tank and push the rubber flapper down over the hole at the bottom.",
+        "prompt": "View from above into an open toilet tank with the lid removed: a bare hand reaching in and pressing the red rubber flapper down onto the round opening at the bottom of the tank, clear water inside. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-1-2.jpg"
+      },
+      {
+        "text": "That stops more water from entering the bowl.",
+        "prompt": "Close-up inside a toilet tank: the red rubber flapper sitting closed on the flush valve seat under clear water, chain and fill tube visible. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-1-3.jpg"
+      },
+      {
+        "text": "Then reach behind the toilet and turn the shut-off valve clockwise until it stops.",
+        "prompt": "Low angle behind a white toilet: a bare hand turning the small oval chrome shut-off valve on the tiled wall, a braided steel supply hose running up to the tank. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-1-4.jpg"
+      },
+      {
+        "text": "Now the water level cannot rise, and you can work without a flood.",
+        "prompt": "A calm white toilet bowl seen from above with a stable clear water level, the tank lid resting on a folded towel on the floor beside it. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-1-5.jpg"
+      }
+    ],
+    "step-2": [
+      {
+        "text": "Step two. Lay old towels or newspaper around the base of the toilet.",
+        "prompt": "Old beige towels and newspaper spread on the light grey tile floor all around the base of a white toilet, seen from above at an angle. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-2-1.jpg"
+      },
+      {
+        "text": "Pull on a pair of rubber gloves, and open a window if you can.",
+        "prompt": "Close-up of hands wearing bright yellow rubber gloves being pulled on, a bathroom window slightly open in the soft-focus background. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-2-2.jpg"
+      },
+      {
+        "text": "If the bowl is full to the brim, bail some water into a bucket until it is about half full.",
+        "prompt": "Hands wearing bright yellow rubber gloves using a small plastic cup to bail clear water from a very full white toilet bowl into a blue bucket on the floor. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-2-3.jpg"
+      },
+      {
+        "text": "You want enough water to cover the plunger, but not enough to splash over the rim.",
+        "prompt": "View from above of a white toilet bowl about half full of clear water, a blue bucket beside it on towels. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-2-4.jpg"
+      }
+    ],
+    "step-3": [
+      {
+        "text": "Step three. Use a flange plunger, the kind with a soft rubber sleeve sticking out of the cup.",
+        "prompt": "Close-up of a flange toilet plunger held up by hands wearing bright yellow rubber gloves: black rubber cup with a soft rubber sleeve (flange) extending from the bottom of the cup, wooden handle. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-3-1.jpg"
+      },
+      {
+        "text": "A flat sink plunger cannot seal the curved drain of a toilet.",
+        "prompt": "Two plungers standing side by side on a bathroom floor: on the left a flat red cup sink plunger, on the right a black flange toilet plunger with an extended rubber sleeve; the difference is obvious. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-3-2.jpg"
+      },
+      {
+        "text": "Run the plunger under hot water for a minute so the rubber softens.",
+        "prompt": "A black flange plunger held under a running hot tap in a white bathroom sink, light steam rising, hands wearing bright yellow rubber gloves. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-3-3.jpg"
+      },
+      {
+        "text": "Lower it in at an angle to let the air escape, then fit the sleeve into the drain hole.",
+        "prompt": "Hands wearing bright yellow rubber gloves lowering a black flange plunger at an angle into a white toilet bowl half full of clear water, the rubber sleeve entering the drain opening. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-3-4.jpg"
+      },
+      {
+        "text": "Make your first push slow and gentle, so trapped air does not blast water back at you.",
+        "prompt": "Hands wearing bright yellow rubber gloves pressing a black flange plunger slowly down in a white toilet bowl, the rubber cup compressed, calm clear water, side view at bowl level. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-3-5.jpg"
+      }
+    ],
+    "step-4": [
+      {
+        "text": "Step four. Keep the seal and pump the handle straight up and down, fifteen to twenty times.",
+        "prompt": "A person standing over a white toilet gripping the wooden plunger handle with both hands wearing bright yellow rubber gloves, the plunger vertical in the bowl, seen from the side. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-4-1.jpg"
+      },
+      {
+        "text": "Push firmly, but pull just as hard, because the suction does half the work.",
+        "prompt": "Close-up at the toilet bowl: a black plunger cup being pulled upward, slightly stretched, clear water rippling, hands wearing bright yellow rubber gloves on the handle. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-4-2.jpg"
+      },
+      {
+        "text": "On the last stroke, yank the plunger up sharply to break the seal.",
+        "prompt": "Action shot: a black flange plunger lifted just out of the clear water of a white toilet bowl, droplets falling, hands wearing bright yellow rubber gloves. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-4-3.jpg"
+      },
+      {
+        "text": "If the water rushes down the drain, the clog has moved.",
+        "prompt": "View from above of a white toilet bowl with clear water swirling down the drain in a vortex, the water level low. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-4-4.jpg"
+      },
+      {
+        "text": "If nothing changes, repeat the whole round two or three more times before moving on.",
+        "prompt": "Hands wearing bright yellow rubber gloves repositioning a black flange plunger over the drain in a toilet bowl with still, high clear water, seen from above at an angle. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-4-5.jpg"
+      }
+    ],
+    "step-5": [
+      {
+        "text": "Step five. Squirt about half a cup of dish soap into the bowl.",
+        "prompt": "A hand in a yellow rubber glove squeezing a stream of green dish soap from a plastic bottle into a white toilet bowl of clear water. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-5-1.jpg"
+      },
+      {
+        "text": "Fill a bucket with hot tap water, hot but never boiling, because boiling water can crack porcelain.",
+        "prompt": "A blue bucket being filled with steaming hot water from a bathtub tap, light steam, a hand in a yellow rubber glove holding the bucket. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-5-2.jpg"
+      },
+      {
+        "text": "Pour it in from waist height, so the weight of the water pushes on the clog.",
+        "prompt": "A person pouring a blue bucket of hot water from waist height into a white toilet bowl, a thick stream of water, light steam, side view. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-5-3.jpg"
+      },
+      {
+        "text": "Wait fifteen to twenty minutes while the soap lubricates the pipe.",
+        "prompt": "A white toilet bowl with slightly soapy, bubbly water, and a small white kitchen timer standing on top of the tank; a calm waiting scene. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-5-4.jpg"
+      },
+      {
+        "text": "Then plunge again, and most stubborn clogs give up at this point.",
+        "prompt": "Hands wearing bright yellow rubber gloves plunging with a black flange plunger in soapy, bubbly water in a white toilet bowl. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-5-5.jpg"
+      }
+    ],
+    "step-6": [
+      {
+        "text": "Step six. For a clog that still will not move, use a toilet auger, also called a closet auger.",
+        "prompt": "A toilet auger (closet auger) held by hands wearing bright yellow rubber gloves in a bathroom: a long metal tube with a crank handle at the top and a curved lower end covered by a black rubber sleeve, coiled cable tip. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-6-1.jpg"
+      },
+      {
+        "text": "Its rubber sleeve protects the porcelain from scratches.",
+        "prompt": "Close-up of the curved lower end of a toilet auger, its black rubber protective sleeve resting against the white porcelain inside a toilet bowl. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-6-2.jpg"
+      },
+      {
+        "text": "Rest the curved end in the drain and feed the cable in by turning the crank clockwise.",
+        "prompt": "Hands wearing bright yellow rubber gloves operating a toilet auger in a white toilet: one hand holding the metal tube, the other turning the crank handle, the curved end sitting in the drain, side view. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-6-3.jpg"
+      },
+      {
+        "text": "When you feel resistance, keep cranking gently to break the clog apart or hook it.",
+        "prompt": "Close-up of a hand in a yellow rubber glove firmly turning the crank handle of a toilet auger, the metal cable entering the tube. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-6-4.jpg"
+      },
+      {
+        "text": "Then wind the cable back out slowly and drop whatever comes up into the bucket.",
+        "prompt": "Hands wearing bright yellow rubber gloves pulling the cable of a toilet auger out of a toilet bowl and holding its coiled tip over a blue bucket, a small wad of wet white paper caught on the tip. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-6-5.jpg"
+      }
+    ],
+    "step-7": [
+      {
+        "text": "Step seven. Turn the shut-off valve back on and let the tank refill.",
+        "prompt": "Low angle behind a white toilet: a hand in a yellow rubber glove turning the oval chrome shut-off valve on the tiled wall, braided steel hose. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-7-1.jpg"
+      },
+      {
+        "text": "Take the lid off and keep one hand near the flapper, ready to close it.",
+        "prompt": "An open toilet tank seen from above, filled with clear water, a hand in a yellow rubber glove hovering just above the red rubber flapper. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-7-2.jpg"
+      },
+      {
+        "text": "Flush once and watch the bowl empty with a strong swirl.",
+        "prompt": "View from above of a perfectly clean white toilet bowl in mid-flush: a strong swirl of clear water going down the drain. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-7-3.jpg"
+      },
+      {
+        "text": "Finish by rinsing the plunger and auger in the clean flush water, then disinfect them, the floor and the handle.",
+        "prompt": "Hands wearing bright yellow rubber gloves spraying disinfectant from a spray bottle onto a black flange plunger held over a clean white toilet bowl. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-7-4.jpg"
+      }
+    ]
+  },
+  "extras": {}
+}

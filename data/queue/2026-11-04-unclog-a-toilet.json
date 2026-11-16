@@ -1,0 +1,179 @@
+{
+  "$schema": "../episode.schema.json",
+  "id": "2026-11-04-unclog-a-toilet",
+  "date": "2026-11-04",
+  "slug": "unclog-a-toilet",
+  "category": "Home",
+  "title": "How to Unclog a Toilet Without Calling a Plumber",
+  "hook": "A clogged toilet always seems to happen at the worst possible moment. The good news is that most of the time you can clear it yourself in about ten minutes, with no plumber and no harsh chemicals. Here are the seven steps.",
+  "intro": "Most toilet clogs sit in the first bend of the drain, just out of sight, and they are made of too much paper or something that should never have been flushed. That is why pressure, soap and a simple cable are usually enough. We will start with the gentlest method and work up, so you never do more than you need to.",
+  "youNeed": [
+    "Flange plunger",
+    "Rubber gloves",
+    "Dish soap",
+    "Bucket of hot tap water",
+    "Toilet auger",
+    "Old towels"
+  ],
+  "youNeedNarration": "Here is what you will need. A flange plunger. A pair of rubber gloves. Dish soap. A bucket of hot tap water. A toilet auger for the stubborn cases. And a few old towels for the floor.",
+  "heroImageQuery": "clean white toilet bathroom",
+  "heroImagePrompt": "A clean white toilet in a bright modern bathroom, a black flange plunger with a wooden handle standing next to it and a blue bucket beside, front three-quarter view. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+  "steps": [
+    {
+      "title": "Stop the water first",
+      "narration": "Step one. If the bowl is filling up, do not flush again. Lift the lid off the tank and push the rubber flapper down over the hole at the bottom. That stops more water from entering the bowl. Then reach behind the toilet and turn the shut-off valve clockwise until it stops. Now the water level cannot rise, and you can work without a flood.",
+      "tip": "No flush until the clog is gone",
+      "mistake": "Flushing a second time to see if it clears",
+      "imageQuery": "toilet tank flapper",
+      "imagePrompt": "Close-up of a white toilet bowl with the clear water level very high, almost at the rim; a bare hand hovering near the chrome flush handle, hesitating. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "title": "Protect the floor and gear up",
+      "narration": "Step two. Lay old towels or newspaper around the base of the toilet. Pull on a pair of rubber gloves, and open a window if you can. If the bowl is full to the brim, bail some water into a bucket until it is about half full. You want enough water to cover the plunger, but not enough to splash over the rim.",
+      "tip": "Half a bowl of water is ideal",
+      "mistake": "Plunging a bowl that is full to the brim",
+      "imageQuery": "rubber gloves bathroom",
+      "imagePrompt": "Old beige towels and newspaper spread on the light grey tile floor all around the base of a white toilet, seen from above at an angle. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "title": "Seal the drain with a flange plunger",
+      "narration": "Step three. Use a flange plunger, the kind with a soft rubber sleeve sticking out of the cup. A flat sink plunger cannot seal the curved drain of a toilet. Run the plunger under hot water for a minute so the rubber softens. Lower it in at an angle to let the air escape, then fit the sleeve into the drain hole. Make your first push slow and gentle, so trapped air does not blast water back at you.",
+      "tip": "Warm rubber seals better",
+      "mistake": "Using a flat sink plunger on a toilet",
+      "imageQuery": "toilet plunger",
+      "imagePrompt": "Close-up of a flange toilet plunger held up by hands wearing bright yellow rubber gloves: black rubber cup with a soft rubber sleeve (flange) extending from the bottom of the cup, wooden handle. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "title": "Plunge in a steady rhythm",
+      "narration": "Step four. Keep the seal and pump the handle straight up and down, fifteen to twenty times. Push firmly, but pull just as hard, because the suction does half the work. On the last stroke, yank the plunger up sharply to break the seal. If the water rushes down the drain, the clog has moved. If nothing changes, repeat the whole round two or three more times before moving on.",
+      "tip": "Pull as hard as you push",
+      "mistake": "Breaking the seal on every stroke",
+      "imageQuery": "plunging toilet",
+      "imagePrompt": "A person standing over a white toilet gripping the wooden plunger handle with both hands wearing bright yellow rubber gloves, the plunger vertical in the bowl, seen from the side. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "title": "Loosen it with dish soap and hot water",
+      "narration": "Step five. Squirt about half a cup of dish soap into the bowl. Fill a bucket with hot tap water, hot but never boiling, because boiling water can crack porcelain. Pour it in from waist height, so the weight of the water pushes on the clog. Wait fifteen to twenty minutes while the soap lubricates the pipe. Then plunge again, and most stubborn clogs give up at this point.",
+      "tip": "Hot from the tap, never boiling",
+      "mistake": "Pouring in boiling water",
+      "imageQuery": "dish soap bucket hot water",
+      "imagePrompt": "A hand in a yellow rubber glove squeezing a stream of green dish soap from a plastic bottle into a white toilet bowl of clear water. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "title": "Break it up with a toilet auger",
+      "narration": "Step six. For a clog that still will not move, use a toilet auger, also called a closet auger. Its rubber sleeve protects the porcelain from scratches. Rest the curved end in the drain and feed the cable in by turning the crank clockwise. When you feel resistance, keep cranking gently to break the clog apart or hook it. Then wind the cable back out slowly and drop whatever comes up into the bucket.",
+      "tip": "Crank gently, never force it",
+      "mistake": "Using a wire coat hanger instead",
+      "imageQuery": "toilet auger",
+      "imagePrompt": "A toilet auger (closet auger) held by hands wearing bright yellow rubber gloves in a bathroom: a long metal tube with a crank handle at the top and a curved lower end covered by a black rubber sleeve, coiled cable tip. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+      "media": "photo"
+    },
+    {
+      "title": "Test the flush and clean up",
+      "narration": "Step seven. Turn the shut-off valve back on and let the tank refill. Take the lid off and keep one hand near the flapper, ready to close it. Flush once and watch the bowl empty with a strong swirl. Finish by rinsing the plunger and auger in the clean flush water, then disinfect them, the floor and the handle.",
+      "tip": "Keep a hand near the flapper",
+      "mistake": "Walking away before the test flush",
+      "imageQuery": "toilet flushing clean",
+      "imagePrompt": "Low angle behind a white toilet: a hand in a yellow rubber glove turning the oval chrome shut-off valve on the tiled wall, braided steel hose. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+      "media": "photo"
+    }
+  ],
+  "mistakesToAvoid": {
+    "narration": "Now, the mistakes that turn a small clog into a big problem. One, flushing again and again, which is how bathrooms flood. Two, pouring in chemical drain cleaner. It rarely works on toilets, it can damage the pipes, and if you plunge afterwards it can splash onto your skin. Three, using boiling water, which can crack the bowl. And four, poking around with a wire coat hanger, which scratches the porcelain for good.",
+    "items": [
+      "Flushing again and again",
+      "Chemical drain cleaner",
+      "Boiling water",
+      "A wire coat hanger"
+    ]
+  },
+  "recap": {
+    "narration": "Let's run through it one more time. Stop the water. Protect the floor. Seal the drain with a flange plunger. Plunge in a steady rhythm. Add dish soap and hot water. Bring in the auger. Then test the flush and clean up. And if several drains in the house back up at once, the problem is in the main line, so that is the moment to call a plumber.",
+    "items": [
+      "Stop the water",
+      "Protect the floor",
+      "Seal with a flange plunger",
+      "Plunge in rhythm",
+      "Dish soap + hot water",
+      "Toilet auger",
+      "Test flush and clean up"
+    ]
+  },
+  "outro": "That's how you unclog a toilet without calling a plumber. If this saved your day, subscribe to WikiTube for a new how-to every day, and tell us in the comments what you want us to explain next.",
+  "metadata": {
+    "title": "How to Unclog a Toilet Fast (7 Steps, No Plumber)",
+    "description": "A clogged toilet is usually a 10-minute fix. In this video you'll learn the 7 steps to unclog a toilet yourself: stop the water, protect the floor, seal the drain with a flange plunger, plunge in rhythm, use dish soap and hot water, break the clog with a toilet auger, then test the flush. Plus the 4 mistakes to avoid and when to call a plumber.",
+    "tags": [
+      "how to unclog a toilet",
+      "unclog toilet",
+      "clogged toilet",
+      "toilet plunger",
+      "toilet auger",
+      "dish soap toilet clog",
+      "plumbing tips",
+      "home repair",
+      "how to"
+    ],
+    "thumbnailTitle": "Unclog it in 10 minutes",
+    "chapters": "auto",
+    "localizations": {
+      "es": {
+        "title": "Cómo destapar un inodoro rápido (7 pasos, sin fontanero)",
+        "description": "Los 7 pasos para destapar un inodoro tú mismo: cortar el agua, usar bien el desatascador, jabón y agua caliente, y la sonda para inodoros."
+      },
+      "pt": {
+        "title": "Como desentupir um vaso sanitário rápido (7 passos, sem encanador)",
+        "description": "Os 7 passos para desentupir o vaso sozinho: fechar a água, usar o desentupidor certo, detergente e água quente, e a sonda para vasos."
+      },
+      "fr": {
+        "title": "Comment déboucher des toilettes rapidement (7 étapes, sans plombier)",
+        "description": "Les 7 étapes pour déboucher des toilettes soi-même : couper l'eau, bien utiliser la ventouse, liquide vaisselle et eau chaude, puis le furet."
+      },
+      "de": {
+        "title": "Toilette verstopft? So wird sie schnell frei (7 Schritte, ohne Klempner)",
+        "description": "Die 7 Schritte, um eine verstopfte Toilette selbst zu befreien: Wasser abstellen, Pümpel richtig einsetzen, Spülmittel und heißes Wasser, Rohrspirale."
+      },
+      "hi": {
+        "title": "बंद टॉयलेट को जल्दी कैसे खोलें (7 स्टेप, बिना प्लंबर)",
+        "description": "बंद टॉयलेट खुद खोलने के 7 स्टेप: पानी बंद करना, सही प्लंजर का इस्तेमाल, डिश सोप और गर्म पानी, और टॉयलेट ऑगर।"
+      },
+      "it": {
+        "title": "Come sturare il water velocemente (7 passaggi, senza idraulico)",
+        "description": "I 7 passaggi per sturare il water da soli: chiudere l'acqua, usare bene lo sturalavandini a flangia, detersivo e acqua calda, sonda per WC."
+      },
+      "ja": {
+        "title": "トイレのつまりを素早く直す方法(7ステップ・業者なし)",
+        "description": "トイレのつまりを自分で直す7つのステップ:止水、ラバーカップの正しい使い方、食器用洗剤とお湯、トイレ用ワイヤー。"
+      },
+      "id": {
+        "title": "Cara Mengatasi Toilet Mampet dengan Cepat (7 Langkah, Tanpa Tukang)",
+        "description": "7 langkah mengatasi toilet mampet sendiri: menutup air, memakai plunger yang benar, sabun cuci piring dan air panas, serta auger toilet."
+      }
+    }
+  },
+  "short": {
+    "title": "Unclog a toilet in 3 steps #shorts",
+    "description": "Stop the water, seal with a flange plunger, then dish soap and hot water. Full 7-step guide on the channel. #plumbing #howto #hometips",
+    "hook": "Toilet clogged? Do not flush again. Three steps, about ten minutes.",
+    "steps": [
+      {
+        "title": "Stop the water",
+        "narration": "One. Push the flapper down in the tank and close the valve behind the toilet."
+      },
+      {
+        "title": "Plunge with a flange plunger",
+        "narration": "Two. Seal the drain with a flange plunger and pump fifteen to twenty times."
+      },
+      {
+        "title": "Dish soap + hot water",
+        "narration": "Three. Still stuck? Half a cup of dish soap, a bucket of hot tap water, wait fifteen minutes, plunge again."
+      }
+    ],
+    "cta": "The full guide with all seven steps is on the channel."
+  }
+}

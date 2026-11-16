@@ -32,13 +32,18 @@ const SceneView: React.FC<{ scene: Scene; durationInFrames: number }> = ({ scene
 export const Long: React.FC<LongProps> = ({ timeline, options }) => {
   const { fps } = useVideoConfig();
   const burn = options?.burnSubtitles ?? true;
-  // Musique de fond : muette pendant l'ouverture (jingle), puis discrète sous la voix, plus présente sur la fin.
-  const introEnd = Math.round((timeline.scenes[0]?.type === "preroll" ? timeline.scenes[0].duration : 0) * fps);
+  // Musique de fond : discrète sous la voix, coupée pendant la signature (jingle), plus présente sur la fin.
+  const sig = timeline.scenes.find((sc) => sc.type === "preroll");
+  const sigFrom = Math.round((sig?.start ?? -10) * fps);
+  const sigTo = Math.round(((sig?.start ?? -10) + (sig?.duration ?? 0)) * fps);
   const last = timeline.scenes[timeline.scenes.length - 1];
   const outroStart = Math.round((last?.type === "outro" ? last.start : timeline.totalSec) * fps);
+  const clampOpt = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
   const musicVolume = (f: number) =>
-    interpolate(f, [introEnd - 6, introEnd + 20], [0, MUSIC_VOLUME], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) *
-    interpolate(f, [timeline.durationInFrames - 30, timeline.durationInFrames - 2], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) *
+    MUSIC_VOLUME *
+    interpolate(f, [0, 20], [0, 1], clampOpt) *
+    (sig ? Math.max(interpolate(f, [sigFrom - 8, sigFrom], [1, 0], clampOpt) * (f < sigFrom ? 1 : 0), interpolate(f, [sigTo - 4, sigTo + 18], [0, 1], clampOpt)) : 1) *
+    interpolate(f, [timeline.durationInFrames - 30, timeline.durationInFrames - 2], [1, 0], clampOpt) *
     (f > outroStart ? 1.4 : 1);
   return (
     <AbsoluteFill style={{ background: C.ink }}>

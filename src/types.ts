@@ -10,7 +10,9 @@ export type Segment = {
 };
 
 export type Note = {
-  type: "arrow" | "circle" | "swirl" | "cross";
+  type: "arrow" | "circle" | "swirl" | "cross" | "loupe";
+  lens?: [number, number]; // centre de la loupe (cadre affiché, 0-1)
+  zoom?: number; // grossissement de la loupe
   at: [number, number]; // cible, en coordonnées image (0-1)
   text?: string;
   label?: [number, number]; // centre de l'étiquette, en coordonnées du cadre affiché (0-1)
@@ -20,6 +22,9 @@ export type Note = {
 };
 export type Fact = { t?: number; dur?: number; kind: "timer" | "measure"; big: string; small?: string };
 export type InfoCardData = { t?: number; dur?: number; kind: "why" | "avoid"; title: string; text: string };
+export type Gag = { t?: number; dur?: number; pose: string; side?: "left" | "right" | "bottom"; on?: string; shot?: number };
+export type Diagram = { t?: number; dur?: number; name: string; mode: string; title?: string; on?: string; shot?: number };
+export type Chip = { t?: number; label: string; sub?: string; mode?: string; on?: string };
 export type Tick = { t?: number; dur?: number; label: string };
 
 export type ImageRef = {
@@ -27,6 +32,8 @@ export type ImageRef = {
   zoom?: number | null; // second plan de la phrase : zoom sur le geste (même image)
   sub?: boolean; // second plan d'une même phrase (coupe franche)
   notes?: Note[] | null;
+  compareFile?: string | null; // image « avant » (avant / après)
+  compareLabels?: [string, string] | null;
   key?: string;
   file: string; // relatif à public/
   kind?: "photo" | "video" | "illustration";
@@ -51,7 +58,10 @@ export type SceneBase = {
 
 export type PrerollScene = SceneBase & { type: "preroll"; baseline?: string | null };
 export type HookScene = SceneBase & {
-  part?: "cold" | "intro"; type: "hook"; title: string; category: string; stepCount: number; image?: ImageRef };
+  part?: "cold" | "intro";
+  diagram?: string | null;
+  chips?: Chip[];
+  gags?: Gag[]; type: "hook"; title: string; category: string; stepCount: number; image?: ImageRef };
 export type YouNeedScene = SceneBase & { type: "youneed"; items: string[] };
 export type StepScene = SceneBase & {
   type: "step";
@@ -68,6 +78,8 @@ export type StepScene = SceneBase & {
   facts?: Fact[];
   cards?: InfoCardData[];
   ticks?: Tick[];
+  gags?: Gag[];
+  diagrams?: Diagram[];
 };
 export type MistakesScene = SceneBase & { type: "mistakes"; items: string[] };
 export type RecapScene = SceneBase & { type: "recap"; items: string[] };

@@ -251,16 +251,18 @@
         ],
         "notes": [
           {
-            "type": "arrow",
+            "type": "loupe",
             "at": [
               0.555,
-              0.71
+              0.7
             ],
+            "lens": [
+              0.25,
+              0.5
+            ],
+            "r": 0.135,
+            "zoom": 2.2,
             "text": "The flange (soft sleeve)",
-            "label": [
-              0.24,
-              0.56
-            ],
             "on": "sleeve"
           }
         ]
@@ -320,8 +322,8 @@
             ],
             "text": "Warm rubber seals better",
             "label": [
-              0.26,
-              0.34
+              0.24,
+              0.4
             ],
             "on": "hot"
           }
@@ -352,24 +354,25 @@
         ],
         "cut": {
           "on": "then",
-          "zoom": 1.25,
+          "zoom": 1.2,
           "focus": [
             0.48,
             0.66
           ],
           "notes": [
             {
-              "type": "circle",
+              "type": "loupe",
               "at": [
                 0.48,
-                0.7
+                0.69
               ],
-              "r": 0.085,
+              "lens": [
+                0.76,
+                0.36
+              ],
+              "r": 0.135,
+              "zoom": 2.2,
               "text": "Sleeve in the drain",
-              "label": [
-                0.7,
-                0.42
-              ],
               "on": "sleeve"
             }
           ]
@@ -418,8 +421,8 @@
             ],
             "text": "Straight up and down",
             "label": [
-              0.3,
-              0.86
+              0.25,
+              0.6
             ],
             "on": "straight"
           }
@@ -442,8 +445,8 @@
             ],
             "text": "Pull = suction",
             "label": [
-              0.26,
-              0.86
+              0.24,
+              0.62
             ],
             "on": "pull"
           }
@@ -466,8 +469,8 @@
             ],
             "text": "One sharp pull",
             "label": [
-              0.28,
-              0.86
+              0.26,
+              0.62
             ],
             "on": "yank"
           }
@@ -481,22 +484,13 @@
           0.5,
           0.55
         ],
-        "notes": [
-          {
-            "type": "circle",
-            "at": [
-              0.5,
-              0.62
-            ],
-            "r": 0.1,
-            "text": "Water drops: clog moved",
-            "label": [
-              0.5,
-              0.11
-            ],
-            "on": "rushes"
-          }
-        ]
+        "compare": {
+          "file": "step-1-5.jpg",
+          "labels": [
+            "Clogged",
+            "Clear"
+          ]
+        }
       },
       {
         "text": "If nothing changes, repeat the whole round two or three more times before moving on.",
@@ -849,6 +843,15 @@
           "text": "A second flush sends a full tank into a blocked bowl.",
           "dur": 4.4
         }
+      ],
+      "gags": [
+        {
+          "shot": 1,
+          "on": "do",
+          "pose": "panic",
+          "side": "left",
+          "dur": 2.6
+        }
       ]
     },
     "step-2": {
@@ -903,14 +906,14 @@
           "dur": 3.6
         }
       ],
-      "cards": [
+      "cards": [],
+      "gags": [
         {
           "shot": 5,
-          "on": "gentle",
-          "kind": "why",
-          "title": "Why it works",
-          "text": "A gentle first push lets the air out, not the water.",
-          "dur": 4.4
+          "on": "blast",
+          "pose": "wet",
+          "side": "right",
+          "dur": 3.0
         }
       ]
     },
@@ -933,14 +936,24 @@
           "dur": 3.6
         }
       ],
-      "cards": [
+      "cards": [],
+      "diagrams": [
         {
           "shot": 2,
-          "on": "suction",
-          "kind": "why",
-          "title": "Why it works",
-          "text": "The pull loosens the clog as much as the push.",
-          "dur": 4.2
+          "on": "pull",
+          "name": "toilet-trap",
+          "mode": "plunge",
+          "title": "Push and pull",
+          "dur": 5.2
+        }
+      ],
+      "gags": [
+        {
+          "shot": 4,
+          "on": "moved",
+          "pose": "party",
+          "side": "left",
+          "dur": 2.6
         }
       ]
     },
@@ -992,6 +1005,15 @@
           "text": "Falling water adds pressure on the clog.",
           "dur": 4.0
         }
+      ],
+      "gags": [
+        {
+          "shot": 4,
+          "on": "wait",
+          "pose": "watch",
+          "side": "left",
+          "dur": 3.2
+        }
       ]
     },
     "step-6": {
@@ -1011,6 +1033,16 @@
           "text": "Never force the cable. It can kink or scratch the bowl.",
           "dur": 4.4
         }
+      ],
+      "diagrams": [
+        {
+          "shot": 3,
+          "on": "feed",
+          "name": "toilet-trap",
+          "mode": "auger",
+          "title": "The cable reaches the clog",
+          "dur": 6.0
+        }
       ]
     },
     "step-7": {
@@ -1022,6 +1054,35 @@
           "big": "1 flush",
           "small": "to test",
           "dur": 3.2
+        }
+      ]
+    },
+    "intro": {
+      "diagram": "toilet-trap",
+      "chips": [
+        {
+          "on": "pressure",
+          "label": "Pressure",
+          "sub": "the plunger",
+          "mode": "plunge"
+        },
+        {
+          "on": "soap",
+          "label": "Soap + hot water",
+          "sub": "to loosen it"
+        },
+        {
+          "on": "cable",
+          "label": "A simple cable",
+          "sub": "the toilet auger",
+          "mode": "auger"
+        }
+      ],
+      "gags": [
+        {
+          "on": "never",
+          "pose": "nose",
+          "dur": 3.4
         }
       ]
     }

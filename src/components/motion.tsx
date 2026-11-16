@@ -4,9 +4,10 @@ import { C, FONT } from "../theme";
 import type { ImageRef, Keyword } from "../types";
 import { DrawIcon } from "./icons";
 import { Illustration } from "./illustration";
-import { NotesLayer, WBadge, imageToBox } from "./brand";
+import { NotesLayer, imageToBox } from "./brand";
+import { BeforeAfter, SignedTransition } from "./stage";
 
-const TRANS = 14; // frames de transition entre plans / scènes
+const TRANS = 16; // frames de transition entre plans / scènes
 
 // ---------- Plusieurs plans par étape (photos + clip), coupes dynamiques ----------
 export const MultiShot: React.FC<{
@@ -83,15 +84,30 @@ const Shot: React.FC<{ image?: ImageRef; len: number; first: boolean; move: numb
   let scale = moves.s0 + (moves.s1 - moves.s0) * t + (first ? 0 : (1 - punch) * (cut ? 0.1 : 0.18));
   let tx = (t - 0.5) * moves.x;
   let ty = (t - 0.5) * moves.y;
-  let origin = "50% 50%";
+  let ox = 0.5;
+  let oy = 0.5;
+  const [fbx, fby] = imageToBox(focus[0], focus[1], box, focus);
+  const cl = (x: number) => Math.max(0.08, Math.min(0.92, x));
   if (image?.zoom) {
     // Zoom sur le geste : on resserre sur le point d'intérêt de la même image.
-    const [ox, oy] = imageToBox(focus[0], focus[1], box, focus);
-    origin = `${Math.max(0, Math.min(1, ox)) * 100}% ${Math.max(0, Math.min(1, oy)) * 100}%`;
+    ox = cl(fbx);
+    oy = cl(fby);
     scale = image.zoom * (0.95 + 0.05 * t) + (1 - punch) * 0.12;
     tx = 0;
     ty = 0;
+  } else if (annotated && image?.focus) {
+    // Mouvement de caméra vers le geste : plan large, puis la caméra glisse vers le point d'intérêt
+    // au moment où la voix le nomme (première annotation du plan).
+    const first0 = Math.min(...(image.notes ?? []).map((n) => Math.round((n.t ?? 0) * fps) - fromFrame));
+    const go = interpolate(frame, [first0 - 14, first0 + 22], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.inOut(Easing.cubic) });
+    ox = cl(fbx);
+    oy = cl(fby);
+    scale = 1.02 + 0.15 * go + 0.03 * t + (first ? 0 : (1 - punch) * 0.06);
+    tx = 0;
+    ty = 0;
   }
+  const origin = `${ox * 100}% ${oy * 100}%`;
+  const cam = { s: scale, ox, oy, tx: tx / 100, ty: ty / 100 };
   // Entrée : volet diagonal depuis la droite + flash léger (coupe franche pour un second plan).
   const reveal = first || cut ? 1 : interpolate(frame, [0, TRANS], [0, 1], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
   const clip = first || cut ? undefined : `polygon(${100 - reveal * 115}% 0, 100% 0, 100% 100%, ${100 - reveal * 115 - 15}% 100%)`;
@@ -109,13 +125,17 @@ const Shot: React.FC<{ image?: ImageRef; len: number; first: boolean; move: numb
     const dur = Number((image as ImageRef & { duration?: number }).duration ?? 0);
     const rate = dur > 0 ? Math.max(0.5, Math.min(1, dur / (len / fps))) : 1;
     el = <OffthreadVideo src={staticFile(image.file)} muted playbackRate={rate} style={{ ...media, transform }} />;
+  } else if (image?.compareFile) {
+    el = <BeforeAfter before={image.compareFile} after={image.file} labels={image.compareLabels ?? undefined} len={len - TRANS} />;
   } else if (image) {
-    // L'image et ses annotations partagent le même conteneur transformé : les traits suivent le mouvement.
+    // Les cibles des annotations suivent la caméra ; les étiquettes restent fixes dans le cadre.
     el = (
-      <div style={{ position: "absolute", inset: 0, transform, transformOrigin: origin }}>
-        <Img src={staticFile(image.file)} style={media} />
-        <NotesLayer notes={image.notes} box={box} focus={focus} fromFrame={fromFrame} />
-      </div>
+      <>
+        <div style={{ position: "absolute", inset: 0, transform, transformOrigin: origin }}>
+          <Img src={staticFile(image.file)} style={media} />
+        </div>
+        <NotesLayer notes={image.notes} box={box} focus={focus} fromFrame={fromFrame} cam={cam} file={image.file} />
+      </>
     );
   } else {
     el = <div style={{ ...media, transform, background: `linear-gradient(135deg, ${C.teal}, ${C.ink})` }} />;
@@ -212,11 +232,13 @@ export const KeywordSfx: React.FC<{ keywords?: Keyword[] }> = ({ keywords }) => 
 };
 
 // ---------- Transition entre scènes : volets corail + encre, avec whoosh ----------
-export const SceneWipe: React.FC<{ durationInFrames: number; enter?: boolean; exit?: boolean; sound?: boolean }> = ({
+export const SceneWipe: React.FC<{ durationInFrames: number; enter?: boolean; exit?: boolean; sound?: boolean; variant?: number; variantIn?: number }> = ({
   durationInFrames,
   enter = true,
   exit = true,
   sound = true,
+  variant,
+  variantIn,
 }) => {
   const frame = useCurrentFrame();
   const easing = Easing.inOut(Easing.cubic);
@@ -234,12 +256,15 @@ export const SceneWipe: React.FC<{ durationInFrames: number; enter?: boolean; ex
   };
   return (
     <>
-      <AbsoluteFill style={{ pointerEvents: "none", overflow: "hidden" }}>
-        {bar(C.sun, 0, 0.3)}
-        {bar(C.coral, 0.15, 0.15)}
-        {bar(C.ink, 0.3, 0)}
-        <WBadge p={outP > 0 ? outP : inP < 1 ? 1 + inP : 0} />
-      </AbsoluteFill>
+      {variant === undefined ? (
+        <AbsoluteFill style={{ pointerEvents: "none", overflow: "hidden" }}>
+          {bar(C.sun, 0, 0.3)}
+          {bar(C.coral, 0.15, 0.15)}
+          {bar(C.ink, 0.3, 0)}
+        </AbsoluteFill>
+      ) : (
+        <SignedTransition p={outP > 0 ? outP : inP < 1 ? 1 + inP : 0} variant={outP > 0 ? variant : (variantIn ?? variant)} />
+      )}
       {sound && exit && (
         <Sequence from={durationInFrames - TRANS - 4} layout="none">
           <Audio src={staticFile("sfx/whoosh.mp3")} volume={0.22} />

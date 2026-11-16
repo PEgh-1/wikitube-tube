@@ -4,6 +4,7 @@ import { C, FONT } from "../theme";
 import { Frame, Logo, LogoCorner, Pop, SlideUp, ProgressBar, StepBadge, KenBurns, TipPill } from "../components/ui";
 import type { HookScene, YouNeedScene, StepScene, MistakesScene, RecapScene, PrerollScene, OutroScene } from "../types";
 import { Mascot, WMark, FactChip, InfoCard, TickNote, CueSfx, Tape, HAND, TipBubble, useCardActive } from "../components/brand";
+import { WikiGag, DiagramPanel, DiagramView, useCue } from "../components/stage";
 import { MultiShot, KeywordBurst, KeywordSfx, useIllustrationActive } from "../components/motion";
 import { IconBadge } from "../components/icons";
 
@@ -16,7 +17,7 @@ const StepKeywords: React.FC<{ scene: StepScene; dark?: boolean; size: number }>
 };
 
 /** Étape « riche » : annotations, chiffres ou encarts fournis → ils remplacent mots-clés, pastille et pictogramme. */
-const isRich = (scene: StepScene) => Boolean(scene.facts?.length || scene.cards?.length || scene.ticks?.length || shotsOf(scene).some((im) => im?.notes?.length));
+const isRich = (scene: StepScene) => Boolean(scene.facts?.length || scene.cards?.length || scene.ticks?.length || scene.gags?.length || scene.diagrams?.length || shotsOf(scene).some((im) => im?.notes?.length));
 
 /** Bruitages de tous les éléments calés sur la voix d'une étape. */
 const StepCues: React.FC<{ scene: StepScene }> = ({ scene }) => {
@@ -26,6 +27,8 @@ const StepCues: React.FC<{ scene: StepScene }> = ({ scene }) => {
     ...(scene.facts ?? []).map((f) => ({ t: f.t ?? 0, sfx: "pop" as const, volume: 0.3 })),
     ...(scene.cards ?? []).map((c) => ({ t: (c.t ?? 0) + (c.kind === "avoid" ? 0.27 : 0), sfx: c.kind === "avoid" ? ("stamp" as const) : ("pop" as const), volume: c.kind === "avoid" ? 0.55 : 0.3 })),
     ...(scene.ticks ?? []).map((k) => ({ t: (k.t ?? 0) + 0.15, sfx: "tick" as const, volume: 0.3 })),
+    ...(scene.gags ?? []).map((g) => ({ t: g.t ?? 0, sfx: "boing" as const, volume: 0.4 })),
+    ...(scene.diagrams ?? []).map((d) => ({ t: d.t ?? 0, sfx: "pop" as const, volume: 0.3 })),
   ];
   return <CueSfx cues={cues} />;
 };
@@ -75,9 +78,80 @@ export const PreRoll: React.FC<{ scene?: PrerollScene }> = ({ scene }) => {
 };
 
 // ---------- Hook / titre ----------
+/** Accroche à froid : l'image d'ouverture en plein écran, le titre, et Wiki en plombier. */
+const HookCold: React.FC<{ scene: HookScene; durationInFrames: number }> = ({ scene, durationInFrames }) => (
+  <Frame bg={C.ink} dots={false}>
+    <AbsoluteFill>
+      <KenBurns image={scene.image} durationInFrames={durationInFrames} direction={1} />
+      <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(27,42,65,0.45) 0%, rgba(27,42,65,0) 22%, rgba(27,42,65,0.1) 48%, rgba(27,42,65,0.9) 100%)" }} />
+    </AbsoluteFill>
+    <LogoCorner top={70} onDark />
+    <div style={{ position: "absolute", left: 90, bottom: 90, right: 640 }}>
+      <SlideUp delay={4} style={{ display: "inline-block", background: C.coral, color: C.white, fontSize: 34, fontWeight: 900, letterSpacing: 5, padding: "8px 24px", borderRadius: 12, border: `4px solid ${C.paper}`, transform: "rotate(-2deg)" }}>
+        {scene.category.toUpperCase()} · {scene.stepCount} STEPS
+      </SlideUp>
+      <SlideUp delay={10} style={{ fontSize: fitTitle(scene.title, 104), fontWeight: 900, lineHeight: 1.02, color: C.white, marginTop: 22, textShadow: "0 6px 30px rgba(0,0,0,0.5)" }}>
+        {scene.title}
+      </SlideUp>
+    </div>
+    <div style={{ position: "absolute", right: 110, bottom: 50 }}>
+      <Mascot pose="plumber" height={520} delay={22} />
+    </div>
+    <CueSfx cues={[{ t: 0.75, sfx: "boing", volume: 0.4 }]} />
+  </Frame>
+);
+
+/** Introduction illustrée : schéma en coupe animé + les méthodes qui s'affichent quand la voix les nomme. */
+const HookDiagram: React.FC<{ scene: HookScene }> = ({ scene }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const chips = scene.chips ?? [];
+  let mode = "clog";
+  let modeFrom = 0;
+  for (const c of chips) if (c.mode && frame >= Math.round((c.t ?? 0) * fps)) { mode = c.mode; modeFrom = Math.round((c.t ?? 0) * fps); }
+  const gag = useCue(scene.gags, 3.2);
+  return (
+    <Frame bg={C.paper} dots={false}>
+      <AbsoluteFill style={{ backgroundImage: `linear-gradient(rgba(27,42,65,0.06) 2px, transparent 2px), linear-gradient(90deg, rgba(27,42,65,0.06) 2px, transparent 2px)`, backgroundSize: "48px 48px" }} />
+      <LogoCorner top={50} />
+      <div style={{ position: "absolute", left: 90, top: 150 }}>
+        <SlideUp delay={4} style={{ fontSize: 32, fontWeight: 900, letterSpacing: 6, color: C.teal }}>HOW IT WORKS</SlideUp>
+        <SlideUp delay={8} style={{ fontFamily: HAND, fontWeight: 700, fontSize: 92, lineHeight: 1, color: C.ink }}>Where the clog really is</SlideUp>
+      </div>
+      <Pop delay={6} style={{ position: "absolute", left: 70, top: 330 }}>
+        <DiagramView name={scene.diagram ?? ""} mode={mode} local={frame - modeFrom} width={1010} />
+      </Pop>
+      <div style={{ position: "absolute", left: 1130, top: 300, right: 70, display: "flex", flexDirection: "column", gap: 30 }}>
+        {chips.map((c, i) => {
+          const f = frame - Math.round((c.t ?? 0) * fps);
+          if (f < 0) return null;
+          const sp = spring({ frame: f, fps, config: { damping: 12, stiffness: 170 } });
+          return (
+            <div key={i} style={{ display: "flex", alignItems: "center", gap: 24, background: C.white, border: `6px solid ${C.ink}`, borderRadius: 26, padding: "16px 28px", boxShadow: `9px 9px 0 ${[C.coral, C.teal, C.sun][i % 3]}`, transform: `translateX(${(1 - sp) * 220}px) rotate(${i % 2 ? 1 : -1}deg)`, opacity: Math.min(1, sp * 1.5) }}>
+              <div style={{ width: 78, height: 78, borderRadius: 22, background: [C.coral, C.teal, C.sun][i % 3], color: i % 3 === 2 ? C.ink : C.white, fontSize: 48, fontWeight: 900, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>{i + 1}</div>
+              <div>
+                <div style={{ fontSize: 58, fontWeight: 900, lineHeight: 1.02, color: C.ink }}>{c.label}</div>
+                {c.sub && <div style={{ fontFamily: HAND, fontWeight: 700, fontSize: 52, lineHeight: 1, color: C.coral }}>{c.sub}</div>}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+      {gag && (
+        <div style={{ position: "absolute", right: 70, bottom: 30 }}>
+          <Mascot pose={gag.item.pose as "nose"} height={330} delay={Math.round((gag.item.t ?? 0) * fps)} />
+        </div>
+      )}
+      <CueSfx cues={[...chips.map((c) => ({ t: c.t ?? 0, sfx: "pop" as const, volume: 0.3 })), ...(scene.gags ?? []).map((g) => ({ t: g.t ?? 0, sfx: "boing" as const, volume: 0.4 }))]} />
+    </Frame>
+  );
+};
+
 export const Hook: React.FC<{ scene: HookScene; durationInFrames: number }> = ({ scene, durationInFrames }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
+  if (scene.part === "cold") return <HookCold scene={scene} durationInFrames={durationInFrames} />;
+  if (scene.part === "intro" && scene.diagram) return <HookDiagram scene={scene} />;
   const tilt = spring({ frame, fps, config: { damping: 16, stiffness: 90 } });
   return (
     <Frame>
@@ -171,6 +245,7 @@ export const YouNeed: React.FC<{ scene: YouNeedScene }> = ({ scene }) => {
 
 // ---------- Étape : 3 variantes de mise en page ----------
 export const Step: React.FC<{ scene: StepScene; durationInFrames: number }> = ({ scene, durationInFrames }) => {
+  if (isRich(scene)) return <StepStage scene={scene} durationInFrames={durationInFrames} />;
   if (scene.layout === "full") return <StepFull scene={scene} durationInFrames={durationInFrames} />;
   if (scene.layout === "card") return <StepCard scene={scene} durationInFrames={durationInFrames} />;
   return <StepSplit scene={scene} durationInFrames={durationInFrames} />;
@@ -196,6 +271,62 @@ const StepHeader: React.FC<{ scene: StepScene; onDark?: boolean }> = ({ scene, o
     </div>
   </>
 );
+
+/** Étape « plein écran » : la photo occupe tout l'écran, tout le reste vient se poser dessus. */
+const StepStage: React.FC<{ scene: StepScene; durationInFrames: number }> = ({ scene, durationInFrames }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const cardOn = useCardActive(scene.cards);
+  const diagramOn = useCue(scene.diagrams, 6) !== null;
+  const gagOn = useCue(scene.gags, 3) !== null;
+  // Le titre s'affiche en grand, puis se range en bandeau compact pour rendre l'image.
+  const shrink = interpolate(frame, [70, 92], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.inOut(Easing.cubic) });
+  const tipFrom = Math.round(durationInFrames * 0.5);
+  const tipOn = !cardOn && !diagramOn && !gagOn && frame >= tipFrom && frame < durationInFrames - 20;
+  const accent = [C.coral, C.teal, C.sun][scene.index % 3];
+  return (
+    <Frame bg={C.ink} dots={false}>
+      <AbsoluteFill>
+        <MultiShot
+          shots={shotsOf(scene)}
+          durationInFrames={durationInFrames}
+          seed={scene.index + 1}
+          starts={scene.shotStarts}
+          box={[1920, 1080]}
+          overlay={`linear-gradient(180deg, rgba(27,42,65,0.55) 0%, rgba(27,42,65,0) 17%, rgba(27,42,65,0) 74%, rgba(27,42,65,0.78) 100%)`}
+        />
+      </AbsoluteFill>
+      <StepHeader scene={scene} onDark />
+      <div style={{ position: "absolute", left: 76, top: 150 }}>
+        <TickNote ticks={scene.ticks} />
+      </div>
+      {!diagramOn && (
+        <div style={{ position: "absolute", right: 86, top: 150 }}>
+          <FactChip facts={scene.facts} />
+        </div>
+      )}
+      <div style={{ position: "absolute", right: 70, top: 150 }}>
+        <DiagramPanel diagrams={scene.diagrams} />
+      </div>
+      <WikiGag gags={scene.gags} />
+      <div style={{ position: "absolute", right: 80, bottom: 60 }}>
+        <InfoCard cards={scene.cards} width={680} />
+      </div>
+      {tipOn && (
+        <div style={{ position: "absolute", right: 70, bottom: 40 }}>
+          <TipBubble text={scene.tip} width={400} delay={tipFrom} />
+        </div>
+      )}
+      <StepCues scene={scene} />
+      <div style={{ position: "absolute", left: 80, bottom: 56, display: "flex", alignItems: "center", gap: 30, transformOrigin: "0% 100%", transform: `scale(${1 - shrink * 0.42})` }}>
+        <StepBadge n={scene.index} size={130} color={accent === C.sun ? C.coral : accent} />
+        <SlideUp delay={6} style={{ fontSize: fitTitle(scene.title, 78), fontWeight: 900, lineHeight: 1.04, color: C.white, textShadow: "0 4px 24px rgba(0,0,0,0.45)", maxWidth: 1000 }}>
+          {scene.title}
+        </SlideUp>
+      </div>
+    </Frame>
+  );
+};
 
 /** Variante A : page de notice — titre et encarts à gauche, grande photo scotchée à droite. */
 const StepSplit: React.FC<{ scene: StepScene; durationInFrames: number }> = ({ scene, durationInFrames }) => {

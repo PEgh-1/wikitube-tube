@@ -51,6 +51,19 @@ export function buildLongTimeline(ep, tts, images, { fps = FPS, brand = null } =
     push({ ...hookScene, part: "cold" }, ["hook"], 0.35);
     signature();
     push({ ...hookScene, part: "intro" }, ["intro"]);
+    // Introduction illustrée : schéma + éléments calés sur les mots de la voix.
+    const ix = images.introExtras;
+    if (ix?.diagram) {
+      const sc = scenes[scenes.length - 1];
+      const sg = sc.segments[0];
+      const cue = (on, fallback) => {
+        const w = (sg.words ?? []).find((x) => normWord(x.w) === normWord(on ?? ""));
+        return Math.round((w ? sg.at - sc.start + w.s - 0.1 : fallback) * 100) / 100;
+      };
+      sc.diagram = ix.diagram;
+      sc.chips = (ix.chips ?? []).map((c, k) => ({ ...c, t: cue(c.on, 4 + k * 3) }));
+      sc.gags = (ix.gags ?? []).map((g) => ({ ...g, t: cue(g.on, 6) }));
+    }
   } else {
     if (open) signature();
     else {
@@ -144,7 +157,7 @@ function resolveExtras(sc, sg, extras) {
     });
     return Math.max(0, idx);
   };
-  for (const key of ["facts", "cards", "ticks"]) {
+  for (const key of ["facts", "cards", "ticks", "gags", "diagrams"]) {
     if (!extras[key]) continue;
     sc[key] = extras[key].map((x) => ({ ...x, t: r2(timeOf(first(x.shot ?? 1), x.on, 0.6)) })).sort((a, b) => a.t - b.t);
   }

@@ -81,7 +81,9 @@ function fromPregen(t) {
       continue;
     }
     const base = entry(t, { kind: "photo", width: 1920, height: 1080, provider: "gemini-web", credit: null }, file);
-    shots.push({ ...base, text: sh.text, wordStart, prompt: sh.prompt, focus: sh.focus ?? null, notes: sh.notes ?? null });
+    // Avant / après : seconde image (« avant ») balayée par un curseur.
+    const cmp = sh.compare ? copy(sh.compare.file, `${t.key}-${j + 1}-before`) : null;
+    shots.push({ ...base, text: sh.text, wordStart, prompt: sh.prompt, focus: sh.focus ?? null, notes: sh.notes ?? null, compareFile: cmp ? path.relative(DIRS.public, cmp).split(path.sep).join("/") : null, compareLabels: cmp ? (sh.compare.labels ?? null) : null });
     // Second plan de la même phrase : gros plan dédié (cut.file) ou zoom sur le geste (même image).
     if (sh.cut) {
       const at = Math.max(1, words.findIndex((w) => clean(w) === clean(sh.cut.on ?? "")));
@@ -342,6 +344,7 @@ const manifest = {
   }),
   stepShots: episode.steps.map((_, i) => results[`step-${i + 1}`]?.shots ?? [stripShots(results[`step-${i + 1}`])]),
   // Encarts calés sur la voix (chiffres, « pourquoi », « à éviter », coches du matériel), par étape.
+  introExtras: pregen?.extras?.intro ?? null,
   stepExtras: episode.steps.map((_, i) => pregen?.extras?.[`step-${i + 1}`] ?? null),
   all: results,
   credits: Object.values(results)

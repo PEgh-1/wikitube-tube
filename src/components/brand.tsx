@@ -11,7 +11,7 @@ const IMG_ASPECT = 16 / 9;
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 
 // ---------- Mascotte ----------
-export type Pose = "wave" | "point" | "idea" | "no" | "thumbs" | "pencil";
+export type Pose = "wave" | "point" | "idea" | "no" | "thumbs" | "pencil" | "wet" | "panic" | "nose" | "party" | "watch" | "plumber";
 export const Mascot: React.FC<{ pose: Pose; height: number; delay?: number; flip?: boolean; style?: React.CSSProperties }> = ({ pose, height, delay = 0, flip = false, style }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -70,19 +70,26 @@ const Stroke: React.FC<{ d: string; p: number; color?: string; width?: number }>
     </>
   );
 
-const NoteView: React.FC<{ note: Note; box: [number, number]; focus: [number, number]; local: number; index: number }> = ({ note, box, focus, local, index }) => {
+/** Caméra du plan : zoom s autour du point (ox, oy), décalage (tx, ty), en fractions du cadre. */
+export type Cam = { s: number; ox: number; oy: number; tx: number; ty: number };
+const IDENT: Cam = { s: 1, ox: 0.5, oy: 0.5, tx: 0, ty: 0 };
+
+const NoteView: React.FC<{ note: Note; box: [number, number]; focus: [number, number]; local: number; index: number; cam: Cam; file?: string }> = ({ note, box, focus, local, index, cam, file }) => {
   const { fps } = useVideoConfig();
   if (local < 0) return null;
   const [w, h] = box;
   const k = w / 1920; // échelle des traits selon la taille du cadre
   const fs = Math.max(34, 60 * Math.sqrt(k));
-  const [bx, by] = imageToBox(note.at[0], note.at[1], box, focus);
+  const [bx0, by0] = imageToBox(note.at[0], note.at[1], box, focus);
+  // La cible suit la caméra ; les étiquettes restent à leur place dans le cadre.
+  const bx = cam.ox + cam.s * (bx0 + cam.tx - cam.ox);
+  const by = cam.oy + cam.s * (by0 + cam.ty - cam.oy);
   const P = { x: bx * w, y: by * h };
   const L = note.label ? { x: note.label[0] * w, y: note.label[1] * h } : null;
   const draw = interpolate(local, [0, 9], [0, 1], { ...clamp, easing: Easing.out(Easing.cubic) });
   const draw2 = interpolate(local, [6, 14], [0, 1], { ...clamp, easing: Easing.out(Easing.cubic) });
   const pop = spring({ frame: local - (note.type === "arrow" ? 0 : 5), fps, config: { damping: 11, stiffness: 200 } });
-  const r = (note.r ?? 0.08) * w;
+  const r = (note.r ?? 0.08) * w * (note.type === "loupe" ? 1 : cam.s);
   const isCross = note.type === "cross";
   const color = isCross ? C.coral : C.sun;
   const paths: React.ReactNode[] = [];
@@ -111,6 +118,38 @@ const NoteView: React.FC<{ note: Note; box: [number, number]; focus: [number, nu
     }
   };
 
+  if (note.type === "loupe") {
+    // Loupe : la zone visée est agrandie dans une lentille, reliée à sa cible ; le reste de l'image s'assombrit.
+    const Lc = { x: (note.lens?.[0] ?? 0.28) * w, y: (note.lens?.[1] ?? 0.42) * h };
+    const z = note.zoom ?? 2.3;
+    const ac = w / h;
+    const dispW = ac >= IMG_ASPECT ? w : h * IMG_ASPECT;
+    const dispH = ac >= IMG_ASPECT ? w / IMG_ASPECT : h;
+    const dx = P.x - Lc.x;
+    const dy = P.y - Lc.y;
+    const len = Math.hypot(dx, dy) || 1;
+    const ring = 0.035 * w;
+    const E1 = { x: Lc.x + (dx / len) * (r + 8), y: Lc.y + (dy / len) * (r + 8) };
+    const E2 = { x: P.x - (dx / len) * ring, y: P.y - (dy / len) * ring };
+    const dim = interpolate(local, [0, 10], [0, 0.42], clamp);
+    return (
+      <>
+        <AbsoluteFill style={{ background: C.ink, opacity: dim }} />
+        <svg width={w} height={h} viewBox={`0 0 ${w} ${h}`} style={{ position: "absolute", inset: 0, overflow: "visible" }}>
+          <Stroke d={`M${P.x + ring} ${P.y} A${ring} ${ring} 0 1 1 ${P.x + ring - 0.1} ${P.y - 0.1}`} p={draw} width={8} />
+          {len > r + ring + 20 && <Stroke d={`M${E2.x} ${E2.y} L${E1.x} ${E1.y}`} p={draw2} width={8} />}
+        </svg>
+        <div style={{ position: "absolute", left: Lc.x - r, top: Lc.y - r, width: 2 * r, height: 2 * r, borderRadius: "50%", overflow: "hidden", transform: `scale(${pop})`, border: `12px solid ${C.paper}`, boxSizing: "border-box", boxShadow: `0 0 0 6px ${C.ink}, 14px 16px 0 6px rgba(27,42,65,0.55)`, background: C.ink }}>
+          {file && <Img src={staticFile(file)} style={{ position: "absolute", width: dispW * z, height: dispH * z, maxWidth: "none", left: -(note.at[0] * dispW * z - r) - 12, top: -(note.at[1] * dispH * z - r) - 12 }} />}
+        </div>
+        {note.text && (
+          <div style={{ position: "absolute", left: Lc.x, top: Lc.y + r + 6, transform: `translate(-50%, 0) scale(${pop}) rotate(-2deg)`, background: C.paper, color: C.ink, fontFamily: HAND, fontWeight: 700, fontSize: fs, lineHeight: 1, padding: `${fs * 0.14}px ${fs * 0.34}px ${fs * 0.2}px`, borderRadius: 14, border: `4px solid ${C.ink}`, boxShadow: "6px 7px 0 rgba(27,42,65,0.55)", whiteSpace: "nowrap" }}>
+            {note.text}
+          </div>
+        )}
+      </>
+    );
+  }
   if (note.type === "arrow") link(P, 16, true);
   if (note.type === "circle") {
     const rx = r;
@@ -170,14 +209,14 @@ const NoteView: React.FC<{ note: Note; box: [number, number]; focus: [number, nu
 };
 
 /** Calque d'annotations d'un plan (à placer dans le même conteneur transformé que l'image). */
-export const NotesLayer: React.FC<{ notes?: Note[] | null; box: [number, number]; focus: [number, number]; fromFrame: number }> = ({ notes, box, focus, fromFrame }) => {
+export const NotesLayer: React.FC<{ notes?: Note[] | null; box: [number, number]; focus: [number, number]; fromFrame: number; cam?: Cam; file?: string }> = ({ notes, box, focus, fromFrame, cam = IDENT, file }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   if (!notes?.length) return null;
   return (
     <AbsoluteFill>
       {notes.map((n, i) => (
-        <NoteView key={i} note={n} box={box} focus={focus} index={i} local={frame - (Math.round((n.t ?? 0) * fps) - fromFrame)} />
+        <NoteView key={i} note={n} box={box} focus={focus} index={i} cam={cam} file={file} local={frame - (Math.round((n.t ?? 0) * fps) - fromFrame)} />
       ))}
     </AbsoluteFill>
   );
@@ -310,7 +349,7 @@ export const TickNote: React.FC<{ ticks?: Tick[] }> = ({ ticks }) => {
 };
 
 /** Bruitages des éléments calés sur la voix. */
-export const CueSfx: React.FC<{ cues: { t: number; sfx: "pencil" | "stamp" | "tick" | "pop"; volume?: number }[] }> = ({ cues }) => {
+export const CueSfx: React.FC<{ cues: { t: number; sfx: "pencil" | "stamp" | "tick" | "pop" | "boing"; volume?: number }[] }> = ({ cues }) => {
   const { fps } = useVideoConfig();
   return (
     <>

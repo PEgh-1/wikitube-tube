@@ -58,7 +58,7 @@ export const Long: React.FC<LongProps> = ({ timeline, options }) => {
               <SceneView scene={scene} durationInFrames={dur} />
               {burn && scene.segments.length > 0 && <Subtitles segments={scene.segments} sceneStart={scene.start} dark={darkSubs} />}
             </AbsoluteFill>
-            <SceneWipe durationInFrames={dur} enter={i > 0} exit={i < timeline.scenes.length - 1} />
+            <SceneWipe durationInFrames={dur} enter={i > 0} exit={i < timeline.scenes.length - 1} variant={i} variantIn={i - 1} />
             <SceneAudio segments={scene.segments} sceneStart={scene.start} enabled={options?.audio ?? true} />
           </Sequence>
         );

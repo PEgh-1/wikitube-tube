@@ -9,7 +9,24 @@ export type Segment = {
   words?: Word[];
 };
 
+export type Note = {
+  type: "arrow" | "circle" | "swirl" | "cross";
+  at: [number, number]; // cible, en coordonnées image (0-1)
+  text?: string;
+  label?: [number, number]; // centre de l'étiquette, en coordonnées du cadre affiché (0-1)
+  r?: number; // rayon (fraction de la largeur du cadre)
+  on?: string;
+  t?: number; // apparition (s, relative à la scène)
+};
+export type Fact = { t?: number; dur?: number; kind: "timer" | "measure"; big: string; small?: string };
+export type InfoCardData = { t?: number; dur?: number; kind: "why" | "avoid"; title: string; text: string };
+export type Tick = { t?: number; dur?: number; label: string };
+
 export type ImageRef = {
+  focus?: [number, number] | null; // point d'intérêt (coordonnées image) : cadrage et zoom
+  zoom?: number | null; // second plan de la phrase : zoom sur le geste (même image)
+  sub?: boolean; // second plan d'une même phrase (coupe franche)
+  notes?: Note[] | null;
   key?: string;
   file: string; // relatif à public/
   kind?: "photo" | "video" | "illustration";
@@ -32,7 +49,7 @@ export type SceneBase = {
   segments: Segment[];
 };
 
-export type PrerollScene = SceneBase & { type: "preroll" };
+export type PrerollScene = SceneBase & { type: "preroll"; baseline?: string | null };
 export type HookScene = SceneBase & { type: "hook"; title: string; category: string; stepCount: number; image?: ImageRef };
 export type YouNeedScene = SceneBase & { type: "youneed"; items: string[] };
 export type StepScene = SceneBase & {
@@ -47,10 +64,13 @@ export type StepScene = SceneBase & {
   keywords?: Keyword[];
   shotStarts?: number[]; // débuts des plans (s, relatifs à la scène), calés sur les phrases
   layout: "split" | "full" | "card";
+  facts?: Fact[];
+  cards?: InfoCardData[];
+  ticks?: Tick[];
 };
 export type MistakesScene = SceneBase & { type: "mistakes"; items: string[] };
 export type RecapScene = SceneBase & { type: "recap"; items: string[] };
-export type OutroScene = SceneBase & { type: "outro" };
+export type OutroScene = SceneBase & { type: "outro"; baseline?: string | null };
 export type ShortHookScene = SceneBase & { type: "short-hook"; title: string; image?: ImageRef };
 export type ShortStepScene = SceneBase & { type: "short-step"; index: number; total: number; title: string; image?: ImageRef };
 export type ShortCtaScene = SceneBase & { type: "short-cta" };

@@ -4,6 +4,7 @@ import { FPS, fmtTime } from "./common.mjs";
 import { pickKeywords, stepIcon } from "./motion.mjs";
 
 export const PREROLL_SEC = 3;
+export const OPEN_VOICE_AT = 1.0; // la voix démarre sur la fin du jingle
 export const GAP_SEC = 0.7; // respiration après chaque segment narré
 export const OUTRO_TAIL_SEC = 1.6;
 export const SHORT_GAP_SEC = 0.35;
@@ -16,7 +17,7 @@ const roundToFrame = (sec, fps = FPS) => Math.round(sec * fps) / fps;
  * @param tts manifeste tts.json ({ segments: { id: { file, duration, words } } })
  * @param images manifeste images.json ({ hero, steps: [{ file, kind }] })
  */
-export function buildLongTimeline(ep, tts, images, { fps = FPS } = {}) {
+export function buildLongTimeline(ep, tts, images, { fps = FPS, brand = null } = {}) {
   const seg = (id) => {
     const s = tts.segments[id];
     if (!s) throw new Error(`Segment audio manquant : ${id}`);
@@ -37,8 +38,16 @@ export function buildLongTimeline(ep, tts, images, { fps = FPS } = {}) {
     t = roundToFrame(t + duration, fps);
   };
 
-  scenes.push({ type: "preroll", start: 0, duration: PREROLL_SEC, segments: [] });
-  t = PREROLL_SEC;
+  // Ouverture signée : jingle (1 s) puis baseline dite par la voix quand le segment existe.
+  const open = tts.segments["brand-open"];
+  if (open) {
+    const dur = roundToFrame(Math.max(PREROLL_SEC, OPEN_VOICE_AT + open.duration + 0.6), fps);
+    scenes.push({ type: "preroll", start: 0, duration: dur, baseline: brand?.baseline ?? null, segments: [{ id: "brand-open", file: open.file, at: OPEN_VOICE_AT, duration: open.duration, words: open.words }] });
+    t = dur;
+  } else {
+    scenes.push({ type: "preroll", start: 0, duration: PREROLL_SEC, segments: [] });
+    t = PREROLL_SEC;
+  }
   push({ type: "hook", title: ep.title, category: ep.category, stepCount: ep.steps.length, image: images.hero }, ["hook", "intro"]);
   push({ type: "youneed", items: ep.youNeed }, ["youneed"]);
   ep.steps.forEach((s, i) => {
@@ -67,10 +76,11 @@ export function buildLongTimeline(ep, tts, images, { fps = FPS } = {}) {
         return Math.max(0, Math.round((sg.at - sc.start + w.s - 0.15) * 100) / 100);
       });
     }
+    resolveExtras(sc, sg, images.stepExtras?.[i]);
   });
   push({ type: "mistakes", items: ep.mistakesToAvoid.items }, ["mistakes"]);
   push({ type: "recap", items: ep.recap.items ?? ep.steps.map((s) => s.title) }, ["recap"]);
-  push({ type: "outro" }, ["outro"], OUTRO_TAIL_SEC);
+  push({ type: "outro", baseline: brand?.baseline ?? null }, tts.segments["brand-close"] ? ["outro", "brand-close"] : ["outro"], OUTRO_TAIL_SEC);
 
   const totalSec = t;
   return {
@@ -83,6 +93,64 @@ export function buildLongTimeline(ep, tts, images, { fps = FPS } = {}) {
     scenes,
     chapters: chaptersFrom(scenes, ep),
   };
+}
+
+const normWord = (w) => String(w).toLowerCase().replace(/[^a-z0-9'-]/g, "");
+
+/**
+ * Cale sur la voix les annotations des plans et les encarts de l'étape (chiffres, « pourquoi », « à éviter », coches).
+ * `on` = mot de la phrase du plan à partir duquel l'élément apparaît ; sans `on`, 0,4 s après le début du plan.
+ */
+function resolveExtras(sc, sg, extras) {
+  const words = sg.words ?? [];
+  const base = sg.at - sc.start;
+  const shots = sc.images ?? [];
+  const range = (j) => [shots[j]?.wordStart ?? 0, shots[j + 1]?.wordStart ?? words.length];
+  const shotStart = (j) => sc.shotStarts?.[j] ?? 0;
+  const timeOf = (j, on, fallback = 0.4) => {
+    if (on && words.length) {
+      // On cherche dans la phrase entière (les deux moitiés d'un plan coupé partagent la phrase).
+      let a = range(j)[0];
+      let b = range(j)[1];
+      for (let k = j; k > 0 && shots[k].sub; k--) a = range(k - 1)[0];
+      for (let k = j + 1; k < shots.length && shots[k].sub; k++) b = range(k)[1];
+      const target = normWord(on);
+      for (let k = a; k < Math.min(b, words.length); k++) if (normWord(words[k].w) === target) return Math.max(shotStart(j) + 0.1, base + words[k].s - 0.1);
+    }
+    return shotStart(j) + fallback;
+  };
+  const r2 = (x) => Math.round(x * 100) / 100;
+  shots.forEach((im, j) => {
+    if (im?.notes) im.notes = im.notes.map((n) => ({ ...n, t: r2(timeOf(j, n.on)) }));
+  });
+  if (!extras) return;
+  const first = (shotNo) => {
+    // `shot` = n° de phrase (1..n) dans shots.json → index du premier plan de cette phrase
+    let idx = -1;
+    let count = 0;
+    shots.forEach((im, j) => {
+      if (!im?.sub) count++;
+      if (count === shotNo && idx < 0) idx = j;
+    });
+    return Math.max(0, idx);
+  };
+  for (const key of ["facts", "cards", "ticks"]) {
+    if (!extras[key]) continue;
+    sc[key] = extras[key].map((x) => ({ ...x, t: r2(timeOf(first(x.shot ?? 1), x.on, 0.6)) })).sort((a, b) => a.t - b.t);
+  }
+}
+
+/** Timeline réduite à quelques scènes (pilote) : ouverture + scènes choisies + fin, recalées bout à bout. */
+export function subsetTimeline(tl, keys, { fps = FPS } = {}) {
+  const want = (sc) => sc.type === "preroll" || sc.type === "outro" || keys.includes(sc.type) || keys.includes(`${sc.type}-${sc.index}`);
+  let t = 0;
+  const scenes = tl.scenes.filter(want).map((sc) => {
+    const shift = t - sc.start;
+    const out = { ...sc, start: roundToFrame(t, fps), segments: sc.segments.map((g) => ({ ...g, at: roundToFrame(g.at + shift, fps) })) };
+    t = roundToFrame(t + sc.duration, fps);
+    return out;
+  });
+  return { ...tl, scenes, totalSec: t, durationInFrames: Math.round(t * fps), chapters: [] };
 }
 
 export function buildShortTimeline(ep, tts, images, { fps = FPS } = {}) {

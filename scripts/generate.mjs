@@ -27,12 +27,17 @@ function pickFromQueue() {
   return path.join(DIRS.queue, chosen);
 }
 
+function readBrand() {
+  const f = path.join(DIRS.data, "brand.json");
+  return fs.existsSync(f) ? readJson(f) : null;
+}
+
 const source = args.episode ? path.resolve(args.episode) : pickFromQueue();
 const episode = validateEpisode(readJson(source));
 const buildDir = ensureDir(path.join(DIRS.build, episode.id));
 
 writeJson(path.join(buildDir, "episode.json"), episode);
-writeJson(path.join(buildDir, "segments.json"), { long: longSegments(episode), short: shortSegments(episode) });
+writeJson(path.join(buildDir, "segments.json"), { long: longSegments(episode, readBrand()), short: shortSegments(episode) });
 writeJson(path.join(DIRS.build, "current.json"), {
   episodeId: episode.id,
   buildDir: path.relative(DIRS.root, buildDir),

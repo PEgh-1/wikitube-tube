@@ -1,8 +1,9 @@
 import React from "react";
-import { AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig, Easing } from "remotion";
+import { AbsoluteFill, Audio, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig, Easing } from "remotion";
 import { C, FONT } from "../theme";
 import { Frame, Logo, LogoCorner, Pop, SlideUp, ProgressBar, StepBadge, KenBurns, TipPill } from "../components/ui";
-import type { HookScene, YouNeedScene, StepScene, MistakesScene, RecapScene } from "../types";
+import type { HookScene, YouNeedScene, StepScene, MistakesScene, RecapScene, PrerollScene, OutroScene } from "../types";
+import { Mascot, WMark, FactChip, InfoCard, TickNote, CueSfx, Tape, HAND } from "../components/brand";
 import { MultiShot, KeywordBurst, KeywordSfx, useIllustrationActive } from "../components/motion";
 import { IconBadge } from "../components/icons";
 
@@ -11,26 +12,64 @@ const shotsOf = (scene: StepScene) => (scene.images?.length ? scene.images : [sc
 /** Mots-clés masqués pendant les plans illustrés (la consigne est déjà écrite à l'écran). */
 const StepKeywords: React.FC<{ scene: StepScene; dark?: boolean; size: number }> = ({ scene, dark, size }) => {
   const illus = useIllustrationActive(shotsOf(scene), scene.shotStarts);
-  return illus ? null : <KeywordBurst keywords={scene.keywords} dark={dark} size={size} />;
+  return illus || isRich(scene) ? null : <KeywordBurst keywords={scene.keywords} dark={dark} size={size} />;
 };
 
-// ---------- Pré-roll logo (3 s) ----------
-export const PreRoll: React.FC = () => {
+/** Étape « riche » : annotations, chiffres ou encarts fournis → ils remplacent mots-clés, pastille et pictogramme. */
+const isRich = (scene: StepScene) => Boolean(scene.facts?.length || scene.cards?.length || scene.ticks?.length || shotsOf(scene).some((im) => im?.notes?.length));
+
+/** Bruitages de tous les éléments calés sur la voix d'une étape. */
+const StepCues: React.FC<{ scene: StepScene }> = ({ scene }) => {
+  if (!isRich(scene)) return <KeywordSfx keywords={scene.keywords} />;
+  const cues = [
+    ...shotsOf(scene).flatMap((im) => (im?.notes ?? []).map((n) => ({ t: n.t ?? 0, sfx: n.type === "cross" ? ("stamp" as const) : ("pencil" as const), volume: n.type === "cross" ? 0.5 : 0.28 }))),
+    ...(scene.facts ?? []).map((f) => ({ t: f.t ?? 0, sfx: "pop" as const, volume: 0.3 })),
+    ...(scene.cards ?? []).map((c) => ({ t: (c.t ?? 0) + (c.kind === "avoid" ? 0.27 : 0), sfx: c.kind === "avoid" ? ("stamp" as const) : ("pop" as const), volume: c.kind === "avoid" ? 0.55 : 0.3 })),
+    ...(scene.ticks ?? []).map((k) => ({ t: (k.t ?? 0) + 0.15, sfx: "tick" as const, volume: 0.3 })),
+  ];
+  return <CueSfx cues={cues} />;
+};
+
+// ---------- Ouverture signée : le W se trace, prend vie (Wiki), jingle + baseline ----------
+export const PreRoll: React.FC<{ scene?: PrerollScene }> = ({ scene }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const s = spring({ frame, fps, config: { damping: 12 } });
-  const ring = interpolate(frame, [0, 40], [0, 1], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
+  const draw = interpolate(frame, [2, 20], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.inOut(Easing.cubic) });
+  const alive = spring({ frame: frame - 22, fps, config: { damping: 12, stiffness: 140 } }); // le W devient Wiki
+  const slide = spring({ frame: frame - 34, fps, config: { damping: 16, stiffness: 110 } }); // Wiki se pousse, le logo arrive
+  const ring = interpolate(frame, [20, 50], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
+  const underline = interpolate(frame, [58, 76], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
+  const baseline = scene?.baseline ?? "How-to videos, step by step.";
   return (
-    <Frame bg={C.ink} dots={false}>
+    <Frame bg={C.coral} dots={false}>
+      <Audio src={staticFile("brand/jingle.mp3")} volume={0.55} />
+      <AbsoluteFill style={{ backgroundImage: `radial-gradient(rgba(27,42,65,0.10) 2px, transparent 2px)`, backgroundSize: "44px 44px" }} />
       <AbsoluteFill style={{ alignItems: "center", justifyContent: "center" }}>
-        <div style={{ position: "absolute", width: 900 * ring, height: 900 * ring, borderRadius: "50%", border: `6px solid ${C.coral}`, opacity: 1 - ring }} />
-        <div style={{ transform: `scale(${s})`, background: C.paper, padding: "40px 70px", borderRadius: 40 }}>
-          <Logo size={120} />
-        </div>
-        <SlideUp delay={12} style={{ marginTop: 40, color: C.paper, fontSize: 44, fontWeight: 700, opacity: 0.9 }}>
-          How-to videos, step by step.
-        </SlideUp>
+        <div style={{ position: "absolute", width: 1500 * ring, height: 1500 * ring, borderRadius: "50%", border: `10px solid ${C.paper}`, opacity: (1 - ring) * 0.8 }} />
       </AbsoluteFill>
+      {/* Le W tracé au feutre, puis Wiki à sa place */}
+      <div style={{ position: "absolute", left: 960 - 280 - slide * 470, top: 250, width: 560, height: 580, display: "flex", alignItems: "flex-end", justifyContent: "center" }}>
+        <div style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center", transform: `scale(${1 - alive})`, opacity: 1 - alive }}>
+          <WMark size={520} progress={draw} color={C.ink} stroke={18} />
+        </div>
+        <Mascot pose="wave" height={560} delay={22} />
+      </div>
+      <div style={{ position: "absolute", left: 800, top: 330, right: 90, opacity: slide, transform: `translateX(${(1 - slide) * 140}px)` }}>
+        <div style={{ display: "inline-block", background: C.paper, padding: "30px 56px", borderRadius: 40, border: `8px solid ${C.ink}`, boxShadow: `14px 14px 0 ${C.ink}`, transform: "rotate(-2deg)" }}>
+          <Logo size={150} />
+        </div>
+        <div style={{ marginTop: 54, fontFamily: HAND, fontWeight: 700, fontSize: 92, lineHeight: 1.02, color: C.paper, textShadow: `4px 5px 0 ${C.ink}`, maxWidth: 980 }}>
+          {/* une ligne par membre de phrase : pas de mot orphelin */}
+          {baseline.split(/(?<=,)\s+/).map((line, i) => (
+            <SlideUp key={i} delay={48 + i * 6}>
+              {line}
+            </SlideUp>
+          ))}
+        </div>
+        <svg width={620} height={40} viewBox="0 0 620 40" style={{ marginTop: 6, overflow: "visible" }}>
+          <path d="M8 22 C120 4 220 36 330 18 S540 8 612 24" fill="none" stroke={C.sun} strokeWidth={12} strokeLinecap="round" pathLength={1} strokeDasharray={1} strokeDashoffset={1 - underline} />
+        </svg>
+      </div>
     </Frame>
   );
 };
@@ -171,85 +210,129 @@ const StepSplit: React.FC<{ scene: StepScene; durationInFrames: number }> = ({ s
         <div style={{ marginTop: 34 }}>
           <TipPill text={scene.tip} />
         </div>
-        <div style={{ marginTop: 44, height: 110 }}>
+        <div style={{ marginTop: 44, minHeight: 110 }}>
           <StepKeywords scene={scene} size={60} />
+          <FactChip facts={scene.facts} scale={0.85} />
         </div>
       </div>
       <Pop delay={4} style={{ flex: 1, display: "flex", justifyContent: "center", position: "relative" }}>
         <div style={{ width: 800, height: 600, borderRadius: 48, overflow: "hidden", boxShadow: "0 24px 60px rgba(27,42,65,0.16)", border: `10px solid ${C.white}` }}>
-          <MultiShot shots={shotsOf(scene)} durationInFrames={durationInFrames} seed={scene.index} starts={scene.shotStarts} />
+          <MultiShot shots={shotsOf(scene)} durationInFrames={durationInFrames} seed={scene.index} starts={scene.shotStarts} box={[780, 580]} />
         </div>
         <div style={{ position: "absolute", left: 10, bottom: -40 }}>
           <IconBadge name={scene.icon} size={160} delay={14} />
         </div>
       </Pop>
     </AbsoluteFill>
-    <KeywordSfx keywords={scene.keywords} />
+    <StepCues scene={scene} />
   </Frame>
 );
 
 /** Variante B : image plein cadre, dégradé encre, titre en bas à gauche. */
-const StepFull: React.FC<{ scene: StepScene; durationInFrames: number }> = ({ scene, durationInFrames }) => (
-  <Frame bg={C.ink} dots={false}>
-    <AbsoluteFill>
-      <MultiShot
-        shots={shotsOf(scene)}
-        durationInFrames={durationInFrames}
-        seed={scene.index + 1}
-        starts={scene.shotStarts}
-        illusPad={[20, 34]}
-        overlay={`linear-gradient(180deg, rgba(27,42,65,0.55) 0%, rgba(27,42,65,0.05) 35%, rgba(27,42,65,0.15) 60%, rgba(27,42,65,0.92) 100%)`}
-      />
-    </AbsoluteFill>
-    <StepHeader scene={scene} onDark />
-    <div style={{ position: "absolute", left: 110, top: 300, right: 700 }}>
-      <StepKeywords scene={scene} dark size={76} />
-    </div>
-    <div style={{ position: "absolute", right: 110, bottom: 170 }}>
-      <IconBadge name={scene.icon} size={170} delay={14} />
-    </div>
-    <KeywordSfx keywords={scene.keywords} />
-    <div style={{ position: "absolute", left: 110, bottom: 170, right: 110, display: "flex", alignItems: "flex-end", gap: 40 }}>
-      <StepBadge n={scene.index} size={140} />
-      <div style={{ flex: 1 }}>
-        <SlideUp delay={6} style={{ fontSize: fitTitle(scene.title, 84), fontWeight: 900, lineHeight: 1.06, color: C.white, textShadow: "0 4px 24px rgba(0,0,0,0.35)" }}>
+const StepFull: React.FC<{ scene: StepScene; durationInFrames: number }> = ({ scene, durationInFrames }) => {
+  const rich = isRich(scene);
+  return (
+    <Frame bg={C.ink} dots={false}>
+      <AbsoluteFill>
+        <MultiShot
+          shots={shotsOf(scene)}
+          durationInFrames={durationInFrames}
+          seed={scene.index + 1}
+          starts={scene.shotStarts}
+          illusPad={[20, 34]}
+          box={[1920, 1080]}
+          overlay={`linear-gradient(180deg, rgba(27,42,65,0.50) 0%, rgba(27,42,65,0.0) 22%, rgba(27,42,65,0.0) 62%, rgba(27,42,65,0.9) 100%)`}
+        />
+      </AbsoluteFill>
+      <StepHeader scene={scene} onDark />
+      {!rich && (
+        <>
+          <div style={{ position: "absolute", left: 110, top: 300, right: 700 }}>
+            <StepKeywords scene={scene} dark size={76} />
+          </div>
+          <div style={{ position: "absolute", right: 110, bottom: 170 }}>
+            <IconBadge name={scene.icon} size={170} delay={14} />
+          </div>
+          <div style={{ position: "absolute", top: 150, right: 80 }}>
+            <TipPill text={scene.tip} dark />
+          </div>
+        </>
+      )}
+      {rich && (
+        <>
+          <div style={{ position: "absolute", left: 76, top: 150 }}>
+            <TickNote ticks={scene.ticks} />
+          </div>
+          <div style={{ position: "absolute", right: 86, top: 150 }}>
+            <FactChip facts={scene.facts} />
+          </div>
+          <div style={{ position: "absolute", right: 90, bottom: 120 }}>
+            <InfoCard cards={scene.cards} width={660} />
+          </div>
+        </>
+      )}
+      <StepCues scene={scene} />
+      <div style={{ position: "absolute", left: 110, bottom: 130, right: rich ? 770 : 110, display: "flex", alignItems: "flex-end", gap: 40 }}>
+        <StepBadge n={scene.index} size={140} />
+        <div style={{ flex: 1 }}>
+          <SlideUp delay={6} style={{ fontSize: fitTitle(scene.title, rich ? 72 : 84), fontWeight: 900, lineHeight: 1.06, color: C.white, textShadow: "0 4px 24px rgba(0,0,0,0.35)" }}>
+            {scene.title}
+          </SlideUp>
+        </div>
+      </div>
+    </Frame>
+  );
+};
+
+/** Variante C : grande image en bandeau haut (photo scotchée sur la notice), titre + encart dessous. */
+const StepCard: React.FC<{ scene: StepScene; durationInFrames: number }> = ({ scene, durationInFrames }) => {
+  const rich = isRich(scene);
+  return (
+    <Frame bg={C.mint}>
+      <StepHeader scene={scene} />
+      <Pop delay={2} style={{ position: "absolute", top: rich ? 132 : 140, left: 110, right: 110 }}>
+        <div style={{ height: rich ? 690 : 600, borderRadius: 40, overflow: "hidden", boxShadow: "0 24px 60px rgba(27,42,65,0.16)", border: rich ? `8px solid ${C.white}` : undefined, boxSizing: "border-box" }}>
+          <MultiShot shots={shotsOf(scene)} durationInFrames={durationInFrames} seed={scene.index + 2} starts={scene.shotStarts} box={rich ? [1684, 674] : [1700, 600]} overlay={rich ? undefined : "linear-gradient(90deg, rgba(27,42,65,0.35), transparent 45%)"} />
+        </div>
+        {rich ? (
+          <>
+            <Tape side="l" />
+            <Tape side="r" />
+            <div style={{ position: "absolute", right: 34, top: 34 }}>
+              <FactChip facts={scene.facts} scale={0.9} />
+            </div>
+          </>
+        ) : (
+          <>
+            <div style={{ position: "absolute", left: 50, bottom: 50 }}>
+              <StepKeywords scene={scene} dark size={70} />
+            </div>
+            <div style={{ position: "absolute", right: 40, top: 40 }}>
+              <IconBadge name={scene.icon} size={150} delay={14} bg={C.teal} color={C.white} />
+            </div>
+          </>
+        )}
+      </Pop>
+      <StepCues scene={scene} />
+      <div style={{ position: "absolute", left: 110, right: rich ? 880 : 110, top: rich ? 872 : 790, display: "flex", alignItems: "center", gap: 40 }}>
+        <StepBadge n={scene.index} size={110} color={C.teal} />
+        <SlideUp delay={6} style={{ flex: 1, fontSize: fitTitle(scene.title, 66), fontWeight: 900, lineHeight: 1.08 }}>
           {scene.title}
         </SlideUp>
+        {!rich && (
+          <div style={{ flexShrink: 0 }}>
+            <TipPill text={scene.tip} size={30} />
+          </div>
+        )}
       </div>
-    </div>
-    <div style={{ position: "absolute", top: 150, right: 80 }}>
-      <TipPill text={scene.tip} dark />
-    </div>
-  </Frame>
-);
-
-/** Variante C : grande image en bandeau haut, titre + astuce dessous. */
-const StepCard: React.FC<{ scene: StepScene; durationInFrames: number }> = ({ scene, durationInFrames }) => (
-  <Frame bg={C.mint}>
-    <StepHeader scene={scene} />
-    <Pop delay={2} style={{ position: "absolute", top: 140, left: 110, right: 110 }}>
-      <div style={{ height: 600, borderRadius: 40, overflow: "hidden", boxShadow: "0 24px 60px rgba(27,42,65,0.16)" }}>
-        <MultiShot shots={shotsOf(scene)} durationInFrames={durationInFrames} seed={scene.index + 2} starts={scene.shotStarts} overlay="linear-gradient(90deg, rgba(27,42,65,0.35), transparent 45%)" />
-      </div>
-      <div style={{ position: "absolute", left: 50, bottom: 50 }}>
-        <StepKeywords scene={scene} dark size={70} />
-      </div>
-      <div style={{ position: "absolute", right: 40, top: 40 }}>
-        <IconBadge name={scene.icon} size={150} delay={14} bg={C.teal} color={C.white} />
-      </div>
-    </Pop>
-    <KeywordSfx keywords={scene.keywords} />
-    <div style={{ position: "absolute", left: 110, right: 110, top: 780, display: "flex", alignItems: "center", gap: 40 }}>
-      <StepBadge n={scene.index} size={110} color={C.teal} />
-      <SlideUp delay={6} style={{ flex: 1, fontSize: fitTitle(scene.title, 66), fontWeight: 900, lineHeight: 1.08 }}>
-        {scene.title}
-      </SlideUp>
-      <div style={{ flexShrink: 0 }}>
-        <TipPill text={scene.tip} size={30} />
-      </div>
-    </div>
-  </Frame>
-);
+      {rich && (
+        <div style={{ position: "absolute", right: 110, top: 818 }}>
+          <InfoCard cards={scene.cards} />
+        </div>
+      )}
+    </Frame>
+  );
+};
 
 // ---------- Erreurs à éviter ----------
 export const Mistakes: React.FC<{ scene: MistakesScene }> = ({ scene }) => {
@@ -350,31 +433,42 @@ export const Recap: React.FC<{ scene: RecapScene }> = ({ scene }) => {
   );
 };
 
-// ---------- Outro abonnement ----------
-export const Outro: React.FC = () => {
+// ---------- Fin : logo, baseline, abonnement, Wiki ----------
+export const Outro: React.FC<{ scene?: OutroScene }> = ({ scene }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const s = spring({ frame, fps, config: { damping: 12 } });
   const pulse = 1 + Math.sin(frame / 5) * 0.04;
   const bell = Math.sin(frame / 3) * 12;
+  const underline = interpolate(frame, [26, 44], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
   return (
     <Frame bg={C.ink} dots={false}>
-      <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", gap: 40 }}>
-        <div style={{ transform: `scale(${s})`, background: C.paper, padding: "30px 60px", borderRadius: 36 }}>
-          <Logo size={96} />
+      <AbsoluteFill style={{ backgroundImage: `radial-gradient(rgba(251,247,239,0.07) 2px, transparent 2px)`, backgroundSize: "44px 44px" }} />
+      <AbsoluteFill style={{ alignItems: "center", paddingTop: 120 }}>
+        <div style={{ transform: `scale(${s}) rotate(-2deg)`, background: C.paper, padding: "30px 60px", borderRadius: 36, border: `8px solid ${C.coral}`, boxShadow: `12px 12px 0 ${C.coral}` }}>
+          <Logo size={110} />
         </div>
-        <SlideUp delay={8} style={{ color: C.paper, fontSize: 48, fontWeight: 700 }}>
-          A new how-to every day.
+        <SlideUp delay={8} style={{ marginTop: 56, color: C.paper, fontSize: scene?.baseline ? 96 : 52, fontWeight: 700, fontFamily: scene?.baseline ? HAND : FONT, lineHeight: 1, whiteSpace: "nowrap" }}>
+          {scene?.baseline ?? "A new how-to every day."}
         </SlideUp>
-        <SlideUp delay={16} style={{ display: "flex", gap: 30, alignItems: "center" }}>
-          <div style={{ background: C.coral, color: C.white, fontSize: 44, fontWeight: 900, padding: "20px 60px", borderRadius: 999, transform: `scale(${pulse})` }}>SUBSCRIBE</div>
-          <div style={{ width: 84, height: 84, borderRadius: 999, background: C.sun, display: "flex", alignItems: "center", justifyContent: "center", transform: `rotate(${bell}deg)` }}>
-            <svg width="44" height="44" viewBox="0 0 24 24" fill={C.ink}>
+        <svg width={760} height={36} viewBox="0 0 760 36" style={{ marginTop: 8, overflow: "visible" }}>
+          <path d="M8 20 C140 2 280 34 400 16 S660 6 752 22" fill="none" stroke={C.sun} strokeWidth={12} strokeLinecap="round" pathLength={1} strokeDasharray={1} strokeDashoffset={1 - underline} />
+        </svg>
+        <SlideUp delay={16} style={{ marginTop: 150, display: "flex", gap: 30, alignItems: "center" }}>
+          <div style={{ background: C.coral, color: C.white, fontSize: 56, fontWeight: 900, padding: "24px 76px", borderRadius: 999, transform: `scale(${pulse})`, border: `6px solid ${C.paper}` }}>SUBSCRIBE</div>
+          <div style={{ width: 104, height: 104, borderRadius: 999, background: C.sun, display: "flex", alignItems: "center", justifyContent: "center", transform: `rotate(${bell}deg)` }}>
+            <svg width="54" height="54" viewBox="0 0 24 24" fill={C.ink}>
               <path d="M12 22a2.5 2.5 0 0 0 2.45-2h-4.9A2.5 2.5 0 0 0 12 22Zm7-6V11a7 7 0 0 0-5-6.7V3a2 2 0 1 0-4 0v1.3A7 7 0 0 0 5 11v5l-2 2v1h18v-1l-2-2Z" />
             </svg>
           </div>
         </SlideUp>
       </AbsoluteFill>
+      <div style={{ position: "absolute", left: 90, bottom: 70 }}>
+        <Mascot pose="thumbs" height={400} delay={10} />
+      </div>
+      <div style={{ position: "absolute", right: 110, bottom: 70 }}>
+        <Mascot pose="pencil" height={400} delay={18} />
+      </div>
     </Frame>
   );
 };

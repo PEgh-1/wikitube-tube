@@ -7,55 +7,461 @@
       {
         "text": "Step two. For anything that didn't rinse off, pour in a generous handful of coarse salt and a splash of water.",
         "prompt": "Close-up, three-quarter view from above: a hand pours a generous handful of coarse sea salt into a black cast iron skillet that still has a few stuck-on browned food bits, a small splash of water glistening at the bottom. Photorealistic photograph for a cooking how-to video. Home kitchen with a light oak countertop and white subway tiles, natural soft window light, warm tones, shallow depth of field. Always the same well-used black cast iron skillet (10 inch, one long handle). 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
-        "file": "step-2-1.jpg"
+        "file": "step-2-1.jpg",
+        "focus": [
+          0.55,
+          0.55
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.4,
+              0.685
+            ],
+            "text": "Stuck-on bits",
+            "label": [
+              0.24,
+              0.47
+            ],
+            "on": "rinse",
+            "r": 0.05
+          }
+        ],
+        "cut": {
+          "file": "step-2-1b.jpg",
+          "on": "pour",
+          "focus": [
+            0.52,
+            0.6
+          ],
+          "notes": [
+            {
+              "type": "arrow",
+              "at": [
+                0.41,
+                0.68
+              ],
+              "text": "Cover every stuck bit",
+              "label": [
+                0.27,
+                0.32
+              ],
+              "on": "salt"
+            },
+            {
+              "type": "arrow",
+              "at": [
+                0.7,
+                0.63
+              ],
+              "text": "+ a splash of water",
+              "label": [
+                0.76,
+                0.44
+              ],
+              "on": "splash"
+            }
+          ]
+        }
       },
       {
         "text": "Work it around with a towel or your brush in small circles.",
         "prompt": "Close-up: a hand scrubs coarse salt in small circles inside the black cast iron skillet with a folded beige cotton kitchen towel, salt grains scattered across the dark surface. Photorealistic photograph for a cooking how-to video. Home kitchen with a light oak countertop and white subway tiles, natural soft window light, warm tones, shallow depth of field. Always the same well-used black cast iron skillet (10 inch, one long handle). 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
-        "file": "step-2-2.jpg"
+        "file": "step-2-2.jpg",
+        "focus": [
+          0.52,
+          0.62
+        ],
+        "notes": [],
+        "cut": {
+          "on": "with",
+          "focus": [
+            0.52,
+            0.62
+          ],
+          "zoom": 1.3,
+          "notes": [
+            {
+              "type": "swirl",
+              "at": [
+                0.5,
+                0.66
+              ],
+              "text": "Small circles",
+              "label": [
+                0.78,
+                0.5
+              ],
+              "on": "brush",
+              "r": 0.1
+            }
+          ]
+        }
       },
       {
         "text": "The salt grains scrub away stuck-on bits without cutting into the seasoning the way a steel scouring pad would.",
         "prompt": "Macro shot: white coarse salt grains rubbing against stuck-on brown bits on the glossy black seasoned surface of a cast iron skillet; a steel wool scouring pad lies unused and out of focus on the counter behind. Photorealistic photograph for a cooking how-to video. Home kitchen with a light oak countertop and white subway tiles, natural soft window light, warm tones, shallow depth of field. Always the same well-used black cast iron skillet (10 inch, one long handle). 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
-        "file": "step-2-3.jpg"
+        "file": "step-2-3.jpg",
+        "focus": [
+          0.6,
+          0.7
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.52,
+              0.62
+            ],
+            "text": "Seasoning stays intact",
+            "label": [
+              0.42,
+              0.28
+            ],
+            "on": "cutting"
+          }
+        ],
+        "cut": {
+          "file": "step-2-3b.jpg",
+          "on": "steel",
+          "focus": [
+            0.62,
+            0.7
+          ],
+          "notes": [
+            {
+              "type": "cross",
+              "at": [
+                0.62,
+                0.78
+              ],
+              "text": "No steel wool",
+              "label": [
+                0.3,
+                0.42
+              ],
+              "on": "steel",
+              "r": 0.17
+            }
+          ]
+        }
       },
       {
         "text": "When the salt turns brown, you've picked up the grime.",
         "prompt": "Top-down view: the black cast iron skillet filled with coarse salt that has turned brown and grey with grime, next to a little pile of clean white salt on the counter for contrast. Photorealistic photograph for a cooking how-to video. Home kitchen with a light oak countertop and white subway tiles, natural soft window light, warm tones, shallow depth of field. Always the same well-used black cast iron skillet (10 inch, one long handle). 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
-        "file": "step-2-4.jpg"
+        "file": "step-2-4.jpg",
+        "focus": [
+          0.46,
+          0.58
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.46,
+              0.54
+            ],
+            "text": "Brown = grime lifted",
+            "label": [
+              0.64,
+              0.24
+            ],
+            "on": "brown"
+          }
+        ]
       },
       {
         "text": "Rinse it out and check the surface.",
         "prompt": "A hand holds the black cast iron skillet under a running kitchen tap, dirty brown salt washing away and revealing a clean, smooth black surface, water droplets catching the light. Photorealistic photograph for a cooking how-to video. Home kitchen with a light oak countertop and white subway tiles, natural soft window light, warm tones, shallow depth of field. Always the same well-used black cast iron skillet (10 inch, one long handle). 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
-        "file": "step-2-5.jpg"
+        "file": "step-2-5.jpg",
+        "focus": [
+          0.58,
+          0.5
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.585,
+              0.36
+            ],
+            "text": "Rinse",
+            "label": [
+              0.8,
+              0.28
+            ],
+            "on": "rinse"
+          },
+          {
+            "type": "circle",
+            "at": [
+              0.6,
+              0.6
+            ],
+            "text": "Smooth & black?",
+            "label": [
+              0.82,
+              0.62
+            ],
+            "on": "check",
+            "r": 0.1
+          }
+        ]
       }
     ],
     "step-3": [
       {
         "text": "Step three. Stuck-on food that won't budge gets the boiling trick.",
         "prompt": "Close-up: a black cast iron skillet on the counter with a stubborn layer of burnt, crusted food stuck to the bottom, a stiff brush lying beside it. Photorealistic photograph for a cooking how-to video. Home kitchen with a light oak countertop and white subway tiles, natural soft window light, warm tones, shallow depth of field. Always the same well-used black cast iron skillet (10 inch, one long handle). 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
-        "file": "step-3-1.jpg"
+        "file": "step-3-1.jpg",
+        "focus": [
+          0.62,
+          0.55
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.64,
+              0.56
+            ],
+            "text": "Burnt-on layer",
+            "label": [
+              0.24,
+              0.42
+            ],
+            "on": "stuck-on",
+            "r": 0.13
+          }
+        ]
       },
       {
         "text": "Add a centimetre of water to the pan, put it back on the stove and bring it to a simmer for two or three minutes.",
         "prompt": "A black cast iron skillet on a gas stove burner with a low blue flame, a shallow centimetre of water gently simmering inside, small bubbles and light steam rising. Photorealistic photograph for a cooking how-to video. Home kitchen with a light oak countertop and white subway tiles, natural soft window light, warm tones, shallow depth of field. Always the same well-used black cast iron skillet (10 inch, one long handle). 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
-        "file": "step-3-2.jpg"
+        "file": "step-3-2.jpg",
+        "focus": [
+          0.55,
+          0.52
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.55,
+              0.52
+            ],
+            "text": "1 cm of water",
+            "label": [
+              0.24,
+              0.36
+            ],
+            "on": "centimetre"
+          }
+        ],
+        "cut": {
+          "file": "step-3-2b.jpg",
+          "on": "bring",
+          "focus": [
+            0.55,
+            0.58
+          ],
+          "notes": [
+            {
+              "type": "arrow",
+              "at": [
+                0.52,
+                0.6
+              ],
+              "text": "Gentle simmer",
+              "label": [
+                0.24,
+                0.62
+              ],
+              "on": "simmer"
+            }
+          ]
+        }
       },
       {
         "text": "The heat and the water loosen the burnt layer, and a gentle nudge with a wooden spatula lifts it right off.",
         "prompt": "Close-up: a hand uses a wooden spatula to gently lift a burnt layer off the bottom of a black cast iron skillet filled with shallow simmering water, the residue peeling away easily. Photorealistic photograph for a cooking how-to video. Home kitchen with a light oak countertop and white subway tiles, natural soft window light, warm tones, shallow depth of field. Always the same well-used black cast iron skillet (10 inch, one long handle). 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
-        "file": "step-3-3.jpg"
+        "file": "step-3-3.jpg",
+        "focus": [
+          0.55,
+          0.58
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.5,
+              0.62
+            ],
+            "text": "Burnt layer loosens",
+            "label": [
+              0.22,
+              0.34
+            ],
+            "on": "loosen"
+          }
+        ],
+        "cut": {
+          "file": "step-3-3b.jpg",
+          "on": "gentle",
+          "focus": [
+            0.68,
+            0.52
+          ],
+          "notes": [
+            {
+              "type": "arrow",
+              "at": [
+                0.8,
+                0.42
+              ],
+              "text": "Wooden spatula",
+              "label": [
+                0.66,
+                0.18
+              ],
+              "on": "wooden"
+            },
+            {
+              "type": "circle",
+              "at": [
+                0.63,
+                0.55
+              ],
+              "on": "lifts",
+              "r": 0.08
+            }
+          ]
+        }
       },
       {
         "text": "Pour the water out and move on.",
         "prompt": "Hands holding the black cast iron skillet by its handle with a kitchen towel, pouring cloudy hot water out into a stainless steel sink, steam rising. Photorealistic photograph for a cooking how-to video. Home kitchen with a light oak countertop and white subway tiles, natural soft window light, warm tones, shallow depth of field. Always the same well-used black cast iron skillet (10 inch, one long handle). 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
-        "file": "step-3-4.jpg"
+        "file": "step-3-4.jpg",
+        "focus": [
+          0.66,
+          0.62
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.67,
+              0.74
+            ],
+            "text": "Pour it out",
+            "label": [
+              0.3,
+              0.55
+            ],
+            "on": "pour"
+          }
+        ]
       },
       {
         "text": "Never let the pan sit in that water once the heat is off.",
         "prompt": "A neglected black cast iron skillet left soaking, full of murky cold water in a kitchen sink, slight orange rust starting on the rim, dull flat light, a mood of something being ruined. Photorealistic photograph for a cooking how-to video. Home kitchen with a light oak countertop and white subway tiles, natural soft window light, warm tones, shallow depth of field. Always the same well-used black cast iron skillet (10 inch, one long handle). 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
-        "file": "step-3-5.jpg"
+        "file": "step-3-5.jpg",
+        "focus": [
+          0.47,
+          0.5
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.36,
+              0.36
+            ],
+            "text": "Rust starts here",
+            "label": [
+              0.74,
+              0.26
+            ],
+            "on": "sit"
+          }
+        ]
       }
     ]
-  }
+  },
+  "extras": {
+    "step-2": {
+      "facts": [
+        {
+          "shot": 1,
+          "on": "handful",
+          "kind": "measure",
+          "big": "1 handful",
+          "small": "coarse salt",
+          "dur": 4.2
+        }
+      ],
+      "cards": [
+        {
+          "shot": 3,
+          "on": "scrub",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "Salt is hard enough to scrub, too soft to scratch the seasoning.",
+          "dur": 4.6
+        }
+      ],
+      "ticks": [
+        {
+          "shot": 1,
+          "on": "salt",
+          "label": "Coarse salt"
+        },
+        {
+          "shot": 2,
+          "on": "towel",
+          "label": "Towel or brush"
+        }
+      ]
+    },
+    "step-3": {
+      "facts": [
+        {
+          "shot": 2,
+          "on": "centimetre",
+          "kind": "measure",
+          "big": "1 cm",
+          "small": "of water",
+          "dur": 3.4
+        },
+        {
+          "shot": 2,
+          "on": "two",
+          "kind": "timer",
+          "big": "2–3 min",
+          "small": "at a simmer",
+          "dur": 4.0
+        }
+      ],
+      "cards": [
+        {
+          "shot": 3,
+          "on": "heat",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "Heat and water soften the burnt layer, so it lifts in one piece.",
+          "dur": 4.8
+        },
+        {
+          "shot": 5,
+          "on": "never",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Never leave it soaking. That is how rust starts.",
+          "dur": 4.4
+        }
+      ]
+    }
+  },
+  "version": 2
 }

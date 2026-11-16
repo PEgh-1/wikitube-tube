@@ -118,8 +118,9 @@ export function episodeJsonSchema() {
 }
 
 /** Liste ordonnée des segments narrés (clé → texte) pour le long. */
-export function longSegments(ep) {
+export function longSegments(ep, brand = null) {
   const segs = [
+    ...(brand?.open ? [{ id: "brand-open", text: brand.open }] : []),
     { id: "hook", text: ep.hook },
     { id: "intro", text: ep.intro },
     { id: "youneed", text: ep.youNeedNarration ?? `You'll need ${joinList(ep.youNeed)}.` },
@@ -127,6 +128,7 @@ export function longSegments(ep) {
     { id: "mistakes", text: ep.mistakesToAvoid.narration },
     { id: "recap", text: ep.recap.narration },
     { id: "outro", text: ep.outro },
+    ...(brand?.close ? [{ id: "brand-close", text: brand.close }] : []),
   ];
   return segs;
 }

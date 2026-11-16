@@ -59,22 +59,37 @@ function fromPregen(t) {
     log.warn(`plans pré-générés ${t.key} : textes ≠ narration → ignorés`);
     return null;
   }
+  const clean = (w) => w.toLowerCase().replace(/[^a-z0-9'-]/g, "");
+  const copy = (name, dest) => {
+    const src = name ? path.join(pregenDir, name) : null;
+    if (!src || !exists(src)) return null;
+    const file = path.join(imgDir, `${dest}${path.extname(src)}`);
+    fs.copyFileSync(src, file);
+    return file;
+  };
   let idx = 0;
   const shots = [];
   for (const [j, sh] of list.entries()) {
     const wordStart = idx;
-    idx += sh.text.split(/\s+/).filter(Boolean).length;
-    const src = sh.file ? path.join(pregenDir, sh.file) : null;
-    if (src && exists(src)) {
-      const file = path.join(imgDir, `${t.key}-${j + 1}${path.extname(src)}`);
-      fs.copyFileSync(src, file);
-      shots.push({ ...entry(t, { kind: "photo", width: 1920, height: 1080, provider: "gemini-web", credit: null }, file), text: sh.text, wordStart, prompt: sh.prompt });
-      log.info(`✔ ${t.key} plan ${j + 1}/${list.length} pré-généré — « ${sh.text.slice(0, 60)} »`);
-    } else {
+    const words = sh.text.split(/\s+/).filter(Boolean);
+    idx += words.length;
+    const file = copy(sh.file, `${t.key}-${j + 1}`);
+    if (!file) {
       const ill = illustrate(sh.text);
       shots.push({ key: t.key, query: t.query, kind: "illustration", file: "", ...ill, text: sh.text, wordStart, provider: "remotion" });
       log.warn(`${t.key} plan ${j + 1} : image pré-générée absente → illustration Remotion`);
+      continue;
     }
+    const base = entry(t, { kind: "photo", width: 1920, height: 1080, provider: "gemini-web", credit: null }, file);
+    shots.push({ ...base, text: sh.text, wordStart, prompt: sh.prompt, focus: sh.focus ?? null, notes: sh.notes ?? null });
+    // Second plan de la même phrase : gros plan dédié (cut.file) ou zoom sur le geste (même image).
+    if (sh.cut) {
+      const at = Math.max(1, words.findIndex((w) => clean(w) === clean(sh.cut.on ?? "")));
+      const file2 = copy(sh.cut.file, `${t.key}-${j + 1}b`) ?? file;
+      const b = entry(t, { kind: "photo", width: 1920, height: 1080, provider: "gemini-web", credit: null }, file2);
+      shots.push({ ...b, text: words.slice(at).join(" "), wordStart: wordStart + at, sub: true, zoom: sh.cut.file ? null : (sh.cut.zoom ?? 1.45), focus: sh.cut.focus ?? sh.focus ?? null, notes: sh.cut.notes ?? null });
+    }
+    log.info(`✔ ${t.key} phrase ${j + 1}/${list.length} pré-générée${sh.cut ? " (2 plans)" : ""} — « ${sh.text.slice(0, 50)} »`);
   }
   const firstPhoto = shots.find((x) => x.kind === "photo");
   return firstPhoto ? { ...firstPhoto, shots } : null;
@@ -318,6 +333,8 @@ const manifest = {
     return r?.kind === "illustration" ? stripShots(results.hero) : r;
   }),
   stepShots: episode.steps.map((_, i) => results[`step-${i + 1}`]?.shots ?? [stripShots(results[`step-${i + 1}`])]),
+  // Encarts calés sur la voix (chiffres, « pourquoi », « à éviter », coches du matériel), par étape.
+  stepExtras: episode.steps.map((_, i) => pregen?.extras?.[`step-${i + 1}`] ?? null),
   all: results,
   credits: Object.values(results)
     .flatMap((r) => r.shots ?? [r])

@@ -11,7 +11,7 @@ import { bundle } from "@remotion/bundler";
 import { renderMedia, renderStill, selectComposition, ensureBrowser } from "@remotion/renderer";
 import { creditsLine } from "./lib/credits.mjs";
 import { DIRS, FPS, parseArgs, readJson, writeJson, log, ensureDir, mediaDuration, run } from "./lib/common.mjs";
-import { buildLongTimeline, buildShortTimeline, chaptersText } from "./lib/timeline.mjs";
+import { buildLongTimeline, buildShortTimeline, chaptersText, subsetTimeline } from "./lib/timeline.mjs";
 import { LOCALES } from "./lib/episode.mjs";
 
 const args = parseArgs();
@@ -32,7 +32,9 @@ const browserExecutable = process.env.REMOTION_BROWSER_EXECUTABLE || null;
 const chromiumOptions = { gl: "angle", enableMultiProcessOnLinux: true };
 
 // ---------- Timelines ----------
-const longTl = buildLongTimeline(episode, tts, images, { fps });
+const brandFile = path.join(DIRS.data, "brand.json");
+const brand = fs.existsSync(brandFile) ? readJson(brandFile) : null;
+const longTl = buildLongTimeline(episode, tts, images, { fps, brand });
 const shortTl = buildShortTimeline(episode, tts, images, { fps });
 writeJson(path.join(buildDir, "timeline-long.json"), longTl);
 writeJson(path.join(buildDir, "timeline-short.json"), shortTl);
@@ -116,6 +118,14 @@ async function renderVideo(id, timeline, outFile, frameRange = null) {
   return d;
 }
 
+if (args.excerpt && String(args.excerpt).startsWith("pilot:")) {
+  // Pilote : ouverture signée + scènes choisies + fin (ex. --excerpt pilot:step-2,step-3)
+  const sub = subsetTimeline(longTl, String(args.excerpt).slice(6).split(","), { fps });
+  writeJson(path.join(buildDir, "timeline-pilot.json"), sub);
+  await renderVideo("Long", sub, path.join(outDir, "excerpt.mp4"));
+  log.info(`Pilote ${args.excerpt} : ${sub.totalSec.toFixed(1)} s`);
+  process.exit(0);
+}
 if (args.excerpt) {
   const [type, n] = String(args.excerpt).split("-");
   const sc = longTl.scenes.find((x) => x.type === type && (n === undefined || String(x.index) === n));

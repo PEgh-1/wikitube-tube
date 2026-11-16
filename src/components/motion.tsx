@@ -4,8 +4,9 @@ import { C, FONT } from "../theme";
 import type { ImageRef, Keyword } from "../types";
 import { DrawIcon } from "./icons";
 import { Illustration } from "./illustration";
+import { NotesLayer, WBadge, imageToBox } from "./brand";
 
-const TRANS = 12; // frames de transition entre plans / scènes
+const TRANS = 14; // frames de transition entre plans / scènes
 
 // ---------- Plusieurs plans par étape (photos + clip), coupes dynamiques ----------
 export const MultiShot: React.FC<{
@@ -16,7 +17,8 @@ export const MultiShot: React.FC<{
   minShotSec?: number;
   starts?: number[]; // débuts imposés (s) : coupes synchronisées sur la voix
   illusPad?: [number, number]; // marges haut/bas (cqh) des illustrations (place du titre en plein écran)
-}> = ({ shots, durationInFrames, seed = 0, overlay, minShotSec = 4.5, starts, illusPad }) => {
+  box?: [number, number]; // taille du cadre affiché (px) : sert à placer les annotations
+}> = ({ shots, durationInFrames, seed = 0, overlay, minShotSec = 4.5, starts, illusPad, box = [1920, 1080] }) => {
   const { fps } = useVideoConfig();
   const list = shots.filter(Boolean) as ImageRef[];
   if (!list.length) list.push(undefined as unknown as ImageRef);
@@ -35,7 +37,7 @@ export const MultiShot: React.FC<{
         const len = Math.max(1, to - from);
         return (
           <Sequence key={i} from={from} durationInFrames={len + (i < froms.length - 1 ? TRANS : 0)} layout="none">
-            <Shot image={list[i]} len={len + TRANS} first={i === 0} move={(seed + i) % 4} seed={seed + i} illusPad={illusPad} />
+            <Shot image={list[i]} len={len + TRANS} first={i === 0} move={(seed + i) % 4} seed={seed + i} illusPad={illusPad} box={box} fromFrame={from} />
           </Sequence>
         );
       })}
@@ -44,27 +46,58 @@ export const MultiShot: React.FC<{
   );
 };
 
-const Shot: React.FC<{ image?: ImageRef; len: number; first: boolean; move: number; seed?: number; illusPad?: [number, number] }> = ({ image, len, first, move, seed = 0, illusPad }) => {
+const Shot: React.FC<{ image?: ImageRef; len: number; first: boolean; move: number; seed?: number; illusPad?: [number, number]; box: [number, number]; fromFrame: number }> = ({
+  image,
+  len,
+  first,
+  move,
+  seed = 0,
+  illusPad,
+  box,
+  fromFrame,
+}) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = interpolate(frame, [0, len], [0, 1], { extrapolateRight: "clamp", easing: Easing.inOut(Easing.quad) });
+  const annotated = Boolean(image?.notes?.length);
+  const focus: [number, number] = [image?.focus?.[0] ?? 0.5, image?.focus?.[1] ?? 0.5];
   // 4 mouvements : zoom avant, travelling gauche, zoom arrière, travelling droite (parallaxe : léger décalage vertical).
-  const moves = [
-    { s0: 1.04, s1: 1.2, x: -2, y: -1.5 },
-    { s0: 1.16, s1: 1.16, x: 4, y: 1 },
-    { s0: 1.22, s1: 1.05, x: 1.5, y: -2 },
-    { s0: 1.16, s1: 1.16, x: -4, y: 1.5 },
-  ][move];
+  // Plans annotés : mouvement plus doux pour que les étiquettes restent dans le cadre.
+  const moves = (
+    annotated
+      ? [
+          { s0: 1.02, s1: 1.08, x: -0.8, y: -0.5 },
+          { s0: 1.06, s1: 1.06, x: 1.2, y: 0.4 },
+          { s0: 1.08, s1: 1.02, x: 0.6, y: -0.6 },
+          { s0: 1.06, s1: 1.06, x: -1.2, y: 0.5 },
+        ]
+      : [
+          { s0: 1.04, s1: 1.2, x: -2, y: -1.5 },
+          { s0: 1.16, s1: 1.16, x: 4, y: 1 },
+          { s0: 1.22, s1: 1.05, x: 1.5, y: -2 },
+          { s0: 1.16, s1: 1.16, x: -4, y: 1.5 },
+        ]
+  )[move];
   const punch = first ? 0 : spring({ frame, fps, config: { damping: 16, stiffness: 120 } });
-  const scale = moves.s0 + (moves.s1 - moves.s0) * t + (first ? 0 : (1 - punch) * 0.18);
-  const tx = (t - 0.5) * moves.x;
-  const ty = (t - 0.5) * moves.y;
-  // Entrée : volet diagonal depuis la droite + flash léger.
-  const reveal = first ? 1 : interpolate(frame, [0, TRANS], [0, 1], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
-  const clip = first ? undefined : `polygon(${100 - reveal * 115}% 0, 100% 0, 100% 100%, ${100 - reveal * 115 - 15}% 100%)`;
+  const cut = Boolean(image?.sub); // second plan d'une même phrase : coupe franche + coup de zoom
+  let scale = moves.s0 + (moves.s1 - moves.s0) * t + (first ? 0 : (1 - punch) * (cut ? 0.1 : 0.18));
+  let tx = (t - 0.5) * moves.x;
+  let ty = (t - 0.5) * moves.y;
+  let origin = "50% 50%";
+  if (image?.zoom) {
+    // Zoom sur le geste : on resserre sur le point d'intérêt de la même image.
+    const [ox, oy] = imageToBox(focus[0], focus[1], box, focus);
+    origin = `${Math.max(0, Math.min(1, ox)) * 100}% ${Math.max(0, Math.min(1, oy)) * 100}%`;
+    scale = image.zoom * (0.95 + 0.05 * t) + (1 - punch) * 0.12;
+    tx = 0;
+    ty = 0;
+  }
+  // Entrée : volet diagonal depuis la droite + flash léger (coupe franche pour un second plan).
+  const reveal = first || cut ? 1 : interpolate(frame, [0, TRANS], [0, 1], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
+  const clip = first || cut ? undefined : `polygon(${100 - reveal * 115}% 0, 100% 0, 100% 100%, ${100 - reveal * 115 - 15}% 100%)`;
   const transform = `scale(${scale}) translate(${tx}%, ${ty}%)`;
-  const media: React.CSSProperties = { position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", transform };
-  const flash = first ? 0 : interpolate(frame, [TRANS - 4, TRANS + 6], [0.35, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const media: React.CSSProperties = { position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", objectPosition: `${focus[0] * 100}% ${focus[1] * 100}%` };
+  const flash = first ? 0 : cut ? interpolate(frame, [0, 5], [0.3, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) : interpolate(frame, [TRANS - 4, TRANS + 6], [0.35, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   let el: React.ReactNode;
   if (image?.kind === "illustration") {
     el = (
@@ -75,11 +108,17 @@ const Shot: React.FC<{ image?: ImageRef; len: number; first: boolean; move: numb
   } else if (image?.kind === "video") {
     const dur = Number((image as ImageRef & { duration?: number }).duration ?? 0);
     const rate = dur > 0 ? Math.max(0.5, Math.min(1, dur / (len / fps))) : 1;
-    el = <OffthreadVideo src={staticFile(image.file)} muted playbackRate={rate} style={media} />;
+    el = <OffthreadVideo src={staticFile(image.file)} muted playbackRate={rate} style={{ ...media, transform }} />;
   } else if (image) {
-    el = <Img src={staticFile(image.file)} style={media} />;
+    // L'image et ses annotations partagent le même conteneur transformé : les traits suivent le mouvement.
+    el = (
+      <div style={{ position: "absolute", inset: 0, transform, transformOrigin: origin }}>
+        <Img src={staticFile(image.file)} style={media} />
+        <NotesLayer notes={image.notes} box={box} focus={focus} fromFrame={fromFrame} />
+      </div>
+    );
   } else {
-    el = <div style={{ ...media, background: `linear-gradient(135deg, ${C.teal}, ${C.ink})` }} />;
+    el = <div style={{ ...media, transform, background: `linear-gradient(135deg, ${C.teal}, ${C.ink})` }} />;
   }
   return (
     <AbsoluteFill style={{ clipPath: clip }}>
@@ -199,10 +238,12 @@ export const SceneWipe: React.FC<{ durationInFrames: number; enter?: boolean; ex
         {bar(C.sun, 0, 0.3)}
         {bar(C.coral, 0.15, 0.15)}
         {bar(C.ink, 0.3, 0)}
+        <WBadge p={outP > 0 ? outP : inP < 1 ? 1 + inP : 0} />
       </AbsoluteFill>
       {sound && exit && (
         <Sequence from={durationInFrames - TRANS - 4} layout="none">
-          <Audio src={staticFile("sfx/whoosh.mp3")} volume={0.32} />
+          <Audio src={staticFile("sfx/whoosh.mp3")} volume={0.22} />
+          <Audio src={staticFile("brand/sfx-w.mp3")} volume={0.4} />
         </Sequence>
       )}
     </>

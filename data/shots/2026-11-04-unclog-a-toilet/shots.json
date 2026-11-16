@@ -1,12 +1,54 @@
 {
   "episodeId": "2026-11-04-unclog-a-toilet",
-  "version": 2,
+  "version": 3,
   "source": "gemini-web (navigateur, sans API)",
   "style": "Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
   "hero": {
     "prompt": "A clean white toilet in a bright modern bathroom, a black flange plunger with a wooden handle standing next to it and a blue bucket beside, front three-quarter view. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
     "file": "hero.jpg"
   },
+  "youneed": {
+    "prompt": "Flat lay photographed from directly above on a light grey tile bathroom floor, six objects neatly arranged with clear space between them: a black flange plunger with a wooden handle, a pair of bright yellow rubber gloves, a green bottle of dish soap without any label, a blue plastic bucket, a toilet auger with a crank handle and coiled cable, and a stack of folded old beige towels. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+    "file": "youneed.jpg",
+    "focus": [
+      0.52,
+      0.5
+    ]
+  },
+  "mistakes": [
+    {
+      "prompt": "A bare hand pushing down the chrome flush handle of a white toilet whose bowl is already full to the rim with clear water, water just starting to spill over the edge. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+      "file": "mistake-1.jpg",
+      "focus": [
+        0.6,
+        0.4
+      ]
+    },
+    {
+      "prompt": "A bare hand tilting a plain red plastic bottle of chemical drain cleaner, without any label, above an open white toilet bowl, about to pour. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+      "file": "mistake-2.jpg",
+      "focus": [
+        0.75,
+        0.45
+      ]
+    },
+    {
+      "prompt": "A stainless steel kettle of boiling water held above an open white toilet bowl, thick steam rising from the spout. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+      "file": "mistake-3.jpg",
+      "focus": [
+        0.4,
+        0.6
+      ]
+    },
+    {
+      "prompt": "A bare hand pushing a straightened metal wire coat hanger down into the drain of a white toilet bowl. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+      "file": "mistake-4.jpg",
+      "focus": [
+        0.55,
+        0.55
+      ]
+    }
+  ],
   "shots": {
     "step-1": [
       {
@@ -31,6 +73,30 @@
               0.14
             ],
             "on": "do"
+          }
+        ]
+      },
+      {
+        "text": "A second flush sends a full tank, at least a gallon and a half of water, into a bowl that has nowhere to drain.",
+        "prompt": "A white toilet overflowing: clear water spilling over the rim of the bowl and running onto the light grey tile floor, a spreading puddle, low side angle. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-1-a.jpg",
+        "focus": [
+          0.42,
+          0.6
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.36,
+              0.62
+            ],
+            "text": "Straight onto the floor",
+            "label": [
+              0.3,
+              0.16
+            ],
+            "on": "full"
           }
         ]
       },
@@ -330,6 +396,30 @@
         ]
       },
       {
+        "text": "For an even tighter seal, smear a little petroleum jelly around the rim of the cup.",
+        "prompt": "Close-up of a finger of a yellow rubber glove spreading clear petroleum jelly around the rim of a black rubber plunger cup, a small open white jar without any label beside it. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-3-b.jpg",
+        "focus": [
+          0.45,
+          0.75
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.5,
+              0.78
+            ],
+            "text": "A thin layer on the rim",
+            "label": [
+              0.7,
+              0.42
+            ],
+            "on": "smear"
+          }
+        ]
+      },
+      {
         "text": "Lower it in at an angle to let the air escape, then fit the sleeve into the drain hole.",
         "prompt": "Hands wearing bright yellow rubber gloves lowering a black flange plunger at an angle into a white toilet bowl half full of clear water, the rubber sleeve entering the drain opening. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
         "file": "step-3-4.jpg",
@@ -453,6 +543,30 @@
         ]
       },
       {
+        "text": "The cup must stay under water the whole time, so top up the bowl from your bucket if the level gets low.",
+        "prompt": "A blue bucket being tipped to pour clear water into a white toilet bowl while a black plunger stands in the bowl, hands wearing bright yellow rubber gloves, side view. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-4-a.jpg",
+        "focus": [
+          0.5,
+          0.7
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.47,
+              0.86
+            ],
+            "text": "Keep the cup covered",
+            "label": [
+              0.26,
+              0.3
+            ],
+            "on": "stay"
+          }
+        ]
+      },
+      {
         "text": "On the last stroke, yank the plunger up sharply to break the seal.",
         "prompt": "Action shot: a black flange plunger lifted just out of the clear water of a white toilet bowl, droplets falling, hands wearing bright yellow rubber gloves. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
         "file": "step-4-3.jpg",
@@ -510,6 +624,15 @@
         "focus": [
           0.55,
           0.5
+        ]
+      },
+      {
+        "text": "No dish soap? Shampoo or liquid hand soap works the same way.",
+        "prompt": "A plain white shampoo bottle and a clear pump bottle of liquid hand soap, both without any label, standing on the closed lid of a white toilet tank, a hand in a yellow rubber glove reaching for the shampoo. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-5-a.jpg",
+        "focus": [
+          0.5,
+          0.55
         ]
       },
       {
@@ -585,6 +708,30 @@
         ]
       },
       {
+        "text": "If the water level has dropped while you waited, that is a very good sign: the clog is already letting water through.",
+        "prompt": "View from above of a white toilet bowl with a low level of slightly soapy water and a ring of small bubbles on the porcelain showing where the water level used to be. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-5-b.jpg",
+        "focus": [
+          0.5,
+          0.55
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.47,
+              0.4
+            ],
+            "text": "The old water line",
+            "label": [
+              0.7,
+              0.2
+            ],
+            "on": "level"
+          }
+        ]
+      },
+      {
         "text": "Then plunge again, and most stubborn clogs give up at this point.",
         "prompt": "Hands wearing bright yellow rubber gloves plunging with a black flange plunger in soapy, bubbly water in a white toilet bowl. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
         "file": "step-5-5.jpg",
@@ -655,6 +802,15 @@
             ],
             "on": "rubber"
           }
+        ]
+      },
+      {
+        "text": "The cable is about three feet long, enough to reach any clog inside the toilet itself.",
+        "prompt": "A toilet auger lying on old beige towels on a light grey tile floor with its coiled steel cable fully extended in a straight line next to a yellow tape measure without readable numbers, seen from above. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-6-a.jpg",
+        "focus": [
+          0.48,
+          0.6
         ]
       },
       {
@@ -807,6 +963,55 @@
         ]
       },
       {
+        "text": "If the water rises instead, close the flapper right away and go back to the auger.",
+        "prompt": "View from above into an open toilet tank: a hand in a yellow rubber glove pressing the red rubber flapper firmly down under clear water, small splashes. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-7-a.jpg",
+        "focus": [
+          0.62,
+          0.6
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.63,
+              0.6
+            ],
+            "text": "Flapper down, water stops",
+            "label": [
+              0.32,
+              0.24
+            ],
+            "on": "close"
+          }
+        ]
+      },
+      {
+        "text": "Then flush three or four sheets of toilet paper as a final test: if they vanish, the drain is truly clear.",
+        "prompt": "View from above of a clean white toilet bowl with four white sheets of toilet paper floating on clear water. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-7-b.jpg",
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.47,
+              0.62
+            ],
+            "r": 0.13,
+            "text": "Gone = all clear",
+            "label": [
+              0.32,
+              0.17
+            ],
+            "on": "vanish"
+          }
+        ]
+      },
+      {
         "text": "Finish by rinsing the plunger and auger in the clean flush water, then disinfect them, the floor and the handle.",
         "prompt": "Hands wearing bright yellow rubber gloves spraying disinfectant from a spray bottle onto a black flange plunger held over a clean white toilet bowl. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
         "file": "step-7-4.jpg",
@@ -830,27 +1035,292 @@
           }
         ]
       }
+    ],
+    "step-8": [
+      {
+        "text": "Still stuck? Before you give up, there are two more things worth trying.",
+        "prompt": "A person seen from behind and above standing in front of a white toilet with hands in yellow rubber gloves on the hips, a plunger leaning against the wall, the bowl full of still clear water. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-8-1.jpg",
+        "focus": [
+          0.5,
+          0.5
+        ]
+      },
+      {
+        "text": "The first one is time. A paper clog softens by itself, so leave the soap and hot water in the bowl overnight, and plunge again in the morning.",
+        "prompt": "A quiet bathroom at night lit by soft blue moonlight from a window: a white toilet with slightly soapy water in the bowl, a black plunger standing beside it. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-8-2.jpg",
+        "focus": [
+          0.5,
+          0.6
+        ]
+      },
+      {
+        "text": "The second one is a wet and dry shop vacuum, if you own one, and never a regular household vacuum.",
+        "prompt": "A wet and dry shop vacuum with a yellow and black drum on wheels and a thick grey hose, without any logo, standing on a tile bathroom floor next to a white toilet. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-8-3.jpg",
+        "focus": [
+          0.68,
+          0.75
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.68,
+              0.77
+            ],
+            "r": 0.13,
+            "text": "Wet/dry shop vac only",
+            "label": [
+              0.3,
+              0.3
+            ],
+            "on": "wet"
+          }
+        ]
+      },
+      {
+        "text": "Vacuum the water out of the bowl, wrap an old towel around the hose to seal the drain, and let the suction pull the clog back out.",
+        "prompt": "Hands wearing bright yellow rubber gloves holding the thick grey hose of a shop vacuum wrapped in an old beige towel and pushed into the drain of an empty white toilet bowl, seen from above at an angle. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-8-4.jpg",
+        "focus": [
+          0.52,
+          0.8
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.5,
+              0.86
+            ],
+            "text": "Towel = airtight seal",
+            "label": [
+              0.25,
+              0.3
+            ],
+            "on": "wrap"
+          }
+        ]
+      },
+      {
+        "text": "As for baking soda and vinegar, the fizz looks impressive, but on a solid clog it does far less than soap, hot water and a good plunger.",
+        "prompt": "White fizzing foam bubbling up inside a white toilet bowl, and on the tile floor beside the toilet a plain cardboard box of white powder and a clear glass bottle of vinegar, both without any label. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-8-5.jpg",
+        "focus": [
+          0.75,
+          0.8
+        ]
+      }
+    ],
+    "step-9": [
+      {
+        "text": "Sometimes the problem is not in your toilet at all, and that is when you stop and call a plumber.",
+        "prompt": "A bare hand holding a smartphone with a completely black screen in the foreground of a bright bathroom, a white toilet and a plunger out of focus behind. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-9-1.jpg",
+        "focus": [
+          0.4,
+          0.5
+        ]
+      },
+      {
+        "text": "Sign number one: when you flush, water comes up in the shower or the bathtub.",
+        "prompt": "A white shower tray seen from above with clear water backing up out of the round chrome drain and pooling across the tray. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-9-2.jpg",
+        "focus": [
+          0.5,
+          0.55
+        ]
+      },
+      {
+        "text": "Sign number two: several drains in the house are slow or gurgling at the same time.",
+        "prompt": "A white bathroom sink half full of clear water that is not draining, a chrome tap above, seen from above at an angle. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-9-3.jpg",
+        "focus": [
+          0.55,
+          0.5
+        ]
+      },
+      {
+        "text": "Both mean the blockage is in the main sewer line, far beyond the reach of a plunger.",
+        "prompt": "A large white PVC main drain pipe running along a clean concrete basement wall with a round threaded cleanout cap, soft daylight from a small window. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-9-4.jpg",
+        "focus": [
+          0.3,
+          0.6
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.34,
+              0.62
+            ],
+            "r": 0.1,
+            "text": "Main line cleanout",
+            "label": [
+              0.32,
+              0.2
+            ],
+            "on": "main"
+          }
+        ]
+      },
+      {
+        "text": "Sign number three: you know a hard object went down, like a toy, a toothbrush or a phone. Forcing it can wedge it deeper.",
+        "prompt": "A small yellow rubber duck and a blue toothbrush balanced on the rim of an open white toilet bowl, about to fall in, close-up. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-9-5.jpg",
+        "focus": [
+          0.48,
+          0.5
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.47,
+              0.5
+            ],
+            "r": 0.1,
+            "text": "Not flushable!",
+            "label": [
+              0.72,
+              0.2
+            ],
+            "on": "toy"
+          }
+        ]
+      },
+      {
+        "text": "And sign number four: the same toilet clogs every few days, which points to a deeper problem that a pro should look at.",
+        "prompt": "A plumber seen from the shoulders down in dark blue work clothes kneeling next to a white toilet, an open red metal toolbox on the tile floor, hands in black work gloves holding an adjustable wrench, no face visible. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-9-6.jpg",
+        "focus": [
+          0.6,
+          0.6
+        ]
+      }
+    ],
+    "step-10": [
+      {
+        "text": "Finally, here is how to never need this video again.",
+        "prompt": "A sparkling clean white toilet with the lid open in a bright modern bathroom, a small green plant on the tank, sunlight, wide inviting shot. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-10-1.jpg",
+        "focus": [
+          0.45,
+          0.6
+        ]
+      },
+      {
+        "text": "Only two things belong in a toilet: toilet paper and human waste.",
+        "prompt": "Close-up of a roll of white toilet paper on a chrome wall holder next to a clean white toilet. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-10-2.jpg",
+        "focus": [
+          0.5,
+          0.55
+        ]
+      },
+      {
+        "text": "Wipes, even the ones sold as flushable, do not break down like paper. Put them in the trash, along with cotton pads, dental floss and paper towels.",
+        "prompt": "A bare hand dropping a white wet wipe into a small white pedal bin with the lid open, standing next to a white toilet; cotton pads and a paper towel visible inside the bin. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-10-3.jpg",
+        "focus": [
+          0.53,
+          0.6
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.53,
+              0.68
+            ],
+            "text": "In the trash",
+            "label": [
+              0.77,
+              0.3
+            ],
+            "on": "trash"
+          }
+        ]
+      },
+      {
+        "text": "When you use a lot of paper, flush twice: once halfway through, and once at the end.",
+        "prompt": "Close-up of a finger pressing the chrome dual flush button on top of a white toilet tank. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-10-4.jpg",
+        "focus": [
+          0.55,
+          0.5
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.59,
+              0.55
+            ],
+            "r": 0.07,
+            "text": "Halfway + at the end",
+            "label": [
+              0.34,
+              0.2
+            ],
+            "on": "halfway"
+          }
+        ]
+      },
+      {
+        "text": "If you have young children, a simple lid lock keeps toys out of the bowl.",
+        "prompt": "A white plastic child safety lock fitted on the closed lid of a white toilet, a few colourful wooden toy blocks on the tile floor beside it. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-10-5.jpg",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.47,
+              0.5
+            ],
+            "r": 0.07,
+            "on": "lock"
+          }
+        ]
+      },
+      {
+        "text": "And keep that flange plunger next to the toilet, so the next clog is a two-minute job.",
+        "prompt": "A black flange plunger with a wooden handle standing in a neat white holder on the floor right next to a clean white toilet, bright bathroom. Photorealistic photograph for a home how-to video. Bright, clean modern bathroom: white ceramic toilet, white wall tiles, light grey floor tiles, soft daylight. Everything spotlessly clean, clear water only. Adult hands, grey sweatshirt sleeves, no face visible. 16:9 landscape format. No text, no letters, no captions, no logos, no watermark.",
+        "file": "step-10-6.jpg",
+        "focus": [
+          0.66,
+          0.6
+        ]
+      }
     ]
   },
   "extras": {
     "step-1": {
-      "cards": [
-        {
-          "shot": 1,
-          "on": "flush",
-          "kind": "avoid",
-          "title": "Avoid",
-          "text": "A second flush sends a full tank into a blocked bowl.",
-          "dur": 4.4
-        }
-      ],
+      "cards": [],
       "gags": [
         {
-          "shot": 1,
-          "on": "do",
+          "shot": 2,
+          "on": "nowhere",
           "pose": "panic",
           "side": "left",
           "dur": 2.6
+        }
+      ],
+      "facts": [
+        {
+          "shot": 2,
+          "on": "gallon",
+          "kind": "measure",
+          "big": "1.6 gal",
+          "small": "or more per flush",
+          "dur": 3.6
         }
       ]
     },
@@ -894,6 +1364,11 @@
           "shot": 1,
           "on": "plunger",
           "label": "Flange plunger"
+        },
+        {
+          "shot": 4,
+          "on": "petroleum",
+          "label": "Petroleum jelly"
         }
       ],
       "facts": [
@@ -909,7 +1384,7 @@
       "cards": [],
       "gags": [
         {
-          "shot": 5,
+          "shot": 6,
           "on": "blast",
           "pose": "wet",
           "side": "right",
@@ -928,7 +1403,7 @@
           "dur": 4.0
         },
         {
-          "shot": 5,
+          "shot": 6,
           "on": "two",
           "kind": "measure",
           "big": "×2–3",
@@ -936,7 +1411,16 @@
           "dur": 3.6
         }
       ],
-      "cards": [],
+      "cards": [
+        {
+          "shot": 3,
+          "on": "under",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "A plunger moves water. Air just gets squeezed.",
+          "dur": 4.4
+        }
+      ],
       "diagrams": [
         {
           "shot": 2,
@@ -949,7 +1433,7 @@
       ],
       "gags": [
         {
-          "shot": 4,
+          "shot": 5,
           "on": "moved",
           "pose": "party",
           "side": "left",
@@ -966,6 +1450,11 @@
         },
         {
           "shot": 2,
+          "on": "shampoo",
+          "label": "Shampoo works too"
+        },
+        {
+          "shot": 3,
           "on": "bucket",
           "label": "Bucket of hot water"
         }
@@ -980,7 +1469,7 @@
           "dur": 3.0
         },
         {
-          "shot": 4,
+          "shot": 5,
           "on": "fifteen",
           "kind": "timer",
           "big": "15–20 min",
@@ -990,7 +1479,7 @@
       ],
       "cards": [
         {
-          "shot": 2,
+          "shot": 3,
           "on": "boiling",
           "kind": "avoid",
           "title": "Avoid",
@@ -998,17 +1487,25 @@
           "dur": 4.2
         },
         {
-          "shot": 3,
+          "shot": 4,
           "on": "weight",
           "kind": "why",
           "title": "Why it works",
           "text": "Falling water adds pressure on the clog.",
           "dur": 4.0
+        },
+        {
+          "shot": 6,
+          "on": "dropped",
+          "kind": "why",
+          "title": "Good sign",
+          "text": "Water is already getting past the clog.",
+          "dur": 4.2
         }
       ],
       "gags": [
         {
-          "shot": 4,
+          "shot": 5,
           "on": "wait",
           "pose": "watch",
           "side": "left",
@@ -1026,7 +1523,7 @@
       ],
       "cards": [
         {
-          "shot": 4,
+          "shot": 5,
           "on": "gently",
           "kind": "avoid",
           "title": "Avoid",
@@ -1036,24 +1533,171 @@
       ],
       "diagrams": [
         {
-          "shot": 3,
+          "shot": 4,
           "on": "feed",
           "name": "toilet-trap",
           "mode": "auger",
           "title": "The cable reaches the clog",
           "dur": 6.0
         }
+      ],
+      "facts": [
+        {
+          "shot": 3,
+          "on": "three",
+          "kind": "measure",
+          "big": "3 ft",
+          "small": "of cable",
+          "dur": 3.6
+        }
       ]
     },
     "step-7": {
       "facts": [
         {
-          "shot": 3,
-          "on": "once",
+          "shot": 5,
+          "on": "three",
           "kind": "measure",
-          "big": "1 flush",
-          "small": "to test",
-          "dur": 3.2
+          "big": "3–4 sheets",
+          "small": "final test",
+          "dur": 3.6
+        }
+      ],
+      "gags": [
+        {
+          "shot": 4,
+          "on": "rises",
+          "pose": "panic",
+          "side": "left",
+          "dur": 2.6
+        }
+      ]
+    },
+    "step-8": {
+      "facts": [
+        {
+          "shot": 2,
+          "on": "overnight",
+          "kind": "timer",
+          "big": "Overnight",
+          "small": "let it soak",
+          "dur": 4.0
+        }
+      ],
+      "gags": [
+        {
+          "shot": 2,
+          "on": "time",
+          "pose": "watch",
+          "side": "left",
+          "dur": 3.0
+        },
+        {
+          "shot": 5,
+          "on": "fizz",
+          "pose": "no",
+          "side": "right",
+          "dur": 3.0
+        }
+      ],
+      "cards": [
+        {
+          "shot": 3,
+          "on": "never",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "A household vacuum is not built for water.",
+          "dur": 4.4
+        },
+        {
+          "shot": 4,
+          "on": "suction",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "The towel seals the drain, so the vacuum pulls on the clog.",
+          "dur": 4.6
+        }
+      ]
+    },
+    "step-9": {
+      "diagrams": [
+        {
+          "shot": 2,
+          "on": "water",
+          "name": "house-drain",
+          "mode": "backup",
+          "title": "One pipe for the whole house",
+          "dur": 9.5
+        }
+      ],
+      "cards": [
+        {
+          "shot": 4,
+          "on": "main",
+          "kind": "why",
+          "title": "Why",
+          "text": "Every drain joins one main pipe. Block it, and they all back up.",
+          "dur": 5.0
+        }
+      ],
+      "gags": [
+        {
+          "shot": 5,
+          "on": "phone",
+          "pose": "panic",
+          "side": "left",
+          "dur": 2.8
+        }
+      ]
+    },
+    "step-10": {
+      "gags": [
+        {
+          "shot": 1,
+          "on": "never",
+          "pose": "thumbs",
+          "side": "right",
+          "dur": 2.8
+        }
+      ],
+      "facts": [
+        {
+          "shot": 2,
+          "on": "two",
+          "kind": "measure",
+          "big": "2 things",
+          "small": "nothing else",
+          "dur": 3.6
+        },
+        {
+          "shot": 4,
+          "on": "twice",
+          "kind": "measure",
+          "big": "×2",
+          "small": "flushes",
+          "dur": 3.4
+        }
+      ],
+      "cards": [
+        {
+          "shot": 3,
+          "on": "flushable",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "\"Flushable\" wipes stay whole in the pipes.",
+          "dur": 4.6
+        }
+      ],
+      "ticks": [
+        {
+          "shot": 5,
+          "on": "lock",
+          "label": "Lid lock"
+        },
+        {
+          "shot": 6,
+          "on": "plunger",
+          "label": "Plunger close by"
         }
       ]
     },

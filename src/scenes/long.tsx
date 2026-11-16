@@ -2,7 +2,7 @@ import React from "react";
 import { AbsoluteFill, Audio, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig, Easing } from "remotion";
 import { C, FONT } from "../theme";
 import { Frame, Logo, LogoCorner, Pop, SlideUp, ProgressBar, StepBadge, KenBurns, TipPill } from "../components/ui";
-import type { HookScene, YouNeedScene, StepScene, MistakesScene, RecapScene, PrerollScene, OutroScene } from "../types";
+import type { HookScene, StepScene, PrerollScene, OutroScene } from "../types";
 import { Mascot, WMark, FactChip, InfoCard, TickNote, CueSfx, Tape, HAND, TipBubble, useCardActive } from "../components/brand";
 import { WikiGag, DiagramPanel, DiagramView, useCue } from "../components/stage";
 import { MultiShot, KeywordBurst, KeywordSfx, useIllustrationActive } from "../components/motion";
@@ -190,59 +190,6 @@ export const Hook: React.FC<{ scene: HookScene; durationInFrames: number }> = ({
   );
 };
 
-// ---------- Il vous faut ----------
-export const YouNeed: React.FC<{ scene: YouNeedScene }> = ({ scene }) => {
-  const n = scene.items.length;
-  const w = n <= 3 ? 420 : n === 4 ? 380 : 320;
-  return (
-    <Frame>
-      <LogoCorner />
-      <AbsoluteFill style={{ alignItems: "center", justifyContent: "center" }}>
-        <SlideUp style={{ fontSize: 64, fontWeight: 900, marginBottom: 54 }}>You'll need</SlideUp>
-        <div style={{ display: "flex", gap: 44, flexWrap: "wrap", justifyContent: "center", maxWidth: 1760 }}>
-          {scene.items.map((it, i) => (
-            <Pop key={it} delay={8 + i * 8}>
-              <div
-                style={{
-                  width: w,
-                  height: w * 0.86,
-                  background: C.white,
-                  borderRadius: 36,
-                  boxShadow: "0 20px 50px rgba(27,42,65,0.12)",
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  gap: 26,
-                  padding: 24,
-                }}
-              >
-                <div
-                  style={{
-                    width: 110,
-                    height: 110,
-                    borderRadius: 32,
-                    background: [C.teal, C.sun, C.coral, C.ink, C.teal, C.sun][i % 6],
-                    color: C.white,
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    fontSize: 56,
-                    fontWeight: 900,
-                  }}
-                >
-                  {i + 1}
-                </div>
-                <div style={{ fontSize: 36, fontWeight: 800, textAlign: "center", lineHeight: 1.2 }}>{it}</div>
-              </div>
-            </Pop>
-          ))}
-        </div>
-      </AbsoluteFill>
-    </Frame>
-  );
-};
-
 // ---------- Étape : 3 variantes de mise en page ----------
 export const Step: React.FC<{ scene: StepScene; durationInFrames: number }> = ({ scene, durationInFrames }) => {
   if (isRich(scene)) return <StepStage scene={scene} durationInFrames={durationInFrames} />;
@@ -267,10 +214,38 @@ const StepHeader: React.FC<{ scene: StepScene; onDark?: boolean }> = ({ scene, o
         fontFamily: FONT,
       }}
     >
-      STEP {scene.index}/{scene.total}
+      {scene.bonus ? scene.bonus : `STEP ${scene.index}/${scene.total}`}
     </div>
   </>
 );
+
+/** Pastille des sections bonus (dépannage, appeler un pro, prévention) : un pictogramme au feutre à la place du numéro. */
+const BonusBadge: React.FC<{ label: string; size?: number }> = ({ label, size = 130 }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const sp = spring({ frame, fps, config: { damping: 10, stiffness: 200 } });
+  const l = label.toLowerCase();
+  const kind = l.includes("pro") || l.includes("call") ? "phone" : l.includes("prevent") ? "shield" : "question";
+  return (
+    <div style={{ width: size, height: size, borderRadius: size * 0.25, background: C.sun, border: `6px solid ${C.ink}`, boxSizing: "border-box", display: "inline-flex", alignItems: "center", justifyContent: "center", transform: `scale(${sp}) rotate(${(1 - sp) * -20 - 3}deg)`, boxShadow: "8px 8px 0 rgba(27,42,65,0.55)", flexShrink: 0 }}>
+      <svg width={size * 0.62} height={size * 0.62} viewBox="0 0 64 64" fill="none" stroke={C.ink} strokeWidth={7} strokeLinecap="round" strokeLinejoin="round">
+        {kind === "question" && (
+          <>
+            <path d="M20 22 C20 6 46 8 44 24 C43 33 32 33 32 43" />
+            <circle cx={32} cy={55} r={2.5} fill={C.ink} />
+          </>
+        )}
+        {kind === "phone" && <path d="M14 8 L24 8 L28 22 L21 27 C25 36 30 41 38 44 L43 37 L57 41 L57 51 C57 55 53 58 49 57 C27 54 11 38 8 16 C7 12 10 8 14 8 Z" />}
+        {kind === "shield" && (
+          <>
+            <path d="M32 6 L54 14 L54 30 C54 44 45 54 32 59 C19 54 10 44 10 30 L10 14 Z" />
+            <path d="M22 31 L30 39 L43 24" />
+          </>
+        )}
+      </svg>
+    </div>
+  );
+};
 
 /** Étape « plein écran » : la photo occupe tout l'écran, tout le reste vient se poser dessus. */
 const StepStage: React.FC<{ scene: StepScene; durationInFrames: number }> = ({ scene, durationInFrames }) => {
@@ -282,7 +257,8 @@ const StepStage: React.FC<{ scene: StepScene; durationInFrames: number }> = ({ s
   // Le titre s'affiche en grand, puis se range en bandeau compact pour rendre l'image.
   const shrink = interpolate(frame, [70, 92], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.inOut(Easing.cubic) });
   const tipFrom = Math.round(durationInFrames * 0.5);
-  const tipOn = !cardOn && !diagramOn && !gagOn && frame >= tipFrom && frame < durationInFrames - 20;
+  // La bulle d'astuce reste 9 s au plus : la fin de la scène revient à l'image seule.
+  const tipOn = !cardOn && !diagramOn && !gagOn && frame >= tipFrom && frame < Math.min(durationInFrames - 20, tipFrom + 9 * fps);
   const accent = [C.coral, C.teal, C.sun][scene.index % 3];
   return (
     <Frame bg={C.ink} dots={false}>
@@ -319,7 +295,7 @@ const StepStage: React.FC<{ scene: StepScene; durationInFrames: number }> = ({ s
       )}
       <StepCues scene={scene} />
       <div style={{ position: "absolute", left: 80, bottom: 56, display: "flex", alignItems: "center", gap: 30, transformOrigin: "0% 100%", transform: `scale(${1 - shrink * 0.42})` }}>
-        <StepBadge n={scene.index} size={130} color={accent === C.sun ? C.coral : accent} />
+        {scene.bonus ? <BonusBadge label={scene.bonus} size={130} /> : <StepBadge n={scene.index} size={130} color={accent === C.sun ? C.coral : accent} />}
         <SlideUp delay={6} style={{ fontSize: fitTitle(scene.title, 78), fontWeight: 900, lineHeight: 1.04, color: C.white, textShadow: "0 4px 24px rgba(0,0,0,0.45)", maxWidth: 1000 }}>
           {scene.title}
         </SlideUp>
@@ -504,105 +480,6 @@ const StepCard: React.FC<{ scene: StepScene; durationInFrames: number }> = ({ sc
           <InfoCard cards={scene.cards} />
         </div>
       )}
-    </Frame>
-  );
-};
-
-// ---------- Erreurs à éviter ----------
-export const Mistakes: React.FC<{ scene: MistakesScene }> = ({ scene }) => {
-  const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
-  const perItem = (scene.duration * fps * 0.75) / Math.max(1, scene.items.length);
-  return (
-    <Frame bg={C.blush}>
-      <LogoCorner />
-      <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", padding: "0 140px" }}>
-        <SlideUp style={{ fontSize: 34, fontWeight: 800, color: C.coral, letterSpacing: 5 }}>MISTAKES TO AVOID</SlideUp>
-        <div style={{ display: "flex", flexDirection: "column", gap: 28, marginTop: 44, width: "100%", maxWidth: 1400 }}>
-          {scene.items.map((it, i) => {
-            const delay = 10 + i * perItem;
-            const s = spring({ frame: frame - delay, fps, config: { damping: 14, stiffness: 140 } });
-            return (
-              <div
-                key={it}
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  gap: 36,
-                  background: C.white,
-                  borderRadius: 32,
-                  padding: "30px 44px",
-                  boxShadow: "0 18px 44px rgba(27,42,65,0.10)",
-                  transform: `translateX(${(1 - s) * -80}px)`,
-                  opacity: s,
-                }}
-              >
-                <div style={{ width: 84, height: 84, borderRadius: 24, background: C.coral, color: C.white, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 54, fontWeight: 900, flexShrink: 0 }}>
-                  ✕
-                </div>
-                <div style={{ fontSize: 50, fontWeight: 800, lineHeight: 1.15 }}>{it}</div>
-              </div>
-            );
-          })}
-        </div>
-      </AbsoluteFill>
-    </Frame>
-  );
-};
-
-// ---------- Récap : liste à cocher animée ----------
-export const Recap: React.FC<{ scene: RecapScene }> = ({ scene }) => {
-  const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
-  const n = scene.items.length;
-  const perItem = (scene.duration * fps * 0.8) / Math.max(1, n);
-  const two = n > 5;
-  const cols = two ? [scene.items.slice(0, Math.ceil(n / 2)), scene.items.slice(Math.ceil(n / 2))] : [scene.items];
-  return (
-    <Frame>
-      <LogoCorner />
-      <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", padding: "0 120px" }}>
-        <SlideUp style={{ fontSize: 60, fontWeight: 900, marginBottom: 40 }}>Recap</SlideUp>
-        <div style={{ display: "flex", gap: 60, width: "100%", justifyContent: "center" }}>
-          {cols.map((col, ci) => (
-            <div key={ci} style={{ display: "flex", flexDirection: "column", gap: 22, flex: 1, maxWidth: 820 }}>
-              {col.map((it, i) => {
-                const idx = ci === 0 ? i : cols[0].length + i;
-                const delay = 12 + idx * perItem;
-                const s = spring({ frame: frame - delay, fps, config: { damping: 12, stiffness: 180 } });
-                const checked = frame >= delay + 4;
-                return (
-                  <div key={it} style={{ display: "flex", alignItems: "center", gap: 26, background: C.white, borderRadius: 26, padding: "20px 30px", boxShadow: "0 14px 36px rgba(27,42,65,0.08)" }}>
-                    <div
-                      style={{
-                        width: 64,
-                        height: 64,
-                        borderRadius: 18,
-                        border: `4px solid ${checked ? C.teal : "rgba(27,42,65,0.2)"}`,
-                        background: checked ? C.teal : "transparent",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        color: C.white,
-                        fontSize: 40,
-                        fontWeight: 900,
-                        transform: `scale(${checked ? 0.8 + 0.2 * Math.min(1, s) : 1})`,
-                        flexShrink: 0,
-                      }}
-                    >
-                      {checked ? "✓" : ""}
-                    </div>
-                    <div style={{ fontSize: 40, fontWeight: 800, color: checked ? C.ink : C.muted }}>
-                      <span style={{ color: C.coral, marginRight: 14 }}>{idx + 1}.</span>
-                      {it}
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          ))}
-        </div>
-      </AbsoluteFill>
     </Frame>
   );
 };

@@ -79,7 +79,7 @@
           "narration": {
             "type": "string",
             "minLength": 1,
-            "description": "Voix off de l'étape, 2 à 4 phrases."
+            "description": "Voix off de l'étape, 4 à 7 phrases."
           },
           "tip": {
             "type": "string",
@@ -120,6 +120,61 @@
           "narration",
           "tip",
           "mistake",
+          "imageQuery",
+          "imagePrompt"
+        ]
+      }
+    },
+    "bonus": {
+      "maxItems": 4,
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 24,
+            "description": "Étiquette en capitales (STILL STUCK?, CALL A PRO…)."
+          },
+          "title": {
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 60
+          },
+          "narration": {
+            "type": "string",
+            "minLength": 1
+          },
+          "tip": {
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 70
+          },
+          "imageQuery": {
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 100
+          },
+          "imagePrompt": {
+            "type": "string",
+            "minLength": 10,
+            "maxLength": 600
+          },
+          "media": {
+            "default": "photo",
+            "type": "string",
+            "enum": [
+              "photo",
+              "video"
+            ]
+          }
+        },
+        "required": [
+          "label",
+          "title",
+          "narration",
+          "tip",
           "imageQuery",
           "imagePrompt"
         ]

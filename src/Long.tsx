@@ -2,7 +2,8 @@ import React from "react";
 import { AbsoluteFill, Audio, Sequence, interpolate, staticFile, useVideoConfig } from "remotion";
 import { C } from "./theme";
 import type { LongProps, Scene } from "./types";
-import { PreRoll, Hook, YouNeed, Step, Mistakes, Recap, Outro } from "./scenes/long";
+import { PreRoll, Hook, Step, Outro } from "./scenes/long";
+import { YouNeed, Mistakes, Recap } from "./scenes/lists";
 import { Subtitles, SceneAudio } from "./components/Subtitles";
 import { SceneWipe } from "./components/motion";
 
@@ -15,11 +16,11 @@ const SceneView: React.FC<{ scene: Scene; durationInFrames: number }> = ({ scene
     case "hook":
       return <Hook scene={scene} durationInFrames={durationInFrames} />;
     case "youneed":
-      return <YouNeed scene={scene} />;
+      return <YouNeed scene={scene} durationInFrames={durationInFrames} />;
     case "step":
       return <Step scene={scene} durationInFrames={durationInFrames} />;
     case "mistakes":
-      return <Mistakes scene={scene} />;
+      return <Mistakes scene={scene} durationInFrames={durationInFrames} />;
     case "recap":
       return <Recap scene={scene} />;
     case "outro":

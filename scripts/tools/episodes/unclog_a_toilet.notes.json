@@ -709,27 +709,374 @@
      "on": "disinfect"
     }
    ]
+  },
+  "1-a": {
+   "focus": [
+    0.42,
+    0.6
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.36,
+      0.62
+     ],
+     "text": "Straight onto the floor",
+     "label": [
+      0.3,
+      0.16
+     ],
+     "on": "full"
+    }
+   ]
+  },
+  "3-b": {
+   "focus": [
+    0.45,
+    0.75
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.5,
+      0.78
+     ],
+     "text": "A thin layer on the rim",
+     "label": [
+      0.7,
+      0.42
+     ],
+     "on": "smear"
+    }
+   ]
+  },
+  "4-a": {
+   "focus": [
+    0.5,
+    0.7
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.47,
+      0.86
+     ],
+     "text": "Keep the cup covered",
+     "label": [
+      0.26,
+      0.3
+     ],
+     "on": "stay"
+    }
+   ]
+  },
+  "5-a": {
+   "focus": [
+    0.5,
+    0.55
+   ]
+  },
+  "5-b": {
+   "focus": [
+    0.5,
+    0.55
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.47,
+      0.4
+     ],
+     "text": "The old water line",
+     "label": [
+      0.7,
+      0.2
+     ],
+     "on": "level"
+    }
+   ]
+  },
+  "6-a": {
+   "focus": [
+    0.48,
+    0.6
+   ]
+  },
+  "7-a": {
+   "focus": [
+    0.62,
+    0.6
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.63,
+      0.6
+     ],
+     "text": "Flapper down, water stops",
+     "label": [
+      0.32,
+      0.24
+     ],
+     "on": "close"
+    }
+   ]
+  },
+  "7-b": {
+   "focus": [
+    0.5,
+    0.6
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.47,
+      0.62
+     ],
+     "r": 0.13,
+     "text": "Gone = all clear",
+     "label": [
+      0.32,
+      0.17
+     ],
+     "on": "vanish"
+    }
+   ]
+  },
+  "8-1": {
+   "focus": [
+    0.5,
+    0.5
+   ]
+  },
+  "8-2": {
+   "focus": [
+    0.5,
+    0.6
+   ]
+  },
+  "8-3": {
+   "focus": [
+    0.68,
+    0.75
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.68,
+      0.77
+     ],
+     "r": 0.13,
+     "text": "Wet/dry shop vac only",
+     "label": [
+      0.3,
+      0.3
+     ],
+     "on": "wet"
+    }
+   ]
+  },
+  "8-4": {
+   "focus": [
+    0.52,
+    0.8
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.5,
+      0.86
+     ],
+     "text": "Towel = airtight seal",
+     "label": [
+      0.25,
+      0.3
+     ],
+     "on": "wrap"
+    }
+   ]
+  },
+  "8-5": {
+   "focus": [
+    0.75,
+    0.8
+   ]
+  },
+  "9-1": {
+   "focus": [
+    0.4,
+    0.5
+   ]
+  },
+  "9-2": {
+   "focus": [
+    0.5,
+    0.55
+   ]
+  },
+  "9-3": {
+   "focus": [
+    0.55,
+    0.5
+   ]
+  },
+  "9-4": {
+   "focus": [
+    0.3,
+    0.6
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.34,
+      0.62
+     ],
+     "r": 0.1,
+     "text": "Main line cleanout",
+     "label": [
+      0.32,
+      0.2
+     ],
+     "on": "main"
+    }
+   ]
+  },
+  "9-5": {
+   "focus": [
+    0.48,
+    0.5
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.47,
+      0.5
+     ],
+     "r": 0.1,
+     "text": "Not flushable!",
+     "label": [
+      0.72,
+      0.2
+     ],
+     "on": "toy"
+    }
+   ]
+  },
+  "9-6": {
+   "focus": [
+    0.6,
+    0.6
+   ]
+  },
+  "10-1": {
+   "focus": [
+    0.45,
+    0.6
+   ]
+  },
+  "10-2": {
+   "focus": [
+    0.5,
+    0.55
+   ]
+  },
+  "10-3": {
+   "focus": [
+    0.53,
+    0.6
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.53,
+      0.68
+     ],
+     "text": "In the trash",
+     "label": [
+      0.77,
+      0.3
+     ],
+     "on": "trash"
+    }
+   ]
+  },
+  "10-4": {
+   "focus": [
+    0.55,
+    0.5
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.59,
+      0.55
+     ],
+     "r": 0.07,
+     "text": "Halfway + at the end",
+     "label": [
+      0.34,
+      0.2
+     ],
+     "on": "halfway"
+    }
+   ]
+  },
+  "10-5": {
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.47,
+      0.5
+     ],
+     "r": 0.07,
+     "on": "lock"
+    }
+   ]
+  },
+  "10-6": {
+   "focus": [
+    0.66,
+    0.6
+   ]
   }
  },
  "extras": {
   "step-1": {
-   "cards": [
-    {
-     "shot": 1,
-     "on": "flush",
-     "kind": "avoid",
-     "title": "Avoid",
-     "text": "A second flush sends a full tank into a blocked bowl.",
-     "dur": 4.4
-    }
-   ],
+   "cards": [],
    "gags": [
     {
-     "shot": 1,
-     "on": "do",
+     "shot": "a",
+     "on": "nowhere",
      "pose": "panic",
      "side": "left",
      "dur": 2.6
+    }
+   ],
+   "facts": [
+    {
+     "shot": "a",
+     "on": "gallon",
+     "kind": "measure",
+     "big": "1.6 gal",
+     "small": "or more per flush",
+     "dur": 3.6
     }
    ]
   },
@@ -773,6 +1120,11 @@
      "shot": 1,
      "on": "plunger",
      "label": "Flange plunger"
+    },
+    {
+     "shot": "b",
+     "on": "petroleum",
+     "label": "Petroleum jelly"
     }
    ],
    "facts": [
@@ -815,7 +1167,16 @@
      "dur": 3.6
     }
    ],
-   "cards": [],
+   "cards": [
+    {
+     "shot": "a",
+     "on": "under",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "A plunger moves water. Air just gets squeezed.",
+     "dur": 4.4
+    }
+   ],
    "diagrams": [
     {
      "shot": 2,
@@ -842,6 +1203,11 @@
      "shot": 1,
      "on": "soap",
      "label": "Dish soap"
+    },
+    {
+     "shot": "a",
+     "on": "shampoo",
+     "label": "Shampoo works too"
     },
     {
      "shot": 2,
@@ -883,6 +1249,14 @@
      "title": "Why it works",
      "text": "Falling water adds pressure on the clog.",
      "dur": 4.0
+    },
+    {
+     "shot": "b",
+     "on": "dropped",
+     "kind": "why",
+     "title": "Good sign",
+     "text": "Water is already getting past the clog.",
+     "dur": 4.2
     }
    ],
    "gags": [
@@ -922,17 +1296,36 @@
      "title": "The cable reaches the clog",
      "dur": 6.0
     }
+   ],
+   "facts": [
+    {
+     "shot": "a",
+     "on": "three",
+     "kind": "measure",
+     "big": "3 ft",
+     "small": "of cable",
+     "dur": 3.6
+    }
    ]
   },
   "step-7": {
    "facts": [
     {
-     "shot": 3,
-     "on": "once",
+     "shot": "b",
+     "on": "three",
      "kind": "measure",
-     "big": "1 flush",
-     "small": "to test",
-     "dur": 3.2
+     "big": "3–4 sheets",
+     "small": "final test",
+     "dur": 3.6
+    }
+   ],
+   "gags": [
+    {
+     "shot": "a",
+     "on": "rises",
+     "pose": "panic",
+     "side": "left",
+     "dur": 2.6
     }
    ]
   },
@@ -962,6 +1355,134 @@
      "on": "never",
      "pose": "nose",
      "dur": 3.4
+    }
+   ]
+  },
+  "step-8": {
+   "facts": [
+    {
+     "shot": 2,
+     "on": "overnight",
+     "kind": "timer",
+     "big": "Overnight",
+     "small": "let it soak",
+     "dur": 4.0
+    }
+   ],
+   "gags": [
+    {
+     "shot": 2,
+     "on": "time",
+     "pose": "watch",
+     "side": "left",
+     "dur": 3.0
+    },
+    {
+     "shot": 5,
+     "on": "fizz",
+     "pose": "no",
+     "side": "right",
+     "dur": 3.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 3,
+     "on": "never",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "A household vacuum is not built for water.",
+     "dur": 4.4
+    },
+    {
+     "shot": 4,
+     "on": "suction",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "The towel seals the drain, so the vacuum pulls on the clog.",
+     "dur": 4.6
+    }
+   ]
+  },
+  "step-9": {
+   "diagrams": [
+    {
+     "shot": 2,
+     "on": "water",
+     "name": "house-drain",
+     "mode": "backup",
+     "title": "One pipe for the whole house",
+     "dur": 9.5
+    }
+   ],
+   "cards": [
+    {
+     "shot": 4,
+     "on": "main",
+     "kind": "why",
+     "title": "Why",
+     "text": "Every drain joins one main pipe. Block it, and they all back up.",
+     "dur": 5.0
+    }
+   ],
+   "gags": [
+    {
+     "shot": 5,
+     "on": "phone",
+     "pose": "panic",
+     "side": "left",
+     "dur": 2.8
+    }
+   ]
+  },
+  "step-10": {
+   "gags": [
+    {
+     "shot": 1,
+     "on": "never",
+     "pose": "thumbs",
+     "side": "right",
+     "dur": 2.8
+    }
+   ],
+   "facts": [
+    {
+     "shot": 2,
+     "on": "two",
+     "kind": "measure",
+     "big": "2 things",
+     "small": "nothing else",
+     "dur": 3.6
+    },
+    {
+     "shot": 4,
+     "on": "twice",
+     "kind": "measure",
+     "big": "×2",
+     "small": "flushes",
+     "dur": 3.4
+    }
+   ],
+   "cards": [
+    {
+     "shot": 3,
+     "on": "flushable",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "\"Flushable\" wipes stay whole in the pipes.",
+     "dur": 4.6
+    }
+   ],
+   "ticks": [
+    {
+     "shot": 5,
+     "on": "lock",
+     "label": "Lid lock"
+    },
+    {
+     "shot": 6,
+     "on": "plunger",
+     "label": "Plunger close by"
     }
    ]
   }

@@ -62,13 +62,14 @@ export type HookScene = SceneBase & {
   diagram?: string | null;
   chips?: Chip[];
   gags?: Gag[]; type: "hook"; title: string; category: string; stepCount: number; image?: ImageRef };
-export type YouNeedScene = SceneBase & { type: "youneed"; items: string[] };
+export type YouNeedScene = SceneBase & { type: "youneed"; items: string[]; image?: ImageRef | null; cues?: number[] };
 export type StepScene = SceneBase & {
   type: "step";
   index: number;
   total: number;
   title: string;
   tip: string;
+  bonus?: string | null; // section hors numérotation : étiquette affichée à la place de « STEP n »
   image?: ImageRef;
   images?: ImageRef[];
   icon?: string;
@@ -81,8 +82,8 @@ export type StepScene = SceneBase & {
   gags?: Gag[];
   diagrams?: Diagram[];
 };
-export type MistakesScene = SceneBase & { type: "mistakes"; items: string[] };
-export type RecapScene = SceneBase & { type: "recap"; items: string[] };
+export type MistakesScene = SceneBase & { type: "mistakes"; items: string[]; images?: ImageRef[]; cues?: number[] };
+export type RecapScene = SceneBase & { type: "recap"; items: string[]; images?: (ImageRef | null)[]; cues?: number[] };
 export type OutroScene = SceneBase & { type: "outro"; baseline?: string | null };
 export type ShortHookScene = SceneBase & { type: "short-hook"; title: string; image?: ImageRef };
 export type ShortStepScene = SceneBase & { type: "short-step"; index: number; total: number; title: string; image?: ImageRef };

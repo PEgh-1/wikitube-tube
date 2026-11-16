@@ -20,12 +20,23 @@ const Localization = z.object({
 
 export const StepSchema = z.object({
   title: z.string().trim().min(3).max(60).describe("Titre court affiché à l'écran (≤ 60 caractères)."),
-  narration: Narration(35, 120).describe("Voix off de l'étape, 2 à 4 phrases."),
+  narration: Narration(35, 190).describe("Voix off de l'étape, 4 à 7 phrases."),
   tip: z.string().trim().min(3).max(70).describe("Astuce courte affichée dans la carte."),
   mistake: z.string().trim().min(3).max(90).describe("Erreur fréquente liée à l'étape."),
   imageQuery: z.string().trim().min(3).max(100).describe("Requête de recherche d'images stock (Pixabay/Pexels, photo paysage)."),
   imagePrompt: z.string().trim().min(10).max(600).describe("Prompt pour une future API d'image (Gemini…)."),
   media: z.enum(["photo", "video"]).default("photo").describe("Type de média stock à chercher (photo ou vidéo)."),
+});
+
+/** Section « bonus » après les étapes (dépannage, quand appeler un pro, prévention) : même rendu qu'une étape, sans numéro. */
+export const BonusSchema = z.object({
+  label: z.string().trim().min(3).max(24).describe("Étiquette en capitales (STILL STUCK?, CALL A PRO…)."),
+  title: z.string().trim().min(3).max(60),
+  narration: Narration(35, 190),
+  tip: z.string().trim().min(3).max(70),
+  imageQuery: z.string().trim().min(3).max(100),
+  imagePrompt: z.string().trim().min(10).max(600),
+  media: z.enum(["photo", "video"]).default("photo"),
 });
 
 export const ShortStepSchema = z.object({
@@ -48,6 +59,7 @@ export const EpisodeSchema = z
     heroImageQuery: z.string().trim().min(3).max(100),
     heroImagePrompt: z.string().trim().min(10).max(600),
     steps: z.array(StepSchema).min(6).max(8),
+    bonus: z.array(BonusSchema).max(4).optional(),
     mistakesToAvoid: z.object({
       narration: Narration(25, 120),
       items: z.array(z.string().trim().min(3).max(70)).min(2).max(4),
@@ -87,8 +99,8 @@ export const EpisodeSchema = z
       ctx.addIssue({ code: "custom", path: ["short"], message: `Short trop long : ${shortWords} mots (max 130 ≈ 50 s)` });
     }
     const longWords = totalLongWords(ep);
-    if (longWords < 700 || longWords > 1500) {
-      ctx.addIssue({ code: "custom", path: ["steps"], message: `Narration totale ${longWords} mots : viser 700–1500 (≈ 5–10 min)` });
+    if (longWords < 700 || longWords > 1800) {
+      ctx.addIssue({ code: "custom", path: ["steps"], message: `Narration totale ${longWords} mots : viser 700–1800 (≈ 5–12 min)` });
     }
   });
 
@@ -97,11 +109,16 @@ export function totalLongWords(ep) {
     wordCount(ep.hook) +
     wordCount(ep.intro) +
     wordCount(ep.youNeedNarration ?? "") +
-    ep.steps.reduce((a, s) => a + wordCount(s.narration), 0) +
+    allSections(ep).reduce((a, s) => a + wordCount(s.narration), 0) +
     wordCount(ep.mistakesToAvoid.narration) +
     wordCount(ep.recap.narration) +
     wordCount(ep.outro)
   );
+}
+
+/** Étapes numérotées puis sections bonus : tout ce qui est narré et illustré phrase par phrase (clés step-1…n). */
+export function allSections(ep) {
+  return [...ep.steps, ...(ep.bonus ?? []).map((b) => ({ ...b, bonus: true }))];
 }
 
 export function validateEpisode(raw) {
@@ -124,7 +141,7 @@ export function longSegments(ep, brand = null) {
     { id: "hook", text: ep.hook },
     { id: "intro", text: ep.intro },
     { id: "youneed", text: ep.youNeedNarration ?? `You'll need ${joinList(ep.youNeed)}.` },
-    ...ep.steps.map((s, i) => ({ id: `step-${i + 1}`, text: s.narration })),
+    ...allSections(ep).map((s, i) => ({ id: `step-${i + 1}`, text: s.narration })),
     { id: "mistakes", text: ep.mistakesToAvoid.narration },
     { id: "recap", text: ep.recap.narration },
     { id: "outro", text: ep.outro },

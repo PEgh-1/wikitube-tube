@@ -2,6 +2,7 @@
 // durées audio. Consommée par render.mjs (inputProps Remotion), build-srt.mjs et les chapitres.
 import { FPS, fmtTime } from "./common.mjs";
 import { pickKeywords, stepIcon } from "./motion.mjs";
+import { allSections } from "./episode.mjs";
 
 export const PREROLL_SEC = 3;
 export const OPEN_VOICE_AT = 0.55; // la voix démarre sur la fin du jingle
@@ -72,8 +73,9 @@ export function buildLongTimeline(ep, tts, images, { fps = FPS, brand = null } =
     }
     push(hookScene, ["hook", "intro"]);
   }
-  push({ type: "youneed", items: ep.youNeed }, ["youneed"]);
-  ep.steps.forEach((s, i) => {
+  push({ type: "youneed", items: ep.youNeed, image: images.youneed ?? images.hero }, ["youneed"]);
+  listCues(scenes[scenes.length - 1], ep.youNeed);
+  allSections(ep).forEach((s, i) => {
     push(
       {
         type: "step",
@@ -81,6 +83,7 @@ export function buildLongTimeline(ep, tts, images, { fps = FPS, brand = null } =
         total: ep.steps.length,
         title: s.title,
         tip: s.tip,
+        bonus: s.bonus ? s.label : null,
         image: images.steps[i],
         images: (images.stepShots?.[i] ?? [images.steps[i]]).filter(Boolean),
         icon: stepIcon(s),
@@ -101,8 +104,10 @@ export function buildLongTimeline(ep, tts, images, { fps = FPS, brand = null } =
     }
     resolveExtras(sc, sg, images.stepExtras?.[i]);
   });
-  push({ type: "mistakes", items: ep.mistakesToAvoid.items }, ["mistakes"]);
-  push({ type: "recap", items: ep.recap.items ?? ep.steps.map((s) => s.title) }, ["recap"]);
+  push({ type: "mistakes", items: ep.mistakesToAvoid.items, images: (images.mistakes ?? []).length === ep.mistakesToAvoid.items.length ? images.mistakes : [] }, ["mistakes"]);
+  listCues(scenes[scenes.length - 1], ep.mistakesToAvoid.items);
+  push({ type: "recap", items: ep.recap.items ?? ep.steps.map((s) => s.title), images: ep.steps.map((_, i) => images.steps[i] ?? null) }, ["recap"]);
+  listCues(scenes[scenes.length - 1], ep.recap.items ?? ep.steps.map((s) => s.title));
   push({ type: "outro", baseline: brand?.baseline ?? null }, tts.segments["brand-close"] ? ["outro", "brand-close"] : ["outro"], OUTRO_TAIL_SEC);
 
   const totalSec = t;
@@ -116,6 +121,36 @@ export function buildLongTimeline(ep, tts, images, { fps = FPS, brand = null } =
     scenes,
     chapters: chaptersFrom(scenes, ep),
   };
+}
+
+const STOP = new Set("the and for with from into your you that this then".split(" "));
+/**
+ * Cale chaque élément d'une liste (matériel, erreurs, récap) sur le moment où la voix le nomme :
+ * on cherche, dans l'ordre, le premier mot significatif de l'élément ; à défaut, répartition régulière.
+ */
+function listCues(sc, items) {
+  const sg = sc.segments[0];
+  const words = sg?.words ?? [];
+  const base = sg ? sg.at - sc.start : 0;
+  let cursor = 0;
+  const even = (k) => Math.round((0.6 + (k * (sc.duration - 1.5)) / Math.max(1, items.length)) * 100) / 100;
+  sc.cues = items.map((it, k) => {
+    const tokens = String(it).split(/\s+/).map(normWord).filter((x) => x.length >= 3 && !STOP.has(x));
+    let best = -1;
+    for (const tok of tokens) {
+      for (let j = cursor; j < Math.min(words.length, cursor + 22); j++) {
+        if (normWord(words[j].w) === tok || normWord(words[j].w) === tok.replace(/s$/, "") || normWord(words[j].w).replace(/s$/, "") === tok) {
+          if (best < 0 || j < best) best = j;
+          break;
+        }
+      }
+    }
+    if (best < 0) return even(k);
+    cursor = best + 1;
+    return Math.max(0, Math.round((base + words[best].s - 0.12) * 100) / 100);
+  });
+  // Toujours croissant (un repli régulier ne doit pas passer avant l'élément précédent).
+  for (let k = 1; k < sc.cues.length; k++) if (sc.cues[k] <= sc.cues[k - 1]) sc.cues[k] = Math.round((sc.cues[k - 1] + 0.8) * 100) / 100;
 }
 
 const normWord = (w) => String(w).toLowerCase().replace(/[^a-z0-9'-]/g, "");
@@ -217,7 +252,7 @@ export function chaptersFrom(scenes, ep) {
   const list = [{ time: 0, title: "Intro" }];
   for (const s of scenes) {
     if (s.type === "youneed") list.push({ time: s.start, title: "What you'll need" });
-    if (s.type === "step") list.push({ time: s.start, title: `Step ${s.index}: ${s.title}` });
+    if (s.type === "step") list.push({ time: s.start, title: s.bonus ? s.title : `Step ${s.index}: ${s.title}` });
     if (s.type === "mistakes") list.push({ time: s.start, title: "Mistakes to avoid" });
     if (s.type === "recap") list.push({ time: s.start, title: "Recap" });
   }

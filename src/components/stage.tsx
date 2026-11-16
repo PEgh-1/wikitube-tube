@@ -155,8 +155,76 @@ export const ToiletTrap: React.FC<{ mode: TrapMode; local: number; width?: numbe
   );
 };
 
+// ---------- Schéma en coupe : les évacuations de la maison et la canalisation principale ----------
+const MAIN = "M150 250 L150 430 L790 430";
+export const HouseDrain: React.FC<{ mode: string; local: number; width?: number }> = ({ local, width = 800 }) => {
+  const flush = interpolate(local, [8, 60], [0, 0.86], { ...clamp, easing: Easing.inOut(Easing.quad) }); // l'eau de la chasse descend puis file vers le bouchon
+  const back = interpolate(local, [60, 108], [0, 1], { ...clamp, easing: Easing.out(Easing.quad) }); // elle remonte dans les autres évacuations
+  const pool = interpolate(local, [100, 132], [0, 1], { ...clamp, easing: Easing.out(Easing.cubic) });
+  const pulse = 1 + Math.sin(local / 5) * 0.07;
+  const pipe = (d: string) => (
+    <>
+      <path d={d} fill="none" stroke={C.ink} strokeWidth={50} strokeLinejoin="round" />
+      <path d={d} fill="none" stroke={C.paper} strokeWidth={36} strokeLinejoin="round" />
+    </>
+  );
+  const label = (x: number, y: number, text: string, size = 40, color: string = C.ink) => (
+    <text x={x} y={y} fontFamily={HAND} fontWeight={700} fontSize={size} fill={color}>
+      {text}
+    </text>
+  );
+  return (
+    <svg width={width} height={(width * 560) / 800} viewBox="0 0 800 560" style={{ display: "block" }}>
+      {/* sol de la salle de bain */}
+      <rect x={20} y={250} width={760} height={14} rx={7} fill={C.ink} />
+      {/* conduits */}
+      {pipe("M420 256 L420 430")}
+      {pipe("M650 256 L650 430")}
+      {pipe(MAIN)}
+      {/* eau : chasse, puis refoulement */}
+      <path d={MAIN} fill="none" stroke={C.teal} strokeOpacity={0.7} strokeWidth={36} strokeLinejoin="round" pathLength={1} strokeDasharray={`${flush} 1`} />
+      <path d="M420 430 L420 256" fill="none" stroke={C.teal} strokeOpacity={0.7} strokeWidth={36} pathLength={1} strokeDasharray={`${back} 1`} />
+      <path d="M650 430 L650 256" fill="none" stroke={C.teal} strokeOpacity={0.7} strokeWidth={36} pathLength={1} strokeDasharray={`${back * 0.8} 1`} />
+      {/* toilettes */}
+      <rect x={92} y={104} width={40} height={96} rx={8} fill={C.white} stroke={C.ink} strokeWidth={7} />
+      <path d="M120 190 H214 Q212 244 168 250 H132 Z" fill={C.white} stroke={C.ink} strokeWidth={7} strokeLinejoin="round" />
+      {/* douche */}
+      <path d="M500 250 V70 Q500 44 474 44 H452" fill="none" stroke={C.ink} strokeWidth={8} strokeLinecap="round" />
+      <path d="M430 44 H472 L462 66 H440 Z" fill={C.white} stroke={C.ink} strokeWidth={7} strokeLinejoin="round" />
+      <rect x={346} y={232} width={160} height={20} rx={8} fill={C.white} stroke={C.ink} strokeWidth={7} />
+      <ellipse cx={424} cy={230} rx={76 * pool} ry={15 * pool} fill={C.teal} opacity={0.8} />
+      {/* lavabo */}
+      <path d="M600 160 H700 Q700 204 650 204 Q600 204 600 160 Z" fill={C.white} stroke={C.ink} strokeWidth={7} strokeLinejoin="round" />
+      <rect x={638} y={204} width={24} height={46} fill={C.white} stroke={C.ink} strokeWidth={7} />
+      {/* bouchon dans la canalisation principale */}
+      <g transform={`translate(726 430) scale(${pulse})`}>
+        <circle cx={-12} cy={3} r={21} fill="#C9A47A" stroke={C.ink} strokeWidth={6} />
+        <circle cx={14} cy={-7} r={18} fill="#E3C9A6" stroke={C.ink} strokeWidth={6} />
+        <circle cx={9} cy={14} r={15} fill="#B98B5E" stroke={C.ink} strokeWidth={6} />
+      </g>
+      {/* alerte : l'eau ressort dans la douche */}
+      {pool > 0.2 && (
+        <g transform={`translate(426 162) scale(${0.6 + 0.4 * pool})`}>
+          <circle r={34} fill={C.coral} stroke={C.ink} strokeWidth={6} />
+          <path d="M0 -18 V6" stroke={C.white} strokeWidth={9} strokeLinecap="round" />
+          <circle cy={19} r={5} fill={C.white} />
+        </g>
+      )}
+      {/* légendes */}
+      {label(70, 86, "Toilet", 42)}
+      {label(262, 132, "Shower", 42)}
+      {label(606, 140, "Sink", 42)}
+      {label(196, 400, "Main line", 42)}
+      <path d="M560 520 Q650 530 706 474" fill="none" stroke={C.coral} strokeWidth={7} strokeLinecap="round" />
+      <path d="M686 472 L707 473 L702 494" fill="none" stroke={C.coral} strokeWidth={7} strokeLinecap="round" strokeLinejoin="round" />
+      {label(424, 534, "The clog", 46, C.coral)}
+    </svg>
+  );
+};
+
 const DIAGRAMS: Record<string, React.FC<{ mode: string; local: number; width?: number }>> = {
   "toilet-trap": ({ mode, local, width }) => <ToiletTrap mode={mode as TrapMode} local={local} width={width} />,
+  "house-drain": ({ mode, local, width }) => <HouseDrain mode={mode} local={local} width={width} />,
 };
 
 export const DiagramView: React.FC<{ name: string; mode: string; local: number; width?: number }> = ({ name, mode, local, width }) => {

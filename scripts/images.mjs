@@ -15,6 +15,7 @@ import * as gemini from "./providers/gemini.mjs";
 import { placeholderPng } from "./lib/png.mjs";
 import { subjectTokens, queryVariants, rank, strictMatch, sentenceTerms } from "./lib/relevance.mjs";
 import { groupShots, shotPrompt, illustrate } from "./lib/shots.mjs";
+import { allSections } from "./lib/episode.mjs";
 
 const SHOTS_PER_STEP = Number(process.env.SHOTS_PER_STEP ?? 3); // visuels par étape (dont 1 clip vidéo si trouvé)
 const MANIFEST_VERSION = 3;
@@ -32,6 +33,7 @@ const episodeId = args.episode ?? current.episodeId;
 const buildDir = path.join(DIRS.build, episodeId);
 const episode = readJson(path.join(buildDir, "episode.json"));
 const imgDir = ensureDir(path.join(DIRS.assets, episodeId, "images"));
+const sections = allSections(episode);
 const manifestFile = path.join(buildDir, "images.json");
 let previous = exists(manifestFile) && !args.force ? readJson(manifestFile) : null;
 if (previous && previous.version !== MANIFEST_VERSION) previous = null;
@@ -40,7 +42,7 @@ const multi = stockName === "pixabay" && !mock && typeof pixabay.searchPhotoList
 
 const targets = [
   { key: "hero", query: episode.heroImageQuery, prompt: episode.heroImagePrompt, media: "photo", seed: 0 },
-  ...episode.steps.map((s, i) => ({ key: `step-${i + 1}`, query: s.imageQuery, prompt: s.imagePrompt, media: s.media ?? "photo", seed: i + 1, step: s })),
+  ...sections.map((s, i) => ({ key: `step-${i + 1}`, query: s.imageQuery, prompt: s.imagePrompt, media: s.media ?? "photo", seed: i + 1, step: s })),
 ];
 
 const apiKey = mock ? null : requireEnv(stockName === "pexels" ? "PEXELS_API_KEY" : "PIXABAY_API_KEY");
@@ -338,14 +340,17 @@ const manifest = {
   generatedAt: new Date().toISOString(),
   hero: stripShots(results.hero),
   // Image « principale » d'étape (Short, miniature) : jamais une illustration → repli sur l'image héros.
-  steps: episode.steps.map((_, i) => {
+  steps: sections.map((_, i) => {
     const r = stripShots(results[`step-${i + 1}`]);
     return r?.kind === "illustration" ? stripShots(results.hero) : r;
   }),
-  stepShots: episode.steps.map((_, i) => results[`step-${i + 1}`]?.shots ?? [stripShots(results[`step-${i + 1}`])]),
+  stepShots: sections.map((_, i) => results[`step-${i + 1}`]?.shots ?? [stripShots(results[`step-${i + 1}`])]),
   // Encarts calés sur la voix (chiffres, « pourquoi », « à éviter », coches du matériel), par étape.
   introExtras: pregen?.extras?.intro ?? null,
-  stepExtras: episode.steps.map((_, i) => pregen?.extras?.[`step-${i + 1}`] ?? null),
+  stepExtras: sections.map((_, i) => pregen?.extras?.[`step-${i + 1}`] ?? null),
+  // Scènes « matériel » et « erreurs » en photo plein écran (images pré-générées).
+  youneed: extraShot(pregen?.youneed, "youneed"),
+  mistakes: (pregen?.mistakes ?? []).map((m, i) => extraShot(m, `mistake-${i + 1}`)).filter(Boolean),
   all: results,
   credits: Object.values(results)
     .flatMap((r) => r.shots ?? [r])
@@ -353,6 +358,13 @@ const manifest = {
     .map((r) => `${r.credit} — ${r.pageUrl}`),
 };
 writeJson(manifestFile, manifest);
+
+function extraShot(sh, dest) {
+  if (mock || !sh?.file || !exists(path.join(pregenDir, sh.file))) return null;
+  const file = path.join(imgDir, `${dest}${path.extname(sh.file)}`);
+  fs.copyFileSync(path.join(pregenDir, sh.file), file);
+  return { key: dest, kind: "photo", width: 1920, height: 1080, provider: "gemini-web", file: path.relative(DIRS.public, file).split(path.sep).join("/"), focus: sh.focus ?? null };
+}
 
 function stripShots(r) {
   if (!r) return r;

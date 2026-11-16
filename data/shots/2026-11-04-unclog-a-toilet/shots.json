@@ -49,6 +49,7 @@
       ]
     }
   ],
+  "mistakesSubtitle": "that make a clog worse",
   "shots": {
     "step-1": [
       {
@@ -1728,7 +1729,10 @@
           "pose": "nose",
           "dur": 3.4
         }
-      ]
+      ],
+      "pose": "plumber",
+      "title": "Where the clog really is",
+      "mode": "clog"
     }
   }
 }

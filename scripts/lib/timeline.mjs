@@ -42,7 +42,7 @@ export function buildLongTimeline(ep, tts, images, { fps = FPS, brand = null } =
   // Ouverture signée (jingle + baseline dite par la voix). Par défaut l'accroche passe d'abord :
   // accroche → signature courte → introduction (meilleure rétention des premières secondes).
   const open = tts.segments["brand-open"];
-  const hookScene = { type: "hook", title: ep.title, category: ep.category, stepCount: ep.steps.length, image: images.hero };
+  const hookScene = { type: "hook", title: ep.title, category: ep.category, stepCount: ep.steps.length, image: images.hero, pose: images.introExtras?.pose ?? null };
   const signature = () => {
     const dur = roundToFrame(Math.max(PREROLL_SEC, OPEN_VOICE_AT + open.duration + 0.45), fps);
     scenes.push({ type: "preroll", start: roundToFrame(t, fps), duration: dur, baseline: brand?.baseline ?? null, segments: [{ id: "brand-open", file: open.file, at: roundToFrame(t + OPEN_VOICE_AT, fps), duration: open.duration, words: open.words }] });
@@ -62,6 +62,8 @@ export function buildLongTimeline(ep, tts, images, { fps = FPS, brand = null } =
         return Math.round((w ? sg.at - sc.start + w.s - 0.1 : fallback) * 100) / 100;
       };
       sc.diagram = ix.diagram;
+      sc.diagramTitle = ix.title ?? null;
+      sc.diagramMode = ix.mode ?? null;
       sc.chips = (ix.chips ?? []).map((c, k) => ({ ...c, t: cue(c.on, 4 + k * 3) }));
       sc.gags = (ix.gags ?? []).map((g) => ({ ...g, t: cue(g.on, 6) }));
     }
@@ -104,7 +106,7 @@ export function buildLongTimeline(ep, tts, images, { fps = FPS, brand = null } =
     }
     resolveExtras(sc, sg, images.stepExtras?.[i]);
   });
-  push({ type: "mistakes", items: ep.mistakesToAvoid.items, images: (images.mistakes ?? []).length === ep.mistakesToAvoid.items.length ? images.mistakes : [] }, ["mistakes"]);
+  push({ type: "mistakes", items: ep.mistakesToAvoid.items, images: (images.mistakes ?? []).length === ep.mistakesToAvoid.items.length ? images.mistakes : [], subtitle: images.mistakesSubtitle ?? null }, ["mistakes"]);
   listCues(scenes[scenes.length - 1], ep.mistakesToAvoid.items);
   push({ type: "recap", items: ep.recap.items ?? ep.steps.map((s) => s.title), images: ep.steps.map((_, i) => images.steps[i] ?? null) }, ["recap"]);
   listCues(scenes[scenes.length - 1], ep.recap.items ?? ep.steps.map((s) => s.title));

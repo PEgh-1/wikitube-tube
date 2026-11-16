@@ -110,7 +110,7 @@ export const Mistakes: React.FC<{ scene: MistakesScene; durationInFrames: number
             {n} mistakes
           </SlideUp>
           <SlideUp delay={9} style={{ fontFamily: FONT, fontWeight: 900, fontSize: 64, color: C.sun, marginTop: 6, textShadow: `3px 4px 0 ${C.ink}` }}>
-            that make a clog worse
+            {scene.subtitle ?? "that ruin the result"}
           </SlideUp>
         </AbsoluteFill>
       )}

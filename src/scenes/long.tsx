@@ -95,7 +95,7 @@ const HookCold: React.FC<{ scene: HookScene; durationInFrames: number }> = ({ sc
       </SlideUp>
     </div>
     <div style={{ position: "absolute", right: 110, bottom: 50 }}>
-      <Mascot pose="plumber" height={520} delay={22} />
+      <Mascot pose={(scene.pose ?? "wave") as "wave"} height={520} delay={22} />
     </div>
     <CueSfx cues={[{ t: 0.75, sfx: "boing", volume: 0.4 }]} />
   </Frame>
@@ -106,7 +106,7 @@ const HookDiagram: React.FC<{ scene: HookScene }> = ({ scene }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const chips = scene.chips ?? [];
-  let mode = "clog";
+  let mode = scene.diagramMode ?? "clog";
   let modeFrom = 0;
   for (const c of chips) if (c.mode && frame >= Math.round((c.t ?? 0) * fps)) { mode = c.mode; modeFrom = Math.round((c.t ?? 0) * fps); }
   const gag = useCue(scene.gags, 3.2);
@@ -116,15 +116,15 @@ const HookDiagram: React.FC<{ scene: HookScene }> = ({ scene }) => {
       <LogoCorner top={50} />
       <div style={{ position: "absolute", left: 90, top: 150 }}>
         <SlideUp delay={4} style={{ fontSize: 32, fontWeight: 900, letterSpacing: 6, color: C.teal }}>HOW IT WORKS</SlideUp>
-        <SlideUp delay={8} style={{ fontFamily: HAND, fontWeight: 700, fontSize: 92, lineHeight: 1, color: C.ink }}>Where the clog really is</SlideUp>
+        <SlideUp delay={8} style={{ fontFamily: HAND, fontWeight: 700, fontSize: 92, lineHeight: 1, color: C.ink }}>{scene.diagramTitle ?? "How it really works"}</SlideUp>
       </div>
       <Pop delay={6} style={{ position: "absolute", left: 70, top: 330 }}>
         <DiagramView name={scene.diagram ?? ""} mode={mode} local={frame - modeFrom} width={1010} />
       </Pop>
-      <div style={{ position: "absolute", left: 1130, top: 300, right: 70, display: "flex", flexDirection: "column", gap: 30 }}>
+      <div style={{ position: "absolute", left: 1130, top: chips.filter((c) => !c.hidden).length > 3 ? 250 : 300, right: 70, display: "flex", flexDirection: "column", gap: chips.filter((c) => !c.hidden).length > 3 ? 24 : 30 }}>
         {chips.map((c, i) => {
           const f = frame - Math.round((c.t ?? 0) * fps);
-          if (f < 0) return null;
+          if (f < 0 || c.hidden) return null;
           const sp = spring({ frame: f, fps, config: { damping: 12, stiffness: 170 } });
           return (
             <div key={i} style={{ display: "flex", alignItems: "center", gap: 24, background: C.white, border: `6px solid ${C.ink}`, borderRadius: 26, padding: "16px 28px", boxShadow: `9px 9px 0 ${[C.coral, C.teal, C.sun][i % 3]}`, transform: `translateX(${(1 - sp) * 220}px) rotate(${i % 2 ? 1 : -1}deg)`, opacity: Math.min(1, sp * 1.5) }}>
@@ -142,7 +142,7 @@ const HookDiagram: React.FC<{ scene: HookScene }> = ({ scene }) => {
           <Mascot pose={gag.item.pose as "nose"} height={330} delay={Math.round((gag.item.t ?? 0) * fps)} />
         </div>
       )}
-      <CueSfx cues={[...chips.map((c) => ({ t: c.t ?? 0, sfx: "pop" as const, volume: 0.3 })), ...(scene.gags ?? []).map((g) => ({ t: g.t ?? 0, sfx: "boing" as const, volume: 0.4 }))]} />
+      <CueSfx cues={[...chips.filter((c) => !c.hidden).map((c) => ({ t: c.t ?? 0, sfx: "pop" as const, volume: 0.3 })), ...(scene.gags ?? []).map((g) => ({ t: g.t ?? 0, sfx: "boing" as const, volume: 0.4 }))]} />
     </Frame>
   );
 };

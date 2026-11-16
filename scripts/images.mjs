@@ -350,6 +350,7 @@ const manifest = {
   stepExtras: sections.map((_, i) => pregen?.extras?.[`step-${i + 1}`] ?? null),
   // Scènes « matériel » et « erreurs » en photo plein écran (images pré-générées).
   youneed: extraShot(pregen?.youneed, "youneed"),
+  mistakesSubtitle: pregen?.mistakesSubtitle ?? null,
   mistakes: (pregen?.mistakes ?? []).map((m, i) => extraShot(m, `mistake-${i + 1}`)).filter(Boolean),
   all: results,
   credits: Object.values(results)

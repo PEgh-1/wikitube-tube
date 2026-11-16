@@ -152,7 +152,7 @@ N = json.load(open(notes_file)) if os.path.exists(notes_file) else {}
 shots = {"episodeId": ID, "version": 3, "source": "gemini-web (navigateur, sans API)", "style": TAIL, "hero": {"prompt": HERO + " " + TAIL, "file": "hero.jpg"},
          "youneed": {"prompt": YOUNEED_SHOT + " " + TAIL, "file": "youneed.jpg", "focus": [0.52, 0.5]},
          "mistakes": [{"prompt": p + " " + TAIL, "file": f"mistake-{k}.jpg", "focus": [[0.6, 0.4], [0.75, 0.45], [0.4, 0.6], [0.55, 0.55]][k - 1]} for k, p in enumerate(MISTAKE_SHOTS, 1)],
-         "shots": {}, "extras": {}}
+         "mistakesSubtitle": "that make a clog worse", "shots": {}, "extras": {}}
 prompts = [["hero.jpg", HERO], ["youneed.jpg", YOUNEED_SHOT]] + [[f"mistake-{k}.jpg", p] for k, p in enumerate(MISTAKE_SHOTS, 1)]
 for i, s in enumerate(SECTIONS, 1):
     lst, ids = [], []

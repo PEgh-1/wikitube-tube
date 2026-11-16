@@ -1,0 +1,1398 @@
+{
+  "episodeId": "2026-11-23-cook-rice-on-the-stove",
+  "version": 3,
+  "source": "gemini-web (navigateur, sans API)",
+  "style": "Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+  "hero": {
+    "prompt": "A white bowl of fluffy steaming long-grain white rice with clearly separate grains on a light oak table, a fork resting beside it, a stainless steel saucepan out of focus behind, soft side light. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+    "file": "hero.jpg"
+  },
+  "youneed": {
+    "prompt": "Flat lay photographed from directly above on a light oak countertop, objects neatly arranged with clear space between them: a glass jar of long-grain white rice, a medium stainless steel saucepan with its glass lid beside it, a metal measuring cup, a fine mesh strainer, a fork, and a tiny white bowl of salt. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+    "file": "youneed.jpg",
+    "focus": [
+      0.5,
+      0.55
+    ]
+  },
+  "mistakesSubtitle": "that turn rice into mush",
+  "mistakes": [
+    {
+      "prompt": "Dry white rice being poured straight from a plain paper bag into a saucepan on the cooktop, an unused fine mesh strainer left aside on the counter. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+      "file": "mistake-1.jpg",
+      "focus": [
+        0.52,
+        0.5
+      ]
+    },
+    {
+      "prompt": "Water being poured freehand from a kettle into a saucepan of rice, far too much water, an unused measuring cup left aside on the counter. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+      "file": "mistake-2.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "prompt": "A hand lifting the glass lid off a simmering saucepan of rice, a big cloud of steam escaping, the other hand holding a wooden spoon about to stir. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+      "file": "mistake-3.jpg",
+      "focus": [
+        0.55,
+        0.5
+      ]
+    }
+  ],
+  "shots": {
+    "step-1": [
+      {
+        "text": "Step one. Use a measuring cup to measure your rice, and remember the number, because the water will be based on it.",
+        "prompt": "Close-up of a hand levelling a metal measuring cup filled with dry long-grain white rice above a glass jar of rice. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-1-1.jpg",
+        "focus": [
+          0.52,
+          0.45
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.53,
+              0.3
+            ],
+            "text": "A level cup, every time",
+            "label": [
+              0.76,
+              0.22
+            ],
+            "on": "measure"
+          }
+        ]
+      },
+      {
+        "text": "One cup of dry rice makes about three cups cooked, which feeds two to three people.",
+        "prompt": "On a countertop, one metal measuring cup of dry white rice on the left and three white bowls of fluffy cooked rice lined up on the right. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-1-2.jpg",
+        "focus": [
+          0.5,
+          0.65
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.26,
+              0.72
+            ],
+            "r": 0.08,
+            "text": "1 cup dry",
+            "label": [
+              0.2,
+              0.36
+            ],
+            "on": "one"
+          },
+          {
+            "type": "circle",
+            "at": [
+              0.68,
+              0.6
+            ],
+            "r": 0.2,
+            "on": "three"
+          }
+        ]
+      },
+      {
+        "text": "Choose a pot that suits the amount, since a pot that is too big dries the rice out, and a pot that is too small boils over.",
+        "prompt": "Three stainless steel saucepans of different sizes, small, medium and large, lined up on a countertop, a hand resting on the handle of the medium one. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-1-3.jpg",
+        "focus": [
+          0.45,
+          0.6
+        ]
+      },
+      {
+        "text": "A heavy-bottomed pot spreads the heat more evenly and helps prevent burning.",
+        "prompt": "Close-up of a hand holding a stainless steel saucepan tilted to show its thick, heavy layered base. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-1-4.jpg",
+        "focus": [
+          0.4,
+          0.6
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.36,
+              0.7
+            ],
+            "text": "Thick base",
+            "label": [
+              0.2,
+              0.25
+            ],
+            "on": "heavy-bottomed"
+          }
+        ]
+      },
+      {
+        "text": "Take a moment to read the instructions on your package, because different varieties of rice have slightly different needs.",
+        "prompt": "Hands holding a plain kraft paper bag of rice turned to its back side with blurred unreadable lines, three small glass jars of different rice varieties behind on the counter. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-1-5.jpg",
+        "focus": [
+          0.45,
+          0.55
+        ]
+      },
+      {
+        "text": "Measuring takes ten seconds and removes the guesswork.",
+        "prompt": "A hand tipping a metal measuring cup of dry white rice into a fine mesh strainer held over a bowl. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-1-6.jpg",
+        "focus": [
+          0.48,
+          0.5
+        ]
+      }
+    ],
+    "step-2": [
+      {
+        "text": "Step two. Put the rice in a strainer or a bowl, and rinse it under cold running water, swishing it with your fingers.",
+        "prompt": "Fingers swishing white rice in a fine mesh strainer under a stream of cold water from a kitchen tap, over a stainless steel sink. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-2-1.jpg",
+        "focus": [
+          0.52,
+          0.55
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.53,
+              0.6
+            ],
+            "r": 0.12,
+            "text": "Swish with your fingers",
+            "label": [
+              0.28,
+              0.38
+            ],
+            "on": "swishing"
+          }
+        ]
+      },
+      {
+        "text": "The water will start out milky. That cloudiness is surface starch, and it is what makes rice clump and turn gummy.",
+        "prompt": "View from above of a clear glass bowl of white rice covered with cloudy, milky white water, a hand stirring it. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-2-2.jpg",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.42,
+              0.48
+            ],
+            "text": "Surface starch",
+            "label": [
+              0.72,
+              0.22
+            ],
+            "on": "cloudiness"
+          }
+        ]
+      },
+      {
+        "text": "Keep rinsing for about a minute, until the water runs mostly clear.",
+        "prompt": "View from above of a clear glass bowl of white rice covered with perfectly clear water, every grain visible, a hand resting on the rim. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-2-3.jpg",
+        "focus": [
+          0.48,
+          0.6
+        ],
+        "compare": {
+          "file": "step-2-2.jpg",
+          "labels": [
+            "Starchy",
+            "Clear"
+          ]
+        }
+      },
+      {
+        "text": "Drain well, and shake off the excess water.",
+        "prompt": "A hand shaking a fine mesh strainer full of rinsed white rice over a sink, water droplets falling. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-2-4.jpg",
+        "focus": [
+          0.55,
+          0.45
+        ]
+      },
+      {
+        "text": "Rinsing matters most for basmati and jasmine, while rice that is labelled pre-washed or enriched should not be rinsed. Check the packet if you are unsure.",
+        "prompt": "Three small white bowls of different uncooked rice on a countertop seen from above: long slender basmati, jasmine, and brown rice. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-2-5.jpg",
+        "focus": [
+          0.45,
+          0.6
+        ]
+      },
+      {
+        "text": "Good rinsing is the difference between restaurant rice and cafeteria rice.",
+        "prompt": "Two white plates side by side on a countertop: on the left fluffy white rice with separate grains, on the right a sticky, clumpy, gummy mound of rice. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-2-6.jpg",
+        "focus": [
+          0.5,
+          0.65
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.3,
+              0.68
+            ],
+            "r": 0.13,
+            "text": "Rinsed",
+            "label": [
+              0.22,
+              0.3
+            ],
+            "on": "restaurant"
+          },
+          {
+            "type": "cross",
+            "at": [
+              0.68,
+              0.68
+            ],
+            "r": 0.07,
+            "text": "Not rinsed",
+            "label": [
+              0.8,
+              0.3
+            ],
+            "on": "cafeteria"
+          }
+        ]
+      }
+    ],
+    "step-3": [
+      {
+        "text": "Step three. For long-grain white rice, the classic ratio is one cup of rice to one and a half cups of water.",
+        "prompt": "On a countertop next to an empty saucepan: a metal measuring cup full of dry white rice and a glass measuring jug holding a larger amount of water. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-3-1.jpg",
+        "focus": [
+          0.6,
+          0.55
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.62,
+              0.66
+            ],
+            "r": 0.09,
+            "text": "1 rice",
+            "label": [
+              0.45,
+              0.2
+            ],
+            "on": "one"
+          },
+          {
+            "type": "circle",
+            "at": [
+              0.81,
+              0.5
+            ],
+            "r": 0.1,
+            "text": "1½ water",
+            "label": [
+              0.8,
+              0.9
+            ],
+            "on": "half"
+          }
+        ]
+      },
+      {
+        "text": "Basmati and jasmine are similar, around one to one and a quarter or one and a half.",
+        "prompt": "Two small bowls of uncooked basmati and jasmine rice next to a glass measuring jug of water on a countertop. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-3-2.jpg",
+        "focus": [
+          0.45,
+          0.6
+        ]
+      },
+      {
+        "text": "Brown rice needs more, about one to two, and a longer cooking time.",
+        "prompt": "A bowl of uncooked brown rice next to two identical glasses of water on a countertop. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-3-3.jpg",
+        "focus": [
+          0.45,
+          0.65
+        ]
+      },
+      {
+        "text": "Add a pinch of salt, and, if you wish, a small knob of butter or a teaspoon of oil.",
+        "prompt": "Fingers sprinkling a pinch of salt into a saucepan of rice and water, a small cube of butter on a teaspoon beside the pan. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-3-4.jpg",
+        "focus": [
+          0.5,
+          0.5
+        ]
+      },
+      {
+        "text": "Always check the instructions on the packet first, since brands differ.",
+        "prompt": "A finger pointing at the back of a plain kraft paper rice bag with blurred unreadable lines, saucepan in the background. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-3-5.jpg",
+        "focus": [
+          0.4,
+          0.6
+        ]
+      },
+      {
+        "text": "The ratio is the secret, so measure it, and don't eyeball it.",
+        "prompt": "Water being poured carefully from a glass measuring jug into a saucepan containing rinsed white rice. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-3-6.jpg",
+        "focus": [
+          0.7,
+          0.5
+        ]
+      },
+      {
+        "text": "If you prefer softer rice, add a tablespoon more water, but never much more.",
+        "prompt": "A hand holding a single tablespoon of water just above a saucepan of rice and water. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-3-7.jpg",
+        "focus": [
+          0.52,
+          0.5
+        ]
+      }
+    ],
+    "step-4": [
+      {
+        "text": "Step four. Put the pot on high heat, with the lid off, and bring it to a full boil.",
+        "prompt": "A hand turning a cooktop control knob to high, an uncovered saucepan of rice and water on the glowing cooktop ring, the glass lid resting on the counter. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-4-1.jpg",
+        "focus": [
+          0.45,
+          0.5
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.6,
+              0.68
+            ],
+            "r": 0.07,
+            "text": "High heat",
+            "label": [
+              0.25,
+              0.3
+            ],
+            "on": "high"
+          }
+        ]
+      },
+      {
+        "text": "As soon as the water bubbles, give the rice a single stir to loosen anything stuck to the bottom, and then don't stir it again.",
+        "prompt": "A wooden spoon giving one stir in a saucepan of rice in vigorously bubbling water, steam rising. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-4-2.jpg",
+        "focus": [
+          0.55,
+          0.5
+        ]
+      },
+      {
+        "text": "Stirring rice releases starch, which makes it creamy and sticky, great for risotto, but not for fluffy rice.",
+        "prompt": "A wide pan of creamy risotto being stirred with a wooden spoon, thick and glossy. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-4-3.jpg",
+        "focus": [
+          0.6,
+          0.6
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.6,
+              0.62
+            ],
+            "text": "Risotto: stirred on purpose",
+            "label": [
+              0.3,
+              0.25
+            ],
+            "on": "risotto"
+          }
+        ]
+      },
+      {
+        "text": "Be ready to move to the next step right away, because the water must not boil away without the lid.",
+        "prompt": "Close-up of white rice in strongly boiling water in a saucepan, a hand holding the glass lid ready just beside the pan. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-4-4.jpg",
+        "focus": [
+          0.5,
+          0.55
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.68,
+              0.42
+            ],
+            "text": "Lid ready",
+            "label": [
+              0.82,
+              0.75
+            ],
+            "on": "ready"
+          }
+        ]
+      },
+      {
+        "text": "It takes only a few minutes to get this far. Use a timer on your phone, and don't walk too far from the kitchen.",
+        "prompt": "A smartphone lying on the countertop next to the cooktop, its screen showing a simple round timer dial without any digits, the saucepan steaming in the background. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-4-5.jpg",
+        "focus": [
+          0.45,
+          0.6
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.33,
+              0.76
+            ],
+            "r": 0.1,
+            "text": "Timer on",
+            "label": [
+              0.38,
+              0.46
+            ],
+            "on": "timer"
+          }
+        ]
+      }
+    ],
+    "step-5": [
+      {
+        "text": "Step five. Turn the heat down to the lowest setting, cover the pot with the tight lid, and set a timer for fifteen minutes.",
+        "prompt": "One hand lowering the glass lid onto a saucepan of rice while the other hand turns the cooktop knob down to low. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-5-1.jpg",
+        "focus": [
+          0.72,
+          0.5
+        ]
+      },
+      {
+        "text": "White long-grain rice usually needs fifteen to eighteen minutes, brown rice around forty-five.",
+        "prompt": "A small white mechanical kitchen timer standing on the countertop next to a covered saucepan on the cooktop. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-5-2.jpg",
+        "focus": [
+          0.55,
+          0.65
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.72,
+              0.74
+            ],
+            "r": 0.07,
+            "on": "fifteen"
+          }
+        ]
+      },
+      {
+        "text": "Do not lift the lid during this time.",
+        "prompt": "A hand hovering just above the knob of a glass lid on a covered saucepan, hesitating, not touching it. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-5-3.jpg",
+        "focus": [
+          0.65,
+          0.45
+        ],
+        "notes": [
+          {
+            "type": "cross",
+            "at": [
+              0.5,
+              0.32
+            ],
+            "r": 0.06,
+            "text": "Hands off",
+            "label": [
+              0.72,
+              0.2
+            ],
+            "on": "not"
+          }
+        ]
+      },
+      {
+        "text": "The rice cooks in the trapped steam, and every peek lets heat and moisture escape, which leaves you with hard, uneven grains.",
+        "prompt": "Close-up of a glass saucepan lid fogged with steam and covered in water droplets, white rice visible underneath. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-5-4.jpg",
+        "focus": [
+          0.45,
+          0.5
+        ]
+      },
+      {
+        "text": "If your lid is loose, place a clean tea towel under it.",
+        "prompt": "A clean white tea towel placed between a saucepan and its lid, the corners of the towel folded up and gathered on top of the lid, well away from the cooktop. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-5-5.jpg",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.48,
+              0.55
+            ],
+            "text": "Corners up, away from the heat",
+            "label": [
+              0.62,
+              0.17
+            ],
+            "on": "towel"
+          }
+        ]
+      },
+      {
+        "text": "If your stove runs hot, use a heat diffuser.",
+        "prompt": "A round perforated metal heat diffuser plate sitting on a cooktop ring under a covered saucepan. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-5-6.jpg",
+        "focus": [
+          0.5,
+          0.75
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.4,
+              0.88
+            ],
+            "text": "Heat diffuser",
+            "label": [
+              0.22,
+              0.5
+            ],
+            "on": "diffuser"
+          }
+        ]
+      },
+      {
+        "text": "A tight lid is non-negotiable, so choose a pot that closes well.",
+        "prompt": "Extreme close-up of the rim of a saucepan where a glass lid fits snugly with no gap. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-5-7.jpg",
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": [
+          {
+            "type": "loupe",
+            "at": [
+              0.32,
+              0.57
+            ],
+            "lens": [
+              0.22,
+              0.42
+            ],
+            "r": 0.13,
+            "zoom": 2.2,
+            "text": "No gap = no lost steam",
+            "on": "tight"
+          }
+        ]
+      }
+    ],
+    "step-6": [
+      {
+        "text": "Step six. When the timer rings, turn off the heat, but keep the lid on, and let the pot sit for ten minutes.",
+        "prompt": "A hand turning a cooktop control knob to off, a covered saucepan on the cooktop and a white kitchen timer beside it. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-6-1.jpg",
+        "focus": [
+          0.5,
+          0.55
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.55,
+              0.62
+            ],
+            "r": 0.08,
+            "text": "Heat off",
+            "label": [
+              0.3,
+              0.3
+            ],
+            "on": "off"
+          }
+        ]
+      },
+      {
+        "text": "This resting time is as important as cooking.",
+        "prompt": "A covered stainless steel saucepan resting quietly on a wooden trivet on the countertop. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-6-2.jpg",
+        "focus": [
+          0.5,
+          0.65
+        ]
+      },
+      {
+        "text": "The steam spreads evenly through the pot, and the moisture at the bottom is absorbed, so the grains firm up and stop being sticky.",
+        "prompt": "View from above through a clear glass lid: cooked white rice with small steam holes on its surface, light condensation on the glass. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-6-3.jpg",
+        "focus": [
+          0.4,
+          0.7
+        ]
+      },
+      {
+        "text": "Move the pot to a cool burner if you have an electric stove, because the hot ring will keep cooking the bottom.",
+        "prompt": "Hands in grey oven mitts lifting a covered saucepan from a glowing red electric cooktop ring toward a dark, cool ring. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-6-4.jpg",
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.52,
+              0.85
+            ],
+            "text": "Still hot",
+            "label": [
+              0.22,
+              0.62
+            ],
+            "on": "hot"
+          }
+        ]
+      },
+      {
+        "text": "Don't skip it, even when you are hungry and dinner is waiting.",
+        "prompt": "A dinner table set with two empty plates, forks and glasses in the foreground, a covered saucepan waiting on the counter out of focus behind. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-6-5.jpg",
+        "focus": [
+          0.5,
+          0.7
+        ]
+      },
+      {
+        "text": "Many people think this step is optional, but it is where the texture is decided.",
+        "prompt": "Macro photograph of perfectly cooked long-grain white rice, every grain separate and fluffy. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-6-6.jpg",
+        "focus": [
+          0.52,
+          0.5
+        ]
+      }
+    ],
+    "step-7": [
+      {
+        "text": "Step seven. Remove the lid and gently fluff the rice with a fork, lifting it from the bottom and folding it over.",
+        "prompt": "A fork lifting and fluffing steaming white rice in a saucepan, the glass lid held up in the other hand. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-7-1.jpg",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.55,
+              0.5
+            ],
+            "text": "Lift and fold",
+            "label": [
+              0.2,
+              0.6
+            ],
+            "on": "lifting"
+          }
+        ]
+      },
+      {
+        "text": "A spoon crushes the grains, but a fork keeps them separate and light. Serve it while it is hot.",
+        "prompt": "Fluffy steaming white rice being served from a saucepan into a white bowl with a fork. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-7-2.jpg",
+        "focus": [
+          0.5,
+          0.65
+        ]
+      },
+      {
+        "text": "Leftover rice needs care, because it can carry bacteria that survive cooking.",
+        "prompt": "A bowl of leftover cooked white rice sitting on a kitchen countertop next to an empty glass storage container with its lid. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-7-3.jpg",
+        "focus": [
+          0.4,
+          0.6
+        ]
+      },
+      {
+        "text": "Cool it within one hour, spread out on a tray if you can, then refrigerate it in a covered container and eat it within a day.",
+        "prompt": "Cooked white rice spread in a thin layer on a metal baking tray on the countertop, a glass container with a lid beside it and an open refrigerator in the background. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-7-4.jpg",
+        "focus": [
+          0.45,
+          0.7
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.4,
+              0.82
+            ],
+            "text": "A thin layer cools fast",
+            "label": [
+              0.25,
+              0.45
+            ],
+            "on": "spread"
+          }
+        ]
+      },
+      {
+        "text": "When reheating, make sure it is steaming hot all the way through. A small splash of water helps in the microwave.",
+        "prompt": "A hand taking a bowl of steaming hot white rice out of an open microwave oven. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-7-5.jpg",
+        "focus": [
+          0.5,
+          0.55
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.47,
+              0.42
+            ],
+            "text": "Steaming hot",
+            "label": [
+              0.2,
+              0.3
+            ],
+            "on": "steaming"
+          }
+        ]
+      }
+    ],
+    "step-8": [
+      {
+        "text": "Rice went wrong? Most of it can be saved.",
+        "prompt": "View from above of a saucepan of overcooked, mushy, clumpy white rice, a hand holding a spoon above it. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-8-1.jpg",
+        "focus": [
+          0.5,
+          0.55
+        ]
+      },
+      {
+        "text": "If it is mushy, spread it on a tray to dry, or turn it into fried rice.",
+        "prompt": "Golden fried rice with peas, diced carrot and egg being tossed in a pan with a spatula. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-8-2.jpg",
+        "focus": [
+          0.45,
+          0.45
+        ]
+      },
+      {
+        "text": "If it is hard in the middle, add two or three tablespoons of water, cover the pot, and steam it on very low heat for a few minutes.",
+        "prompt": "A hand pouring a tablespoon of water over cooked white rice in a saucepan, the glass lid held ready in the other hand. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-8-3.jpg",
+        "focus": [
+          0.48,
+          0.5
+        ]
+      },
+      {
+        "text": "If the bottom is burnt, do not scrape it. Spoon out the good rice from the top.",
+        "prompt": "A spoon lifting clean white rice from the top of a saucepan, a dark brown scorched layer of rice visible at the bottom edge of the pan. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-8-4.jpg",
+        "focus": [
+          0.45,
+          0.5
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.4,
+              0.6
+            ],
+            "text": "Leave the burnt layer",
+            "label": [
+              0.22,
+              0.3
+            ],
+            "on": "burnt"
+          }
+        ]
+      }
+    ],
+    "step-9": [
+      {
+        "text": "Plain rice is only the start.",
+        "prompt": "A white bowl of plain cooked rice in the centre of a countertop surrounded by small bowls of spices, a lemon, fresh herbs, a bay leaf and a cinnamon stick. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-9-1.jpg",
+        "focus": [
+          0.5,
+          0.55
+        ]
+      },
+      {
+        "text": "Toast the dry rice in a little oil for a minute before adding the water, which gives a nutty taste.",
+        "prompt": "Dry white rice being toasted in a little oil in a saucepan, stirred with a wooden spoon, the grains turning slightly golden. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-9-2.jpg",
+        "focus": [
+          0.52,
+          0.6
+        ]
+      },
+      {
+        "text": "Cook it in stock instead of water, or drop in a bay leaf or a cinnamon stick.",
+        "prompt": "Golden stock being poured from a jug into a saucepan of rice, a bay leaf and a cinnamon stick floating on top. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-9-3.jpg",
+        "focus": [
+          0.52,
+          0.45
+        ]
+      },
+      {
+        "text": "After fluffing, fold in lemon zest or fresh herbs.",
+        "prompt": "A hand zesting a lemon with a fine grater over a bowl of fluffy white rice sprinkled with chopped fresh green herbs. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-9-4.jpg",
+        "focus": [
+          0.5,
+          0.5
+        ]
+      },
+      {
+        "text": "For fried rice, use rice cooked and chilled the day before.",
+        "prompt": "A hand taking a glass container of cold cooked white rice out of an open refrigerator. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-9-5.jpg",
+        "focus": [
+          0.5,
+          0.45
+        ]
+      }
+    ],
+    "step-10": [
+      {
+        "text": "A burnt pot is easy to avoid.",
+        "prompt": "A stainless steel saucepan with a black scorched layer of burnt rice stuck to the bottom, sitting in a kitchen sink. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-10-1.jpg",
+        "focus": [
+          0.45,
+          0.6
+        ]
+      },
+      {
+        "text": "Use a heavy-bottomed pot with a tight lid, and keep the heat as low as it will go.",
+        "prompt": "Close-up of a cooktop control knob turned to its lowest setting, a covered saucepan on the ring in the background. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-10-2.jpg",
+        "focus": [
+          0.55,
+          0.65
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.57,
+              0.74
+            ],
+            "r": 0.07,
+            "text": "Lowest setting",
+            "label": [
+              0.25,
+              0.3
+            ],
+            "on": "low"
+          }
+        ]
+      },
+      {
+        "text": "Set a timer, so you never have to guess.",
+        "prompt": "A hand winding a small white mechanical kitchen timer on the countertop next to the cooktop. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-10-3.jpg",
+        "focus": [
+          0.55,
+          0.65
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.6,
+              0.72
+            ],
+            "r": 0.07,
+            "on": "timer"
+          }
+        ]
+      },
+      {
+        "text": "If you cook a larger amount, use a bigger pot and add a few extra minutes.",
+        "prompt": "A large stainless steel pot full of cooked white rice next to a small saucepan with a little rice, side by side on the countertop. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-10-4.jpg",
+        "focus": [
+          0.45,
+          0.65
+        ]
+      },
+      {
+        "text": "If rice does stick, soak the pot in hot soapy water for half an hour.",
+        "prompt": "A stainless steel saucepan soaking in a kitchen sink filled with hot soapy water and foam, light steam rising. Photorealistic photograph for a home cooking how-to video. Bright modern kitchen, light oak countertop, white wall tiles, black glass electric cooktop, soft daylight. Medium stainless steel saucepan with a glass lid. Long-grain white rice. Adult hands, rolled-up sleeves of a light blue shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no captions, no logos, no watermark.",
+        "file": "step-10-5.jpg",
+        "focus": [
+          0.5,
+          0.6
+        ]
+      }
+    ]
+  },
+  "extras": {
+    "intro": {
+      "pose": "chef",
+      "diagram": "rice-pot",
+      "title": "Why rice goes wrong",
+      "mode": "ratio",
+      "chips": [
+        {
+          "on": "water",
+          "label": "Too much water",
+          "sub": "soggy grains",
+          "mode": "ratio"
+        },
+        {
+          "on": "stirring",
+          "label": "Too much stirring",
+          "sub": "sticky starch",
+          "mode": "boil"
+        },
+        {
+          "on": "heat",
+          "label": "Too much heat",
+          "sub": "burnt bottom",
+          "mode": "boil"
+        },
+        {
+          "on": "lid",
+          "label": "A lifted lid",
+          "sub": "lost steam",
+          "mode": "peek"
+        },
+        {
+          "on": "easiest",
+          "label": "",
+          "mode": "steam",
+          "hidden": true
+        },
+        {
+          "on": "example",
+          "label": "",
+          "mode": "ratio",
+          "hidden": true
+        },
+        {
+          "on": "method",
+          "label": "",
+          "mode": "rest",
+          "hidden": true
+        }
+      ],
+      "gags": []
+    },
+    "step-1": {
+      "ticks": [
+        {
+          "shot": 1,
+          "on": "cup",
+          "label": "Measuring cup"
+        }
+      ],
+      "facts": [
+        {
+          "shot": 2,
+          "on": "three",
+          "kind": "measure",
+          "big": "1 → 3 cups",
+          "small": "dry to cooked",
+          "dur": 4.0
+        }
+      ],
+      "gags": [
+        {
+          "shot": 3,
+          "on": "boils",
+          "pose": "panic",
+          "side": "left",
+          "dur": 2.8
+        }
+      ],
+      "cards": [
+        {
+          "shot": 4,
+          "on": "heat",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "A thick base spreads the heat, so no hot spot burns the rice.",
+          "dur": 4.4
+        }
+      ]
+    },
+    "step-2": {
+      "ticks": [
+        {
+          "shot": 1,
+          "on": "strainer",
+          "label": "Fine mesh strainer"
+        }
+      ],
+      "facts": [],
+      "cards": [
+        {
+          "shot": 2,
+          "on": "starch",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "Less surface starch means grains that stay separate.",
+          "dur": 4.4
+        },
+        {
+          "shot": 5,
+          "on": "pre-washed",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Do not rinse rice labelled pre-washed or enriched.",
+          "dur": 4.6
+        }
+      ],
+      "gags": []
+    },
+    "step-3": {
+      "facts": [
+        {
+          "shot": 1,
+          "on": "one",
+          "kind": "measure",
+          "big": "1 : 1½",
+          "small": "rice to water",
+          "dur": 4.2
+        },
+        {
+          "shot": 3,
+          "on": "two",
+          "kind": "measure",
+          "big": "1 : 2",
+          "small": "for brown rice",
+          "dur": 3.6
+        }
+      ],
+      "ticks": [
+        {
+          "shot": 4,
+          "on": "salt",
+          "label": "A pinch of salt"
+        }
+      ],
+      "diagrams": [
+        {
+          "shot": 5,
+          "on": "always",
+          "name": "rice-pot",
+          "mode": "ratio",
+          "title": "The ratio",
+          "dur": 4.2
+        }
+      ],
+      "cards": [
+        {
+          "shot": 7,
+          "on": "never",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Extra water is the top cause of soggy rice.",
+          "dur": 4.4
+        }
+      ]
+    },
+    "step-4": {
+      "diagrams": [
+        {
+          "shot": 1,
+          "on": "boil",
+          "name": "rice-pot",
+          "mode": "boil",
+          "title": "A full boil",
+          "dur": 4.6
+        }
+      ],
+      "facts": [
+        {
+          "shot": 2,
+          "on": "single",
+          "kind": "measure",
+          "big": "1 stir",
+          "small": "then hands off",
+          "dur": 4.0
+        }
+      ],
+      "cards": [
+        {
+          "shot": 3,
+          "on": "starch",
+          "kind": "why",
+          "title": "Why",
+          "text": "Stirring rubs starch off the grains and makes them sticky.",
+          "dur": 4.8
+        }
+      ],
+      "gags": [
+        {
+          "shot": 5,
+          "on": "walk",
+          "pose": "idea",
+          "side": "left",
+          "dur": 2.8
+        }
+      ]
+    },
+    "step-5": {
+      "facts": [
+        {
+          "shot": 1,
+          "on": "fifteen",
+          "kind": "timer",
+          "big": "15 min",
+          "small": "lowest heat, lid on",
+          "dur": 4.0
+        },
+        {
+          "shot": 2,
+          "on": "forty-five",
+          "kind": "timer",
+          "big": "45 min",
+          "small": "for brown rice",
+          "dur": 3.0
+        }
+      ],
+      "gags": [
+        {
+          "shot": 3,
+          "on": "lift",
+          "pose": "no",
+          "side": "left",
+          "dur": 2.6
+        }
+      ],
+      "diagrams": [
+        {
+          "shot": 4,
+          "on": "steam",
+          "name": "rice-pot",
+          "mode": "steam",
+          "title": "Steam does the cooking",
+          "dur": 4.0
+        },
+        {
+          "shot": 4,
+          "on": "peek",
+          "name": "rice-pot",
+          "mode": "peek",
+          "title": "No peeking",
+          "dur": 4.6
+        }
+      ],
+      "ticks": [
+        {
+          "shot": 5,
+          "on": "towel",
+          "label": "Tea towel trick"
+        }
+      ]
+    },
+    "step-6": {
+      "facts": [
+        {
+          "shot": 1,
+          "on": "ten",
+          "kind": "timer",
+          "big": "10 min",
+          "small": "lid on, heat off",
+          "dur": 4.0
+        }
+      ],
+      "diagrams": [
+        {
+          "shot": 3,
+          "on": "steam",
+          "name": "rice-pot",
+          "mode": "rest",
+          "title": "Why resting works",
+          "dur": 6.0
+        }
+      ],
+      "gags": [
+        {
+          "shot": 5,
+          "on": "hungry",
+          "pose": "watch",
+          "side": "left",
+          "dur": 3.0
+        }
+      ]
+    },
+    "step-7": {
+      "ticks": [
+        {
+          "shot": 1,
+          "on": "fork",
+          "label": "A fork, not a spoon"
+        }
+      ],
+      "gags": [
+        {
+          "shot": 2,
+          "on": "hot",
+          "pose": "party",
+          "side": "left",
+          "dur": 2.6
+        }
+      ],
+      "cards": [
+        {
+          "shot": 3,
+          "on": "bacteria",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Never leave cooked rice out on the counter for hours.",
+          "dur": 4.6
+        }
+      ],
+      "facts": [
+        {
+          "shot": 4,
+          "on": "one",
+          "kind": "timer",
+          "big": "1 hour",
+          "small": "to cool leftovers",
+          "dur": 4.0
+        }
+      ]
+    },
+    "step-8": {
+      "gags": [
+        {
+          "shot": 1,
+          "on": "wrong",
+          "pose": "panic",
+          "side": "right",
+          "dur": 2.6
+        }
+      ],
+      "facts": [
+        {
+          "shot": 3,
+          "on": "two",
+          "kind": "measure",
+          "big": "2–3 tbsp",
+          "small": "of water",
+          "dur": 3.6
+        }
+      ],
+      "cards": [
+        {
+          "shot": 4,
+          "on": "scrape",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Scraping mixes the burnt taste into the good rice.",
+          "dur": 4.6
+        }
+      ]
+    },
+    "step-9": {
+      "ticks": [
+        {
+          "shot": 2,
+          "on": "toast",
+          "label": "Toast it first"
+        },
+        {
+          "shot": 3,
+          "on": "stock",
+          "label": "Stock, bay leaf, cinnamon"
+        },
+        {
+          "shot": 4,
+          "on": "lemon",
+          "label": "Lemon zest and herbs"
+        }
+      ],
+      "cards": [
+        {
+          "shot": 5,
+          "on": "chilled",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "Cold, dry rice fries instead of steaming.",
+          "dur": 4.4
+        }
+      ]
+    },
+    "step-10": {
+      "gags": [
+        {
+          "shot": 1,
+          "on": "easy",
+          "pose": "no",
+          "side": "right",
+          "dur": 2.8
+        }
+      ],
+      "facts": [
+        {
+          "shot": 3,
+          "on": "timer",
+          "kind": "timer",
+          "big": "Timer on",
+          "small": "every time",
+          "dur": 3.6
+        },
+        {
+          "shot": 5,
+          "on": "half",
+          "kind": "timer",
+          "big": "30 min",
+          "small": "of soaking",
+          "dur": 3.6
+        }
+      ]
+    }
+  }
+}

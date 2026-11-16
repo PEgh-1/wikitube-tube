@@ -24,7 +24,7 @@ export type Fact = { t?: number; dur?: number; kind: "timer" | "measure"; big: s
 export type InfoCardData = { t?: number; dur?: number; kind: "why" | "avoid"; title: string; text: string };
 export type Gag = { t?: number; dur?: number; pose: string; side?: "left" | "right" | "bottom"; on?: string; shot?: number };
 export type Diagram = { t?: number; dur?: number; name: string; mode: string; title?: string; on?: string; shot?: number };
-export type Chip = { t?: number; label: string; sub?: string; mode?: string; on?: string };
+export type Chip = { t?: number; label: string; sub?: string; mode?: string; on?: string; hidden?: boolean }; // hidden : change seulement le mode du schéma
 export type Tick = { t?: number; dur?: number; label: string };
 
 export type ImageRef = {
@@ -59,6 +59,9 @@ export type SceneBase = {
 export type PrerollScene = SceneBase & { type: "preroll"; baseline?: string | null };
 export type HookScene = SceneBase & {
   part?: "cold" | "intro";
+  pose?: string | null; // pose de Wiki sur l'accroche (plumber, chef…)
+  diagramTitle?: string | null;
+  diagramMode?: string | null;
   diagram?: string | null;
   chips?: Chip[];
   gags?: Gag[]; type: "hook"; title: string; category: string; stepCount: number; image?: ImageRef };
@@ -82,7 +85,7 @@ export type StepScene = SceneBase & {
   gags?: Gag[];
   diagrams?: Diagram[];
 };
-export type MistakesScene = SceneBase & { type: "mistakes"; items: string[]; images?: ImageRef[]; cues?: number[] };
+export type MistakesScene = SceneBase & { type: "mistakes"; items: string[]; images?: ImageRef[]; cues?: number[]; subtitle?: string | null };
 export type RecapScene = SceneBase & { type: "recap"; items: string[]; images?: (ImageRef | null)[]; cues?: number[] };
 export type OutroScene = SceneBase & { type: "outro"; baseline?: string | null };
 export type ShortHookScene = SceneBase & { type: "short-hook"; title: string; image?: ImageRef };

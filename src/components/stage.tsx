@@ -222,8 +222,91 @@ export const HouseDrain: React.FC<{ mode: string; local: number; width?: number 
   );
 };
 
+// ---------- Schéma en coupe : la casserole de riz (proportions, ébullition, vapeur, couvercle levé, repos) ----------
+export const RicePot: React.FC<{ mode: string; local: number; width?: number }> = ({ mode, local, width = 800 }) => {
+  const lidOn = mode === "steam" || mode === "rest";
+  const peek = mode === "peek";
+  const cooked = mode === "rest" ? 1 : mode === "steam" ? interpolate(local, [10, 150], [0.15, 0.9], clamp) : mode === "peek" ? 0.5 : 0;
+  const riceH = 56 + cooked * 96; // le riz gonfle en absorbant l'eau
+  const waterH = mode === "rest" ? 0 : mode === "ratio" ? 84 : (1 - cooked) * 84;
+  const riceTop = 450 - riceH;
+  const flame = mode === "boil" ? 1 : mode === "steam" || mode === "peek" ? 0.38 : 0;
+  const flick = 1 + Math.sin(local / 2.3) * 0.12;
+  const lidY = peek ? interpolate(local, [0, 14], [0, -70], { ...clamp, easing: Easing.out(Easing.cubic) }) : 0;
+  const lidRot = peek ? interpolate(local, [0, 14], [0, -16], clamp) : 0;
+  const label = (x: number, y: number, text: string, size = 40, color: string = C.ink, anchor: "start" | "middle" | "end" = "start") => (
+    <text x={x} y={y} fontFamily={HAND} fontWeight={700} fontSize={size} fill={color} textAnchor={anchor}>
+      {text}
+    </text>
+  );
+  const grains = [];
+  for (let r = 0; r * 17 < riceH - 8; r++) for (let c = 0; c < 16; c++) grains.push(<ellipse key={`${r}-${c}`} cx={236 + c * 22 + (r % 2) * 11} cy={440 - r * 17} rx={8} ry={4.4} fill={C.white} stroke={C.ink} strokeWidth={2.2} transform={`rotate(${((r * 7 + c * 13) % 5) * 14 - 28} ${236 + c * 22 + (r % 2) * 11} ${440 - r * 17})`} />);
+  const steamPath = (x: number, k: number) => `M${x} ${riceTop - 8} C${x - 26} ${riceTop - 50} ${x + 26} ${riceTop - 86} ${x} ${Math.max(214, riceTop - 130 - k)}`;
+  return (
+    <svg width={width} height={(width * 560) / 800} viewBox="0 0 800 560" style={{ display: "block" }}>
+      {/* plaque et flamme */}
+      <rect x={170} y={500} width={460} height={18} rx={9} fill={C.ink} />
+      {flame > 0 &&
+        [270, 335, 400, 465, 530].map((x, i) => (
+          <path key={x} d={`M${x - 16} 498 Q${x - 22} ${498 - 30 * flame} ${x} ${498 - 62 * flame * (i % 2 ? flick : 2 - flick)} Q${x + 22} ${498 - 30 * flame} ${x + 16} 498 Z`} fill={C.coral} stroke={C.ink} strokeWidth={5} strokeLinejoin="round" />
+        ))}
+      {/* casserole */}
+      <path d="M196 190 V452 Q196 476 220 476 H580 Q604 476 604 452 V190" fill={C.paper} stroke={C.ink} strokeWidth={10} strokeLinejoin="round" />
+      <path d="M604 236 H700" stroke={C.ink} strokeWidth={22} strokeLinecap="round" />
+      <clipPath id="potin">
+        <path d="M204 196 V450 Q204 468 222 468 H578 Q596 468 596 450 V196 Z" />
+      </clipPath>
+      <g clipPath="url(#potin)">
+        {waterH > 0 && <rect x={200} y={riceTop - waterH} width={400} height={waterH + riceH + 30} fill={C.teal} opacity={0.5} />}
+        <rect x={200} y={riceTop} width={400} height={riceH + 30} fill="#F3EBDD" opacity={0.9} />
+        {grains}
+        {mode === "boil" &&
+          [0, 1, 2, 3, 4, 5, 6].map((i) => {
+            const k = ((local / 22 + i / 7) % 1 + 1) % 1;
+            return <circle key={i} cx={240 + i * 54 + Math.sin(local / 6 + i) * 6} cy={440 - k * (riceH + waterH - 14)} r={7 + (i % 3) * 3} fill="none" stroke={C.white} strokeWidth={5} opacity={1 - k * 0.7} />;
+          })}
+        {(mode === "steam" || mode === "rest") &&
+          [270, 400, 530].map((x, i) => <path key={x} d={steamPath(x, 0)} fill="none" stroke={mode === "rest" ? C.teal : C.coral} strokeWidth={8} strokeLinecap="round" strokeDasharray="20 22" strokeDashoffset={-(local * 2.4) + i * 14} opacity={0.85} />)}
+      </g>
+      {/* vapeur qui s'échappe quand on soulève le couvercle */}
+      {peek &&
+        [300, 400, 500].map((x, i) => {
+          const k = ((local / 26 + i / 3) % 1 + 1) % 1;
+          return <path key={x} d={`M${x} ${170 - k * 90} q-18 -22 0 -44 q18 -22 0 -44`} fill="none" stroke={C.coral} strokeWidth={9} strokeLinecap="round" opacity={1 - k} />;
+        })}
+      {/* couvercle */}
+      {(lidOn || peek) && (
+        <g transform={`translate(0 ${lidY}) rotate(${lidRot} 610 186)`}>
+          <path d="M180 186 Q400 132 620 186 Z" fill={C.white} stroke={C.ink} strokeWidth={9} strokeLinejoin="round" />
+          <rect x={376} y={126} width={48} height={26} rx={10} fill={C.ink} />
+        </g>
+      )}
+      {/* légendes */}
+      {mode === "ratio" && (
+        <>
+          <path d={`M172 ${riceTop - waterH} V${riceTop}`} stroke={C.teal} strokeWidth={8} strokeLinecap="round" />
+          {label(160, riceTop - waterH / 2 + 12, "1½ water", 40, C.teal, "end")}
+          <path d={`M172 ${riceTop + 6} V450`} stroke={C.coral} strokeWidth={8} strokeLinecap="round" />
+          {label(160, riceTop + riceH / 2 + 16, "1 rice", 40, C.coral, "end")}
+          {label(400, 110, "Measured, never by eye", 44, C.ink, "middle")}
+        </>
+      )}
+      {mode === "boil" && label(400, 110, "High heat, lid off, one stir", 46, C.ink, "middle")}
+      {mode === "steam" && label(400, 96, "Trapped steam cooks the rice", 46, C.ink, "middle")}
+      {mode === "peek" && label(250, 548, "Every peek lets the steam out", 44, C.coral)}
+      {mode === "rest" && (
+        <>
+          {label(400, 96, "Heat off, lid on", 46, C.ink, "middle")}
+          {label(400, 548, "The moisture evens out", 44, C.teal, "middle")}
+        </>
+      )}
+    </svg>
+  );
+};
+
 const DIAGRAMS: Record<string, React.FC<{ mode: string; local: number; width?: number }>> = {
   "toilet-trap": ({ mode, local, width }) => <ToiletTrap mode={mode as TrapMode} local={local} width={width} />,
+  "rice-pot": ({ mode, local, width }) => <RicePot mode={mode} local={local} width={width} />,
   "house-drain": ({ mode, local, width }) => <HouseDrain mode={mode} local={local} width={width} />,
 };
 

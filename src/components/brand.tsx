@@ -11,7 +11,7 @@ const IMG_ASPECT = 16 / 9;
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 
 // ---------- Mascotte ----------
-export type Pose = "wave" | "point" | "idea" | "no" | "thumbs" | "pencil" | "wet" | "panic" | "nose" | "party" | "watch" | "plumber";
+export type Pose = "wave" | "point" | "idea" | "no" | "thumbs" | "pencil" | "wet" | "panic" | "nose" | "party" | "watch" | "plumber" | "chef";
 export const Mascot: React.FC<{ pose: Pose; height: number; delay?: number; flip?: boolean; style?: React.CSSProperties }> = ({ pose, height, delay = 0, flip = false, style }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();

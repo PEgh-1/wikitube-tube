@@ -1,0 +1,1167 @@
+{
+ "shots": {
+  "1-1": {
+   "focus": [
+    0.52,
+    0.45
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.53,
+      0.3
+     ],
+     "text": "A level cup, every time",
+     "label": [
+      0.76,
+      0.22
+     ],
+     "on": "measure"
+    }
+   ]
+  },
+  "1-2": {
+   "focus": [
+    0.5,
+    0.65
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.26,
+      0.72
+     ],
+     "r": 0.08,
+     "text": "1 cup dry",
+     "label": [
+      0.2,
+      0.36
+     ],
+     "on": "one"
+    },
+    {
+     "type": "circle",
+     "at": [
+      0.68,
+      0.6
+     ],
+     "r": 0.2,
+     "on": "three"
+    }
+   ]
+  },
+  "1-3": {
+   "focus": [
+    0.45,
+    0.6
+   ]
+  },
+  "1-4": {
+   "focus": [
+    0.4,
+    0.6
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.36,
+      0.7
+     ],
+     "text": "Thick base",
+     "label": [
+      0.2,
+      0.25
+     ],
+     "on": "heavy-bottomed"
+    }
+   ]
+  },
+  "1-5": {
+   "focus": [
+    0.45,
+    0.55
+   ]
+  },
+  "1-6": {
+   "focus": [
+    0.48,
+    0.5
+   ]
+  },
+  "2-1": {
+   "focus": [
+    0.52,
+    0.55
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.53,
+      0.6
+     ],
+     "r": 0.12,
+     "text": "Swish with your fingers",
+     "label": [
+      0.28,
+      0.38
+     ],
+     "on": "swishing"
+    }
+   ]
+  },
+  "2-2": {
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.42,
+      0.48
+     ],
+     "text": "Surface starch",
+     "label": [
+      0.72,
+      0.22
+     ],
+     "on": "cloudiness"
+    }
+   ]
+  },
+  "2-3": {
+   "focus": [
+    0.48,
+    0.6
+   ],
+   "compare": {
+    "file": "step-2-2.jpg",
+    "labels": [
+     "Starchy",
+     "Clear"
+    ]
+   }
+  },
+  "2-4": {
+   "focus": [
+    0.55,
+    0.45
+   ]
+  },
+  "2-5": {
+   "focus": [
+    0.45,
+    0.6
+   ]
+  },
+  "2-6": {
+   "focus": [
+    0.5,
+    0.65
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.3,
+      0.68
+     ],
+     "r": 0.13,
+     "text": "Rinsed",
+     "label": [
+      0.22,
+      0.3
+     ],
+     "on": "restaurant"
+    },
+    {
+     "type": "cross",
+     "at": [
+      0.68,
+      0.68
+     ],
+     "r": 0.07,
+     "text": "Not rinsed",
+     "label": [
+      0.8,
+      0.3
+     ],
+     "on": "cafeteria"
+    }
+   ]
+  },
+  "3-1": {
+   "focus": [
+    0.6,
+    0.55
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.62,
+      0.66
+     ],
+     "r": 0.09,
+     "text": "1 rice",
+     "label": [
+      0.45,
+      0.2
+     ],
+     "on": "one"
+    },
+    {
+     "type": "circle",
+     "at": [
+      0.81,
+      0.5
+     ],
+     "r": 0.1,
+     "text": "1½ water",
+     "label": [
+      0.8,
+      0.9
+     ],
+     "on": "half"
+    }
+   ]
+  },
+  "3-2": {
+   "focus": [
+    0.45,
+    0.6
+   ]
+  },
+  "3-3": {
+   "focus": [
+    0.45,
+    0.65
+   ]
+  },
+  "3-4": {
+   "focus": [
+    0.5,
+    0.5
+   ]
+  },
+  "3-5": {
+   "focus": [
+    0.4,
+    0.6
+   ]
+  },
+  "3-6": {
+   "focus": [
+    0.7,
+    0.5
+   ]
+  },
+  "3-7": {
+   "focus": [
+    0.52,
+    0.5
+   ]
+  },
+  "4-1": {
+   "focus": [
+    0.45,
+    0.5
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.6,
+      0.68
+     ],
+     "r": 0.07,
+     "text": "High heat",
+     "label": [
+      0.25,
+      0.3
+     ],
+     "on": "high"
+    }
+   ]
+  },
+  "4-2": {
+   "focus": [
+    0.55,
+    0.5
+   ]
+  },
+  "4-3": {
+   "focus": [
+    0.6,
+    0.6
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.6,
+      0.62
+     ],
+     "text": "Risotto: stirred on purpose",
+     "label": [
+      0.3,
+      0.25
+     ],
+     "on": "risotto"
+    }
+   ]
+  },
+  "4-4": {
+   "focus": [
+    0.5,
+    0.55
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.68,
+      0.42
+     ],
+     "text": "Lid ready",
+     "label": [
+      0.82,
+      0.75
+     ],
+     "on": "ready"
+    }
+   ]
+  },
+  "4-5": {
+   "focus": [
+    0.45,
+    0.6
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.33,
+      0.76
+     ],
+     "r": 0.1,
+     "text": "Timer on",
+     "label": [
+      0.38,
+      0.46
+     ],
+     "on": "timer"
+    }
+   ]
+  },
+  "5-1": {
+   "focus": [
+    0.72,
+    0.5
+   ]
+  },
+  "5-2": {
+   "focus": [
+    0.55,
+    0.65
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.72,
+      0.74
+     ],
+     "r": 0.07,
+     "on": "fifteen"
+    }
+   ]
+  },
+  "5-3": {
+   "focus": [
+    0.65,
+    0.45
+   ],
+   "notes": [
+    {
+     "type": "cross",
+     "at": [
+      0.5,
+      0.32
+     ],
+     "r": 0.06,
+     "text": "Hands off",
+     "label": [
+      0.72,
+      0.2
+     ],
+     "on": "not"
+    }
+   ]
+  },
+  "5-4": {
+   "focus": [
+    0.45,
+    0.5
+   ]
+  },
+  "5-5": {
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.48,
+      0.55
+     ],
+     "text": "Corners up, away from the heat",
+     "label": [
+      0.62,
+      0.17
+     ],
+     "on": "towel"
+    }
+   ]
+  },
+  "5-6": {
+   "focus": [
+    0.5,
+    0.75
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.4,
+      0.88
+     ],
+     "text": "Heat diffuser",
+     "label": [
+      0.22,
+      0.5
+     ],
+     "on": "diffuser"
+    }
+   ]
+  },
+  "5-7": {
+   "focus": [
+    0.5,
+    0.6
+   ],
+   "notes": [
+    {
+     "type": "loupe",
+     "at": [
+      0.32,
+      0.57
+     ],
+     "lens": [
+      0.22,
+      0.42
+     ],
+     "r": 0.13,
+     "zoom": 2.2,
+     "text": "No gap = no lost steam",
+     "on": "tight"
+    }
+   ]
+  },
+  "6-1": {
+   "focus": [
+    0.5,
+    0.55
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.55,
+      0.62
+     ],
+     "r": 0.08,
+     "text": "Heat off",
+     "label": [
+      0.3,
+      0.3
+     ],
+     "on": "off"
+    }
+   ]
+  },
+  "6-2": {
+   "focus": [
+    0.5,
+    0.65
+   ]
+  },
+  "6-3": {
+   "focus": [
+    0.4,
+    0.7
+   ]
+  },
+  "6-4": {
+   "focus": [
+    0.5,
+    0.6
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.52,
+      0.85
+     ],
+     "text": "Still hot",
+     "label": [
+      0.22,
+      0.62
+     ],
+     "on": "hot"
+    }
+   ]
+  },
+  "6-5": {
+   "focus": [
+    0.5,
+    0.7
+   ]
+  },
+  "6-6": {
+   "focus": [
+    0.52,
+    0.5
+   ]
+  },
+  "7-1": {
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.55,
+      0.5
+     ],
+     "text": "Lift and fold",
+     "label": [
+      0.2,
+      0.6
+     ],
+     "on": "lifting"
+    }
+   ]
+  },
+  "7-2": {
+   "focus": [
+    0.5,
+    0.65
+   ]
+  },
+  "7-3": {
+   "focus": [
+    0.4,
+    0.6
+   ]
+  },
+  "7-4": {
+   "focus": [
+    0.45,
+    0.7
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.4,
+      0.82
+     ],
+     "text": "A thin layer cools fast",
+     "label": [
+      0.25,
+      0.45
+     ],
+     "on": "spread"
+    }
+   ]
+  },
+  "7-5": {
+   "focus": [
+    0.5,
+    0.55
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.47,
+      0.42
+     ],
+     "text": "Steaming hot",
+     "label": [
+      0.2,
+      0.3
+     ],
+     "on": "steaming"
+    }
+   ]
+  },
+  "8-1": {
+   "focus": [
+    0.5,
+    0.55
+   ]
+  },
+  "8-2": {
+   "focus": [
+    0.45,
+    0.45
+   ]
+  },
+  "8-3": {
+   "focus": [
+    0.48,
+    0.5
+   ]
+  },
+  "8-4": {
+   "focus": [
+    0.45,
+    0.5
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.4,
+      0.6
+     ],
+     "text": "Leave the burnt layer",
+     "label": [
+      0.22,
+      0.3
+     ],
+     "on": "burnt"
+    }
+   ]
+  },
+  "9-1": {
+   "focus": [
+    0.5,
+    0.55
+   ]
+  },
+  "9-2": {
+   "focus": [
+    0.52,
+    0.6
+   ]
+  },
+  "9-3": {
+   "focus": [
+    0.52,
+    0.45
+   ]
+  },
+  "9-4": {
+   "focus": [
+    0.5,
+    0.5
+   ]
+  },
+  "9-5": {
+   "focus": [
+    0.5,
+    0.45
+   ]
+  },
+  "10-1": {
+   "focus": [
+    0.45,
+    0.6
+   ]
+  },
+  "10-2": {
+   "focus": [
+    0.55,
+    0.65
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.57,
+      0.74
+     ],
+     "r": 0.07,
+     "text": "Lowest setting",
+     "label": [
+      0.25,
+      0.3
+     ],
+     "on": "low"
+    }
+   ]
+  },
+  "10-3": {
+   "focus": [
+    0.55,
+    0.65
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.6,
+      0.72
+     ],
+     "r": 0.07,
+     "on": "timer"
+    }
+   ]
+  },
+  "10-4": {
+   "focus": [
+    0.45,
+    0.65
+   ]
+  },
+  "10-5": {
+   "focus": [
+    0.5,
+    0.6
+   ]
+  }
+ },
+ "extras": {
+  "intro": {
+   "pose": "chef",
+   "diagram": "rice-pot",
+   "title": "Why rice goes wrong",
+   "mode": "ratio",
+   "chips": [
+    {
+     "on": "water",
+     "label": "Too much water",
+     "sub": "soggy grains",
+     "mode": "ratio"
+    },
+    {
+     "on": "stirring",
+     "label": "Too much stirring",
+     "sub": "sticky starch",
+     "mode": "boil"
+    },
+    {
+     "on": "heat",
+     "label": "Too much heat",
+     "sub": "burnt bottom",
+     "mode": "boil"
+    },
+    {
+     "on": "lid",
+     "label": "A lifted lid",
+     "sub": "lost steam",
+     "mode": "peek"
+    },
+    {
+     "on": "easiest",
+     "label": "",
+     "mode": "steam",
+     "hidden": true
+    },
+    {
+     "on": "example",
+     "label": "",
+     "mode": "ratio",
+     "hidden": true
+    },
+    {
+     "on": "method",
+     "label": "",
+     "mode": "rest",
+     "hidden": true
+    }
+   ],
+   "gags": []
+  },
+  "step-1": {
+   "ticks": [
+    {
+     "shot": 1,
+     "on": "cup",
+     "label": "Measuring cup"
+    }
+   ],
+   "facts": [
+    {
+     "shot": 2,
+     "on": "three",
+     "kind": "measure",
+     "big": "1 → 3 cups",
+     "small": "dry to cooked",
+     "dur": 4.0
+    }
+   ],
+   "gags": [
+    {
+     "shot": 3,
+     "on": "boils",
+     "pose": "panic",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "cards": [
+    {
+     "shot": 4,
+     "on": "heat",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "A thick base spreads the heat, so no hot spot burns the rice.",
+     "dur": 4.4
+    }
+   ]
+  },
+  "step-2": {
+   "ticks": [
+    {
+     "shot": 1,
+     "on": "strainer",
+     "label": "Fine mesh strainer"
+    }
+   ],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 2,
+     "on": "starch",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "Less surface starch means grains that stay separate.",
+     "dur": 4.4
+    },
+    {
+     "shot": 5,
+     "on": "pre-washed",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Do not rinse rice labelled pre-washed or enriched.",
+     "dur": 4.6
+    }
+   ],
+   "gags": []
+  },
+  "step-3": {
+   "facts": [
+    {
+     "shot": 1,
+     "on": "one",
+     "kind": "measure",
+     "big": "1 : 1½",
+     "small": "rice to water",
+     "dur": 4.2
+    },
+    {
+     "shot": 3,
+     "on": "two",
+     "kind": "measure",
+     "big": "1 : 2",
+     "small": "for brown rice",
+     "dur": 3.6
+    }
+   ],
+   "ticks": [
+    {
+     "shot": 4,
+     "on": "salt",
+     "label": "A pinch of salt"
+    }
+   ],
+   "diagrams": [
+    {
+     "shot": 5,
+     "on": "always",
+     "name": "rice-pot",
+     "mode": "ratio",
+     "title": "The ratio",
+     "dur": 4.2
+    }
+   ],
+   "cards": [
+    {
+     "shot": 7,
+     "on": "never",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Extra water is the top cause of soggy rice.",
+     "dur": 4.4
+    }
+   ]
+  },
+  "step-4": {
+   "diagrams": [
+    {
+     "shot": 1,
+     "on": "boil",
+     "name": "rice-pot",
+     "mode": "boil",
+     "title": "A full boil",
+     "dur": 4.6
+    }
+   ],
+   "facts": [
+    {
+     "shot": 2,
+     "on": "single",
+     "kind": "measure",
+     "big": "1 stir",
+     "small": "then hands off",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 3,
+     "on": "starch",
+     "kind": "why",
+     "title": "Why",
+     "text": "Stirring rubs starch off the grains and makes them sticky.",
+     "dur": 4.8
+    }
+   ],
+   "gags": [
+    {
+     "shot": 5,
+     "on": "walk",
+     "pose": "idea",
+     "side": "left",
+     "dur": 2.8
+    }
+   ]
+  },
+  "step-5": {
+   "facts": [
+    {
+     "shot": 1,
+     "on": "fifteen",
+     "kind": "timer",
+     "big": "15 min",
+     "small": "lowest heat, lid on",
+     "dur": 4.0
+    },
+    {
+     "shot": 2,
+     "on": "forty-five",
+     "kind": "timer",
+     "big": "45 min",
+     "small": "for brown rice",
+     "dur": 3.0
+    }
+   ],
+   "gags": [
+    {
+     "shot": 3,
+     "on": "lift",
+     "pose": "no",
+     "side": "left",
+     "dur": 2.6
+    }
+   ],
+   "diagrams": [
+    {
+     "shot": 4,
+     "on": "steam",
+     "name": "rice-pot",
+     "mode": "steam",
+     "title": "Steam does the cooking",
+     "dur": 4.0
+    },
+    {
+     "shot": 4,
+     "on": "peek",
+     "name": "rice-pot",
+     "mode": "peek",
+     "title": "No peeking",
+     "dur": 4.6
+    }
+   ],
+   "ticks": [
+    {
+     "shot": 5,
+     "on": "towel",
+     "label": "Tea towel trick"
+    }
+   ]
+  },
+  "step-6": {
+   "facts": [
+    {
+     "shot": 1,
+     "on": "ten",
+     "kind": "timer",
+     "big": "10 min",
+     "small": "lid on, heat off",
+     "dur": 4.0
+    }
+   ],
+   "diagrams": [
+    {
+     "shot": 3,
+     "on": "steam",
+     "name": "rice-pot",
+     "mode": "rest",
+     "title": "Why resting works",
+     "dur": 6.0
+    }
+   ],
+   "gags": [
+    {
+     "shot": 5,
+     "on": "hungry",
+     "pose": "watch",
+     "side": "left",
+     "dur": 3.0
+    }
+   ]
+  },
+  "step-7": {
+   "ticks": [
+    {
+     "shot": 1,
+     "on": "fork",
+     "label": "A fork, not a spoon"
+    }
+   ],
+   "gags": [
+    {
+     "shot": 2,
+     "on": "hot",
+     "pose": "party",
+     "side": "left",
+     "dur": 2.6
+    }
+   ],
+   "cards": [
+    {
+     "shot": 3,
+     "on": "bacteria",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Never leave cooked rice out on the counter for hours.",
+     "dur": 4.6
+    }
+   ],
+   "facts": [
+    {
+     "shot": 4,
+     "on": "one",
+     "kind": "timer",
+     "big": "1 hour",
+     "small": "to cool leftovers",
+     "dur": 4.0
+    }
+   ]
+  },
+  "step-8": {
+   "gags": [
+    {
+     "shot": 1,
+     "on": "wrong",
+     "pose": "panic",
+     "side": "right",
+     "dur": 2.6
+    }
+   ],
+   "facts": [
+    {
+     "shot": 3,
+     "on": "two",
+     "kind": "measure",
+     "big": "2–3 tbsp",
+     "small": "of water",
+     "dur": 3.6
+    }
+   ],
+   "cards": [
+    {
+     "shot": 4,
+     "on": "scrape",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Scraping mixes the burnt taste into the good rice.",
+     "dur": 4.6
+    }
+   ]
+  },
+  "step-9": {
+   "ticks": [
+    {
+     "shot": 2,
+     "on": "toast",
+     "label": "Toast it first"
+    },
+    {
+     "shot": 3,
+     "on": "stock",
+     "label": "Stock, bay leaf, cinnamon"
+    },
+    {
+     "shot": 4,
+     "on": "lemon",
+     "label": "Lemon zest and herbs"
+    }
+   ],
+   "cards": [
+    {
+     "shot": 5,
+     "on": "chilled",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "Cold, dry rice fries instead of steaming.",
+     "dur": 4.4
+    }
+   ]
+  },
+  "step-10": {
+   "gags": [
+    {
+     "shot": 1,
+     "on": "easy",
+     "pose": "no",
+     "side": "right",
+     "dur": 2.8
+    }
+   ],
+   "facts": [
+    {
+     "shot": 3,
+     "on": "timer",
+     "kind": "timer",
+     "big": "Timer on",
+     "small": "every time",
+     "dur": 3.6
+    },
+    {
+     "shot": 5,
+     "on": "half",
+     "kind": "timer",
+     "big": "30 min",
+     "small": "of soaking",
+     "dur": 3.6
+    }
+   ]
+  }
+ }
+}

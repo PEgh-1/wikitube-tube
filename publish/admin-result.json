@@ -1,10 +1,12 @@
 {
-  "at": "2026-11-17T08:13:08.647Z",
+  "at": "2026-11-17T09:31:13.267Z",
   "playlists": [
     {
       "title": "Kitchen Basics & Cooking How-Tos",
       "id": "PLCdiLEcUVc2k",
-      "added": [],
+      "added": [
+        "9OuMPtvsZ_M"
+      ],
       "already": [
         "NOhP95QolFY"
       ]
@@ -20,7 +22,9 @@
     {
       "title": "Cleaning How-Tos",
       "id": "PLfKQeKEgp-dc",
-      "added": [],
+      "added": [
+        "tK0R8pIWO_o"
+      ],
       "already": [
         "7pjOrMjN5Tw"
       ]
@@ -29,94 +33,124 @@
   "localizations": [
     {
       "videoId": "hzF08Ben-PU",
-      "changed": 8,
+      "changed": 0,
       "locales": [
-        "es-US",
-        "nl-NL",
-        "te",
-        "ta",
-        "ko",
         "pt-BR",
-        "pa",
         "id",
-        "fr",
-        "en",
-        "bn",
         "iw",
-        "fr-FR",
-        "de",
-        "ar",
-        "ru",
-        "pt",
-        "it",
-        "uk",
         "pl",
-        "es",
+        "ko",
+        "pa",
+        "ar",
+        "ja",
         "ml",
+        "fr",
+        "de",
+        "es-US",
+        "pt",
+        "uk",
+        "ru",
+        "nl-NL",
+        "en",
+        "it",
         "hi",
-        "ja"
+        "bn",
+        "te",
+        "es",
+        "fr-FR",
+        "ta"
       ]
     },
     {
       "videoId": "NOhP95QolFY",
       "changed": 0,
       "locales": [
-        "fr",
-        "ru",
-        "it",
-        "ml",
         "bn",
+        "pt",
         "pl",
-        "id",
+        "pt-BR",
+        "pa",
+        "de-DE",
+        "nl-NL",
         "de",
+        "es",
+        "uk",
+        "en",
+        "id",
+        "it",
         "es-US",
         "hi",
-        "pt-BR",
-        "ta",
-        "en",
-        "es",
-        "ja",
-        "nl-NL",
-        "te",
         "fr-FR",
-        "ar",
-        "ko",
+        "ru",
+        "fr",
         "iw",
-        "de-DE",
-        "pa",
-        "uk",
-        "pt"
+        "ja",
+        "ml",
+        "ar",
+        "te",
+        "ko",
+        "ta"
       ]
     },
     {
       "videoId": "7pjOrMjN5Tw",
       "changed": 0,
       "locales": [
-        "pt",
-        "id",
-        "ml",
-        "en",
-        "pa",
+        "fr",
+        "te",
+        "it",
         "es",
+        "pt",
+        "nl-NL",
+        "bn",
+        "de-DE",
+        "id",
+        "ru",
         "ja",
         "iw",
-        "ru",
-        "hi",
-        "fr",
-        "bn",
-        "te",
         "es-US",
-        "ko",
-        "de-DE",
-        "it",
-        "uk",
-        "de",
-        "pl",
-        "nl-NL",
-        "ta",
-        "ar",
         "pt-BR",
-        "fr-FR"
+        "ko",
+        "ar",
+        "pl",
+        "ml",
+        "ta",
+        "uk",
+        "hi",
+        "fr-FR",
+        "en",
+        "de",
+        "pa"
+      ]
+    },
+    {
+      "videoId": "9OuMPtvsZ_M",
+      "changed": 8,
+      "locales": [
+        "de",
+        "en",
+        "es",
+        "id",
+        "fr",
+        "hi",
+        "pt",
+        "it",
+        "ja"
+      ]
+    },
+    {
+      "videoId": "tK0R8pIWO_o",
+      "changed": 8,
+      "locales": [
+        "pt",
+        "id",
+        "ja",
+        "es",
+        "it",
+        "fr",
+        "hi",
+        "de",
+        "en"
       ]
     }
   ],

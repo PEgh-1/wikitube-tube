@@ -61,17 +61,17 @@ export const Subtitles: React.FC<{
   const chunk = chunks.find((c) => t >= c.s - 0.05 && t < c.e);
   if (!chunk) return null;
   const isShort = variant === "short";
-  const fontSize = isShort ? 60 : 42;
+  const fontSize = isShort ? 78 : 42;
   return (
     <div
       style={{
         position: "absolute",
-        bottom: isShort ? 470 : 60,
+        bottom: isShort ? 360 : 60,
         left: 0,
         right: 0,
         display: "flex",
         justifyContent: "center",
-        padding: "0 60px",
+        padding: isShort ? "0 40px" : "0 60px",
         fontFamily: FONT,
         pointerEvents: "none",
       }}
@@ -82,9 +82,9 @@ export const Subtitles: React.FC<{
           color: dark ? C.ink : C.white,
           fontSize,
           fontWeight: 800,
-          padding: isShort ? "20px 36px" : "16px 36px",
-          borderRadius: isShort ? 26 : 18,
-          maxWidth: isShort ? 960 : 1500,
+          padding: isShort ? "22px 30px" : "16px 36px",
+          borderRadius: isShort ? 30 : 18,
+          maxWidth: isShort ? 1000 : 1500,
           textAlign: "center",
           lineHeight: 1.25,
           boxShadow: "0 10px 30px rgba(27,42,65,0.18)",

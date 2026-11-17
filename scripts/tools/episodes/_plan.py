@@ -17,7 +17,7 @@ def build(ID, TAIL, HERO, YOUNEED, MISTAKES, S, notes_name, subtitle, patch=None
              "youneed": {"prompt": YOUNEED + " " + TAIL, "file": "youneed.jpg", "focus": list(youneed_focus)},
              "mistakesSubtitle": subtitle,
              "mistakes": [{"prompt": p + " " + TAIL, "file": f"mistake-{k}.jpg", "focus": (mistakes_focus or [[0.5, 0.5]] * len(MISTAKES))[k - 1]} for k, p in enumerate(MISTAKES, 1)],
-             "shots": {}, "extras": copy.deepcopy(N.get("extras", {}))}
+             "shots": {}, "extras": copy.deepcopy(N.get("extras", {})), "short": N.get("short")}
     prompts = [["hero.jpg", HERO], ["youneed.jpg", YOUNEED]] + [[f"mistake-{k}.jpg", p] for k, p in enumerate(MISTAKES, 1)]
     for i, sec in enumerate(sections, 1):
         assert norm(" ".join(t for t, _ in S[i])) == norm(sec["narration"]), f"section {i} : le découpage ne correspond plus à la narration\n{norm(' '.join(t for t, _ in S[i]))}\n{norm(sec['narration'])}"

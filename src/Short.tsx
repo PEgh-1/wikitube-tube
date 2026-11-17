@@ -5,6 +5,7 @@ import type { ShortProps, Scene } from "./types";
 import { ShortHook, ShortStep, ShortCta } from "./scenes/short";
 import { Subtitles, SceneAudio } from "./components/Subtitles";
 import { FadeOut } from "./components/ui";
+import { OverflowProbe } from "./components/probe";
 
 const SceneView: React.FC<{ scene: Scene; durationInFrames: number }> = ({ scene, durationInFrames }) => {
   switch (scene.type) {
@@ -37,6 +38,7 @@ export const Short: React.FC<ShortProps> = ({ timeline, options }) => {
           </Sequence>
         );
       })}
+      {options?.probe && <OverflowProbe />}
     </AbsoluteFill>
   );
 };

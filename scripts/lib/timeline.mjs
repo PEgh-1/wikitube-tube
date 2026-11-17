@@ -230,7 +230,10 @@ export function buildShortTimeline(ep, tts, images, { fps = FPS } = {}) {
     ep.short.steps.forEach((s, i) => {
       // Les 3 étapes du Short réutilisent les images des étapes du long (réparties).
       const srcIndex = Math.min(ep.steps.length - 1, Math.round((i * (ep.steps.length - 1)) / 2));
-      push({ type: "short-step", index: i + 1, total: 3, title: s.title, image: images.steps[srcIndex] }, `short-step-${i + 1}`);
+      // Plan choisi à la main pour le Short ("étape-plan", photo uniquement), sinon l'image principale de l'étape.
+      const [ps, pj] = String(images.shortShots?.[i] ?? "").split("-").map(Number);
+      const picked = ps && pj ? images.stepShots?.[ps - 1]?.[pj - 1] : null;
+      push({ type: "short-step", index: i + 1, total: 3, title: s.title, image: picked && picked.kind !== "video" ? picked : images.steps[srcIndex] }, `short-step-${i + 1}`);
     });
     push({ type: "short-cta" }, "short-cta", 1.0);
     return { scenes, totalSec: t };

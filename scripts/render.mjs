@@ -89,7 +89,8 @@ const common = { serveUrl, browserExecutable, chromiumOptions, logLevel: "warn" 
 
 async function renderVideo(id, timeline, outFile, frameRange = null) {
   log.step(`Rendu ${id} → ${path.relative(DIRS.root, outFile)}`);
-  const inputProps = { timeline, options: { burnSubtitles, audio: true } };
+  // Short : sous-titres toujours incrustés (regardé sans le son, et les réseaux n'affichent pas le .srt).
+  const inputProps = { timeline, options: { burnSubtitles: burnSubtitles || id === "Short", audio: true } };
   const composition = await selectComposition({ ...common, id, inputProps });
   const started = Date.now();
   await renderMedia({

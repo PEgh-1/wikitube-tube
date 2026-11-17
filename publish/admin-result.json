@@ -1,17 +1,124 @@
 {
-  "at": "2026-11-17T06:34:24.685Z",
+  "at": "2026-11-17T06:35:59.714Z",
   "playlists": [
     {
       "title": "Kitchen Basics & Cooking How-Tos",
       "id": "PLCdiLEcUVc2k",
-      "added": [
+      "added": [],
+      "already": [
         "NOhP95QolFY"
+      ]
+    },
+    {
+      "title": "Home Repairs & Quick Fixes",
+      "id": "PLMuX-UiXVOk4",
+      "added": [
+        "hzF08Ben-PU"
+      ],
+      "already": []
+    },
+    {
+      "title": "Cleaning How-Tos",
+      "id": "PLfKQeKEgp-dc",
+      "added": [
+        "7pjOrMjN5Tw"
       ],
       "already": []
     }
   ],
-  "localizations": [],
-  "errors": [
-    "POST https://www.googleapis.com/youtube/v3/playlistItems?part=snippet → 409 : {\n  \"error\": {\n    \"code\": 409,\n    \"message\": \"The operation was aborted.\",\n    \"errors\": [\n      {\n        \"domain\": \"youtube.CoreErrorDomain\",\n        \"reason\": \"SERVICE_UNAVAILABLE\"\n      }\n    ],\n    \"status\": \"ABORTED\"\n  }\n}\n"
-  ]
+  "localizations": [
+    {
+      "videoId": "hzF08Ben-PU",
+      "changed": 8,
+      "locales": [
+        "es-US",
+        "ru",
+        "bn",
+        "fr-FR",
+        "en",
+        "uk",
+        "pa",
+        "pl",
+        "id",
+        "ja",
+        "te",
+        "fr",
+        "hi",
+        "nl-NL",
+        "pt-BR",
+        "ml",
+        "it",
+        "es",
+        "ta",
+        "de",
+        "pt",
+        "ko",
+        "iw",
+        "ar"
+      ]
+    },
+    {
+      "videoId": "NOhP95QolFY",
+      "changed": 8,
+      "locales": [
+        "pl",
+        "hi",
+        "ml",
+        "ta",
+        "de-DE",
+        "de",
+        "pt",
+        "ru",
+        "iw",
+        "te",
+        "ko",
+        "es-US",
+        "pt-BR",
+        "bn",
+        "it",
+        "fr-FR",
+        "en",
+        "es",
+        "uk",
+        "ar",
+        "pa",
+        "ja",
+        "id",
+        "nl-NL",
+        "fr"
+      ]
+    },
+    {
+      "videoId": "7pjOrMjN5Tw",
+      "changed": 8,
+      "locales": [
+        "it",
+        "de",
+        "en",
+        "pt",
+        "id",
+        "de-DE",
+        "iw",
+        "ja",
+        "ar",
+        "es-US",
+        "fr-FR",
+        "hi",
+        "pa",
+        "pl",
+        "nl-NL",
+        "es",
+        "te",
+        "ta",
+        "ko",
+        "ru",
+        "pt-BR",
+        "fr",
+        "uk",
+        "bn",
+        "ml"
+      ]
+    }
+  ],
+  "errors": []
 }

@@ -76,5 +76,24 @@
   "badge": "IN A PAN, NO GRILL",
   "mascot": "chef",
   "mascotH": 300
+ },
+ "2026-11-28-remove-toilet-ring-hard-water": {
+  "photo": "thumbs/rings.jpg",
+  "position": "50% 50%",
+  "zoom": 1.05,
+  "lines": [
+   {
+    "text": "TOILET",
+    "size": 136
+   },
+   {
+    "text": "RING?",
+    "hi": true,
+    "size": 150
+   }
+  ],
+  "badge": "DISSOLVE IT, DON'T SCRUB",
+  "mascot": "plumber",
+  "mascotH": 300
  }
 }

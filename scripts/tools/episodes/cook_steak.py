@@ -11,7 +11,7 @@ HERO = "A perfectly seared ribeye steak sliced on a light wood board, deep brown
 YOUNEED = "Flat lay photographed from directly above on a light wood countertop, items neatly arranged with clear space between them: a thick raw ribeye steak on a plate, a small bowl of coarse salt and a pepper grinder, a black cast iron skillet, a probe meat thermometer, a small bottle of plain golden oil, a block of butter, two garlic cloves and a sprig of fresh thyme."
 MISTAKES = [
  "A wet raw steak with beads of water on its surface being laid in a lukewarm skillet, the pan barely warm and the meat turning grey and steaming, close-up.",
- "A hand pressing down hard on a searing steak with a metal spatula in a black cast iron skillet, the crust tearing and sticking to the pan.",
+ "Close-up of a metal spatula pressing down hard on a searing steak in a black cast iron skillet on a lit gas burner, juices squeezing out around the meat, only the spatula and its handle touch the steak, no hand near the pan.",
  "A freshly cooked steak cut open right out of the pan on a light wood board, a puddle of red juices running out across the board, close-up.",
 ]
 S = {
@@ -20,7 +20,7 @@ S = {
   ("Ribeye, strip and sirloin are all excellent.", "Three different raw steaks, a marbled ribeye, a strip and a sirloin, laid out on a white butcher paper on the countertop, seen from above."),
   ("Take the meat out of the fridge about thirty minutes before cooking, so the chill comes off the surface.", "A hand taking a thick raw steak on a plate out of an open fridge, a kitchen timer standing on the counter beside it."),
   ("Then pat it completely dry with paper towels, on every side.", "Hands pressing a paper towel onto the top of a thick raw steak on a board, close-up."),
-  ("This is the most important part of this step, because water on the meat turns to steam in the pan, and steamed meat turns grey instead of brown.", "A wet raw steak with water drops on it next to a dry raw steak with a matte surface, both on a light wood board, close-up comparison."),
+  ("This is the most important part of this step, because water on the meat turns to steam in the pan, and steamed meat turns grey instead of brown.", "A wet raw steak with beads of water on its surface lying in a black cast iron skillet on a lit gas burner, white steam rising around it and the underside turning pale grey instead of brown, close-up, no hands."),
   ("A dry steak browns in minutes. Thicker cuts forgive small timing errors, which is ideal when you're learning.", "A thick raw steak, perfectly dry, resting on a clean board with a pile of used paper towels beside it, three-quarter view."),
  ],
  2: [
@@ -28,7 +28,7 @@ S = {
   ("Be generous, since much of the seasoning falls off in the pan, and a thick steak needs more salt than you think.", "A hand sprinkling a generous pinch of coarse salt from a small bowl from high above onto a thick raw steak, grains scattering."),
   ("For the best flavor, salt it as soon as you take it out of the fridge, so the salt has half an hour to be absorbed.", "A salted raw steak resting on a wire rack over a tray on the counter, an analogue kitchen timer with no readable numbers beside it."),
   ("If you are in a rush, salt it just before it hits the pan.", "A hand salting a raw steak held right next to the black skillet on the hob, ready to be placed in the pan."),
-  ("Avoid salting and then waiting five minutes, because that draws out moisture and leaves the surface wet.", "Close-up of the surface of a salted raw steak covered in small shiny beads of moisture, salt crystals partly dissolved."),
+  ("Avoid salting and then waiting five minutes, because that draws out moisture and leaves the surface wet.", "Close-up of a raw salted steak resting on a light wood board, small beads of moisture pooling on its wet glistening surface, a simple mechanical kitchen timer with a blank face beside it, no hands."),
   ("Press the seasoning gently into the meat so it sticks.", "A fingertip pressing coarse salt and pepper gently into the surface of a raw steak, close-up."),
  ],
  3: [
@@ -41,7 +41,7 @@ S = {
  ],
  4: [
   ("Step four. Lay the steak in the pan, away from you, so the oil doesn't splash toward you.", "Hands holding a raw steak with tongs, lowering it into a hot black skillet in a direction away from the camera, close-up."),
-  ("It should sizzle loudly right away.", "A raw steak just laid in the hot black skillet, bubbles and spatter dancing around its edges, close-up."),
+  ("It should sizzle loudly right away.", "Close-up of a thick raw steak sizzling in a very hot black cast iron skillet on a lit gas burner, oil bubbling vigorously all around the edges of the meat, light smoke rising, no hands, no utensils."),
   ("Now leave it alone. Don't poke, press or slide it.", "A steak searing undisturbed in the black skillet, a hand with tongs held back and not touching it."),
   ("For a one inch steak, sear for about two to three minutes, until a deep brown crust forms and the meat releases from the pan on its own.", "A kitchen timer with no readable numbers standing beside the hob, a steak searing in the black skillet with a brown crust forming at its edges."),
   ("If it sticks, it isn't ready to turn.", "Tongs gently lifting one corner of a steak, which is still stuck to the black skillet, seen close-up."),
@@ -66,7 +66,7 @@ S = {
  ],
  7: [
   ("Step seven. Move the steak to a board or a warm plate and let it rest for at least five minutes, and up to ten for a very thick cut.", "Tongs lifting a cooked steak out of the black skillet onto a light wood board, a kitchen timer with no readable numbers beside it."),
-  ("During cooking, the juices are pushed to the center. Resting lets them spread back through the meat, so they stay in the steak instead of running onto the board.", "A rested steak on a clean light wood board with no juices on the board around it, glossy moist crust, close-up."),
+  ("During cooking, the juices are pushed to the center. Resting lets them spread back through the meat, so they stay in the steak instead of running onto the board.", "A seared steak with a deep brown crust resting untouched on a light wood cutting board, a simple mechanical kitchen timer with a blank face beside it, the black skillet off the heat in the background, no knife, no hands."),
   ("Then look for the direction of the muscle fibres, the grain, and slice across it.", "A knife held over a cooked steak on a board, the fine lines of the muscle fibres visible on the surface, close-up from above."),
   ("Short fibres feel more tender in your mouth.", "Close-up of tender slices of steak fanned out on a board, each slice cut across the grain with a rosy pink centre."),
   ("Spoon the pan butter over the slices and serve immediately.", "A spoon pouring golden garlic butter from the skillet over sliced steak on a plate with a sprig of thyme, very appetizing."),

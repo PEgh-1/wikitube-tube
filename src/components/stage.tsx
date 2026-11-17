@@ -222,6 +222,174 @@ export const HouseDrain: React.FC<{ mode: string; local: number; width?: number 
   );
 };
 
+// ---------- Schéma en coupe : le steak à la poêle (surface humide, poêle chaude, saisie, arrosage, sonde, repos, sens des fibres) ----------
+export const SteakPan: React.FC<{ mode: string; local: number; width?: number }> = ({ mode, local, width = 800 }) => {
+  const RAW = "#D4667A", GREY = "#B5A8A2", BROWN = "#8A5A3C", CRUST = "#5E3A22", PINK = "#E9939A", BOARD = "#E3C9A6";
+  const inPan = mode === "dry" || mode === "heat" || mode === "sear" || mode === "baste" || mode === "temp";
+  const flame = mode === "heat" || mode === "sear" ? 1 : mode === "baste" || mode === "temp" ? 0.55 : mode === "dry" ? 0.3 : 0;
+  const flick = 1 + Math.sin(local / 2.3) * 0.12;
+  const pulse = 1 + Math.sin(local / 5) * 0.1;
+  const grow = interpolate(local, [8, 130], [4, 24], clamp);
+  const label = (x: number, y: number, text: string, size = 40, color: string = C.ink, anchor: "start" | "middle" | "end" = "start") => (
+    <text x={x} y={y} fontFamily={HAND} fontWeight={700} fontSize={size} fill={color} textAnchor={anchor}>
+      {text}
+    </text>
+  );
+  const wisp = (x: number, i: number, color: string, top = 250) => (
+    <path key={x} d={`M${x} 380 C${x - 24} ${340} ${x + 24} ${300} ${x} ${top}`} fill="none" stroke={color} strokeWidth={8} strokeLinecap="round" strokeDasharray="20 22" strokeDashoffset={-(local * 2.4) + i * 14} opacity={0.85} />
+  );
+  const steak = (fill: string, y = 388) => <rect x={270} y={y} width={260} height={80} rx={34} fill={fill} stroke={C.ink} strokeWidth={8} />;
+  const doneness = mode === "temp" || mode === "rest";
+  return (
+    <svg width={width} height={(width * 560) / 800} viewBox="0 0 800 560" style={{ display: "block" }}>
+      {mode === "grain" ? (
+        <>
+          <rect x={130} y={170} width={540} height={330} rx={26} fill={BOARD} stroke={C.ink} strokeWidth={9} />
+          <clipPath id="steaktop">
+            <ellipse cx={400} cy={336} rx={200} ry={112} />
+          </clipPath>
+          <ellipse cx={400} cy={336} rx={200} ry={112} fill={BROWN} stroke={C.ink} strokeWidth={9} />
+          <g clipPath="url(#steaktop)">
+            {[250, 278, 306, 334, 362, 390, 418].map((y) => (
+              <path key={y} d={`M190 ${y} Q400 ${y - 14} 610 ${y}`} fill="none" stroke={C.ink} strokeWidth={4} opacity={0.4} />
+            ))}
+          </g>
+          {[290, 345, 400, 455, 510].map((x, i) => {
+            const k = interpolate(local, [12 + i * 14, 26 + i * 14], [0, 1], clamp);
+            return k > 0 ? <path key={x} d={`M${x} 214 V${214 + 244 * k}`} stroke={C.coral} strokeWidth={9} strokeLinecap="round" strokeDasharray="18 12" /> : null;
+          })}
+          {label(400, 96, "Find the grain, then cut across it", 46, C.ink, "middle")}
+          {label(400, 548, "Short fibres, tender bites", 44, C.coral, "middle")}
+        </>
+      ) : (
+        <>
+          <g transform="translate(400 466) scale(1.3) translate(-400 -500)">
+          {inPan ? (
+            <>
+              <rect x={170} y={500} width={460} height={18} rx={9} fill={C.ink} />
+              {flame > 0 &&
+                [250, 325, 400, 475, 550].map((x, i) => (
+                  <path key={x} d={`M${x - 15} 498 Q${x - 20} ${498 - 16 * flame} ${x} ${498 - 30 * flame * (i % 2 ? flick : 2 - flick)} Q${x + 20} ${498 - 16 * flame} ${x + 15} 498 Z`} fill={C.coral} stroke={C.ink} strokeWidth={4} strokeLinejoin="round" />
+                ))}
+              <path d="M168 372 L188 462 Q192 478 212 478 H588 Q608 478 612 462 L632 372" fill={C.paper} stroke={C.ink} strokeWidth={11} strokeLinejoin="round" strokeLinecap="round" />
+              <path d="M634 384 L706 372" stroke={C.ink} strokeWidth={22} strokeLinecap="round" />
+            </>
+          ) : (
+            <rect x={150} y={468} width={500} height={30} rx={12} fill={BOARD} stroke={C.ink} strokeWidth={9} />
+          )}
+          {/* le steak */}
+          {mode !== "heat" && (
+            <>
+              {steak(mode === "dry" ? GREY : doneness || mode === "baste" ? BROWN : RAW)}
+              {doneness && <rect x={292} y={408} width={216} height={40} rx={20} fill={PINK} />}
+              <clipPath id="steakcut">
+                <rect x={274} y={392} width={252} height={72} rx={30} />
+              </clipPath>
+              <g clipPath="url(#steakcut)">
+                {mode === "sear" && <rect x={270} y={468 - grow} width={260} height={grow} fill={CRUST} />}
+                {mode === "baste" && (
+                  <>
+                    <rect x={270} y={388} width={260} height={24} fill={CRUST} />
+                    <rect x={270} y={468 - grow * 0.8} width={260} height={grow} fill={CRUST} />
+                  </>
+                )}
+              </g>
+            </>
+          )}
+          {mode === "dry" && (
+            <>
+              {[310, 360, 410, 460, 500].map((x, i) => (
+                <circle key={x} cx={x} cy={380 - (i % 2) * 4} r={9} fill={C.teal} stroke={C.ink} strokeWidth={4} />
+              ))}
+              {[320, 400, 480].map((x, i) => wisp(x, i, C.teal, 266))}
+            </>
+          )}
+          {mode === "heat" && (
+            <>
+              <rect x={206} y={462} width={388} height={9} rx={4} fill={C.sun} />
+              {[300, 400, 500].map((x, i) => wisp(x, i, "#9AA3B2", 266))}
+            </>
+          )}
+          {mode === "sear" && (
+            <>
+              {[236, 252, 548, 564].map((x, i) => (
+                <path key={x} d={`M${x} 462 l${i < 2 ? -10 : 10} ${-18 * (i % 2 ? flick : 2 - flick)}`} stroke={C.coral} strokeWidth={7} strokeLinecap="round" />
+              ))}
+            </>
+          )}
+          {mode === "baste" && (
+            <>
+              <ellipse cx={226} cy={466} rx={30} ry={8} fill={C.sun} stroke={C.ink} strokeWidth={4} />
+              {[0, 1, 2, 3].map((i) => {
+                const k = ((local / 40 + i / 4) % 1 + 1) % 1;
+                const x = 226 + (400 - 226) * k;
+                const y = 456 - Math.sin(k * Math.PI) * 150 - (456 - 380) * k;
+                return <circle key={i} cx={x} cy={y} r={10} fill={C.sun} stroke={C.ink} strokeWidth={4} opacity={k > 0.94 ? 0.3 : 1} />;
+              })}
+            </>
+          )}
+          {mode === "temp" && (
+            <>
+              <path d="M668 348 L404 432" stroke={C.ink} strokeWidth={8} strokeLinecap="round" />
+              <circle cx={680} cy={343} r={20} fill={C.white} stroke={C.ink} strokeWidth={7} />
+              <circle cx={404} cy={432} r={9 * pulse} fill={C.coral} stroke={C.ink} strokeWidth={4} />
+            </>
+          )}
+          {mode === "rest" && (
+            <>
+              {[-1, 1].map((d) =>
+                [0, 1].map((r) => (
+                  <path key={`${d}${r}`} d={`M${400 + d * 20} ${420 + r * 16} H${400 + d * 104}`} stroke={C.teal} strokeWidth={7} strokeLinecap="round" strokeDasharray="14 12" strokeDashoffset={d * local * 1.6} />
+                )),
+              )}
+            </>
+          )}
+          </g>
+        </>
+      )}
+      {mode === "dry" && (
+        <>
+          {label(400, 96, "Water turns to steam in the pan", 46, C.ink, "middle")}
+          {label(400, 548, "Steamed meat turns grey, not brown", 44, C.coral, "middle")}
+        </>
+      )}
+      {mode === "heat" && (
+        <>
+          {label(400, 96, "3 to 5 minutes, until really hot", 46, C.ink, "middle")}
+          {label(400, 548, "The oil shimmers and just starts to smoke", 42, C.coral, "middle")}
+        </>
+      )}
+      {mode === "sear" && (
+        <>
+          {label(400, 96, "Now leave it alone", 50, C.ink, "middle")}
+          {label(400, 548, "Patience builds the crust", 46, C.coral, "middle")}
+        </>
+      )}
+      {mode === "baste" && (
+        <>
+          {label(400, 96, "Medium heat, foaming butter", 46, C.ink, "middle")}
+          {label(400, 548, "Spoon it over, again and again", 44, C.coral, "middle")}
+        </>
+      )}
+      {mode === "temp" && (
+        <>
+          {label(24, 60, "Rare 125°F", 36, C.coral)}
+          {label(400, 60, "Medium-rare 130–135°F", 36, C.ink, "middle")}
+          {label(776, 60, "Medium 140°F", 36, BROWN, "end")}
+          {label(400, 112, "Probe from the side, into the thickest part", 36, C.teal, "middle")}
+          {label(400, 548, "It rises a few degrees while it rests", 42, C.coral, "middle")}
+        </>
+      )}
+      {mode === "rest" && (
+        <>
+          {label(400, 96, "Rest at least 5 minutes", 48, C.ink, "middle")}
+          {label(400, 548, "The juices spread back through the meat", 42, C.teal, "middle")}
+        </>
+      )}
+    </svg>
+  );
+};
+
 // ---------- Schéma en coupe : la casserole de riz (proportions, ébullition, vapeur, couvercle levé, repos) ----------
 export const RicePot: React.FC<{ mode: string; local: number; width?: number }> = ({ mode, local, width = 800 }) => {
   const lidOn = mode === "steam" || mode === "rest";
@@ -393,6 +561,7 @@ const DIAGRAMS: Record<string, React.FC<{ mode: string; local: number; width?: n
   "toilet-trap": ({ mode, local, width }) => <ToiletTrap mode={mode as TrapMode} local={local} width={width} />,
   "washer": ({ mode, local, width }) => <Washer mode={mode} local={local} width={width} />,
   "rice-pot": ({ mode, local, width }) => <RicePot mode={mode} local={local} width={width} />,
+  "steak-pan": ({ mode, local, width }) => <SteakPan mode={mode} local={local} width={width} />,
   "house-drain": ({ mode, local, width }) => <HouseDrain mode={mode} local={local} width={width} />,
 };
 

@@ -1,0 +1,1184 @@
+{
+ "extras": {
+  "intro": {
+   "pose": "chef",
+   "diagram": "steak-pan",
+   "title": "Why steak goes wrong",
+   "mode": "dry",
+   "chips": [
+    {
+     "on": "grey",
+     "label": "Grey meat",
+     "sub": "steamed, not seared",
+     "mode": "dry"
+    },
+    {
+     "on": "smoky",
+     "label": "Smoky kitchen",
+     "sub": "fan on, window open",
+     "mode": "heat"
+    },
+    {
+     "on": "dry",
+     "label": "A wet surface",
+     "sub": "no brown crust",
+     "mode": "dry"
+    },
+    {
+     "on": "hot",
+     "label": "A cool pan",
+     "sub": "no deep crust",
+     "mode": "heat"
+    },
+    {
+     "on": "rest",
+     "label": "No rest",
+     "sub": "juices run out",
+     "mode": "rest"
+    },
+    {
+     "on": "ribeye",
+     "label": "",
+     "mode": "sear",
+     "hidden": true
+    },
+    {
+     "on": "begin",
+     "label": "",
+     "mode": "dry",
+     "hidden": true
+    }
+   ],
+   "gags": []
+  },
+  "step-1": {
+   "ticks": [
+    {
+     "shot": 1,
+     "on": "steak",
+     "label": "Thick steak"
+    },
+    {
+     "shot": 4,
+     "on": "pat",
+     "label": "Paper towels"
+    }
+   ],
+   "facts": [
+    {
+     "shot": 1,
+     "on": "inch",
+     "kind": "measure",
+     "big": "1 inch",
+     "small": "minimum thickness",
+     "dur": 4.0
+    },
+    {
+     "shot": 3,
+     "on": "thirty",
+     "kind": "timer",
+     "big": "30 min",
+     "small": "out of the fridge",
+     "dur": 4.0
+    }
+   ],
+   "cards": [],
+   "gags": [],
+   "diagrams": [
+    {
+     "shot": 5,
+     "on": "steam",
+     "name": "steak-pan",
+     "mode": "dry",
+     "title": "Wet meat steams",
+     "dur": 4.4
+    }
+   ]
+  },
+  "step-2": {
+   "ticks": [
+    {
+     "shot": 1,
+     "on": "salt",
+     "label": "Coarse salt"
+    }
+   ],
+   "facts": [
+    {
+     "shot": 3,
+     "on": "hour",
+     "kind": "timer",
+     "big": "30 min",
+     "small": "to absorb the salt",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 5,
+     "on": "avoid",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Salting five minutes ahead leaves the surface wet.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 2,
+     "on": "generous",
+     "pose": "thumbs",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": []
+  },
+  "step-3": {
+   "ticks": [
+    {
+     "shot": 1,
+     "on": "skillet",
+     "label": "Heavy skillet"
+    }
+   ],
+   "facts": [
+    {
+     "shot": 1,
+     "on": "three",
+     "kind": "timer",
+     "big": "3–5 min",
+     "small": "heat the pan",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 4,
+     "on": "olive",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Olive oil and butter burn too fast at this point.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 5,
+     "on": "fan",
+     "pose": "nose",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": [
+    {
+     "shot": 3,
+     "on": "hot",
+     "name": "steak-pan",
+     "mode": "heat",
+     "title": "A very hot pan",
+     "dur": 4.4
+    }
+   ]
+  },
+  "step-4": {
+   "ticks": [],
+   "facts": [
+    {
+     "shot": 4,
+     "on": "two",
+     "kind": "timer",
+     "big": "2–3 min",
+     "small": "first side, 1 inch steak",
+     "dur": 4.0
+    },
+    {
+     "shot": 6,
+     "on": "thirty",
+     "kind": "timer",
+     "big": "30 sec",
+     "small": "fatty edge",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 5,
+     "on": "sticks",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Flipping early: if it sticks, it isn't ready.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 2,
+     "on": "sizzle",
+     "pose": "watch",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": [
+    {
+     "shot": 3,
+     "on": "alone",
+     "name": "steak-pan",
+     "mode": "sear",
+     "title": "Leave it alone",
+     "dur": 4.4
+    }
+   ]
+  },
+  "step-5": {
+   "ticks": [
+    {
+     "shot": 2,
+     "on": "thyme",
+     "label": "Thyme sprig"
+    }
+   ],
+   "facts": [
+    {
+     "shot": 5,
+     "on": "two",
+     "kind": "timer",
+     "big": "2–3 min",
+     "small": "second side",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 4,
+     "on": "basting",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "Basting adds flavor and cooks the top gently.",
+     "dur": 4.4
+    },
+    {
+     "shot": 6,
+     "on": "burnt",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Moderate heat keeps the butter golden, not burnt.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": [
+    {
+     "shot": 3,
+     "on": "spoon",
+     "name": "steak-pan",
+     "mode": "baste",
+     "title": "Baste with butter",
+     "dur": 4.4
+    }
+   ]
+  },
+  "step-6": {
+   "ticks": [
+    {
+     "shot": 1,
+     "on": "thermometer",
+     "label": "Probe thermometer"
+    }
+   ],
+   "facts": [
+    {
+     "shot": 4,
+     "on": "145",
+     "kind": "measure",
+     "big": "145°F",
+     "small": "63°C, food safety advice",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 3,
+     "on": "rises",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "The temperature rises a few degrees while the steak rests.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": [
+    {
+     "shot": 2,
+     "on": "rare",
+     "name": "steak-pan",
+     "mode": "temp",
+     "title": "Doneness by temperature",
+     "dur": 5.0
+    }
+   ]
+  },
+  "step-7": {
+   "ticks": [
+    {
+     "shot": 1,
+     "on": "board",
+     "label": "Board or warm plate"
+    }
+   ],
+   "facts": [
+    {
+     "shot": 1,
+     "on": "five",
+     "kind": "timer",
+     "big": "5–10 min",
+     "small": "rest before slicing",
+     "dur": 4.0
+    }
+   ],
+   "cards": [],
+   "gags": [],
+   "diagrams": [
+    {
+     "shot": 2,
+     "on": "spread",
+     "name": "steak-pan",
+     "mode": "rest",
+     "title": "Juices spread back",
+     "dur": 4.4
+    },
+    {
+     "shot": 4,
+     "on": "fibres",
+     "name": "steak-pan",
+     "mode": "grain",
+     "title": "Slice across the grain",
+     "dur": 4.4
+    }
+   ]
+  },
+  "step-8": {
+   "ticks": [
+    {
+     "shot": 3,
+     "on": "fan",
+     "label": "Extractor fan"
+    }
+   ],
+   "facts": [
+    {
+     "shot": 2,
+     "on": "two",
+     "kind": "measure",
+     "big": "1–2 steaks",
+     "small": "at a time",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 1,
+     "on": "hot",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "A pan not hot enough, or too much meat at once.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 3,
+     "on": "smoke",
+     "pose": "panic",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": []
+  },
+  "step-9": {
+   "ticks": [
+    {
+     "shot": 1,
+     "on": "oven",
+     "label": "Low oven"
+    }
+   ],
+   "facts": [
+    {
+     "shot": 1,
+     "on": "250",
+     "kind": "measure",
+     "big": "250°F",
+     "small": "120°C, low oven",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 2,
+     "on": "sear",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "Low oven first, then a very hot pan to sear.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": []
+  },
+  "step-10": {
+   "ticks": [
+    {
+     "shot": 1,
+     "on": "container",
+     "label": "Covered container"
+    }
+   ],
+   "facts": [
+    {
+     "shot": 1,
+     "on": "two",
+     "kind": "timer",
+     "big": "2 hours",
+     "small": "into the fridge",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 3,
+     "on": "tough",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Reheat gently so the steak does not turn tough.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 2,
+     "on": "wonderful",
+     "pose": "thumbs",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": []
+  }
+ },
+ "shots": {
+  "1-1": {
+   "focus": [
+    0.42,
+    0.6
+   ]
+  },
+  "1-2": {
+   "focus": [
+    0.4,
+    0.55
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.25,
+      0.56
+     ],
+     "text": "Ribeye",
+     "label": [
+      0.14,
+      0.24
+     ],
+     "on": "ribeye"
+    },
+    {
+     "type": "arrow",
+     "at": [
+      0.39,
+      0.56
+     ],
+     "text": "Strip",
+     "label": [
+      0.42,
+      0.2
+     ],
+     "on": "strip"
+    },
+    {
+     "type": "arrow",
+     "at": [
+      0.52,
+      0.54
+     ],
+     "text": "Sirloin",
+     "label": [
+      0.72,
+      0.26
+     ],
+     "on": "sirloin"
+    }
+   ]
+  },
+  "1-3": {
+   "focus": [
+    0.5,
+    0.5
+   ]
+  },
+  "1-4": {
+   "focus": [
+    0.5,
+    0.6
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.5,
+      0.55
+     ],
+     "text": "Every side",
+     "label": [
+      0.76,
+      0.25
+     ],
+     "on": "every"
+    }
+   ]
+  },
+  "1-5": {
+   "focus": [
+    0.5,
+    0.55
+   ]
+  },
+  "1-6": {
+   "focus": [
+    0.45,
+    0.6
+   ],
+   "punch": "minutes"
+  },
+  "2-1": {
+   "focus": [
+    0.5,
+    0.65
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.5,
+      0.78
+     ],
+     "text": "All sides, even the edges",
+     "label": [
+      0.28,
+      0.42
+     ],
+     "on": "edges"
+    }
+   ]
+  },
+  "2-2": {
+   "focus": [
+    0.5,
+    0.6
+   ],
+   "punch": "generous"
+  },
+  "2-3": {
+   "focus": [
+    0.5,
+    0.6
+   ]
+  },
+  "2-4": {
+   "focus": [
+    0.45,
+    0.6
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.45,
+      0.6
+     ],
+     "text": "Right before the pan",
+     "label": [
+      0.76,
+      0.25
+     ],
+     "on": "before"
+    }
+   ]
+  },
+  "2-5": {
+   "focus": [
+    0.5,
+    0.55
+   ]
+  },
+  "2-6": {
+   "focus": [
+    0.5,
+    0.6
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.52,
+      0.55
+     ],
+     "text": "Press it in",
+     "label": [
+      0.76,
+      0.3
+     ],
+     "on": "press"
+    }
+   ]
+  },
+  "3-1": {
+   "focus": [
+    0.55,
+    0.55
+   ],
+   "punch": "hot"
+  },
+  "3-2": {
+   "focus": [
+    0.45,
+    0.55
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.42,
+      0.52
+     ],
+     "text": "1 tablespoon",
+     "label": [
+      0.2,
+      0.3
+     ],
+     "on": "tablespoon"
+    }
+   ],
+   "fx": [
+    {
+     "type": "steam",
+     "at": [
+      0.42,
+      0.5
+     ],
+     "size": 0.9
+    }
+   ]
+  },
+  "3-3": {
+   "focus": [
+    0.55,
+    0.55
+   ]
+  },
+  "3-4": {
+   "focus": [
+    0.35,
+    0.55
+   ],
+   "notes": [
+    {
+     "type": "cross",
+     "at": [
+      0.26,
+      0.5
+     ],
+     "r": 0.09,
+     "text": "Not yet",
+     "label": [
+      0.52,
+      0.2
+     ],
+     "on": "olive"
+    }
+   ]
+  },
+  "3-5": {
+   "focus": [
+    0.55,
+    0.4
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.75,
+      0.5
+     ],
+     "r": 0.12,
+     "on": "window",
+     "text": "Window open",
+     "label": [
+      0.75,
+      0.2
+     ]
+    }
+   ]
+  },
+  "3-6": {
+   "focus": [
+    0.45,
+    0.55
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.36,
+      0.62
+     ],
+     "text": "Lower the heat a little",
+     "label": [
+      0.26,
+      0.3
+     ],
+     "on": "lower"
+    }
+   ],
+   "fx": [
+    {
+     "type": "steam",
+     "at": [
+      0.6,
+      0.32
+     ],
+     "size": 1.0
+    }
+   ]
+  },
+  "4-1": {
+   "focus": [
+    0.55,
+    0.5
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.56,
+      0.5
+     ],
+     "text": "Away from you",
+     "label": [
+      0.25,
+      0.3
+     ],
+     "on": "away"
+    }
+   ]
+  },
+  "4-2": {
+   "focus": [
+    0.5,
+    0.55
+   ],
+   "punch": "loudly",
+   "clip": "step-4-2.mp4"
+  },
+  "4-3": {
+   "focus": [
+    0.5,
+    0.6
+   ]
+  },
+  "4-4": {
+   "focus": [
+    0.4,
+    0.55
+   ]
+  },
+  "4-5": {
+   "focus": [
+    0.42,
+    0.55
+   ]
+  },
+  "4-6": {
+   "focus": [
+    0.52,
+    0.6
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.5,
+      0.72
+     ],
+     "text": "Fatty edge",
+     "label": [
+      0.25,
+      0.3
+     ],
+     "on": "edge"
+    }
+   ]
+  },
+  "4-7": {
+   "focus": [
+    0.55,
+    0.6
+   ],
+   "punch": "patience",
+   "fx": [
+    {
+     "type": "steam",
+     "at": [
+      0.55,
+      0.45
+     ],
+     "size": 1.0
+    }
+   ]
+  },
+  "5-1": {
+   "focus": [
+    0.52,
+    0.6
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.52,
+      0.9
+     ],
+     "text": "Heat down to medium",
+     "label": [
+      0.25,
+      0.3
+     ],
+     "on": "medium"
+    }
+   ]
+  },
+  "5-2": {
+   "focus": [
+    0.55,
+    0.65
+   ],
+   "notes": [
+    {
+     "type": "circle",
+     "at": [
+      0.58,
+      0.72
+     ],
+     "r": 0.08,
+     "on": "butter",
+     "text": "Butter + garlic",
+     "label": [
+      0.28,
+      0.42
+     ]
+    }
+   ]
+  },
+  "5-3": {
+   "focus": [
+    0.5,
+    0.55
+   ],
+   "clip": "step-5-3.mp4"
+  },
+  "5-4": {
+   "focus": [
+    0.5,
+    0.5
+   ]
+  },
+  "5-5": {
+   "focus": [
+    0.5,
+    0.55
+   ]
+  },
+  "5-6": {
+   "focus": [
+    0.45,
+    0.6
+   ]
+  },
+  "5-7": {
+   "focus": [
+    0.6,
+    0.5
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.6,
+      0.55
+     ],
+     "text": "200°C / 400°F",
+     "label": [
+      0.3,
+      0.25
+     ],
+     "on": "200"
+    }
+   ]
+  },
+  "6-1": {
+   "focus": [
+    0.5,
+    0.6
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.5,
+      0.62
+     ],
+     "text": "Into the thickest part",
+     "label": [
+      0.78,
+      0.3
+     ],
+     "on": "thickest"
+    }
+   ]
+  },
+  "6-2": {
+   "focus": [
+    0.45,
+    0.55
+   ]
+  },
+  "6-3": {
+   "focus": [
+    0.5,
+    0.6
+   ]
+  },
+  "6-4": {
+   "focus": [
+    0.45,
+    0.7
+   ]
+  },
+  "6-5": {
+   "focus": [
+    0.55,
+    0.62
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.6,
+      0.62
+     ],
+     "text": "From the side",
+     "label": [
+      0.25,
+      0.3
+     ],
+     "on": "side"
+    }
+   ]
+  },
+  "7-1": {
+   "focus": [
+    0.6,
+    0.62
+   ]
+  },
+  "7-2": {
+   "focus": [
+    0.5,
+    0.6
+   ]
+  },
+  "7-3": {
+   "focus": [
+    0.45,
+    0.6
+   ],
+   "punch": "across",
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.5,
+      0.55
+     ],
+     "text": "Across the grain",
+     "label": [
+      0.76,
+      0.3
+     ],
+     "on": "across"
+    }
+   ]
+  },
+  "7-4": {
+   "focus": [
+    0.45,
+    0.7
+   ]
+  },
+  "7-5": {
+   "focus": [
+    0.47,
+    0.65
+   ],
+   "fx": [
+    {
+     "type": "sparkle",
+     "at": [
+      0.45,
+      0.78
+     ],
+     "size": 1.0
+    }
+   ]
+  },
+  "8-1": {
+   "focus": [
+    0.4,
+    0.55
+   ]
+  },
+  "8-2": {
+   "focus": [
+    0.5,
+    0.5
+   ]
+  },
+  "8-3": {
+   "focus": [
+    0.45,
+    0.5
+   ],
+   "fx": [
+    {
+     "type": "steam",
+     "at": [
+      0.42,
+      0.55
+     ],
+     "size": 1.1
+    }
+   ]
+  },
+  "8-4": {
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.47,
+      0.44
+     ],
+     "text": "Butter goes in late",
+     "label": [
+      0.76,
+      0.25
+     ],
+     "on": "late"
+    }
+   ]
+  },
+  "9-1": {
+   "focus": [
+    0.5,
+    0.45
+   ]
+  },
+  "9-2": {
+   "focus": [
+    0.55,
+    0.55
+   ],
+   "fx": [
+    {
+     "type": "steam",
+     "at": [
+      0.55,
+      0.45
+     ],
+     "size": 1.0
+    }
+   ]
+  },
+  "9-3": {
+   "focus": [
+    0.45,
+    0.55
+   ],
+   "notes": [
+    {
+     "type": "arrow",
+     "at": [
+      0.42,
+      0.55
+     ],
+     "text": "A splash of stock",
+     "label": [
+      0.2,
+      0.3
+     ],
+     "on": "stock"
+    }
+   ]
+  },
+  "10-1": {
+   "focus": [
+    0.47,
+    0.45
+   ]
+  },
+  "10-2": {
+   "focus": [
+    0.45,
+    0.7
+   ]
+  },
+  "10-3": {
+   "focus": [
+    0.45,
+    0.65
+   ]
+  },
+  "10-4": {
+   "focus": [
+    0.45,
+    0.7
+   ],
+   "fx": [
+    {
+     "type": "steam",
+     "at": [
+      0.4,
+      0.6
+     ],
+     "size": 0.9
+    }
+   ]
+  }
+ }
+}

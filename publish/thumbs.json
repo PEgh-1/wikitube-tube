@@ -1,5 +1,80 @@
 {
- "2026-11-04-unclog-a-toilet": {"photo":"thumbs/toilet.jpg","flip":true,"position":"40% 60%","lines":[{"text":"TOILET","size":132},{"text":"CLOGGED?","hi":true,"size":108}],"badge":"NO PLUMBER NEEDED","mascot":"panic"},
- "2026-11-23-cook-rice-on-the-stove": {"photo":"thumbs/rice.jpg","position":"35% 50%","zoom":1.25,"lines":[{"text":"NO MORE","size":118},{"text":"MUSHY","hi":true,"size":150},{"text":"RICE","size":150}],"badge":"FLUFFY EVERY TIME","mascot":"chef","mascotH":290},
- "2026-11-24-clean-washing-machine": {"photo":"thumbs/washer.jpg","position":"80% 45%","zoom":1.2,"lines":[{"text":"STINKY","hi":true,"size":140},{"text":"WASHER?","size":112}],"badge":"VINEGAR + BAKING SODA","mascot":"nose"}
+ "2026-11-04-unclog-a-toilet": {
+  "photo": "thumbs/toilet.jpg",
+  "flip": true,
+  "position": "40% 60%",
+  "lines": [
+   {
+    "text": "TOILET",
+    "size": 132
+   },
+   {
+    "text": "CLOGGED?",
+    "hi": true,
+    "size": 108
+   }
+  ],
+  "badge": "NO PLUMBER NEEDED",
+  "mascot": "panic"
+ },
+ "2026-11-23-cook-rice-on-the-stove": {
+  "photo": "thumbs/rice.jpg",
+  "position": "35% 50%",
+  "zoom": 1.25,
+  "lines": [
+   {
+    "text": "NO MORE",
+    "size": 118
+   },
+   {
+    "text": "MUSHY",
+    "hi": true,
+    "size": 150
+   },
+   {
+    "text": "RICE",
+    "size": 150
+   }
+  ],
+  "badge": "FLUFFY EVERY TIME",
+  "mascot": "chef",
+  "mascotH": 290
+ },
+ "2026-11-24-clean-washing-machine": {
+  "photo": "thumbs/washer.jpg",
+  "position": "80% 45%",
+  "zoom": 1.2,
+  "lines": [
+   {
+    "text": "STINKY",
+    "hi": true,
+    "size": 140
+   },
+   {
+    "text": "WASHER?",
+    "size": 112
+   }
+  ],
+  "badge": "VINEGAR + BAKING SODA",
+  "mascot": "nose"
+ },
+ "2026-11-22-cook-steak-in-a-pan": {
+  "photo": "thumbs/steak.jpg",
+  "position": "50% 50%",
+  "zoom": 1.08,
+  "lines": [
+   {
+    "text": "PERFECT",
+    "hi": true,
+    "size": 128
+   },
+   {
+    "text": "STEAK",
+    "size": 150
+   }
+  ],
+  "badge": "IN A PAN, NO GRILL",
+  "mascot": "chef",
+  "mascotH": 300
+ }
 }

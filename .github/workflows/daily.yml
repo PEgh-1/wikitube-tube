@@ -23,6 +23,10 @@ on:
         description: "Aperçu seulement : scène à extraire (ex. step-2), 45 s, sans upload"
         required: false
         default: ""
+      only:
+        description: "Ne rendre qu'une partie (short ou long), sans QC ni upload"
+        required: false
+        default: ""
 
 concurrency:
   group: wikitube-daily
@@ -96,6 +100,7 @@ jobs:
           if [ "${{ inputs.skip_upload }}" = "true" ]; then ARGS="$ARGS --skip-upload"; fi
           if [ "${{ inputs.mock }}" = "true" ]; then ARGS="$ARGS --mock"; fi
           if [ -n "${{ inputs.excerpt }}" ]; then ARGS="$ARGS --skip-upload --excerpt ${{ inputs.excerpt }}"; fi
+          if [ -n "${{ inputs.only }}" ]; then ARGS="$ARGS --skip-upload --only ${{ inputs.only }}"; fi
           echo "npm run daily -- $ARGS"
           npm run daily -- $ARGS
 

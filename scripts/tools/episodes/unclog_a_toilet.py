@@ -172,6 +172,7 @@ for i, s in enumerate(SECTIONS, 1):
         shots["extras"][f"step-{i}"] = ex
 if N.get("extras", {}).get("intro"): shots["extras"]["intro"] = N["extras"]["intro"]
 os.makedirs(os.path.join(ROOT, f"data/shots/{ID}"), exist_ok=True)
+shots["short"] = ["1-3", "3-1", "5-1"]  # plans du Short ("étape-plan")
 json.dump(shots, open(os.path.join(ROOT, f"data/shots/{ID}/shots.json"), "w"), indent=2, ensure_ascii=False)
 json.dump({"tail": TAIL, "items": prompts}, open("/tmp/toilet-prompts.json", "w"))
 have = set(os.listdir(os.path.join(ROOT, f"data/shots/{ID}")))

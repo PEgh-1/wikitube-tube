@@ -121,6 +121,7 @@ for i, sec in enumerate(sections, 1):
         lst.append(d); prompts.append([f"step-{i}-{j}.jpg", p])
     shots["shots"][f"step-{i}"] = lst
 d = os.path.join(ROOT, f"data/shots/{ID}"); os.makedirs(d, exist_ok=True)
+shots["short"] = ["2-1", "3-1", "7-1"]  # plans du Short ("étape-plan")
 json.dump(shots, open(os.path.join(d, "shots.json"), "w"), indent=2, ensure_ascii=False)
 have = set(os.listdir(d))
 json.dump({"tail": TAIL, "items": [x for x in prompts if x[0] not in have]}, open("/tmp/rice-missing.json", "w"))

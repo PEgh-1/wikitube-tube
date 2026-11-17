@@ -43,4 +43,37 @@ for (const { id, publishAt } of queue) {
   if (e.short?.videoId) { log.info(`${id} : Short déjà en ligne, ignoré`); continue; }
   if (!run(id, ["--publish-at", publishAt, "--skip-long", "--long-url", e.long.url])) { failed = true; log.warn(`${id} : échec du Short`); break; }
 }
+// 3. Remplacement d'un Short déjà programmé ({ id, publishAt, replaceShort: "<ancien videoId>" }) :
+//    le nouveau est envoyé d'abord, l'ancien n'est supprimé qu'une fois le nouveau en ligne.
+const requireEnv = (k) => { if (!process.env[k]) throw new Error(`Variable ${k} manquante`); return process.env[k]; };
+async function deleteVideo(videoId) {
+  const body = new URLSearchParams({ client_id: requireEnv("YT_CLIENT_ID"), client_secret: requireEnv("YT_CLIENT_SECRET"), refresh_token: requireEnv("YT_REFRESH_TOKEN"), grant_type: "refresh_token" });
+  const tok = await (await fetch("https://oauth2.googleapis.com/token", { method: "POST", headers: { "content-type": "application/x-www-form-urlencoded" }, body })).json();
+  const res = await fetch(`https://www.googleapis.com/youtube/v3/videos?id=${videoId}`, { method: "DELETE", headers: { authorization: `Bearer ${tok.access_token}` } });
+  if (!res.ok && res.status !== 404) throw new Error(`Suppression ${videoId} → ${res.status} : ${(await res.text()).slice(0, 300)}`);
+}
+for (const { id, publishAt, replaceShort } of queue) {
+  if (!replaceShort || failed) continue;
+  let all = published();
+  let e = all.find((x) => x.episodeId === id);
+  if (!e?.long?.videoId) continue;
+  if (e.short?.videoId === replaceShort) {
+    e.replacedShort = e.short;
+    delete e.short;
+    writeJson(logFile, all);
+    if (!run(id, ["--publish-at", publishAt, "--skip-long", "--long-url", e.long.url])) {
+      // Échec : on remet l'ancien Short dans le journal, il reste programmé.
+      all = published(); e = all.find((x) => x.episodeId === id);
+      if (!e.short?.videoId) { e.short = e.replacedShort; delete e.replacedShort; writeJson(logFile, all); }
+      failed = true; log.warn(`${id} : échec du nouveau Short, l'ancien est conservé`); break;
+    }
+    all = published(); e = all.find((x) => x.episodeId === id);
+    if (!e.replacedShort) { e.replacedShort = { videoId: replaceShort }; }
+  }
+  if (e.replacedShort?.videoId === replaceShort && e.short?.videoId && e.short.videoId !== replaceShort && !e.replacedShort.deleted) {
+    if (args["dry-run"]) continue;
+    try { await deleteVideo(replaceShort); e.replacedShort.deleted = true; writeJson(logFile, all); log.info(`${id} : ancien Short ${replaceShort} supprimé`); }
+    catch (err) { failed = true; log.warn(String(err.message)); }
+  }
+}
 process.exit(failed ? 1 : 0);

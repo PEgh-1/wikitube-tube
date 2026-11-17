@@ -1,0 +1,499 @@
+{
+ "extras": {
+  "intro": {
+   "pose": "plumber",
+   "diagram": "toilet-ring",
+   "title": "Why the ring forms",
+   "mode": "ring",
+   "chips": [
+    {
+     "on": "brush",
+     "label": "A plain brush",
+     "sub": "glides over the ring",
+     "mode": "ring"
+    },
+    {
+     "on": "minerals",
+     "label": "Hard water minerals",
+     "sub": "settle at the waterline",
+     "mode": "ring"
+    },
+    {
+     "on": "acidic",
+     "label": "An acidic cleaner",
+     "sub": "dissolves the minerals",
+     "mode": "acid"
+    },
+    {
+     "on": "patience",
+     "label": "A little patience",
+     "sub": "time to soak",
+     "mode": "soak"
+    },
+    {
+     "on": "ingredients",
+     "label": "",
+     "mode": "acid",
+     "hidden": true
+    },
+    {
+     "on": "waiting",
+     "label": "",
+     "mode": "soak",
+     "hidden": true
+    },
+    {
+     "on": "bleach",
+     "label": "",
+     "mode": "ring",
+     "hidden": true
+    }
+   ],
+   "gags": []
+  },
+  "step-1": {
+   "ticks": [
+    {
+     "shot": 1,
+     "on": "gloves",
+     "label": "Rubber gloves"
+    }
+   ],
+   "facts": [
+    {
+     "shot": 3,
+     "on": "twice",
+     "kind": "measure",
+     "big": "2 flushes",
+     "small": "if bleach was used today",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 2,
+     "on": "fumes",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Bleach and acids create dangerous fumes when they meet.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 4,
+     "on": "product",
+     "pose": "no",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": []
+  },
+  "step-2": {
+   "ticks": [
+    {
+     "shot": 3,
+     "on": "valve",
+     "label": "Water valve"
+    }
+   ],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 1,
+     "on": "dilutes",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "Water in the bowl dilutes the cleaner.",
+     "dur": 4.4
+    },
+    {
+     "shot": 6,
+     "on": "touch",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "Direct contact lets the cleaner work on the stain.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 5,
+     "on": "lot",
+     "pose": "thumbs",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": [
+    {
+     "shot": 2,
+     "on": "lower",
+     "name": "toilet-ring",
+     "mode": "low",
+     "title": "Lower the water level",
+     "dur": 4.4
+    }
+   ]
+  },
+  "step-3": {
+   "ticks": [],
+   "facts": [
+    {
+     "shot": 1,
+     "on": "two",
+     "kind": "measure",
+     "big": "2 cups",
+     "small": "white vinegar",
+     "dur": 4.0
+    },
+    {
+     "shot": 2,
+     "on": "three",
+     "kind": "measure",
+     "big": "3 tbsp",
+     "small": "citric acid in 1 cup of hot water",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 4,
+     "on": "stays",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "Soaked paper keeps the acid in contact with the ring.",
+     "dur": 4.4
+    },
+    {
+     "shot": 5,
+     "on": "scrubbing",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "No scrubbing yet: let the acid do the work.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": [
+    {
+     "shot": 3,
+     "on": "dissolve",
+     "name": "toilet-ring",
+     "mode": "acid",
+     "title": "Acid dissolves limescale",
+     "dur": 4.4
+    }
+   ]
+  },
+  "step-4": {
+   "ticks": [],
+   "facts": [
+    {
+     "shot": 1,
+     "on": "thirty",
+     "kind": "timer",
+     "big": "30 min",
+     "small": "minimum soak",
+     "dur": 4.0
+    },
+    {
+     "shot": 2,
+     "on": "two",
+     "kind": "timer",
+     "big": "2 hours",
+     "small": "for tough, old rings",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 4,
+     "on": "rush",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Rushing the soak means harder scrubbing later.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 5,
+     "on": "note",
+     "pose": "idea",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": [
+    {
+     "shot": 3,
+     "on": "soften",
+     "name": "toilet-ring",
+     "mode": "soak",
+     "title": "Time softens the layer",
+     "dur": 4.4
+    }
+   ]
+  },
+  "step-5": {
+   "ticks": [
+    {
+     "shot": 1,
+     "on": "brush",
+     "label": "Toilet brush"
+    }
+   ],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 2,
+     "on": "softer",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "The softened mineral layer lifts with far less effort.",
+     "dur": 4.4
+    },
+    {
+     "shot": 3,
+     "on": "rim",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "Minerals gather under the rim too.",
+     "dur": 4.4
+    },
+    {
+     "shot": 5,
+     "on": "scratch",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Wire and steel wool scratch porcelain and make stains stick faster.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 6,
+     "on": "splash",
+     "pose": "wet",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": []
+  },
+  "step-6": {
+   "ticks": [
+    {
+     "shot": 1,
+     "on": "pumice",
+     "label": "Pumice stone"
+    }
+   ],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 2,
+     "on": "scratches",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "A dry stone scratches: keep stone and surface wet.",
+     "dur": 4.4
+    },
+    {
+     "shot": 5,
+     "on": "plastic",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Only on white porcelain, never on plastic or colored surfaces.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 6,
+     "on": "hidden",
+     "pose": "watch",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": [
+    {
+     "shot": 3,
+     "on": "light",
+     "name": "toilet-ring",
+     "mode": "pumice",
+     "title": "Light, short strokes",
+     "dur": 4.4
+    }
+   ]
+  },
+  "step-7": {
+   "ticks": [
+    {
+     "shot": 4,
+     "on": "descaler",
+     "label": "In-tank descaler"
+    }
+   ],
+   "facts": [
+    {
+     "shot": 1,
+     "on": "three",
+     "kind": "measure",
+     "big": "2–3 flushes",
+     "small": "to rinse",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 5,
+     "on": "beats",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "Weekly care beats an hour of hard work later.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 2,
+     "on": "admire",
+     "pose": "party",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": [
+    {
+     "shot": 3,
+     "on": "weekly",
+     "name": "toilet-ring",
+     "mode": "weekly",
+     "title": "Weekly vinegar routine",
+     "dur": 4.4
+    }
+   ]
+  },
+  "step-8": {
+   "ticks": [],
+   "facts": [
+    {
+     "shot": 1,
+     "on": "two",
+     "kind": "measure",
+     "big": "2 soaks",
+     "small": "before you look closer",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 2,
+     "on": "slimy",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "Slime wipes off easily; minerals do not.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 3,
+     "on": "bacterial",
+     "pose": "nose",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": [
+    {
+     "shot": 4,
+     "on": "minerals",
+     "name": "toilet-ring",
+     "mode": "ring",
+     "title": "Minerals form the ring",
+     "dur": 4.4
+    }
+   ]
+  },
+  "step-9": {
+   "ticks": [
+    {
+     "shot": 2,
+     "on": "utility",
+     "label": "Water utility"
+    },
+    {
+     "shot": 3,
+     "on": "kit",
+     "label": "Water test kit"
+    }
+   ],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 4,
+     "on": "leaking",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "A stain trail from under the rim may mean a slow tank leak.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 1,
+     "on": "water",
+     "pose": "idea",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": []
+  },
+  "step-10": {
+   "ticks": [
+    {
+     "shot": 3,
+     "on": "rubber",
+     "label": "Rubber parts"
+    }
+   ],
+   "facts": [
+    {
+     "shot": 4,
+     "on": "week",
+     "kind": "measure",
+     "big": "1× a week",
+     "small": "flush a spare toilet",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 2,
+     "on": "bleach",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Bleach tablets damage the tank's rubber parts.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 1,
+     "on": "habits",
+     "pose": "thumbs",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": []
+  }
+ },
+ "shots": {}
+}

@@ -5,6 +5,10 @@ on:
       run_id:
         description: "ID du run dont on veut l'artefact"
         required: true
+  # Sans clic : modifier publish/preview.txt (une ligne = l'ID du run) lance aussi l'aperçu.
+  push:
+    branches: [test-gemini-web]
+    paths: ["publish/preview.txt"]
 permissions:
   contents: write
   actions: read
@@ -12,9 +16,15 @@ jobs:
   preview:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: publish
+          path: src
+      - id: run
+        run: echo "id=${{ inputs.run_id }}$([ -z "${{ inputs.run_id }}" ] && tr -d '[:space:]' < src/publish/preview.txt)" >> "$GITHUB_OUTPUT"
       - uses: actions/download-artifact@v4
         with:
-          run-id: ${{ inputs.run_id }}
+          run-id: ${{ steps.run.outputs.id }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
           path: art
       - name: Pousser sur la branche preview
@@ -24,5 +34,5 @@ jobs:
           find . -type f -size +90M -print0 | while IFS= read -r -d '' f; do split -b 90M -d "$f" "$f.part-" && rm "$f"; done
           git init -q -b preview
           git config user.name "wikitube-bot"; git config user.email "bot@users.noreply.github.com"
-          git add -A && git commit -qm "Aperçu run ${{ inputs.run_id }}"
+          git add -A && git commit -qm "Aperçu run ${{ steps.run.outputs.id }}"
           git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" preview

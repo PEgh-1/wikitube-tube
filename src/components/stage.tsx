@@ -390,6 +390,128 @@ export const SteakPan: React.FC<{ mode: string; local: number; width?: number }>
   );
 };
 
+// ---------- Schéma en coupe : l'anneau de calcaire dans la cuvette (dépôt, niveau abaissé, acide, trempage, pierre ponce, entretien) ----------
+export const ToiletRing: React.FC<{ mode: string; local: number; width?: number }> = ({ mode, local, width = 800 }) => {
+  const RUST = "#C9772E", STONE = "#9AA3B2";
+  const bez = (t: number) => {
+    const u = 1 - t;
+    return { x: u * u * u * 210 + 3 * u * u * t * 210 + 3 * u * t * t * 300 + t * t * t * 400, y: u * u * u * 170 + 3 * u * u * t * 330 + 3 * u * t * t * 462 + t * t * t * 462 };
+  };
+  const pts = Array.from({ length: 61 }, (_, i) => bez(i / 60));
+  const seg = (y0: number, y1: number, side: 1 | -1) =>
+    pts
+      .filter((p) => p.y >= y0 && p.y <= y1)
+      .map((p) => `${side === 1 ? p.x : 800 - p.x},${p.y}`)
+      .join(" ");
+  const wallX = (y: number) => pts.reduce((b, p) => (Math.abs(p.y - y) < Math.abs(b.y - y) ? p : b)).x;
+  const lowered = mode === "low" || mode === "acid" || mode === "soak" || mode === "pumice";
+  const level = mode === "low" ? interpolate(local, [10, 60], [318, 410], { ...clamp, easing: Easing.inOut(Easing.cubic) }) : lowered ? 410 : 318;
+  const fade = mode === "soak" ? interpolate(local, [20, 150], [1, 0.45], clamp) : mode === "pumice" ? interpolate(local, [30, 140], [1, 0.15], clamp) : mode === "weekly" ? 0 : 1;
+  const pulse = 1 + Math.sin(local / 5) * 0.1;
+  const rub = Math.sin(local / 3) * 9;
+  const label = (x: number, y: number, text: string, size = 40, color: string = C.ink, anchor: "start" | "middle" | "end" = "start") => (
+    <text x={x} y={y} fontFamily={HAND} fontWeight={700} fontSize={size} fill={color} textAnchor={anchor}>
+      {text}
+    </text>
+  );
+  return (
+    <svg width={width} height={(width * 560) / 800} viewBox="0 0 800 560" style={{ display: "block" }}>
+      {/* cuvette en coupe */}
+      <path d="M210 170 C210 330 300 462 400 462 C500 462 590 330 590 170" fill={C.white} stroke={C.ink} strokeWidth={11} strokeLinecap="round" />
+      <rect x={176} y={146} width={448} height={30} rx={15} fill={C.paper} stroke={C.ink} strokeWidth={9} />
+      <path d="M372 466 V496 H428 V466" fill={C.paper} stroke={C.ink} strokeWidth={9} strokeLinejoin="round" />
+      <clipPath id="bowlin">
+        <path d="M216 176 C216 330 302 456 400 456 C498 456 584 330 584 176 Z" />
+      </clipPath>
+      <g clipPath="url(#bowlin)">
+        <rect x={200} y={level} width={400} height={300} fill={C.teal} opacity={0.42} />
+        <path d={`M200 ${level} H600`} stroke={C.teal} strokeWidth={6} />
+        {mode === "ring" &&
+          [0, 1, 2, 3, 4, 5].map((i) => {
+            const k = ((local / 70 + i / 6) % 1 + 1) % 1;
+            const side = i % 2 ? 1 : -1;
+            return <circle key={i} cx={400 + side * (30 + k * 120)} cy={400 - k * 70 + (i % 3) * 8} r={6} fill={RUST} opacity={0.9 - k * 0.3} />;
+          })}
+      </g>
+      {/* l'anneau, des deux côtés */}
+      {fade > 0 && (
+        <g opacity={fade}>
+          <polyline points={seg(300, 336, 1)} fill="none" stroke={RUST} strokeWidth={mode === "ring" ? 17 * pulse : 17} strokeLinecap="round" />
+          <polyline points={seg(300, 336, -1)} fill="none" stroke={RUST} strokeWidth={mode === "ring" ? 17 * pulse : 17} strokeLinecap="round" />
+        </g>
+      )}
+      {/* film d'acide qui recouvre la paroi */}
+      {(mode === "acid" || mode === "soak") &&
+        ([1, -1] as const).map((side) => <polyline key={side} points={seg(196, 404, side)} fill="none" stroke={C.sun} strokeWidth={8} strokeLinecap="round" strokeDasharray="22 14" strokeDashoffset={-local * (mode === "acid" ? 2.2 : 0.5)} transform={`translate(${side * 13} 0)`} />)}
+      {mode === "acid" &&
+        [0, 1, 2].map((i) => {
+          const k = ((local / 30 + i / 3) % 1 + 1) % 1;
+          return <circle key={i} cx={wallX(318) + 26 + i * 9} cy={318 - k * 46} r={5 + i} fill="none" stroke={C.coral} strokeWidth={4} opacity={1 - k} />;
+        })}
+      {mode === "soak" && (
+        <g transform="translate(400 300)">
+          <circle r={52} fill={C.white} stroke={C.ink} strokeWidth={8} />
+          <path d="M0 0 V-34" stroke={C.coral} strokeWidth={8} strokeLinecap="round" transform={`rotate(${local * 2.4})`} />
+          <circle r={6} fill={C.ink} />
+        </g>
+      )}
+      {mode === "pumice" && (
+        <g transform={`translate(${wallX(318) + 14} ${300 + rub})`}>
+          <rect x={0} y={0} width={70} height={36} rx={12} fill={STONE} stroke={C.ink} strokeWidth={7} transform="rotate(24)" />
+          {[0, 1, 2].map((i) => (
+            <circle key={i} cx={84 + i * 16} cy={-6 + i * 10} r={6} fill={C.teal} stroke={C.ink} strokeWidth={3} />
+          ))}
+        </g>
+      )}
+      {mode === "weekly" &&
+        [
+          [300, 260],
+          [500, 240],
+          [400, 300],
+        ].map(([x, y], i) => (
+          <path key={i} d={`M${x} ${y - 20} L${x + 6} ${y - 6} L${x + 20} ${y} L${x + 6} ${y + 6} L${x} ${y + 20} L${x - 6} ${y + 6} L${x - 20} ${y} L${x - 6} ${y - 6} Z`} fill={C.sun} stroke={C.ink} strokeWidth={4} transform={`scale(${1 + Math.sin(local / 6 + i) * 0.18})`} style={{ transformOrigin: `${x}px ${y}px` }} />
+        ))}
+      {/* légendes */}
+      {mode === "ring" && (
+        <>
+          {label(400, 96, "Minerals settle at the water line", 46, C.ink, "middle")}
+          {label(400, 546, "They harden, and a brush glides over them", 40, C.coral, "middle")}
+        </>
+      )}
+      {mode === "low" && (
+        <>
+          {label(400, 96, "Lower the water level", 48, C.ink, "middle")}
+          {label(400, 546, "Now the cleaner touches the stain directly", 40, C.coral, "middle")}
+        </>
+      )}
+      {mode === "acid" && (
+        <>
+          {label(400, 96, "Vinegar or citric acid", 48, C.ink, "middle")}
+          {label(400, 546, "Acid dissolves limescale and rust", 44, C.coral, "middle")}
+        </>
+      )}
+      {mode === "soak" && (
+        <>
+          {label(400, 96, "At least 30 minutes", 48, C.ink, "middle")}
+          {label(400, 546, "Time softens the mineral layer", 44, C.teal, "middle")}
+        </>
+      )}
+      {mode === "pumice" && (
+        <>
+          {label(400, 96, "Wet stone, very light pressure", 46, C.ink, "middle")}
+          {label(400, 546, "A dry stone scratches", 46, C.coral, "middle")}
+        </>
+      )}
+      {mode === "weekly" && (
+        <>
+          {label(400, 96, "Once a week", 50, C.ink, "middle")}
+          {label(400, 546, "A cup of vinegar, one hour, then flush", 42, C.teal, "middle")}
+        </>
+      )}
+    </svg>
+  );
+};
+
 // ---------- Schéma en coupe : la casserole de riz (proportions, ébullition, vapeur, couvercle levé, repos) ----------
 export const RicePot: React.FC<{ mode: string; local: number; width?: number }> = ({ mode, local, width = 800 }) => {
   const lidOn = mode === "steam" || mode === "rest";
@@ -562,6 +684,7 @@ const DIAGRAMS: Record<string, React.FC<{ mode: string; local: number; width?: n
   "washer": ({ mode, local, width }) => <Washer mode={mode} local={local} width={width} />,
   "rice-pot": ({ mode, local, width }) => <RicePot mode={mode} local={local} width={width} />,
   "steak-pan": ({ mode, local, width }) => <SteakPan mode={mode} local={local} width={width} />,
+  "toilet-ring": ({ mode, local, width }) => <ToiletRing mode={mode} local={local} width={width} />,
   "house-drain": ({ mode, local, width }) => <HouseDrain mode={mode} local={local} width={width} />,
 };
 

@@ -104,6 +104,5 @@ S = {
 }
 def patch(ep):
     ep["hook"] = ("That brown or orange ring in your toilet bowl won't go away, no matter how much you brush. It's not dirt, it's hard water minerals, and ordinary cleaners barely touch it. "
-                  "In seven steps, you'll learn the simple method that dissolves the ring, using ingredients you may already own. It works on rust-colored rings, too. "
-                  "And if the stain still resists after all that, I'll also show you what to do next.")
+                  "In seven steps, you'll learn the simple method that dissolves the ring, using ingredients you may already own. It works on rust-colored rings too, and I'll show you what to do if the stain won't budge.")
 build(ID, TAIL, HERO, YOUNEED, MISTAKES, S, "toilet_rings.notes.json", "that make the ring worse", patch=patch, youneed_focus=(0.5, 0.5), mistakes_focus=[[0.5, 0.5]] * 3)

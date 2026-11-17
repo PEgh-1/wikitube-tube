@@ -47,340 +47,999 @@
       {
         "text": "Step one. Open a window or turn on the bathroom fan, and put on rubber gloves.",
         "prompt": "A gloved hand opening a small bathroom window above the white toilet, bright daylight pouring in, the other glove pulled on tight. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-1-1.jpg"
+        "file": "step-1-1.jpg",
+        "focus": [
+          0.5,
+          0.35
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.5,
+              0.3
+            ],
+            "text": "Window open",
+            "label": [
+              0.22,
+              0.6
+            ],
+            "on": "window"
+          }
+        ]
       },
       {
         "text": "Before you start, make sure that no bleach or bleach-based cleaner has been used in the bowl recently, because bleach and acids, such as vinegar or citric acid, create dangerous fumes when they meet.",
         "prompt": "A gloved hand holding a plain white plastic bottle with no label next to a plain glass bottle of vinegar with no label, the two kept well apart on the bathroom counter, white toilet in the background. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-1-2.jpg"
+        "file": "step-1-2.jpg",
+        "focus": [
+          0.4,
+          0.55
+        ],
+        "notes": [
+          {
+            "type": "cross",
+            "at": [
+              0.33,
+              0.55
+            ],
+            "r": 0.1,
+            "text": "No bleach today",
+            "label": [
+              0.72,
+              0.2
+            ],
+            "on": "bleach"
+          }
+        ]
       },
       {
         "text": "If you used bleach or any toilet cleaner today, flush twice and wait.",
         "prompt": "A gloved hand pressing the chrome flush button of the white toilet, clear water swirling in the bowl, a mechanical kitchen timer with a blank face on the tank lid. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-1-3.jpg"
+        "file": "step-1-3.jpg",
+        "focus": [
+          0.4,
+          0.45
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.3,
+              0.37
+            ],
+            "text": "Flush twice",
+            "label": [
+              0.26,
+              0.7
+            ],
+            "on": "twice"
+          }
+        ]
       },
       {
         "text": "We will only use one product at a time, and we will rinse thoroughly in between.",
         "prompt": "A single plain glass bottle of white vinegar standing alone on the bathroom floor tiles beside the white toilet, no other products in view. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-1-4.jpg"
+        "file": "step-1-4.jpg",
+        "focus": [
+          0.45,
+          0.6
+        ]
       },
       {
         "text": "Safety first.",
         "prompt": "A closed bathroom door seen from inside the clean white bathroom, bright light, the toilet visible at the edge of the frame. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-1-5.jpg"
+        "file": "step-1-5.jpg",
+        "focus": [
+          0.5,
+          0.6
+        ]
       },
       {
         "text": "Keep children and pets out of the bathroom while you work, just to be safe.",
         "prompt": "The closed white bathroom door with a gloved hand turning the handle to close it, a child-sized pair of slippers left on the hallway floor outside. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-1-6.jpg"
+        "file": "step-1-6.jpg",
+        "focus": [
+          0.5,
+          0.55
+        ]
       }
     ],
     "step-2": [
       {
         "text": "Step two. The ring sits at the waterline, and the water in the bowl dilutes your cleaner.",
         "prompt": "Close-up of the waterline inside a white toilet bowl showing a faint brown-orange limescale ring at the waterline, the bowl otherwise clean with clear water, side view at bowl level. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-2-1.jpg"
+        "file": "step-2-1.jpg",
+        "focus": [
+          0.55,
+          0.7
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.45,
+              0.62
+            ],
+            "text": "The ring",
+            "label": [
+              0.25,
+              0.3
+            ],
+            "on": "ring"
+          }
+        ]
       },
       {
         "text": "To expose the ring, lower the water level.",
         "prompt": "Side view of a white toilet bowl with the water level lowered a few inches, leaving a brown-orange mineral ring clearly above the water, clear water, otherwise clean. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-2-2.jpg"
+        "file": "step-2-2.jpg",
+        "focus": [
+          0.45,
+          0.65
+        ]
       },
       {
         "text": "Turn off the water valve behind the toilet, flush, and the tank empties, leaving the bowl low.",
         "prompt": "A gloved hand turning the small oval chrome shut-off valve on the tiled wall behind the white toilet, braided steel hose going up to the tank. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-2-3.jpg"
+        "file": "step-2-3.jpg",
+        "focus": [
+          0.4,
+          0.6
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.33,
+              0.6
+            ],
+            "r": 0.09,
+            "on": "valve",
+            "text": "Shut-off valve",
+            "label": [
+              0.26,
+              0.3
+            ]
+          }
+        ]
       },
       {
         "text": "Or use your brush to push the water down the drain, then remove the water left in the bowl.",
         "prompt": "A toilet brush pushing clear water down the drain at the bottom of a white toilet bowl, seen from above, the water level dropping. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-2-4.jpg"
+        "file": "step-2-4.jpg",
+        "focus": [
+          0.5,
+          0.6
+        ]
       },
       {
         "text": "Even a lower level helps a lot.",
         "prompt": "A white toilet bowl seen from above with the water level a few inches low, a faint brown-orange limescale ring at the waterline, the bowl otherwise clean with clear water. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-2-5.jpg"
+        "file": "step-2-5.jpg",
+        "focus": [
+          0.5,
+          0.5
+        ]
       },
       {
         "text": "Now the cleaner can touch the stain directly, which is the real secret of this method.",
         "prompt": "Close-up of the exposed brown-orange mineral ring on dry white porcelain just above a low water level, a gloved fingertip pointing at it. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-2-6.jpg"
+        "file": "step-2-6.jpg",
+        "focus": [
+          0.5,
+          0.62
+        ],
+        "notes": [
+          {
+            "type": "inset",
+            "at": [
+              0.45,
+              0.66
+            ],
+            "lens": [
+              0.78,
+              0.38
+            ],
+            "r": 0.13,
+            "zoom": 2.2,
+            "text": "Direct contact",
+            "on": "directly"
+          }
+        ]
       },
       {
         "text": "If your toilet has a very small amount of water, this step is easy.",
         "prompt": "Side view of a white toilet bowl with only a small pool of clear water at the bottom, the whole ring exposed above it. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-2-7.jpg"
+        "file": "step-2-7.jpg",
+        "focus": [
+          0.45,
+          0.6
+        ]
       },
       {
         "text": "Don't worry about being perfect, since a lower level is enough.",
         "prompt": "A gloved hand making an okay gesture beside a white toilet bowl whose water level is a little lower than normal, relaxed mood. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-2-8.jpg"
+        "file": "step-2-8.jpg",
+        "focus": [
+          0.5,
+          0.55
+        ]
       }
     ],
     "step-3": [
       {
         "text": "Step three. Pour about two cups of white vinegar around the bowl so it coats the ring all the way round.",
         "prompt": "White vinegar being poured from a plain glass bottle around the inside of a white toilet bowl, the clear liquid running over the brown-orange ring, close-up. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-3-1.jpg"
+        "file": "step-3-1.jpg",
+        "focus": [
+          0.45,
+          0.6
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.42,
+              0.72
+            ],
+            "text": "Coat the whole ring",
+            "label": [
+              0.25,
+              0.35
+            ],
+            "on": "coats"
+          }
+        ],
+        "fx": [
+          {
+            "type": "drops",
+            "at": [
+              0.42,
+              0.62
+            ],
+            "size": 0.8
+          }
+        ]
       },
       {
         "text": "For a stronger option, dissolve three tablespoons of citric acid in a cup of hot water, and pour it on the stain.",
         "prompt": "A gloved hand stirring white citric acid powder into a heatproof glass of hot water with a spoon, light steam rising, a small bowl of white powder beside it. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-3-2.jpg"
+        "file": "step-3-2.jpg",
+        "focus": [
+          0.5,
+          0.55
+        ]
       },
       {
         "text": "Both are acids that dissolve limescale and rust.",
         "prompt": "A glass bottle of white vinegar and a small bowl of white citric acid powder side by side on the white tiles beside the toilet, seen from above. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-3-3.jpg"
+        "file": "step-3-3.jpg",
+        "focus": [
+          0.5,
+          0.55
+        ]
       },
       {
         "text": "For a vertical stain, soak some toilet paper in the vinegar and press it against the ring, so it stays in contact.",
         "prompt": "A gloved hand pressing a vinegar-soaked piece of toilet paper flat against the brown-orange ring on the inside wall of a white toilet bowl, close-up. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-3-4.jpg"
+        "file": "step-3-4.jpg",
+        "focus": [
+          0.45,
+          0.6
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.4,
+              0.6
+            ],
+            "text": "Stays in contact",
+            "label": [
+              0.76,
+              0.25
+            ],
+            "on": "contact"
+          }
+        ]
       },
       {
         "text": "Let it sit and do the work, without any scrubbing for now.",
         "prompt": "The white toilet bowl with vinegar-soaked toilet paper clinging along the waterline all around, the toilet brush resting untouched in its holder in the background. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-3-5.jpg"
+        "file": "step-3-5.jpg",
+        "focus": [
+          0.5,
+          0.55
+        ]
       },
       {
         "text": "A funnel or a small cup helps you pour precisely, so the liquid doesn't splash on the seat or on the floor.",
         "prompt": "A gloved hand pouring vinegar through a small white funnel into a white toilet bowl, the white seat and clean tile floor dry and spotless. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-3-6.jpg"
+        "file": "step-3-6.jpg",
+        "focus": [
+          0.5,
+          0.7
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.5,
+              0.76
+            ],
+            "r": 0.07,
+            "on": "funnel",
+            "text": "A funnel helps",
+            "label": [
+              0.25,
+              0.3
+            ]
+          }
+        ]
       }
     ],
     "step-4": [
       {
         "text": "Step four. Wait at least thirty minutes.",
         "prompt": "A mechanical kitchen timer with a blank face standing on the closed lid of a white toilet tank, bright bathroom light. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-4-1.jpg"
+        "file": "step-4-1.jpg",
+        "focus": [
+          0.5,
+          0.55
+        ]
       },
       {
         "text": "For tough, old rings, leave it for two hours, or even overnight, with the lid closed so nobody uses the toilet.",
         "prompt": "A white toilet with its seat lid closed in a quiet bathroom lit by soft evening light from the window, a darker evening glow outside. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-4-2.jpg"
+        "file": "step-4-2.jpg",
+        "focus": [
+          0.5,
+          0.7
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.48,
+              0.82
+            ],
+            "text": "Lid closed",
+            "label": [
+              0.3,
+              0.35
+            ],
+            "on": "closed"
+          }
+        ]
       },
       {
         "text": "The acid needs time to soften the mineral layer.",
         "prompt": "Close-up of the waterline in a white toilet bowl where vinegar covers a softening brown-orange limescale ring at the waterline, the bowl otherwise clean with clear water, tiny bubbles clinging to the mineral ring. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-4-3.jpg"
+        "file": "step-4-3.jpg",
+        "focus": [
+          0.5,
+          0.6
+        ]
       },
       {
         "text": "This is the step that replaces hard scrubbing, so don't rush it.",
         "prompt": "The toilet brush standing untouched in its white holder next to the white toilet, the bathroom calm and tidy. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-4-4.jpg"
+        "file": "step-4-4.jpg",
+        "focus": [
+          0.5,
+          0.6
+        ]
       },
       {
         "text": "If your bathroom is shared, put a note on the lid.",
         "prompt": "A blank white paper card taped to the closed lid of the white toilet, no writing on it, a gloved hand smoothing the tape. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-4-5.jpg"
+        "file": "step-4-5.jpg",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.48,
+              0.42
+            ],
+            "r": 0.11,
+            "on": "note",
+            "text": "A note on the lid",
+            "label": [
+              0.74,
+              0.28
+            ]
+          }
+        ]
       },
       {
         "text": "During the wait, you can wipe the outside of the toilet, the seat and the handle with a cloth and warm soapy water, then rinse.",
         "prompt": "A gloved hand wiping the white toilet seat and the chrome flush handle with a damp yellow cloth, a small bucket of soapy water on the floor. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-4-6.jpg"
+        "file": "step-4-6.jpg",
+        "focus": [
+          0.5,
+          0.6
+        ]
       },
       {
         "text": "Close the bathroom door while it works.",
         "prompt": "A white bathroom door being pulled closed by a gloved hand, bright hallway light. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-4-7.jpg"
+        "file": "step-4-7.jpg",
+        "focus": [
+          0.55,
+          0.55
+        ]
       },
       {
         "text": "Give the acid a chance, because patience here replaces elbow grease later.",
         "prompt": "A gloved hand resting on the closed lid of the white toilet, the mechanical kitchen timer with a blank face beside it, a calm patient mood. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-4-8.jpg"
+        "file": "step-4-8.jpg",
+        "focus": [
+          0.5,
+          0.6
+        ]
       }
     ],
     "step-5": [
       {
         "text": "Step five. After the soak, take your toilet brush and scrub the ring in firm, circular motions.",
         "prompt": "A white toilet brush scrubbing in circles around the inside of the white toilet bowl at the waterline, gloved hand on the handle, side view. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-5-1.jpg"
+        "file": "step-5-1.jpg",
+        "focus": [
+          0.6,
+          0.65
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.65,
+              0.68
+            ],
+            "text": "Firm circles",
+            "label": [
+              0.25,
+              0.3
+            ],
+            "on": "circular"
+          }
+        ]
       },
       {
         "text": "You'll find the ring is much softer now, and it should lift off with far less effort.",
         "prompt": "Close-up of the toilet brush bristles at the waterline, the brown-orange ring partly faded where the brush has passed, clear water. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-5-2.jpg"
+        "file": "step-5-2.jpg",
+        "focus": [
+          0.5,
+          0.65
+        ]
       },
       {
         "text": "Brush under the rim too, because minerals gather there.",
         "prompt": "The toilet brush angled up under the inner rim of the white toilet bowl, gloved hand, low side view. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-5-3.jpg"
+        "file": "step-5-3.jpg",
+        "focus": [
+          0.4,
+          0.6
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.3,
+              0.62
+            ],
+            "text": "Under the rim too",
+            "label": [
+              0.72,
+              0.3
+            ],
+            "on": "rim"
+          }
+        ]
       },
       {
         "text": "If any of the ring remains, repeat the vinegar or citric acid soak once more.",
         "prompt": "A gloved hand holding a plain glass bottle of white vinegar above the white toilet bowl, a thin pale brown ring still faintly visible at the waterline. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-5-4.jpg"
+        "file": "step-5-4.jpg",
+        "focus": [
+          0.45,
+          0.6
+        ]
       },
       {
         "text": "Don't use a wire brush or steel wool, which can scratch the porcelain and make future stains stick even faster.",
         "prompt": "A grey steel wool pad and a metal wire brush lying on the white tiles far from the toilet, a gloved hand pushing them aside. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-5-5.jpg"
+        "file": "step-5-5.jpg",
+        "focus": [
+          0.55,
+          0.7
+        ],
+        "notes": [
+          {
+            "type": "cross",
+            "at": [
+              0.55,
+              0.72
+            ],
+            "r": 0.12,
+            "text": "Scratches porcelain",
+            "label": [
+              0.3,
+              0.25
+            ],
+            "on": "wire"
+          }
+        ]
       },
       {
         "text": "Always wear gloves, and be careful not to splash the water.",
         "prompt": "Close-up of a yellow rubber glove gripping the toilet brush handle, the brush moving gently in clear water with no splashing. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-5-6.jpg"
+        "file": "step-5-6.jpg",
+        "focus": [
+          0.55,
+          0.65
+        ]
       },
       {
         "text": "Work from the top of the bowl down, and rinse your brush afterward.",
         "prompt": "The toilet brush being rinsed under clear water in a white bathroom sink, gloved hand, bright light. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-5-7.jpg"
+        "file": "step-5-7.jpg",
+        "focus": [
+          0.6,
+          0.6
+        ]
       }
     ],
     "step-6": [
       {
         "text": "Step six. For rings that won't budge, use a pumice stone, but only on white porcelain.",
         "prompt": "A gloved hand holding a grey pumice stone above a white porcelain toilet bowl with a stubborn thin brown-orange ring, close-up. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-6-1.jpg"
+        "file": "step-6-1.jpg",
+        "focus": [
+          0.45,
+          0.58
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.47,
+              0.58
+            ],
+            "text": "White porcelain only",
+            "label": [
+              0.72,
+              0.3
+            ],
+            "on": "white"
+          }
+        ]
       },
       {
         "text": "Wet the stone and the stain thoroughly, and keep both wet the whole time, because a dry stone scratches.",
         "prompt": "A grey pumice stone being dipped in a cup of clear water by a gloved hand, drops falling from the stone over the bowl's wet waterline. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-6-2.jpg"
+        "file": "step-6-2.jpg",
+        "focus": [
+          0.52,
+          0.5
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.52,
+              0.55
+            ],
+            "text": "Keep both wet",
+            "label": [
+              0.25,
+              0.35
+            ],
+            "on": "wet"
+          }
+        ],
+        "fx": [
+          {
+            "type": "drops",
+            "at": [
+              0.53,
+              0.62
+            ],
+            "size": 0.8
+          }
+        ]
       },
       {
         "text": "Rub with very light pressure, and use short strokes, until the stain comes off.",
         "prompt": "A wet grey pumice stone gliding with very light pressure along the waterline of the white toilet bowl, the brown-orange ring fading behind it, close-up. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-6-3.jpg"
+        "file": "step-6-3.jpg",
+        "focus": [
+          0.45,
+          0.5
+        ]
       },
       {
         "text": "Then rinse and check.",
         "prompt": "A gloved hand pouring a cup of clear water over the cleaned porcelain waterline, the surface bright white and smooth. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-6-4.jpg"
+        "file": "step-6-4.jpg",
+        "focus": [
+          0.45,
+          0.5
+        ]
       },
       {
         "text": "Don't use pumice on plastic, colored or glazed surfaces that are damaged.",
         "prompt": "A grey pumice stone on the white tiles next to a blue plastic bucket and a coloured plastic toilet seat cover, a gloved hand holding the pumice back from them. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-6-5.jpg"
+        "file": "step-6-5.jpg",
+        "focus": [
+          0.5,
+          0.6
+        ]
       },
       {
         "text": "If you are unsure, test in a small hidden spot first.",
         "prompt": "A wet grey pumice stone touching a small hidden spot on the inside wall of a white toilet bowl low under the rim, gloved hand, close-up. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-6-6.jpg"
+        "file": "step-6-6.jpg",
+        "focus": [
+          0.45,
+          0.55
+        ]
       },
       {
         "text": "This tool removes the last bit of stubborn mineral. Don't press hard, because the stone should do the work.",
         "prompt": "A gloved hand holding the wet pumice stone lightly between two fingers against the porcelain, a relaxed light grip. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-6-7.jpg"
+        "file": "step-6-7.jpg",
+        "focus": [
+          0.4,
+          0.6
+        ]
       },
       {
         "text": "Stop if you see any scratches on the surface.",
         "prompt": "Close-up of smooth white porcelain at the waterline in bright daylight, a gloved fingertip running along it to check the surface, no marks visible. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-6-8.jpg"
+        "file": "step-6-8.jpg",
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": [
+          {
+            "type": "inset",
+            "at": [
+              0.5,
+              0.62
+            ],
+            "lens": [
+              0.78,
+              0.38
+            ],
+            "r": 0.13,
+            "zoom": 2.2,
+            "text": "Any scratch? Stop.",
+            "on": "scratches"
+          }
+        ]
       }
     ],
     "step-7": [
       {
         "text": "Step seven. Turn the water valve back on, let the tank refill, and flush two or three times to rinse.",
         "prompt": "A gloved hand turning the small oval chrome shut-off valve back open on the wall behind the white toilet, braided hose leading to the tank. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-7-1.jpg"
+        "file": "step-7-1.jpg",
+        "focus": [
+          0.35,
+          0.6
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.3,
+              0.66
+            ],
+            "text": "Water back on",
+            "label": [
+              0.72,
+              0.5
+            ],
+            "on": "back"
+          }
+        ]
       },
       {
         "text": "Admire the clean porcelain.",
         "prompt": "A sparkling white toilet bowl with clear water and a spotless waterline, three-quarter view from above, very clean and bright. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-7-2.jpg"
+        "file": "step-7-2.jpg",
+        "focus": [
+          0.45,
+          0.65
+        ],
+        "punch": "clean",
+        "fx": [
+          {
+            "type": "sparkle",
+            "at": [
+              0.45,
+              0.7
+            ],
+            "size": 1.0
+          }
+        ]
       },
       {
         "text": "To keep the ring from returning, brush the bowl weekly, and once a week, pour a cup of vinegar into the bowl and let it sit for an hour before flushing.",
         "prompt": "A gloved hand pouring a cup of white vinegar from a plain glass bottle into the white toilet bowl, a mechanical kitchen timer with a blank face on the tank lid. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-7-3.jpg"
+        "file": "step-7-3.jpg",
+        "focus": [
+          0.45,
+          0.55
+        ]
       },
       {
         "text": "If you have very hard water, consider a water softener, or an in-tank descaler.",
         "prompt": "A white toilet tank with the lid removed, a gloved hand placing a small white descaling block into the clear water of the tank. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-7-4.jpg"
+        "file": "step-7-4.jpg",
+        "focus": [
+          0.5,
+          0.5
+        ]
       },
       {
         "text": "A few minutes of weekly care beats an hour of hard work later.",
         "prompt": "A wall calendar with no numbers and a single weekday circled with a pen, a white toilet in the soft background. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-7-5.jpg"
+        "file": "step-7-5.jpg",
+        "focus": [
+          0.65,
+          0.4
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.68,
+              0.35
+            ],
+            "r": 0.06,
+            "on": "weekly"
+          }
+        ]
       },
       {
         "text": "A clean bowl is also easier to keep fresh, and makes any future cleaning quick and simple.",
         "prompt": "A spotless white toilet with a toilet brush in a white holder beside it, bright minimalist bathroom, front view. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-7-6.jpg"
+        "file": "step-7-6.jpg",
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "fx": [
+          {
+            "type": "sparkle",
+            "at": [
+              0.48,
+              0.72
+            ],
+            "size": 0.9
+          }
+        ]
       }
     ],
     "step-8": [
       {
         "text": "If the stain survived two soaks, look closer at what it is.",
         "prompt": "A gloved hand leaning in towards the waterline of the white toilet bowl to inspect a faint brown-orange limescale ring at the waterline, the bowl otherwise clean with clear water, close-up. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-8-1.jpg"
+        "file": "step-8-1.jpg",
+        "focus": [
+          0.5,
+          0.6
+        ]
       },
       {
         "text": "A pink or orange slimy film that wipes off easily is not hard water at all.",
         "prompt": "A gloved hand wiping a faint pale pink film off the white porcelain waterline with a white cloth, the film coming away easily, close-up. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-8-2.jpg"
+        "file": "step-8-2.jpg",
+        "focus": [
+          0.45,
+          0.7
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.45,
+              0.72
+            ],
+            "text": "Wipes off easily",
+            "label": [
+              0.25,
+              0.3
+            ],
+            "on": "wipes"
+          }
+        ]
       },
       {
         "text": "It is bacterial growth, and an ordinary toilet cleaner handles it.",
         "prompt": "A gloved hand holding a plain white toilet cleaner bottle with no label and a nozzle angled under the rim of the white toilet bowl, no liquid yet. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-8-3.jpg"
+        "file": "step-8-3.jpg",
+        "focus": [
+          0.5,
+          0.6
+        ]
       },
       {
         "text": "A ring that returns a few days after you remove it points to minerals or iron in your water.",
         "prompt": "Close-up of the brown-orange mineral ring on the waterline of the white toilet bowl, a clear glass of tap water standing on the tank lid behind it. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-8-4.jpg"
+        "file": "step-8-4.jpg",
+        "focus": [
+          0.5,
+          0.6
+        ]
       },
       {
         "text": "Then repeat the soak on a schedule.",
         "prompt": "A wall calendar with no numbers and two days circled with a pen, a plain glass bottle of white vinegar on the toilet tank beside it. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-8-5.jpg"
+        "file": "step-8-5.jpg",
+        "focus": [
+          0.5,
+          0.5
+        ]
       }
     ],
     "step-9": [
       {
         "text": "To stop fighting the ring, deal with the water itself.",
         "prompt": "A chrome faucet running clear water into a white bathroom sink, light mineral buildup around the base of the spout, bright light. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-9-1.jpg"
+        "file": "step-9-1.jpg",
+        "focus": [
+          0.6,
+          0.55
+        ]
       },
       {
         "text": "Your water utility can tell you how hard your supply is,",
         "prompt": "A gloved hand holding a clear glass of tap water up to the daylight from the window, a white bathroom counter behind. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-9-2.jpg"
+        "file": "step-9-2.jpg",
+        "focus": [
+          0.5,
+          0.4
+        ]
       },
       {
         "text": "and a cheap test kit does the same.",
         "prompt": "A hand holding a small water test strip over a glass of clear tap water on a white bathroom counter, the strip showing coloured pads with no writing. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-9-3.jpg"
+        "file": "step-9-3.jpg",
+        "focus": [
+          0.52,
+          0.47
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.53,
+              0.47
+            ],
+            "r": 0.07,
+            "on": "kit"
+          }
+        ]
       },
       {
         "text": "If a stain trail runs from under the rim or down to the drain, the tank may be leaking slowly into the bowl.",
         "prompt": "Close-up of a thin brown-orange mineral streak running down the inside of a white toilet bowl from under the rim to the water, bright light. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-9-4.jpg"
+        "file": "step-9-4.jpg",
+        "focus": [
+          0.4,
+          0.6
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.5,
+              0.72
+            ],
+            "text": "A leak trail",
+            "label": [
+              0.72,
+              0.3
+            ],
+            "on": "trail"
+          }
+        ]
       },
       {
         "text": "A plumber can also advise you about a water softener.",
         "prompt": "A plumber's hands in grey work gloves resting on a white water softener cabinet with no logo in a tidy utility room, seen from the side. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-9-5.jpg"
+        "file": "step-9-5.jpg",
+        "focus": [
+          0.5,
+          0.5
+        ]
       }
     ],
     "step-10": [
       {
         "text": "A few small habits make rings much less likely.",
         "prompt": "A tidy shelf in a bright bathroom with a plain glass bottle of white vinegar, a toilet brush in a holder and folded yellow gloves, white toilet in the background. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-10-1.jpg"
+        "file": "step-10-1.jpg",
+        "focus": [
+          0.45,
+          0.5
+        ]
       },
       {
         "text": "Do not drop bleach tablets into the tank.",
         "prompt": "A gloved hand holding a round white cleaning tablet with no markings beside the open tank of a white toilet, the tank lid leaning against the wall, the tablet held away from the water. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-10-2.jpg"
+        "file": "step-10-2.jpg",
+        "focus": [
+          0.47,
+          0.45
+        ],
+        "notes": [
+          {
+            "type": "cross",
+            "at": [
+              0.47,
+              0.42
+            ],
+            "r": 0.07,
+            "text": "No bleach tablets",
+            "label": [
+              0.26,
+              0.68
+            ],
+            "on": "tablets"
+          }
+        ]
       },
       {
         "text": "They damage the rubber parts, and they should never meet vinegar or citric acid.",
         "prompt": "Inside a white toilet tank, a red rubber flapper and a rubber seal in clear water, a gloved fingertip pointing at the rubber parts. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-10-3.jpg"
+        "file": "step-10-3.jpg",
+        "focus": [
+          0.5,
+          0.6
+        ]
       },
       {
         "text": "Flush a spare toilet once a week, because water that sits still is where rings form.",
         "prompt": "A gloved hand pressing the chrome flush button of a second white toilet in a small guest bathroom, clear water swirling in the bowl. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-10-4.jpg"
+        "file": "step-10-4.jpg",
+        "focus": [
+          0.45,
+          0.5
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.42,
+              0.3
+            ],
+            "text": "Once a week",
+            "label": [
+              0.25,
+              0.6
+            ],
+            "on": "week"
+          }
+        ]
       },
       {
         "text": "Brush the bowl after cleaning the bathroom, while any stain is still thin.",
         "prompt": "A toilet brush gently brushing the waterline of the white toilet bowl, only a very thin pale line visible there, gloved hand, close-up. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
-        "file": "step-10-5.jpg"
+        "file": "step-10-5.jpg",
+        "focus": [
+          0.45,
+          0.7
+        ]
       }
     ]
   },

@@ -274,6 +274,9 @@ const StepStage: React.FC<{ scene: StepScene; durationInFrames: number }> = ({ s
     const b = (j + 1 < starts.length ? starts[j + 1] : durationInFrames / fps) * fps;
     return frame >= a - 6 && frame < b + 6;
   });
+  const nowSec = frame / fps;
+  const activeCard = (scene.cards ?? []).find((c) => nowSec >= (c.t ?? 0) - 0.2 && nowSec < (c.t ?? 0) + (c.dur ?? 4.4) + 0.8);
+  const cardLeft = Boolean(activeCard && (scene.diagrams ?? []).some((d) => (activeCard.t ?? 0) < (d.t ?? 0) + (d.dur ?? 6) + 0.6 && (d.t ?? 0) < (activeCard.t ?? 0) + (activeCard.dur ?? 4.4) + 0.6));
   const tipOn = !compareOn && !cardOn && !diagramOn && !gagOn && frame >= tipFrom && frame < Math.min(durationInFrames - 20, tipFrom + 9 * fps);
   const accent = [C.coral, C.teal, C.sun][scene.index % 3];
   // Secousse d'impact : tampons « à éviter », croix sur l'image et entrées de Wiki.
@@ -307,7 +310,8 @@ const StepStage: React.FC<{ scene: StepScene; durationInFrames: number }> = ({ s
         <DiagramPanel diagrams={scene.diagrams} />
       </div>
       <WikiGag gags={scene.gags} />
-      <div style={{ position: "absolute", right: 80, bottom: 60 }}>
+      {/* Une carte affichée en même temps qu'un schéma passe à gauche : jamais l'une sur l'autre. */}
+      <div style={{ position: "absolute", bottom: cardLeft ? 176 : 60, ...(cardLeft ? { left: 76 } : { right: 80 }) }}>
         <InfoCard cards={scene.cards} width={680} />
       </div>
       {tipOn && (

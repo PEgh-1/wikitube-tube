@@ -1,0 +1,57 @@
+{
+ "playlists": [
+  {
+   "title": "Kitchen Basics & Cooking How-Tos",
+   "description": "Simple, step-by-step cooking guides from WikiTube: rice, steak, chicken, pasta and the kitchen basics everyone should know.",
+   "videos": [
+    "NOhP95QolFY"
+   ]
+  },
+  {
+   "title": "Home Repairs & Quick Fixes",
+   "description": "Fix it yourself: clear, step-by-step home repair guides from WikiTube, with what to try first and when to call a pro.",
+   "videos": [
+    "hzF08Ben-PU"
+   ]
+  },
+  {
+   "title": "Cleaning How-Tos",
+   "description": "Step-by-step cleaning guides from WikiTube: appliances, kitchen, bathroom and laundry, with simple ingredients.",
+   "videos": [
+    "7pjOrMjN5Tw"
+   ]
+  }
+ ],
+ "localizations": {
+  "hzF08Ben-PU": {
+   "es": "Cómo destapar un inodoro rápido (con o sin desatascador)",
+   "pt": "Como desentupir um vaso sanitário rápido (com ou sem desentupidor)",
+   "fr": "Comment déboucher des toilettes rapidement (avec ou sans ventouse)",
+   "de": "Toilette verstopft? So wird sie schnell frei (mit oder ohne Pümpel)",
+   "hi": "बंद टॉयलेट को जल्दी कैसे खोलें (प्लंजर के साथ या बिना)",
+   "it": "Come sturare il water velocemente (con o senza sturalavandini)",
+   "ja": "トイレのつまりを素早く直す方法(ラバーカップあり・なし)",
+   "id": "Cara Mengatasi Toilet Mampet dengan Cepat (Dengan atau Tanpa Plunger)"
+  },
+  "NOhP95QolFY": {
+   "es": "Cómo cocinar arroz perfecto en la estufa siempre (suelto, nunca pastoso)",
+   "pt": "Como fazer arroz perfeito no fogão sempre (soltinho, nunca empapado)",
+   "fr": "Comment réussir le riz à la casserole à tous les coups (aéré, jamais collant)",
+   "de": "Perfekter Reis im Topf, jedes Mal (locker, nie matschig)",
+   "hi": "गैस पर हर बार परफेक्ट चावल कैसे बनाएं (खिले-खिले, कभी चिपचिपे नहीं)",
+   "it": "Come cuocere il riso perfetto in pentola ogni volta (sgranato, mai scotto)",
+   "ja": "鍋で毎回おいしくご飯を炊く方法(ふっくら、べちゃつかない)",
+   "id": "Cara Memasak Nasi Sempurna di Kompor Setiap Saat (Pulen, Tidak Lembek)"
+  },
+  "7pjOrMjN5Tw": {
+   "es": "Cómo limpiar a fondo la lavadora y eliminar el mal olor para siempre",
+   "pt": "Como limpar a máquina de lavar a fundo e acabar com o mau cheiro de vez",
+   "fr": "Comment nettoyer à fond son lave-linge et supprimer les mauvaises odeurs pour de bon",
+   "de": "Waschmaschine gründlich reinigen und den Geruch endgültig loswerden",
+   "hi": "वॉशिंग मशीन की गहरी सफाई कैसे करें और बदबू हमेशा के लिए हटाएं",
+   "it": "Come pulire a fondo la lavatrice ed eliminare i cattivi odori per sempre",
+   "ja": "洗濯機を徹底洗浄して嫌なニオイを根本から取る方法",
+   "id": "Cara Membersihkan Mesin Cuci Secara Menyeluruh dan Menghilangkan Bau untuk Selamanya"
+  }
+ }
+}

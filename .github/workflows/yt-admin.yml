@@ -1,0 +1,40 @@
+name: Réglages de chaîne (playlists, titres traduits)
+
+on:
+  push:
+    branches: [test-gemini-web]
+    paths: ["publish/admin.json"]
+
+concurrency:
+  group: wikitube-publish
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  admin:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Réglages
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: node scripts/tools/yt-admin.mjs
+      - name: Résultat
+        if: always()
+        run: |
+          git config user.name "wikitube-bot"
+          git config user.email "wikitube-bot@users.noreply.github.com"
+          git add publish/admin-result.json 2>/dev/null || true
+          if git diff --cached --quiet; then echo "rien"; else
+            git commit -m "chore(admin): run ${{ github.run_id }}"
+            git pull --rebase origin ${{ github.ref_name }} || true
+            git push
+          fi

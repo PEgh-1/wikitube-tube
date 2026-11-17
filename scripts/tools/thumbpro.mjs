@@ -11,7 +11,8 @@ const out = path.resolve(String(args.out ?? path.join(DIRS.root, "publish", "thu
 fs.mkdirSync(out, { recursive: true });
 const serveUrl = await bundle({ entryPoint: path.join(DIRS.root, "src", "index.ts"), publicDir: DIRS.public, outDir: path.join(DIRS.build, ".bundle") });
 const common = { serveUrl, browserExecutable: process.env.REMOTION_BROWSER_EXECUTABLE || null, chromiumOptions: { gl: "angle" }, logLevel: "error" };
-for (const [id, inputProps] of Object.entries(specs)) {
+for (const [id, spec] of Object.entries(specs)) {
+  const inputProps = { ...spec, probe: Boolean(args.probe) };
   if (args.only && !id.includes(String(args.only))) continue;
   const composition = await selectComposition({ ...common, id: "ThumbPro", inputProps });
   await renderStill({ ...common, composition, inputProps, output: path.join(out, `${id}.jpg`), imageFormat: "jpeg", jpegQuality: 92 });

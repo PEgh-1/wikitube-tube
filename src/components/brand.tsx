@@ -84,8 +84,11 @@ const NoteView: React.FC<{ note: Note; box: [number, number]; focus: [number, nu
   // La cible suit la caméra ; les étiquettes restent à leur place dans le cadre.
   const bx = cam.ox + cam.s * (bx0 + cam.tx - cam.ox);
   const by = cam.oy + cam.s * (by0 + cam.ty - cam.oy);
-  const P = { x: bx * w, y: by * h };
-  const L = note.label ? { x: note.label[0] * w, y: note.label[1] * h } : null;
+  // Garde-fous : la cible et l'étiquette restent toujours entières dans le cadre.
+  const within = (v: number, lo: number, hi: number) => Math.min(Math.max(v, lo), Math.max(lo, hi));
+  const P = { x: within(bx * w, 0.03 * w, 0.97 * w), y: within(by * h, 0.06 * h, 0.9 * h) };
+  const halfW = ((note.text ?? "").length * fs * 0.2 + 26) * 1.08;
+  const L = note.label ? { x: within(note.label[0] * w, halfW + 0.015 * w, w - halfW - 0.015 * w), y: within(note.label[1] * h, 0.13 * h, 0.86 * h) } : null;
   const draw = interpolate(local, [0, 9], [0, 1], { ...clamp, easing: Easing.out(Easing.cubic) });
   const draw2 = interpolate(local, [6, 14], [0, 1], { ...clamp, easing: Easing.out(Easing.cubic) });
   const pop = spring({ frame: local - (note.type === "arrow" ? 0 : 5), fps, config: { damping: 11, stiffness: 200 } });
@@ -120,7 +123,7 @@ const NoteView: React.FC<{ note: Note; box: [number, number]; focus: [number, nu
 
   if (note.type === "loupe" || note.type === "inset") {
     // Loupe : la zone visée est agrandie dans une lentille, reliée à sa cible ; le reste de l'image s'assombrit.
-    const Lc = { x: (note.lens?.[0] ?? 0.28) * w, y: (note.lens?.[1] ?? 0.42) * h };
+    const Lc = { x: within((note.lens?.[0] ?? 0.28) * w, r + 0.02 * w, w - r - 0.02 * w), y: within((note.lens?.[1] ?? 0.42) * h, r + 0.1 * h, h - r - fs * 1.7 - 0.03 * h) };
     const z = note.zoom ?? 2.3;
     const ac = w / h;
     const dispW = ac >= IMG_ASPECT ? w : h * IMG_ASPECT;

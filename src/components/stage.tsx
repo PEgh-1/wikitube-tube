@@ -6,6 +6,13 @@ import { HAND, Mascot, WMark, type Pose } from "./brand";
 import type { Diagram, Gag } from "../types";
 
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
+
+/** Garde-fou des légendes de schéma : réduit le corps si le texte dépasserait du cadre (viewBox large de 800). */
+const fitSize = (text: string, size: number, x: number, anchor: "start" | "middle" | "end", vw = 800) => {
+  const room = anchor === "middle" ? 2 * Math.min(x, vw - x) - 20 : anchor === "end" ? x - 10 : vw - x - 10;
+  const est = text.length * size * 0.5;
+  return est > room ? Math.max(18, Math.floor((size * room) / est)) : size;
+};
 const ease = Easing.inOut(Easing.cubic);
 
 /** Élément actif à l'instant courant parmi une liste calée sur la voix (t, dur en secondes relatives à la scène). */
@@ -93,7 +100,7 @@ export const ToiletTrap: React.FC<{ mode: TrapMode; local: number; width?: numbe
   const clogX = 432 + jitter + cleared * 150;
   const clogY = 424 - cleared * 60;
   const label = (x: number, y: number, text: string, size = 40, color: string = C.ink) => (
-    <text x={x} y={y} fontFamily={HAND} fontWeight={700} fontSize={size} fill={color}>
+    <text x={x} y={y} fontFamily={HAND} fontWeight={700} fontSize={fitSize(text, size, x, "start")} fill={color}>
       {text}
     </text>
   );
@@ -169,7 +176,7 @@ export const HouseDrain: React.FC<{ mode: string; local: number; width?: number 
     </>
   );
   const label = (x: number, y: number, text: string, size = 40, color: string = C.ink) => (
-    <text x={x} y={y} fontFamily={HAND} fontWeight={700} fontSize={size} fill={color}>
+    <text x={x} y={y} fontFamily={HAND} fontWeight={700} fontSize={fitSize(text, size, x, "start")} fill={color}>
       {text}
     </text>
   );
@@ -231,7 +238,7 @@ export const SteakPan: React.FC<{ mode: string; local: number; width?: number }>
   const pulse = 1 + Math.sin(local / 5) * 0.1;
   const grow = interpolate(local, [8, 130], [4, 24], clamp);
   const label = (x: number, y: number, text: string, size = 40, color: string = C.ink, anchor: "start" | "middle" | "end" = "start") => (
-    <text x={x} y={y} fontFamily={HAND} fontWeight={700} fontSize={size} fill={color} textAnchor={anchor}>
+    <text x={x} y={y} fontFamily={HAND} fontWeight={700} fontSize={fitSize(text, size, x, anchor)} fill={color} textAnchor={anchor}>
       {text}
     </text>
   );
@@ -272,7 +279,7 @@ export const SteakPan: React.FC<{ mode: string; local: number; width?: number }>
                   <path key={x} d={`M${x - 15} 498 Q${x - 20} ${498 - 16 * flame} ${x} ${498 - 30 * flame * (i % 2 ? flick : 2 - flick)} Q${x + 20} ${498 - 16 * flame} ${x + 15} 498 Z`} fill={C.coral} stroke={C.ink} strokeWidth={4} strokeLinejoin="round" />
                 ))}
               <path d="M168 372 L188 462 Q192 478 212 478 H588 Q608 478 612 462 L632 372" fill={C.paper} stroke={C.ink} strokeWidth={11} strokeLinejoin="round" strokeLinecap="round" />
-              <path d="M634 384 L706 372" stroke={C.ink} strokeWidth={22} strokeLinecap="round" />
+              <path d="M634 384 L688 375" stroke={C.ink} strokeWidth={22} strokeLinecap="round" />
             </>
           ) : (
             <rect x={150} y={468} width={500} height={30} rx={12} fill={BOARD} stroke={C.ink} strokeWidth={9} />
@@ -373,9 +380,9 @@ export const SteakPan: React.FC<{ mode: string; local: number; width?: number }>
       )}
       {mode === "temp" && (
         <>
-          {label(24, 60, "Rare 125°F", 36, C.coral)}
-          {label(400, 60, "Medium-rare 130–135°F", 36, C.ink, "middle")}
-          {label(776, 60, "Medium 140°F", 36, BROWN, "end")}
+          {label(24, 60, "Rare 125°F", 30, C.coral)}
+          {label(392, 60, "Medium-rare 130–135°F", 30, C.ink, "middle")}
+          {label(776, 60, "Medium 140°F", 30, BROWN, "end")}
           {label(400, 112, "Probe from the side, into the thickest part", 36, C.teal, "middle")}
           {label(400, 548, "It rises a few degrees while it rests", 42, C.coral, "middle")}
         </>
@@ -410,7 +417,7 @@ export const ToiletRing: React.FC<{ mode: string; local: number; width?: number 
   const pulse = 1 + Math.sin(local / 5) * 0.1;
   const rub = Math.sin(local / 3) * 9;
   const label = (x: number, y: number, text: string, size = 40, color: string = C.ink, anchor: "start" | "middle" | "end" = "start") => (
-    <text x={x} y={y} fontFamily={HAND} fontWeight={700} fontSize={size} fill={color} textAnchor={anchor}>
+    <text x={x} y={y} fontFamily={HAND} fontWeight={700} fontSize={fitSize(text, size, x, anchor)} fill={color} textAnchor={anchor}>
       {text}
     </text>
   );
@@ -525,7 +532,7 @@ export const RicePot: React.FC<{ mode: string; local: number; width?: number }> 
   const lidY = peek ? interpolate(local, [0, 14], [0, -70], { ...clamp, easing: Easing.out(Easing.cubic) }) : 0;
   const lidRot = peek ? interpolate(local, [0, 14], [0, -16], clamp) : 0;
   const label = (x: number, y: number, text: string, size = 40, color: string = C.ink, anchor: "start" | "middle" | "end" = "start") => (
-    <text x={x} y={y} fontFamily={HAND} fontWeight={700} fontSize={size} fill={color} textAnchor={anchor}>
+    <text x={x} y={y} fontFamily={HAND} fontWeight={700} fontSize={fitSize(text, size, x, anchor)} fill={color} textAnchor={anchor}>
       {text}
     </text>
   );
@@ -602,7 +609,7 @@ export const Washer: React.FC<{ mode: string; local: number; width?: number }> =
   const ajar = mode === "dry" ? interpolate(local, [4, 24], [0, 1], { ...clamp, easing: Easing.out(Easing.cubic) }) : 0;
   const capOut = mode === "filter" ? interpolate(local, [6, 30], [0, 1], clamp) : 0;
   const label = (x: number, y: number, text: string, size = 40, color: string = C.ink, anchor: "start" | "middle" | "end" = "start") => (
-    <text x={x} y={y} fontFamily={HAND} fontWeight={700} fontSize={size} fill={color} textAnchor={anchor}>
+    <text x={x} y={y} fontFamily={HAND} fontWeight={700} fontSize={fitSize(text, size, x, anchor)} fill={color} textAnchor={anchor}>
       {text}
     </text>
   );

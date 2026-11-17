@@ -1,4 +1,5 @@
 import React from "react";
+import { OverflowProbe } from "./components/probe";
 import { AbsoluteFill, Audio, Sequence, interpolate, staticFile, useVideoConfig } from "remotion";
 import { C } from "./theme";
 import type { LongProps, Scene } from "./types";
@@ -64,6 +65,7 @@ export const Long: React.FC<LongProps> = ({ timeline, options }) => {
           </Sequence>
         );
       })}
+      {options?.probe && <OverflowProbe />}
     </AbsoluteFill>
   );
 };

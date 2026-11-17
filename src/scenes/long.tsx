@@ -111,6 +111,9 @@ const HookDiagram: React.FC<{ scene: HookScene }> = ({ scene }) => {
   let modeFrom = 0;
   for (const c of chips) if (c.mode && frame >= Math.round((c.t ?? 0) * fps)) { mode = c.mode; modeFrom = Math.round((c.t ?? 0) * fps); }
   const gag = useCue(scene.gags, 3.2);
+  const shown = chips.filter((c) => !c.hidden);
+  const chipsHeight = shown.reduce((h, c) => h + 162 + ((c.label ?? "").length > 17 ? 60 : 0), 0) + Math.max(0, shown.length - 1) * 26;
+  const chipScale = Math.min(1.1, 860 / Math.max(1, chipsHeight));
   return (
     <Frame bg={C.paper} dots={false}>
       <AbsoluteFill style={{ backgroundImage: `linear-gradient(rgba(27,42,65,0.06) 2px, transparent 2px), linear-gradient(90deg, rgba(27,42,65,0.06) 2px, transparent 2px)`, backgroundSize: "48px 48px" }} />
@@ -122,21 +125,24 @@ const HookDiagram: React.FC<{ scene: HookScene }> = ({ scene }) => {
       <Pop delay={6} style={{ position: "absolute", left: 70, top: 330 }}>
         <DiagramView name={scene.diagram ?? ""} mode={mode} local={frame - modeFrom} width={1010} />
       </Pop>
-      <div style={{ position: "absolute", left: 1130, top: chips.filter((c) => !c.hidden).length > 3 ? 250 : 300, right: 70, display: "flex", flexDirection: "column", gap: chips.filter((c) => !c.hidden).length > 3 ? 24 : 30 }}>
-        {chips.map((c, i) => {
-          const f = frame - Math.round((c.t ?? 0) * fps);
-          if (f < 0 || c.hidden) return null;
-          const sp = spring({ frame: f, fps, config: { damping: 12, stiffness: 170 } });
-          return (
-            <div key={i} style={{ display: "flex", alignItems: "center", gap: 24, background: C.white, border: `6px solid ${C.ink}`, borderRadius: 26, padding: "16px 28px", boxShadow: `9px 9px 0 ${[C.coral, C.teal, C.sun][i % 3]}`, transform: `translateX(${(1 - sp) * 220}px) rotate(${i % 2 ? 1 : -1}deg)`, opacity: Math.min(1, sp * 1.5) }}>
-              <div style={{ width: 78, height: 78, borderRadius: 22, background: [C.coral, C.teal, C.sun][i % 3], color: i % 3 === 2 ? C.ink : C.white, fontSize: 48, fontWeight: 900, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>{i + 1}</div>
-              <div>
-                <div style={{ fontSize: 58, fontWeight: 900, lineHeight: 1.02, color: C.ink }}>{c.label}</div>
-                {c.sub && <div style={{ fontFamily: HAND, fontWeight: 700, fontSize: 52, lineHeight: 1, color: C.coral }}>{c.sub}</div>}
+      {/* Colonne des causes : toujours entière dans l'image, quelle que soit leur nombre (échelle calculée). */}
+      <div style={{ position: "absolute", left: 1110, right: 60, top: 150, height: 890, display: "flex", flexDirection: "column", justifyContent: "center" }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: 26, transform: `scale(${chipScale})`, transformOrigin: "right center" }}>
+          {chips.map((c, i) => {
+            const f = frame - Math.round((c.t ?? 0) * fps);
+            if (f < 0 || c.hidden) return null;
+            const sp = spring({ frame: f, fps, config: { damping: 12, stiffness: 170 } });
+            return (
+              <div key={i} style={{ display: "flex", alignItems: "center", gap: 24, background: C.white, border: `6px solid ${C.ink}`, borderRadius: 26, padding: "16px 28px", boxShadow: `9px 9px 0 ${[C.coral, C.teal, C.sun][i % 3]}`, transform: `translateX(${(1 - sp) * 220}px) rotate(${i % 2 ? 1 : -1}deg)`, opacity: Math.min(1, sp * 1.5) }}>
+                <div style={{ width: 78, height: 78, borderRadius: 22, background: [C.coral, C.teal, C.sun][i % 3], color: i % 3 === 2 ? C.ink : C.white, fontSize: 48, fontWeight: 900, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>{i + 1}</div>
+                <div>
+                  <div style={{ fontSize: 58, fontWeight: 900, lineHeight: 1.02, color: C.ink }}>{c.label}</div>
+                  {c.sub && <div style={{ fontFamily: HAND, fontWeight: 700, fontSize: 52, lineHeight: 1, color: C.coral }}>{c.sub}</div>}
+                </div>
               </div>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
       {gag && (
         <div style={{ position: "absolute", right: 70, bottom: 30 }}>

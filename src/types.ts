@@ -120,6 +120,7 @@ export type Timeline = {
 export type RenderOptions = {
   burnSubtitles?: boolean; // sous-titres incrustés (par défaut true)
   audio?: boolean; // désactiver l'audio (aperçu Studio)
+  probe?: boolean; // sonde de mise en page (contrôle, jamais en rendu final)
 };
 
 export type LongProps = { timeline: Timeline; options?: RenderOptions };

@@ -2,6 +2,7 @@
 // Réglages de chaîne par l'API YouTube : playlists (création + rangement) et titres traduits.
 // Lit publish/admin.json ; idempotent (ne recrée ni ne réinsère ce qui existe). Écrit publish/admin-result.json.
 import path from "node:path";
+import fs from "node:fs";
 import { DIRS, readJson, writeJson, requireEnv, log } from "../lib/common.mjs";
 const cfg = readJson(path.join(DIRS.root, "publish", "admin.json"));
 const YT = "https://www.googleapis.com/youtube/v3";
@@ -23,7 +24,7 @@ async function api(method, url, json, attempt = 1) {
   const t = await res.text();
   return t ? JSON.parse(t) : {};
 }
-const result = { at: new Date().toISOString(), playlists: [], localizations: [], errors: [] };
+const result = { at: new Date().toISOString(), playlists: [], localizations: [], thumbnails: [], errors: [] };
 try {
   // Playlists
   const mine = (await api("GET", `${YT}/playlists?part=snippet&mine=true&maxResults=50`)).items ?? [];
@@ -57,6 +58,15 @@ try {
     if (changed) await api("PUT", `${YT}/videos?part=localizations`, { id: videoId, localizations: loc });
     result.localizations.push({ videoId, changed, locales: Object.keys(loc) });
     log.info(`✔ ${videoId} : ${changed} titre(s) traduit(s) mis à jour`);
+  }
+  // Miniatures (remplacement de l'image d'une vidéo existante)
+  for (const [videoId, file] of Object.entries(cfg.thumbnails ?? {})) {
+    const buf = fs.readFileSync(path.join(DIRS.root, file));
+    token ??= await accessToken();
+    const res = await fetch(`https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId=${videoId}`, { method: "POST", headers: { authorization: `Bearer ${token}`, "content-type": "image/jpeg", "content-length": String(buf.length) }, body: buf });
+    if (!res.ok) throw new Error(`thumbnails.set ${videoId} → ${res.status} : ${(await res.text()).slice(0, 300)}`);
+    result.thumbnails.push({ videoId, file, bytes: buf.length });
+    log.info(`✔ miniature ${videoId}`);
   }
 } catch (e) {
   result.errors.push(String(e.message));

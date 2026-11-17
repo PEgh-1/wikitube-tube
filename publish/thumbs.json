@@ -2,7 +2,7 @@
  "2026-11-04-unclog-a-toilet": {
   "photo": "thumbs/toilet.jpg",
   "flip": true,
-  "position": "40% 60%",
+  "position": "75% 60%",
   "lines": [
    {
     "text": "TOILET",
@@ -11,7 +11,7 @@
    {
     "text": "CLOGGED?",
     "hi": true,
-    "size": 108
+    "size": 118
    }
   ],
   "badge": "NO PLUMBER NEEDED",
@@ -37,8 +37,7 @@
    }
   ],
   "badge": "FLUFFY EVERY TIME",
-  "mascot": "chef",
-  "mascotH": 290
+  "mascot": "chef"
  },
  "2026-11-24-clean-washing-machine": {
   "photo": "thumbs/washer.jpg",
@@ -74,8 +73,7 @@
    }
   ],
   "badge": "IN A PAN, NO GRILL",
-  "mascot": "chef",
-  "mascotH": 300
+  "mascot": "chef"
  },
  "2026-11-28-remove-toilet-ring-hard-water": {
   "photo": "thumbs/rings.jpg",
@@ -93,7 +91,6 @@
    }
   ],
   "badge": "DISSOLVE IT, DON'T SCRUB",
-  "mascot": "plumber",
-  "mascotH": 300
+  "mascot": "plumber"
  }
 }

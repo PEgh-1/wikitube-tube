@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-17T06:35:59.714Z",
+  "at": "2026-11-17T08:13:08.647Z",
   "playlists": [
     {
       "title": "Kitchen Basics & Cooking How-Tos",
@@ -12,18 +12,18 @@
     {
       "title": "Home Repairs & Quick Fixes",
       "id": "PLMuX-UiXVOk4",
-      "added": [
+      "added": [],
+      "already": [
         "hzF08Ben-PU"
-      ],
-      "already": []
+      ]
     },
     {
       "title": "Cleaning How-Tos",
       "id": "PLfKQeKEgp-dc",
-      "added": [
+      "added": [],
+      "already": [
         "7pjOrMjN5Tw"
-      ],
-      "already": []
+      ]
     }
   ],
   "localizations": [
@@ -32,92 +32,109 @@
       "changed": 8,
       "locales": [
         "es-US",
-        "ru",
-        "bn",
-        "fr-FR",
-        "en",
-        "uk",
-        "pa",
-        "pl",
-        "id",
-        "ja",
-        "te",
-        "fr",
-        "hi",
         "nl-NL",
-        "pt-BR",
-        "ml",
-        "it",
-        "es",
+        "te",
         "ta",
-        "de",
-        "pt",
         "ko",
+        "pt-BR",
+        "pa",
+        "id",
+        "fr",
+        "en",
+        "bn",
         "iw",
-        "ar"
+        "fr-FR",
+        "de",
+        "ar",
+        "ru",
+        "pt",
+        "it",
+        "uk",
+        "pl",
+        "es",
+        "ml",
+        "hi",
+        "ja"
       ]
     },
     {
       "videoId": "NOhP95QolFY",
-      "changed": 8,
+      "changed": 0,
       "locales": [
-        "pl",
-        "hi",
-        "ml",
-        "ta",
-        "de-DE",
-        "de",
-        "pt",
+        "fr",
         "ru",
-        "iw",
-        "te",
-        "ko",
-        "es-US",
-        "pt-BR",
-        "bn",
         "it",
-        "fr-FR",
+        "ml",
+        "bn",
+        "pl",
+        "id",
+        "de",
+        "es-US",
+        "hi",
+        "pt-BR",
+        "ta",
         "en",
         "es",
-        "uk",
-        "ar",
-        "pa",
         "ja",
-        "id",
         "nl-NL",
-        "fr"
+        "te",
+        "fr-FR",
+        "ar",
+        "ko",
+        "iw",
+        "de-DE",
+        "pa",
+        "uk",
+        "pt"
       ]
     },
     {
       "videoId": "7pjOrMjN5Tw",
-      "changed": 8,
+      "changed": 0,
       "locales": [
-        "it",
-        "de",
-        "en",
         "pt",
         "id",
-        "de-DE",
-        "iw",
-        "ja",
-        "ar",
-        "es-US",
-        "fr-FR",
-        "hi",
+        "ml",
+        "en",
         "pa",
+        "es",
+        "ja",
+        "iw",
+        "ru",
+        "hi",
+        "fr",
+        "bn",
+        "te",
+        "es-US",
+        "ko",
+        "de-DE",
+        "it",
+        "uk",
+        "de",
         "pl",
         "nl-NL",
-        "es",
-        "te",
         "ta",
-        "ko",
-        "ru",
+        "ar",
         "pt-BR",
-        "fr",
-        "uk",
-        "bn",
-        "ml"
+        "fr-FR"
       ]
+    }
+  ],
+  "thumbnails": [
+    {
+      "videoId": "hzF08Ben-PU",
+      "file": "publish/thumbs/2026-11-04-unclog-a-toilet.jpg",
+      "bytes": 193122
+    },
+    {
+      "videoId": "NOhP95QolFY",
+      "file": "publish/thumbs/2026-11-23-cook-rice-on-the-stove.jpg",
+      "bytes": 198537
+    },
+    {
+      "videoId": "7pjOrMjN5Tw",
+      "file": "publish/thumbs/2026-11-24-clean-washing-machine.jpg",
+      "bytes": 222874
     }
   ],
   "errors": []

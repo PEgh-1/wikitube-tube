@@ -358,6 +358,7 @@ const manifest = {
   // Encarts calés sur la voix (chiffres, « pourquoi », « à éviter », coches du matériel), par étape.
   introExtras: pregen?.extras?.intro ?? null,
   shortShots: pregen?.short ?? null, // plans choisis pour les 3 étapes du Short ("étape-plan")
+  short2Files: short2Files(), // médias verticaux du second Short (clip d'ouverture, photos dédiées)
   stepExtras: sections.map((_, i) => pregen?.extras?.[`step-${i + 1}`] ?? null),
   // Scènes « matériel » et « erreurs » en photo plein écran (images pré-générées).
   youneed: extraShot(pregen?.youneed, "youneed"),
@@ -370,6 +371,18 @@ const manifest = {
     .map((r) => `${r.credit} — ${r.pageUrl}`),
 };
 writeJson(manifestFile, manifest);
+
+function short2Files() {
+  const out = {};
+  if (mock || !fs.existsSync(pregenDir)) return out;
+  for (const name of fs.readdirSync(pregenDir).filter((f) => /^short2-.+\.(mp4|jpe?g|png)$/i.test(f))) {
+    const file = path.join(imgDir, name);
+    fs.copyFileSync(path.join(pregenDir, name), file);
+    const video = /\.mp4$/i.test(name);
+    out[name] = { key: name, kind: video ? "video" : "photo", width: 1080, height: 1920, provider: "gemini-web", file: path.relative(DIRS.public, file).split(path.sep).join("/"), focus: null };
+  }
+  return out;
+}
 
 function extraShot(sh, dest) {
   if (mock || !sh?.file || !exists(path.join(pregenDir, sh.file))) return null;

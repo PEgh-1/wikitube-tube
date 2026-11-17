@@ -7,7 +7,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { DIRS, parseArgs, readJson, writeJson, log, ensureDir, todayISO } from "./lib/common.mjs";
-import { validateEpisode, longSegments, shortSegments } from "./lib/episode.mjs";
+import { validateEpisode, longSegments, shortSegments, short2Segments } from "./lib/episode.mjs";
 
 const args = parseArgs();
 const today = args.date ?? todayISO();
@@ -37,7 +37,7 @@ const episode = validateEpisode(readJson(source));
 const buildDir = ensureDir(path.join(DIRS.build, episode.id));
 
 writeJson(path.join(buildDir, "episode.json"), episode);
-writeJson(path.join(buildDir, "segments.json"), { long: longSegments(episode, readBrand()), short: shortSegments(episode) });
+writeJson(path.join(buildDir, "segments.json"), { long: longSegments(episode, readBrand()), short: [...shortSegments(episode), ...short2Segments(episode)] });
 writeJson(path.join(DIRS.build, "current.json"), {
   episodeId: episode.id,
   buildDir: path.relative(DIRS.root, buildDir),

@@ -94,6 +94,8 @@ export type OutroScene = SceneBase & { type: "outro"; baseline?: string | null }
 export type ShortHookScene = SceneBase & { type: "short-hook"; title: string; image?: ImageRef };
 export type ShortStepScene = SceneBase & { type: "short-step"; index: number; total: number; title: string; image?: ImageRef };
 export type ShortCtaScene = SceneBase & { type: "short-cta" };
+export type Short2HookScene = SceneBase & { type: "short2-hook"; kind: "mistake" | "tip"; title: string; image?: ImageRef };
+export type Short2BeatScene = SceneBase & { type: "short2-beat"; kind: "mistake" | "tip"; index: number; total: number; label: string; title: string; image?: ImageRef };
 
 export type Scene =
   | PrerollScene
@@ -105,7 +107,9 @@ export type Scene =
   | OutroScene
   | ShortHookScene
   | ShortStepScene
-  | ShortCtaScene;
+  | ShortCtaScene
+  | Short2HookScene
+  | Short2BeatScene;
 
 export type Timeline = {
   kind: "long" | "short";

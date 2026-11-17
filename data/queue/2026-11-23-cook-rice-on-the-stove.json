@@ -205,5 +205,28 @@
       }
     ],
     "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+  },
+  "short2": {
+    "kind": "mistake",
+    "title": "Stop lifting the lid on your rice",
+    "description": "The #1 reason rice turns mushy: peeking. Keep the lid on, heat on low, then rest it 10 minutes. Full 7-step guide on the channel. #rice #cooking #kitchentips",
+    "headline": "Lifting the lid",
+    "hook": "Stop lifting the lid on your rice.",
+    "shot": "short2-hook.mp4",
+    "beats": [
+      {
+        "label": "Why it fails",
+        "title": "The steam escapes",
+        "narration": "Every peek lets the steam out, so the rice cooks unevenly and turns mushy.",
+        "shot": "mistake-3"
+      },
+      {
+        "label": "Do this instead",
+        "title": "Lid on, hands off",
+        "narration": "Cover it, turn the heat to low, and don't touch it. Then rest it ten minutes off the heat.",
+        "shot": "5-1"
+      }
+    ],
+    "cta": "The full seven-step guide is on the channel."
   }
 }

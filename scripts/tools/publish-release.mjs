@@ -43,6 +43,15 @@ for (const { id, publishAt } of queue) {
   if (e.short?.videoId) { log.info(`${id} : Short déjà en ligne, ignoré`); continue; }
   if (!run(id, ["--publish-at", publishAt, "--skip-long", "--long-url", e.long.url])) { failed = true; log.warn(`${id} : échec du Short`); break; }
 }
+// 2 bis. Second Short ({ id, publishAt, short2At }) : envoyé seul à l'heure short2At, une seule fois.
+for (const { id, short2At } of queue) {
+  if (!short2At || failed) continue;
+  const e = published().find((x) => x.episodeId === id);
+  if (!e?.long?.videoId) continue;
+  if (e.short2?.videoId) { log.info(`${id} : second Short déjà en ligne, ignoré`); continue; }
+  if (!exists(path.join(DIRS.root, "out", id, "short2.mp4"))) { log.warn(`${id} : short2.mp4 absent`); failed = true; break; }
+  if (!run(id, ["--publish-at", short2At, "--skip-long", "--long-url", e.long.url, "--short2"])) { failed = true; log.warn(`${id} : échec du second Short`); break; }
+}
 // 3. Remplacement d'un Short déjà programmé ({ id, publishAt, replaceShort: "<ancien videoId>" }) :
 //    le nouveau est envoyé d'abord, l'ancien n'est supprimé qu'une fois le nouveau en ligne.
 const requireEnv = (k) => { if (!process.env[k]) throw new Error(`Variable ${k} manquante`); return process.env[k]; };

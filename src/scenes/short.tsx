@@ -3,7 +3,7 @@ import { AbsoluteFill, Img, OffthreadVideo, interpolate, spring, staticFile, use
 import { C, FONT } from "../theme";
 import { Frame, Logo, SlideUp, StepBadge } from "../components/ui";
 import { Mascot } from "../components/brand";
-import type { ImageRef, ShortHookScene, ShortStepScene } from "../types";
+import type { ImageRef, ShortHookScene, ShortStepScene, Short2HookScene, Short2BeatScene } from "../types";
 
 // Format vertical 1080×1920 : la photo occupe tout l'écran (léger travelling), le texte se pose dessus.
 // Zones laissées libres pour l'interface des plateformes : 150 px à droite sous y=1100, 330 px en bas.
@@ -43,7 +43,7 @@ const Photo: React.FC<{ image?: ImageRef; durationInFrames: number; dir?: number
   );
 };
 
-const Header: React.FC<{ step?: number; total?: number }> = ({ step, total }) => (
+const Header: React.FC<{ step?: number; total?: number; label?: string }> = ({ step, total, label }) => (
   <div style={{ position: "absolute", top: 84, left: 56, right: 56, display: "flex", alignItems: "center", justifyContent: "space-between" }}>
     <div style={{ background: C.paper, borderRadius: 22, padding: "10px 22px" }}>
       <Logo size={50} />
@@ -55,7 +55,7 @@ const Header: React.FC<{ step?: number; total?: number }> = ({ step, total }) =>
         ))}
       </div>
     ) : (
-      <div style={{ background: C.coral, color: C.white, fontSize: 34, fontWeight: 900, letterSpacing: 3, padding: "12px 26px", borderRadius: 999 }}>3 QUICK STEPS</div>
+      <div style={{ background: C.coral, color: C.white, fontSize: 34, fontWeight: 900, letterSpacing: 3, padding: "12px 26px", borderRadius: 999 }}>{label ?? "3 QUICK STEPS"}</div>
     )}
   </div>
 );
@@ -92,6 +92,53 @@ export const ShortStep: React.FC<{ scene: ShortStepScene; durationInFrames: numb
     </div>
   </AbsoluteFill>
 );
+
+// ---------- Second Short : une erreur à éviter ("mistake") ou une astuce ("tip") ----------
+const KIND = {
+  mistake: { tag: "STOP DOING THIS", color: C.coral, mascot: "no" },
+  tip: { tag: "WIKI'S TIP", color: C.teal, mascot: "idea" },
+} as const;
+
+const Tag: React.FC<{ text: string; bg: string; color?: string; size?: number; delay?: number }> = ({ text, bg, color = C.white, size = 46, delay = 4 }) => (
+  <SlideUp delay={delay} style={{ display: "inline-block", background: bg, color, fontSize: size, fontWeight: 900, letterSpacing: 5, padding: "8px 26px", borderRadius: 16, transform: "rotate(-2deg)" }}>
+    {text}
+  </SlideUp>
+);
+
+export const Short2Hook: React.FC<{ scene: Short2HookScene; durationInFrames: number }> = ({ scene, durationInFrames }) => {
+  const k = KIND[scene.kind];
+  return (
+    <AbsoluteFill style={{ fontFamily: FONT }}>
+      <Photo image={scene.image} durationInFrames={durationInFrames} />
+      <Header label={scene.kind === "mistake" ? "MISTAKE TO AVOID" : "QUICK TIP"} />
+      <div style={{ position: "absolute", top: 226, left: 56, right: 56 }}>
+        <Tag text={k.tag} bg={k.color} size={58} />
+        <SlideUp delay={10} style={{ fontSize: fit(scene.title, 132, 968, 3), fontWeight: 900, lineHeight: 1.02, marginTop: 22, color: C.white, textShadow: shadow }}>
+          {scene.title}
+        </SlideUp>
+      </div>
+      <div style={{ position: "absolute", left: 40, bottom: 560 }}>
+        <Mascot pose={k.mascot} height={330} delay={6} />
+      </div>
+    </AbsoluteFill>
+  );
+};
+
+export const Short2Beat: React.FC<{ scene: Short2BeatScene; durationInFrames: number }> = ({ scene, durationInFrames }) => {
+  const good = scene.kind === "tip" || scene.index === scene.total;
+  return (
+    <AbsoluteFill style={{ fontFamily: FONT }}>
+      <Photo image={scene.image} durationInFrames={durationInFrames} dir={scene.index} />
+      <Header step={scene.index} total={scene.total} />
+      <div style={{ position: "absolute", top: 226, left: 56, right: 56 }}>
+        <Tag text={scene.label.toUpperCase()} bg={good ? C.teal : C.sun} color={good ? C.white : C.ink} />
+        <SlideUp delay={8} style={{ fontSize: fit(scene.title, 116, 968, 3), fontWeight: 900, lineHeight: 1.03, marginTop: 20, color: C.white, textShadow: shadow }}>
+          {scene.title}
+        </SlideUp>
+      </div>
+    </AbsoluteFill>
+  );
+};
 
 export const ShortCta: React.FC = () => {
   const frame = useCurrentFrame();

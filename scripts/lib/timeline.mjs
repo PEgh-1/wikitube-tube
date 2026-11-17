@@ -281,3 +281,33 @@ export function absoluteWords(timeline) {
   }
   return out;
 }
+
+/** Second Short : une erreur à éviter ou une astuce. Ouverture (clip vertical si disponible), 1 à 3 temps, appel à l'action. */
+export function buildShort2Timeline(ep, tts, images, { fps = FPS } = {}) {
+  const s2 = ep.short2;
+  if (!s2) return null;
+  // "étape-plan", "mistake-N", "hero" ou un fichier short2-*.mp4|jpg déposé dans data/shots/<id>/.
+  const media = (ref) => {
+    if (!ref) return null;
+    if (images.short2Files?.[ref]) return images.short2Files[ref];
+    if (ref === "hero") return images.hero;
+    const m = /^mistake-(\d+)$/.exec(ref);
+    if (m) return images.mistakes?.[Number(m[1]) - 1] ?? null;
+    const [ps, pj] = String(ref).split("-").map(Number);
+    return ps && pj ? (images.stepShots?.[ps - 1]?.[pj - 1] ?? null) : null;
+  };
+  const scenes = [];
+  let t = 0;
+  const push = (scene, id, tail = SHORT_GAP_SEC) => {
+    const g = tts.segments[id];
+    if (!g) throw new Error(`Segment audio manquant : ${id}`);
+    const duration = roundToFrame(Math.max(g.duration + tail, 1.5), fps);
+    scenes.push({ ...scene, start: roundToFrame(t, fps), duration, segments: [{ id, file: g.file, at: roundToFrame(t, fps), duration: g.duration, words: g.words }] });
+    t = roundToFrame(t + duration, fps);
+  };
+  push({ type: "short2-hook", kind: s2.kind, title: s2.headline, image: media(s2.shot) ?? images.hero }, "short2-hook");
+  s2.beats.forEach((b, i) => push({ type: "short2-beat", kind: s2.kind, index: i + 1, total: s2.beats.length, label: b.label, title: b.title, image: media(b.shot) ?? images.hero }, `short2-beat-${i + 1}`));
+  push({ type: "short-cta" }, "short2-cta", 1.0);
+  if (t > SHORT_MAX_SEC) throw new Error(`Second Short trop long : ${t.toFixed(1)} s`);
+  return { kind: "short", fps, width: 1080, height: 1920, totalSec: t, durationInFrames: Math.round(t * fps), scenes, chapters: [] };
+}

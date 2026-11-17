@@ -24,7 +24,7 @@ on:
         required: false
         default: ""
       only:
-        description: "Ne rendre qu'une partie (short ou long), sans QC ni upload"
+        description: "Ne rendre qu'une partie (short, short2 ou long), sans QC ni upload"
         required: false
         default: ""
 

@@ -205,6 +205,21 @@ if (!skipLong && meta.playlistId) {
   }
 }
 
+// Second Short (--short2) : envoyé seul, à l'heure exacte de --publish-at ; consigné sous « short2 ».
+if (args.short2) {
+  if (!meta.short2) throw new Error("metadata.short2 absent : rendre le second Short d'abord");
+  const snippet = { title: meta.short2.title, description: `${meta.short2.description}\n\nFull video: ${result.long.url}`, tags: [...meta.short2.tags, "shorts"], categoryId: "26", defaultLanguage: "en", defaultAudioLanguage: "en" };
+  const v = await uploadVideo(path.join(DIRS.root, meta.short2.file), snippet, { ...baseStatus, ...(publishAt ? { publishAt: publishAt.toISOString() } : {}) }, null);
+  result.short2 = { videoId: v.id, publishAt: publishAt?.toISOString() ?? null, url: `https://youtube.com/shorts/${v.id}` };
+  log.info(`✔ short2 → ${result.short2.url}`);
+  if (!dry) {
+    const published = exists(logFile) ? readJson(logFile) : [];
+    const e = published.find((x) => x.episodeId === episodeId);
+    if (e) { e.short2 = result.short2; writeJson(logFile, published); }
+  }
+  process.exit(0);
+}
+
 // Short (vidéo séparée ; YouTube le classe en Short via le format 9:16 ≤ 3 min)
 if (!args["skip-short"]) {
   const shortFile = path.join(DIRS.root, meta.short.file);

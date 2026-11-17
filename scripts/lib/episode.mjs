@@ -85,6 +85,19 @@ export const EpisodeSchema = z
       steps: z.array(ShortStepSchema).length(3),
       cta: Narration(5, 30),
     }),
+    // Second Short (facultatif) : une seule erreur à éviter ("mistake") ou une astuce ("tip"), 15–25 s.
+    short2: z
+      .object({
+        kind: z.enum(["mistake", "tip"]),
+        title: z.string().trim().min(5).max(100),
+        description: z.string().trim().min(10).max(1000),
+        headline: z.string().trim().min(3).max(40),
+        hook: Narration(3, 25),
+        shot: z.string().optional(),
+        beats: z.array(z.object({ label: z.string().trim().min(2).max(24), title: z.string().trim().min(2).max(40), narration: Narration(4, 30), shot: z.string().optional() })).min(1).max(3),
+        cta: Narration(4, 25),
+      })
+      .optional(),
   })
   .superRefine((ep, ctx) => {
     if (ep.id !== `${ep.date}-${ep.slug}`) {
@@ -155,6 +168,15 @@ export function shortSegments(ep) {
     { id: "short-hook", text: ep.short.hook },
     ...ep.short.steps.map((s, i) => ({ id: `short-step-${i + 1}`, text: s.narration })),
     { id: "short-cta", text: ep.short.cta },
+  ];
+}
+
+export function short2Segments(ep) {
+  if (!ep.short2) return [];
+  return [
+    { id: "short2-hook", text: ep.short2.hook },
+    ...ep.short2.beats.map((b, i) => ({ id: `short2-beat-${i + 1}`, text: b.narration })),
+    { id: "short2-cta", text: ep.short2.cta },
   ];
 }
 

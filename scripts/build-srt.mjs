@@ -17,6 +17,7 @@ const maxDur = Number(args["max-dur"] ?? 4);
 for (const [kind, name] of [
   ["long", "long.en.srt"],
   ["short", "short.en.srt"],
+  ["short2", "short2.en.srt"],
 ]) {
   const tlFile = path.join(buildDir, `timeline-${kind}.json`);
   if (!exists(tlFile)) {

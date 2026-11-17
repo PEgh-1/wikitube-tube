@@ -2,7 +2,7 @@ import React from "react";
 import { AbsoluteFill, Sequence, useVideoConfig } from "remotion";
 import { C } from "./theme";
 import type { ShortProps, Scene } from "./types";
-import { ShortHook, ShortStep, ShortCta } from "./scenes/short";
+import { ShortHook, ShortStep, ShortCta, Short2Hook, Short2Beat } from "./scenes/short";
 import { Subtitles, SceneAudio } from "./components/Subtitles";
 import { FadeOut } from "./components/ui";
 import { OverflowProbe } from "./components/probe";
@@ -13,6 +13,10 @@ const SceneView: React.FC<{ scene: Scene; durationInFrames: number }> = ({ scene
       return <ShortHook scene={scene} durationInFrames={durationInFrames} />;
     case "short-step":
       return <ShortStep scene={scene} durationInFrames={durationInFrames} />;
+    case "short2-hook":
+      return <Short2Hook scene={scene} durationInFrames={durationInFrames} />;
+    case "short2-beat":
+      return <Short2Beat scene={scene} durationInFrames={durationInFrames} />;
     case "short-cta":
       return <ShortCta />;
     default:

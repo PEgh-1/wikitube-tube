@@ -11,7 +11,7 @@ import { bundle } from "@remotion/bundler";
 import { renderMedia, renderStill, selectComposition, ensureBrowser } from "@remotion/renderer";
 import { creditsLine } from "./lib/credits.mjs";
 import { DIRS, FPS, parseArgs, readJson, writeJson, log, ensureDir, mediaDuration, run, masterLoudness } from "./lib/common.mjs";
-import { buildLongTimeline, buildShortTimeline, chaptersText, subsetTimeline } from "./lib/timeline.mjs";
+import { buildLongTimeline, buildShortTimeline, buildShort2Timeline, chaptersText, subsetTimeline } from "./lib/timeline.mjs";
 import { LOCALES } from "./lib/episode.mjs";
 
 const args = parseArgs();
@@ -38,6 +38,8 @@ const longTl = buildLongTimeline(episode, tts, images, { fps, brand });
 const shortTl = buildShortTimeline(episode, tts, images, { fps });
 writeJson(path.join(buildDir, "timeline-long.json"), longTl);
 writeJson(path.join(buildDir, "timeline-short.json"), shortTl);
+const short2Tl = buildShort2Timeline(episode, tts, images, { fps });
+if (short2Tl) writeJson(path.join(buildDir, "timeline-short2.json"), short2Tl);
 log.info(`Long : ${(longTl.totalSec / 60).toFixed(2)} min (${longTl.durationInFrames} frames @${fps}) — Short : ${shortTl.totalSec.toFixed(1)} s`);
 
 // ---------- Métadonnées YouTube (description + chapitres + crédits) ----------
@@ -66,6 +68,9 @@ const metadata = {
     durationSec: shortTl.totalSec,
     file: path.relative(DIRS.root, path.join(outDir, "short.mp4")),
   },
+  ...(short2Tl
+    ? { short2: { title: episode.short2.title.includes("#shorts") ? episode.short2.title : `${episode.short2.title} #shorts`, description: episode.short2.description, tags: episode.metadata.tags.slice(0, 10), durationSec: short2Tl.totalSec, file: path.relative(DIRS.root, path.join(outDir, "short2.mp4")) } }
+    : {}),
   playlistId: episode.metadata.playlistId ?? process.env.YT_PLAYLIST_ID ?? null,
   renderedAt: new Date().toISOString(),
   fps,
@@ -153,6 +158,9 @@ if (only === "all" || only === "thumb") {
 }
 if (only === "all" || only === "short") {
   await renderVideo("Short", shortTl, path.join(outDir, "short.mp4"));
+}
+if (short2Tl && (only === "all" || only === "short2")) {
+  await renderVideo("Short", short2Tl, path.join(outDir, "short2.mp4"));
 }
 if (only === "all" || only === "long") {
   await renderVideo("Long", longTl, path.join(outDir, "long.mp4"));

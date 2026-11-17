@@ -29,7 +29,7 @@ try {
       id = (await api("POST", `${YT}/playlists?part=snippet,status`, { snippet: { title: pl.title, description: pl.description, defaultLanguage: "en" }, status: { privacyStatus: "public" } })).id;
       log.info(`✔ playlist créée : ${pl.title}`);
     }
-    const have = ((await api("GET", `${YT}/playlistItems?part=contentDetails&playlistId=${id}&maxResults=50`)).items ?? []).map((i) => i.contentDetails.videoId);
+    const have = ((await api("GET", `${YT}/playlistItems?part=contentDetails&playlistId=${id}&maxResults=50`).catch(() => ({ items: [] }))).items ?? []).map((i) => i.contentDetails.videoId);
     const added = [];
     for (const v of pl.videos) {
       if (have.includes(v)) continue;

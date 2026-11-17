@@ -4,7 +4,8 @@
    "title": "Kitchen Basics & Cooking How-Tos",
    "description": "Simple, step-by-step cooking guides from WikiTube: rice, steak, chicken, pasta and the kitchen basics everyone should know.",
    "videos": [
-    "NOhP95QolFY"
+    "NOhP95QolFY",
+    "9OuMPtvsZ_M"
    ]
   },
   {
@@ -18,7 +19,8 @@
    "title": "Cleaning How-Tos",
    "description": "Step-by-step cleaning guides from WikiTube: appliances, kitchen, bathroom and laundry, with simple ingredients.",
    "videos": [
-    "7pjOrMjN5Tw"
+    "7pjOrMjN5Tw",
+    "tK0R8pIWO_o"
    ]
   }
  ],
@@ -52,9 +54,29 @@
    "it": "Come pulire a fondo la lavatrice ed eliminare i cattivi odori per sempre",
    "ja": "洗濯機を徹底洗浄して嫌なニオイを根本から取る方法",
    "id": "Cara Membersihkan Mesin Cuci Secara Menyeluruh dan Menghilangkan Bau untuk Selamanya"
+  },
+  "9OuMPtvsZ_M": {
+   "es": "Cómo cocinar el bistec perfecto en sartén siempre (jugoso, con una costra bien dorada)",
+   "pt": "Como fazer o bife perfeito na frigideira sempre (suculento, com uma crosta bem dourada)",
+   "fr": "Comment cuire le steak parfait à la poêle à tous les coups (juteux, avec une belle croûte dorée)",
+   "de": "Das perfekte Steak aus der Pfanne, jedes Mal (saftig, mit kräftiger Kruste)",
+   "hi": "पैन में हर बार परफेक्ट स्टेक कैसे पकाएं (रसीला, गहरी सुनहरी परत के साथ)",
+   "it": "Come cuocere la bistecca perfetta in padella ogni volta (succosa, con una crosticina dorata)",
+   "ja": "フライパンで毎回完璧なステーキを焼く方法(ジューシーで香ばしい焼き色)",
+   "id": "Cara Memasak Steak Sempurna di Wajan Setiap Saat (Juicy, dengan Kerak Cokelat Pekat)"
+  },
+  "tK0R8pIWO_o": {
+   "es": "Cómo quitar el cerco del inodoro para siempre (manchas de sarro, sin frotar fuerte)",
+   "pt": "Como tirar o anel do vaso sanitário de vez (manchas de água dura, sem esfregar forte)",
+   "fr": "Comment enlever définitivement le cerne des toilettes (traces de calcaire, sans frotter fort)",
+   "de": "Kalkrand in der Toilette dauerhaft entfernen (Kalkflecken, ohne hartes Schrubben)",
+   "hi": "टॉयलेट बाउल का दाग़दार घेरा हमेशा के लिए कैसे हटाएं (खारे पानी के दाग़, बिना ज़ोर से रगड़े)",
+   "it": "Come eliminare per sempre l'alone del water (macchie di calcare, senza strofinare forte)",
+   "ja": "便器の輪じみを根本から落とす方法(水垢汚れ、ゴシゴシこすらない)",
+   "id": "Cara Menghilangkan Kerak Cincin Toilet Selamanya (Noda Air Sadah, Tanpa Menggosok Keras)"
   }
  },
- "rev": 4,
+ "rev": 5,
  "thumbnails": {
   "hzF08Ben-PU": "publish/thumbs/2026-11-04-unclog-a-toilet.jpg",
   "NOhP95QolFY": "publish/thumbs/2026-11-23-cook-rice-on-the-stove.jpg",

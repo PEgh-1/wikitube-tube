@@ -43,5 +43,35 @@
       "url": "https://youtube.com/shorts/wV1ZnNIer98"
     },
     "uploadedAt": "2026-11-16T22:51:46.859Z"
+  },
+  {
+    "episodeId": "2026-11-22-cook-steak-in-a-pan",
+    "title": "How to Cook the Perfect Steak in a Pan Every Time (Juicy, With a Deep Brown Crust)",
+    "long": {
+      "videoId": "9OuMPtvsZ_M",
+      "publishAt": "2026-11-20T16:30:00.000Z",
+      "url": "https://youtu.be/9OuMPtvsZ_M"
+    },
+    "short": {
+      "videoId": "YHAj_uGHLmw",
+      "publishAt": "2026-11-20T17:00:00.000Z",
+      "url": "https://youtube.com/shorts/YHAj_uGHLmw"
+    },
+    "uploadedAt": "2026-11-17T09:30:11.210Z"
+  },
+  {
+    "episodeId": "2026-11-28-remove-toilet-ring-hard-water",
+    "title": "How to Remove a Toilet Bowl Ring for Good (Hard Water Stains, No Harsh Scrubbing)",
+    "long": {
+      "videoId": "tK0R8pIWO_o",
+      "publishAt": "2026-11-21T16:30:00.000Z",
+      "url": "https://youtu.be/tK0R8pIWO_o"
+    },
+    "short": {
+      "videoId": "xUZ8dWAIPhw",
+      "publishAt": "2026-11-21T17:00:00.000Z",
+      "url": "https://youtube.com/shorts/xUZ8dWAIPhw"
+    },
+    "uploadedAt": "2026-11-17T09:30:14.250Z"
   }
 ]

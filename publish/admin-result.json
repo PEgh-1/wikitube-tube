@@ -1,8 +1,17 @@
 {
-  "at": "2026-11-17T06:32:34.855Z",
-  "playlists": [],
+  "at": "2026-11-17T06:34:24.685Z",
+  "playlists": [
+    {
+      "title": "Kitchen Basics & Cooking How-Tos",
+      "id": "PLCdiLEcUVc2k",
+      "added": [
+        "NOhP95QolFY"
+      ],
+      "already": []
+    }
+  ],
   "localizations": [],
   "errors": [
-    "GET https://www.googleapis.com/youtube/v3/playlistItems?part=contentDetails&playlistId=PLCdiLE → 404 : {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"The playlist identified with the request's \\u003ccode\\u003eplaylistId\\u003c/code\\u003e parameter cannot be found.\",\n    \"errors\": [\n      {\n        \"message\": \"The playlist identified with the request's \\u003ccode\\u003eplaylistId\\u003c/code\\u003e parameter cannot be found.\",\n        \"domain\": \"youtube.playlistItem\",\n        \"reason\": \"playlistNotFoun"
+    "POST https://www.googleapis.com/youtube/v3/playlistItems?part=snippet → 409 : {\n  \"error\": {\n    \"code\": 409,\n    \"message\": \"The operation was aborted.\",\n    \"errors\": [\n      {\n        \"domain\": \"youtube.CoreErrorDomain\",\n        \"reason\": \"SERVICE_UNAVAILABLE\"\n      }\n    ],\n    \"status\": \"ABORTED\"\n  }\n}\n"
   ]
 }

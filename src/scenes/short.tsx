@@ -30,11 +30,12 @@ const fit = (text: string, max: number, width: number, maxLines: number) => {
 const Photo: React.FC<{ image?: ImageRef; durationInFrames: number; dir?: number }> = ({ image, durationInFrames, dir = 1 }) => {
   const frame = useCurrentFrame();
   const t = interpolate(frame, [0, Math.max(1, durationInFrames)], [0, 1], { extrapolateRight: "clamp" });
+  const tall = (image?.height ?? 0) > (image?.width ?? 1); // photo verticale dédiée : zoom avant plus marqué
   const fx = ((image as { focus?: [number, number] } | undefined)?.focus?.[0] ?? 0.5) * 100;
   // Travelling horizontal autour du sujet : la photo 16:9 défile derrière le cadre vertical.
   const span = 13;
   const x = Math.max(4, Math.min(96, fx + (dir % 2 ? -span : span) * (1 - 2 * t)));
-  const style: React.CSSProperties = { width: "100%", height: "100%", objectFit: "cover", objectPosition: `${x}% 50%`, transform: `scale(${1.03 + 0.07 * t})` };
+  const style: React.CSSProperties = { width: "100%", height: "100%", objectFit: "cover", objectPosition: `${x}% 50%`, transform: `scale(${1.03 + (tall ? 0.16 : 0.07) * t})`, transformOrigin: tall ? "50% 62%" : "50% 50%" };
   return (
     <AbsoluteFill style={{ background: C.ink, overflow: "hidden" }}>
       {image?.kind === "video" ? <OffthreadVideo src={staticFile(image.file)} muted style={style} /> : image ? <Img src={staticFile(image.file)} style={style} /> : null}

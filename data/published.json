@@ -7,12 +7,18 @@
       "publishAt": "2026-11-17T16:30:00.000Z",
       "url": "https://youtu.be/hzF08Ben-PU"
     },
-    "short": {
+    "uploadedAt": "2026-11-17T10:07:49.112Z",
+    "replacedShort": {
       "videoId": "dez54fZNTrY",
       "publishAt": "2026-11-17T17:00:00.000Z",
-      "url": "https://youtube.com/shorts/dez54fZNTrY"
+      "url": "https://youtube.com/shorts/dez54fZNTrY",
+      "deleted": true
     },
-    "uploadedAt": "2026-11-16T22:51:40.858Z"
+    "short": {
+      "videoId": "7OnFztUXQEc",
+      "publishAt": "2026-11-17T17:00:00.000Z",
+      "url": "https://youtube.com/shorts/7OnFztUXQEc"
+    }
   },
   {
     "episodeId": "2026-11-23-cook-rice-on-the-stove",
@@ -22,12 +28,18 @@
       "publishAt": "2026-11-18T16:30:00.000Z",
       "url": "https://youtu.be/NOhP95QolFY"
     },
-    "short": {
+    "uploadedAt": "2026-11-17T10:07:52.658Z",
+    "replacedShort": {
       "videoId": "AqYdlFo1EQw",
       "publishAt": "2026-11-18T17:00:00.000Z",
-      "url": "https://youtube.com/shorts/AqYdlFo1EQw"
+      "url": "https://youtube.com/shorts/AqYdlFo1EQw",
+      "deleted": true
     },
-    "uploadedAt": "2026-11-16T22:51:43.274Z"
+    "short": {
+      "videoId": "7reLz5eko0Y",
+      "publishAt": "2026-11-18T17:00:00.000Z",
+      "url": "https://youtube.com/shorts/7reLz5eko0Y"
+    }
   },
   {
     "episodeId": "2026-11-24-clean-washing-machine",
@@ -37,12 +49,18 @@
       "publishAt": "2026-11-19T16:30:00.000Z",
       "url": "https://youtu.be/7pjOrMjN5Tw"
     },
-    "short": {
+    "uploadedAt": "2026-11-17T10:07:56.105Z",
+    "replacedShort": {
       "videoId": "wV1ZnNIer98",
       "publishAt": "2026-11-19T17:00:00.000Z",
-      "url": "https://youtube.com/shorts/wV1ZnNIer98"
+      "url": "https://youtube.com/shorts/wV1ZnNIer98",
+      "deleted": true
     },
-    "uploadedAt": "2026-11-16T22:51:46.859Z"
+    "short": {
+      "videoId": "0yE-5jLij8Q",
+      "publishAt": "2026-11-19T17:00:00.000Z",
+      "url": "https://youtube.com/shorts/0yE-5jLij8Q"
+    }
   },
   {
     "episodeId": "2026-11-22-cook-steak-in-a-pan",

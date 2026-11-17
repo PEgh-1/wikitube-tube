@@ -12,9 +12,13 @@ async function accessToken() {
   if (!res.ok) throw new Error(`OAuth ${res.status} : ${(await res.text()).slice(0, 300)}`);
   return (await res.json()).access_token;
 }
-async function api(method, url, json) {
+async function api(method, url, json, attempt = 1) {
   token ??= await accessToken();
   const res = await fetch(url, { method, headers: { authorization: `Bearer ${token}`, ...(json ? { "content-type": "application/json" } : {}) }, body: json ? JSON.stringify(json) : undefined });
+  if ((res.status === 409 || res.status >= 500) && attempt < 5) {
+    await new Promise((r) => setTimeout(r, 6000 * attempt));
+    return api(method, url, json, attempt + 1);
+  }
   if (!res.ok) throw new Error(`${method} ${url.slice(0, 90)} → ${res.status} : ${(await res.text()).slice(0, 400)}`);
   const t = await res.text();
   return t ? JSON.parse(t) : {};
@@ -28,6 +32,7 @@ try {
     if (!id) {
       id = (await api("POST", `${YT}/playlists?part=snippet,status`, { snippet: { title: pl.title, description: pl.description, defaultLanguage: "en" }, status: { privacyStatus: "public" } })).id;
       log.info(`✔ playlist créée : ${pl.title}`);
+      await new Promise((r) => setTimeout(r, 8000));
     }
     const have = ((await api("GET", `${YT}/playlistItems?part=contentDetails&playlistId=${id}&maxResults=50`).catch(() => ({ items: [] }))).items ?? []).map((i) => i.contentDetails.videoId);
     const added = [];

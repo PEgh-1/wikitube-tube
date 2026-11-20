@@ -1,0 +1,514 @@
+{
+  "kind": "short",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "totalSec": 26.7,
+  "durationInFrames": 801,
+  "scenes": [
+    {
+      "type": "short-hook",
+      "title": "How to Remove Toilet Rings and Hard Water Stains Fast",
+      "punch": "Stop scrubbing this",
+      "image": {
+        "key": "mistake-2",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "file": "assets/2026-11-28-remove-toilet-ring-hard-water/images/mistake-2.jpg",
+        "focus": [
+          0.5,
+          0.5
+        ]
+      },
+      "start": 0,
+      "duration": 5.966666666666667,
+      "segments": [
+        {
+          "id": "short-hook",
+          "file": "assets/2026-11-28-remove-toilet-ring-hard-water/audio/short-hook.mp3",
+          "at": 0,
+          "duration": 5.619229,
+          "words": [
+            {
+              "w": "That",
+              "s": 0,
+              "e": 0.221
+            },
+            {
+              "w": "toilet",
+              "s": 0.279,
+              "e": 0.639
+            },
+            {
+              "w": "ring",
+              "s": 0.685,
+              "e": 0.859
+            },
+            {
+              "w": "isn't",
+              "s": 0.917,
+              "e": 1.15
+            },
+            {
+              "w": "dirt,",
+              "s": 1.196,
+              "e": 1.719
+            },
+            {
+              "w": "so",
+              "s": 2.044,
+              "e": 2.229
+            },
+            {
+              "w": "scrubbing",
+              "s": 2.322,
+              "e": 2.81
+            },
+            {
+              "w": "won't",
+              "s": 2.926,
+              "e": 3.181
+            },
+            {
+              "w": "remove",
+              "s": 3.263,
+              "e": 3.565
+            },
+            {
+              "w": "it.",
+              "s": 3.599,
+              "e": 3.878
+            },
+            {
+              "w": "Do",
+              "s": 4.319,
+              "e": 4.47
+            },
+            {
+              "w": "this",
+              "s": 4.54,
+              "e": 4.76
+            },
+            {
+              "w": "instead.",
+              "s": 4.842,
+              "e": 5.62
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "short-step",
+      "index": 1,
+      "total": 3,
+      "title": "Lower the water",
+      "image": {
+        "key": "step-2",
+        "query": "toilet bowl low water",
+        "prompt": "A gloved hand turning the small oval chrome shut-off valve on the tiled wall behind the white toilet, braided steel hose going up to the tank. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-28-remove-toilet-ring-hard-water/images/step-2-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Turn off the water valve behind the toilet, flush, and the tank empties, leaving the bowl low.",
+        "wordStart": 25,
+        "focus": [
+          0.4,
+          0.6
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.33,
+              0.6
+            ],
+            "r": 0.09,
+            "on": "valve",
+            "text": "Shut-off valve",
+            "label": [
+              0.26,
+              0.3
+            ],
+            "t": 12.13
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      "start": 5.966666666666667,
+      "duration": 6.3,
+      "segments": [
+        {
+          "id": "short-step-1",
+          "file": "assets/2026-11-28-remove-toilet-ring-hard-water/audio/short-step-1.mp3",
+          "at": 5.966666666666667,
+          "duration": 5.944308,
+          "words": [
+            {
+              "w": "One.",
+              "s": 0,
+              "e": 0.383
+            },
+            {
+              "w": "Turn",
+              "s": 0.824,
+              "e": 1.068
+            },
+            {
+              "w": "off",
+              "s": 1.126,
+              "e": 1.277
+            },
+            {
+              "w": "the",
+              "s": 1.324,
+              "e": 1.394
+            },
+            {
+              "w": "water",
+              "s": 1.44,
+              "e": 1.695
+            },
+            {
+              "w": "valve,",
+              "s": 1.753,
+              "e": 2.241
+            },
+            {
+              "w": "flush,",
+              "s": 2.45,
+              "e": 3.065
+            },
+            {
+              "w": "and",
+              "s": 3.309,
+              "e": 3.495
+            },
+            {
+              "w": "let",
+              "s": 3.576,
+              "e": 3.75
+            },
+            {
+              "w": "the",
+              "s": 3.797,
+              "e": 3.866
+            },
+            {
+              "w": "water",
+              "s": 3.924,
+              "e": 4.203
+            },
+            {
+              "w": "level",
+              "s": 4.273,
+              "e": 4.505
+            },
+            {
+              "w": "drop",
+              "s": 4.563,
+              "e": 4.842
+            },
+            {
+              "w": "below",
+              "s": 4.958,
+              "e": 5.236
+            },
+            {
+              "w": "the",
+              "s": 5.294,
+              "e": 5.364
+            },
+            {
+              "w": "ring.",
+              "s": 5.422,
+              "e": 5.945
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "short-step",
+      "index": 2,
+      "total": 3,
+      "title": "Soak with acid",
+      "image": {
+        "key": "step-3",
+        "query": "pouring vinegar toilet",
+        "prompt": "White vinegar being poured from a plain glass bottle around the inside of a white toilet bowl, the clear liquid running over the brown-orange ring, close-up. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-28-remove-toilet-ring-hard-water/images/step-3-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Step three. Pour about two cups of white vinegar around the bowl so it coats the ring all the way round.",
+        "wordStart": 0,
+        "focus": [
+          0.45,
+          0.6
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.42,
+              0.72
+            ],
+            "text": "Coat the whole ring",
+            "label": [
+              0.25,
+              0.35
+            ],
+            "on": "coats",
+            "t": 4.79
+          }
+        ],
+        "fx": [
+          {
+            "type": "drops",
+            "at": [
+              0.42,
+              0.62
+            ],
+            "size": 0.8
+          }
+        ],
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      "start": 12.266666666666667,
+      "duration": 6.3,
+      "segments": [
+        {
+          "id": "short-step-2",
+          "file": "assets/2026-11-28-remove-toilet-ring-hard-water/audio/short-step-2.mp3",
+          "at": 12.266666666666667,
+          "duration": 5.944308,
+          "words": [
+            {
+              "w": "Two.",
+              "s": 0,
+              "e": 0.522
+            },
+            {
+              "w": "Pour",
+              "s": 0.964,
+              "e": 1.219
+            },
+            {
+              "w": "white",
+              "s": 1.277,
+              "e": 1.521
+            },
+            {
+              "w": "vinegar",
+              "s": 1.568,
+              "e": 1.986
+            },
+            {
+              "w": "or",
+              "s": 2.079,
+              "e": 2.241
+            },
+            {
+              "w": "citric",
+              "s": 2.311,
+              "e": 2.682
+            },
+            {
+              "w": "acid",
+              "s": 2.764,
+              "e": 3.123
+            },
+            {
+              "w": "on",
+              "s": 3.182,
+              "e": 3.263
+            },
+            {
+              "w": "the",
+              "s": 3.309,
+              "e": 3.379
+            },
+            {
+              "w": "ring",
+              "s": 3.437,
+              "e": 3.692
+            },
+            {
+              "w": "and",
+              "s": 3.936,
+              "e": 4.099
+            },
+            {
+              "w": "wait",
+              "s": 4.18,
+              "e": 4.377
+            },
+            {
+              "w": "at",
+              "s": 4.424,
+              "e": 4.493
+            },
+            {
+              "w": "least",
+              "s": 4.563,
+              "e": 4.853
+            },
+            {
+              "w": "thirty",
+              "s": 4.935,
+              "e": 5.213
+            },
+            {
+              "w": "minutes.",
+              "s": 5.271,
+              "e": 5.945
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "short-step",
+      "index": 3,
+      "total": 3,
+      "title": "Brush gently",
+      "image": {
+        "key": "step-5",
+        "query": "scrubbing toilet bowl brush",
+        "prompt": "Close-up of the toilet brush bristles at the waterline, the brown-orange ring partly faded where the brush has passed, clear water. Photorealistic photograph for a practical how-to video. Bright, clean bathroom, white porcelain toilet, white tiles, soft daylight. Adult hands wearing yellow rubber gloves, rolled-up sleeves of a light grey sweatshirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-28-remove-toilet-ring-hard-water/images/step-5-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "You'll find the ring is much softer now, and it should lift off with far less effort.",
+        "wordStart": 17,
+        "focus": [
+          0.5,
+          0.65
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      "start": 18.566666666666666,
+      "duration": 5.466666666666667,
+      "segments": [
+        {
+          "id": "short-step-3",
+          "file": "assets/2026-11-28-remove-toilet-ring-hard-water/audio/short-step-3.mp3",
+          "at": 18.566666666666666,
+          "duration": 5.10839,
+          "words": [
+            {
+              "w": "Three.",
+              "s": 0,
+              "e": 0.522
+            },
+            {
+              "w": "Brush",
+              "s": 1.033,
+              "e": 1.358
+            },
+            {
+              "w": "the",
+              "s": 1.428,
+              "e": 1.509
+            },
+            {
+              "w": "softened",
+              "s": 1.567,
+              "e": 2.008
+            },
+            {
+              "w": "ring",
+              "s": 2.066,
+              "e": 2.24
+            },
+            {
+              "w": "away.",
+              "s": 2.31,
+              "e": 2.867
+            },
+            {
+              "w": "Never",
+              "s": 3.378,
+              "e": 3.692
+            },
+            {
+              "w": "mix",
+              "s": 3.784,
+              "e": 4.086
+            },
+            {
+              "w": "with",
+              "s": 4.168,
+              "e": 4.342
+            },
+            {
+              "w": "bleach.",
+              "s": 4.4,
+              "e": 5.108
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "short-cta",
+      "start": 24.033333333333335,
+      "duration": 2.6666666666666665,
+      "segments": [
+        {
+          "id": "short-cta",
+          "file": "assets/2026-11-28-remove-toilet-ring-hard-water/audio/short-cta.mp3",
+          "at": 24.033333333333335,
+          "duration": 1.671837,
+          "words": [
+            {
+              "w": "Full",
+              "s": 0,
+              "e": 0.255
+            },
+            {
+              "w": "guide",
+              "s": 0.325,
+              "e": 0.685
+            },
+            {
+              "w": "on",
+              "s": 0.743,
+              "e": 0.848
+            },
+            {
+              "w": "the",
+              "s": 0.894,
+              "e": 0.964
+            },
+            {
+              "w": "channel.",
+              "s": 0.998,
+              "e": 1.672
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

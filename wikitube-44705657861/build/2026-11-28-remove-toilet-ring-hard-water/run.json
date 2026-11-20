@@ -1,0 +1,42 @@
+{
+  "startedAt": "2026-11-20T08:52:20.815Z",
+  "mock": false,
+  "skipUpload": true,
+  "steps": [
+    {
+      "id": "generate",
+      "status": "ok",
+      "seconds": 0
+    },
+    {
+      "id": "tts",
+      "status": "ok",
+      "seconds": 2
+    },
+    {
+      "id": "images",
+      "status": "ok",
+      "seconds": 0
+    },
+    {
+      "id": "render",
+      "status": "ok",
+      "seconds": 54
+    },
+    {
+      "id": "srt",
+      "status": "skipped"
+    },
+    {
+      "id": "qc",
+      "status": "skipped"
+    },
+    {
+      "id": "upload",
+      "status": "skipped"
+    }
+  ],
+  "ok": true,
+  "finishedAt": "2026-11-20T08:53:16.184Z",
+  "episodeId": "2026-11-28-remove-toilet-ring-hard-water"
+}

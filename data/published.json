@@ -75,12 +75,18 @@
       "publishAt": "2026-11-20T16:30:00.000Z",
       "url": "https://youtu.be/9OuMPtvsZ_M"
     },
-    "short": {
+    "uploadedAt": "2026-11-20T08:57:42.197Z",
+    "replacedShort": {
       "videoId": "YHAj_uGHLmw",
       "publishAt": "2026-11-20T17:00:00.000Z",
-      "url": "https://youtube.com/shorts/YHAj_uGHLmw"
+      "url": "https://youtube.com/shorts/YHAj_uGHLmw",
+      "deleted": true
     },
-    "uploadedAt": "2026-11-17T09:30:11.210Z"
+    "short": {
+      "videoId": "tq77ZqmKNzo",
+      "publishAt": "2026-11-20T17:00:00.000Z",
+      "url": "https://youtube.com/shorts/tq77ZqmKNzo"
+    }
   },
   {
     "episodeId": "2026-11-28-remove-toilet-ring-hard-water",
@@ -90,11 +96,17 @@
       "publishAt": "2026-11-21T16:30:00.000Z",
       "url": "https://youtu.be/tK0R8pIWO_o"
     },
-    "short": {
+    "uploadedAt": "2026-11-20T08:57:46.553Z",
+    "replacedShort": {
       "videoId": "xUZ8dWAIPhw",
       "publishAt": "2026-11-21T17:00:00.000Z",
-      "url": "https://youtube.com/shorts/xUZ8dWAIPhw"
+      "url": "https://youtube.com/shorts/xUZ8dWAIPhw",
+      "deleted": true
     },
-    "uploadedAt": "2026-11-17T09:30:14.250Z"
+    "short": {
+      "videoId": "Umb07PiaQGA",
+      "publishAt": "2026-11-21T17:00:00.000Z",
+      "url": "https://youtube.com/shorts/Umb07PiaQGA"
+    }
   }
 ]

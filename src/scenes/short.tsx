@@ -113,19 +113,20 @@ const Tag: React.FC<{ text: string; bg: string; color?: string; size?: number; d
 );
 
 export const Short2Hook: React.FC<{ scene: Short2HookScene; durationInFrames: number }> = ({ scene, durationInFrames }) => {
+  const frame = useCurrentFrame();
   const k = KIND[scene.kind];
+  const title = scene.title.toUpperCase();
+  // Même règle que le premier Short : texte et image lisibles dès la toute première image, aucun logo avant l'accroche.
+  const pop = interpolate(frame, [0, 7], [0.93, 1], { extrapolateRight: "clamp" });
   return (
     <AbsoluteFill style={{ fontFamily: FONT }}>
       <Photo image={scene.image} durationInFrames={durationInFrames} />
-      <Header label={scene.kind === "mistake" ? "MISTAKE TO AVOID" : "QUICK TIP"} />
-      <div style={{ position: "absolute", top: 226, left: 56, right: 56 }}>
-        <Tag text={k.tag} bg={k.color} size={58} />
-        <SlideUp delay={10} style={{ fontSize: fit(scene.title, 132, 968, 3), fontWeight: 900, lineHeight: 1.02, marginTop: 22, color: C.white, textShadow: shadow }}>
-          {scene.title}
-        </SlideUp>
+      <div style={{ position: "absolute", top: 150, left: 56, right: 56, transform: `scale(${pop}) rotate(-1.5deg)`, transformOrigin: "0% 50%" }}>
+        <div style={{ display: "inline-block", background: k.color, color: C.white, fontSize: 58, fontWeight: 900, letterSpacing: 5, padding: "8px 26px", borderRadius: 16 }}>{k.tag}</div>
+        <div style={{ fontSize: fit(title, 150, 780, 3), fontWeight: 900, lineHeight: 0.98, marginTop: 22, color: C.white, textShadow: shadow, letterSpacing: -1 }}>{title}</div>
       </div>
       <div style={{ position: "absolute", left: 40, bottom: 560 }}>
-        <Mascot pose={k.mascot} height={330} delay={6} />
+        <Mascot pose={k.mascot} height={330} delay={0} />
       </div>
     </AbsoluteFill>
   );

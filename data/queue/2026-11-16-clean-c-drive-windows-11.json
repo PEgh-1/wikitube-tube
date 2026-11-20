@@ -186,9 +186,10 @@
     }
   },
   "short": {
-    "title": "Free up your C drive in 3 steps #shorts",
+    "title": "Why your C drive is always full #shorts",
     "description": "Temporary files, Disk Cleanup and Storage Sense on Windows 11. Full guide on the channel. #windows11 #pctips #howto",
-    "hook": "C drive full? Free up gigabytes on Windows 11 in three steps.",
+    "hook": "Your C drive fills up with temporary files and old update leftovers. Clear them in three steps.",
+    "punch": "C drive full?",
     "steps": [
       {
         "title": "Delete temp files",
@@ -203,6 +204,6 @@
         "narration": "Three. Switch on Storage Sense so Windows cleans itself every month."
       }
     ],
-    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+    "cta": "Full guide on the channel."
   }
 }

@@ -186,9 +186,10 @@
     }
   },
   "short": {
-    "title": "Tie a tie in 3 moves (four-in-hand) #shorts",
+    "title": "The easiest tie knot (3 moves) #shorts",
     "description": "The easiest tie knot: cross, wrap, feed through. Full guide with 4 knots on the channel. #tie #style #howto",
-    "hook": "Tie the easiest tie knot in three moves.",
+    "hook": "Can't tie a tie? This knot takes three moves.",
+    "punch": "3 moves. Done.",
     "steps": [
       {
         "title": "Cross and wrap",
@@ -203,6 +204,6 @@
         "narration": "Three. Push it up through the neck loop, down through the front loop, and tighten."
       }
     ],
-    "cta": "The full guide with four knots is on the channel. Follow WikiTube for a new how-to every day."
+    "cta": "Full guide on the channel."
   }
 }

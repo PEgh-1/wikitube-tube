@@ -187,9 +187,10 @@
     }
   },
   "short": {
-    "title": "Clean between your oven door glass #shorts",
+    "title": "The grease trapped inside your oven door #shorts",
     "description": "Remove the door, slide out the glass, wash it. Full 7-step guide on the channel. #oven #cleaninghacks #howto",
-    "hook": "Grease trapped inside your oven door? Here is how to reach it.",
+    "hook": "Grease trapped between the glass of your oven door? You can reach it.",
+    "punch": "Trapped grease?",
     "steps": [
       {
         "title": "Lock and lift",
@@ -204,6 +205,6 @@
         "narration": "Three. Wash each pane with soapy water, then reassemble in the same order."
       }
     ],
-    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+    "cta": "Full guide on the channel."
   }
 }

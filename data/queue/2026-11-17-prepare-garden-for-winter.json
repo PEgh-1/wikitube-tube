@@ -188,9 +188,10 @@
     }
   },
   "short": {
-    "title": "Winterize your garden in 3 steps #shorts",
+    "title": "Do this to your garden before winter #shorts",
     "description": "Bulbs, compost and mulch before the freeze. Full 7-step guide on the channel. #gardening #wintergarden #howto",
-    "hook": "Prepare your garden for winter with three simple jobs.",
+    "hook": "Do these three jobs before the first frost, and your garden wakes up stronger in spring.",
+    "punch": "Before the frost",
     "steps": [
       {
         "title": "Plant bulbs",
@@ -205,6 +206,6 @@
         "narration": "Three. Add mulch around perennials, but keep it a few centimetres off the stems."
       }
     ],
-    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+    "cta": "Full guide on the channel."
   }
 }

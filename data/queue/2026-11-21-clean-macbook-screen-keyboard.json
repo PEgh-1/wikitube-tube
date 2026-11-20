@@ -186,9 +186,10 @@
     }
   },
   "short": {
-    "title": "Clean your MacBook screen safely #shorts",
+    "title": "Never spray your MacBook screen #shorts",
     "description": "Power off, damp microfiber, compressed air. Full 7-step guide on the channel. #macbook #cleaning #howto",
-    "hook": "Clean your MacBook screen without damaging it.",
+    "hook": "Never spray cleaner on your MacBook screen. Clean it this way instead.",
+    "punch": "Never spray this",
     "steps": [
       {
         "title": "Power off",
@@ -203,6 +204,6 @@
         "narration": "Three. Tilt the laptop and use short bursts of compressed air across the keyboard."
       }
     ],
-    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+    "cta": "Full guide on the channel."
   }
 }

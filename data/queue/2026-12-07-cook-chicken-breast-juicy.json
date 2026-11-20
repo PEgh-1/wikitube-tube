@@ -187,9 +187,10 @@
     }
   },
   "short": {
-    "title": "Juicy chicken breast in 3 steps #shorts",
+    "title": "Why your chicken breast is always dry #shorts",
     "description": "Even thickness, hot pan, thermometer. Full 7-step guide on the channel. #chicken #cooking #howto",
-    "hook": "Stop drying out your chicken breast.",
+    "hook": "Dry chicken breast every time? It's uneven thickness and guesswork. Fix both.",
+    "punch": "Dry chicken? Fix this",
     "steps": [
       {
         "title": "Even it out",
@@ -204,6 +205,6 @@
         "narration": "Three. Take it out at 165 degrees Fahrenheit, 74 Celsius, and rest it for five minutes."
       }
     ],
-    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+    "cta": "Full guide on the channel."
   }
 }

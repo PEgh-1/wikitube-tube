@@ -187,9 +187,10 @@
     }
   },
   "short": {
-    "title": "Fix a stuck zipper in 3 steps #shorts",
+    "title": "Stuck zipper? Don't force it #shorts",
     "description": "Free the fabric, lubricate, squeeze the slider. Full 7-step guide on the channel. #zipper #diy #howto",
-    "hook": "Zipper stuck or splitting? Fix it in three steps.",
+    "hook": "Never force a stuck zipper. A pencil can free it in seconds.",
+    "punch": "Don't force it",
     "steps": [
       {
         "title": "Free the fabric",
@@ -204,6 +205,6 @@
         "narration": "Three. For a splitting zipper, press the slider gently with pliers, then test it."
       }
     ],
-    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+    "cta": "Full guide on the channel."
   }
 }

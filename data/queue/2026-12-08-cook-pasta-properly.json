@@ -187,9 +187,10 @@
     }
   },
   "short": {
-    "title": "Cook pasta like an Italian in 3 steps #shorts",
+    "title": "Why you should never rinse pasta #shorts",
     "description": "Salt the water, taste it, finish in the sauce. Full 7-step guide on the channel. #pasta #cooking #howto",
-    "hook": "Cook better pasta with three small changes.",
+    "hook": "Never rinse your pasta. You wash away the starch that makes the sauce stick.",
+    "punch": "Never rinse pasta",
     "steps": [
       {
         "title": "Salt the water",
@@ -204,6 +205,6 @@
         "narration": "Three. Toss the pasta in the sauce with a splash of that water for a minute."
       }
     ],
-    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+    "cta": "Full guide on the channel."
   }
 }

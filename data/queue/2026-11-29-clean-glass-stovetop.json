@@ -187,9 +187,10 @@
     }
   },
   "short": {
-    "title": "Clean a glass stovetop without scratching #shorts",
+    "title": "Burnt glass stovetop? Don't scrape it #shorts",
     "description": "Baking soda, vinegar, warm towel. Full 7-step guide on the channel. #cleaninghacks #kitchen #howto",
-    "hook": "Clean your glass stovetop without a single scratch.",
+    "hook": "Burnt-on stains on your glass stovetop? Don't scrape. Let baking soda do the work.",
+    "punch": "Don't scrape it",
     "steps": [
       {
         "title": "Soften first",
@@ -204,6 +205,6 @@
         "narration": "Three. Buff on a thin coat of cooktop cleaner with a dry cloth."
       }
     ],
-    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+    "cta": "Full guide on the channel."
   }
 }

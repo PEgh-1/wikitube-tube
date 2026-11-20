@@ -187,9 +187,10 @@
     }
   },
   "short": {
-    "title": "Clean your dryer vent in 3 steps #shorts",
+    "title": "Your dryer vent is full of lint #shorts",
     "description": "Unplug, brush the duct, clear the outside flap. Full 7-step guide on the channel. #dryer #homemaintenance #howto",
-    "hook": "Clogged dryer vent? Clear the lint safely.",
+    "hook": "Clothes taking forever to dry? Your vent may be packed with lint.",
+    "punch": "Slow dryer?",
     "steps": [
       {
         "title": "Unplug it",
@@ -204,6 +205,6 @@
         "narration": "Three. Clear the outside vent flap, then test the airflow."
       }
     ],
-    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+    "cta": "Full guide on the channel."
   }
 }

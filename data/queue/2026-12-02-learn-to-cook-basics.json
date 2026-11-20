@@ -197,9 +197,10 @@
     }
   },
   "short": {
-    "title": "3 cooking basics every beginner needs #shorts",
+    "title": "3 habits that fix beginner cooking #shorts",
     "description": "Prep first, season as you go, control the heat. Full 8-step guide on the channel. #cooking #beginner #howto",
-    "hook": "Three cooking habits that fix most beginner mistakes.",
+    "hook": "Food keeps burning or tasting flat? Three habits fix it.",
+    "punch": "Stop burning dinner",
     "steps": [
       {
         "title": "Prep first",
@@ -214,6 +215,6 @@
         "narration": "Three. Use medium heat, preheat the pan, and don't crowd it."
       }
     ],
-    "cta": "The full eight-step guide is on the channel. Follow WikiTube for a new how-to every day."
+    "cta": "Full guide on the channel."
   }
 }

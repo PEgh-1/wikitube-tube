@@ -187,9 +187,10 @@
     }
   },
   "short": {
-    "title": "Get rid of ants naturally in 3 steps #shorts",
+    "title": "Ants keep coming back? Do this #shorts",
     "description": "Clean, vinegar, seal. Full 7-step guide on the channel. #ants #naturalremedies #howto",
-    "hook": "Ants everywhere? Get rid of them without chemicals.",
+    "hook": "Ants keep coming back? You're removing the ants, not the trail.",
+    "punch": "Ants again?",
     "steps": [
       {
         "title": "Remove the food",
@@ -204,6 +205,6 @@
         "narration": "Three. Find where they come in, and seal it with caulk."
       }
     ],
-    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+    "cta": "Full guide on the channel."
   }
 }

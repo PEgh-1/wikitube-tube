@@ -197,9 +197,10 @@
     }
   },
   "short": {
-    "title": "3 car checks you can do in 5 minutes #shorts",
+    "title": "3 car checks that take 5 minutes #shorts",
     "description": "Tire pressure, oil and lights. Full 8-check guide on the channel. #cartips #carcare #howto",
-    "hook": "Three car checks anyone can do in five minutes.",
+    "hook": "Five minutes, three checks, and you spot car problems early.",
+    "punch": "5-minute car check",
     "steps": [
       {
         "title": "Tire pressure",
@@ -214,6 +215,6 @@
         "narration": "Three. Test headlights, indicators and brake lights, with a friend's help."
       }
     ],
-    "cta": "The full eight-check guide is on the channel. Follow WikiTube for a new how-to every day."
+    "cta": "Full guide on the channel."
   }
 }

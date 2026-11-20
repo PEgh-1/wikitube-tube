@@ -187,9 +187,10 @@
     }
   },
   "short": {
-    "title": "Whiten yellowed clothes without bleach #shorts",
+    "title": "Yellowed white clothes? Don't reach for bleach #shorts",
     "description": "Pretreat, soak, dry in the sun. Full 7-step guide on the channel. #laundry #cleaninghacks #howto",
-    "hook": "Yellow stains on white clothes? Try this, no harsh bleach.",
+    "hook": "White clothes turned yellow? Skip the harsh bleach and try this.",
+    "punch": "Yellowed whites?",
     "steps": [
       {
         "title": "Pretreat",
@@ -204,6 +205,6 @@
         "narration": "Three. Wash, then dry in the sun. Never mix with bleach."
       }
     ],
-    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+    "cta": "Full guide on the channel."
   }
 }

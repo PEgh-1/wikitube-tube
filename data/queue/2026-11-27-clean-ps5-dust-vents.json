@@ -187,9 +187,10 @@
     }
   },
   "short": {
-    "title": "Clean your PS5 without opening it #shorts",
+    "title": "Loud PS5? Don't open it #shorts",
     "description": "Unplug, brush the vents, vacuum nearby. Full 7-step guide on the channel. #ps5 #gaming #howto",
-    "hook": "Loud PS5? Clean the dust out without opening it.",
+    "hook": "Loud PS5? Don't open it. Clear the dust like this.",
+    "punch": "Loud PS5?",
     "steps": [
       {
         "title": "Unplug it",
@@ -204,6 +205,6 @@
         "narration": "Three. Hold a vacuum with a soft brush a few centimetres away. Never push anything inside."
       }
     ],
-    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+    "cta": "Full guide on the channel."
   }
 }

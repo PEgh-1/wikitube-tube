@@ -187,9 +187,10 @@
     }
   },
   "short": {
-    "title": "Clean windows without streaks in 3 steps #shorts",
+    "title": "Why your windows always streak #shorts",
     "description": "Shade, little soap, squeegee. Full 7-step guide on the channel. #windows #cleaninghacks #howto",
-    "hook": "Streak-free windows with three simple rules.",
+    "hook": "Streaky windows? You're probably cleaning them in the sun, with too much soap.",
+    "punch": "Streaky windows?",
     "steps": [
       {
         "title": "Work in the shade",
@@ -204,6 +205,6 @@
         "narration": "Three. Pull the squeegee in clean strokes, and wipe the blade after each pass."
       }
     ],
-    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+    "cta": "Full guide on the channel."
   }
 }

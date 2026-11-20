@@ -197,9 +197,10 @@
     }
   },
   "short": {
-    "title": "3 kitchen tricks you'll wish you knew #shorts",
+    "title": "Is your egg still fresh? Do this #shorts",
     "description": "Garlic, eggs and bread. Full 8-trick guide on the channel. #kitchenhacks #cooking #howto",
-    "hook": "Three kitchen tricks you'll wish you knew earlier.",
+    "hook": "Is that egg still good? This test tells you, plus two more tricks.",
+    "punch": "Fresh egg test",
     "steps": [
       {
         "title": "Peel garlic fast",
@@ -214,6 +215,6 @@
         "narration": "Three. Run the loaf under the tap, and bake it at 160 degrees Celsius for ten minutes."
       }
     ],
-    "cta": "The full eight-trick guide is on the channel. Follow WikiTube for a new how-to every day."
+    "cta": "Full guide on the channel."
   }
 }

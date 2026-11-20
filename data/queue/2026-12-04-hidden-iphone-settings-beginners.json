@@ -196,9 +196,10 @@
     }
   },
   "short": {
-    "title": "3 hidden iPhone settings to turn on #shorts",
+    "title": "Your iPhone has a hidden button on the back #shorts",
     "description": "Back Tap, Send Last Location, Optimized Charging. Full 8-setting guide on the channel. #iphone #iphonetips #howto",
-    "hook": "Three hidden iPhone settings you should turn on today.",
+    "hook": "Your iPhone has a hidden button on the back. Turn it on, plus two more settings.",
+    "punch": "Hidden iPhone button",
     "steps": [
       {
         "title": "Back Tap",
@@ -213,6 +214,6 @@
         "narration": "Three. Settings, Battery, Charging. Turn on Optimized Battery Charging."
       }
     ],
-    "cta": "The full eight-setting guide is on the channel. Follow WikiTube for a new how-to every day."
+    "cta": "Full guide on the channel."
   }
 }

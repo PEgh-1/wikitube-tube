@@ -187,9 +187,10 @@
     }
   },
   "short": {
-    "title": "Start your first garden in 3 steps #shorts",
+    "title": "Starting a garden? Don't go big #shorts",
     "description": "Sun, small bed, easy plants. Full 7-step guide on the channel. #gardening #beginner #howto",
-    "hook": "Start your first garden with three simple rules.",
+    "hook": "Starting your first garden? Don't go big. Three rules keep it alive.",
+    "punch": "Start small",
     "steps": [
       {
         "title": "Find the sun",
@@ -204,6 +205,6 @@
         "narration": "Three. Choose radishes, lettuce or herbs, and water deeply twice a week."
       }
     ],
-    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+    "cta": "Full guide on the channel."
   }
 }

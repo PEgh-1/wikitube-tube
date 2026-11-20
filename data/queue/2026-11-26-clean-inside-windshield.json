@@ -187,9 +187,10 @@
     }
   },
   "short": {
-    "title": "Clean the inside of your windshield #shorts",
+    "title": "Why your windshield is always hazy inside #shorts",
     "description": "Dry wipe, cleaner on the cloth, dry buff. Full 7-step guide on the channel. #cartips #cleaning #howto",
-    "hook": "Clean your windshield from the inside with no streaks.",
+    "hook": "Hazy windshield that streaks every time you clean it? Change these three things.",
+    "punch": "Hazy windshield?",
     "steps": [
       {
         "title": "Dry wipe first",
@@ -204,6 +205,6 @@
         "narration": "Three. Buff right away with a second dry microfiber cloth in the opposite direction."
       }
     ],
-    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+    "cta": "Full guide on the channel."
   }
 }

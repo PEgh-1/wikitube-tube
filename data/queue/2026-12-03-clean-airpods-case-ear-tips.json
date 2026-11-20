@@ -187,9 +187,10 @@
     }
   },
   "short": {
-    "title": "Clean your AirPods in 3 steps #shorts",
+    "title": "Why your AirPods sound muffled #shorts",
     "description": "Wipe, dry swab the mesh, wash the tips. Full 7-step guide on the channel. #airpods #cleaning #howto",
-    "hook": "Muffled AirPods? Clean them safely in three steps.",
+    "hook": "Muffled AirPods? The speaker mesh is clogged. Never poke it with a pin. Do this.",
+    "punch": "Muffled AirPods?",
     "steps": [
       {
         "title": "Wipe the outside",
@@ -204,6 +205,6 @@
         "narration": "Three. Rinse removable silicone ear tips with water, and dry them completely."
       }
     ],
-    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+    "cta": "Full guide on the channel."
   }
 }

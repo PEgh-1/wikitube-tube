@@ -187,9 +187,10 @@
     }
   },
   "short": {
-    "title": "Make your slow PC faster in 3 steps #shorts",
+    "title": "Why your PC is so slow #shorts",
     "description": "Startup apps, junk files and dust. Full 7-step guide on the channel. #pctips #windows #howto",
-    "hook": "Slow PC? Three quick fixes you can do right now.",
+    "hook": "Slow PC? Too many startup apps and a full drive. Three free fixes, no booster app.",
+    "punch": "Slow PC? Fix this",
     "steps": [
       {
         "title": "Disable startup apps",
@@ -204,6 +205,6 @@
         "narration": "Three. Shut down, unplug, and use short bursts of compressed air on the vents."
       }
     ],
-    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+    "cta": "Full guide on the channel."
   }
 }

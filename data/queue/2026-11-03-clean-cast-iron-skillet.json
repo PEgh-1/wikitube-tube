@@ -7,7 +7,12 @@
   "title": "How to Clean a Cast Iron Skillet Without Ruining the Seasoning",
   "hook": "A cast iron skillet can outlive you. Most people ruin theirs in the sink in under a year. In the next few minutes you'll learn the seven steps that keep a skillet black, slick and rust free for decades.",
   "intro": "Cast iron is not like a regular non-stick pan. The non-stick surface is a thin layer of baked-on oil called the seasoning, and every wash either builds it up or strips it away. The good news is that cleaning it properly takes about five minutes and needs almost nothing you don't already have in your kitchen.",
-  "youNeed": ["Coarse salt", "A little neutral oil", "A lint-free towel", "A stiff brush or pan scraper"],
+  "youNeed": [
+    "Coarse salt",
+    "A little neutral oil",
+    "A lint-free towel",
+    "A stiff brush or pan scraper"
+  ],
   "youNeedNarration": "Here's everything you'll need. Coarse salt, which works as a gentle abrasive. A little neutral oil, like canola, vegetable or flaxseed. A clean, lint-free towel. And a stiff brush or a plastic pan scraper for anything stubborn. That's it.",
   "heroImageQuery": "cast iron skillet on wooden table",
   "heroImagePrompt": "A well seasoned black cast iron skillet resting on a rustic wooden kitchen counter, soft morning side light, shallow depth of field, warm cream tones, photorealistic, no text",
@@ -71,7 +76,11 @@
   ],
   "mistakesToAvoid": {
     "narration": "Now, the three mistakes that ruin more skillets than anything else. One, soaking. Even an hour in the sink starts rust. Two, the dishwasher. The detergent and the long steam cycle strip the seasoning completely. And three, putting it away wet. If you remember nothing else, remember this: cast iron never sits in water, and it never goes to bed damp.",
-    "items": ["Soaking the pan in the sink", "Running it through the dishwasher", "Putting it away even slightly damp"]
+    "items": [
+      "Soaking the pan in the sink",
+      "Running it through the dishwasher",
+      "Putting it away even slightly damp"
+    ]
   },
   "recap": {
     "narration": "Let's run through the whole routine one more time. Rinse it warm. Scrub with coarse salt. Boil off anything stubborn. Dry it on the stove. Wipe on a thin coat of oil. Heat it until it just smokes. And store it dry and uncovered. Seven steps, five minutes, and a skillet that gets better every single year.",
@@ -138,14 +147,24 @@
     }
   },
   "short": {
-    "title": "Clean cast iron in 3 steps #shorts",
+    "title": "Stop washing cast iron like this #shorts",
     "description": "Rinse warm, salt scrub, oil and heat. Full 7-step guide on the channel. #castiron #kitchentips #howto",
-    "hook": "Stop ruining your cast iron skillet. Three steps, thirty seconds.",
+    "hook": "You're ruining your cast iron every time you soak it. Do this instead.",
+    "punch": "Never soak this",
     "steps": [
-      { "title": "Rinse it warm", "narration": "One. Rinse it with hot water while it's still warm. No soaking, ever." },
-      { "title": "Scrub with salt", "narration": "Two. Scrub stuck-on bits with a handful of coarse salt, then rinse." },
-      { "title": "Oil and heat", "narration": "Three. Dry it on the stove, wipe on a thin coat of oil and heat it until it just smokes." }
+      {
+        "title": "Rinse it warm",
+        "narration": "One. Rinse it with hot water while it's still warm. No soaking, ever."
+      },
+      {
+        "title": "Scrub with salt",
+        "narration": "Two. Scrub stuck-on bits with a handful of coarse salt, then rinse."
+      },
+      {
+        "title": "Oil and heat",
+        "narration": "Three. Dry it on the stove, wipe on a thin coat of oil and heat it until it just smokes."
+      }
     ],
-    "cta": "Full guide with all seven steps is on the channel. Follow WikiTube for a new how-to every day."
+    "cta": "Full guide on the channel."
   }
 }

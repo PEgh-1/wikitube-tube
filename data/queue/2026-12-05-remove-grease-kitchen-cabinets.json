@@ -187,9 +187,10 @@
     }
   },
   "short": {
-    "title": "Remove sticky cabinet grease fast #shorts",
+    "title": "Why your kitchen cabinets feel sticky #shorts",
     "description": "Dish soap, soft cloth, baking soda for thick spots. Full 7-step guide on the channel. #cleaninghacks #kitchen #howto",
-    "hook": "Sticky grease on your kitchen cabinets? Remove it gently.",
+    "hook": "Sticky cabinets? That's cooking grease mixed with dust. Don't scrub it. Do this.",
+    "punch": "Sticky cabinets?",
     "steps": [
       {
         "title": "Dry wipe first",
@@ -204,6 +205,6 @@
         "narration": "Three. Wipe with plain water, and dry right away. Use baking soda paste on thick spots."
       }
     ],
-    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+    "cta": "Full guide on the channel."
   }
 }

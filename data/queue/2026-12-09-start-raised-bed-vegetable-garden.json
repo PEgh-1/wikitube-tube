@@ -187,9 +187,10 @@
     }
   },
   "short": {
-    "title": "Start a raised bed garden in 3 steps #shorts",
+    "title": "Build a raised bed this weekend #shorts",
     "description": "Sun, frame, soil. Full 7-step guide on the channel. #raisedbed #gardening #howto",
-    "hook": "Build a raised bed garden this weekend.",
+    "hook": "A raised bed takes one weekend. Get these three things right.",
+    "punch": "One weekend build",
     "steps": [
       {
         "title": "Sun and frame",
@@ -204,6 +205,6 @@
         "narration": "Three. Plant your seedlings, water deeply, and add two inches of mulch."
       }
     ],
-    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+    "cta": "Full guide on the channel."
   }
 }

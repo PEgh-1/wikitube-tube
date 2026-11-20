@@ -226,7 +226,12 @@ export function buildShortTimeline(ep, tts, images, { fps = FPS } = {}) {
       scenes.push({ ...scene, start: roundToFrame(t, fps), duration, segments: [{ id, file: s.file, at: roundToFrame(t, fps), duration: s.duration, words: s.words }] });
       t = roundToFrame(t + duration, fps);
     };
-    push({ type: "short-hook", title: ep.title, image: images.hero }, "short-hook");
+    // Image d'ouverture choisie à la main (short.hookShot : "hero", "mistake-N" ou "étape-plan"), sinon l'image héros.
+    const hookRef = String(ep.short.hookShot ?? "");
+    const hm = /^mistake-(\d+)$/.exec(hookRef);
+    const [hs, hj] = hookRef.split("-").map(Number);
+    const hookImage = (hm ? images.mistakes?.[Number(hm[1]) - 1] : hs && hj ? images.stepShots?.[hs - 1]?.[hj - 1] : null) ?? images.hero;
+    push({ type: "short-hook", title: ep.title, punch: ep.short.punch, image: hookImage?.kind === "video" ? images.hero : hookImage }, "short-hook");
     ep.short.steps.forEach((s, i) => {
       // Les 3 étapes du Short réutilisent les images des étapes du long (réparties).
       const srcIndex = Math.min(ep.steps.length - 1, Math.round((i * (ep.steps.length - 1)) / 2));

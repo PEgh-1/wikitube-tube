@@ -187,9 +187,10 @@
     }
   },
   "short": {
-    "title": "Cook steak perfectly in a pan #shorts",
+    "title": "Why your steak never gets a crust #shorts",
     "description": "Dry it, sear it hot, rest it. Full 7-step guide on the channel. #steak #cooking #howto",
-    "hook": "Cook a restaurant-quality steak at home in three steps.",
+    "hook": "Grey steak with no crust? You're skipping these three steps.",
+    "punch": "No crust? Fix this",
     "steps": [
       {
         "title": "Dry and salt",
@@ -204,6 +205,6 @@
         "narration": "Three. Rest the steak for five minutes before slicing across the grain."
       }
     ],
-    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+    "cta": "Full guide on the channel."
   }
 }

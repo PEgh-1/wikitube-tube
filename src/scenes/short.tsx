@@ -63,19 +63,25 @@ const Header: React.FC<{ step?: number; total?: number; label?: string }> = ({ s
 
 const shadow = "0 4px 0 rgba(20,31,49,0.55), 0 10px 30px rgba(20,31,49,0.6)";
 
+// Ouverture : le résultat en plein écran et le texte choc lisibles dès la toute première image
+// (aucun logo, aucune entrée en fondu : c'est cette image que le flux Shorts affiche avant le geste de balayage).
 export const ShortHook: React.FC<{ scene: ShortHookScene; durationInFrames: number }> = ({ scene, durationInFrames }) => {
-  const title = scene.title.replace(/^How to /i, "").replace(/\s*\(.*\)\s*$/, "");
+  const frame = useCurrentFrame();
+  const text = (scene.punch ?? scene.title.replace(/^How to /i, "").replace(/\s*\(.*\)\s*$/, "")).toUpperCase();
+  const words = text.split(/\s+/);
+  const last = words.pop();
+  // Coup de zoom : le texte arrive déjà à pleine taille puis se cale (jamais invisible).
+  const pop = interpolate(frame, [0, 7], [0.93, 1], { extrapolateRight: "clamp" });
+  const tilt = interpolate(frame, [0, 7], [-3, -1.5], { extrapolateRight: "clamp" });
   return (
     <AbsoluteFill style={{ fontFamily: FONT }}>
       <Photo image={scene.image} durationInFrames={durationInFrames} />
-      <Header />
-      <div style={{ position: "absolute", top: 226, left: 56, right: 56 }}>
-        <SlideUp delay={4} style={{ display: "inline-block", background: C.sun, color: C.ink, fontSize: 44, fontWeight: 900, letterSpacing: 6, padding: "6px 24px", borderRadius: 14, transform: "rotate(-2deg)" }}>
-          HOW TO
-        </SlideUp>
-        <SlideUp delay={10} style={{ fontSize: fit(title, 124, 968, 4), fontWeight: 900, lineHeight: 1.02, marginTop: 18, color: C.white, textShadow: shadow }}>
-          {title}
-        </SlideUp>
+      <div style={{ position: "absolute", top: 150, left: 56, right: 56, transform: `scale(${pop}) rotate(${tilt}deg)`, transformOrigin: "0% 50%" }}>
+        {/* Capitales ≈ 0,68 × corps par caractère : largeur utile réduite pour ne jamais toucher le bord. */}
+        <div style={{ fontSize: fit(text, 160, 780, 4), fontWeight: 900, lineHeight: 0.98, color: C.white, textShadow: shadow, letterSpacing: -1 }}>
+          {words.join(" ")}{" "}
+          <span style={{ color: C.sun }}>{last}</span>
+        </div>
       </div>
     </AbsoluteFill>
   );

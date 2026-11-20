@@ -82,6 +82,10 @@ export const EpisodeSchema = z
       title: z.string().trim().min(5).max(100),
       description: z.string().trim().min(10).max(1000),
       hook: Narration(5, 25),
+      // Texte choc affiché plein écran dès la première image (2 à 5 mots) ; à défaut, le titre de l'épisode.
+      punch: z.string().trim().min(3).max(32).optional(),
+      // Image de la première seconde : "hero" (défaut), "mistake-N" ou "étape-plan" parmi les plans pré-générés.
+      hookShot: z.string().trim().regex(/^(hero|mistake-\d+|\d+-\d+)$/).optional(),
       steps: z.array(ShortStepSchema).length(3),
       cta: Narration(5, 30),
     }),

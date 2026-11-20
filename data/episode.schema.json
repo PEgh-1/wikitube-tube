@@ -480,6 +480,15 @@
           "type": "string",
           "minLength": 1
         },
+        "punch": {
+          "type": "string",
+          "minLength": 3,
+          "maxLength": 32
+        },
+        "hookShot": {
+          "type": "string",
+          "pattern": "^(hero|mistake-\\d+|\\d+-\\d+)$"
+        },
         "steps": {
           "minItems": 3,
           "maxItems": 3,
@@ -513,6 +522,85 @@
         "description",
         "hook",
         "steps",
+        "cta"
+      ]
+    },
+    "short2": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": [
+            "mistake",
+            "tip"
+          ]
+        },
+        "title": {
+          "type": "string",
+          "minLength": 5,
+          "maxLength": 100
+        },
+        "description": {
+          "type": "string",
+          "minLength": 10,
+          "maxLength": 1000
+        },
+        "headline": {
+          "type": "string",
+          "minLength": 3,
+          "maxLength": 40
+        },
+        "hook": {
+          "type": "string",
+          "minLength": 1
+        },
+        "shot": {
+          "type": "string"
+        },
+        "beats": {
+          "minItems": 1,
+          "maxItems": 3,
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 24
+              },
+              "title": {
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 40
+              },
+              "narration": {
+                "type": "string",
+                "minLength": 1
+              },
+              "shot": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "label",
+              "title",
+              "narration"
+            ]
+          }
+        },
+        "cta": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "kind",
+        "title",
+        "description",
+        "headline",
+        "hook",
+        "beats",
         "cta"
       ]
     }

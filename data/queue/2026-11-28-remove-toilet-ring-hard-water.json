@@ -187,9 +187,11 @@
     }
   },
   "short": {
-    "title": "Remove toilet rings in 3 steps #shorts",
+    "title": "That toilet ring isn't dirt (stop scrubbing) #shorts",
     "description": "Lower the water, soak with vinegar, brush. Full 7-step guide on the channel. #cleaninghacks #bathroom #howto",
-    "hook": "Remove the toilet ring without hard scrubbing.",
+    "hook": "That toilet ring isn't dirt, so scrubbing won't remove it. Do this instead.",
+    "punch": "Stop scrubbing this",
+    "hookShot": "mistake-2",
     "steps": [
       {
         "title": "Lower the water",
@@ -204,6 +206,6 @@
         "narration": "Three. Brush the softened ring away. Never mix with bleach."
       }
     ],
-    "cta": "The full seven-step guide is on the channel. Follow WikiTube for a new how-to every day."
+    "cta": "Full guide on the channel."
   }
 }

@@ -836,7 +836,7 @@ export const ChickenPan: React.FC<{ mode: string; local: number; width?: number 
       {mode === "even" && (
         <>
           <path d={`M600 ${baseY - 56} V${baseY}`} stroke={C.coral} strokeWidth={8} strokeLinecap="round" />
-          {label(616, baseY - 18, "¾ inch", 42, C.coral)}
+          {label(640, baseY - 84, "¾ inch", 42, C.coral)}
           {label(400, 110, "Same thickness, same speed", 46, C.ink, "middle")}
         </>
       )}
@@ -885,6 +885,80 @@ export const ChickenPan: React.FC<{ mode: string; local: number; width?: number 
   );
 };
 
+// ---------- Schéma en coupe : la porte du four vue de côté (graisse par les aérations, baguette du haut, vitres qui coulissent, ordre de remontage) ----------
+export const OvenDoor: React.FC<{ mode: string; local: number; width?: number }> = ({ mode, local, width = 800 }) => {
+  const GREASE = "#B9772E";
+  const pulse = 1 + Math.sin(local / 5) * 0.08;
+  const trimUp = mode === "trim" || mode === "slide" ? (mode === "trim" ? interpolate(local, [10, 50], [0, 1], { ...clamp, easing: ease }) : 1) : 0;
+  const slide = mode === "slide" ? interpolate(local % 130, [15, 90], [0, 1], { ...clamp, easing: ease }) : 0;
+  const order = mode === "order";
+  const label = (x: number, y: number, text: string, size = 40, color: string = C.ink, anchor: "start" | "middle" | "end" = "start") => (
+    <text x={x} y={y} fontFamily={HAND} fontWeight={700} fontSize={fitSize(text, size, x, anchor)} fill={color} textAnchor={anchor}>
+      {text}
+    </text>
+  );
+  const panes = [300, 400, 500];
+  return (
+    <svg width={width} height={(width * 560) / 800} viewBox="0 0 800 560" style={{ display: "block" }}>
+      {/* cadre de la porte (coupe verticale) */}
+      <rect x={250} y={150} width={300} height={360} rx={14} fill={C.paper} stroke={C.ink} strokeWidth={9} />
+      <rect x={236} y={300} width={22} height={70} rx={8} fill={C.ink} />
+      {/* les trois vitres */}
+      {panes.map((x, i) => (
+        <g key={x} transform={i === 1 ? `translate(0 ${-slide * 190})` : undefined}>
+          <rect x={x - 9} y={176} width={18} height={308} rx={5} fill="#BFE3EE" stroke={C.ink} strokeWidth={6} />
+          {order && <circle cx={x} cy={330} r={30} fill={C.white} stroke={C.ink} strokeWidth={6} />}
+          {order && label(x, 345, String(i + 1), 44, C.coral, "middle")}
+        </g>
+      ))}
+      {/* graisse entre les vitres */}
+      {(mode === "vents" || mode === "trim") &&
+        [0, 1, 2, 3, 4].map((i) => {
+          const k = mode === "vents" ? ((local / 60 + i / 5) % 1 + 1) % 1 : 0.5 + i * 0.1;
+          return <circle key={i} cx={350 + (i % 2) * 100} cy={170 + k * 280} r={9} fill={GREASE} opacity={0.9} />;
+        })}
+      {mode === "vents" && (
+        <>
+          <path d="M350 96 V160 M450 96 V160" stroke={GREASE} strokeWidth={8} strokeLinecap="round" strokeDasharray="14 12" strokeDashoffset={-local * 2} />
+          {label(400, 70, "Grease gets in through the top vents", 44, C.ink, "middle")}
+          {label(590, 340, "Trapped", 44, GREASE)}
+          {label(590, 384, "between panes", 36, GREASE)}
+        </>
+      )}
+      {/* baguette du haut et ses vis */}
+      <g transform={`translate(0 ${-trimUp * 70})`}>
+        <rect x={240} y={128} width={320} height={34} rx={10} fill="#DDE3EC" stroke={C.ink} strokeWidth={8} />
+        {[290, 510].map((x) => (
+          <g key={x} transform={`translate(0 ${-trimUp * 34})`}>
+            <circle cx={x} cy={145} r={11 * (mode === "trim" ? pulse : 1)} fill={C.sun} stroke={C.ink} strokeWidth={5} />
+            <path d={`M${x - 6} 145 H${x + 6} M${x} 139 V151`} stroke={C.ink} strokeWidth={4} />
+          </g>
+        ))}
+      </g>
+      {mode === "trim" && (
+        <>
+          {label(400, 40, "Screws out, trim off", 46, C.ink, "middle")}
+          {label(590, 150, "Top trim", 40, C.coral)}
+        </>
+      )}
+      {mode === "slide" && (
+        <>
+          <path d="M400 150 V60" stroke={C.coral} strokeWidth={8} strokeLinecap="round" strokeDasharray="16 12" strokeDashoffset={local * 2} />
+          {label(590, 250, "By the edges,", 40, C.coral)}
+          {label(590, 294, "both hands", 40, C.coral)}
+          {label(210, 500, "Never force glass", 40, C.teal, "end")}
+        </>
+      )}
+      {order && (
+        <>
+          {label(400, 70, "Same order, same side", 46, C.ink, "middle")}
+          {label(400, 548, "Screws snug, not tight", 42, C.teal, "middle")}
+        </>
+      )}
+    </svg>
+  );
+};
+
 const DIAGRAMS: Record<string, React.FC<{ mode: string; local: number; width?: number }>> = {
   "toilet-trap": ({ mode, local, width }) => <ToiletTrap mode={mode as TrapMode} local={local} width={width} />,
   "washer": ({ mode, local, width }) => <Washer mode={mode} local={local} width={width} />,
@@ -893,6 +967,7 @@ const DIAGRAMS: Record<string, React.FC<{ mode: string; local: number; width?: n
   "toilet-ring": ({ mode, local, width }) => <ToiletRing mode={mode} local={local} width={width} />,
   "glass-cooktop": ({ mode, local, width }) => <GlassCooktop mode={mode} local={local} width={width} />,
   "chicken-pan": ({ mode, local, width }) => <ChickenPan mode={mode} local={local} width={width} />,
+  "oven-door": ({ mode, local, width }) => <OvenDoor mode={mode} local={local} width={width} />,
   "house-drain": ({ mode, local, width }) => <HouseDrain mode={mode} local={local} width={width} />,
 };
 

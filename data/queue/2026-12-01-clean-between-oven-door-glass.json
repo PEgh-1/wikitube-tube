@@ -206,5 +206,28 @@
       }
     ],
     "cta": "Full guide on the channel."
+  },
+  "short2": {
+    "kind": "tip",
+    "title": "Take a photo before you open your oven door #shorts",
+    "description": "Before you take your oven door apart to clean between the glass, photograph every step. Reassembly becomes easy. Full 7-step guide on the channel. #oven #cleaninghacks #howto",
+    "headline": "Photos first",
+    "hook": "Before you take your oven door apart, take photos.",
+    "shot": "short2-hook.jpg",
+    "beats": [
+      {
+        "label": "Why it matters",
+        "title": "Parts must go back",
+        "narration": "If you can't remember how the parts fit, reassembly is hard.",
+        "shot": "mistake-1"
+      },
+      {
+        "label": "Do this",
+        "title": "A photo at each step",
+        "narration": "Photograph the hinges, the trim and each pane, then put everything back in the reverse order.",
+        "shot": "3-5"
+      }
+    ],
+    "cta": "The full seven-step guide is on the channel."
   }
 }

@@ -1,0 +1,341 @@
+{
+ "extras": {
+  "intro": {
+   "pose": "idea",
+   "diagram": "oven-door",
+   "title": "Why the grease is trapped",
+   "mode": "vents",
+   "chips": [
+    {
+     "on": "trapped",
+     "label": "Grease between the panes",
+     "sub": "a cloth can't reach it",
+     "mode": "vents"
+    },
+    {
+     "on": "layers",
+     "label": "Two or three layers",
+     "sub": "of glass in the door",
+     "mode": "vents"
+    },
+    {
+     "on": "vents",
+     "label": "Small vents at the top",
+     "sub": "that's how grease gets in",
+     "mode": "vents"
+    },
+    {
+     "on": "apart",
+     "label": "Door off, glass out",
+     "sub": "the only way to clean it",
+     "mode": "slide"
+    },
+    {
+     "on": "screwdriver",
+     "label": "About 30 minutes",
+     "sub": "and only a screwdriver",
+     "mode": "trim"
+    }
+   ],
+   "gags": []
+  },
+  "step-1": {
+   "ticks": [],
+   "facts": [
+    {
+     "shot": 1,
+     "on": "hour",
+     "kind": "timer",
+     "big": "1 hour",
+     "small": "minimum, to cool completely",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 4,
+     "on": "photos",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "Photos now make the reassembly easy later.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 5,
+     "on": "calmly",
+     "pose": "thumbs",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": []
+  },
+  "step-2": {
+   "ticks": [
+    {
+     "shot": 5,
+     "on": "towel",
+     "label": "Large towel"
+    }
+   ],
+   "facts": [
+    {
+     "shot": 3,
+     "on": "fifteen",
+     "kind": "measure",
+     "big": "≈ 15°",
+     "small": "door almost closed, then lift",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 4,
+     "on": "heavier",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "The door is heavier than it looks: ask for help.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": []
+  },
+  "step-3": {
+   "ticks": [
+    {
+     "shot": 2,
+     "on": "screws",
+     "label": "Screwdriver"
+    }
+   ],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 7,
+     "on": "flat",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "A tilted door: the glass can slide out suddenly.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": [
+    {
+     "shot": 1,
+     "on": "trim",
+     "name": "oven-door",
+     "mode": "trim",
+     "title": "Open the top of the door",
+     "dur": 4.8
+    }
+   ]
+  },
+  "step-4": {
+   "ticks": [
+    {
+     "shot": 2,
+     "on": "gloves",
+     "label": "Gloves"
+    }
+   ],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 6,
+     "on": "force",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Never force glass. If it sticks, check your manual.",
+     "dur": 4.4
+    },
+    {
+     "shot": 7,
+     "on": "cracked",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "A cracked pane must not be reused.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": [
+    {
+     "shot": 1,
+     "on": "slide",
+     "name": "oven-door",
+     "mode": "slide",
+     "title": "Slide the pane out",
+     "dur": 4.8
+    }
+   ]
+  },
+  "step-5": {
+   "ticks": [
+    {
+     "shot": 1,
+     "on": "soap",
+     "label": "Dish soap"
+    }
+   ],
+   "facts": [
+    {
+     "shot": 2,
+     "on": "fifteen",
+     "kind": "timer",
+     "big": "15 min",
+     "small": "baking soda paste on burnt spots",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 3,
+     "on": "scratch",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Steel wool, scouring powder and razor blades scratch the glass.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 4,
+     "on": "streak-free",
+     "pose": "party",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": []
+  },
+  "step-6": {
+   "ticks": [],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 4,
+     "on": "crack",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Over-tightening the screws can crack the glass.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": [
+    {
+     "shot": 1,
+     "on": "reverse",
+     "name": "oven-door",
+     "mode": "order",
+     "title": "Back in the same order",
+     "dur": 4.8
+    }
+   ]
+  },
+  "step-7": {
+   "ticks": [],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 6,
+     "on": "both",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "Hold the door with both hands the whole time.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 7,
+     "on": "new",
+     "pose": "thumbs",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": []
+  },
+  "step-8": {
+   "ticks": [],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 3,
+     "on": "etching",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "Etching is damage in the glass itself: it cannot be polished away.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": []
+  },
+  "step-9": {
+   "ticks": [],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 2,
+     "on": "tension",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Hinge springs are under tension: if the door snaps back, stop.",
+     "dur": 4.4
+    },
+    {
+     "shot": 3,
+     "on": "gas",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Smell gas? Leave the house and call from outside.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 1,
+     "on": "technician",
+     "pose": "plumber",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": []
+  },
+  "step-10": {
+   "ticks": [
+    {
+     "shot": 3,
+     "on": "sheet",
+     "label": "Baking sheet"
+    }
+   ],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 5,
+     "on": "seal",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Don't rub the rubber seal: cleaners can damage it.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": []
+  }
+ },
+ "shots": {},
+ "short": [
+  "2-3",
+  "4-1",
+  "5-1"
+ ]
+}

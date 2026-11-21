@@ -13,12 +13,6 @@
      "mode": "uneven"
     },
     {
-     "on": "thermometer",
-     "label": "A thermometer",
-     "sub": "no more guessing",
-     "mode": "temp"
-    },
-    {
      "on": "uneven",
      "label": "Uneven thickness",
      "sub": "thin end dry, thick end raw",
@@ -35,6 +29,12 @@
      "label": "A quick salt brine",
      "sub": "extra moisture",
      "mode": "even"
+    },
+    {
+     "on": "thermometer",
+     "label": "A thermometer",
+     "sub": "no more guessing",
+     "mode": "temp"
     }
    ],
    "gags": []
@@ -631,21 +631,6 @@
    "focus": [
     0.5,
     0.6
-   ],
-   "notes": [
-    {
-     "type": "arrow",
-     "at": [
-      0.45,
-      0.6
-     ],
-     "text": "Thickest part",
-     "label": [
-      0.76,
-      0.25
-     ],
-     "on": "thickest"
-    }
    ]
   },
   "6-3": {

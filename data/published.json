@@ -128,5 +128,25 @@
       "publishAt": "2026-11-22T11:30:00.000Z",
       "url": "https://youtube.com/shorts/oTpYWTD27Jc"
     }
+  },
+  {
+    "episodeId": "2026-12-07-cook-chicken-breast-juicy",
+    "title": "How to Cook Chicken Breast in a Pan Without Drying It Out (Juicy Every Time)",
+    "long": {
+      "videoId": "tVrneiHFliU",
+      "publishAt": "2026-11-23T16:30:00.000Z",
+      "url": "https://youtu.be/tVrneiHFliU"
+    },
+    "short": {
+      "videoId": "p_SDJmwiu6s",
+      "publishAt": "2026-11-23T17:00:00.000Z",
+      "url": "https://youtube.com/shorts/p_SDJmwiu6s"
+    },
+    "uploadedAt": "2026-11-21T21:48:25.175Z",
+    "short2": {
+      "videoId": "gYkhLhVKYlI",
+      "publishAt": "2026-11-23T11:30:00.000Z",
+      "url": "https://youtube.com/shorts/gYkhLhVKYlI"
+    }
   }
 ]

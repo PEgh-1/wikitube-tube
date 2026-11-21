@@ -108,5 +108,25 @@
       "publishAt": "2026-11-21T17:00:00.000Z",
       "url": "https://youtube.com/shorts/Umb07PiaQGA"
     }
+  },
+  {
+    "episodeId": "2026-11-29-clean-glass-stovetop",
+    "title": "How to Clean a Glass Stovetop Without Scratching It (Even Burnt-On Stains)",
+    "long": {
+      "videoId": "sAvgg2Eysb8",
+      "publishAt": "2026-11-22T16:30:00.000Z",
+      "url": "https://youtu.be/sAvgg2Eysb8"
+    },
+    "short": {
+      "videoId": "_URlYgJvnzw",
+      "publishAt": "2026-11-22T17:00:00.000Z",
+      "url": "https://youtube.com/shorts/_URlYgJvnzw"
+    },
+    "uploadedAt": "2026-11-21T21:35:24.799Z",
+    "short2": {
+      "videoId": "oTpYWTD27Jc",
+      "publishAt": "2026-11-22T11:30:00.000Z",
+      "url": "https://youtube.com/shorts/oTpYWTD27Jc"
+    }
   }
 ]

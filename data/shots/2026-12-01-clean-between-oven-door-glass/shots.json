@@ -1,0 +1,379 @@
+{
+  "episodeId": "2026-12-01-clean-between-oven-door-glass",
+  "version": 3,
+  "source": "gemini-web (navigateur, sans API)",
+  "style": "Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+  "hero": {
+    "prompt": "A built-in stainless steel oven with a perfectly clean, crystal clear glass door, the bright empty oven interior visible through the glass, a hand holding a microfiber cloth beside the door, front view. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+    "file": "hero.jpg"
+  },
+  "youneed": {
+    "prompt": "Flat lay photographed from directly above on a light wood countertop, items neatly arranged with clear space between them: a Phillips screwdriver with a red handle, a small bowl of warm soapy water with a sponge, three folded microfiber cloths, a large folded grey towel, a pair of white cotton gloves, and a closed plain white instruction booklet with a blank cover. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+    "file": "youneed.jpg",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  "mistakesSubtitle": "that make this job harder",
+  "mistakes": [
+    {
+      "prompt": "A pile of loose screws, small metal clips and two glass panes scattered in disorder on a kitchen table, a hand scratching the back of a wrist in confusion above them, no manual in sight. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "mistake-1.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "prompt": "A hand pressing a grey steel wool pad on a rectangular glass pane lying on a towel, fine scratch marks visible on the glass under the light, close-up. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "mistake-2.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "prompt": "Two hands pulling hard on a stuck glass pane inside an oven door frame lying flat on a towel, knuckles tense, the pane not moving, close-up. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "mistake-3.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ]
+    }
+  ],
+  "shots": {
+    "step-1": [
+      {
+        "text": "Step one. Turn the oven off and let it cool completely, for at least an hour.",
+        "prompt": "A hand turning the control knob of a built-in oven to the off position, the oven dark inside, front view. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-1.jpg"
+      },
+      {
+        "text": "If you can, unplug it, or switch off the power at the circuit breaker, and turn off the gas if you have a gas oven.",
+        "prompt": "A hand flipping one switch down in a grey household circuit breaker panel on a white wall, the switches unlabeled. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-2.jpg"
+      },
+      {
+        "text": "Read the part of your manual that explains how to remove the door.",
+        "prompt": "Hands holding an open plain instruction booklet with blurred unreadable pages and a simple line drawing of an oven door, the oven in the background. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-3.jpg"
+      },
+      {
+        "text": "Take photos of the door and hinges before you touch anything, so you remember how everything fits.",
+        "prompt": "Hands holding a smartphone with a blank dark screen pointed at the open oven door hinge, taking a photo, close-up. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-4.jpg"
+      },
+      {
+        "text": "This is a job to do calmly and with good light.",
+        "prompt": "A bright kitchen with the oven door open, a floor lamp lighting the area in front of the oven, a calm tidy scene, wide view. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-5.jpg"
+      },
+      {
+        "text": "Also, remove any racks, so the oven is easier to reach.",
+        "prompt": "Hands pulling a chrome wire rack out of an open oven, front view. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-6.jpg"
+      },
+      {
+        "text": "Let the lights cool, too.",
+        "prompt": "Close-up of the small glass-covered lamp inside the dark oven cavity, switched off, seen through the open door. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-7.jpg"
+      }
+    ],
+    "step-2": [
+      {
+        "text": "Step two. Open the door fully, and look for the hinge locks, small metal clips or levers on each hinge.",
+        "prompt": "An oven door opened fully flat, a fingertip pointing at a small metal locking lever on the hinge at the bottom corner of the door, close-up. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-1.jpg"
+      },
+      {
+        "text": "Flip them to the locked position, as shown in your manual.",
+        "prompt": "A thumb flipping a small metal hinge lock lever forward on an oven door hinge, close-up from the side. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-2.jpg"
+      },
+      {
+        "text": "Then close the door gently until it stops at about fifteen degrees, grip both sides, and lift it up and out towards you.",
+        "prompt": "Two hands gripping both sides of a partly closed oven door held at a shallow angle, lifting it up and away from the oven, side view. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-3.jpg"
+      },
+      {
+        "text": "The door is heavier than it looks, so ask someone to help if needed.",
+        "prompt": "Two people's hands carrying a heavy oven door together, one person on each side, no faces visible, kitchen in the background. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-4.jpg"
+      },
+      {
+        "text": "Lay it flat on a towel on a table or the floor, with the handle facing you.",
+        "prompt": "An oven door lying flat on a large grey towel on a wooden kitchen table, the handle facing the camera, hands smoothing the towel. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-5.jpg"
+      },
+      {
+        "text": "If you can't find the locks, search the oven's model number online.",
+        "prompt": "A fingertip pointing at a small blank silver rating plate on the inner frame of an open oven, close-up. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-6.jpg"
+      },
+      {
+        "text": "A short video of your exact model can help.",
+        "prompt": "A smartphone with a blurred blank screen propped against a jar on the countertop next to the removed oven door, hands resting beside it. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-7.jpg"
+      }
+    ],
+    "step-3": [
+      {
+        "text": "Step three. Look at the top edge of the door, where there is usually a metal trim with two or three screws, or clips on the sides.",
+        "prompt": "Close-up of the top edge of an oven door lying flat on a towel, a metal trim strip with two small Phillips screws, a fingertip pointing at one screw. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-1.jpg"
+      },
+      {
+        "text": "Remove the screws, and set them aside in a cup, so they do not roll away.",
+        "prompt": "A hand dropping two small screws into a white ceramic cup next to the oven door on a towel, a screwdriver beside it. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-2.jpg"
+      },
+      {
+        "text": "Lift off the trim carefully.",
+        "prompt": "Two hands lifting a long metal trim strip off the top edge of an oven door lying flat on a towel, close-up. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-3.jpg"
+      },
+      {
+        "text": "You will then see the inner glass panes, which slide out or lift out, held by small clips or rubber spacers.",
+        "prompt": "The open top edge of an oven door lying flat, showing the edges of two inner glass panes held by small rubber spacers, a fingertip pointing at them, close-up. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-4.jpg"
+      },
+      {
+        "text": "Keep track of the order of every part, taking a photo as you go.",
+        "prompt": "Hands holding a smartphone with a blank dark screen above the opened top edge of the oven door, photographing the parts. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-5.jpg"
+      },
+      {
+        "text": "Tip the door gently to see if the trim moves.",
+        "prompt": "Two hands tilting one end of an oven door very slightly off the towel to check the loosened trim strip, side view. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-6.jpg"
+      },
+      {
+        "text": "Keep the door flat, so the glass doesn't slide out suddenly.",
+        "prompt": "An oven door lying perfectly flat on a grey towel on a table, both hands pressing it gently flat, seen from above. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-7.jpg"
+      }
+    ],
+    "step-4": [
+      {
+        "text": "Step four. Carefully slide out the middle pane or panes, handling them by the edges, with both hands.",
+        "prompt": "Two hands in white cotton gloves sliding a rectangular glass pane out of the top of an oven door lying flat on a towel, holding the pane by its edges. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-1.jpg"
+      },
+      {
+        "text": "Wear gloves, as glass edges can be sharp.",
+        "prompt": "Close-up of hands pulling on white cotton gloves, the bare edge of a glass pane visible on the towel beside them. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-2.jpg"
+      },
+      {
+        "text": "Lay each pane on a clean towel, in order, and remember which side faced which way.",
+        "prompt": "Three rectangular glass panes laid side by side in a neat row on a clean grey towel, gloved hands setting down the last one, seen from above. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-3.jpg"
+      },
+      {
+        "text": "Some panes have a coating on one side, so note the orientation.",
+        "prompt": "A gloved hand tilting a glass pane toward the window light, one face showing a faint bronze reflective coating, close-up. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-4.jpg"
+      },
+      {
+        "text": "If anything feels stuck, stop and check your manual.",
+        "prompt": "Gloved hands stopped on a glass pane that is stuck halfway out of the oven door frame, an open plain instruction booklet with blurred pages next to it. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-5.jpg"
+      },
+      {
+        "text": "Never force glass.",
+        "prompt": "Two gloved hands held open and raised just above a glass pane in the door frame, not touching it, a gentle stop gesture. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-6.jpg"
+      },
+      {
+        "text": "If a pane is cracked, don't reuse it.",
+        "prompt": "A rectangular glass pane with a long visible crack running from one corner, lying on a towel, a gloved fingertip pointing at the crack. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-7.jpg"
+      },
+      {
+        "text": "Place a soft cloth between the panes while they're stacked, if you must set them down together, so they don't scratch each other.",
+        "prompt": "Two glass panes stacked on a towel with a soft folded cloth sandwiched between them, gloved hands lowering the top pane. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-8.jpg"
+      }
+    ],
+    "step-5": [
+      {
+        "text": "Step five. Wash each pane in warm water with a little dish soap, using a soft sponge or a microfiber cloth.",
+        "prompt": "Hands washing a rectangular glass pane with a soft yellow sponge and soapy foam in a stainless steel kitchen sink. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-1.jpg"
+      },
+      {
+        "text": "Burnt-on spots can be soaked with a paste of baking soda and water for fifteen minutes, then gently wiped.",
+        "prompt": "A fingertip spreading white baking soda paste over dark burnt-on spots on a glass pane lying on a towel, a small bowl of paste beside it, close-up. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-2.jpg"
+      },
+      {
+        "text": "Never use steel wool, scouring powders or razor blades, which scratch the glass.",
+        "prompt": "A grey steel wool pad, a tin of scouring powder with no label and a razor blade pushed to the far side of the countertop by a hand, a glass pane in the foreground. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-3.jpg"
+      },
+      {
+        "text": "Rinse well, then dry and polish each pane with a lint-free cloth until it's streak-free.",
+        "prompt": "Hands polishing a clean wet glass pane with a white lint-free cloth, the glass becoming perfectly clear and streak-free, held up to the window light. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-4.jpg"
+      },
+      {
+        "text": "Clean the inside of the door frame too, and check the vents for grease.",
+        "prompt": "A hand wiping the inside of an empty oven door frame with a damp cloth, narrow vent slots along the top edge of the frame, close-up. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-5.jpg"
+      },
+      {
+        "text": "Take your time with the corners.",
+        "prompt": "A cloth-covered fingertip cleaning the inner corner of a metal oven door frame, close-up. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-6.jpg"
+      },
+      {
+        "text": "A thin, damp cloth wrapped around a ruler can help you reach narrow spots.",
+        "prompt": "A thin damp cloth wrapped around a wooden ruler being slid into a narrow gap inside an oven door frame, close-up. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-7.jpg"
+      }
+    ],
+    "step-6": [
+      {
+        "text": "Step six. Put the panes back in the reverse order that you took them out, using your photos.",
+        "prompt": "Gloved hands sliding a clean glass pane back into the top of an oven door lying flat on a towel, a smartphone with a blank dark screen lying beside it for reference. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-1.jpg"
+      },
+      {
+        "text": "Make sure that each pane sits in its slot or clip, with the same orientation, and that any rubber spacers or gaskets are in place.",
+        "prompt": "Close-up of the edge of a glass pane sitting correctly in its slot with a small black rubber spacer in place, a gloved fingertip pressing the spacer. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-2.jpg"
+      },
+      {
+        "text": "Then put on the top trim, and tighten the screws gently, just until snug.",
+        "prompt": "A hand tightening a small screw on the metal trim strip of an oven door with a Phillips screwdriver, gentle grip, close-up. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-3.jpg"
+      },
+      {
+        "text": "Over-tightening can crack the glass.",
+        "prompt": "Close-up of a screwdriver stopped on a screw of the door trim, the hand relaxed and open on the handle, the glass pane just below. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-4.jpg"
+      },
+      {
+        "text": "Run your finger along the edge to make sure everything is level, and wipe away fingerprints.",
+        "prompt": "A fingertip running along the top edge of a reassembled oven door, a clean cloth in the other hand wiping the glass. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-5.jpg"
+      },
+      {
+        "text": "Take a final look through the glass in the light, since dust or smears are easy to see before the door is closed up.",
+        "prompt": "A reassembled oven door held upright toward the window by two hands, the daylight shining through perfectly clear glass. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-6.jpg"
+      }
+    ],
+    "step-7": [
+      {
+        "text": "Step seven. Hold the door at the same shallow angle as before, and slide the hinge arms back into the slots on the oven.",
+        "prompt": "Two hands holding an oven door at a shallow angle and guiding its two metal hinge arms into the slots at the bottom of the oven opening, side view. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-1.jpg"
+      },
+      {
+        "text": "Push the door fully down, then open it all the way and flip the hinge locks back to their normal positions.",
+        "prompt": "A thumb flipping the small metal hinge lock lever back on a fully opened oven door hinge, close-up. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-2.jpg"
+      },
+      {
+        "text": "Close and open the door a few times to check that it moves smoothly and shuts tightly.",
+        "prompt": "A hand closing a clean oven door by its handle, the door moving smoothly, front view. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-3.jpg"
+      },
+      {
+        "text": "Switch the power back on, and run the oven for a few minutes.",
+        "prompt": "A hand turning the oven control knob on, the oven light glowing warm inside behind a perfectly clear glass door. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-4.jpg"
+      },
+      {
+        "text": "Check that the door seals properly.",
+        "prompt": "Close-up of the edge of a closed oven door meeting the oven frame, the grey rubber seal pressed evenly all around, a fingertip checking it. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-5.jpg"
+      },
+      {
+        "text": "Take care to hold the door with both hands.",
+        "prompt": "Two hands holding an oven door firmly on both sides while fitting it onto the oven, front view. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-6.jpg"
+      },
+      {
+        "text": "Once it is back, the oven should look like new.",
+        "prompt": "A built-in oven with a sparkling clean glass door in a tidy kitchen, warm oven light on inside, wide front view. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-7.jpg"
+      }
+    ],
+    "step-8": [
+      {
+        "text": "If the glass is still cloudy after washing, check each pane on both sides.",
+        "prompt": "A gloved hand holding a glass pane up to the window light and turning it over to inspect both faces, a faint cloudy film visible. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-8-1.jpg"
+      },
+      {
+        "text": "Many doors have three layers, and the film can sit on a surface you skipped.",
+        "prompt": "Three glass panes standing side by side against a white wall on a towel, a fingertip pointing at the middle one. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-8-2.jpg"
+      },
+      {
+        "text": "A haze that survives a careful wash is usually etching, damage from years of grease and strong cleaners, and it cannot be polished away.",
+        "prompt": "Close-up of a glass pane with a permanent milky white etched haze that a cloth cannot wipe off, a hand rubbing it with a cloth without effect. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-8-3.jpg"
+      },
+      {
+        "text": "In that case, order replacement glass from the maker using your oven's model number.",
+        "prompt": "A fingertip pointing at the small blank silver rating plate inside the oven frame, a pen and a blank notepad on the countertop beside it. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-8-4.jpg"
+      }
+    ],
+    "step-9": [
+      {
+        "text": "Some situations call for a technician.",
+        "prompt": "An appliance technician's hands in dark work gloves holding a toolbox in front of a built-in oven, no face visible. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-9-1.jpg"
+      },
+      {
+        "text": "Hinge springs are under tension, so if the door will not release or snaps back when you remove it, stop and call.",
+        "prompt": "Two hands letting go of an oven door that stays stuck halfway on its hinges, a coiled steel hinge spring visible at the bottom corner, close-up. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-9-2.jpg"
+      },
+      {
+        "text": "If you have a gas oven and smell gas at any point, leave the house, and call your gas emergency number from outside.",
+        "prompt": "A person in a mustard yellow shirt seen from behind walking out of the open front door of a house into the daylight, holding a phone, no face visible. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-9-3.jpg"
+      },
+      {
+        "text": "Do not switch anything on or off, and stay out until it is safe.",
+        "prompt": "A hand held back just in front of a white wall light switch without touching it, an open front door and daylight in the background. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-9-4.jpg"
+      }
+    ],
+    "step-10": [
+      {
+        "text": "A few habits keep grease from building up again.",
+        "prompt": "A clean built-in oven with a clear glass door, a folded cloth on the countertop beside it, tidy kitchen, three-quarter view. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-10-1.jpg"
+      },
+      {
+        "text": "Cover roasting dishes with a lid or loose foil, so fat does not spit onto the glass.",
+        "prompt": "Hands covering a roasting dish of chicken and vegetables with a loose sheet of aluminium foil on the countertop next to the oven. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-10-2.jpg"
+      },
+      {
+        "text": "Put a baking sheet on the lower rack to catch drips.",
+        "prompt": "A hand sliding a flat metal baking sheet onto the lowest rack of an open oven, a roasting dish on the rack above it. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-10-3.jpg"
+      },
+      {
+        "text": "Wipe the inside of the door after it has cooled, while spills are still soft.",
+        "prompt": "A hand wiping the inside glass of an open, cool oven door with a damp microfiber cloth, light fresh splashes disappearing. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-10-4.jpg"
+      },
+      {
+        "text": "Do not rub the rubber seal around the door, because cleaners can damage it.",
+        "prompt": "Close-up of the grey rubber seal around an oven opening, a hand holding a cloth carefully away from the seal while wiping the metal next to it. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a built-in stainless steel electric oven with a large dark glass door, light wood countertop and white cabinets, soft daylight. Adult hands, rolled-up sleeves of a mustard yellow cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-10-5.jpg"
+      }
+    ]
+  },
+  "extras": {},
+  "short": null
+}

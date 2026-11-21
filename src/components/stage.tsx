@@ -734,15 +734,15 @@ export const GlassCooktop: React.FC<{ mode: string; local: number; width?: numbe
       )}
       {/* grattoir : à plat (bon) ou sur le coin (mauvais) */}
       {(mode === "scrape" || steep) && (
-        <g transform={`translate(${steep ? 330 : 250 + push * 110} 330) rotate(${steep ? -78 : -34})`}>
+        <g transform={`translate(${steep ? 330 : 250 + push * 110} 330) rotate(${steep ? 78 : 30})`}>
           <rect x={-150} y={-16} width={120} height={32} rx={10} fill={C.teal} stroke={C.ink} strokeWidth={7} />
           <path d="M-30 -22 H0 V22 H-30 Z" fill="#DDE3EC" stroke={C.ink} strokeWidth={6} strokeLinejoin="round" />
         </g>
       )}
       {mode === "scrape" && (
         <>
-          <path d="M170 330 A84 84 0 0 1 184 284" fill="none" stroke={C.coral} strokeWidth={7} strokeDasharray="10 8" />
-          {label(150, 262, "30–45°", 44, C.coral, "middle")}
+          <path d={`M${150 + push * 110} 330 A100 100 0 0 1 ${163 + push * 110} 280`} fill="none" stroke={C.coral} strokeWidth={7} strokeDasharray="10 8" />
+          {label(120, 250, "30–45°", 44, C.coral, "middle")}
         </>
       )}
       {steep && (

@@ -14,21 +14,30 @@
         "qc:ok",
         "upload:skipped"
       ]
+    },
+    {
+      "episodeId": "2026-11-29-clean-glass-stovetop",
+      "ok": false,
+      "mock": true,
+      "finishedAt": "2026-11-21T20:07:19.917Z",
+      "steps": [
+        "generate:ok",
+        "tts:ok",
+        "images:ok",
+        "render:failed"
+      ]
     }
   ],
   "lastRun": {
-    "episodeId": "2026-11-03-clean-cast-iron-skillet",
-    "ok": true,
+    "episodeId": "2026-11-29-clean-glass-stovetop",
+    "ok": false,
     "mock": true,
-    "finishedAt": "2026-11-02T12:42:18.496Z",
+    "finishedAt": "2026-11-21T20:07:19.917Z",
     "steps": [
       "generate:ok",
       "tts:ok",
       "images:ok",
-      "render:ok",
-      "srt:ok",
-      "qc:ok",
-      "upload:skipped"
+      "render:failed"
     ]
   }
 }

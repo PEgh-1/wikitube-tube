@@ -107,6 +107,9 @@ ep = json.load(open(os.path.join(ROOT, f"data/queue/{ID}.json")))
 S = {}
 for i, sec in enumerate(ep["steps"] + ep.get("bonus", []), 1):
     t = split(sec["narration"])
+    if i == 4:  # la première phrase couvre deux gestes (retirer la serviette, essuyer) ; les deux dernières partagent une image
+        a, b = t[0].split(" and use ", 1)
+        t = [a, "and use " + b] + t[1:5] + [t[5] + " " + t[6]]
     assert len(t) == len(P[i]), f"section {i} : {len(t)} phrases pour {len(P[i])} images"
     S[i] = list(zip(t, P[i]))
 build(ID, TAIL, HERO, YOUNEED, MISTAKES, S, "glass_stovetop.notes.json", "that scratch glass stovetops", youneed_focus=(0.5, 0.5), mistakes_focus=[[0.5, 0.5]] * 3)

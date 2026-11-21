@@ -133,7 +133,7 @@
   },
   "outro": "That's how you clean a glass stovetop without scratching it. If your cooktop is shining again, subscribe to WikiTube, because we publish a new how-to every single day. Tell us in the comments what the worst spill on your stove has been, and what you would like us to explain next. See you tomorrow.",
   "metadata": {
-    "title": "The Best Way to Clean a Glass Stovetop Without Scratching",
+    "title": "How to Clean a Glass Stovetop Without Scratching It (Even Burnt-On Stains)",
     "description": "Burnt-on spills and streaks on your glass or ceramic cooktop? In this step-by-step video you'll learn the best way to clean a glass stovetop without scratching it: let it cool, wipe loose debris, soften stains with baking soda, vinegar and a warm towel, scrape stubborn spots safely with a razor scraper, polish with cooktop cleaner, and prevent future messes. Works for electric and induction glass cooktops.\n\nYou'll need: baking soda, white vinegar in a spray bottle, a cooktop cleaner cream, a razor scraper for glass, microfiber cloths.\n\nWikiTube publishes a new step-by-step how-to video every day. Subscribe so you don't miss the next one.",
     "tags": [
       "how to clean glass stovetop",
@@ -206,5 +206,28 @@
       }
     ],
     "cta": "Full guide on the channel."
+  },
+  "short2": {
+    "kind": "tip",
+    "title": "Why your glass stovetop keeps scratching #shorts",
+    "description": "Most scratches on a glass stovetop come from under the pans, not from cleaning. Wipe the pan bottom and lift, never slide. Full 7-step cleaning guide on the channel. #cleaninghacks #kitchen #howto",
+    "headline": "Wipe the pan first",
+    "hook": "The scratches on your glass stovetop come from under your pans.",
+    "shot": "short2-hook.jpg",
+    "beats": [
+      {
+        "label": "Why it happens",
+        "title": "A trapped grain",
+        "narration": "Grains of salt, sugar or rice trapped beneath a pot grind into the glass when it moves.",
+        "shot": "10-2"
+      },
+      {
+        "label": "Do this instead",
+        "title": "Wipe, then lift",
+        "narration": "Wipe the bottom of each pan before it goes on, and lift it instead of sliding it.",
+        "shot": "10-3"
+      }
+    ],
+    "cta": "The full seven-step guide is on the channel."
   }
 }

@@ -686,12 +686,115 @@ export const Washer: React.FC<{ mode: string; local: number; width?: number }> =
   );
 };
 
+// ---------- Schéma en coupe : la plaque vitrocéramique (tache cuite, pâte + serviette chaude, grattoir à plat, crème, grain sous la casserole) ----------
+export const GlassCooktop: React.FC<{ mode: string; local: number; width?: number }> = ({ mode, local, width = 800 }) => {
+  const BURNT = "#5A3A22";
+  const pulse = 1 + Math.sin(local / 5) * 0.08;
+  const soft = mode === "soften" ? interpolate(local, [20, 140], [0, 1], clamp) : 0;
+  const push = mode === "scrape" ? interpolate(local % 110, [10, 80], [0, 1], { ...clamp, easing: ease }) : 0;
+  const steep = mode === "steep";
+  const slide = mode === "grit" ? interpolate(local % 120, [10, 90], [0, 1], { ...clamp, easing: ease }) : 0;
+  const buff = Math.sin(local / 4) * 60;
+  const label = (x: number, y: number, text: string, size = 40, color: string = C.ink, anchor: "start" | "middle" | "end" = "start") => (
+    <text x={x} y={y} fontFamily={HAND} fontWeight={700} fontSize={fitSize(text, size, x, anchor)} fill={color} textAnchor={anchor}>
+      {text}
+    </text>
+  );
+  const stainOn = mode === "bake" || mode === "soften" || mode === "scrape" || mode === "steep";
+  const stainW = mode === "scrape" ? 150 * (1 - push * 0.85) : 150;
+  return (
+    <svg width={width} height={(width * 560) / 800} viewBox="0 0 800 560" style={{ display: "block" }}>
+      {/* plan de travail, verre, résistance */}
+      <rect x={60} y={370} width={680} height={120} rx={14} fill={C.paper} stroke={C.ink} strokeWidth={9} />
+      <rect x={90} y={330} width={620} height={44} rx={8} fill={C.ink} />
+      <path d="M100 338 H700" stroke="rgba(255,255,255,0.45)" strokeWidth={5} strokeLinecap="round" />
+      {[0, 1, 2, 3, 4, 5, 6].map((i) => (
+        <circle key={i} cx={250 + i * 50} cy={420} r={15} fill="none" stroke={mode === "bake" ? C.coral : "#AEB6C4"} strokeWidth={8} opacity={mode === "bake" ? 0.6 + Math.sin(local / 5 + i) * 0.4 : 1} />
+      ))}
+      {/* chaleur qui cuit la tache */}
+      {mode === "bake" &&
+        [300, 400, 500].map((x, i) => {
+          const k = ((local / 30 + i / 3) % 1 + 1) % 1;
+          return <path key={x} d={`M${x} ${318 - k * 120} q-16 -20 0 -40 q16 -20 0 -40`} fill="none" stroke={C.coral} strokeWidth={8} strokeLinecap="round" opacity={1 - k} />;
+        })}
+      {/* la tache cuite sur le verre */}
+      {stainOn && (
+        <path d={`M${400 - stainW / 2} 330 q${stainW / 4} ${-30 * (1 - soft * 0.5)} ${stainW / 2} ${-26 * (1 - soft * 0.5)} t${stainW / 2} ${26 * (1 - soft * 0.5)} Z`} fill={BURNT} stroke={C.ink} strokeWidth={6} strokeLinejoin="round" opacity={1 - soft * 0.35} transform={mode === "scrape" ? `translate(${push * 60} 0)` : undefined} />
+      )}
+      {/* pâte de bicarbonate + serviette chaude */}
+      {mode === "soften" && (
+        <>
+          <path d="M290 300 q110 -34 220 0 v10 h-220 Z" fill={C.white} stroke={C.ink} strokeWidth={6} strokeLinejoin="round" />
+          <path d="M230 270 q170 -40 340 0 v24 q-170 -34 -340 0 Z" fill={C.sun} stroke={C.ink} strokeWidth={7} strokeLinejoin="round" />
+          {[310, 400, 490].map((x, i) => {
+            const k = ((local / 40 + i / 3) % 1 + 1) % 1;
+            return <path key={x} d={`M${x} ${282 + k * 40} v16`} stroke={C.teal} strokeWidth={8} strokeLinecap="round" opacity={1 - k * 0.6} />;
+          })}
+        </>
+      )}
+      {/* grattoir : à plat (bon) ou sur le coin (mauvais) */}
+      {(mode === "scrape" || steep) && (
+        <g transform={`translate(${steep ? 330 : 250 + push * 110} 330) rotate(${steep ? -78 : -34})`}>
+          <rect x={-150} y={-16} width={120} height={32} rx={10} fill={C.teal} stroke={C.ink} strokeWidth={7} />
+          <path d="M-30 -22 H0 V22 H-30 Z" fill="#DDE3EC" stroke={C.ink} strokeWidth={6} strokeLinejoin="round" />
+        </g>
+      )}
+      {mode === "scrape" && (
+        <>
+          <path d="M170 330 A84 84 0 0 1 184 284" fill="none" stroke={C.coral} strokeWidth={7} strokeDasharray="10 8" />
+          {label(150, 262, "30–45°", 44, C.coral, "middle")}
+        </>
+      )}
+      {steep && (
+        <>
+          <path d="M318 344 l10 16 M334 344 l-4 18" stroke={C.coral} strokeWidth={7} strokeLinecap="round" />
+          <circle cx={330} cy={338} r={38 * pulse} fill="none" stroke={C.coral} strokeWidth={8} strokeDasharray="14 10" />
+        </>
+      )}
+      {/* crème : film protecteur, chiffon qui lustre */}
+      {mode === "polish" && (
+        <>
+          <path d="M100 328 H700" stroke={C.teal} strokeWidth={9} strokeLinecap="round" opacity={0.85} />
+          <g transform={`translate(${400 + buff} 296)`}>
+            <path d="M-70 26 q0 -44 70 -44 t70 44 Z" fill={C.white} stroke={C.ink} strokeWidth={7} strokeLinejoin="round" />
+          </g>
+          {[180, 320, 560].map((x, i) => (
+            <path key={x} d="M0 -16 V16 M-16 0 H16" stroke={C.sun} strokeWidth={7} strokeLinecap="round" transform={`translate(${x} ${240 - (i % 2) * 40}) scale(${0.7 + Math.abs(Math.sin(local / 7 + i)) * 0.6})`} />
+          ))}
+        </>
+      )}
+      {/* grain coincé sous la casserole */}
+      {mode === "grit" && (
+        <g transform={`translate(${slide * 130} 0)`}>
+          <path d="M240 318 V200 H470 V318 Z" fill="#DDE3EC" stroke={C.ink} strokeWidth={9} strokeLinejoin="round" />
+          <path d="M470 220 H560" stroke={C.ink} strokeWidth={14} strokeLinecap="round" />
+          <circle cx={300} cy={324} r={8} fill={C.sun} stroke={C.ink} strokeWidth={4} />
+        </g>
+      )}
+      {mode === "grit" && <path d={`M300 332 H${300 + slide * 130}`} stroke={C.coral} strokeWidth={6} strokeLinecap="round" />}
+      {/* légendes */}
+      {mode === "bake" && label(400, 110, "Heat bakes the spill onto the glass", 44, C.ink, "middle")}
+      {mode === "bake" && label(520, 300, "Burnt-on spill", 40, C.coral)}
+      {mode === "soften" && label(400, 110, "Warm moisture softens it", 46, C.ink, "middle")}
+      {mode === "soften" && label(590, 270, "Hot damp towel", 38, C.teal)}
+      {mode === "soften" && label(210, 318, "Paste", 38, C.coral, "end")}
+      {mode === "scrape" && label(400, 110, "Blade flat, light pressure", 46, C.ink, "middle")}
+      {steep && label(400, 110, "The corner digs into the glass", 46, C.coral, "middle")}
+      {mode === "polish" && label(400, 110, "A thin protective layer", 46, C.ink, "middle")}
+      {mode === "grit" && label(400, 110, "A trapped grain scratches the glass", 44, C.ink, "middle")}
+      {mode === "grit" && label(400, 540, "Lift, never slide", 44, C.teal, "middle")}
+      {label(700, 362, "Glass", 28, C.white, "end")}
+    </svg>
+  );
+};
+
 const DIAGRAMS: Record<string, React.FC<{ mode: string; local: number; width?: number }>> = {
   "toilet-trap": ({ mode, local, width }) => <ToiletTrap mode={mode as TrapMode} local={local} width={width} />,
   "washer": ({ mode, local, width }) => <Washer mode={mode} local={local} width={width} />,
   "rice-pot": ({ mode, local, width }) => <RicePot mode={mode} local={local} width={width} />,
   "steak-pan": ({ mode, local, width }) => <SteakPan mode={mode} local={local} width={width} />,
   "toilet-ring": ({ mode, local, width }) => <ToiletRing mode={mode} local={local} width={width} />,
+  "glass-cooktop": ({ mode, local, width }) => <GlassCooktop mode={mode} local={local} width={width} />,
   "house-drain": ({ mode, local, width }) => <HouseDrain mode={mode} local={local} width={width} />,
 };
 

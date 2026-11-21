@@ -110,5 +110,23 @@
   ],
   "badge": "ZERO SCRATCHES",
   "mascot": "panic"
+ },
+ "2026-12-07-cook-chicken-breast-juicy": {
+  "photo": "thumbs/chicken.jpg",
+  "position": "65% 60%",
+  "zoom": 1.2,
+  "lines": [
+   {
+    "text": "DRY",
+    "size": 150
+   },
+   {
+    "text": "CHICKEN?",
+    "hi": true,
+    "size": 124
+   }
+  ],
+  "badge": "JUICY EVERY TIME",
+  "mascot": "chef"
  }
 }

@@ -92,5 +92,23 @@
   ],
   "badge": "DISSOLVE IT, DON'T SCRUB",
   "mascot": "plumber"
+ },
+ "2026-11-29-clean-glass-stovetop": {
+  "photo": "thumbs/stovetop.jpg",
+  "position": "60% 55%",
+  "zoom": 1.15,
+  "lines": [
+   {
+    "text": "BURNT",
+    "size": 140
+   },
+   {
+    "text": "STOVETOP?",
+    "hi": true,
+    "size": 118
+   }
+  ],
+  "badge": "ZERO SCRATCHES",
+  "mascot": "panic"
  }
 }

@@ -788,6 +788,103 @@ export const GlassCooktop: React.FC<{ mode: string; local: number; width?: numbe
   );
 };
 
+// ---------- Schéma en coupe : le blanc de poulet à la poêle (épaisseur inégale / égale, saisie, couvercle, thermomètre, repos) ----------
+export const ChickenPan: React.FC<{ mode: string; local: number; width?: number }> = ({ mode, local, width = 800 }) => {
+  const MEAT = "#F2C9A0", GOLD = "#C98A3A";
+  const pulse = 1 + Math.sin(local / 5) * 0.08;
+  const flat = mode === "uneven" ? 0 : mode === "even" ? interpolate(local, [15, 70], [0, 1], { ...clamp, easing: ease }) : 1;
+  const hump = 96 - flat * 40; // hauteur du côté épais
+  const tail = 22 + flat * 34; // hauteur du côté mince
+  const lidOn = mode === "steam";
+  const probe = mode === "temp" ? interpolate(local, [8, 40], [0, 1], { ...clamp, easing: ease }) : 0;
+  const onBoard = mode === "rest";
+  const baseY = onBoard ? 400 : 372;
+  const label = (x: number, y: number, text: string, size = 40, color: string = C.ink, anchor: "start" | "middle" | "end" = "start") => (
+    <text x={x} y={y} fontFamily={HAND} fontWeight={700} fontSize={fitSize(text, size, x, anchor)} fill={color} textAnchor={anchor}>
+      {text}
+    </text>
+  );
+  const seared = mode === "sear" || mode === "steam" || mode === "temp" || mode === "rest";
+  return (
+    <svg width={width} height={(width * 560) / 800} viewBox="0 0 800 560" style={{ display: "block" }}>
+      {/* poêle ou planche */}
+      {onBoard ? (
+        <rect x={150} y={400} width={500} height={34} rx={12} fill="#E3C08F" stroke={C.ink} strokeWidth={9} />
+      ) : (
+        <>
+          <path d="M170 330 V372 Q170 396 200 396 H600 Q630 396 630 372 V330" fill="#DDE3EC" stroke={C.ink} strokeWidth={9} strokeLinejoin="round" />
+          <path d="M630 350 H760" stroke={C.ink} strokeWidth={16} strokeLinecap="round" />
+          {[250, 330, 410, 490, 570].map((x, i) => (
+            <path key={x} d={`M${x} 470 q-12 -24 0 -44 q12 20 0 44 Z`} fill={mode === "steam" ? C.teal : C.coral} stroke={C.ink} strokeWidth={5} strokeLinejoin="round" transform={`translate(0 ${Math.sin(local / 4 + i) * 3}) scale(1 ${mode === "steam" ? 0.6 : 1})`} style={{ transformOrigin: `${x}px 470px` }} />
+          ))}
+        </>
+      )}
+      {/* le blanc de poulet en coupe */}
+      <path d={`M230 ${baseY} Q226 ${baseY - hump} 330 ${baseY - hump} Q470 ${baseY - hump + (hump - tail) * 0.5} 570 ${baseY - tail} Q582 ${baseY - tail / 2} 570 ${baseY} Z`} fill={MEAT} stroke={C.ink} strokeWidth={8} strokeLinejoin="round" />
+      {seared && <path d={`M236 ${baseY - 5} H566`} stroke={GOLD} strokeWidth={10} strokeLinecap="round" />}
+      {(mode === "steam" || mode === "temp" || mode === "rest") && <path d={`M250 ${baseY - hump + 6} Q400 ${baseY - hump + 6} 560 ${baseY - tail + 5}`} fill="none" stroke={GOLD} strokeWidth={9} strokeLinecap="round" />}
+      {/* épaisseur inégale : le bout mince sèche, le bout épais reste cru */}
+      {mode === "uneven" && (
+        <>
+          <circle cx={540} cy={baseY - 18} r={44 * pulse} fill="none" stroke={C.coral} strokeWidth={8} strokeDasharray="14 10" />
+          <circle cx={310} cy={baseY - 50} r={50 * pulse} fill="none" stroke={C.teal} strokeWidth={8} strokeDasharray="14 10" />
+          {label(640, 250, "Dry", 46, C.coral)}
+          {label(160, 220, "Still raw", 46, C.teal, "end")}
+          {label(400, 110, "Uneven thickness", 48, C.ink, "middle")}
+        </>
+      )}
+      {mode === "even" && (
+        <>
+          <path d={`M600 ${baseY - 56} V${baseY}`} stroke={C.coral} strokeWidth={8} strokeLinecap="round" />
+          {label(616, baseY - 18, "¾ inch", 42, C.coral)}
+          {label(400, 110, "Same thickness, same speed", 46, C.ink, "middle")}
+        </>
+      )}
+      {mode === "sear" && (
+        <>
+          {[280, 400, 520].map((x, i) => {
+            const k = ((local / 26 + i / 3) % 1 + 1) % 1;
+            return <path key={x} d={`M${x} ${250 - k * 80} q-14 -18 0 -36 q14 -18 0 -36`} fill="none" stroke={C.coral} strokeWidth={8} strokeLinecap="round" opacity={1 - k} />;
+          })}
+          {label(400, 110, "Leave it alone: 5–6 min", 46, C.ink, "middle")}
+          {label(400, 540, "The crust is the flavor", 42, GOLD, "middle")}
+        </>
+      )}
+      {lidOn && (
+        <>
+          <path d="M160 328 Q400 180 640 328 Z" fill="rgba(174,182,196,0.35)" stroke={C.ink} strokeWidth={9} strokeLinejoin="round" />
+          <rect x={376} y={228} width={48} height={24} rx={10} fill={C.ink} />
+          {[290, 400, 510].map((x, i) => (
+            <path key={x} d={`M${x} 300 q-16 -16 0 -32 q16 -16 0 -32`} fill="none" stroke={C.teal} strokeWidth={8} strokeLinecap="round" strokeDasharray="18 14" strokeDashoffset={-local * 2.2 + i * 10} />
+          ))}
+          {label(400, 110, "Trapped steam, low heat", 46, C.ink, "middle")}
+          {label(400, 540, "Cooks the center gently", 42, C.teal, "middle")}
+        </>
+      )}
+      {mode === "temp" && (
+        <>
+          <g transform={`translate(${-(1 - probe) * 160} 0)`}>
+            <path d={`M60 ${baseY - 34} H330`} stroke="#8D97A8" strokeWidth={7} strokeLinecap="round" />
+            <rect x={20} y={baseY - 64} width={70} height={60} rx={12} fill={C.white} stroke={C.ink} strokeWidth={8} />
+          </g>
+          <circle cx={330} cy={baseY - 34} r={16 * pulse} fill={C.coral} opacity={probe} />
+          {label(400, 110, "165°F / 74°C in the thickest part", 44, C.ink, "middle")}
+          {label(400, 540, "Not touching the pan", 42, C.coral, "middle")}
+        </>
+      )}
+      {onBoard && (
+        <>
+          {[300, 400, 500].map((x, i) => (
+            <path key={x} d={`M${x} ${baseY - 20} q${Math.sin(local / 8 + i) * 14} -14 0 -28`} fill="none" stroke={C.teal} strokeWidth={8} strokeLinecap="round" />
+          ))}
+          {label(400, 110, "Rest 5–10 min", 48, C.ink, "middle")}
+          {label(400, 500, "The juices spread back", 42, C.teal, "middle")}
+        </>
+      )}
+    </svg>
+  );
+};
+
 const DIAGRAMS: Record<string, React.FC<{ mode: string; local: number; width?: number }>> = {
   "toilet-trap": ({ mode, local, width }) => <ToiletTrap mode={mode as TrapMode} local={local} width={width} />,
   "washer": ({ mode, local, width }) => <Washer mode={mode} local={local} width={width} />,
@@ -795,6 +892,7 @@ const DIAGRAMS: Record<string, React.FC<{ mode: string; local: number; width?: n
   "steak-pan": ({ mode, local, width }) => <SteakPan mode={mode} local={local} width={width} />,
   "toilet-ring": ({ mode, local, width }) => <ToiletRing mode={mode} local={local} width={width} />,
   "glass-cooktop": ({ mode, local, width }) => <GlassCooktop mode={mode} local={local} width={width} />,
+  "chicken-pan": ({ mode, local, width }) => <ChickenPan mode={mode} local={local} width={width} />,
   "house-drain": ({ mode, local, width }) => <HouseDrain mode={mode} local={local} width={width} />,
 };
 

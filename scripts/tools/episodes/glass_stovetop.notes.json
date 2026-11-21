@@ -176,16 +176,7 @@
     }
    ],
    "facts": [],
-   "cards": [
-    {
-     "shot": 5,
-     "on": "fingers",
-     "kind": "avoid",
-     "title": "Avoid",
-     "text": "Wear a glove and keep your fingers behind the blade.",
-     "dur": 4.4
-    }
-   ],
+   "cards": [],
    "gags": [],
    "diagrams": [
     {
@@ -446,20 +437,20 @@
   },
   "2-6": {
    "focus": [
-    0.38,
-    0.68
+    0.7,
+    0.65
    ],
    "notes": [
     {
      "type": "circle",
      "at": [
-      0.38,
-      0.72
+      0.84,
+      0.74
      ],
      "r": 0.07,
      "text": "Control lock",
      "label": [
-      0.72,
+      0.45,
       0.3
      ],
      "on": "lock"
@@ -627,22 +618,6 @@
    "focus": [
     0.5,
     0.45
-   ],
-   "notes": [
-    {
-     "type": "cross",
-     "at": [
-      0.47,
-      0.47
-     ],
-     "r": 0.08,
-     "text": "Chipped blade",
-     "label": [
-      0.76,
-      0.25
-     ],
-     "on": "damaged"
-    }
    ]
   },
   "5-4": {
@@ -835,8 +810,8 @@
     {
      "type": "arrow",
      "at": [
-      0.33,
-      0.62
+      0.35,
+      0.74
      ],
      "text": "Mineral film",
      "label": [
@@ -908,22 +883,6 @@
    "focus": [
     0.45,
     0.6
-   ],
-   "notes": [
-    {
-     "type": "circle",
-     "at": [
-      0.47,
-      0.62
-     ],
-     "r": 0.1,
-     "text": "Trapped grains",
-     "label": [
-      0.76,
-      0.25
-     ],
-     "on": "grains"
-    }
    ]
   },
   "10-3": {

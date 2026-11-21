@@ -1,0 +1,403 @@
+{
+ "extras": {
+  "intro": {
+   "pose": "chef",
+   "diagram": "chicken-pan",
+   "title": "Why chicken breast dries out",
+   "mode": "uneven",
+   "chips": [
+    {
+     "on": "rubbery",
+     "label": "Dry, rubbery chicken",
+     "sub": "overcooks in minutes",
+     "mode": "uneven"
+    },
+    {
+     "on": "thermometer",
+     "label": "A thermometer",
+     "sub": "no more guessing",
+     "mode": "temp"
+    },
+    {
+     "on": "uneven",
+     "label": "Uneven thickness",
+     "sub": "thin end dry, thick end raw",
+     "mode": "uneven"
+    },
+    {
+     "on": "long",
+     "label": "Cooked too long",
+     "sub": "little fat, little margin",
+     "mode": "sear"
+    },
+    {
+     "on": "brine",
+     "label": "A quick salt brine",
+     "sub": "extra moisture",
+     "mode": "even"
+    }
+   ],
+   "gags": []
+  },
+  "step-1": {
+   "ticks": [
+    {
+     "shot": 2,
+     "on": "mallet",
+     "label": "Mallet or rolling pin"
+    }
+   ],
+   "facts": [
+    {
+     "shot": 2,
+     "on": "quarters",
+     "kind": "measure",
+     "big": "¾ inch",
+     "small": "2 cm, the whole breast",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 3,
+     "on": "pancake",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Don't pound it into a pancake: you just want an even shape.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": [
+    {
+     "shot": 4,
+     "on": "speed",
+     "name": "chicken-pan",
+     "mode": "even",
+     "title": "Why you pound it",
+     "dur": 4.8
+    }
+   ]
+  },
+  "step-2": {
+   "ticks": [
+    {
+     "shot": 1,
+     "on": "salt",
+     "label": "Salt"
+    }
+   ],
+   "facts": [
+    {
+     "shot": 1,
+     "on": "tablespoons",
+     "kind": "measure",
+     "big": "2 tbsp salt",
+     "small": "in 4 cups (1 litre) of cold water",
+     "dur": 4.0
+    },
+    {
+     "shot": 2,
+     "on": "thirty",
+     "kind": "timer",
+     "big": "30 min",
+     "small": "in the fridge",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 5,
+     "on": "hour",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "More than an hour in the brine: the texture can turn spongy.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": []
+  },
+  "step-3": {
+   "ticks": [],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 2,
+     "on": "browns",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "Dry meat browns, wet meat steams.",
+     "dur": 4.4
+    },
+    {
+     "shot": 3,
+     "on": "rinse",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Don't rinse raw chicken: it splashes bacteria around your sink.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 6,
+     "on": "hands",
+     "pose": "thumbs",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": []
+  },
+  "step-4": {
+   "ticks": [
+    {
+     "shot": 1,
+     "on": "skillet",
+     "label": "Skillet"
+    }
+   ],
+   "facts": [
+    {
+     "shot": 1,
+     "on": "two",
+     "kind": "timer",
+     "big": "2 min",
+     "small": "preheat, medium-high",
+     "dur": 4.0
+    },
+    {
+     "shot": 4,
+     "on": "five",
+     "kind": "timer",
+     "big": "5–6 min",
+     "small": "without moving it",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 5,
+     "on": "crowd",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Don't crowd the pan: cook in batches.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": [
+    {
+     "shot": 7,
+     "on": "crust",
+     "name": "chicken-pan",
+     "mode": "sear",
+     "title": "Leave it alone",
+     "dur": 4.8
+    }
+   ]
+  },
+  "step-5": {
+   "ticks": [
+    {
+     "shot": 1,
+     "on": "lid",
+     "label": "Lid"
+    }
+   ],
+   "facts": [
+    {
+     "shot": 3,
+     "on": "five",
+     "kind": "timer",
+     "big": "5–7 min",
+     "small": "covered, medium-low",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 4,
+     "on": "lid",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Don't keep lifting the lid: the heat escapes.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": [
+    {
+     "shot": 2,
+     "on": "steam",
+     "name": "chicken-pan",
+     "mode": "steam",
+     "title": "Why the lid matters",
+     "dur": 4.8
+    }
+   ]
+  },
+  "step-6": {
+   "ticks": [
+    {
+     "shot": 2,
+     "on": "thermometer",
+     "label": "Thermometer"
+    }
+   ],
+   "facts": [
+    {
+     "shot": 3,
+     "on": "165",
+     "kind": "measure",
+     "big": "165°F",
+     "small": "74°C, safe to eat",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 6,
+     "on": "reliable",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Cutting into it is not reliable, and the juices escape.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": [
+    {
+     "shot": 2,
+     "on": "thickest",
+     "name": "chicken-pan",
+     "mode": "temp",
+     "title": "Where to measure",
+     "dur": 4.8
+    }
+   ]
+  },
+  "step-7": {
+   "ticks": [],
+   "facts": [
+    {
+     "shot": 1,
+     "on": "five",
+     "kind": "timer",
+     "big": "5–10 min",
+     "small": "rest before slicing",
+     "dur": 4.0
+    },
+    {
+     "shot": 6,
+     "on": "two",
+     "kind": "timer",
+     "big": "2 hours",
+     "small": "into the fridge",
+     "dur": 4.0
+    }
+   ],
+   "cards": [],
+   "gags": [
+    {
+     "shot": 5,
+     "on": "salad",
+     "pose": "party",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": [
+    {
+     "shot": 2,
+     "on": "spread",
+     "name": "chicken-pan",
+     "mode": "rest",
+     "title": "Why it rests",
+     "dur": 4.8
+    }
+   ]
+  },
+  "step-8": {
+   "ticks": [],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 5,
+     "on": "thermometer",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "Pink can be safe and white can be raw: trust the thermometer.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 1,
+     "on": "dinner",
+     "pose": "idea",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": []
+  },
+  "step-9": {
+   "ticks": [],
+   "facts": [
+    {
+     "shot": 2,
+     "on": "32",
+     "kind": "measure",
+     "big": "32°F",
+     "small": "0°C in ice water",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 5,
+     "on": "moving",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "Wait until the number stops moving.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": []
+  },
+  "step-10": {
+   "ticks": [],
+   "facts": [
+    {
+     "shot": 3,
+     "on": "165",
+     "kind": "measure",
+     "big": "165°F",
+     "small": "steaming hot all the way through",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 2,
+     "on": "counter",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Thaw it in the fridge, never on the counter.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": []
+  }
+ },
+ "shots": {},
+ "short": [
+  "1-2",
+  "5-1",
+  "6-3"
+ ]
+}

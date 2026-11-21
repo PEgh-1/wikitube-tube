@@ -206,5 +206,28 @@
       }
     ],
     "cta": "Full guide on the channel."
+  },
+  "short2": {
+    "kind": "mistake",
+    "title": "Stop rinsing raw chicken #shorts",
+    "description": "Rinsing raw chicken splashes bacteria around your sink. Pat it dry instead, then wash your hands and the board. Full 7-step juicy chicken breast guide on the channel. #chicken #cooking #kitchentips",
+    "headline": "Rinsing raw chicken",
+    "hook": "Stop rinsing raw chicken under the tap.",
+    "shot": "short2-hook.jpg",
+    "beats": [
+      {
+        "label": "Why it fails",
+        "title": "It spreads bacteria",
+        "narration": "Rinsing raw chicken under the tap splashes bacteria around your sink.",
+        "shot": "3-3"
+      },
+      {
+        "label": "Do this instead",
+        "title": "Pat it dry",
+        "narration": "Pat it very dry with paper towels, then wash your hands and the board with hot soapy water.",
+        "shot": "3-1"
+      }
+    ],
+    "cta": "The full seven-step guide is on the channel."
   }
 }

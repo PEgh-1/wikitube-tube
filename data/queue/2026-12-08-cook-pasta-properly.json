@@ -5,8 +5,14 @@
   "slug": "cook-pasta-properly",
   "category": "Kitchen",
   "title": "How to Cook Pasta Properly (Salt, Timing, Sauce)",
-  "hook": "Pasta looks like the easiest food in the world, and yet it so often ends up bland, sticky or mushy. A few small habits make a huge difference. In seven steps, you'll cook pasta with the right salt, the right timing and a sauce that actually clings. It takes no extra time, and costs nothing, and how to fix it when it goes wrong.",
-  "intro": "Good pasta isn't about fancy ingredients. It's about technique. Use plenty of water, salt it well, stop cooking at the right moment, and finish the pasta in the sauce rather than just pouring sauce on top. Italian cooks do this every day, and it takes no extra time. The same method works for spaghetti, penne, fusilli and almost every dried pasta shape you find in the shop. Once you try it, you'll never go back to the old way.",
+  "hook": "Pasta looks like the easiest food in the world. So why does it end up bland, sticky or mushy? A few small habits change everything. Seven steps: the right salt, the right timing, and a sauce that clings. Stay for step five: the ingredient most people pour away.",
+  "hookWords": [
+    "Bland",
+    "Sticky",
+    "Mushy",
+    "Seven steps"
+  ],
+  "intro": "Good pasta isn't about fancy ingredients. It's technique: plenty of water, enough salt, stopping at the right moment, and finishing the pasta in the sauce instead of pouring sauce on top. It takes no extra time, and works for almost every dried pasta shape.",
   "youNeed": [
     "Dried pasta",
     "A large pot",
@@ -14,7 +20,7 @@
     "A colander",
     "Your favorite sauce"
   ],
-  "youNeedNarration": "Here's what you need. About one hundred grams, or a quarter pound, of dried pasta per person. A large pot. Coarse salt. A colander. A wooden spoon or tongs, and a sauce, which can be a simple tomato sauce, olive oil and garlic, or whatever you like. A mug is also useful, to save some of the pasta water. Nothing fancy is needed here.",
+  "youNeedNarration": "You'll need dried pasta, about a quarter pound per person, a large pot, coarse salt, a colander, and your favorite sauce. Keep a mug nearby for the pasta water.",
   "heroImageQuery": "spaghetti cooking boiling pot",
   "heroImagePrompt": "A large pot of boiling water with spaghetti being stirred with a wooden spoon, steam rising, warm kitchen light, shallow depth of field, photorealistic, no text",
   "steps": [

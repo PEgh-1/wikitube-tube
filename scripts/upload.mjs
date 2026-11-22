@@ -208,7 +208,7 @@ if (!skipLong && meta.playlistId) {
 // Second Short (--short2) : envoyé seul, à l'heure exacte de --publish-at ; consigné sous « short2 ».
 if (args.short2) {
   if (!meta.short2) throw new Error("metadata.short2 absent : rendre le second Short d'abord");
-  const snippet = { title: meta.short2.title, description: `${meta.short2.description}\n\nFull video: ${result.long.url}`, tags: [...meta.short2.tags, "shorts"], categoryId: "26", defaultLanguage: "en", defaultAudioLanguage: "en" };
+  const snippet = { title: meta.short2.title, description: `▶ Full step-by-step video: ${result.long.url}\n\n${meta.short2.description}`, tags: [...meta.short2.tags, "shorts"], categoryId: "26", defaultLanguage: "en", defaultAudioLanguage: "en" };
   const v = await uploadVideo(path.join(DIRS.root, meta.short2.file), snippet, { ...baseStatus, ...(publishAt ? { publishAt: publishAt.toISOString() } : {}) }, null);
   result.short2 = { videoId: v.id, publishAt: publishAt?.toISOString() ?? null, url: `https://youtube.com/shorts/${v.id}` };
   log.info(`✔ short2 → ${result.short2.url}`);
@@ -225,7 +225,7 @@ if (!args["skip-short"]) {
   const shortFile = path.join(DIRS.root, meta.short.file);
   const shortSnippet = {
     title: meta.short.title,
-    description: `${meta.short.description}\n\nFull video: ${result.long.url}`,
+    description: `▶ Full step-by-step video: ${result.long.url}\n\n${meta.short.description}`,
     tags: [...meta.short.tags, "shorts"],
     categoryId: "26",
     defaultLanguage: "en",

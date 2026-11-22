@@ -5,8 +5,13 @@
   "slug": "prepare-garden-for-winter",
   "category": "Garden",
   "title": "How to Prepare Your Garden for Winter (Soil, Mulch, Bulbs)",
-  "hook": "Winter can undo a whole year of gardening in a single cold snap. But a few hours of work this month can protect your soil, your perennials and your spring bulbs. Here are the seven steps to prepare your garden for winter, in the order that works best. No special skills are needed, and most of it fits into one weekend, plus a few extra tips.",
-  "intro": "The goal of winter prep is simple. You want to remove anything that could spread disease or pests, feed the soil while it rests, and cover whatever needs protection. Do these jobs on a dry day, before the ground freezes hard, and your garden will wake up stronger and need far less work next spring. Everything we'll do uses basic tools and materials like fallen leaves and compost, which you may already have at home. Think of it as tucking your garden in for a long, healthy sleep.",
+  "hook": "One hard frost can undo a whole year of gardening. A few hours now protect your soil, your perennials and next spring's flowers. Here are seven steps to prepare your garden for winter, in the right order. Stay for step five: mulch is what saves your plants.",
+  "hookWords": [
+    "Protect",
+    "Seven steps",
+    "Right order"
+  ],
+  "intro": "Winter prep has three goals: remove anything that spreads disease or pests, feed the soil while it rests, and cover what needs protection. Pick a dry day before the ground freezes hard, and your garden wakes up stronger, with far less work next spring.",
   "youNeed": [
     "Garden gloves",
     "A rake and pruning shears",
@@ -15,7 +20,7 @@
     "Spring flower bulbs",
     "Frost cloth or burlap"
   ],
-  "youNeedNarration": "Here's what you need. Sturdy gloves, a rake and pruning shears, and some compost or well-rotted manure. For mulch, shredded autumn leaves, bark chips or straw all work well. If you want flowers in spring, grab a few bags of bulbs, plus a roll of frost cloth or burlap to protect tender plants. All of this is inexpensive, and much of it costs nothing at all.",
+  "youNeedNarration": "You'll need garden gloves, a rake and pruning shears, compost or rotted manure, mulch or shredded leaves, spring flower bulbs, and frost cloth or burlap.",
   "heroImageQuery": "autumn garden bed leaves",
   "heroImagePrompt": "A tidy autumn garden bed with a rake leaning on a wooden fence, fallen leaves, soft golden morning light, shallow depth of field, photorealistic, no text",
   "steps": [

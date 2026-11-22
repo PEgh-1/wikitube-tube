@@ -5,8 +5,13 @@
   "slug": "fix-a-zipper",
   "category": "Home",
   "title": "How to Fix a Zipper (Stuck, Split or Broken Slider)",
-  "hook": "A broken zipper can ruin a favorite jacket, a backpack or a pair of jeans. Before you throw the item away or pay for a repair, try these simple fixes. In a few minutes you'll know how to free a stuck zipper, close a split one, and replace a broken slider, and what to do if nothing works.",
-  "intro": "Zippers fail in three main ways. The fabric gets caught, the teeth stop closing behind the slider, or the slider itself comes off the track. Each problem has a different fix, so first we'll work out which one you have. Most repairs need only items from a kitchen drawer or a sewing kit, and a good number take under two minutes, so don't give up on that jacket yet. Take your time, work gently, and keep a steady hand.",
+  "hook": "A broken zipper doesn't mean a ruined jacket. Before you throw it away or pay for a repair, try this. Seven quick fixes for a zipper that is stuck, split, or off its track. Stay for step four: it closes a splitting zipper with just a pair of pliers.",
+  "hookWords": [
+    "Seven quick fixes",
+    "Stuck",
+    "Split"
+  ],
+  "intro": "Zippers fail in three ways: fabric gets caught, the teeth stop closing behind the slider, or the slider comes off the track. Each has its own fix, so first we'll find out which one you have. Most repairs need only things from a drawer or a sewing kit. Work gently.",
   "youNeed": [
     "Needle-nose pliers",
     "A graphite pencil or soap",
@@ -14,7 +19,7 @@
     "A replacement slider",
     "A small piece of cloth"
   ],
-  "youNeedNarration": "Here's what you need. A pair of small pliers, ideally needle-nose. A graphite pencil, a bar of soap or a candle for lubricating. Tweezers for caught threads. A cloth to protect the metal. And, for the last repair, a replacement slider in the right size. Most of these items are probably in your home already, and the slider costs just a few dollars.",
+  "youNeedNarration": "You'll need needle-nose pliers, a graphite pencil or a bar of soap, tweezers, a replacement slider in the right size, and a small piece of cloth to protect the metal.",
   "heroImageQuery": "zipper jacket close up",
   "heroImagePrompt": "A close-up of a metal zipper slider on a dark jacket, fabric folds, soft window light, shallow depth of field, photorealistic, no text",
   "steps": [

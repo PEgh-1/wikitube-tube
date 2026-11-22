@@ -5,15 +5,20 @@
   "slug": "clean-c-drive-windows-11",
   "category": "Tech",
   "title": "How to Clean Up Your C Drive on Windows 11 (Fast)",
-  "hook": "Is your C drive almost full, and Windows keeps nagging you about low disk space? In the next few minutes you'll clear gigabytes of junk with seven safe steps, using only the tools already built into Windows 11, and what to do if space still runs short.",
-  "intro": "Over time, Windows 11 piles up temporary files, old update leftovers, forgotten downloads and apps you never open. None of this cleanup needs special software or any risky tricks. Everything we'll do is built into Windows, so you can't break anything, and most people recover somewhere between five and fifty gigabytes in about ten minutes. Let's go step by step, starting with the simplest wins first. So grab a coffee, and let's get your PC breathing again.",
+  "hook": "C drive almost full, and Windows keeps nagging you? You don't need to buy anything. Seven safe steps, using only tools already built into Windows 11, free up gigabytes in minutes. Stay for step three: it clears the hidden files most people never find.",
+  "hookWords": [
+    "Seven safe steps",
+    "Gigabytes",
+    "In minutes"
+  ],
+  "intro": "Windows 11 piles up temporary files, old update leftovers, forgotten downloads and apps you never open. Everything we'll use is built into Windows, so you can't break anything. Most people get back between five and fifty gigabytes in about ten minutes.",
   "youNeed": [
     "A PC running Windows 11",
     "About ten minutes",
     "An external drive or cloud storage",
     "Your Windows admin password"
   ],
-  "youNeedNarration": "Here's what you need. A PC running Windows 11, about ten minutes of your time, and an external drive or cloud storage if you want to move large files somewhere safe. You may also need your administrator password for one of the steps. Nothing to buy and nothing to download.",
+  "youNeedNarration": "You'll need a PC running Windows 11, about ten minutes, an external drive or cloud storage for big files, and your Windows admin password.",
   "heroImageQuery": "laptop windows 11 desktop",
   "heroImagePrompt": "A modern laptop on a clean white desk showing a Windows 11 desktop with a storage settings window open, soft daylight, shallow depth of field, photorealistic, no text",
   "steps": [

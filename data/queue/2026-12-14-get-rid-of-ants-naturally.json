@@ -5,8 +5,14 @@
   "slug": "get-rid-of-ants-naturally",
   "category": "Home",
   "title": "How to Get Rid of Ants Naturally (Garden and Kitchen)",
-  "hook": "A line of ants marching across your kitchen counter is annoying, and spraying chemicals around food and pets isn't appealing. The good news is that you can solve most ant problems naturally. In seven steps, you'll learn how to find them, block them and keep them out, indoors and in the garden. It takes patience, but it works, and what to do if they keep coming back.",
-  "intro": "Ants are looking for food, water and shelter. They follow invisible scent trails left by scouts, so one tiny crumb can bring an entire colony. To get rid of them for good, you have to do three things. Remove what attracts them, erase their trails, and block the ways in. Natural methods work best when you combine them. Safety note: keep any oils, powders or cleaners away from pets and children, and never mix products. Ants are actually useful outdoors, as they aerate soil and eat pests, so our goal is only to keep them out of your home.",
+  "hook": "A line of ants marching across your kitchen counter? You don't have to spray chemicals around your food and pets. Seven natural steps to find them, block them and keep them out, indoors and in the garden. Stay for step three: it erases the trail they follow.",
+  "hookWords": [
+    "Chemicals",
+    "Seven natural steps",
+    "Block them",
+    "Keep them out"
+  ],
+  "intro": "Ants follow invisible scent trails left by scouts, so one crumb can bring a whole colony. To stop them for good, remove what attracts them, erase their trails, and block the ways in. Keep oils, powders and cleaners away from pets and children, and never mix products.",
   "youNeed": [
     "White vinegar and water",
     "A spray bottle",
@@ -14,7 +20,7 @@
     "Caulk",
     "A soapy sponge"
   ],
-  "youNeedNarration": "Here's what you need. White vinegar and a spray bottle. Dish soap and a sponge. Food-grade diatomaceous earth, which is a natural powder. A tube of caulk for sealing cracks. And optionally lemons, cinnamon or coffee grounds. Keep essential oils away from pets, since peppermint and tea tree oil can be harmful to cats and dogs. None of these items are expensive, and none of them are dangerous when used correctly.",
+  "youNeedNarration": "You'll need white vinegar and water in a spray bottle, food-grade diatomaceous earth, a tube of caulk for cracks, and a soapy sponge. Keep essential oils away from pets.",
   "heroImageQuery": "ants kitchen counter trail",
   "heroImagePrompt": "A line of small black ants walking along a kitchen counter edge toward a few crumbs, macro photo, shallow depth of field, photorealistic, no text",
   "steps": [

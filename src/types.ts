@@ -67,7 +67,16 @@ export type HookScene = SceneBase & {
   diagramMode?: string | null;
   diagram?: string | null;
   chips?: Chip[];
-  gags?: Gag[]; type: "hook"; title: string; category: string; stepCount: number; image?: ImageRef };
+  gags?: Gag[];
+  images?: ImageRef[]; // v3 : plans du montage (accroche) ou photos autour du schéma (intro)
+  shotStarts?: number[];
+  keywords?: Keyword[];
+  tease?: { t: number; label: string } | null;
+  voiceEnd?: number;
+  baseline?: string | null;
+  diagramFrom?: number; // v3 : fenêtre d'affichage du schéma (s, relatives à la scène)
+  diagramTo?: number;
+  type: "hook"; title: string; category: string; stepCount: number; image?: ImageRef };
 export type YouNeedScene = SceneBase & { type: "youneed"; items: string[]; image?: ImageRef | null; cues?: number[] };
 export type StepScene = SceneBase & {
   type: "step";
@@ -87,6 +96,7 @@ export type StepScene = SceneBase & {
   ticks?: Tick[];
   gags?: Gag[];
   diagrams?: Diagram[];
+  nextUp?: { t: number; label: string } | null; // v3 : annonce de l'étape suivante en fin de scène
 };
 export type MistakesScene = SceneBase & { type: "mistakes"; items: string[]; images?: ImageRef[]; cues?: number[]; subtitle?: string | null };
 export type RecapScene = SceneBase & { type: "recap"; items: string[]; images?: (ImageRef | null)[]; cues?: number[] };
@@ -119,6 +129,7 @@ export type Timeline = {
   totalSec: number;
   durationInFrames: number;
   scenes: Scene[];
+  sting?: { at: number } | null; // v3 : virgule sonore (pastille W + jingle court) à cheval sur la coupe accroche → intro
 };
 
 export type RenderOptions = {

@@ -1,5 +1,5 @@
 import React from "react";
-import { AbsoluteFill, Audio, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig, Easing } from "remotion";
+import { AbsoluteFill, Audio, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig, Easing } from "remotion";
 import { C, FONT } from "../theme";
 import { Frame, Logo, LogoCorner, Pop, SlideUp, ProgressBar, StepBadge, KenBurns, TipPill } from "../components/ui";
 import type { HookScene, StepScene, PrerollScene, OutroScene } from "../types";
@@ -103,14 +103,15 @@ const HookCold: React.FC<{ scene: HookScene; durationInFrames: number }> = ({ sc
 );
 
 /** Introduction illustrée : schéma en coupe animé + les méthodes qui s'affichent quand la voix les nomme. */
-const HookDiagram: React.FC<{ scene: HookScene }> = ({ scene }) => {
-  const frame = useCurrentFrame();
+const HookDiagram: React.FC<{ scene: HookScene; offset?: number }> = ({ scene, offset = 0 }) => {
+  const dTitle = scene.diagramTitle ?? "How it really works";
+  const frame = useCurrentFrame() + offset; // offset : la scène est montée dans une <Sequence> qui démarre plus tard
   const { fps } = useVideoConfig();
   const chips = scene.chips ?? [];
   let mode = scene.diagramMode ?? "clog";
   let modeFrom = 0;
   for (const c of chips) if (c.mode && frame >= Math.round((c.t ?? 0) * fps)) { mode = c.mode; modeFrom = Math.round((c.t ?? 0) * fps); }
-  const gag = useCue(scene.gags, 3.2);
+  const gag = useCue(offset ? (scene.gags ?? []).map((g) => ({ ...g, t: (g.t ?? 0) - offset / fps })) : scene.gags, 3.2);
   const shown = chips.filter((c) => !c.hidden);
   const chipsHeight = shown.reduce((h, c) => h + 162 + ((c.label ?? "").length > 17 ? 60 : 0), 0) + Math.max(0, shown.length - 1) * 26;
   const chipScale = Math.min(1.1, 860 / Math.max(1, chipsHeight));
@@ -120,7 +121,7 @@ const HookDiagram: React.FC<{ scene: HookScene }> = ({ scene }) => {
       <LogoCorner top={50} />
       <div style={{ position: "absolute", left: 90, top: 150 }}>
         <SlideUp delay={4} style={{ fontSize: 32, fontWeight: 900, letterSpacing: 6, color: C.teal }}>HOW IT WORKS</SlideUp>
-        <SlideUp delay={8} style={{ fontFamily: HAND, fontWeight: 700, fontSize: 92, lineHeight: 1, color: C.ink }}>{scene.diagramTitle ?? "How it really works"}</SlideUp>
+        <SlideUp delay={8} style={{ fontFamily: HAND, fontWeight: 700, fontSize: Math.min(92, Math.round(900 / (dTitle.length * 0.36))), lineHeight: 1, color: C.ink, whiteSpace: "nowrap" }}>{dTitle}</SlideUp>
       </div>
       <Pop delay={6} style={{ position: "absolute", left: 70, top: 330 }}>
         <DiagramView name={scene.diagram ?? ""} mode={mode} local={frame - modeFrom} width={1010} />
@@ -149,7 +150,105 @@ const HookDiagram: React.FC<{ scene: HookScene }> = ({ scene }) => {
           <Mascot pose={gag.item.pose as "nose"} height={330} delay={Math.round((gag.item.t ?? 0) * fps)} />
         </div>
       )}
-      <CueSfx cues={[...chips.filter((c) => !c.hidden).map((c) => ({ t: c.t ?? 0, sfx: "pop" as const, volume: 0.3 })), ...(scene.gags ?? []).map((g) => ({ t: g.t ?? 0, sfx: "boing" as const, volume: 0.4 }))]} />
+      <CueSfx cues={[...chips.filter((c) => !c.hidden).map((c) => ({ t: (c.t ?? 0) - offset / fps, sfx: "pop" as const, volume: 0.3 })), ...(scene.gags ?? []).map((g) => ({ t: (g.t ?? 0) - offset / fps, sfx: "boing" as const, volume: 0.4 }))].filter((c) => c.t >= 0)} />
+    </Frame>
+  );
+};
+
+
+// ---------- Ouverture v3 : accroche en montage, intro en photos autour du schéma ----------
+const CL = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
+
+/** Accroche v3 : résultat d'abord, un plan par membre de phrase, mots forts calés sur la voix, avant / après pour finir. Aucun logo. */
+const HookMontage: React.FC<{ scene: HookScene; durationInFrames: number }> = ({ scene, durationInFrames }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const starts = scene.shotStarts ?? [0];
+  const titleOut = Math.round((starts[1] ?? 2.4) * fps);
+  const leave = interpolate(frame, [titleOut - 7, titleOut], [0, 1], { ...CL, easing: Easing.in(Easing.cubic) });
+  const lastFrom = Math.round((starts[starts.length - 1] ?? 0) * fps);
+  const tease = scene.tease;
+  const teaseFrom = tease ? Math.round(tease.t * fps) : Infinity;
+  const teaseIn = spring({ frame: frame - teaseFrom, fps, config: { damping: 11, stiffness: 190 } });
+  const keywords = (scene.keywords ?? []).filter((k) => !tease || k.at < tease.t - 0.4);
+  // Voile bas : fort sous le titre, puis léger (les photos restent lisibles en plein écran).
+  const veil = interpolate(frame, [titleOut - 7, titleOut + 6], [0.9, 0.5], CL);
+  return (
+    <Frame bg={C.ink} dots={false}>
+      <AbsoluteFill>
+        <MultiShot shots={scene.images ?? [scene.image]} durationInFrames={durationInFrames} seed={3} starts={scene.shotStarts} minShotSec={2} />
+        {frame < lastFrom && <AbsoluteFill style={{ background: `linear-gradient(180deg, rgba(27,42,65,0) 55%, rgba(27,42,65,${veil}) 100%)` }} />}
+      </AbsoluteFill>
+      {frame < titleOut && (
+        <>
+          <div style={{ position: "absolute", left: 90, bottom: 90, right: 640, opacity: 1 - leave, transform: `translateX(${-leave * 160}px)` }}>
+            <SlideUp delay={2} style={{ display: "inline-block", background: C.coral, color: C.white, fontSize: 34, fontWeight: 900, letterSpacing: 5, padding: "8px 24px", borderRadius: 12, border: `4px solid ${C.paper}`, transform: "rotate(-2deg)" }}>
+              {scene.category.toUpperCase()} · {scene.stepCount} STEPS
+            </SlideUp>
+            <SlideUp delay={5} style={{ fontSize: fitTitle(scene.title, 104), fontWeight: 900, lineHeight: 1.02, color: C.white, marginTop: 22, textShadow: "0 6px 30px rgba(0,0,0,0.5)" }}>
+              {scene.title}
+            </SlideUp>
+          </div>
+          <div style={{ position: "absolute", right: 110, bottom: 50, opacity: 1 - leave, transform: `translateY(${leave * 220}px)` }}>
+            <Mascot pose={(scene.pose ?? "wave") as "wave"} height={520} delay={10} />
+          </div>
+        </>
+      )}
+      {frame >= titleOut && frame < Math.min(lastFrom, teaseFrom - 6) && (
+        <div style={{ position: "absolute", left: 90, bottom: 96, right: 90 }}>
+          <KeywordBurst keywords={keywords} dark size={96} />
+        </div>
+      )}
+      {tease && frame >= teaseFrom && (
+        <div style={{ position: "absolute", left: 0, right: 0, bottom: 84, display: "flex", justifyContent: "center" }}>
+          <div style={{ background: C.sun, color: C.ink, border: `7px solid ${C.ink}`, borderRadius: 26, padding: "14px 44px 18px", fontSize: 76, fontWeight: 900, letterSpacing: 2, textTransform: "uppercase", boxShadow: `11px 11px 0 ${C.ink}`, transform: `scale(${teaseIn}) rotate(${-2 + Math.sin(frame / 7) * 1.2}deg)` }}>
+            {tease.label} ★
+          </div>
+        </div>
+      )}
+      <KeywordSfx keywords={keywords} />
+      <CueSfx cues={[{ t: 0.55, sfx: "boing", volume: 0.4 }, ...(tease ? [{ t: tease.t, sfx: "stamp" as const, volume: 0.45 }] : [])]} />
+    </Frame>
+  );
+};
+
+/** Intro v3 : photos plein écran (baseline dite dessus), le schéma glisse comme une page de notice le temps des encarts, puis repart. */
+const HookIntroV3: React.FC<{ scene: HookScene; durationInFrames: number }> = ({ scene, durationInFrames }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const from = Math.round((scene.diagramFrom ?? scene.duration) * fps);
+  const to = Math.round((scene.diagramTo ?? scene.duration) * fps);
+  const hasDiagram = Boolean(scene.diagram) && to - from > fps * 2;
+  const brand = scene.segments.find((sg) => sg.id === "brand-open");
+  const brandFrom = brand ? Math.round((brand.at - scene.start) * fps) + 4 : 0;
+  const brandTo = brand ? Math.round((brand.at - scene.start + brand.duration + 0.5) * fps) : 0;
+  const brandOut = interpolate(frame, [brandTo - 8, brandTo], [1, 0], CL);
+  const x = interpolate(frame, [from, from + 12, to - 12, to], [104, 0, 0, -104], { ...CL, easing: Easing.inOut(Easing.cubic) });
+  const rot = interpolate(frame, [from, from + 12, to - 12, to], [4, 0, 0, -4], CL);
+  const paper = hasDiagram && frame >= from && frame < to;
+  return (
+    <Frame bg={C.ink} dots={false}>
+      <AbsoluteFill>
+        <MultiShot shots={scene.images ?? [scene.image]} durationInFrames={durationInFrames} seed={5} starts={scene.shotStarts} minShotSec={2.5} />
+        <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(27,42,65,0) 58%, rgba(27,42,65,0.55) 100%)" }} />
+      </AbsoluteFill>
+      {brand && frame >= brandFrom && frame < brandTo && (
+        <div style={{ position: "absolute", left: 90, bottom: 96, display: "flex", alignItems: "center", gap: 34, opacity: brandOut }}>
+          <Pop style={{ background: C.paper, padding: "18px 34px", borderRadius: 28, border: `6px solid ${C.ink}`, boxShadow: `9px 9px 0 ${C.ink}`, transform: "rotate(-2deg)" }}>
+            <Logo size={84} />
+          </Pop>
+          <SlideUp delay={8} style={{ fontFamily: HAND, fontWeight: 700, fontSize: 84, lineHeight: 1, color: C.paper, textShadow: `3px 4px 0 ${C.ink}` }}>
+            {scene.baseline ?? "Whatever it is, here's how."}
+          </SlideUp>
+        </div>
+      )}
+      {paper && (
+        <AbsoluteFill style={{ transform: `translateX(${x}%) rotate(${rot}deg)`, boxShadow: "-40px 0 70px rgba(27,42,65,0.35), 40px 0 70px rgba(27,42,65,0.35)", overflow: "hidden" }}>
+          <Sequence from={from} durationInFrames={to - from} layout="none">
+            <HookDiagram scene={scene} offset={from} />
+          </Sequence>
+        </AbsoluteFill>
+      )}
     </Frame>
   );
 };
@@ -157,6 +256,8 @@ const HookDiagram: React.FC<{ scene: HookScene }> = ({ scene }) => {
 export const Hook: React.FC<{ scene: HookScene; durationInFrames: number }> = ({ scene, durationInFrames }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
+  if (scene.part === "cold" && scene.shotStarts?.length) return <HookMontage scene={scene} durationInFrames={durationInFrames} />;
+  if (scene.part === "intro" && scene.shotStarts?.length) return <HookIntroV3 scene={scene} durationInFrames={durationInFrames} />;
   if (scene.part === "cold") return <HookCold scene={scene} durationInFrames={durationInFrames} />;
   if (scene.part === "intro" && scene.diagram) return <HookDiagram scene={scene} />;
   const tilt = spring({ frame, fps, config: { damping: 16, stiffness: 90 } });
@@ -256,6 +357,19 @@ const BonusBadge: React.FC<{ label: string; size?: number }> = ({ label, size = 
 };
 
 /** Étape « plein écran » : la photo occupe tout l'écran, tout le reste vient se poser dessus. */
+/** Relance : en fin d'étape, l'étiquette « NEXT » annonce la suivante (bas droite, zone libre à ce moment-là). */
+const NextUp: React.FC<{ label: string; from: number }> = ({ label, from }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const sp = spring({ frame: frame - from, fps, config: { damping: 14, stiffness: 150 } });
+  return (
+    <div style={{ position: "absolute", right: 80, bottom: 60, maxWidth: 900, display: "flex", alignItems: "center", gap: 20, background: C.ink, border: `5px solid ${C.paper}`, borderRadius: 22, padding: "12px 30px 12px 14px", boxShadow: "8px 8px 0 rgba(27,42,65,0.45)", transform: `translateX(${(1 - sp) * 260}px) rotate(-1deg)`, opacity: Math.min(1, sp * 1.6) }}>
+      <div style={{ background: C.sun, color: C.ink, fontSize: 36, fontWeight: 900, letterSpacing: 3, padding: "6px 20px", borderRadius: 14, flexShrink: 0 }}>NEXT ▸</div>
+      <div style={{ color: C.white, fontSize: 42, fontWeight: 900, lineHeight: 1.08 }}>{label}</div>
+    </div>
+  );
+};
+
 const StepStage: React.FC<{ scene: StepScene; durationInFrames: number }> = ({ scene, durationInFrames }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -320,6 +434,7 @@ const StepStage: React.FC<{ scene: StepScene; durationInFrames: number }> = ({ s
         </div>
       )}
       <StepCues scene={scene} />
+      {scene.nextUp && frame >= Math.round(scene.nextUp.t * fps) && !tipOn && !cardOn && !gagOn && !diagramOn && !compareOn && <NextUp label={scene.nextUp.label} from={Math.round(scene.nextUp.t * fps)} />}
       <div style={{ position: "absolute", left: 80, bottom: 56, display: "flex", alignItems: "center", gap: 30, transformOrigin: "0% 100%", transform: `scale(${1 - shrink * 0.42})` }}>
         {scene.bonus ? <BonusBadge label={scene.bonus} size={130} /> : <StepBadge n={scene.index} size={130} color={accent === C.sun ? C.coral : accent} />}
         <SlideUp delay={6} style={{ fontSize: fitTitle(scene.title, 78), fontWeight: 900, lineHeight: 1.04, color: C.white, textShadow: "0 4px 24px rgba(0,0,0,0.45)", maxWidth: 1000 }}>

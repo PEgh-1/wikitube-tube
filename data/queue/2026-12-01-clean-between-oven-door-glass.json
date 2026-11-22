@@ -5,8 +5,13 @@
   "slug": "clean-between-oven-door-glass",
   "category": "Kitchen",
   "title": "How to Clean Between the Glass on Your Oven Door",
-  "hook": "Greasy streaks and dark spots trapped between the panes of your oven door can't be reached with a cloth. It's one of the most annoying cleaning problems in any kitchen. But with the right steps, you can get inside the door safely and make the glass crystal clear again. Take it slowly and it's very manageable. We also cover what to do if the door will not come apart.",
-  "intro": "Most oven doors are made of two or three layers of glass, and splashes of grease get in through small vents at the top. To clean them, you need to remove the door, and take the glass apart. That sounds scary, but on most ovens it takes about thirty minutes, and requires only a screwdriver. A word of caution before we start. Door designs vary, so look at your manual or the maker's website for the exact method for your model. If your door is sealed and has no screws, don't force it, and talk to the manufacturer.",
+  "hook": "Greasy streaks trapped between the panes of your oven door? No cloth can reach them. But you can get inside the door safely, and make the glass crystal clear again. Seven steps, one screwdriver. Stay for step six: the order of the panes really matters.",
+  "hookWords": [
+    "Safely",
+    "Crystal clear",
+    "Seven steps"
+  ],
+  "intro": "Most oven doors have two or three layers of glass, and grease gets in through small vents at the top. To clean them, you remove the door and take the glass apart. It needs only a screwdriver. Designs vary, so check your manual. If your door is sealed, with no screws, don't force it.",
   "youNeed": [
     "A screwdriver",
     "Dish soap and warm water",
@@ -14,7 +19,7 @@
     "A large towel",
     "Your oven manual"
   ],
-  "youNeedNarration": "Here's what you need. A screwdriver, usually a Phillips head. Warm water and a little dish soap. Two or three microfiber cloths, and a large towel or blanket to protect the door and the table. Cotton gloves, if you have them. And your oven manual, or a photo of the door instructions from the manufacturer's website. A phone for taking photos is useful too.",
+  "youNeedNarration": "You'll need a screwdriver, dish soap and warm water, microfiber cloths, a large towel to protect the door, and your oven manual.",
   "heroImageQuery": "oven door glass clean kitchen",
   "heroImagePrompt": "A spotless stainless steel oven with a crystal clear glass door in a modern kitchen, soft daylight, photorealistic, no text",
   "steps": [

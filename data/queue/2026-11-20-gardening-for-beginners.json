@@ -5,8 +5,14 @@
   "slug": "gardening-for-beginners",
   "category": "Garden",
   "title": "Gardening for Beginners: How to Start Your First Garden",
-  "hook": "Starting a garden sounds easy, until the plants die and you don't know why. The good news is that a small, well-planned first garden almost always works. Here are seven steps to grow your first plants, with no experience needed, and what to do when plants struggle.",
-  "intro": "Most beginners fail for three reasons. They plant in the wrong spot, they start far too big, and they pick plants that are difficult to grow. We'll avoid all three. You'll choose a sunny place, build a small bed, improve the soil, and grow easy plants that reward you quickly. A garden the size of a doormat can feed you salad for weeks, so don't worry about space. We'll go step by step, and by the end you will have a clear plan, ready to put into the ground this weekend.",
+  "hook": "Starting a garden sounds easy, until the plants die and you don't know why. A small, well-planned first garden almost always works. Here are seven steps to grow your first plants, with no experience. Stay for step two: it's where most beginners go wrong.",
+  "hookWords": [
+    "Small",
+    "Well-planned",
+    "Seven steps",
+    "No experience"
+  ],
+  "intro": "Most beginners fail for three reasons: the wrong spot, a garden that is far too big, and plants that are hard to grow. We'll avoid all three. A bed the size of a doormat can give you salad for weeks, so don't worry about space.",
   "youNeed": [
     "A sunny spot outdoors",
     "Compost and garden soil",
@@ -14,7 +20,7 @@
     "Seeds or small plants",
     "A watering can or hose"
   ],
-  "youNeedNarration": "Here's what you need. A sunny spot, outdoors or on a balcony. Some compost and garden soil. A trowel and a pair of gloves. A few seed packets or small plants from a garden center. And a watering can or a hose with a gentle spray head. Nothing here is expensive, and many people already own most of it. If you plan to use pots, add a few containers with drainage holes.",
+  "youNeedNarration": "You'll need a sunny spot outdoors or on a balcony, compost and garden soil, a trowel and gloves, seeds or small plants, and a watering can or a hose.",
   "heroImageQuery": "beginner vegetable garden bed",
   "heroImagePrompt": "A small neat raised garden bed with young lettuce and herbs, watering can beside it, morning sunlight, photorealistic, no text",
   "steps": [

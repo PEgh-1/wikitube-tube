@@ -5,15 +5,20 @@
   "slug": "clean-macbook-screen-keyboard",
   "category": "Tech",
   "title": "How to Clean a MacBook Screen and Keyboard (Safely)",
-  "hook": "Fingerprints on the screen, crumbs under the keys, and a trackpad that feels sticky. Cleaning a MacBook the wrong way can scratch the display or damage the keyboard. Here are seven safe steps to make yours look new again in about five minutes, with nothing more than a cloth and a little water, and what to do if marks stay.",
-  "intro": "A MacBook is easy to clean, as long as you respect two rules. Use as little liquid as possible, and never spray anything directly onto the computer. Moisture that gets into the keyboard or the speakers can cause real damage, while a soft cloth costs almost nothing and does the job. Apple's own advice is simple, and we'll follow it step by step, so you can clean with confidence. Take your time, and work in a well-lit room, because streaks and dust are much easier to see in good light.",
+  "hook": "Fingerprints on the screen, crumbs under the keys. But clean a MacBook the wrong way, and you can scratch the display or damage the keyboard. Here are seven safe steps, with just a cloth and a little water. Stay for step three: it's where most damage happens.",
+  "hookWords": [
+    "Wrong way",
+    "Scratch",
+    "Seven safe steps"
+  ],
+  "intro": "A MacBook is easy to clean if you respect two rules: use as little liquid as possible, and never spray anything directly onto the computer. Moisture in the keyboard or the speakers causes real damage. We'll follow Apple's own advice, step by step, in good light.",
   "youNeed": [
     "Two microfiber cloths",
     "A little distilled water",
     "Compressed air",
     "70 percent isopropyl wipes"
   ],
-  "youNeedNarration": "Here's what you need. Two clean, soft microfiber cloths, one for wiping and one for drying. A small amount of water, ideally distilled. A can of compressed air, and, if you want to disinfect the outside, a seventy percent isopropyl alcohol wipe. That is all, and no household sprays. If you only have one cloth, wash it first, because a dirty cloth just moves dirt around.",
+  "youNeedNarration": "You'll need two microfiber cloths, a little distilled water, a can of compressed air, and, to disinfect the outside, seventy percent isopropyl wipes. No household sprays.",
   "heroImageQuery": "macbook on clean desk",
   "heroImagePrompt": "A silver MacBook open on a bright white desk with a folded microfiber cloth beside it, soft morning light, shallow depth of field, photorealistic, no text",
   "steps": [

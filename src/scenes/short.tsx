@@ -163,12 +163,12 @@ export const ShortCta: React.FC = () => {
           Want the <span style={{ color: C.sun }}>full guide?</span>
         </SlideUp>
         <SlideUp delay={12} style={{ background: C.coral, color: C.white, fontSize: 84, fontWeight: 900, letterSpacing: 3, padding: "28px 120px", borderRadius: 999, marginTop: 44, transform: `scale(${pulse})`, boxShadow: `0 12px 0 rgba(0,0,0,0.25)` }}>
-          FOLLOW
+          FULL VIDEO ▸
         </SlideUp>
         <div style={{ marginTop: 36 }}>
           <Mascot pose="thumbs" height={500} delay={8} />
         </div>
-        <div style={{ position: "absolute", bottom: 236, left: 0, right: 0, textAlign: "center", color: C.sun, fontSize: 50, fontWeight: 800 }}>A new how-to every day</div>
+        <div style={{ position: "absolute", bottom: 236, left: 0, right: 0, textAlign: "center", color: C.sun, fontSize: 50, fontWeight: 800 }}>Link in the description</div>
       </AbsoluteFill>
     </Frame>
   );

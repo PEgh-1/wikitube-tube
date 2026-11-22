@@ -48,25 +48,37 @@ export function buildLongTimeline(ep, tts, images, { fps = FPS, brand = null } =
     scenes.push({ type: "preroll", start: roundToFrame(t, fps), duration: dur, baseline: brand?.baseline ?? null, segments: [{ id: "brand-open", file: open.file, at: roundToFrame(t + OPEN_VOICE_AT, fps), duration: open.duration, words: open.words }] });
     t = roundToFrame(t + dur, fps);
   };
+  let sting = null;
+  const v3 = brand?.opening === "v3"; // ouverture « montage » : accroche en plans courts, virgule sonore, schéma entre deux photos
   if (open && brand?.hookFirst) {
-    push({ ...hookScene, part: "cold" }, ["hook"], 0.35);
-    signature();
-    push({ ...hookScene, part: "intro" }, ["intro"]);
+    push({ ...hookScene, part: "cold" }, ["hook"], v3 ? 0.2 : 0.35);
+    if (v3) hookMontage(scenes[scenes.length - 1], ep, images);
+    if (v3) {
+      // Virgule d'une seconde (pastille W + début du jingle) à cheval sur la coupe ; la baseline est dite sur la première photo de l'intro.
+      sting = { at: roundToFrame(t, fps) };
+      push({ ...hookScene, part: "intro", baseline: brand?.baseline ?? null }, ["brand-open", "intro"]);
+    } else {
+      signature();
+      push({ ...hookScene, part: "intro" }, ["intro"]);
+    }
     // Introduction illustrée : schéma + éléments calés sur les mots de la voix.
     const ix = images.introExtras;
+    const sc = scenes[scenes.length - 1];
+    const sg = sc.segments.find((x) => x.id === "intro");
     if (ix?.diagram) {
-      const sc = scenes[scenes.length - 1];
-      const sg = sc.segments[0];
+      const find = (on) => (sg.words ?? []).find((x) => normWord(x.w) === normWord(on ?? ""));
       const cue = (on, fallback) => {
-        const w = (sg.words ?? []).find((x) => normWord(x.w) === normWord(on ?? ""));
+        const w = find(on);
         return Math.round((w ? sg.at - sc.start + w.s - 0.1 : fallback) * 100) / 100;
       };
       sc.diagram = ix.diagram;
       sc.diagramTitle = ix.title ?? null;
       sc.diagramMode = ix.mode ?? null;
-      sc.chips = (ix.chips ?? []).map((c, k) => ({ ...c, t: cue(c.on, 4 + k * 3) }));
-      sc.gags = (ix.gags ?? []).map((g) => ({ ...g, t: cue(g.on, 6) }));
+      // v3 : l'intro est resserrée, un encart dont le mot n'est plus dit disparaît (pas de repli à l'aveugle).
+      sc.chips = (ix.chips ?? []).filter((c) => !v3 || find(c.on)).map((c, k) => ({ ...c, t: cue(c.on, 4 + k * 3) }));
+      sc.gags = (ix.gags ?? []).filter((g) => !v3 || find(g.on)).map((g) => ({ ...g, t: cue(g.on, 6) }));
     }
+    if (v3) introMontage(sc, sg, images);
   } else {
     if (open) signature();
     else {
@@ -106,6 +118,23 @@ export function buildLongTimeline(ep, tts, images, { fps = FPS, brand = null } =
     }
     resolveExtras(sc, sg, images.stepExtras?.[i]);
   });
+  // Relance visuelle (v3) : en fin d'étape, une étiquette annonce la suivante (« NEXT · … »).
+  // Jamais par-dessus un encart, une annotation ou la bulle d'astuce : sinon elle est décalée ou supprimée.
+  if (v3) {
+    const stepScenes = scenes.filter((x) => x.type === "step");
+    stepScenes.forEach((x, k) => {
+      const nx = stepScenes[k + 1];
+      if (!nx) return;
+      const lastShot = x.images?.[x.images.length - 1];
+      if (lastShot?.notes?.length || lastShot?.compareFile) return;
+      let at = Math.max(x.duration * 0.6, x.duration - 3.6);
+      const tipEnd = Math.min(x.duration - 0.67, x.duration * 0.5 + 9) + 0.3;
+      if (tipEnd > at) at = tipEnd;
+      for (const [list, def] of [[x.facts, 4], [x.cards, 4.4], [x.gags, 3], [x.diagrams, 6], [x.ticks, 4]]) for (const c of list ?? []) at = Math.max(at, (c.t ?? 0) + (c.dur ?? def) + 1);
+      if (x.duration - at < 2) return;
+      x.nextUp = { t: Math.round(at * 100) / 100, label: nx.bonus ? nx.title : `Step ${nx.index}: ${nx.title}` };
+    });
+  }
   push({ type: "mistakes", items: ep.mistakesToAvoid.items, images: (images.mistakes ?? []).length === ep.mistakesToAvoid.items.length ? images.mistakes : [], subtitle: images.mistakesSubtitle ?? null }, ["mistakes"]);
   listCues(scenes[scenes.length - 1], ep.mistakesToAvoid.items);
   push({ type: "recap", items: ep.recap.items ?? ep.steps.map((s) => s.title), images: ep.steps.map((_, i) => images.steps[i] ?? null) }, ["recap"]);
@@ -121,8 +150,116 @@ export function buildLongTimeline(ep, tts, images, { fps = FPS, brand = null } =
     totalSec,
     durationInFrames: Math.round(totalSec * fps),
     scenes,
+    ...(sting ? { sting } : {}),
     chapters: chaptersFrom(scenes, ep),
   };
+}
+
+// ---------- Ouverture v3 ----------
+/** Débuts de plans calés sur la voix : n coupes réparties, chacune ramenée au début de membre de phrase le plus proche. */
+function voiceCuts(words, base, from, to, n, { snap = 0.9, minGap = 1.3 } = {}) {
+  const starts = [from];
+  if (n <= 1) return starts;
+  const clause = [];
+  const any = [];
+  (words ?? []).forEach((w, i) => {
+    const at = base + w.s - 0.12;
+    any.push(at);
+    if (i > 0 && /[.,;:!?…]$/.test(words[i - 1].w)) clause.push(at);
+  });
+  const nearest = (list, x) => list.reduce((best, c) => (Math.abs(c - x) < Math.abs(best - x) ? c : best), Infinity);
+  for (let k = 1; k < n; k++) {
+    const ideal = from + ((to - from) * k) / n;
+    let c = nearest(clause, ideal);
+    if (!Number.isFinite(c) || Math.abs(c - ideal) > snap) c = nearest(any, ideal);
+    if (!Number.isFinite(c)) c = ideal;
+    if (c - starts[starts.length - 1] >= minGap && to - c >= minGap) starts.push(Math.round(c * 100) / 100);
+  }
+  return starts;
+}
+
+const stepShot = (images, ref) => {
+  const m = /^(\d+)-(\d+)$/.exec(String(ref));
+  return m ? images.stepShots?.[Number(m[1]) - 1]?.[Number(m[2]) - 1] ?? null : null;
+};
+const mediaRef = (images, ref) => (ref === "hero" ? images.hero : /^mistake-(\d+)$/.test(String(ref)) ? images.mistakes?.[Number(String(ref).slice(8)) - 1] ?? null : stepShot(images, ref));
+/** Un plan d'ouverture : la photo seule (ni annotation, ni effet calé sur une autre scène). */
+const bare = (im, extra = {}) => (im ? { file: im.file, kind: im.kind, duration: im.duration, focus: im.focus ?? null, fx: im.fx ?? null, ...extra } : null);
+
+/**
+ * Accroche en montage : le résultat d'abord (clip animé du jour s'il existe), puis le problème, un aperçu des gestes,
+ * et l'avant / après pour finir. Plans choisis à la main (shots.json → extras.hook.shots : "hero", "mistake-1", "4-7"…)
+ * ou automatiquement.
+ */
+function hookMontage(sc, ep, images) {
+  const sg = sc.segments[0];
+  const hx = images.hookExtras ?? {};
+  const all = (images.stepShots ?? []).map((list) => (list ?? []).filter((im) => im && im.kind !== "illustration"));
+  let picks;
+  if (hx.shots?.length) picks = hx.shots.map((r) => mediaRef(images, r)).filter(Boolean);
+  else {
+    const n = Math.min(ep.steps.length, all.length);
+    const clip = all.flat().find((im) => im.kind === "video");
+    const spread = [0.2, 0.45, 0.7, 0.95].map((f) => all[Math.min(n - 1, Math.floor(f * n))]).filter((l) => l?.length);
+    picks = [clip ?? images.hero, images.mistakes?.[0], ...spread.map((l, k) => l[Math.min(l.length - 1, 1 + (k % 2))]), images.mistakes?.[1]].filter(Boolean);
+  }
+  const seen = new Set();
+  picks = picks.filter((im) => !seen.has(im.file) && seen.add(im.file));
+  const voiceEnd = sg.at - sc.start + sg.duration;
+  const n = Math.max(3, Math.min(picks.length + 1, 8, Math.round(sc.duration / 2.3)));
+  const starts = voiceCuts(sg.words, sg.at - sc.start, 0, sc.duration, n);
+  const body = picks.slice(0, starts.length - 1).map((im, k) => bare(im, { punches: k === 0 ? [0.5] : [starts[k] + 0.75] }));
+  // Dernier plan : avant / après (l'erreur à gauche, le résultat à droite) quand une image d'erreur existe.
+  const before = images.mistakes?.[0];
+  const last = before && images.hero?.kind !== "video" ? bare(images.hero, { compareFile: before.file, compareLabels: hx.labels ?? ["Before", "After"] }) : bare(images.hero);
+  sc.images = [...body, last];
+  sc.shotStarts = starts.slice(0, sc.images.length);
+  // Mots forts : ceux choisis dans l'épisode (hookWords, dans l'ordre du texte), sinon choix automatique.
+  const lastStart = sc.shotStarts[sc.shotStarts.length - 1];
+  let kws;
+  if (ep.hookWords?.length) {
+    let cursor = 0;
+    kws = [];
+    for (const hw of ep.hookWords) {
+      const first = normWord(String(hw).split(/\s+/)[0]);
+      const j = (sg.words ?? []).findIndex((x, i) => i >= cursor && normWord(x.w) === first);
+      if (j < 0) continue;
+      cursor = j + 1;
+      const at = sg.at - sc.start + sg.words[j].s;
+      kws.push({ text: hw, at, end: at + 1.2, icon: null });
+    }
+  } else kws = pickKeywords(sg.words, sg.at - sc.start, [], { minGap: 2.2, max: 6, startAfter: 2.4 });
+  sc.keywords = kws.filter((k) => k.at > (sc.shotStarts[1] ?? 2) - 0.05 && k.at < lastStart - 0.4);
+  // Promesse à l'écran : « restez jusqu'à l'étape N » si la voix le dit, sinon le nombre d'étapes.
+  const m = /step (one|two|three|four|five|six|seven|eight|nine|ten|\d+)/i.exec(ep.hook);
+  const w = m ? (sg.words ?? []).find((x) => normWord(x.w) === "step") : null;
+  sc.tease = m && w ? { t: Math.round((sg.at - sc.start + w.s - 0.2) * 100) / 100, label: `Stay for step ${wordToNum(m[1])}` } : null;
+  sc.voiceEnd = Math.round(voiceEnd * 100) / 100;
+}
+const wordToNum = (x) => ({ one: 1, two: 2, three: 3, four: 4, five: 5, six: 6, seven: 7, eight: 8, nine: 9, ten: 10 })[String(x).toLowerCase()] ?? x;
+
+/** Intro v3 : photo pendant la baseline et la première phrase, schéma au milieu (tant que des encarts tombent), photo pour finir. */
+function introMontage(sc, sg, images) {
+  const all = (images.stepShots ?? []).slice(0, sc.stepCount).map((list) => (list ?? []).filter((im) => im && im.kind !== "illustration" && im.kind !== "video"));
+  const ix = images.introExtras ?? {};
+  const pool = ix.shots?.length ? ix.shots.map((r) => mediaRef(images, r)).filter(Boolean) : [all[0]?.[0], all[Math.floor(all.length / 2)]?.[0], all[all.length - 1]?.[0], all[1]?.[0]].filter(Boolean);
+  const base = sg.at - sc.start;
+  const chipTs = (sc.chips ?? []).filter((c) => !c.hidden).map((c) => c.t);
+  let from = sc.duration;
+  let to = sc.duration;
+  if (sc.diagram && chipTs.length) {
+    from = Math.max(base + 1.2, Math.min(...chipTs) - 0.9);
+    to = Math.min(sc.duration - 2.2, Math.max(...chipTs) + 3.2);
+    if (to - from < 3) from = to = sc.duration;
+  } else sc.diagram = null;
+  sc.diagramFrom = Math.round(from * 100) / 100;
+  sc.diagramTo = Math.round(to * 100) / 100;
+  // Photos avant et après le schéma, une coupe toutes les 3 s environ, calées sur la voix.
+  const pre = voiceCuts(sg.words, base, 0, from, Math.max(1, Math.round(from / 3.2)));
+  const post = to < sc.duration ? voiceCuts(sg.words, base, to, sc.duration, Math.max(1, Math.round((sc.duration - to) / 3.2))) : [];
+  const starts = [...pre, ...post];
+  sc.images = starts.map((_, k) => bare(pool[k % pool.length]));
+  sc.shotStarts = starts;
 }
 
 const STOP = new Set("the and for with from into your you that this then".split(" "));
@@ -212,7 +349,11 @@ export function subsetTimeline(tl, keys, { fps = FPS } = {}) {
     t = roundToFrame(t + sc.duration, fps);
     return out;
   });
-  return { ...tl, scenes, totalSec: t, durationInFrames: Math.round(t * fps), chapters: [] };
+  // Virgule v3 : seulement si l'accroche et l'intro sont toutes deux dans l'extrait.
+  const cold = scenes.find((sc) => sc.type === "hook" && sc.part === "cold");
+  const intro = scenes.find((sc) => sc.type === "hook" && sc.part === "intro");
+  const sting = tl.sting && cold && intro ? { at: intro.start } : null;
+  return { ...tl, scenes, sting, totalSec: t, durationInFrames: Math.round(t * fps), chapters: [] };
 }
 
 export function buildShortTimeline(ep, tts, images, { fps = FPS } = {}) {

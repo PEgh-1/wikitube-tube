@@ -5,8 +5,14 @@
   "slug": "clean-inside-windshield",
   "category": "Car",
   "title": "How to Clean Inside Your Windshield (No Haze, No Streaks)",
-  "hook": "You clean the inside of your windshield, and it looks worse than before. Smears, a greasy haze, and a blinding glare at sunset. The problem isn't you, it's the method. In seven steps, you'll learn the simple way to get the glass truly clear. It takes about ten minutes, costs almost nothing, and you will notice the difference immediately. Plus a fix for stubborn haze.",
-  "intro": "The inside of a windshield gets a special kind of dirt. It's a thin oily film, caused by plastics and vinyl in the dashboard that release vapors in the heat, and by your own breath and fingers. A regular wipe just spreads that film around. The fix is a clean dry start, two cloths, and a very light touch of cleaner. Everything we'll use is cheap and safe for the car's interior. Before we start, remember never to clean the windshield while driving, and only do this with the car parked.",
+  "hook": "You clean the inside of your windshield, and it looks worse than before. Smears, haze, blinding glare at sunset. The problem isn't you. It's the method. Seven steps, ten minutes, almost no cost. Stay for step four: it's the mistake almost everyone makes.",
+  "hookWords": [
+    "Worse",
+    "It's the method",
+    "Seven steps",
+    "Ten minutes"
+  ],
+  "intro": "The inside of a windshield collects a thin oily film, from dashboard plastics that release vapors in the heat, and from your breath and fingers. A regular wipe just spreads it around. The fix is a dry start, two cloths, and very little cleaner. Only do this with the car parked.",
   "youNeed": [
     "Two clean microfiber cloths",
     "Ammonia-free glass cleaner",
@@ -14,7 +20,7 @@
     "A small towel",
     "A reach tool or sponge"
   ],
-  "youNeedNarration": "Here's what you need. Two clean, dry microfiber cloths, and a third if you can. An ammonia-free glass cleaner, or a half and half mix of distilled water and isopropyl alcohol. A small towel to protect the dashboard. And, if your hands can't reach the corners, a simple reach tool, such as a windshield wand, or a sponge on a stick. You may already have all of this at home.",
+  "youNeedNarration": "You'll need two clean microfiber cloths, an ammonia-free glass cleaner, distilled water, a small towel to protect the dashboard, and a reach tool or a sponge for the corners.",
   "heroImageQuery": "car windshield interior clean",
   "heroImagePrompt": "View through a spotless car windshield from the driver seat toward a sunny road, clean glass, dashboard in the foreground, photorealistic, no text",
   "steps": [

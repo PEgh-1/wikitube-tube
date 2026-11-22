@@ -5,8 +5,14 @@
   "slug": "clean-dryer-vent",
   "category": "Home",
   "title": "How to Clean Your Dryer Vent (Step by Step)",
-  "hook": "Do your clothes take two cycles to dry, and does the laundry room feel hot and smell of burning? A clogged dryer vent wastes energy, and it is also a fire risk. In seven steps, you'll learn how to clear the lint safely, in about an hour. It is simple, but it matters, and what to do if it still dries slowly.",
-  "intro": "Every load leaves lint, and not all of it stops in the trap. The rest travels through the duct to the outside, and slowly builds up. Lint is highly flammable, and a blocked vent traps heat. Cleaning it once a year is one of the most useful home maintenance jobs. Safety comes first. Always unplug the dryer before you start. If you have a gas dryer, or if you are not comfortable with the work, call a professional. Set aside an hour on a quiet weekend, and the job is easier than it sounds.",
+  "hook": "Clothes need two cycles to dry, and the laundry room feels hot? A clogged dryer vent wastes energy, and it is a real fire risk. Seven steps clear the lint safely, in about an hour. Stay for step four: you won't believe how much lint comes out.",
+  "hookWords": [
+    "Fire risk",
+    "Seven steps",
+    "Safely",
+    "About an hour"
+  ],
+  "intro": "Every load leaves lint, and not all of it stops in the trap. The rest travels into the duct and slowly builds up. Lint is highly flammable, and a blocked vent traps heat. Always unplug the dryer before you start. If you have a gas dryer, or you're not comfortable, call a professional.",
   "youNeed": [
     "A dryer vent brush kit",
     "A vacuum with a hose",
@@ -14,7 +20,7 @@
     "Foil tape and gloves",
     "A flashlight"
   ],
-  "youNeedNarration": "Here's what you need. A dryer vent brush kit, with flexible rods that attach to a drill. A vacuum cleaner with a hose attachment. A screwdriver or a nut driver for the clamps. Foil tape. Work gloves and a dust mask. And a flashlight. A helper can make moving the dryer much easier. Lay a towel on the floor. A helper makes the whole job quicker and safer.",
+  "youNeedNarration": "You'll need a dryer vent brush kit, a vacuum with a hose, a screwdriver for the clamps, foil tape and gloves, and a flashlight. A helper makes moving the dryer easier.",
   "heroImageQuery": "dryer vent lint brush",
   "heroImagePrompt": "A clogged lint-filled dryer vent duct being cleaned with a long flexible brush, laundry room, bright light, photorealistic, no text",
   "steps": [

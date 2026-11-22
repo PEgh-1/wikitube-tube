@@ -5,15 +5,20 @@
   "slug": "hidden-iphone-settings-beginners",
   "category": "Tech",
   "title": "8 Hidden iPhone Settings Beginners Should Turn On",
-  "hook": "Your iPhone can do far more than most people ever discover. A few settings, hidden deep in the menus, can protect your phone, save your battery, free up storage and make daily use faster. Here are eight to switch on today, and each takes less than a minute. None of it needs any technical knowledge. We also cover what to do if you cannot find a setting.",
-  "intro": "Apple builds many useful features into every iPhone, but it doesn't always switch them on for you. Some protect you if your phone is stolen, some stretch the life of your battery, and some simply save time. We'll walk through each setting, show exactly where to find it, and explain why it matters. Menu names can differ a little between iOS versions, so if you cannot find one, use the search bar at the top of Settings.",
+  "hook": "Your iPhone can do far more than most people ever discover. Eight settings, hidden deep in the menus, protect your phone, save your battery and free up storage. Each takes under a minute. Stay for step two: it protects you if your phone is stolen.",
+  "hookWords": [
+    "Eight settings",
+    "Hidden",
+    "Under a minute"
+  ],
+  "intro": "Apple builds useful features into every iPhone, but doesn't always switch them on. Some protect you if the phone is stolen, some stretch your battery, some simply save time. Menu names differ a little between iOS versions, so if you can't find one, use the search bar in Settings.",
   "youNeed": [
     "An iPhone",
     "Your passcode",
     "Your Apple Account",
     "Five minutes of time"
   ],
-  "youNeedNarration": "Here's what you need. Your iPhone, updated to a recent version of iOS if possible. Your passcode, since some settings ask for it. Your Apple Account signed in, and a few minutes of your time. Nothing needs to be downloaded, and you can switch any of these off again whenever you like.",
+  "youNeedNarration": "You'll need your iPhone, your passcode, your Apple Account signed in, and about five minutes of time. You can switch any of these off again.",
   "heroImageQuery": "iphone settings screen hands",
   "heroImagePrompt": "A person holding an iPhone showing the Settings app with a list of toggles, bright home setting, shallow depth of field, photorealistic, no text",
   "steps": [

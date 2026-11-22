@@ -5,8 +5,16 @@
   "slug": "cook-chicken-breast-juicy",
   "category": "Kitchen",
   "title": "Cook Chicken Breast Without Drying It Out",
-  "hook": "Dry, rubbery chicken breast is the most common dinner disappointment. It's lean meat that overcooks in minutes. But with seven simple steps, you can cook chicken breast that is tender, juicy and safe, using just a pan, a little salt and a thermometer. It takes about thirty minutes, start to finish, plus what to do if it still comes out dry.",
-  "intro": "Chicken breast has very little fat, so there isn't much margin for error. Two things cause most of the dryness. Uneven thickness, where the thin end overcooks while the thick end is still raw, and cooking it for too long. We'll fix both. We'll also use a quick salt brine for extra moisture, and a thermometer, which is the only reliable way to know when chicken is done. Let's get started. Even if you have never cooked chicken before, you can do this. It simply takes attention at the right moments.",
+  "hook": "Dry, rubbery chicken breast? It's not you. It's the method. Here are seven steps to chicken that is juicy, tender and safe, every single time. And stay for step six: it's the one that ends the guessing for good.",
+  "hookWords": [
+    "Not you",
+    "The method",
+    "Juicy",
+    "Tender",
+    "Safe",
+    "Every time"
+  ],
+  "intro": "Chicken breast has almost no fat, so there is very little margin. Two things dry it out: uneven thickness, and cooking it too long. We'll fix both, then add a quick salt brine for extra moisture, and a thermometer, the only reliable way to know it's done.",
   "youNeed": [
     "Boneless chicken breasts",
     "Salt and black pepper",
@@ -14,7 +22,7 @@
     "A meat thermometer",
     "A meat mallet or rolling pin"
   ],
-  "youNeedNarration": "Here's what you need. Two or three boneless chicken breasts. Coarse salt and pepper. A skillet with a lid. A little oil with a high smoke point. A meat mallet, or a rolling pin or heavy pan. And an instant-read meat thermometer. If you only buy one new kitchen tool this year, make it that thermometer. Nothing here is expensive, and most of it is already in your kitchen.",
+  "youNeedNarration": "You'll need boneless chicken breasts, salt and pepper, a skillet with a lid, a meat thermometer, and a meat mallet or a rolling pin. Plus a little oil.",
   "heroImageQuery": "juicy sliced chicken breast",
   "heroImagePrompt": "Sliced juicy golden-brown chicken breast on a white plate with herbs, showing a moist interior, soft side light, shallow depth of field, photorealistic, no text",
   "steps": [

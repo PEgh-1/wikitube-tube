@@ -5,8 +5,13 @@
   "slug": "clean-silver-jewelry-at-home",
   "category": "Home",
   "title": "How to Clean Silver Jewelry at Home (3 Methods)",
-  "hook": "Silver rings, chains and earrings turn dull and dark with time, and a trip to the jeweler isn't always necessary. In seven steps, you'll learn three simple ways to remove tarnish at home, using soap, baking soda and aluminum foil, and bring back the shine. It takes about twenty minutes, and costs almost nothing, and what to do if the tarnish stays.",
-  "intro": "Silver tarnishes when it reacts with sulfur in the air, in food, and even on your skin. The result is that dark, dull layer. The good news is that it's only a thin surface layer, and it can be removed. The right method depends on your piece. A gentle wash is safe for almost everything, while stronger methods are only for solid silver without delicate stones. We'll go from the gentlest to the strongest, so start at the beginning, and move on only if needed. Never try to clean a valuable heirloom without asking a jeweler first.",
+  "hook": "Silver rings, chains and earrings turn dull and dark with time. You don't need a jeweler. Three simple ways to remove tarnish at home, with soap, baking soda and aluminum foil. Twenty minutes, almost no cost. Stay for step four: the tarnish lifts off without any rubbing.",
+  "hookWords": [
+    "Three simple ways",
+    "Tarnish",
+    "Twenty minutes"
+  ],
+  "intro": "Silver tarnishes when it reacts with sulfur in the air, in food, even on your skin. It's only a thin surface layer, and it comes off. A gentle wash is safe for almost everything; stronger methods are only for solid silver without delicate stones. Never clean a valuable heirloom without asking a jeweler first.",
   "youNeed": [
     "Mild dish soap and warm water",
     "Baking soda",
@@ -14,7 +19,7 @@
     "A soft toothbrush",
     "A silver polishing cloth"
   ],
-  "youNeedNarration": "Here's what you need. Mild dish soap and warm water. Baking soda. A sheet of aluminum foil. A very soft toothbrush. Two soft cotton or microfiber cloths, and ideally a silver polishing cloth for the finish. Also a glass or ceramic bowl, because we'll use hot water, and you should avoid using an aluminum pot or any metal bowl. Nothing here is expensive, and most of it is probably in your kitchen already.",
+  "youNeedNarration": "You'll need mild dish soap and warm water, baking soda, aluminum foil, a soft toothbrush, and a silver polishing cloth. Use a glass or ceramic bowl for the hot water.",
   "heroImageQuery": "silver ring necklace polishing cloth",
   "heroImagePrompt": "Sterling silver rings and a necklace laid on a soft white cloth with a polishing cloth and a small bowl, bright window light, shallow depth of field, photorealistic, no text",
   "steps": [

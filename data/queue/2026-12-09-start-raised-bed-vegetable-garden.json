@@ -5,8 +5,14 @@
   "slug": "start-raised-bed-vegetable-garden",
   "category": "Garden",
   "title": "How to Start a Vegetable Garden in a Raised Bed",
-  "hook": "A raised bed is the easiest way to grow vegetables, even with poor soil, a bad back or a small yard. You control the soil, the weeds stay low, and the harvest is bigger. In seven steps, you'll build and plant your first raised bed this weekend. No experience is needed, and you can finish the build in an afternoon, and what to do when plants struggle.",
-  "intro": "Raised beds warm up faster in spring, drain better, and are easier to look after than a garden dug into the ground. You can build one from simple wooden boards in an afternoon. The secret to success is a good location, a well-built frame, and a rich soil mix. We'll go through each stage, from choosing the site to planting your first seedlings, with tips to avoid the common beginner problems. A raised bed also lets you start growing on poor ground, where digging would be hard work.",
+  "hook": "Poor soil, a bad back, or a small yard? A raised bed is the easiest way to grow vegetables. You control the soil, weeds stay low, and the harvest is bigger. Seven steps to build and plant yours this weekend. Stay for step four: the soil mix decides everything.",
+  "hookWords": [
+    "Raised bed",
+    "Bigger",
+    "Seven steps",
+    "This weekend"
+  ],
+  "intro": "Raised beds warm up faster in spring, drain better, and are easier to look after than a garden dug into the ground. You can build one from simple boards in an afternoon. Success comes down to three things: a good location, a solid frame, and a rich soil mix.",
   "youNeed": [
     "Untreated wood boards",
     "Screws and a drill",
@@ -14,7 +20,7 @@
     "Compost and topsoil",
     "Seedlings or seeds"
   ],
-  "youNeedNarration": "Here's what you need. Untreated boards, such as cedar or pine, about four feet wide, and eight feet long, for a standard bed. Screws and a drill, and a tape measure. Plain cardboard. A mix of good topsoil and compost, and a watering can or hose. And finally the fun part, seedlings or seeds of the vegetables you love.",
+  "youNeedNarration": "You'll need untreated wood boards, cedar or pine, screws and a drill, plain cardboard, compost and topsoil, and seedlings or seeds of the vegetables you love.",
   "heroImageQuery": "raised garden bed vegetables",
   "heroImagePrompt": "A wooden raised garden bed filled with healthy vegetable seedlings in rich dark soil, a watering can nearby, morning sunlight, photorealistic, no text",
   "steps": [

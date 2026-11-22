@@ -5,8 +5,13 @@
   "slug": "clean-ps5-dust-vents",
   "category": "Tech",
   "title": "How to Clean a PS5 (Dust and Vents) Without Opening It",
-  "hook": "Is your PS5 getting loud, hot, or slowing down in long games? Dust is the usual culprit, and you can fix it without opening the console or buying any tools. In seven safe steps, you'll clean the vents, the shell and the controller in about fifteen minutes. Nothing in this video needs tools, and it won't touch your warranty. Plus what to do if it stays loud.",
-  "intro": "Your PS5 pulls air in through its vents and pushes it out through the back. Over months, dust gathers on those openings and inside the fan intake. That makes the fan work harder and louder. The good news is that you only need to clean what you can reach from the outside. You should never open the console's body, unscrew anything, or push objects into the fan. Safety first, and results second. If your console is still under warranty and has a serious problem, contact Sony rather than experimenting.",
+  "hook": "Is your PS5 getting loud, hot, or slow in long games? Dust is the usual culprit. You can fix it without opening the console, and without touching your warranty. Seven safe steps, about fifteen minutes. Stay for step four: that's where the noise comes from.",
+  "hookWords": [
+    "Dust",
+    "Without opening",
+    "Seven safe steps"
+  ],
+  "intro": "Your PS5 pulls air in through its vents and pushes it out the back. Over months, dust builds up there, and the fan works harder and louder. We only clean what we can reach from outside. Never open the console, unscrew anything, or push objects into the fan.",
   "youNeed": [
     "A soft dry microfiber cloth",
     "A soft brush",
@@ -14,7 +19,7 @@
     "Cotton swabs",
     "A slightly damp cloth"
   ],
-  "youNeedNarration": "Here's what you need. A soft, dry microfiber cloth. A clean soft brush, like a paintbrush or a makeup brush. A vacuum cleaner with a soft brush head. A few cotton swabs for tiny gaps. And a slightly damp cloth for stains. Don't use any chemicals, sprays or alcohol on the console. All of these are cheap, and you probably have them at home already.",
+  "youNeedNarration": "You'll need a soft dry microfiber cloth, a soft brush like a clean paintbrush, a vacuum with a brush head, cotton swabs, and a slightly damp cloth. No sprays, no alcohol.",
   "heroImageQuery": "playstation 5 console living room",
   "heroImagePrompt": "A white PlayStation 5 console standing on a media shelf in a living room, soft evening light, shallow depth of field, photorealistic, no text",
   "steps": [

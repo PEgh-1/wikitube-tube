@@ -4,6 +4,17 @@ Branche de travail : `test-gemini-web` (pas `main`). Fichiers vérifiés : branc
 
 Rythme décidé : 1 long par jour à 17 h 30 (Paris), son Short à 18 h, un 2e Short à 12 h 30 (alternance « tip » / « mistake »). Garder au moins 3 jours programmés d'avance. Ordre des sujets : formats photo (maison, cuisine) d'abord ; voir la fiche mémoire WikiTUBE.
 
+## 0. Ouverture v3 (validée le 22/11/2026) — à respecter dans chaque script
+Objectif : première étape avant 0 min 55 (elle arrivait à 1 min 36). `data/brand.json` → `"opening": "v3"`.
+- `hook` : 40 à 50 mots. Problème, enjeu, promesse (« Seven steps… »), puis « Stay for step N: … » (N = une vraie étape clé, l'affirmation doit être tenue dans cette étape). Aucune phrase creuse.
+- `hookWords` : 3 ou 4 mots forts de l'accroche, dans l'ordre du texte, pas dans la première phrase (le titre est à l'écran).
+- `intro` : 45 à 55 mots, les consignes de sécurité restent. Les mots `on` des encarts du schéma doivent y figurer, sinon l'encart disparaît.
+- `youNeedNarration` : 25 à 32 mots, les objets dans l'ordre de `youNeed`.
+- Montage de l'accroche : automatique (résultat ou clip animé en premier, image d'erreur n° 1, un plan pris dans 4 étapes, avant / après pour finir). Pour choisir à la main : `extras.hook.shots` dans les notes (`"hero"`, `"mistake-1"`, `"4-7"`…), `extras.intro.shots` pour les photos autour du schéma.
+- Signature : virgule d'une seconde (pastille W + début du jingle) entre l'accroche et l'intro ; la baseline est dite sur la première photo. La signature complète reste en fin de vidéo.
+- Relances : l'étiquette « NEXT » de fin d'étape est automatique. Dans le script, une étape sur deux se termine par une phrase qui annonce la suite ; à écrire avant le plan d'images (une image par phrase).
+- Short : l'écran final renvoie au long (« FULL VIDEO », lien en première ligne de la description). Après programmation, renseigner la « vidéo associée » du Short dans YouTube Studio (impossible par l'API).
+
 ## 1. Plan d'images (`scripts/tools/episodes/<sujet>.py`)
 - Modèle : `glass_stovetop.py`, `chicken_breast.py`, `oven_door_glass.py` (une image par phrase via `_auto.pair`).
 - `TAIL` fixe le décor et la tenue (une couleur de chemise par épisode, mains seules, pas de visage, « No text, no letters… »).
@@ -31,7 +42,7 @@ Rythme décidé : 1 long par jour à 17 h 30 (Paris), son Short à 18 h, un 2e S
 
 ## 5. Contrôle (obligatoire avant toute programmation)
 - `qc.json` : `passed: true`, durée 8 à 10 min, −14 LUFS.
-- Extraire une image à chaque encart, flèche et schéma (instants lus dans `timeline-long.json`) + 6 images par Short. Vérifier : aucun texte superposé ou coupé, flèches sur la bonne cible, titre d'ouverture non masqué par la mascotte (40 caractères au plus, champ `title` de l'épisode).
+- Extraire une image à chaque encart, flèche et schéma (instants lus dans `timeline-long.json`) + 6 images par Short. Vérifier : aucun texte superposé ou coupé, flèches sur la bonne cible, les 60 premières secondes image par image (une toutes les 2 s : plans de l'accroche, étiquette « Stay for step N », virgule, schéma), l'étiquette « NEXT » de chaque fin d'étape, titre d'ouverture non masqué par la mascotte (40 caractères au plus, champ `title` de l'épisode).
 - Corriger, relancer `only=long`, recontrôler les endroits modifiés.
 
 ## 6. Titre et miniature

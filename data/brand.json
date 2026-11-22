@@ -4,5 +4,6 @@
   "baseline": "Whatever it is, here's how.",
   "open": "WikiTube. Whatever it is, here's how.",
   "close": "That's WikiTube. Whatever it is, here's how.",
-  "hookFirst": true
+  "hookFirst": true,
+  "opening": "v3"
 }

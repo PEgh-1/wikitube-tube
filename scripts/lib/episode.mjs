@@ -53,6 +53,7 @@ export const EpisodeSchema = z
     category: z.string().trim().min(2).max(30).describe("Rubrique affichée (Kitchen, Home, Tech…)."),
     title: z.string().trim().min(10).max(90).describe("Titre affiché dans la vidéo."),
     hook: Narration(15, 70),
+    hookWords: z.array(z.string().trim().min(2).max(24)).max(6).optional().describe("Mots forts de l'accroche affichés en grand quand la voix les dit (dans l'ordre du texte)."),
     intro: Narration(20, 110),
     youNeed: z.array(z.string().trim().min(2).max(40)).min(2).max(6),
     youNeedNarration: Narration(10, 90).optional(),

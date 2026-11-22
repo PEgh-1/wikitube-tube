@@ -5,8 +5,13 @@
   "slug": "clean-windows-without-streaks",
   "category": "Home",
   "title": "How to Clean Windows Without Streaks (Inside and Out)",
-  "hook": "You wash your windows, and they dry with streaks, smears and cloudy patches. It's frustrating, and the mistake is usually in the method, not the cleaner. In seven steps, you'll learn how professionals get windows crystal clear, inside and out, with simple supplies. No expensive products are needed, and how to fix streaks that still appear.",
-  "intro": "Streaks happen for three main reasons. Cleaning in direct sun, so the liquid dries too fast. Using too much cleaner, which leaves a film. And using the wrong cloth, which leaves lint or just pushes dirt around. Fix those three things, and you can get a streak-free result with a bucket and a squeegee. We'll cover windows you can safely reach from the ground floor, from the inside and the outside. Never lean out of upper-floor windows, or use ladders without help. If you wash from the top down, and from one window to the next, it takes about ten minutes per window.",
+  "hook": "You wash your windows, and they dry with streaks, smears and cloudy patches. The mistake is in the method, not the cleaner. Seven steps to get glass crystal clear, inside and out, with simple supplies. Stay for step five: it's the move the professionals use.",
+  "hookWords": [
+    "Method",
+    "Seven steps",
+    "Crystal clear"
+  ],
+  "intro": "Streaks have three causes: cleaning in direct sun, so the liquid dries too fast; too much cleaner, which leaves a film; and the wrong cloth, which leaves lint. Fix those three, and a bucket and a squeegee are enough. Never lean out of upper-floor windows, or use a ladder without help.",
   "youNeed": [
     "A bucket of warm water",
     "A drop of dish soap",
@@ -14,7 +19,7 @@
     "Microfiber cloths",
     "White vinegar (optional)"
   ],
-  "youNeedNarration": "Here's what you need. A bucket of warm water, and a few drops of mild dish soap. A squeegee with a clean rubber blade. Two or three clean microfiber cloths, or lint-free cloths. A soft brush for the frames. And, if you like, white vinegar in a spray bottle for spot cleaning. A dry towel for the windowsill will protect the floor. You probably have most of this at home.",
+  "youNeedNarration": "You'll need a bucket of warm water, a drop of dish soap, a squeegee with a clean blade, microfiber cloths, and, if you like, white vinegar for spot cleaning.",
   "heroImageQuery": "clean window sunlight living room",
   "heroImagePrompt": "A spotless streak-free window with soft sunlight and green garden view, a squeegee and a bucket on the sill, photorealistic, no text",
   "steps": [

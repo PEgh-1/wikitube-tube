@@ -357,6 +357,7 @@ const manifest = {
   stepShots: sections.map((_, i) => results[`step-${i + 1}`]?.shots ?? [stripShots(results[`step-${i + 1}`])]),
   // Encarts calés sur la voix (chiffres, « pourquoi », « à éviter », coches du matériel), par étape.
   introExtras: pregen?.extras?.intro ?? null,
+  hookExtras: pregen?.extras?.hook ?? null, // plans de l'accroche choisis à la main (sinon choix automatique)
   shortShots: pregen?.short ?? null, // plans choisis pour les 3 étapes du Short ("étape-plan")
   short2Files: short2Files(), // médias verticaux du second Short (clip d'ouverture, photos dédiées)
   stepExtras: sections.map((_, i) => pregen?.extras?.[`step-${i + 1}`] ?? null),

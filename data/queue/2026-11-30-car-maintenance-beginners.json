@@ -5,8 +5,13 @@
   "slug": "car-maintenance-beginners",
   "category": "Car",
   "title": "Car Maintenance for Beginners: 8 Checks to Do Yourself",
-  "hook": "You don't need to be a mechanic to keep your car safe and reliable. Eight simple checks, done once a month, can catch problems early and save you hundreds on repairs. Here's how to do each one in minutes, with no special tools and no jacks. It's easier than you think. We also cover what to do when a reading looks wrong.",
-  "intro": "Regular checks are the cheapest insurance for your car. Every check in this video is visual, or takes a single simple tool. We won't touch brakes, jack up the car or work on anything that could be dangerous. Park on level ground, switch off the engine, put the handbrake on, and keep your owner's manual nearby, because it shows exactly where everything is located on your model. Set a reminder on the first weekend of each month, and the whole routine takes about twenty minutes.",
+  "hook": "You don't need to be a mechanic to keep your car safe. Eight simple checks, once a month, catch problems early and can save you hundreds on repairs. No special tools, no jack. Stay for step three: it's the check that protects your engine.",
+  "hookWords": [
+    "Eight simple checks",
+    "Once a month",
+    "No special tools"
+  ],
+  "intro": "Every check here is visual, or needs one simple tool. We won't touch the brakes or jack up the car. Park on level ground, switch off the engine, put the handbrake on, and keep your owner's manual nearby: it shows where everything is on your model.",
   "youNeed": [
     "Your owner's manual",
     "A tire pressure gauge",
@@ -14,7 +19,7 @@
     "A coin for the tread test",
     "A flashlight"
   ],
-  "youNeedNarration": "Here's what you need. Your owner's manual, which is the most useful tool of all. A tire pressure gauge. A clean rag or paper towel. A coin for checking tire tread. And a flashlight, in case the light is dim. If you don't have a gauge, they cost just a few dollars at any auto shop. Everything fits in a small box in the trunk.",
+  "youNeedNarration": "You'll need your owner's manual, a tire pressure gauge, a clean rag or paper towel, a coin for the tread test, and a flashlight.",
   "heroImageQuery": "car hood open engine check",
   "heroImagePrompt": "A person in casual clothes looking at the open hood of a parked car in a driveway, morning light, shallow depth of field, photorealistic, no text",
   "steps": [

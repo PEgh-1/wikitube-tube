@@ -5,8 +5,14 @@
   "slug": "kitchen-tricks-wish-you-knew",
   "category": "Kitchen",
   "title": "8 Kitchen Tricks You'll Wish You Knew Earlier",
-  "hook": "Some kitchen tricks are so simple and so useful that you'll wonder why nobody told you sooner. Here are eight, tested and safe, that save time, cut waste and make cooking easier. Each takes less than a minute to learn, and you can use them tonight. Let's go, and what to do when a trick fails, and fixes when one fails.",
-  "intro": "Professional cooks use small habits and shortcuts that never appear in recipes. They aren't gadgets or secret ingredients. They simply make everyday jobs faster, safer or tastier. We'll look at eight of them, from peeling garlic in seconds to rescuing hard brown sugar. You don't need any special equipment for any of them. Everything is already in your kitchen, so grab a knife, a bowl and let's get started.",
+  "hook": "Some kitchen tricks are so simple, you'll wonder why nobody told you sooner. Here are eight, tested and safe, that save time, cut waste and make cooking easier. Each takes under a minute to learn. Stay for step four: it brings stale bread back to life.",
+  "hookWords": [
+    "Eight",
+    "Save time",
+    "Cut waste",
+    "Under a minute"
+  ],
+  "intro": "Professional cooks rely on small habits and shortcuts that never appear in recipes. No gadgets, no secret ingredients. They simply make everyday jobs faster, safer or tastier, from peeling garlic in seconds to rescuing hard brown sugar. Everything is already in your kitchen.",
   "youNeed": [
     "A chef's knife",
     "A damp kitchen towel",
@@ -14,7 +20,7 @@
     "A microwave",
     "A bowl of cold water"
   ],
-  "youNeedNarration": "Here's what you need. A chef's knife and a cutting board. A damp kitchen towel. A glass jar with a lid. A microwave. A bowl of cold water. And a few ingredients, such as eggs, garlic, a lemon, and some old bread. Take care with knives and hot items in every trick, and always work slowly.",
+  "youNeedNarration": "You'll need a chef's knife and a cutting board, a damp kitchen towel, a glass jar with a lid, a microwave, and a bowl of cold water. Take care with knives and hot items.",
   "heroImageQuery": "kitchen counter eggs garlic lemon",
   "heroImagePrompt": "A kitchen counter with eggs, garlic, a lemon, fresh herbs in a jar and a chef's knife, bright morning light, photorealistic, no text",
   "steps": [

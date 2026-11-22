@@ -7,6 +7,23 @@ import { PreRoll, Hook, Step, Outro } from "./scenes/long";
 import { YouNeed, Mistakes, Recap } from "./scenes/lists";
 import { Subtitles, SceneAudio } from "./components/Subtitles";
 import { SceneWipe } from "./components/motion";
+import { SignedTransition } from "./components/stage";
+import { WBadge } from "./components/brand";
+import { useCurrentFrame } from "remotion";
+
+const STING_IN = 13; // frames avant la coupe
+const STING_LEN = 32; // ≈ 1 s en tout
+/** Virgule v3 : l'iris se ferme sur la pastille W, se rouvre sur l'intro ; début du jingle, coupé en fondu. */
+const Sting: React.FC = () => {
+  const frame = useCurrentFrame();
+  const p = frame <= STING_IN ? frame / STING_IN : 1 + (frame - STING_IN) / (STING_LEN - STING_IN);
+  return (
+    <>
+      <SignedTransition p={p} variant={2} />
+      <WBadge p={p} />
+    </>
+  );
+};
 
 const MUSIC_VOLUME = 0.075;
 
@@ -41,8 +58,11 @@ export const Long: React.FC<LongProps> = ({ timeline, options }) => {
   const last = timeline.scenes[timeline.scenes.length - 1];
   const outroStart = Math.round((last?.type === "outro" ? last.start : timeline.totalSec) * fps);
   const clampOpt = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
+  const stingAt = timeline.sting ? Math.round(timeline.sting.at * fps) : null;
+  const stingDuck = (f: number) => (stingAt === null ? 1 : 1 - 0.85 * interpolate(f, [stingAt - STING_IN - 6, stingAt - STING_IN, stingAt + 30, stingAt + 48], [0, 1, 1, 0], clampOpt));
   const musicVolume = (f: number) =>
     MUSIC_VOLUME *
+    stingDuck(f) *
     interpolate(f, [0, 20], [0, 1], clampOpt) *
     (sig ? Math.max(interpolate(f, [sigFrom - 8, sigFrom], [1, 0], clampOpt) * (f < sigFrom ? 1 : 0), interpolate(f, [sigTo - 4, sigTo + 18], [0, 1], clampOpt)) : 1) *
     interpolate(f, [timeline.durationInFrames - 30, timeline.durationInFrames - 2], [1, 0], clampOpt) *
@@ -60,11 +80,17 @@ export const Long: React.FC<LongProps> = ({ timeline, options }) => {
               <SceneView scene={scene} durationInFrames={dur} />
               {burn && scene.segments.length > 0 && <Subtitles segments={scene.segments} sceneStart={scene.start} dark={darkSubs} />}
             </AbsoluteFill>
-            <SceneWipe durationInFrames={dur} enter={i > 0} exit={i < timeline.scenes.length - 1} variant={i} variantIn={i - 1} />
+            <SceneWipe durationInFrames={dur} enter={i > 0 && from !== stingAt} exit={i < timeline.scenes.length - 1 && from + dur !== stingAt} variant={i} variantIn={i - 1} />
             <SceneAudio segments={scene.segments} sceneStart={scene.start} enabled={options?.audio ?? true} />
           </Sequence>
         );
       })}
+      {stingAt !== null && (
+        <Sequence from={stingAt - STING_IN} durationInFrames={STING_LEN + 16} name="sting">
+          <Sting />
+          {(options?.audio ?? true) && <Audio src={staticFile("brand/jingle.mp3")} volume={(f) => 0.5 * interpolate(f, [STING_LEN - 6, STING_LEN + 14], [1, 0], clampOpt)} />}
+        </Sequence>
+      )}
       {options?.probe && <OverflowProbe />}
     </AbsoluteFill>
   );

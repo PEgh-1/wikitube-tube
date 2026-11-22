@@ -5,15 +5,20 @@
   "slug": "tie-a-tie-4-knots",
   "category": "Style",
   "title": "How to Tie a Tie: 4 Knots, Step by Step",
-  "hook": "Interview tomorrow, a wedding on Saturday, and you still can't tie a tie? Don't worry, it is much easier than it looks. In the next few minutes, you'll learn four classic knots, from the quick four-in-hand to the full Windsor, one clear move at a time. No tie-tying experience is needed, and you can follow along with any tie you own, plus a few helpful extras.",
-  "intro": "Every tie knot uses the same idea. The wide end of the tie does all the work, while the narrow end hangs still. Once you learn the setup, each knot is just a different sequence of crossing, wrapping and threading. We'll go from the simplest knot to the most formal one. Stand in front of a mirror, take your time, and remember that even people who tie a tie every day needed a few tries at the beginning. Don't worry about speed at first, because accuracy comes before speed.",
+  "hook": "Interview tomorrow, wedding on Saturday, and you still can't tie a tie? It's easier than it looks. Four classic knots, from the quick four-in-hand to the full Windsor, one clear move at a time. Stay for step six: the dimple makes any knot look sharp.",
+  "hookWords": [
+    "Easier",
+    "Four classic knots",
+    "Full Windsor"
+  ],
+  "intro": "Every knot uses the same idea: the wide end does all the work, while the narrow end hangs still. Each knot is just a different sequence of crossing, wrapping and threading. Stand in front of a mirror, and take your time. Accuracy comes before speed.",
   "youNeed": [
     "A shirt with a collar",
     "A necktie",
     "A mirror",
     "A few minutes of patience"
   ],
-  "youNeedNarration": "Here's what you need. A shirt with a collar, buttoned up. A necktie, of course. A mirror, so you can see what your hands are doing. And a few minutes of patience. If you can, practice with an old tie first, so there's no pressure on your good one. Choose a tie that isn't too thick for your first tries.",
+  "youNeedNarration": "You'll need a shirt with a collar, buttoned up, a necktie that isn't too thick, a mirror, and a few minutes of patience.",
   "heroImageQuery": "man tying necktie mirror",
   "heroImagePrompt": "Hands tying a navy blue necktie around the collar of a crisp white shirt, close-up in a bright bedroom, shallow depth of field, photorealistic, no text",
   "steps": [

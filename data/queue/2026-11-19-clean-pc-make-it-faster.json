@@ -5,15 +5,20 @@
   "slug": "clean-pc-make-it-faster",
   "category": "Tech",
   "title": "How to Clean Your PC and Make It Faster in 10 Minutes",
-  "hook": "Is your computer slow to start, noisy, and full of things you never use? Most PCs don't need replacing, they need a good clean. In ten minutes you can clear junk files, switch off startup apps, and even blow out the dust, using seven simple steps. No technical skills are needed, and what to do if it is still slow.",
-  "intro": "A PC slows down for two reasons. Inside the software, junk files, background programs and browser clutter pile up. Inside the case, dust blocks the airflow and heats up the processor. We'll deal with both. Everything here uses tools already built into Windows, plus a can of compressed air. You don't need to buy any software, and you can't harm your files by following these steps in order. So let's start with the easiest win, and work our way toward the dust.",
+  "hook": "Slow to start, noisy, and full of things you never use? Your PC doesn't need replacing. It needs a good clean. Seven simple steps, about ten minutes, no technical skills. Stay for step two: it's the one that speeds up every single startup.",
+  "hookWords": [
+    "Good clean",
+    "Seven simple steps",
+    "Ten minutes"
+  ],
+  "intro": "A PC slows down for two reasons. In the software, junk files, background programs and browser clutter pile up. In the case, dust blocks the airflow and heats the processor. We'll fix both with tools already built into Windows, plus a can of compressed air. Your files stay safe.",
   "youNeed": [
     "A Windows PC",
     "A can of compressed air",
     "A soft dry cloth",
     "Ten minutes of free time"
   ],
-  "youNeedNarration": "Here's what you need. Your Windows PC, a can of compressed air, and a soft dry cloth for the last step. Plus about ten minutes. Don't buy any cleaner or booster program, because everything we need is already in Windows, and those tools often cause more trouble than they solve. Close your open programs before you begin.",
+  "youNeedNarration": "You'll need your Windows PC, a can of compressed air, a soft dry cloth, and about ten minutes of free time. Skip the booster programs: Windows already has everything.",
   "heroImageQuery": "laptop slow computer desk",
   "heroImagePrompt": "A desktop computer on a tidy desk with a clean monitor showing a calm blue desktop, soft daylight, shallow depth of field, photorealistic, no text",
   "steps": [

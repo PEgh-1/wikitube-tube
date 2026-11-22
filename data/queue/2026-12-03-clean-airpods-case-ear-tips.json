@@ -5,8 +5,13 @@
   "slug": "clean-airpods-case-ear-tips",
   "category": "Tech",
   "title": "How to Clean Your AirPods (Case, Speaker Mesh, Ear Tips)",
-  "hook": "Muffled sound, a low volume on one side, and a case that looks grey and grimy. Earwax and dust are the usual reasons. The good news is that you can clean your AirPods safely in about five minutes, with a few household items and no risk to the speakers. No special tools are needed. We also cover what to do if the sound is still not right.",
-  "intro": "AirPods spend their lives in your ears and in your pockets, so it's no surprise they get dirty. The tiny speaker mesh clogs with wax, and the charging case collects lint and dust. But they are delicate and water-sensitive, so the method matters. The golden rules are simple. Keep liquid out of the openings, use soft dry tools on the mesh, and never use sharp objects. We'll follow what Apple recommends, step by step. If you hear a crackle or one side stops charging, clean them first before you assume they are broken.",
+  "hook": "Muffled sound, one side quieter than the other, a grimy grey case? It's usually earwax and dust. You can clean your AirPods safely in about five minutes, with a few household items. Stay for step three: do it wrong, and you can damage the speaker.",
+  "hookWords": [
+    "Earwax",
+    "Safely",
+    "Five minutes"
+  ],
+  "intro": "AirPods live in your ears and your pockets. The tiny speaker mesh clogs with wax, and the case collects lint. But they are delicate, so three rules: keep liquid out of the openings, use soft dry tools on the mesh, and never use sharp objects. We follow what Apple recommends.",
   "youNeed": [
     "A soft lint-free cloth",
     "Dry cotton swabs",
@@ -14,7 +19,7 @@
     "A little fresh water",
     "Isopropyl alcohol wipes"
   ],
-  "youNeedNarration": "Here's what you need. A soft, dry, lint-free cloth, like the one for cleaning glasses. A few dry cotton swabs. A clean, soft-bristled brush, such as a new toothbrush. A little fresh water. And, for the case exterior, a seventy percent isopropyl alcohol wipe. Please don't use sharp tools, or cleaning sprays of any kind. Everything costs just a few dollars.",
+  "youNeedNarration": "You'll need a soft lint-free cloth, dry cotton swabs, a soft-bristled brush such as a new toothbrush, a little fresh water, and isopropyl alcohol wipes for the case.",
   "heroImageQuery": "white wireless earbuds charging case",
   "heroImagePrompt": "White wireless earbuds and an open charging case on a clean desk with a soft cloth and cotton swabs beside them, shallow depth of field, photorealistic, no text",
   "steps": [

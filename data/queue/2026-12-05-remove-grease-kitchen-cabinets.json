@@ -5,8 +5,14 @@
   "slug": "remove-grease-kitchen-cabinets",
   "category": "Home",
   "title": "How to Remove Sticky Grease From Kitchen Cabinets Easily",
-  "hook": "Sticky, yellowish film on your kitchen cabinets, especially above the stove and around the handles. It attracts dust, and gets worse every month. In seven steps, you'll learn how to dissolve it with gentle products, with no harsh scrubbing and no damage to the finish. It's easier than it looks. We also cover what to do if it still feels sticky.",
-  "intro": "Cabinet grease is a mix of cooking oil vapor, steam and dust that sticks to every surface in your kitchen. Because it builds up slowly, you may not notice until you touch it. The trick is to use a degreaser that breaks the oil down, rather than scrubbing hard, which can wear the finish. We'll start with the mildest option, and move up only if needed. First, a quick note. Always test any cleaner in a hidden spot. The whole job is gentle rather than heavy, so put on some music and take it one door at a time. You will be surprised how different the kitchen looks afterwards.",
+  "hook": "A sticky, yellowish film on your kitchen cabinets, worst above the stove and around the handles? Don't scrub. Seven steps dissolve it with gentle products, with no damage to the finish. Stay for step four: the waiting does the work for you.",
+  "hookWords": [
+    "Don't scrub",
+    "Seven steps",
+    "Gentle",
+    "No damage"
+  ],
+  "intro": "Cabinet grease is cooking oil vapor, steam and dust, stuck to every surface. The trick is a degreaser that breaks the oil down, not hard scrubbing, which wears the finish. We start with the mildest option and move up only if needed. Always test a cleaner in a hidden spot first.",
   "youNeed": [
     "Warm water and dish soap",
     "Baking soda",
@@ -14,7 +20,7 @@
     "An old soft toothbrush",
     "White vinegar (optional)"
   ],
-  "youNeedNarration": "Here's what you need. Warm water and a good grease-cutting dish soap. Baking soda for stubborn areas. Soft microfiber cloths, at least three. An old, soft toothbrush for corners and carved edges. And white vinegar, but only for sealed or painted cabinets. You do not need steel wool, abrasive sponges or harsh oven cleaners. Most of these things are probably under your sink already, and none of them are expensive.",
+  "youNeedNarration": "You'll need warm water and dish soap, baking soda, soft microfiber cloths, an old soft toothbrush, and white vinegar, only for sealed or painted cabinets. No steel wool, no oven cleaner.",
   "heroImageQuery": "kitchen cabinets wiping cloth",
   "heroImagePrompt": "Clean white kitchen cabinets with a hand wiping a door using a yellow microfiber cloth, bright morning light, photorealistic, no text",
   "steps": [

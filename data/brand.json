@@ -6,5 +6,6 @@
   "close": "That's WikiTube. Whatever it is, here's how.",
   "hookFirst": true,
   "opening": "v3",
-  "hookStyle": "trailer"
+  "hookStyle": "trailer",
+  "signature": "full"
 }

@@ -54,7 +54,7 @@ export function buildLongTimeline(ep, tts, images, { fps = FPS, brand = null } =
     push({ ...hookScene, part: "cold" }, ["hook"], v3 ? 0.2 : 0.35);
     if (v3) hookMontage(scenes[scenes.length - 1], ep, images);
     if (v3 && brand?.hookStyle === "trailer") hookTrailer(scenes[scenes.length - 1], ep, images);
-    if (v3) {
+    if (v3 && brand?.signature !== "full") {
       // Virgule d'une seconde (pastille W + début du jingle) à cheval sur la coupe ; la baseline est dite sur la première photo de l'intro.
       sting = { at: roundToFrame(t, fps) };
       push({ ...hookScene, part: "intro", baseline: brand?.baseline ?? null }, ["brand-open", "intro"]);

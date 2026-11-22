@@ -6,7 +6,7 @@
     {
       "name": "long durée",
       "ok": true,
-      "detail": "581.8 s (attendu 300–720 s)",
+      "detail": "539.6 s (attendu 300–720 s)",
       "blocking": true
     },
     {
@@ -24,13 +24,13 @@
     {
       "name": "long loudness",
       "ok": true,
-      "detail": "-14.0 LUFS, pic -1.4 dBTP (cible -14 ±2)",
+      "detail": "-14.0 LUFS, pic -0.6 dBTP (cible -14 ±2)",
       "blocking": true
     },
     {
       "name": "long taille",
       "ok": true,
-      "detail": "172.5 Mo",
+      "detail": "172.1 Mo",
       "blocking": true
     },
     {
@@ -72,7 +72,7 @@
     {
       "name": "SRT long.en.srt",
       "ok": true,
-      "detail": "14154 octets",
+      "detail": "13066 octets",
       "blocking": true
     },
     {
@@ -106,5 +106,5 @@
       "blocking": true
     }
   ],
-  "checkedAt": "2026-11-21T21:14:33.455Z"
+  "checkedAt": "2026-11-22T16:45:29.093Z"
 }

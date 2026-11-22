@@ -53,6 +53,7 @@ export function buildLongTimeline(ep, tts, images, { fps = FPS, brand = null } =
   if (open && brand?.hookFirst) {
     push({ ...hookScene, part: "cold" }, ["hook"], v3 ? 0.2 : 0.35);
     if (v3) hookMontage(scenes[scenes.length - 1], ep, images);
+    if (v3 && brand?.hookStyle === "trailer") hookTrailer(scenes[scenes.length - 1], ep, images);
     if (v3) {
       // Virgule d'une seconde (pastille W + début du jingle) à cheval sur la coupe ; la baseline est dite sur la première photo de l'intro.
       sting = { at: roundToFrame(t, fps) };
@@ -235,6 +236,49 @@ function hookMontage(sc, ep, images) {
   const w = m ? (sg.words ?? []).find((x) => normWord(x.w) === "step") : null;
   sc.tease = m && w ? { t: Math.round((sg.at - sc.start + w.s - 0.2) * 100) / 100, label: `Stay for step ${wordToNum(m[1])}` } : null;
   sc.voiceEnd = Math.round(voiceEnd * 100) / 100;
+}
+/**
+ * Accroche « bande-annonce » (v4) : quatre actes calés sur la voix.
+ *   1. le problème (image d'erreur, zoom par à-coups, titre), jusqu'à la 2e phrase ;
+ *   2. le résultat (panoramique filé vers la photo réussie) ;
+ *   3. la promesse : une carte par étape, dès que la voix dit le nombre (« seven steps ») ;
+ *   4. le suspense : la carte de l'étape annoncée (« stay for step N ») passe au centre, floutée.
+ */
+function hookTrailer(sc, ep, images) {
+  const sg = sc.segments[0];
+  const W = sg.words ?? [];
+  const base = sg.at - sc.start;
+  const D = sc.duration;
+  const at = (i) => base + W[i].s - 0.12;
+  const sent = [0];
+  W.forEach((w, i) => i > 0 && /[.!?…]$/.test(W[i - 1].w) && sent.push(i));
+  const sentOf = (i) => sent.filter((x) => x <= i).pop() ?? 0;
+  const NUM = /^(two|three|four|five|six|seven|eight|nine|ten|\d+)$/;
+  let iTease = W.findIndex((w) => normWord(w.w) === "stay");
+  if (iTease < 0) iTease = sent[sent.length - 1];
+  const iNum = W.findIndex((w, i) => i < iTease && i >= (sent[1] ?? 0) && NUM.test(normWord(w.w)));
+  const iProm = iNum < 0 ? -1 : iNum - sentOf(iNum) <= 3 ? sentOf(iNum) : iNum;
+  let turn = sent[1] !== undefined && W.length ? at(sent[1]) : D * 0.2;
+  let promise = iProm >= 0 ? at(iProm) : D * 0.42;
+  let tease = W.length && iTease > 0 ? at(iTease) : D * 0.74;
+  // Garde-fous : chaque acte a le temps d'exister.
+  turn = Math.min(Math.max(turn, 1.7), D * 0.3);
+  promise = Math.max(promise, turn + 1.5);
+  tease = Math.min(Math.max(tease, promise + 3), D - 2.4);
+  if (promise > tease - 3) promise = Math.max(turn + 1.2, tease - 3.4);
+  const m = /step (one|two|three|four|five|six|seven|eight|nine|ten|\d+)/i.exec(ep.hook);
+  const n = ep.steps.length;
+  const teaseStep = Math.min(n, Math.max(1, Number(m ? wordToNum(m[1]) : n)));
+  const still = (list) => (list ?? []).find((im) => im && im.kind !== "illustration" && im.kind !== "video");
+  const cards = ep.steps.map((_, i) => {
+    const im = still(images.stepShots?.[i]) ?? images.steps?.[i] ?? images.hero;
+    return { n: i + 1, file: im?.file ?? images.hero.file };
+  });
+  const r2 = (x) => Math.round(x * 100) / 100;
+  const problem = images.mistakes?.[0] ?? still(images.stepShots?.[0]) ?? images.hero;
+  sc.trailer = { problem: { file: problem.file }, result: { file: images.hero.file, kind: images.hero.kind ?? "image" }, turn: r2(turn), promise: r2(promise), tease: r2(tease), teaseStep, cards };
+  sc.keywords = [];
+  sc.tease = null;
 }
 const wordToNum = (x) => ({ one: 1, two: 2, three: 3, four: 4, five: 5, six: 6, seven: 7, eight: 8, nine: 9, ten: 10 })[String(x).toLowerCase()] ?? x;
 

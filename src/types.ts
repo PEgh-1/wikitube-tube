@@ -73,6 +73,7 @@ export type HookScene = SceneBase & {
   keywords?: Keyword[];
   tease?: { t: number; label: string } | null;
   voiceEnd?: number;
+  trailer?: { problem: { file: string }; result: { file: string; kind?: string }; turn: number; promise: number; tease: number; teaseStep: number; cards: { n: number; file: string }[] } | null; // v4 : accroche « bande-annonce »
   baseline?: string | null;
   diagramFrom?: number; // v3 : fenêtre d'affichage du schéma (s, relatives à la scène)
   diagramTo?: number;

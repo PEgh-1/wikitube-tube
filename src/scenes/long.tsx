@@ -1,4 +1,5 @@
 import React from "react";
+import { HookTrailer } from "./trailer";
 import { AbsoluteFill, Audio, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig, Easing } from "remotion";
 import { C, FONT } from "../theme";
 import { Frame, Logo, LogoCorner, Pop, SlideUp, ProgressBar, StepBadge, KenBurns, TipPill } from "../components/ui";
@@ -256,6 +257,7 @@ const HookIntroV3: React.FC<{ scene: HookScene; durationInFrames: number }> = ({
 export const Hook: React.FC<{ scene: HookScene; durationInFrames: number }> = ({ scene, durationInFrames }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
+  if (scene.part === "cold" && scene.trailer) return <HookTrailer scene={scene} durationInFrames={durationInFrames} />;
   if (scene.part === "cold" && scene.shotStarts?.length) return <HookMontage scene={scene} durationInFrames={durationInFrames} />;
   if (scene.part === "intro" && scene.shotStarts?.length) return <HookIntroV3 scene={scene} durationInFrames={durationInFrames} />;
   if (scene.part === "cold") return <HookCold scene={scene} durationInFrames={durationInFrames} />;

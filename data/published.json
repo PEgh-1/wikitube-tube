@@ -132,21 +132,42 @@
   {
     "episodeId": "2026-12-07-cook-chicken-breast-juicy",
     "title": "How to Cook Chicken Breast in a Pan Without Drying It Out (Juicy Every Time)",
+    "uploadedAt": "2026-11-22T16:52:26.157Z",
+    "replaced": {
+      "long": {
+        "videoId": "tVrneiHFliU",
+        "publishAt": "2026-11-23T16:30:00.000Z",
+        "url": "https://youtu.be/tVrneiHFliU",
+        "deleted": true
+      },
+      "short": {
+        "videoId": "p_SDJmwiu6s",
+        "publishAt": "2026-11-23T17:00:00.000Z",
+        "url": "https://youtube.com/shorts/p_SDJmwiu6s",
+        "deleted": true
+      },
+      "short2": {
+        "videoId": "gYkhLhVKYlI",
+        "publishAt": "2026-11-23T11:30:00.000Z",
+        "url": "https://youtube.com/shorts/gYkhLhVKYlI",
+        "deleted": true
+      },
+      "deleted": true
+    },
     "long": {
-      "videoId": "tVrneiHFliU",
+      "videoId": "24zxsUJklVc",
       "publishAt": "2026-11-23T16:30:00.000Z",
-      "url": "https://youtu.be/tVrneiHFliU"
+      "url": "https://youtu.be/24zxsUJklVc"
     },
     "short": {
-      "videoId": "p_SDJmwiu6s",
+      "videoId": "hlWyUxOaPY0",
       "publishAt": "2026-11-23T17:00:00.000Z",
-      "url": "https://youtube.com/shorts/p_SDJmwiu6s"
+      "url": "https://youtube.com/shorts/hlWyUxOaPY0"
     },
-    "uploadedAt": "2026-11-21T21:48:25.175Z",
     "short2": {
-      "videoId": "gYkhLhVKYlI",
+      "videoId": "A95jqQMjqv4",
       "publishAt": "2026-11-23T11:30:00.000Z",
-      "url": "https://youtube.com/shorts/gYkhLhVKYlI"
+      "url": "https://youtube.com/shorts/A95jqQMjqv4"
     }
   }
 ]

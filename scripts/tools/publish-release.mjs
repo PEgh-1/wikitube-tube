@@ -31,6 +31,20 @@ for (const { id } of queue) {
   for (const f of fs.readdirSync(path.join(src, "out"))) if (!f.startsWith("long.mp4.part-")) fs.copyFileSync(path.join(src, "out", f), path.join(outDir, f));
   log.info(`${id} : long ${(fs.statSync(path.join(outDir, "long.mp4")).size / 1e6).toFixed(1)} Mo`);
 }
+// 1 bis. Remplacement d'un épisode entier déjà programmé ({ id, publishAt, short2At, replaceAll: { long: "<ancien videoId>" } }) :
+//    les anciennes vidéos sortent du journal (gardées dans `replaced`), les étapes 2 et 2 bis envoient les nouvelles,
+//    et les anciennes ne sont supprimées (étape 4) qu'une fois les trois nouvelles en ligne.
+for (const { id, replaceAll } of queue) {
+  if (!replaceAll || args["dry-run"]) continue;
+  const all = published();
+  const e = all.find((x) => x.episodeId === id);
+  if (e?.long?.videoId === replaceAll.long && !e.replaced) {
+    e.replaced = { long: e.long, short: e.short ?? null, short2: e.short2 ?? null };
+    delete e.long; delete e.short; delete e.short2;
+    writeJson(logFile, all);
+    log.info(`${id} : remplacement demandé, anciennes vidéos mises de côté`);
+  }
+}
 // 2. Les longs d'abord (miniature, sous-titres), puis les Shorts : si le quota YouTube s'arrête, les longs sont passés.
 let failed = false;
 for (const { id, publishAt } of queue) {
@@ -84,5 +98,22 @@ for (const { id, publishAt, replaceShort } of queue) {
     try { await deleteVideo(replaceShort); e.replacedShort.deleted = true; writeJson(logFile, all); log.info(`${id} : ancien Short ${replaceShort} supprimé`); }
     catch (err) { failed = true; log.warn(String(err.message)); }
   }
+}
+// 4. Fin du remplacement d'un épisode entier : suppression des anciennes vidéos, seulement si les nouvelles sont toutes là.
+for (const { id, short2At, replaceAll } of queue) {
+  if (!replaceAll || args["dry-run"]) continue;
+  const all = published();
+  const e = all.find((x) => x.episodeId === id);
+  if (!e?.replaced || e.replaced.deleted) continue;
+  if (!(e.long?.videoId && e.short?.videoId && (!short2At || e.short2?.videoId))) { failed = true; log.warn(`${id} : remplacement incomplet, les anciennes vidéos restent programmées`); continue; }
+  let ok = true;
+  for (const k of ["long", "short", "short2"]) {
+    const old = e.replaced[k]?.videoId;
+    if (!old || old === e[k]?.videoId || e.replaced[k].deleted) continue;
+    try { await deleteVideo(old); e.replaced[k].deleted = true; log.info(`${id} : ancien ${k} ${old} supprimé`); }
+    catch (err) { ok = false; failed = true; log.warn(String(err.message)); }
+  }
+  if (ok) e.replaced.deleted = true;
+  writeJson(logFile, all);
 }
 process.exit(failed ? 1 : 0);

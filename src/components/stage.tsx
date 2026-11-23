@@ -940,16 +940,16 @@ export const OvenDoor: React.FC<{ mode: string; local: number; width?: number }>
       </g>
       {mode === "trim" && (
         <>
-          {label(400, 40, "Screws out, trim off", 46, C.ink, "middle")}
+          {label(400, 548, "Screws out, trim off", 44, C.ink, "middle")}
           {label(590, 150, "Top trim", 40, C.coral)}
         </>
       )}
       {mode === "slide" && (
         <>
           <path d="M400 150 V60" stroke={C.coral} strokeWidth={8} strokeLinecap="round" strokeDasharray="16 12" strokeDashoffset={local * 2} />
-          {label(590, 250, "By the edges,", 40, C.coral)}
-          {label(590, 294, "both hands", 40, C.coral)}
-          {label(210, 500, "Never force glass", 40, C.teal, "end")}
+          {label(575, 250, "By the edges,", 40, C.coral)}
+          {label(575, 294, "both hands", 40, C.coral)}
+          {label(400, 548, "Never force glass", 42, C.teal, "middle")}
         </>
       )}
       {order && (

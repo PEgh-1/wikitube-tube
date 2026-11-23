@@ -471,7 +471,7 @@
           "on": "heavier",
           "kind": "avoid",
           "title": "Avoid",
-          "text": "The door is heavier than it looks: ask for help.",
+          "text": "Lifting the door alone: it is heavier than it looks.",
           "dur": 4.4
         }
       ],
@@ -524,7 +524,7 @@
           "on": "force",
           "kind": "avoid",
           "title": "Avoid",
-          "text": "Never force glass. If it sticks, check your manual.",
+          "text": "Forcing the glass: if it sticks, check your manual.",
           "dur": 4.4
         },
         {
@@ -532,7 +532,7 @@
           "on": "cracked",
           "kind": "avoid",
           "title": "Avoid",
-          "text": "A cracked pane must not be reused.",
+          "text": "Reusing a cracked pane.",
           "dur": 4.4
         }
       ],
@@ -661,7 +661,7 @@
           "on": "tension",
           "kind": "avoid",
           "title": "Avoid",
-          "text": "Hinge springs are under tension: if the door snaps back, stop.",
+          "text": "Forcing a door that snaps back: hinge springs are under tension.",
           "dur": 4.4
         },
         {
@@ -669,7 +669,7 @@
           "on": "gas",
           "kind": "avoid",
           "title": "Avoid",
-          "text": "Smell gas? Leave the house and call from outside.",
+          "text": "Staying inside if you smell gas: leave, then call.",
           "dur": 4.4
         }
       ],
@@ -699,7 +699,7 @@
           "on": "seal",
           "kind": "avoid",
           "title": "Avoid",
-          "text": "Don't rub the rubber seal: cleaners can damage it.",
+          "text": "Rubbing the rubber seal: cleaners can damage it.",
           "dur": 4.4
         }
       ],

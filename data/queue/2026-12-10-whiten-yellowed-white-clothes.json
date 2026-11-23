@@ -4,7 +4,7 @@
   "date": "2026-12-10",
   "slug": "whiten-yellowed-white-clothes",
   "category": "Home",
-  "title": "How to Whiten Yellowed White Clothes (No Harsh Bleach)",
+  "title": "How to Whiten Yellowed White Clothes",
   "hook": "Your favorite white shirt has turned yellow, especially under the arms, and washing doesn't help. Don't throw it away. Seven steps bring white clothes back to bright white, without chlorine bleach, for a few dollars. Stay for step six: it's free, and it whitens.",
   "hookWords": [
     "Don't throw it away",
@@ -138,7 +138,7 @@
   },
   "outro": "That's how you whiten yellowed white clothes without harsh bleach. If your shirts are bright again, subscribe to WikiTube, because we publish a new how-to every single day. Tell us in the comments which item you rescued, and what you would like us to explain next. See you tomorrow. Share this with someone whose white shirt has seen better days.",
   "metadata": {
-    "title": "How to Whiten Yellowed White Clothes (No Harsh Bleach)",
+    "title": "How to Whiten Yellowed White Clothes (Don't Throw That Shirt Away)",
     "description": "Yellow stains on your white clothes? In this step-by-step video you'll learn how to whiten yellowed white clothes without harsh chlorine bleach: check the label and sort, pretreat underarm stains with dish soap and baking soda, soak with baking soda, try an oxygen booster soak, wash on a warm cycle, dry in the sun, and prevent yellowing in the future. Safe for cotton and polyester whites.\n\nYou'll need: baking soda, white vinegar, oxygen booster powder, liquid dish soap, a large bucket or sink.\n\nWikiTube publishes a new step-by-step how-to video every day. Subscribe so you don't miss the next one.",
     "tags": [
       "how to whiten yellowed clothes",
@@ -211,5 +211,28 @@
       }
     ],
     "cta": "Full guide on the channel."
+  },
+  "short2": {
+    "kind": "tip",
+    "title": "The free whitener for yellowed white clothes #shorts",
+    "description": "Sunlight is a natural whitener: after washing, dry yellowed whites in direct sun, and keep them out of the dryer until the stain is gone. Full 7-step guide on the channel. #laundry #cleaninghacks #howto",
+    "headline": "Sun-dry your whites",
+    "hook": "Sunlight is a free, natural whitener for yellowed clothes.",
+    "shot": "short2-hook.jpg",
+    "beats": [
+      {
+        "label": "Why it works",
+        "title": "UV fades the yellow",
+        "narration": "The UV light helps fade yellow tones in cotton and linen.",
+        "shot": "6-3"
+      },
+      {
+        "label": "Do this",
+        "title": "Direct sun, not the dryer",
+        "narration": "Hang your clothes in direct sun for a couple of hours, and avoid the dryer until the stain is gone.",
+        "shot": "6-2"
+      }
+    ],
+    "cta": "The full seven-step guide is on the channel."
   }
 }

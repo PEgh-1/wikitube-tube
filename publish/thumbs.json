@@ -146,5 +146,59 @@
   ],
   "badge": "JUST A SCREWDRIVER",
   "mascot": "panic"
+ },
+ "2026-12-12-clean-dryer-vent": {
+  "photo": "thumbs/dryer.jpg",
+  "position": "50% 50%",
+  "zoom": 1.1,
+  "lines": [
+   {
+    "text": "CLOGGED",
+    "hi": true,
+    "size": 132
+   },
+   {
+    "text": "DRYER VENT?",
+    "size": 104
+   }
+  ],
+  "badge": "FIRE RISK: CLEAR THE LINT",
+  "mascot": "panic"
+ },
+ "2026-12-10-whiten-yellowed-white-clothes": {
+  "photo": "thumbs/whiten.jpg",
+  "position": "50% 50%",
+  "zoom": 1.1,
+  "lines": [
+   {
+    "text": "YELLOWED",
+    "hi": true,
+    "size": 124
+   },
+   {
+    "text": "WHITES?",
+    "size": 136
+   }
+  ],
+  "badge": "NO CHLORINE BLEACH",
+  "mascot": "nose"
+ },
+ "2026-12-05-remove-grease-kitchen-cabinets": {
+  "photo": "thumbs/cabinets.jpg",
+  "position": "50% 50%",
+  "zoom": 1.1,
+  "lines": [
+   {
+    "text": "STICKY",
+    "hi": true,
+    "size": 140
+   },
+   {
+    "text": "CABINETS?",
+    "size": 116
+   }
+  ],
+  "badge": "DON'T SCRUB",
+  "mascot": "panic"
  }
 }

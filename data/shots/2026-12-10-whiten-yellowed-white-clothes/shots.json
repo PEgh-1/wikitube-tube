@@ -1,0 +1,736 @@
+{
+  "episodeId": "2026-12-10-whiten-yellowed-white-clothes",
+  "version": 3,
+  "source": "gemini-web (navigateur, sans API)",
+  "style": "Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+  "hero": {
+    "prompt": "Two hands holding up a crisp, bright white cotton shirt by the shoulders, perfectly white under the arms and at the collar, a neat stack of bright white folded clothes on the countertop beside it, front view. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+    "file": "hero.jpg"
+  },
+  "youneed": {
+    "prompt": "Flat lay photographed from directly above on a light wood countertop, items neatly arranged with clear space between them: a small open glass jar of white baking soda powder, a clear glass bottle of white vinegar with no label, a plain white tub of white oxygen booster powder with a measuring scoop and no label, a small clear bottle of green liquid dish soap with no label, and a large empty white plastic bucket. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+    "file": "youneed.jpg",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  "mistakesSubtitle": "that keep whites yellow",
+  "mistakes": [
+    {
+      "prompt": "A white cotton shirt with clearly yellowed underarms lying on the countertop in the foreground, behind it two hands holding a plain white unlabeled bleach jug and a plain unlabeled spray bottle of cleaner tilted over the same bucket, about to mix them. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "mistake-1.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "prompt": "A hand pouring far too much blue liquid detergent from an unlabeled bottle into the detergent drawer of a washing machine, the compartment overflowing and dripping, close-up. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "mistake-2.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "prompt": "A hand pushing a white shirt with a clearly visible yellow underarm stain into the open drum of a white tumble dryer, close-up from the side. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "mistake-3.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ]
+    }
+  ],
+  "shots": {
+    "step-1": [
+      {
+        "text": "Step one. Read the care label on each item.",
+        "prompt": "Close-up of fingers holding the small blank white care label sewn inside the collar of a white cotton shirt, the label turned toward the light. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-1.jpg"
+      },
+      {
+        "text": "Find out the fabric and the highest water temperature it can take.",
+        "prompt": "Two hands rubbing the fabric of a white shirt between thumb and fingers to feel it, a steaming white utility sink tap running in the background, side view. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-2.jpg"
+      },
+      {
+        "text": "Cotton and polyester blends can usually handle hot water, while silk, wool and delicate fabrics need special care, so skip those.",
+        "prompt": "Seen from above on the countertop: a pile of white cotton T-shirts on the left, and on the right a hand moving a white silk blouse and a white wool sweater aside, away from the pile. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-3.jpg"
+      },
+      {
+        "text": "Separate your whites by fabric, and keep colors out of the soak.",
+        "prompt": "Hands sorting white laundry into two neat piles on the countertop, a separate laundry basket of colored clothes pushed to the far side, wide view. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-4.jpg"
+      },
+      {
+        "text": "Check every piece for dyes, prints or metal buttons that might react.",
+        "prompt": "Close-up of a fingertip pointing at a metal button on a white shirt that also has a small colored printed pattern on the chest. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-5.jpg"
+      },
+      {
+        "text": "This simple sorting step prevents most laundry accidents.",
+        "prompt": "Three neatly sorted piles of white clothes lined up on the countertop in a calm tidy laundry room, hands resting beside them, wide view. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-6.jpg"
+      },
+      {
+        "text": "Do this before you start, and you'll avoid damage, since not every white item will handle hot water or strong soaks.",
+        "prompt": "A hand lifting one white cotton shirt from a sorted pile, an empty white bucket waiting next to the utility sink in the background, three-quarter view. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-7.jpg"
+      }
+    ],
+    "step-2": [
+      {
+        "text": "Step two. Lay the stained area flat, and rub in a few drops of liquid dish soap, or a paste of baking soda and a little water.",
+        "prompt": "A white shirt laid flat on the countertop with a yellow underarm stain facing up, a hand squeezing a few drops of green dish soap from an unlabeled bottle onto the stain, a small bowl of white baking soda paste beside it, from above. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-1.jpg"
+      },
+      {
+        "text": "Work it gently into underarm stains and collars with an old toothbrush, then let it sit for fifteen to thirty minutes.",
+        "prompt": "Close-up of a hand gently scrubbing the yellowed underarm area of a white shirt with an old toothbrush, light soapy foam on the fabric. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-2.jpg"
+      },
+      {
+        "text": "Dish soap breaks down the body oils that trap the yellow color, while the baking soda lifts discoloration.",
+        "prompt": "Extreme close-up of soapy foam and white baking soda paste sitting on a yellow stain on white cotton fabric, the weave of the fabric visible. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-3.jpg"
+      },
+      {
+        "text": "Don't use hot water directly on fresh sweat stains, since heat can set some of them.",
+        "prompt": "A hand holding a white shirt with a damp sweat stain away from a steaming hot water tap at the white utility sink, the shirt kept out of the water, side view. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-4.jpg"
+      },
+      {
+        "text": "Old stains might need a second round of pretreatment, so be patient and repeat if needed.",
+        "prompt": "A fingertip spreading a second layer of white baking soda paste on an old yellow collar stain of a white shirt laid flat, the toothbrush resting beside it, close-up. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-5.jpg"
+      }
+    ],
+    "step-3": [
+      {
+        "text": "Step three. Fill a basin with hot water, as hot as the care label allows.",
+        "prompt": "A large white plastic basin in the utility sink being filled with steaming hot water from the tap, a hand testing the stream, side view. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-1.jpg"
+      },
+      {
+        "text": "Add half a cup of baking soda, and stir until it dissolves.",
+        "prompt": "A hand pouring a measuring cup of white baking soda into a basin of hot water while the other hand stirs with a wooden spoon, from above. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-2.jpg"
+      },
+      {
+        "text": "Add the clothes, and let them soak for one to two hours.",
+        "prompt": "Two hands pushing white shirts down into a basin of slightly cloudy hot water until they are covered, from above. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-3.jpg"
+      },
+      {
+        "text": "Baking soda softens the water and lifts stains and odors.",
+        "prompt": "Close-up of white cotton fabric floating just under the surface of slightly cloudy water in a white basin, calm water, soft light. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-4.jpg"
+      },
+      {
+        "text": "Afterward, you can rinse and add a cup of white vinegar to a fresh rinse bath, for a few minutes, which removes soap residue.",
+        "prompt": "A hand pouring clear white vinegar from an unlabeled glass bottle into a second basin of clean water, rinsed white shirts waiting in the sink beside it. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-5.jpg"
+      },
+      {
+        "text": "Don't combine vinegar and the oxygen booster in the same soak.",
+        "prompt": "A clear bottle of white vinegar and a plain white tub of oxygen booster powder standing far apart at opposite ends of the countertop, a hand pushing the tub further away, a soaking basin in the middle. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-6.jpg"
+      },
+      {
+        "text": "Keep the basin covered if there are children or pets around, and always rinse the clothes well afterward.",
+        "prompt": "A basin of soaking white clothes on the countertop covered with a large upside-down tray, a hand pressing the cover in place, wide view. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-7.jpg"
+      }
+    ],
+    "step-4": [
+      {
+        "text": "Step four. For stubborn yellowing, dissolve oxygen booster powder in hot water, following the instructions on the package.",
+        "prompt": "A hand tipping a scoop of white oxygen booster powder into a bucket of steaming hot water, the plain white unlabeled tub held in the other hand with its back turned to the camera. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-1.jpg"
+      },
+      {
+        "text": "A common amount is one scoop per gallon of water.",
+        "prompt": "Close-up of a level measuring scoop of white powder held above a large bucket of clear water, a few grains falling. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-2.jpg"
+      },
+      {
+        "text": "Wear gloves, because it can irritate skin.",
+        "prompt": "Close-up of two hands pulling on yellow rubber household gloves, a bucket of water on the countertop behind them. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-3.jpg"
+      },
+      {
+        "text": "Submerge the clothes completely, and leave them to soak for four to eight hours or overnight, stirring now and then.",
+        "prompt": "Two hands in yellow rubber gloves pressing white shirts fully under the water in a large bucket with a wooden spoon, from above. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-4.jpg"
+      },
+      {
+        "text": "Oxygen boosters release oxygen when dissolved in water, which breaks down stains without the harshness of chlorine bleach.",
+        "prompt": "Close-up of tiny fine bubbles rising around white cotton fabric submerged in clear water in a white bucket. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-5.jpg"
+      },
+      {
+        "text": "Never use it on silk or wool.",
+        "prompt": "A gloved hand setting a white silk blouse and a white wool sweater aside on the countertop, far from the soaking bucket, side view. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-6.jpg"
+      },
+      {
+        "text": "Never put the oxygen booster in a closed container, because it releases gas as it works.",
+        "prompt": "A gloved hand placing a screw-top jar lid upside down on the countertop, leaving a plastic container of soaking solution open and uncapped beside it, close-up. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-7.jpg"
+      },
+      {
+        "text": "A loose lid is enough.",
+        "prompt": "A white bucket of soaking white clothes with a lid resting loosely and slightly askew on top, a visible gap on one side, three-quarter view. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-8.jpg"
+      }
+    ],
+    "step-5": [
+      {
+        "text": "Step five. Wring out the clothes, and run them through the washing machine on the warmest cycle that the label allows.",
+        "prompt": "Two hands gently wringing a wet white shirt over the utility sink, the open door of the white front-loading washing machine in the background. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-1.jpg"
+      },
+      {
+        "text": "Use your regular detergent, but don't overdo it.",
+        "prompt": "A hand pouring a small measured amount of liquid detergent from a plain cap into the detergent drawer of the washing machine, the cap only partly filled, close-up. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-2.jpg"
+      },
+      {
+        "text": "Too much detergent leaves residue that makes whites look dull.",
+        "prompt": "Close-up of a dull, greyish white T-shirt held next to a bright white one for comparison, the dull one looking slightly filmy. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-3.jpg"
+      },
+      {
+        "text": "Add half a cup of baking soda directly to the drum to boost cleaning.",
+        "prompt": "A hand sprinkling a measuring cup of white baking soda directly onto white clothes inside the open drum of a front-loading washing machine. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-4.jpg"
+      },
+      {
+        "text": "Wash whites only, and don't overload the machine, so the water can circulate.",
+        "prompt": "The open drum of a front-loading washing machine loosely filled with white clothes only, clear empty space left at the top of the drum, a hand showing the free space, front view. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-5.jpg"
+      },
+      {
+        "text": "Before drying, check the stained area in good light.",
+        "prompt": "Two hands holding a damp white shirt up near a bright window, inspecting the underarm area in the daylight, the shirt still wet. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-6.jpg"
+      },
+      {
+        "text": "Use the sink or a bucket to rinse any soaked items first, and wring them out gently to avoid stretching the fabric.",
+        "prompt": "Two hands rinsing a soaked white shirt in a white bucket of clean water in the utility sink and squeezing it gently without twisting. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-7.jpg"
+      }
+    ],
+    "step-6": [
+      {
+        "text": "Step six. Sunlight is a natural whitener.",
+        "prompt": "Bright white shirts hanging on a clothesline in strong sunshine against a clear blue sky, outdoors in a garden, low-angle view. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-1.jpg"
+      },
+      {
+        "text": "Hang your clothes outside, or lay them flat on a clean surface, in direct sun.",
+        "prompt": "Outdoors in a sunny garden, two hands pegging a damp white shirt onto a clothesline with wooden clothespins in direct sun, side view. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-2.jpg"
+      },
+      {
+        "text": "The UV light helps fade yellow tones in cotton and linen.",
+        "prompt": "Close-up of white cotton and linen fabric on a clothesline lit by strong direct sunlight, sun flare at the edge of the frame, outdoors. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-3.jpg"
+      },
+      {
+        "text": "Avoid the dryer until you're sure the stain is gone, because heat can lock in any remaining color.",
+        "prompt": "A hand held flat against the closed round door of a white tumble dryer in a stop gesture, the other hand holding a damp white shirt with a faint yellow mark, front view. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-4.jpg"
+      },
+      {
+        "text": "If you can't dry outside, hang them near a bright window.",
+        "prompt": "A damp white shirt on a hanger hooked onto a curtain rail in front of a bright sunny window indoors, a hand adjusting the hanger. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-5.jpg"
+      },
+      {
+        "text": "If the yellowing is still visible, repeat the soak, as old stains sometimes need two rounds.",
+        "prompt": "A hand lowering a white shirt with a faint remaining yellow underarm mark back into a basin of soaking water, from above. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-6.jpg"
+      },
+      {
+        "text": "Direct sun for a couple of hours is usually enough.",
+        "prompt": "White shirts drying on a clothesline in a sunny garden, long sharp shadows on the grass below, wide view. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-7.jpg"
+      },
+      {
+        "text": "Bring delicate items inside before they get too dry and stiff.",
+        "prompt": "Two hands unpegging a delicate thin white cotton blouse from a sunny clothesline and folding it into a laundry basket, outdoors. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-8.jpg"
+      }
+    ],
+    "step-7": [
+      {
+        "text": "Step seven. Prevent yellowing in the future.",
+        "prompt": "A neat stack of bright white folded shirts on the countertop, a hand resting on top of the stack, tidy laundry room, three-quarter view. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-1.jpg"
+      },
+      {
+        "text": "Wash whites separately, and wash sweaty items promptly.",
+        "prompt": "A hand dropping a white sports T-shirt straight into the open drum of the washing machine that contains only white clothes, front view. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-2.jpg"
+      },
+      {
+        "text": "Use the right amount of detergent, and add an extra rinse if you have hard water.",
+        "prompt": "A hand turning the program dial of the washing machine, a small cap with a modest amount of liquid detergent standing on top of the machine, close-up. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-3.jpg"
+      },
+      {
+        "text": "Skip fabric softener on whites, as it can leave a film.",
+        "prompt": "A hand pushing a plain pink unlabeled bottle of fabric softener to the back of a shelf, a pile of white laundry in the foreground. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-4.jpg"
+      },
+      {
+        "text": "Choose a deodorant that doesn't leave a heavy residue, and let it dry before dressing.",
+        "prompt": "A plain white unlabeled deodorant stick standing on a bathroom shelf next to a clean folded white T-shirt, a hand reaching for the T-shirt. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-5.jpg"
+      },
+      {
+        "text": "Store clothes clean and fully dry, away from direct light and cardboard boxes, which can cause yellowing.",
+        "prompt": "A hand placing clean folded white clothes on a wooden shelf inside a closed dark wardrobe, an empty cardboard box set aside on the floor outside it. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-6.jpg"
+      },
+      {
+        "text": "A monthly maintenance wash with baking soda keeps whites bright and stops yellowing from taking hold.",
+        "prompt": "A hand pouring a measuring cup of white baking soda into the drum of the washing machine filled with white towels and shirts, from the side. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-7.jpg"
+      }
+    ],
+    "step-8": [
+      {
+        "text": "If the yellow is still there, think about the cause.",
+        "prompt": "Two hands holding a white shirt flat on the countertop and looking closely at a remaining yellow area on the fabric, from above. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-8-1.jpg"
+      },
+      {
+        "text": "Sweat and body oil stains respond to soaking, but a repeat soak is often needed, so do a second round.",
+        "prompt": "Hands lowering a white shirt with yellowed underarms into a basin of soaking water for a second time, a wooden spoon resting on the rim. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-8-2.jpg"
+      },
+      {
+        "text": "Orange or brown spots may be rust, which needs a rust remover made for fabric, used as the label says.",
+        "prompt": "Close-up of a fingertip pointing at small orange-brown rust spots on white cotton fabric, a small plain unlabeled bottle of fabric rust remover beside it. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-8-3.jpg"
+      },
+      {
+        "text": "Test any product on a hidden seam first.",
+        "prompt": "Close-up of a cotton swab dabbing a drop of clear liquid on the inside seam of a white shirt turned inside out. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-8-4.jpg"
+      },
+      {
+        "text": "Very old yellowing in aged fabric can be permanent, and more scrubbing will only wear the fibers.",
+        "prompt": "An old, evenly yellowed vintage white linen cloth with thin worn fibers lying on the countertop, a hand laying a brush down beside it and leaving it alone. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-8-5.jpg"
+      }
+    ],
+    "step-9": [
+      {
+        "text": "Some white items are better left to a professional.",
+        "prompt": "A delicate white garment on a hanger inside a clear garment bag, a hand holding the hanger, the counter of a dry cleaning shop in the background. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-9-1.jpg"
+      },
+      {
+        "text": "Silk, wool, lace and anything labeled dry clean only can be ruined by a hot soak.",
+        "prompt": "Flat lay from above: a white silk blouse, a white wool sweater and a piece of white lace arranged on the countertop, a hand keeping them well away from a steaming basin at the edge of the frame. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-9-2.jpg"
+      },
+      {
+        "text": "The same goes for wedding dresses, christening gowns and family heirlooms, where a mistake cannot be undone.",
+        "prompt": "A white wedding dress and a small white christening gown hanging side by side on padded hangers in a bright room, a hand gently touching the lace. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-9-3.jpg"
+      },
+      {
+        "text": "Tell the cleaner what the stain is and how old it is.",
+        "prompt": "A hand pointing at a yellow stain on a white blouse laid on the counter of a dry cleaning shop, the hands of a dry cleaner in a white coat on the other side of the counter, no faces visible. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-9-4.jpg"
+      },
+      {
+        "text": "A good cleaner can often lift a stain that has resisted home care, and will say honestly if it cannot.",
+        "prompt": "A dry cleaner's hands in a white coat handing a spotless white blouse on a hanger across the shop counter to a customer's hands, no faces visible. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-9-5.jpg"
+      }
+    ],
+    "step-10": [
+      {
+        "text": "Many yellow underarm stains form when sweat reacts with aluminum compounds in antiperspirant.",
+        "prompt": "Close-up of the yellowed underarm area of a white shirt laid flat, a plain white unlabeled antiperspirant stick standing beside it. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-10-1.jpg"
+      },
+      {
+        "text": "A thin undershirt takes the sweat in place of your white shirt.",
+        "prompt": "A hand laying a thin white undershirt flat on top of a white dress shirt on the countertop, both neatly smoothed, from above. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-10-2.jpg"
+      },
+      {
+        "text": "Rinse fresh stains in cold water as soon as you can.",
+        "prompt": "A hand holding the underarm area of a white shirt under a stream of cold water from the tap of the white utility sink, no steam, close-up. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-10-3.jpg"
+      },
+      {
+        "text": "Wash white shirts after one or two wears, because body oils build up and darken slowly.",
+        "prompt": "A hand dropping a worn white shirt into a white laundry basket next to the washing machine, side view. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-10-4.jpg"
+      },
+      {
+        "text": "Do not overload the machine, so dirt can rinse out.",
+        "prompt": "The drum of a front-loading washing machine filled only halfway with white shirts, a hand taking one extra shirt back out to leave room, front view. Photorealistic photograph for a practical home laundry how-to video. Bright, tidy laundry room with a white front-loading washing machine and a white utility sink, light wood countertop and white walls, soft daylight. Adult hands, rolled-up sleeves of a light blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-10-5.jpg"
+      }
+    ]
+  },
+  "extras": {
+    "intro": {
+      "pose": "idea",
+      "diagram": "whiten-soak",
+      "title": "Why whites turn yellow",
+      "mode": "buildup",
+      "chips": [
+        {
+          "on": "sweat",
+          "label": "Sweat and deodorant",
+          "sub": "build up in the fibres",
+          "mode": "buildup"
+        },
+        {
+          "on": "residue",
+          "label": "Detergent residue",
+          "sub": "builds up too",
+          "mode": "buildup"
+        },
+        {
+          "on": "Washing",
+          "label": "Washing isn't enough",
+          "sub": "the buildup stays",
+          "mode": "buildup"
+        },
+        {
+          "on": "soak",
+          "label": "A soak removes it",
+          "sub": "that's the whole method",
+          "mode": "soak"
+        },
+        {
+          "on": "mix",
+          "label": "Never mix products",
+          "sub": "the golden rule",
+          "mode": "soak"
+        }
+      ],
+      "gags": []
+    },
+    "step-1": {
+      "ticks": [
+        {
+          "shot": 1,
+          "on": "label",
+          "label": "Care label"
+        }
+      ],
+      "facts": [],
+      "cards": [
+        {
+          "shot": 3,
+          "on": "silk",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Hot soaks on silk, wool or delicate fabrics.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [
+        {
+          "shot": 6,
+          "on": "accidents",
+          "pose": "thumbs",
+          "side": "left",
+          "dur": 2.8
+        }
+      ],
+      "diagrams": []
+    },
+    "step-2": {
+      "ticks": [
+        {
+          "shot": 1,
+          "on": "soap",
+          "label": "Dish soap"
+        }
+      ],
+      "facts": [
+        {
+          "shot": 2,
+          "on": "fifteen",
+          "kind": "timer",
+          "big": "15–30 min",
+          "small": "let it sit on the stain",
+          "dur": 4.0
+        }
+      ],
+      "cards": [
+        {
+          "shot": 4,
+          "on": "hot",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Hot water on fresh sweat stains: heat can set them.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [
+        {
+          "shot": 5,
+          "on": "patient",
+          "pose": "watch",
+          "side": "left",
+          "dur": 2.8
+        }
+      ],
+      "diagrams": []
+    },
+    "step-3": {
+      "ticks": [],
+      "facts": [
+        {
+          "shot": 2,
+          "on": "half",
+          "kind": "measure",
+          "big": "½ cup",
+          "small": "of baking soda, stirred in",
+          "dur": 4.0
+        }
+      ],
+      "cards": [
+        {
+          "shot": 6,
+          "on": "combine",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Vinegar and oxygen booster in the same soak.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": [
+        {
+          "shot": 4,
+          "on": "lifts",
+          "name": "whiten-soak",
+          "mode": "soak",
+          "title": "What the soak does",
+          "dur": 4.8
+        }
+      ]
+    },
+    "step-4": {
+      "ticks": [
+        {
+          "shot": 3,
+          "on": "gloves",
+          "label": "Gloves"
+        }
+      ],
+      "facts": [
+        {
+          "shot": 4,
+          "on": "four",
+          "kind": "timer",
+          "big": "4–8 hours",
+          "small": "or overnight, stir now and then",
+          "dur": 4.0
+        }
+      ],
+      "cards": [
+        {
+          "shot": 7,
+          "on": "closed",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "A closed container: the booster releases gas.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": [
+        {
+          "shot": 5,
+          "on": "breaks",
+          "name": "whiten-soak",
+          "mode": "oxygen",
+          "title": "Oxygen does the work",
+          "dur": 4.8
+        }
+      ]
+    },
+    "step-5": {
+      "ticks": [],
+      "facts": [
+        {
+          "shot": 4,
+          "on": "half",
+          "kind": "measure",
+          "big": "½ cup",
+          "small": "baking soda, straight in the drum",
+          "dur": 4.0
+        }
+      ],
+      "cards": [
+        {
+          "shot": 2,
+          "on": "detergent",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Too much detergent: the residue dulls whites.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": []
+    },
+    "step-6": {
+      "ticks": [],
+      "facts": [],
+      "cards": [
+        {
+          "shot": 4,
+          "on": "heat",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "The dryer too soon: heat can lock in the color.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [
+        {
+          "shot": 1,
+          "on": "Sunlight",
+          "pose": "party",
+          "side": "left",
+          "dur": 2.8
+        }
+      ],
+      "diagrams": [
+        {
+          "shot": 3,
+          "on": "UV",
+          "name": "whiten-soak",
+          "mode": "sun",
+          "title": "Sunlight fades the yellow",
+          "dur": 4.8
+        }
+      ]
+    },
+    "step-7": {
+      "ticks": [],
+      "facts": [],
+      "cards": [
+        {
+          "shot": 4,
+          "on": "softener",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Fabric softener on whites: it can leave a film.",
+          "dur": 4.4
+        },
+        {
+          "shot": 6,
+          "on": "cardboard",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Storing whites in cardboard boxes or direct light.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [
+        {
+          "shot": 7,
+          "on": "bright",
+          "pose": "thumbs",
+          "side": "left",
+          "dur": 2.8
+        }
+      ],
+      "diagrams": []
+    },
+    "step-8": {
+      "ticks": [],
+      "facts": [],
+      "cards": [
+        {
+          "shot": 3,
+          "on": "rust",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "Orange or brown spots may be rust: use a rust remover.",
+          "dur": 4.4
+        },
+        {
+          "shot": 5,
+          "on": "scrubbing",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "More scrubbing on very old yellowing: it wears the fibers.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": []
+    },
+    "step-9": {
+      "ticks": [],
+      "facts": [],
+      "cards": [
+        {
+          "shot": 2,
+          "on": "ruined",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "A hot soak on silk, wool, lace or dry-clean-only items.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": []
+    },
+    "step-10": {
+      "ticks": [
+        {
+          "shot": 3,
+          "on": "cold",
+          "label": "Cold water"
+        }
+      ],
+      "facts": [],
+      "cards": [
+        {
+          "shot": 1,
+          "on": "sweat",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "Sweat reacts with aluminum compounds in antiperspirant.",
+          "dur": 4.4
+        },
+        {
+          "shot": 5,
+          "on": "overload",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "An overloaded machine: dirt can't rinse out.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": []
+    }
+  },
+  "short": [
+    "2-1",
+    "3-3",
+    "6-2"
+  ]
+}

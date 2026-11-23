@@ -1,0 +1,99 @@
+{
+ "extras": {
+  "intro": {
+   "pose": "idea",
+   "diagram": "dryer-vent",
+   "title": "Where the lint goes",
+   "mode": "lint",
+   "chips": [
+    {"on": "trap", "label": "Lint slips past the trap", "sub": "a little with every load", "mode": "lint"},
+    {"on": "duct", "label": "It builds up in the duct", "sub": "slowly, load after load", "mode": "lint"},
+    {"on": "flammable", "label": "Lint is highly flammable", "sub": "a blocked vent traps heat", "mode": "heat"},
+    {"on": "unplug", "label": "Always unplug first", "sub": "before you start", "mode": "heat"},
+    {"on": "professional", "label": "Gas dryer? Call a pro", "sub": "or if you're not comfortable", "mode": "heat"}
+   ],
+   "gags": []
+  },
+  "step-1": {
+   "ticks": [{"shot": 5, "on": "gloves", "label": "Gloves"}],
+   "facts": [{"shot": 4, "on": "thirty", "kind": "timer", "big": "30 min", "small": "at least, to let it cool", "dur": 4.0}],
+   "cards": [{"shot": 2, "on": "disconnect", "kind": "avoid", "title": "Avoid", "text": "Disconnecting the gas line yourself.", "dur": 4.4}],
+   "gags": [],
+   "diagrams": []
+  },
+  "step-2": {
+   "ticks": [{"shot": 2, "on": "towel", "label": "Towel or cardboard"}],
+   "facts": [],
+   "cards": [{"shot": 4, "on": "crush", "kind": "avoid", "title": "Avoid", "text": "Stretching or crushing the hose and the cord.", "dur": 4.4}],
+   "gags": [],
+   "diagrams": []
+  },
+  "step-3": {
+   "ticks": [{"shot": 3, "on": "screwdriver", "label": "Screwdriver"}],
+   "facts": [],
+   "cards": [],
+   "gags": [{"shot": 5, "on": "packed", "pose": "panic", "side": "left", "dur": 2.8}],
+   "diagrams": [{"shot": 1, "on": "duct", "name": "dryer-vent", "mode": "lint", "title": "Where the lint builds up", "dur": 4.8}]
+  },
+  "step-4": {
+   "ticks": [{"shot": 4, "on": "vacuum", "label": "Vacuum hose"}],
+   "facts": [{"shot": 8, "on": "thirty", "kind": "measure", "big": "30 ft / 10 m", "small": "or several bends: consider a pro", "dur": 4.0}],
+   "cards": [],
+   "gags": [],
+   "diagrams": [{"shot": 2, "on": "clockwise", "name": "dryer-vent", "mode": "brush", "title": "Brush the duct clean", "dur": 4.8}]
+  },
+  "step-5": {
+   "ticks": [],
+   "facts": [],
+   "cards": [
+    {"shot": 4, "on": "screen", "kind": "avoid", "title": "Avoid", "text": "A screen or mesh on the opening: it clogs with lint.", "dur": 4.4},
+    {"shot": 7, "on": "weak", "kind": "why", "title": "Why it works", "text": "Weak airflow means there is still a blockage.", "dur": 3.6}
+   ],
+   "gags": [],
+   "diagrams": []
+  },
+  "step-6": {
+   "ticks": [],
+   "facts": [],
+   "cards": [{"shot": 2, "on": "softener", "kind": "why", "title": "Why it works", "text": "Fabric softener leaves a film that blocks airflow.", "dur": 4.4}],
+   "gags": [{"shot": 6, "on": "burning", "pose": "nose", "side": "left", "dur": 2.8}],
+   "diagrams": []
+  },
+  "step-7": {
+   "ticks": [],
+   "facts": [],
+   "cards": [{"shot": 4, "on": "crushing", "kind": "avoid", "title": "Avoid", "text": "Crushing the duct when you push the dryer back.", "dur": 4.4}],
+   "gags": [{"shot": 5, "on": "strong", "pose": "party", "side": "left", "dur": 2.8}],
+   "diagrams": [{"shot": 3, "on": "short", "name": "dryer-vent", "mode": "flow", "title": "Short, straight, metal", "dur": 4.8}]
+  },
+  "step-8": {
+   "ticks": [],
+   "facts": [],
+   "cards": [
+    {"shot": 4, "on": "film", "kind": "why", "title": "Why it works", "text": "Water that pools: a softener film blocks the mesh.", "dur": 4.4},
+    {"shot": 6, "on": "overload", "kind": "avoid", "title": "Avoid", "text": "Overloading the drum: clothes need room to tumble.", "dur": 4.4}
+   ],
+   "gags": [],
+   "diagrams": []
+  },
+  "step-9": {
+   "ticks": [],
+   "facts": [],
+   "cards": [{"shot": 5, "on": "burning", "kind": "avoid", "title": "Avoid", "text": "Using the dryer if a burning smell returns.", "dur": 4.4}],
+   "gags": [{"shot": 2, "on": "professional", "pose": "plumber", "side": "left", "dur": 2.8}],
+   "diagrams": []
+  },
+  "step-10": {
+   "ticks": [{"shot": 5, "on": "smoke", "label": "Smoke alarm"}],
+   "facts": [],
+   "cards": [
+    {"shot": 3, "on": "asleep", "kind": "avoid", "title": "Avoid", "text": "Running the dryer when you are out or asleep.", "dur": 4.4},
+    {"shot": 4, "on": "gasoline", "kind": "avoid", "title": "Avoid", "text": "Drying items that contain gasoline or cooking oil.", "dur": 4.4}
+   ],
+   "gags": [],
+   "diagrams": []
+  }
+ },
+ "shots": {},
+ "short": ["1-1", "4-2", "5-3"]
+}

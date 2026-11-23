@@ -4,7 +4,7 @@
   "date": "2026-12-05",
   "slug": "remove-grease-kitchen-cabinets",
   "category": "Home",
-  "title": "How to Remove Sticky Grease From Kitchen Cabinets Easily",
+  "title": "Remove Sticky Grease From Your Cabinets",
   "hook": "A sticky, yellowish film on your kitchen cabinets, worst above the stove and around the handles? Don't scrub. Seven steps dissolve it with gentle products, with no damage to the finish. Stay for step four: the waiting does the work for you.",
   "hookWords": [
     "Don't scrub",
@@ -139,7 +139,7 @@
   },
   "outro": "That's how you remove sticky grease from kitchen cabinets. If your cabinets look brighter, subscribe to WikiTube, because we publish a new how-to every single day. Tell us in the comments which cabinet was the stickiest, and what you would like us to explain next. See you tomorrow. Don't forget to give the handles a wipe before you go.",
   "metadata": {
-    "title": "How to Remove Sticky Grease From Kitchen Cabinets Easily",
+    "title": "How to Clean Greasy Kitchen Cabinets the Easy Way (Don't Scrub, Do This Instead)",
     "description": "Sticky, greasy kitchen cabinets? In this step-by-step video you'll learn how to remove sticky grease from kitchen cabinets with no harsh scrubbing: test the finish, dry wipe the dust, mix a gentle dish soap degreaser, let it work, treat thick buildup with baking soda, rinse and dry, and stop the grease from returning. Safe for most sealed or painted wood, laminate and thermofoil cabinets.\n\nYou'll need: warm water and dish soap, baking soda, soft microfiber cloths, an old soft toothbrush, white vinegar (optional).\n\nWikiTube publishes a new step-by-step how-to video every day. Subscribe so you don't miss the next one.",
     "tags": [
       "how to clean greasy kitchen cabinets",
@@ -212,5 +212,28 @@
       }
     ],
     "cta": "Full guide on the channel."
+  },
+  "short2": {
+    "kind": "mistake",
+    "title": "Stop soaking your kitchen cabinets #shorts",
+    "description": "Too much water on wood cabinets can swell, warp or stain them. Keep the cloth damp, not wet, and dry right after. Full 7-step guide to remove sticky grease on the channel. #kitchen #cleaninghacks #howto",
+    "headline": "Soaking the wood",
+    "hook": "Stop cleaning your wood cabinets with a dripping wet cloth.",
+    "shot": "short2-hook.jpg",
+    "beats": [
+      {
+        "label": "Why it fails",
+        "title": "Wood swells and stains",
+        "narration": "Too much water on wood can swell, warp or stain the surface.",
+        "shot": "mistake-1"
+      },
+      {
+        "label": "Do this instead",
+        "title": "Damp, not dripping",
+        "narration": "Wring the cloth out well, so it's damp but not dripping, then immediately dry the cabinets with a dry microfiber cloth.",
+        "shot": "4-1"
+      }
+    ],
+    "cta": "The full seven-step guide is on the channel."
   }
 }

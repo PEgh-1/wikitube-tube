@@ -4,7 +4,7 @@
   "date": "2026-12-12",
   "slug": "clean-dryer-vent",
   "category": "Home",
-  "title": "How to Clean Your Dryer Vent (Step by Step)",
+  "title": "How to Clean Your Dryer Vent",
   "hook": "Clothes need two cycles to dry, and the laundry room feels hot? A clogged dryer vent wastes energy, and it is a real fire risk. Seven steps clear the lint safely, in about an hour. Stay for step four: you won't believe how much lint comes out.",
   "hookWords": [
     "Fire risk",
@@ -62,7 +62,7 @@
     },
     {
       "title": "Clean the outside vent hood",
-      "narration": "Step five. Go outside, and find the vent hood on the wall. Check that the flap opens freely. Remove any lint, leaves, bird nests or debris blocking it, wearing gloves. If you see a screen or mesh covering the opening, remove it, because it clogs with lint and shouldn't be there. Clean the hood with a brush and a damp cloth. Run the dryer for a few seconds, and confirm that air flows out strongly. If it's weak, there is still a blockage. Keep bushes and snow away from the outside vent, since anything covering it will cut airflow right away.",
+      "narration": "Step five. Go outside, and find the vent hood on the wall. Check that the flap opens freely. Remove any lint, leaves, bird nests or debris blocking it, wearing gloves. If you see a screen or mesh covering the opening, remove it, because it clogs with lint and shouldn't be there. Clean the hood with a brush and a damp cloth. Later, once the duct is reconnected, you'll run the dryer and confirm that air flows out strongly here. If it's weak, there is still a blockage. Keep bushes and snow away from the outside vent, since anything covering it will cut airflow right away.",
       "tip": "The flap should swing freely",
       "mistake": "Covering the outlet with a mesh screen",
       "imageQuery": "outside dryer vent hood",
@@ -139,7 +139,7 @@
   },
   "outro": "That's how you clean your dryer vent. If this saved you energy and gave you peace of mind, subscribe to WikiTube, because we publish a new how-to every single day. Tell us in the comments how much lint you found, and what you would like us to explain next. See you tomorrow. And clean your lint trap after every load, as a habit.",
   "metadata": {
-    "title": "How to Clean Your Dryer Vent (Step by Step)",
+    "title": "How to Clean Your Dryer Vent (You Won't Believe How Much Lint Comes Out)",
     "description": "Clothes taking too long to dry? In this step-by-step video you'll learn how to clean your dryer vent safely: unplug the dryer, pull it out carefully, disconnect the duct, clean it with a brush kit and a vacuum, clear the outside vent hood, clean the lint trap, then reconnect with a metal duct and test the airflow. A clogged vent wastes energy and can be a fire hazard, so do it once a year.\n\nYou'll need: a dryer vent brush kit, a vacuum with a hose, a screwdriver, foil tape and gloves, a flashlight.\n\nWikiTube publishes a new step-by-step how-to video every day. Subscribe so you don't miss the next one.",
     "tags": [
       "how to clean dryer vent",
@@ -212,5 +212,28 @@
       }
     ],
     "cta": "Full guide on the channel."
+  },
+  "short2": {
+    "kind": "mistake",
+    "title": "Stop using a foil or plastic dryer duct #shorts",
+    "description": "Foil or plastic dryer ducts and long, bendy runs collect lint and hold heat. Use a metal duct, short and straight. Full 7-step dryer vent guide on the channel. #dryer #homemaintenance #firesafety",
+    "headline": "Foil or plastic duct",
+    "hook": "Stop venting your dryer through a foil or plastic duct.",
+    "shot": "short2-hook.jpg",
+    "beats": [
+      {
+        "label": "Why it fails",
+        "title": "It traps lint and heat",
+        "narration": "Foil or plastic ducts, and long, bendy runs, collect lint and hold heat, and they can catch fire.",
+        "shot": "mistake-2"
+      },
+      {
+        "label": "Do this instead",
+        "title": "Short metal duct",
+        "narration": "Use a rigid or semi-rigid metal duct, and keep it as short and straight as you can.",
+        "shot": "7-3"
+      }
+    ],
+    "cta": "The full seven-step guide is on the channel."
   }
 }

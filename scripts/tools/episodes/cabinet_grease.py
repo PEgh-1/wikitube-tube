@@ -1,0 +1,104 @@
+#!/usr/bin/env python3
+"""Plans de l'épisode « How to Remove Sticky Grease From Kitchen Cabinets ». Annotations dans cabinet_grease.notes.json."""
+import os, sys
+sys.path.insert(0, os.path.dirname(__file__))
+from _plan import build
+from _auto import pair
+ID = "2026-12-05-remove-grease-kitchen-cabinets"
+TAIL = ("Photorealistic photograph for a practical home cleaning how-to video. A bright tidy kitchen with painted sage green wooden cabinets and a stainless steel range hood, "
+        "light wood countertop, soft daylight. Adult hands, rolled-up sleeves of a burgundy red cotton shirt, no face visible. 16:9 landscape format. "
+        "No text, no letters, no numbers, no brand names, no logos, no watermark.")
+HERO = "Spotless matte sage green kitchen cabinet doors above a stove, the paint clean and even, a hand giving one door a last wipe with a yellow microfiber cloth, three-quarter view."
+YOUNEED = ("Flat lay photographed from directly above on a light wood countertop, items neatly arranged with clear space between them: a white bowl of warm water next to a plain unlabeled bottle of dish soap, "
+           "a small glass bowl of white baking soda powder, three folded soft microfiber cloths, an old soft toothbrush, and a clear unlabeled glass bottle of white vinegar.")
+MISTAKES = [
+ "A soaking wet cloth pressed on a sage green wooden cabinet door above the stove, the door covered with a sticky yellowish greasy film around the handle, water running down the door in streams and dripping off the bottom edge, close-up.",
+ "A hand scrubbing hard with a green abrasive scouring pad on a sage green painted cabinet door, dull scratch marks visible in the paint under the light, close-up.",
+ "A hand spraying a plain unlabeled spray bottle of strong cleaner straight onto the front of a sage green painted cabinet door, a pale blotchy patch where the paint has been stripped, close-up.",
+]
+P = {
+ 1: [
+  "Two hands laying a folded light grey towel along a cleared, empty light wood countertop just below the sage green wall cabinets, wide view.",
+  "Four small cabinet door samples leaning side by side on the countertop: varnished natural wood, sage green painted wood, matte white laminate and glossy white thermofoil, a fingertip touching the first one, front view.",
+  "An open cabinet door seen from the inside, a hand dabbing a small damp cloth on the lower inner corner of the door, a bowl of soapy water on the countertop below, close-up.",
+  "Close-up of a fingertip running over the inside corner of an open cabinet door, the sage green paint intact, smooth and evenly coloured, a folded cloth held in the other hand.",
+  "A pale raw unfinished wooden cabinet door lying on the countertop, a hand passing an almost dry, barely damp cloth lightly over the bare wood, seen from above.",
+  "A hand holding a smartphone with a blank dark screen next to an open cabinet door, a small bowl of mild soapy water and a soft cloth on the countertop beside it, side view.",
+  "Two hands pulling on a pair of light blue rubber cleaning gloves in front of the cabinets, close-up.",
+ ],
+ 2: [
+  "A hand wiping a sage green cabinet door with a dry white microfiber cloth, fine grey dust and a few crumbs gathering on the cloth, close-up.",
+  "Extreme close-up of a fingertip dragging through a sticky grey-yellow paste of grease and dust on the top edge of a cabinet door, leaving a clean streak behind it.",
+  "A hand reaching up to wipe the top edge of an upper cabinet door with a dry cloth, the door corners and a metal handle visible below, seen from a low side angle.",
+  "A handheld vacuum cleaner with a round soft brush attachment moving along the recessed grooves of a paneled shaker cabinet door, close-up.",
+  "Close-up of a wet cloth dragged across a dusty cabinet door, leaving a muddy grey smear on the sage green paint.",
+ ],
+ 3: [
+  "A hand squeezing a few drops of dish soap from a plain unlabeled bottle into a white bowl of warm water on the countertop, light steam rising from the water, side view.",
+  "A hand gently stirring a white bowl of water with a wooden spoon, a thin layer of light suds on the surface, seen from directly above.",
+  "Close-up of a damp yellow microfiber cloth wiped once across a shiny greasy film on a cabinet door, leaving a clean matte stripe where the oil has dissolved.",
+  "A hand pouring clear white vinegar from an unlabeled glass bottle into a glass measuring jug already half filled with warm water, the sage green cabinets in the background, side view.",
+  "A hand holding a clear unlabeled glass bottle of vinegar back, away from a pale unfinished wooden board and a slab of grey natural stone lying on the countertop, seen from above.",
+  "A hand pushing two plain unlabeled plastic cleaning bottles and a white unlabeled jug apart to the far side of the countertop, a bowl of soapy water in the foreground.",
+  "Two hands tipping a bowl of cloudy grey used water into a stainless steel kitchen sink, a clean empty bowl waiting beside it.",
+  "A white bowl being filled under a running kitchen tap, visible steam rising from the warm water, a hand testing the stream with its fingers, close-up.",
+ ],
+ 4: [
+  "Two hands wringing out a yellow microfiber cloth firmly above a bowl of soapy water, only a last few drops falling, close-up.",
+  "A hand wiping one small square section of a sage green cabinet door beside the handle with a damp yellow cloth, the wiped patch glistening slightly, the rest of the door still dull and greasy.",
+  "A damp, lightly soapy patch glistening on a cabinet door, a hand resting relaxed on the countertop holding the folded cloth, a small plain sand hourglass running beside it, side view.",
+  "Two hands rinsing a yellow microfiber cloth in a bowl of water, a thin oily sheen floating on the surface, seen from above.",
+  "A hand moving a damp cloth in gentle circles on the upper part of a tall sage green cabinet door, the whole door visible from top to bottom, wide side view.",
+  "A hand wiping a cabinet door with a second, light blue microfiber cloth, the yellow cloth left hanging on the rim of the bowl on the countertop.",
+  "A hand making one more light pass with a barely damp cloth over a cabinet door, the surface only slightly moist with no drips or runs, seen from the side in raking light.",
+ ],
+ 5: [
+  "A hand stirring white baking soda and a little water with a teaspoon in a small glass bowl, forming a soft white paste, seen from above.",
+  "A soft toothbrush working white paste in small circles on a sticky yellowish spot of a sage green cabinet door near the handle, close-up.",
+  "A soft toothbrush held loosely between two fingers, brushing white paste with a very light touch on a matte painted cabinet door, extreme close-up.",
+  "A soft toothbrush with white paste cleaning around the base of a metal cabinet handle and along the groove of a paneled door, close-up.",
+  "A hand wiping white paste off a cabinet door with a clean damp cloth, clean matte sage green paint appearing behind the cloth, close-up.",
+  "An open cabinet door, a soft toothbrush moving slowly along the door edge right next to a metal hinge, close-up from the side.",
+  "Macro shot of a fingertip carrying a single pea-sized dab of white paste, a cabinet door out of focus behind it.",
+ ],
+ 6: [
+  "A hand wiping a sage green cabinet door with a light blue cloth, a bowl of clear plain water on the countertop below, front view.",
+  "Close-up of a cabinet door in raking light showing faint dull soapy streaks with a few specks of dust clinging to them, a fingertip pointing at the streaks.",
+  "A hand drying a cabinet door with a dry white microfiber cloth in long downward strokes, front view.",
+  "Close-up of a dry cloth pressed along the bottom edge and the joint of a paneled wooden cabinet door, soaking up a few last beads of water.",
+  "A hand holding a cabinet door half open toward the window, daylight glancing across the smooth clean surface, seen from the side.",
+  "A fingertip touching a small dull sticky patch near a cabinet handle, the other hand holding a soft toothbrush and a small bowl of white paste ready, close-up.",
+  "A hand buffing a sage green cabinet door with a clean dry white cloth, the surface smooth and streak-free in bright daylight, three-quarter view.",
+ ],
+ 7: [
+  "Wide view of spotless sage green cabinets around a stove and a stainless steel range hood, a single folded cloth lying on the countertop, calm tidy scene.",
+  "A finger pressing a plain button on the underside of a stainless steel range hood, a pot simmering on the stove below with steam drawn up into the hood.",
+  "A hand wiping the cabinet door next to the stove around its handle with a damp yellow cloth, the range hood visible above, side view.",
+  "A hand placing a glass lid on a frying pan sizzling on the stove, sage green cabinets behind, close-up.",
+  "A cloth lifting a thin, light, fresh film from a cabinet door in one easy swipe, the clean stripe behind it as wide as the cloth, close-up.",
+  "A folded cloth hanging on a hook beside the stove, a hand taking it to wipe a few fresh oil splashes on the nearby cabinet door.",
+  "Two hands washing a metal mesh range hood filter in a sink full of hot soapy water, steam rising, seen from above.",
+ ],
+ 8: [
+  "A fingertip pressing on a hardened, glossy dark amber spot of old grease on a sage green cabinet door, close-up.",
+  "A palm holding a folded steaming hot damp cloth flat against one spot on a cabinet door, a bowl of hot soapy water on the countertop below, side view.",
+  "A soft toothbrush with a little soapy foam cleaning around a round metal cabinet knob, close-up.",
+  "A hand wiping a cabinet door with a clean cloth just wrung out over a bowl of clear plain water, the bowl visible on the countertop, front view.",
+ ],
+ 9: [
+  "A clean but worn cabinet door with a dull flat patch in the paint, a fingertip tracing the worn area, a cloth lying unused on the countertop.",
+  "Close-up of the lower corner of a cabinet door, the wood swollen and the paint peeling along the edge, a fingertip beside the damage.",
+  "A glossy white thermofoil cabinet door next to a built-in oven, the thin plastic skin peeling away from the edge of the door, a fingertip lifting the loose corner, close-up.",
+  "A fine artist's brush dabbing matching sage green paint onto a small chip on a painted cabinet door, a small open unlabeled jar of paint held in the other hand, close-up.",
+  "A tradesperson's hands in a dark navy work jacket holding a fan of plain blank colour sample cards against a row of worn cabinet doors, no face visible.",
+ ],
+ 10: [
+  "A tidy stove area with clean sage green cabinet doors on both sides, a frying pan on the stove and a folded cloth within reach, wide front view.",
+  "A hand placing a round metal mesh splatter screen over a frying pan of sizzling food on the stove, close-up.",
+  "A hand wiping a plain unlabeled glass oil bottle with a cloth, three plain unlabeled spice jars standing beside the stove, close-up.",
+  "A stainless steel range hood with its light on above a stove with the burners off, an empty pan resting on the stove, a hand moving away from the hood's button.",
+  "A hand reaching up to dust the flat top of the upper sage green cabinets with a dry microfiber cloth, seen from a high angle above the cabinets.",
+ ],
+}
+S = pair(ID, P)
+build(ID, TAIL, HERO, YOUNEED, MISTAKES, S, "cabinet_grease.notes.json", "that damage your cabinets", youneed_focus=(0.5, 0.5), mistakes_focus=[[0.5, 0.5]] * 3)

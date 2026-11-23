@@ -1,0 +1,352 @@
+{
+ "extras": {
+  "intro": {
+   "pose": "idea",
+   "diagram": "whiten-soak",
+   "title": "Why whites turn yellow",
+   "mode": "buildup",
+   "chips": [
+    {
+     "on": "sweat",
+     "label": "Sweat and deodorant",
+     "sub": "build up in the fibres",
+     "mode": "buildup"
+    },
+    {
+     "on": "residue",
+     "label": "Detergent residue",
+     "sub": "builds up too",
+     "mode": "buildup"
+    },
+    {
+     "on": "Washing",
+     "label": "Washing isn't enough",
+     "sub": "the buildup stays",
+     "mode": "buildup"
+    },
+    {
+     "on": "soak",
+     "label": "A soak removes it",
+     "sub": "that's the whole method",
+     "mode": "soak"
+    },
+    {
+     "on": "mix",
+     "label": "Never mix products",
+     "sub": "the golden rule",
+     "mode": "soak"
+    }
+   ],
+   "gags": []
+  },
+  "step-1": {
+   "ticks": [
+    {
+     "shot": 1,
+     "on": "label",
+     "label": "Care label"
+    }
+   ],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 3,
+     "on": "silk",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Hot soaks on silk, wool or delicate fabrics.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 6,
+     "on": "accidents",
+     "pose": "thumbs",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": []
+  },
+  "step-2": {
+   "ticks": [
+    {
+     "shot": 1,
+     "on": "soap",
+     "label": "Dish soap"
+    }
+   ],
+   "facts": [
+    {
+     "shot": 2,
+     "on": "fifteen",
+     "kind": "timer",
+     "big": "15–30 min",
+     "small": "let it sit on the stain",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 4,
+     "on": "hot",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Hot water on fresh sweat stains: heat can set them.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 5,
+     "on": "patient",
+     "pose": "watch",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": []
+  },
+  "step-3": {
+   "ticks": [],
+   "facts": [
+    {
+     "shot": 2,
+     "on": "half",
+     "kind": "measure",
+     "big": "½ cup",
+     "small": "of baking soda, stirred in",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 6,
+     "on": "combine",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Vinegar and oxygen booster in the same soak.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": [
+    {
+     "shot": 4,
+     "on": "lifts",
+     "name": "whiten-soak",
+     "mode": "soak",
+     "title": "What the soak does",
+     "dur": 4.8
+    }
+   ]
+  },
+  "step-4": {
+   "ticks": [
+    {
+     "shot": 3,
+     "on": "gloves",
+     "label": "Gloves"
+    }
+   ],
+   "facts": [
+    {
+     "shot": 4,
+     "on": "four",
+     "kind": "timer",
+     "big": "4–8 hours",
+     "small": "or overnight, stir now and then",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 7,
+     "on": "closed",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "A closed container: the booster releases gas.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": [
+    {
+     "shot": 5,
+     "on": "breaks",
+     "name": "whiten-soak",
+     "mode": "oxygen",
+     "title": "Oxygen does the work",
+     "dur": 4.8
+    }
+   ]
+  },
+  "step-5": {
+   "ticks": [],
+   "facts": [
+    {
+     "shot": 4,
+     "on": "half",
+     "kind": "measure",
+     "big": "½ cup",
+     "small": "baking soda, straight in the drum",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 2,
+     "on": "detergent",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Too much detergent: the residue dulls whites.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": []
+  },
+  "step-6": {
+   "ticks": [],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 4,
+     "on": "heat",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "The dryer too soon: heat can lock in the color.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 1,
+     "on": "Sunlight",
+     "pose": "party",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": [
+    {
+     "shot": 3,
+     "on": "UV",
+     "name": "whiten-soak",
+     "mode": "sun",
+     "title": "Sunlight fades the yellow",
+     "dur": 4.8
+    }
+   ]
+  },
+  "step-7": {
+   "ticks": [],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 4,
+     "on": "softener",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Fabric softener on whites: it can leave a film.",
+     "dur": 4.4
+    },
+    {
+     "shot": 6,
+     "on": "cardboard",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Storing whites in cardboard boxes or direct light.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 7,
+     "on": "bright",
+     "pose": "thumbs",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": []
+  },
+  "step-8": {
+   "ticks": [],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 3,
+     "on": "rust",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "Orange or brown spots may be rust: use a rust remover.",
+     "dur": 4.4
+    },
+    {
+     "shot": 5,
+     "on": "scrubbing",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "More scrubbing on very old yellowing: it wears the fibers.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": []
+  },
+  "step-9": {
+   "ticks": [],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 2,
+     "on": "ruined",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "A hot soak on silk, wool, lace or dry-clean-only items.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": []
+  },
+  "step-10": {
+   "ticks": [
+    {
+     "shot": 3,
+     "on": "cold",
+     "label": "Cold water"
+    }
+   ],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 1,
+     "on": "sweat",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "Sweat reacts with aluminum compounds in antiperspirant.",
+     "dur": 4.4
+    },
+    {
+     "shot": 5,
+     "on": "overload",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "An overloaded machine: dirt can't rinse out.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": []
+  }
+ },
+ "shots": {},
+ "short": [
+  "2-1",
+  "3-3",
+  "6-2"
+ ]
+}

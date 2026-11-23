@@ -35,6 +35,16 @@
       "type": "string",
       "minLength": 1
     },
+    "hookWords": {
+      "description": "Mots forts de l'accroche affichés en grand quand la voix les dit (dans l'ordre du texte).",
+      "maxItems": 6,
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2,
+        "maxLength": 24
+      }
+    },
     "intro": {
       "type": "string",
       "minLength": 1

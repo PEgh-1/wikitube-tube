@@ -4,6 +4,9 @@ import { AbsoluteFill, Img, interpolate, spring, staticFile, useCurrentFrame, us
 import { C, FONT } from "../theme";
 import { HAND, Mascot, WMark, type Pose } from "./brand";
 import type { Diagram, Gag } from "../types";
+import { DryerVent } from "./diagrams/DryerVent";
+import { WhitenSoak } from "./diagrams/WhitenSoak";
+import { CabinetGrease } from "./diagrams/CabinetGrease";
 
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 
@@ -968,6 +971,9 @@ const DIAGRAMS: Record<string, React.FC<{ mode: string; local: number; width?: n
   "glass-cooktop": ({ mode, local, width }) => <GlassCooktop mode={mode} local={local} width={width} />,
   "chicken-pan": ({ mode, local, width }) => <ChickenPan mode={mode} local={local} width={width} />,
   "oven-door": ({ mode, local, width }) => <OvenDoor mode={mode} local={local} width={width} />,
+  "dryer-vent": ({ mode, local, width }) => <DryerVent mode={mode} local={local} width={width} />,
+  "whiten-soak": ({ mode, local, width }) => <WhitenSoak mode={mode} local={local} width={width} />,
+  "cabinet-grease": ({ mode, local, width }) => <CabinetGrease mode={mode} local={local} width={width} />,
   "house-drain": ({ mode, local, width }) => <HouseDrain mode={mode} local={local} width={width} />,
 };
 

@@ -97,7 +97,7 @@ P = {
   "Hands covering a roasting dish of chicken and vegetables with a loose sheet of aluminium foil on the countertop next to the oven.",
   "A hand sliding a flat metal baking sheet onto the lowest rack of an open oven, a roasting dish on the rack above it.",
   "A hand wiping the inside glass of an open, cool oven door with a damp microfiber cloth, light fresh splashes disappearing.",
-  "Close-up of the grey rubber seal around an oven opening, a hand holding a cloth carefully away from the seal while wiping the metal next to it.",
+  "Close-up of the grey rubber seal around an open oven cavity, completely untouched, while a hand wipes only the stainless steel front panel well above the oven opening with a folded cloth, the cloth clearly far away from the rubber seal.",
  ],
 }
 S = pair(ID, P)

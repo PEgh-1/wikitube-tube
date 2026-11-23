@@ -128,5 +128,23 @@
   ],
   "badge": "JUICY EVERY TIME",
   "mascot": "chef"
+ },
+ "2026-12-01-clean-between-oven-door-glass": {
+  "photo": "thumbs/oven.jpg",
+  "position": "50% 50%",
+  "zoom": 1.1,
+  "lines": [
+   {
+    "text": "GREASY",
+    "size": 140
+   },
+   {
+    "text": "OVEN GLASS?",
+    "hi": true,
+    "size": 104
+   }
+  ],
+  "badge": "JUST A SCREWDRIVER",
+  "mascot": "panic"
  }
 }

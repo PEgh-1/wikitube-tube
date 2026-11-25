@@ -18,11 +18,11 @@ const WALL_X = 300;
 const GROUND = 400;
 // La piste : du nid (dehors, à gauche) à la fissure au pied du mur, puis sur le plan de travail jusqu'à la miette.
 const pos = (k: number) => {
-  if (k < 0.42) return { x: 70 + (k / 0.42) * (WALL_X - 70), y: GROUND - 14 };
-  if (k < 0.5) return { x: WALL_X + ((k - 0.42) / 0.08) * 26, y: GROUND - 14 - ((k - 0.42) / 0.08) * 60 };
-  return { x: WALL_X + 26 + ((k - 0.5) / 0.5) * 330, y: GROUND - 74 };
+  if (k < 0.42) return { x: 70 + (k / 0.42) * (WALL_X - 70), y: GROUND - 22 };
+  if (k < 0.5) return { x: WALL_X + ((k - 0.42) / 0.08) * 26, y: GROUND - 22 - ((k - 0.42) / 0.08) * 62 };
+  return { x: WALL_X + 26 + ((k - 0.5) / 0.5) * 330, y: GROUND - 84 };
 };
-const Ant: React.FC<{ x: number; y: number; s?: number; flip?: boolean }> = ({ x, y, s = 1, flip }) => (
+const Ant: React.FC<{ x: number; y: number; s?: number; flip?: boolean }> = ({ x, y, s = 1.7, flip }) => (
   <g transform={`translate(${x} ${y}) scale(${flip ? -s : s} ${s})`}>
     <ellipse cx={-12} cy={0} rx={9} ry={7} fill={C.ink} />
     <circle cx={0} cy={0} r={5} fill={C.ink} />
@@ -55,7 +55,7 @@ export const AntTrail: React.FC<{ mode: string; local: number; width?: number }>
       {/* nid */}
       <path d={`M40 ${GROUND} Q70 ${GROUND - 46} 100 ${GROUND} Z`} fill="#C9A27A" stroke={C.ink} strokeWidth={7} strokeLinejoin="round" />
       {/* miette sucrée */}
-      <path d={`M${WALL_X + 356} ${GROUND - 66} l18 -22 l26 6 l10 16 Z`} fill={C.sun} stroke={C.ink} strokeWidth={6} strokeLinejoin="round" opacity={erased ? interpolate(local, [0, 20], [1, 0], clamp) : 1} />
+      <path d={`M${WALL_X + 356} ${GROUND - 66} l26 -34 l40 8 l14 26 Z`} fill={C.sun} stroke={C.ink} strokeWidth={6} strokeLinejoin="round" opacity={erased ? interpolate(local, [0, 20], [1, 0], clamp) : 1} />
       {/* fissure ou joint */}
       {sealed ? (
         <rect x={WALL_X - 6} y={GROUND - 84} width={38} height={76} rx={12} fill={C.mint} stroke={C.ink} strokeWidth={7} transform={`scale(1 ${interpolate(local, [6, 30], [0, 1], { ...clamp, easing: ease })})`} style={{ transformOrigin: `${WALL_X + 13}px ${GROUND - 46}px`, transformBox: "fill-box" as const }} />
@@ -67,7 +67,7 @@ export const AntTrail: React.FC<{ mode: string; local: number; width?: number }>
         const p = pos(k);
         const inside = k >= 0.5;
         const shown = k <= drawn && !(erased && inside && (k - 0.5) / 0.5 <= wipe) && !(sealed && k > 0.4);
-        return shown ? <circle key={i} cx={p.x} cy={p.y + 20} r={5} fill={C.coral} opacity={0.9} /> : null;
+        return shown ? <circle key={i} cx={p.x} cy={p.y + 30} r={7} fill={C.coral} opacity={0.9} /> : null;
       })}
       {/* fourmis */}
       {ants.map((i) => {

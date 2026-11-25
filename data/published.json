@@ -229,5 +229,25 @@
       "publishAt": "2026-11-27T11:30:00.000Z",
       "url": "https://youtube.com/shorts/PQ7-RsoANBM"
     }
+  },
+  {
+    "episodeId": "2026-12-05-remove-grease-kitchen-cabinets",
+    "title": "How to Clean Greasy Kitchen Cabinets the Easy Way (Don't Scrub, Do This Instead)",
+    "long": {
+      "videoId": "PmfSauyCfBo",
+      "publishAt": "2026-11-28T16:30:00.000Z",
+      "url": "https://youtu.be/PmfSauyCfBo"
+    },
+    "short": {
+      "videoId": "G6qaMZtG3Gk",
+      "publishAt": "2026-11-28T17:00:00.000Z",
+      "url": "https://youtube.com/shorts/G6qaMZtG3Gk"
+    },
+    "uploadedAt": "2026-11-25T11:43:21.066Z",
+    "short2": {
+      "videoId": "50F8zK5alv8",
+      "publishAt": "2026-11-28T11:30:00.000Z",
+      "url": "https://youtube.com/shorts/50F8zK5alv8"
+    }
   }
 ]

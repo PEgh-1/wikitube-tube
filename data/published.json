@@ -189,5 +189,25 @@
       "publishAt": "2026-11-25T11:30:00.000Z",
       "url": "https://youtube.com/shorts/GQL9y0bELWY"
     }
+  },
+  {
+    "episodeId": "2026-12-12-clean-dryer-vent",
+    "title": "How to Clean Your Dryer Vent (You Won't Believe How Much Lint Comes Out)",
+    "long": {
+      "videoId": "s6quXIRNj28",
+      "publishAt": "2026-11-26T16:30:00.000Z",
+      "url": "https://youtu.be/s6quXIRNj28"
+    },
+    "short": {
+      "videoId": "-HHCSGV2T7Q",
+      "publishAt": "2026-11-26T17:00:00.000Z",
+      "url": "https://youtube.com/shorts/-HHCSGV2T7Q"
+    },
+    "uploadedAt": "2026-11-25T10:32:31.192Z",
+    "short2": {
+      "videoId": "KMosdQH6d7Y",
+      "publishAt": "2026-11-26T11:30:00.000Z",
+      "url": "https://youtube.com/shorts/KMosdQH6d7Y"
+    }
   }
 ]

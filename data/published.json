@@ -249,5 +249,25 @@
       "publishAt": "2026-11-28T11:30:00.000Z",
       "url": "https://youtube.com/shorts/50F8zK5alv8"
     }
+  },
+  {
+    "episodeId": "2026-12-14-get-rid-of-ants-naturally",
+    "title": "How to Get Rid of Ants in Your House (Without Spraying Chemicals Near Food)",
+    "long": {
+      "videoId": "lS4RfaCKq_I",
+      "publishAt": "2026-11-29T16:30:00.000Z",
+      "url": "https://youtu.be/lS4RfaCKq_I"
+    },
+    "short": {
+      "videoId": "oz-etBTWjGk",
+      "publishAt": "2026-11-29T17:00:00.000Z",
+      "url": "https://youtube.com/shorts/oz-etBTWjGk"
+    },
+    "uploadedAt": "2026-11-25T11:57:57.187Z",
+    "short2": {
+      "videoId": "sLTi21FIIg4",
+      "publishAt": "2026-11-29T11:30:00.000Z",
+      "url": "https://youtube.com/shorts/sLTi21FIIg4"
+    }
   }
 ]

@@ -1,0 +1,273 @@
+{
+ "extras": {
+  "intro": {
+   "pose": "idea",
+   "diagram": "ant-trail",
+   "title": "How ants find your kitchen",
+   "mode": "trail",
+   "chips": [
+    {
+     "on": "scent",
+     "label": "Scouts leave a scent trail",
+     "sub": "invisible, but strong",
+     "mode": "trail"
+    },
+    {
+     "on": "crumb",
+     "label": "One crumb is enough",
+     "sub": "to bring the colony",
+     "mode": "trail"
+    },
+    {
+     "on": "erase",
+     "label": "Erase the trail",
+     "sub": "and remove the food",
+     "mode": "erase"
+    },
+    {
+     "on": "block",
+     "label": "Block the way in",
+     "sub": "seal every gap",
+     "mode": "seal"
+    },
+    {
+     "on": "pets",
+     "label": "Mind pets and children",
+     "sub": "never mix products",
+     "mode": "seal"
+    }
+   ],
+   "gags": []
+  },
+  "step-1": {
+   "ticks": [],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 2,
+     "on": "Follow",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "The line leads you straight to the entry point.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 4,
+     "on": "sugary",
+     "pose": "panic",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": []
+  },
+  "step-2": {
+   "ticks": [],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 3,
+     "on": "airtight",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "Sealed jars leave the scouts nothing to find.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": []
+  },
+  "step-3": {
+   "ticks": [
+    {
+     "shot": 7,
+     "on": "gloves",
+     "label": "Gloves"
+    }
+   ],
+   "facts": [
+    {
+     "shot": 1,
+     "on": "equal",
+     "kind": "measure",
+     "big": "1 : 1",
+     "small": "white vinegar and water",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 6,
+     "on": "stone",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Vinegar on marble or granite: it etches the stone.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": [
+    {
+     "shot": 3,
+     "on": "scent",
+     "name": "ant-trail",
+     "mode": "erase",
+     "title": "What vinegar does",
+     "dur": 4.8
+    }
+   ]
+  },
+  "step-4": {
+   "ticks": [
+    {
+     "shot": 2,
+     "on": "caulk",
+     "label": "Caulk"
+    }
+   ],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 7,
+     "on": "dry",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "Wet caulk smears and reopens the gap.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": [
+    {
+     "shot": 1,
+     "on": "gap",
+     "name": "ant-trail",
+     "mode": "seal",
+     "title": "Close the gap",
+     "dur": 4.8
+    }
+   ]
+  },
+  "step-5": {
+   "ticks": [
+    {
+     "shot": 4,
+     "on": "diatomaceous",
+     "label": "Diatomaceous earth"
+    }
+   ],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 5,
+     "on": "dust",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Breathing the dust: apply it low and gently.",
+     "dur": 4.4
+    },
+    {
+     "shot": 8,
+     "on": "pets",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Leaving powder down where pets walk.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": []
+  },
+  "step-6": {
+   "ticks": [],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 4,
+     "on": "boiling",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Boiling water, or pouring near plant roots.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 1,
+     "on": "aphids",
+     "pose": "panic",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": []
+  },
+  "step-7": {
+   "ticks": [],
+   "facts": [
+    {
+     "shot": 1,
+     "on": "week",
+     "kind": "timer",
+     "big": "1–2 weeks",
+     "small": "of daily repetition",
+     "dur": 4.0
+    }
+   ],
+   "cards": [],
+   "gags": [
+    {
+     "shot": 6,
+     "on": "clean",
+     "pose": "thumbs",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": []
+  },
+  "step-8": {
+   "ticks": [],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 3,
+     "on": "moisture",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "Ants need water as much as food.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": []
+  },
+  "step-9": {
+   "ticks": [],
+   "facts": [],
+   "cards": [],
+   "gags": [],
+   "diagrams": []
+  },
+  "step-10": {
+   "ticks": [],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 6,
+     "on": "eat",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "No food, no reason to stay.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": []
+  }
+ },
+ "shots": {},
+ "short": null
+}

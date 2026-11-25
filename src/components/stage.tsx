@@ -7,6 +7,7 @@ import type { Diagram, Gag } from "../types";
 import { DryerVent } from "./diagrams/DryerVent";
 import { WhitenSoak } from "./diagrams/WhitenSoak";
 import { CabinetGrease } from "./diagrams/CabinetGrease";
+import { AntTrail } from "./diagrams/AntTrail";
 
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 
@@ -974,6 +975,7 @@ const DIAGRAMS: Record<string, React.FC<{ mode: string; local: number; width?: n
   "dryer-vent": ({ mode, local, width }) => <DryerVent mode={mode} local={local} width={width} />,
   "whiten-soak": ({ mode, local, width }) => <WhitenSoak mode={mode} local={local} width={width} />,
   "cabinet-grease": ({ mode, local, width }) => <CabinetGrease mode={mode} local={local} width={width} />,
+  "ant-trail": ({ mode, local, width }) => <AntTrail mode={mode} local={local} width={width} />,
   "house-drain": ({ mode, local, width }) => <HouseDrain mode={mode} local={local} width={width} />,
 };
 

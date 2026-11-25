@@ -212,5 +212,28 @@
       }
     ],
     "cta": "Full guide on the channel."
+  },
+  "short2": {
+    "kind": "mistake",
+    "title": "Stop spraying the ants you can see #shorts",
+    "description": "The ants you see are a small part of the colony, and the rest follow the same scent trail. Wipe the trail with vinegar and water, then seal the entry point. Full 7-step guide on the channel. #ants #cleaninghacks #howto",
+    "headline": "Spraying the ants",
+    "hook": "Stop spraying the ants you can see.",
+    "shot": "short2-hook.jpg",
+    "beats": [
+      {
+        "label": "Why it fails",
+        "title": "More follow the trail",
+        "narration": "The ants you see are a small part of the colony, and the others follow the same scent trail.",
+        "shot": "mistake-1"
+      },
+      {
+        "label": "Do this instead",
+        "title": "Erase the trail",
+        "narration": "Wipe the trail with equal parts vinegar and water, then seal the entry point.",
+        "shot": "3-2"
+      }
+    ],
+    "cta": "The full seven-step guide is on the channel."
   }
 }

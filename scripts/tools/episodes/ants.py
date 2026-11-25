@@ -1,0 +1,111 @@
+#!/usr/bin/env python3
+"""Plans de l'épisode « How to Get Rid of Ants Naturally ». Annotations dans ants.notes.json."""
+import os, sys
+sys.path.insert(0, os.path.dirname(__file__))
+from _plan import build
+from _auto import pair
+ID = "2026-12-14-get-rid-of-ants-naturally"
+K = "In a bright tidy kitchen with white counters, light wood cabinets and a window: "
+G = "Outdoors in a sunny garden next to the light exterior wall of a house, no interior room visible: "
+TAIL = ("Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a rust-orange cotton shirt, "
+        "only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.")
+HERO = (K + "a perfectly clean white counter with no ants, a hand wiping it with a cloth next to a plain spray bottle, a sealed glass jar of sugar beside it, three-quarter view.")
+YOUNEED = ("Flat lay photographed from directly above on a light wood surface, items neatly arranged with clear space between them: a clear glass bottle of white vinegar next to a glass of water, "
+           "a plain white spray bottle, a small bowl of fine white powder, a tube of white caulk in a caulking gun, and a yellow sponge with soap foam on it.")
+MISTAKES = [
+ K + "a hand spraying a line of small black ants on the counter while a sticky puddle of spilled honey and scattered crumbs sits untouched right beside them, close-up.",
+ K + "a small dog's paws and nose approaching a line of white powder on the floor along the baseboard, a hand reaching down to hold the dog back, low angle.",
+ K + "a hand putting a spray bottle and a cloth away in a cupboard while a thin line of small black ants still walks along the edge of the counter in the foreground.",
+]
+P = {
+ 1: [
+  K + "a hand held back, hovering above a line of small black ants walking across the white counter, without touching them, close-up.",
+  K + "a fingertip following a long line of small black ants along the counter toward the window, seen from above.",
+  K + "macro close-up of small black ants entering through a thin crack at the corner of a white window frame, a fingertip pointing at the crack.",
+  K + "small black ants gathered around a sticky drop of spilled syrup on the counter, a pet food bowl with kibble visible on the floor behind, close-up.",
+  K + "a hand wiping the sticky drop of syrup off the counter with a cloth, the line of ants now broken, close-up.",
+  K + "a hand holding a smartphone with a blank dark screen above the line of ants near the window frame, as if taking a photo, seen from behind the hand.",
+ ],
+ 2: [
+  K + "a hand wiping the whole white counter with a blue microfiber cloth in a long stroke, a clean table behind, wide view.",
+  K + "close-up of a sponge wiping up sticky spilled jam and bread crumbs on the counter next to a greasy stovetop edge.",
+  K + "hands closing the lid of an airtight glass jar of sugar, next to sealed jars of flour and cereal and a closed jar of honey, a pet food bowl being lifted off the floor in the background.",
+  K + "a hand drying the inside of a stainless steel sink with a cloth, the tap above it not dripping, close-up.",
+  K + "macro close-up of two small black ants drinking from a single water droplet on the edge of a steel sink.",
+  K + "a hand lifting a tied trash bag out of a kitchen bin, an empty rinsed glass jar and a rinsed can upside down on the draining rack beside the sink.",
+  K + "a spotless white counter and a sealed row of glass jars, one last ant walking away toward the window, wide calm view.",
+  K + "a hand shining a small flashlight under a refrigerator pulled slightly forward, crumbs and dust visible on the floor underneath, low angle.",
+ ],
+ 3: [
+  K + "a hand pouring white vinegar from a clear glass bottle into a plain white spray bottle, a glass of water waiting beside it, close-up.",
+  K + "a hand spraying a fine mist onto the counter along the ants' path while the other hand wipes with a cloth, toward the window frame.",
+  K + "macro close-up of a few small black ants on a wet, freshly wiped counter walking in different directions, no longer in a line.",
+  K + "a hand squeezing a yellow sponge full of soap foam over a small bowl of soapy water on the counter, close-up.",
+  K + "a hand hanging a cloth on a hook next to a plain spray bottle on the windowsill, morning light, a plain wall calendar with empty squares behind.",
+  K + "a hand holding a spray bottle stopped just above a polished grey marble counter, the other hand raised flat in a stop gesture.",
+  K + "hands pulling on yellow rubber gloves in front of an open kitchen window, a spray bottle on the counter.",
+ ],
+ 4: [
+  K + "a fingertip pointing at a thin gap between a white window frame and the wall, a caulking gun held ready in the other hand.",
+  K + "a hand running a neat bead of white silicone caulk from a caulking gun along the gap between a window frame and the wall, close-up.",
+  "At the open back door of a house: hands pressing a strip of grey foam weatherstripping along the inside edge of the white door frame, close-up.",
+  K + "a hand filling a small hole in the wall around a white cable with a dab of filler on a fingertip, close-up.",
+  K + "a neat, smooth line of fresh white caulk along the full length of a window frame, a hand smoothing the last part with a wet fingertip.",
+  K + "macro close-up of two small black ants stopped at a smooth sealed white caulk line on a window frame, unable to get through.",
+  K + "a fingertip hovering just above a fresh bead of white caulk without touching it, a small kitchen timer on the windowsill.",
+  K + "a hand shining a small flashlight along the dark gap between a baseboard and the floor behind a cabinet, low angle.",
+ ],
+ 5: [
+  K + "small bowls of ground cinnamon, black pepper and used coffee grounds lined up on the counter, half a lemon beside them, a hand reaching for one bowl.",
+  K + "a hand sprinkling a thin straight line of ground cinnamon across the windowsill where ants were walking, close-up.",
+  "At the open back door of a house: a hand wiping the door threshold with a cloth, a cut lemon and a small bowl of lemon juice on the floor beside it, low angle.",
+  K + "a hand tapping a thin straight line of fine white powder from a small spoon along the base of a wall, close-up.",
+  K + "a gloved hand applying the fine white powder low and close to a dry floor corner, the other hand holding a white dust mask, close-up.",
+  K + "a hand sprinkling a fresh line of white powder on a windowsill beside a mop bucket and a damp cloth, raindrops on the window glass.",
+  K + "a spray bottle, a tube of caulk and a small bowl of cinnamon standing together on the counter, a hand placing the last one down.",
+  K + "a hand gently guiding a small dog by the collar away from a line of white powder along the baseboard, a vacuum cleaner nozzle ready in the foreground.",
+ ],
+ 6: [
+  G + "macro close-up of small black ants walking up a green plant stem covered with a cluster of tiny green aphids.",
+  G + "a hand spraying a strong jet of water from a garden hose nozzle onto the stems of a rose bush, water droplets flying.",
+  G + "a hand sprinkling fine white powder from a small scoop in a ring on dry soil around the base of a plant, close-up.",
+  G + "a hand carefully pouring steaming hot water from a kettle onto a small ant mound between grey paving stones, far from any plants.",
+  G + "a gloved hand raking a thin layer of bark mulch away from the base of the house wall, pruning shears lying beside a cut branch.",
+  G + "early morning low light, dew on the grass, a hand crouching to look at a small ant mound between paving stones.",
+ ],
+ 7: [
+  K + "a hand marking a square on a plain wall calendar with empty squares with a pen, a spray bottle on the counter below.",
+  K + "a hand wiping the windowsill with a cloth while the other holds a spray bottle, a thin line of cinnamon further along the sill.",
+  K + "a fingertip checking the lower corner of a window frame, heavy rain running down the glass outside.",
+  "Macro close-up of a few large dark ants, one with wings, next to a tiny pile of fine pale sawdust at the base of a wooden beam, a fingertip pointing at the sawdust.",
+  K + "a spotless kitchen with clear white counters and sealed jars, a hand closing a cupboard door, wide calm view.",
+  "Split view of a home: a clean kitchen counter in the foreground and through the open window a tidy garden with trimmed shrubs, a hand resting on the windowsill with a fresh caulk line.",
+  K + "a hand writing with a pen in a small open notebook with blank lined pages on the counter, a cup of coffee beside it.",
+ ],
+ 8: [
+  K + "a new thin line of small black ants walking along the edge of the floor from a different corner, a fingertip pointing at them, low angle.",
+  K + "a hand shining a flashlight into the open cabinet under a kitchen sink, a damp patch visible around the pipes.",
+  K + "a hand tightening a dripping pipe joint under a sink with an adjustable wrench, a small towel underneath, close-up.",
+  G + "a leafy branch of a shrub touching the wall of the house like a bridge, a few ants walking along it, a fingertip pointing.",
+  K + "a hand spraying and wiping the windowsill with a cloth in morning light, a plain wall calendar with several squares crossed off behind.",
+  K + "a hand applying a short bead of white caulk to a small new gap at the bottom corner of a door frame, close-up.",
+ ],
+ 9: [
+  "Macro close-up of two different ants side by side on a white surface, one tiny and black, one larger and reddish-brown, a fingertip next to them for scale.",
+  "A hand holding a round magnifying glass over a few small black ants on a white counter, close-up.",
+  "A hand pressing a strip of clear tape with one small ant under it onto a blank white card, a smartphone with a dark blank screen beside it.",
+  "At the counter of a garden center with plants in the background: a hand holding out a blank white card with a taped ant toward another person's open hand, no faces visible.",
+  K + "at night with a warm lamp on, a hand holding a small flashlight over a line of ants on the counter, the window dark behind.",
+  K + "a hand handing a small open notebook with blank lined pages to another person's hand in dark work clothes, no faces visible.",
+ ],
+ 10: [
+  G + "gloved hands cutting a branch of a shrub that touches the house wall with pruning shears, a clear gap appearing between the plant and the wall.",
+  G + "gloved hands moving split firewood logs away from the base of the house wall onto a rack further away, a strip of bare ground left along the wall.",
+  G + "a hand pressing the lid of an outdoor trash can firmly shut, a rinsed empty glass jar held in the other hand.",
+  K + "in the evening, a hand emptying a pet water bowl into the sink, an empty clean pet food bowl on the counter.",
+  K + "a hand lifting an apple from a fruit bowl to check underneath, an open pantry cupboard with tidy shelves behind.",
+  K + "a spotless white counter in morning light with nothing on it but a closed glass jar, a hand resting on the edge, calm wide view.",
+ ],
+}
+S = pair(ID, P)
+build(ID, TAIL, HERO, YOUNEED, MISTAKES, S, "ants.notes.json", "that keep the ants coming back", youneed_focus=(0.5, 0.5), mistakes_focus=[[0.5, 0.5]] * 3)

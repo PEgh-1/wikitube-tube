@@ -209,5 +209,25 @@
       "publishAt": "2026-11-26T11:30:00.000Z",
       "url": "https://youtube.com/shorts/KMosdQH6d7Y"
     }
+  },
+  {
+    "episodeId": "2026-12-10-whiten-yellowed-white-clothes",
+    "title": "How to Whiten Yellowed White Clothes (Don't Throw That Shirt Away)",
+    "long": {
+      "videoId": "6fQNPGhFs6A",
+      "publishAt": "2026-11-27T16:30:00.000Z",
+      "url": "https://youtu.be/6fQNPGhFs6A"
+    },
+    "short": {
+      "videoId": "KWx7nRSDWj0",
+      "publishAt": "2026-11-27T17:00:00.000Z",
+      "url": "https://youtube.com/shorts/KWx7nRSDWj0"
+    },
+    "uploadedAt": "2026-11-25T11:02:32.459Z",
+    "short2": {
+      "videoId": "PQ7-RsoANBM",
+      "publishAt": "2026-11-27T11:30:00.000Z",
+      "url": "https://youtube.com/shorts/PQ7-RsoANBM"
+    }
   }
 ]

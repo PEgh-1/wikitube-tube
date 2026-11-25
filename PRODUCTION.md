@@ -53,3 +53,12 @@ Objectif : première étape avant 0 min 55 (elle arrivait à 1 min 36). `data/br
 - Copier dans `release-assets` : `<id>/out/` (long.mp4.part-*, short.mp4, short2.mp4, long.en.srt, short.en.srt, thumbnail.jpg = miniature ThumbPro) et `<id>/build/` (metadata.json, qc.json). Pousser.
 - Ajouter `{ "id", "publishAt": "<jour>T16:30:00Z", "short2At": "<jour>T11:30:00Z" }` à `publish/queue.json` et pousser : le workflow « Mise en ligne des épisodes vérifiés » programme les trois vidéos.
 - Vérifier `data/published.json` et, côté YouTube, les trois vidéos en privé avec leur date (vidIQ `vidiq_user_videos`, statut `private`).
+
+## 8. Raccourcis ajoutés le 25/11/2026
+- Lot d'images Gemini sans saisie manuelle : `python3 scripts/tools/episodes/<sujet>.py` puis copier `/tmp/<id>-missing.json` dans `scripts/tools/gemini-batches/<id>.json`, pousser, et lancer dans Playwright une boucle qui lit ce fichier sur raw.githubusercontent.com (une image par passage : `gemini.google.com/app`, saisie, `img.image.loaded`, bouton « taille réelle », `download.saveAs`). La boucle tourne seule sur le PC ; suivre l'état dans `page.context().__wkst`.
+- Rapatriement : recadrer et archiver sur le PC (`device_bash` : `convert … -resize 1920x1080^ -gravity center -extent 1920x1080`, puis `tar`) et ne rapatrier que l'archive.
+- Scènes d'extérieur : ne pas réutiliser le `TAIL` d'intérieur, sinon Gemini colle la pièce derrière le mur. Écrire un `TAIL` « Fully outdoors… no interior room visible ».
+- Miniature hors GitHub Actions : `REMOTION_BROWSER_EXECUTABLE=/opt/pw-browsers/chromium_headless_shell-*/chrome-headless-shell-linux64/chrome-headless-shell node scripts/tools/thumbpro.mjs --only <mot>`.
+- `title` de l'épisode : 40 caractères au plus, sinon le titre d'ouverture passe sur trois lignes. `short` (dans les notes) : la liste des plans du Short, sinon les images ne correspondent pas aux étapes.
+- Ne pas lancer deux rendus `daily.yml` en même temps ; attendre `completed` avant `preview-branch.yml`.
+- Studio WikiTube : profil Playwright b (le profil c est sur la chaîne YouQwiz).

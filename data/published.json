@@ -169,5 +169,25 @@
       "publishAt": "2026-11-23T11:30:00.000Z",
       "url": "https://youtube.com/shorts/A95jqQMjqv4"
     }
+  },
+  {
+    "episodeId": "2026-12-01-clean-between-oven-door-glass",
+    "title": "How to Clean Between the Glass on Your Oven Door (With Just a Screwdriver)",
+    "long": {
+      "videoId": "DENwW7sEoSk",
+      "publishAt": "2026-11-25T16:30:00.000Z",
+      "url": "https://youtu.be/DENwW7sEoSk"
+    },
+    "short": {
+      "videoId": "F9LtVgzOzwY",
+      "publishAt": "2026-11-25T17:00:00.000Z",
+      "url": "https://youtube.com/shorts/F9LtVgzOzwY"
+    },
+    "uploadedAt": "2026-11-25T09:45:20.065Z",
+    "short2": {
+      "videoId": "GQL9y0bELWY",
+      "publishAt": "2026-11-25T11:30:00.000Z",
+      "url": "https://youtube.com/shorts/GQL9y0bELWY"
+    }
   }
 ]

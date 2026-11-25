@@ -200,5 +200,23 @@
   ],
   "badge": "DON'T SCRUB",
   "mascot": "panic"
+ },
+ "2026-12-14-get-rid-of-ants-naturally": {
+  "photo": "thumbs/ants.jpg",
+  "position": "50% 30%",
+  "zoom": 1.0,
+  "lines": [
+   {
+    "text": "ANTS",
+    "hi": true,
+    "size": 150
+   },
+   {
+    "text": "IN THE HOUSE?",
+    "size": 96
+   }
+  ],
+  "badge": "ERASE THEIR TRAIL",
+  "mascot": "panic"
  }
 }

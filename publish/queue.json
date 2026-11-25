@@ -5,5 +5,6 @@
   {"id": "2026-11-22-cook-steak-in-a-pan", "publishAt": "2026-11-20T16:30:00Z", "replaceShort": "YHAj_uGHLmw"},
   {"id": "2026-11-28-remove-toilet-ring-hard-water", "publishAt": "2026-11-21T16:30:00Z", "replaceShort": "xUZ8dWAIPhw"},
   {"id": "2026-11-29-clean-glass-stovetop", "publishAt": "2026-11-22T16:30:00Z", "short2At": "2026-11-22T11:30:00Z"},
-  {"id": "2026-12-07-cook-chicken-breast-juicy", "publishAt": "2026-11-23T16:30:00Z", "short2At": "2026-11-23T11:30:00Z", "replaceAll": {"long": "tVrneiHFliU"}}
+  {"id": "2026-12-07-cook-chicken-breast-juicy", "publishAt": "2026-11-23T16:30:00Z", "short2At": "2026-11-23T11:30:00Z", "replaceAll": {"long": "tVrneiHFliU"}},
+  {"id": "2026-12-01-clean-between-oven-door-glass", "publishAt": "2026-11-25T16:30:00Z", "short2At": "2026-11-25T11:30:00Z"}
 ]

@@ -4,7 +4,7 @@
   "date": "2026-12-15",
   "slug": "clean-windows-without-streaks",
   "category": "Home",
-  "title": "How to Clean Windows Without Streaks (Inside and Out)",
+  "title": "How to Clean Windows Without Streaks",
   "hook": "You wash your windows, and they dry with streaks, smears and cloudy patches. The mistake is in the method, not the cleaner. Seven steps to get glass crystal clear, inside and out, with simple supplies. Stay for step five: it's the move the professionals use.",
   "hookWords": [
     "Method",
@@ -34,7 +34,7 @@
     },
     {
       "title": "Dust the frame and the glass",
-      "narration": "Step two. Use a dry brush or a vacuum with a soft attachment to remove cobwebs, dust and loose dirt from the frame, the sill and the corners. Wipe the edges of the glass with a dry cloth. If you skip this, the water will turn the dust to muddy streaks that run down the glass. Take a moment to clear the window track too, where dirt collects. Cleaning from the top down avoids dripping on cleaned areas. This takes two minutes, but it makes the whole job much cleaner and prevents you from smearing dirt.",
+      "narration": "Step two. Use a dry brush or a vacuum with a soft attachment to remove cobwebs, dust and loose dirt from the frame, the sill and the corners. Wipe the edges of the glass with a dry cloth. If you skip this, the water will turn the dust to muddy streaks that run down the glass. Take a moment to clear the window track too, where dirt collects. Cleaning from the top down avoids dripping on cleaned areas. This takes two minutes, but it makes the whole job much cleaner and prevents you from smearing dirt. Next comes the cleaning solution, and it needs less soap than you might think.",
       "tip": "Dry brush first, then water",
       "mistake": "Wetting a dusty window frame",
       "imageQuery": "dusting window frame",
@@ -52,7 +52,7 @@
     },
     {
       "title": "Wash the glass",
-      "narration": "Step four. Dip a microfiber cloth or a sponge-and-scrubber tool into the solution, and wring it out lightly. Wipe the whole pane from top to bottom, using firm strokes to lift dirt. Pay attention to the corners and edges, where grime collects. For stubborn spots like bird droppings, hold the wet cloth on the spot for a minute to soften them. Don't use abrasive scrubbers on glass, which can cause scratches. Keep the glass wet until you squeegee. If the window is very dirty, wash it twice, because the first pass lifts the heavy dirt and the second gets the rest.",
+      "narration": "Step four. Dip a microfiber cloth or a sponge-and-scrubber tool into the solution, and wring it out lightly. Wipe the whole pane from top to bottom, using firm strokes to lift dirt. Pay attention to the corners and edges, where grime collects. For stubborn spots like bird droppings, hold the wet cloth on the spot for a minute to soften them. Don't use abrasive scrubbers on glass, which can cause scratches. Keep the glass wet until you squeegee. If the window is very dirty, wash it twice, because the first pass lifts the heavy dirt and the second gets the rest. Now for the squeegee, the step that makes the difference.",
       "tip": "Keep the glass wet until you squeegee",
       "mistake": "Letting the soapy water dry on the glass",
       "imageQuery": "washing window sponge",
@@ -70,7 +70,7 @@
     },
     {
       "title": "Dry the edges and polish",
-      "narration": "Step six. Use a dry microfiber cloth to wipe the edges of the glass, the frame and the sill, where water gathers. Then polish any drops or marks on the pane with another dry, lint-free cloth. For an inside window, use a light touch. Avoid paper towels and newspaper, which leave lint, or ink. Step back and look at the glass from an angle, and from outside and inside, to spot any streaks. A damp cloth then removes any final smudges. Always check both sides of the glass, because streaks may be on the other side.",
+      "narration": "Step six. Use a dry microfiber cloth to wipe the edges of the glass, the frame and the sill, where water gathers. Then polish any drops or marks on the pane with another dry, lint-free cloth. For an inside window, use a light touch. Avoid paper towels and newspaper, which leave lint, or ink. Step back and look at the glass from an angle, and from outside and inside, to spot any streaks. A damp cloth then removes any final smudges. Always check both sides of the glass, because streaks may be on the other side. One step is left, and it covers the parts people forget.",
       "tip": "Check from an angle in the light",
       "mistake": "Wiping with paper towels that leave lint",
       "imageQuery": "polishing window glass",
@@ -211,5 +211,28 @@
       }
     ],
     "cta": "Full guide on the channel."
+  },
+  "short2": {
+    "kind": "tip",
+    "title": "Which side of the window is the streak on? #shorts",
+    "description": "Wipe the inside of the glass with horizontal strokes and the outside with vertical strokes. The direction of a streak then tells you which side to fix. Full 7-step guide on the channel. #windows #cleaninghacks #howto",
+    "headline": "Two directions",
+    "hook": "Can't tell which side of the window the streak is on?",
+    "shot": "short2-hook.jpg",
+    "beats": [
+      {
+        "label": "Do this",
+        "title": "Inside across, outside down",
+        "narration": "Wipe the inside with horizontal strokes and the outside with vertical strokes.",
+        "shot": "8-2"
+      },
+      {
+        "label": "Why it works",
+        "title": "The streak points to the side",
+        "narration": "The direction of a streak then tells you which side to fix.",
+        "shot": "8-3"
+      }
+    ],
+    "cta": "The full seven-step guide is on the channel."
   }
 }

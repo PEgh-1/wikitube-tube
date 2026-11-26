@@ -1,0 +1,309 @@
+{
+ "extras": {
+  "intro": {
+   "pose": "idea",
+   "diagram": "window-squeegee",
+   "title": "Why windows streak",
+   "mode": "sun",
+   "chips": [
+    {
+     "on": "sun",
+     "label": "Direct sun",
+     "sub": "dries the liquid too fast",
+     "mode": "sun"
+    },
+    {
+     "on": "film",
+     "label": "Too much cleaner",
+     "sub": "leaves a film",
+     "mode": "film"
+    },
+    {
+     "on": "lint",
+     "label": "The wrong cloth",
+     "sub": "leaves lint",
+     "mode": "film"
+    },
+    {
+     "on": "squeegee",
+     "label": "Bucket and squeegee",
+     "sub": "are enough",
+     "mode": "squeegee"
+    },
+    {
+     "on": "Never",
+     "label": "Never lean out",
+     "sub": "stay on the ground",
+     "mode": "squeegee"
+    }
+   ],
+   "gags": []
+  },
+  "step-1": {
+   "ticks": [],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 4,
+     "on": "towel",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "A towel on the sill catches the drips.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": [
+    {
+     "shot": 1,
+     "on": "sun",
+     "name": "window-squeegee",
+     "mode": "sun",
+     "title": "Why sun leaves streaks",
+     "dur": 4.8
+    }
+   ]
+  },
+  "step-2": {
+   "ticks": [
+    {
+     "shot": 1,
+     "on": "brush",
+     "label": "Dry brush"
+    }
+   ],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 5,
+     "on": "top",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "Top down: no drips on cleaned areas.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 3,
+     "on": "muddy",
+     "pose": "panic",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": []
+  },
+  "step-3": {
+   "ticks": [],
+   "facts": [
+    {
+     "shot": 1,
+     "on": "gallon",
+     "kind": "measure",
+     "big": "1 gallon",
+     "small": "4 litres of warm water",
+     "dur": 4.0
+    },
+    {
+     "shot": 4,
+     "on": "equal",
+     "kind": "measure",
+     "big": "1 : 1",
+     "small": "water and white vinegar",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 7,
+     "on": "bleach",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Mixing vinegar with bleach or ammonia.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": [
+    {
+     "shot": 3,
+     "on": "film",
+     "name": "window-squeegee",
+     "mode": "film",
+     "title": "Too much soap",
+     "dur": 4.8
+    }
+   ]
+  },
+  "step-4": {
+   "ticks": [
+    {
+     "shot": 1,
+     "on": "microfiber",
+     "label": "Microfiber cloth"
+    }
+   ],
+   "facts": [
+    {
+     "shot": 4,
+     "on": "minute",
+     "kind": "timer",
+     "big": "1 min",
+     "small": "wet cloth held on the spot",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 5,
+     "on": "abrasive",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Abrasive scrubbers: they can scratch glass.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": []
+  },
+  "step-5": {
+   "ticks": [],
+   "facts": [
+    {
+     "shot": 3,
+     "on": "inch",
+     "kind": "measure",
+     "big": "1 inch",
+     "small": "overlap on each stroke",
+     "dur": 4.0
+    }
+   ],
+   "cards": [],
+   "gags": [
+    {
+     "shot": 8,
+     "on": "professional",
+     "pose": "thumbs",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": [
+    {
+     "shot": 1,
+     "on": "squeegee",
+     "name": "window-squeegee",
+     "mode": "squeegee",
+     "title": "The squeegee stroke",
+     "dur": 4.8
+    }
+   ]
+  },
+  "step-6": {
+   "ticks": [
+    {
+     "shot": 1,
+     "on": "microfiber",
+     "label": "Dry microfiber cloth"
+    }
+   ],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 4,
+     "on": "paper",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Paper towels and newspaper: lint, or ink.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": []
+  },
+  "step-7": {
+   "ticks": [
+    {
+     "shot": 3,
+     "on": "toothbrush",
+     "label": "Toothbrush"
+    }
+   ],
+   "facts": [
+    {
+     "shot": 6,
+     "on": "three",
+     "kind": "timer",
+     "big": "3–4 months",
+     "small": "between full cleans",
+     "dur": 4.0
+    }
+   ],
+   "cards": [],
+   "gags": [],
+   "diagrams": []
+  },
+  "step-8": {
+   "ticks": [],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 6,
+     "on": "softener",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Fabric softener on microfiber: it leaves a film.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": [
+    {
+     "shot": 2,
+     "on": "horizontal",
+     "name": "window-squeegee",
+     "mode": "sides",
+     "title": "Which side is it on?",
+     "dur": 4.8
+    }
+   ]
+  },
+  "step-9": {
+   "ticks": [],
+   "facts": [],
+   "cards": [],
+   "gags": [
+    {
+     "shot": 2,
+     "on": "fall",
+     "pose": "panic",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": []
+  },
+  "step-10": {
+   "ticks": [],
+   "facts": [],
+   "cards": [],
+   "gags": [
+    {
+     "shot": 2,
+     "on": "smudges",
+     "pose": "thumbs",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": []
+  }
+ },
+ "shots": {},
+ "short": [
+  "1-1",
+  "3-1",
+  "5-1"
+ ]
+}

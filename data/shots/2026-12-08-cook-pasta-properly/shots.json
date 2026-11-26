@@ -1,0 +1,757 @@
+{
+  "episodeId": "2026-12-08-cook-pasta-properly",
+  "version": 3,
+  "source": "gemini-web (navigateur, sans API)",
+  "style": "Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+  "hero": {
+    "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a wide stainless steel pan of glossy spaghetti coated in bright tomato sauce, a hand lifting a twirl of pasta with tongs, steam rising, fresh basil leaves on top, three-quarter view. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+    "file": "hero.jpg"
+  },
+  "youneed": {
+    "prompt": "Flat lay photographed from directly above on a light wood surface, items neatly arranged with clear space between them: a bundle of dry spaghetti tied with plain string, a large empty stainless steel pot, a small bowl of coarse salt, a metal colander, a plain glass jar of red tomato sauce with no label, and a plain white mug. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+    "file": "youneed.jpg",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  "mistakesSubtitle": "that ruin a simple plate of pasta",
+  "mistakes": [
+    {
+      "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a very small saucepan crammed with spaghetti sticking out and clumped together in very little water, a hand holding a small salt shaker above it, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "mistake-1.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a hand rinsing cooked spaghetti in a colander under running tap water in the sink, a plain glass bottle of oil standing beside the sink, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "mistake-2.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a fork lifting limp, swollen, overcooked spaghetti that breaks and droops over a pot of cloudy water, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "mistake-3.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ]
+    }
+  ],
+  "shots": {
+    "step-1": [
+      {
+        "text": "Step one. Fill a large pot with plenty of water, roughly four to five litres, or about a gallon, for every pound of pasta.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a hand holding a large stainless steel pot under a running kitchen tap, the pot almost full of water, a bundle of dry spaghetti on the counter beside the sink. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-1.jpg"
+      },
+      {
+        "text": "This lets the pasta move freely, and stops the water temperature from dropping too much when you add it.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: seen from above, short penne pasta moving freely with lots of space in a large pot of boiling water, big bubbles. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-2.jpg"
+      },
+      {
+        "text": "Cooking pasta in a small pot makes it clump and turn sticky.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a very small saucepan crammed with spaghetti stuck together in one clump in very little water, a fork trying to pull the strands apart, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-3.jpg"
+      },
+      {
+        "text": "Put the pot on the largest burner, cover it with a lid, and bring it up to a rolling boil, which is faster.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a hand placing a lid on a large stainless steel pot of water on the largest burner of the cooktop, the burner glowing red. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-4.jpg"
+      },
+      {
+        "text": "A tight lid helps the water boil faster, which saves time and energy.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: close-up of a covered large pot on a glowing burner, steam escaping from under the edge of the lid, tiny bubbles visible through a glass lid. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-5.jpg"
+      },
+      {
+        "text": "Remove it once the pasta goes in.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a hand lifting the lid off a large pot of boiling water, steam rising, the other hand holding a bundle of dry spaghetti ready above the pot. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-6.jpg"
+      }
+    ],
+    "step-2": [
+      {
+        "text": "Step two. Once the water is boiling, add salt.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a large pot of water at a strong rolling boil on the cooktop, a hand holding a small bowl of coarse salt next to it. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-1.jpg"
+      },
+      {
+        "text": "A good rule is about one to two tablespoons of coarse salt for four litres, or a gallon, of water.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a hand holding a heaped metal tablespoon of coarse salt above a large pot of boiling water, a small bowl of coarse salt in the other hand, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-2.jpg"
+      },
+      {
+        "text": "It should taste like mild seawater.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a hand lifting a small spoon of hot water from the pot to taste it, steam rising, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-3.jpg"
+      },
+      {
+        "text": "This is the only chance to season the pasta itself from the inside, and salt in the water won't make the pasta too salty, because most of it goes down the drain.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: close-up of coarse salt grains falling from a spoon into boiling water, a few pieces of penne visible in the water below. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-4.jpg"
+      },
+      {
+        "text": "Under-salted water is the number one reason pasta tastes flat.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a plate of plain pale cooked spaghetti with no sauce on a white counter, a hand pushing the plate slightly away, a fork resting on the rim. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-5.jpg"
+      },
+      {
+        "text": "Don't be shy about the salt.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a hand generously tipping a spoonful of coarse salt into a large pot of boiling water, seen from the side, salt in mid-air. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-6.jpg"
+      },
+      {
+        "text": "Most of it stays in the water, and the pasta absorbs only a small amount.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: cloudy salted pasta water pouring out of a pot through a colander into the sink, steam rising, the cooked pasta staying in the colander. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-7.jpg"
+      },
+      {
+        "text": "Now the pasta can go in.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a hand lowering a bundle of dry spaghetti toward a large pot of salted boiling water, just before letting go. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-8.jpg"
+      }
+    ],
+    "step-3": [
+      {
+        "text": "Step three. Add the pasta to the boiling water, and push it under the surface with a wooden spoon as it softens.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a hand pushing half-softened spaghetti down under the surface of boiling water with a wooden spoon, the stiff dry ends still sticking out of the large pot. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-1.jpg"
+      },
+      {
+        "text": "Stir well during the first two minutes, because that's when the pasta is stickiest, and it can clump together.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a hand stirring spaghetti in a large pot of boiling water with a wooden spoon, the strands swirling apart, seen from above. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-2.jpg"
+      },
+      {
+        "text": "Don't add oil to the water.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a hand holding a plain glass bottle of golden oil tilted above a pot of boiling pasta, the other hand raised flat in a stop gesture. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-3.jpg"
+      },
+      {
+        "text": "It doesn't prevent sticking, and it makes the sauce slide off the pasta later.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: close-up of a fork lifting oily, shiny spaghetti from a plate while thin red tomato sauce slides off and pools at the bottom of the plate. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-4.jpg"
+      },
+      {
+        "text": "Keep the water at a steady boil, with the lid off, so it doesn't boil over.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a large uncovered pot of pasta at a steady boil on the cooktop, the lid resting on the counter beside it, a wooden spoon lying across the rim of the pot. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-5.jpg"
+      },
+      {
+        "text": "Long pasta like spaghetti will soften in a minute, so just keep pushing it down until it is fully under water.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a wooden spoon pressing the last curved strands of spaghetti completely under the boiling water in a large pot, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-6.jpg"
+      }
+    ],
+    "step-4": [
+      {
+        "text": "Step four. Check the cooking time on the package, then set a timer for one or two minutes less.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a hand turning the dial of a small round mechanical kitchen timer with a plain blank face, a plain unprinted brown paper bag of pasta standing beside it on the counter. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-1.jpg"
+      },
+      {
+        "text": "Start tasting then.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a hand lifting a single strand of spaghetti out of the boiling pot with a fork, steam rising, the small round mechanical timer in the background. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-2.jpg"
+      },
+      {
+        "text": "The pasta should be al dente, which means soft but with a slight firmness in the center when you bite it.",
+        "prompt": "Macro close-up of a piece of cooked penne bitten in half, held between two fingers, showing a slightly firmer paler ring in the center of the cut. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-3.jpg"
+      },
+      {
+        "text": "Fish out a piece with a fork, let it cool for a moment, and bite it.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a fork holding one piece of penne above the pot to cool, steam drifting away, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-4.jpg"
+      },
+      {
+        "text": "If you see a white dot in the middle, it needs another minute.",
+        "prompt": "Macro close-up of the cut end of a strand of cooked spaghetti held between two fingertips, a tiny white dot visible in the very center of the cross-section. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-5.jpg"
+      },
+      {
+        "text": "Tasting is more reliable than timing alone.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a hand bringing a fork with a few strands of spaghetti up and out of the frame to taste, the small mechanical timer ignored on the counter behind. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-6.jpg"
+      },
+      {
+        "text": "Different brands and shapes cook differently, so always trust your own bite more than the number on the box.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: three small white bowls of different dry pasta shapes side by side on the counter, spaghetti, penne and bow-ties, a fork resting in front of them. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-7.jpg"
+      },
+      {
+        "text": "But before you drain, there is one thing to save.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a hand holding an empty plain white mug right next to a large pot of boiling pasta, a metal colander waiting in the sink behind. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-8.jpg"
+      }
+    ],
+    "step-5": [
+      {
+        "text": "Step five. Before you drain anything, scoop out a mug of the cloudy cooking water.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a hand dipping a plain white mug into a large pot of pasta and scooping out cloudy cooking water, steam rising, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-1.jpg"
+      },
+      {
+        "text": "It's full of starch and salt, and it's the secret ingredient of restaurant pasta sauces.",
+        "prompt": "Close-up of a plain white mug filled with cloudy, milky, starchy pasta cooking water held in a hand, a pot of pasta softly blurred behind. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-2.jpg"
+      },
+      {
+        "text": "A few spoonfuls will thicken your sauce, help it cling to the pasta and make it silky.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a spoon pouring cloudy pasta water into a pan of tomato sauce, the sauce looking thick, glossy and silky, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-3.jpg"
+      },
+      {
+        "text": "Set the mug next to the stove, where you won't forget it.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a hand setting a plain white mug of cloudy water down on the counter right next to the cooktop, a large pot of pasta beside it. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-4.jpg"
+      },
+      {
+        "text": "You can pour out any extra later, but you can't get it back once the pot is in the sink.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a large empty pot tilted in the sink with the last cloudy water running down the drain, a hand holding the pot handle, a colander of pasta beside it. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-5.jpg"
+      },
+      {
+        "text": "You can also stir a spoonful into soups and stews later, to give them body.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a spoon pouring a little cloudy pasta water from a plain white mug into a pot of vegetable soup on the cooktop, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-6.jpg"
+      }
+    ],
+    "step-6": [
+      {
+        "text": "Step six. Drain the pasta in a colander in the sink.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: hands tipping a large pot of spaghetti and boiling water into a metal colander standing in the sink, water pouring through. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-1.jpg"
+      },
+      {
+        "text": "Be careful of the steam.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a big cloud of steam rising from a colander of hot pasta in the sink, hands holding the pot handles at arm's length with a folded kitchen towel. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-2.jpg"
+      },
+      {
+        "text": "Shake it briefly, but don't rinse it with water, which washes off the starch that helps the sauce stick.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: hands shaking a metal colander full of steaming spaghetti over the sink, the tap above clearly turned off and dry. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-3.jpg"
+      },
+      {
+        "text": "The only exception is a cold pasta salad.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a bowl of cold pasta salad with short pasta, cherry tomatoes and green herbs on a white counter, a hand holding a serving spoon in it. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-4.jpg"
+      },
+      {
+        "text": "Don't let the drained pasta sit and cool, since it clumps.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a colander of drained spaghetti left sitting in the sink, the strands dull and stuck together in one clump, a fork lifting the whole clump at once. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-5.jpg"
+      },
+      {
+        "text": "Move straight to the next step, with the sauce already warm in a wide pan, ready and waiting.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a wide stainless steel pan of warm red tomato sauce gently simmering on the cooktop, a colander of freshly drained spaghetti held just beside it. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-6.jpg"
+      },
+      {
+        "text": "Pasta is best eaten hot, so have your plates, your cheese and your sauce all ready before you drain.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: two warm white plates, a small bowl of grated cheese and a pan of sauce set out ready on the counter, a hand placing a fork beside the plates. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-7.jpg"
+      },
+      {
+        "text": "Now for the step that brings it all together.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: hands carrying a colander of steaming drained spaghetti from the sink toward a wide pan of red sauce on the cooktop. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-8.jpg"
+      }
+    ],
+    "step-7": [
+      {
+        "text": "Step seven. Tip the pasta into the pan with your warm sauce, and add a splash of the pasta water.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: hands tipping drained spaghetti from a colander into a wide pan of warm tomato sauce, a plain white mug of cloudy water held ready beside the pan. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-1.jpg"
+      },
+      {
+        "text": "Stir or toss over medium heat for one to two minutes, until the sauce coats every piece, and the pasta finishes cooking in the flavor.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a hand tossing spaghetti in tomato sauce with tongs in a wide pan over a glowing burner, the sauce coating every strand, steam rising. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-2.jpg"
+      },
+      {
+        "text": "Add more pasta water if it looks dry.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a hand pouring a small splash of cloudy water from a plain white mug into a pan of spaghetti in tomato sauce, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-3.jpg"
+      },
+      {
+        "text": "Take the pan off the heat, add cheese, fresh herbs or a drizzle of olive oil, and serve right away on warm plates, because pasta waits for no one.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a hand grating cheese over a plate of glossy spaghetti in tomato sauce topped with fresh basil leaves, a second warm plate waiting beside it. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-4.jpg"
+      },
+      {
+        "text": "If you are making baked pasta, stop one or two minutes early, because it will cook more in the oven.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: hands sliding a white ceramic baking dish of penne in tomato sauce topped with cheese into an open oven, oven mitts on both hands. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-5.jpg"
+      }
+    ],
+    "step-8": [
+      {
+        "text": "Most pasta problems have a simple fix.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a plate of spaghetti with tomato sauce on the counter, a hand holding a fork above it, a plain white mug and a small bowl of salt beside the plate. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-8-1.jpg"
+      },
+      {
+        "text": "If the pasta is stuck together, toss it in the hot sauce with a splash of pasta water, and it will loosen.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: tongs loosening a clump of stuck spaghetti in a pan of hot tomato sauce while a hand pours a splash of cloudy water from a plain white mug. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-8-2.jpg"
+      },
+      {
+        "text": "If the sauce is too thin, simmer it with the pasta for another minute.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a pan of spaghetti in a thin watery tomato sauce simmering with small bubbles on the cooktop, a wooden spoon stirring, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-8-3.jpg"
+      },
+      {
+        "text": "If it tastes flat, add a pinch of salt or some cheese.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: fingers sprinkling a pinch of salt over a pan of spaghetti in sauce, a small bowl of grated cheese held ready in the other hand. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-8-4.jpg"
+      },
+      {
+        "text": "Overcooked pasta cannot be saved, so use it in a baked dish or soup.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a spoon lifting soft swollen overcooked pasta from a bowl of vegetable soup, a white ceramic baking dish waiting on the counter behind. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-8-5.jpg"
+      }
+    ],
+    "step-9": [
+      {
+        "text": "The right shape makes a better dish.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: five small white bowls of different dry pasta shapes arranged in a row on the counter, a hand reaching for one of them, seen from above. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-9-1.jpg"
+      },
+      {
+        "text": "Long, thin pasta like spaghetti suits light, smooth sauces with oil or tomato.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a plate of thin spaghetti in a light smooth tomato sauce glistening with olive oil, a fork twirling a neat nest of pasta, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-9-2.jpg"
+      },
+      {
+        "text": "Short shapes with ridges or hollows, like penne or rigatoni, catch thick, chunky sauces.",
+        "prompt": "Macro close-up of ridged rigatoni and penne on a fork, thick chunky vegetable and tomato sauce caught inside the tubes and in the ridges. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-9-3.jpg"
+      },
+      {
+        "text": "Wide ribbons suit rich, creamy sauces.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a plate of wide ribbon pasta coated in a rich pale creamy sauce, a fork lifting a few wide ribbons, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-9-4.jpg"
+      },
+      {
+        "text": "Fresh pasta cooks in only a few minutes, so stay by the pot and taste early.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a hand lowering nests of fresh pale yellow egg pasta into a pot of boiling water, a fork held ready in the other hand to taste. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-9-5.jpg"
+      },
+      {
+        "text": "Whole wheat and gluten-free pasta vary a lot, so follow the package and taste sooner.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: two plain unprinted paper bags on the counter, one spilling brown whole wheat penne, the other pale yellow penne, a hand lifting a piece from the pot behind with a fork. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-9-6.jpg"
+      }
+    ],
+    "step-10": [
+      {
+        "text": "Leftover pasta keeps well if you cool it quickly.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a hand spreading leftover cooked penne in a shallow glass container on the counter so it cools quickly, a little steam still rising. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-10-1.jpg"
+      },
+      {
+        "text": "Within two hours of cooking, put it in a container in the fridge.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a hand placing a closed glass container of cooked pasta on a shelf inside an open refrigerator. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-10-2.jpg"
+      },
+      {
+        "text": "Toss it with a teaspoon of oil first, so it does not set into one block.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a hand drizzling a teaspoon of oil over cooked penne in a glass container, a fork tossing the pasta, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-10-3.jpg"
+      },
+      {
+        "text": "Eat it within three to four days.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a hand taking a closed glass container of cooked pasta out of an open refrigerator, shelves with fresh vegetables behind. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-10-4.jpg"
+      },
+      {
+        "text": "To reheat, add a splash of water, and warm it in a pan or covered in the microwave until steaming hot.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a hand adding a small splash of water from a glass to leftover pasta warming in a pan on the cooktop, steam rising. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-10-5.jpg"
+      },
+      {
+        "text": "Plain cooked pasta also freezes well.",
+        "prompt": "In a bright modern kitchen with a black glass cooktop set in a white counter, pale grey cabinets and a window: a hand placing a flat sealed clear freezer bag of plain cooked penne into an open freezer drawer. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a dark forest-green cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-10-6.jpg"
+      }
+    ]
+  },
+  "extras": {
+    "intro": {
+      "pose": "chef",
+      "diagram": "pasta-pot",
+      "title": "What makes good pasta",
+      "mode": "boil",
+      "chips": [
+        {
+          "on": "water",
+          "label": "Plenty of water",
+          "sub": "room to move",
+          "mode": "boil"
+        },
+        {
+          "on": "salt",
+          "label": "Enough salt",
+          "sub": "seasons from the inside",
+          "mode": "salt"
+        },
+        {
+          "on": "moment",
+          "label": "Stop at the right moment",
+          "sub": "still a slight bite",
+          "mode": "dente"
+        },
+        {
+          "on": "finishing",
+          "label": "Finish in the sauce",
+          "sub": "not sauce on top",
+          "mode": "sauce"
+        },
+        {
+          "on": "shape",
+          "label": "Any dried shape",
+          "sub": "no extra time",
+          "mode": "sauce"
+        }
+      ],
+      "gags": []
+    },
+    "step-1": {
+      "ticks": [],
+      "facts": [
+        {
+          "shot": 1,
+          "on": "litres",
+          "kind": "measure",
+          "big": "4–5 L",
+          "small": "about a gallon per pound of pasta",
+          "dur": 4.0
+        }
+      ],
+      "cards": [
+        {
+          "shot": 3,
+          "on": "small",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "A small pot: the pasta clumps and turns sticky.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": [
+        {
+          "shot": 2,
+          "on": "freely",
+          "name": "pasta-pot",
+          "mode": "boil",
+          "title": "Why a big pot",
+          "dur": 4.8
+        }
+      ]
+    },
+    "step-2": {
+      "ticks": [
+        {
+          "shot": 1,
+          "on": "salt",
+          "label": "Coarse salt"
+        }
+      ],
+      "facts": [
+        {
+          "shot": 2,
+          "on": "tablespoons",
+          "kind": "measure",
+          "big": "1–2 tbsp",
+          "small": "coarse salt per gallon of water",
+          "dur": 4.0
+        }
+      ],
+      "cards": [
+        {
+          "shot": 4,
+          "on": "season",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "It is the only chance to season the pasta itself.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [
+        {
+          "shot": 5,
+          "on": "flat",
+          "pose": "no",
+          "side": "left",
+          "dur": 2.8
+        }
+      ],
+      "diagrams": [
+        {
+          "shot": 7,
+          "on": "stays",
+          "name": "pasta-pot",
+          "mode": "salt",
+          "title": "Where the salt goes",
+          "dur": 4.8
+        }
+      ]
+    },
+    "step-3": {
+      "ticks": [],
+      "facts": [
+        {
+          "shot": 2,
+          "on": "two",
+          "kind": "timer",
+          "big": "2 min",
+          "small": "stir well at the start",
+          "dur": 4.0
+        }
+      ],
+      "cards": [
+        {
+          "shot": 3,
+          "on": "oil",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Oil in the water: the sauce slides off later.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [
+        {
+          "shot": 5,
+          "on": "boil",
+          "pose": "watch",
+          "side": "left",
+          "dur": 2.8
+        }
+      ],
+      "diagrams": []
+    },
+    "step-4": {
+      "ticks": [],
+      "facts": [
+        {
+          "shot": 1,
+          "on": "timer",
+          "kind": "timer",
+          "big": "1–2 min less",
+          "small": "than the time on the package",
+          "dur": 4.0
+        }
+      ],
+      "cards": [
+        {
+          "shot": 6,
+          "on": "reliable",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "Brands and shapes cook differently.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": [
+        {
+          "shot": 5,
+          "on": "dot",
+          "name": "pasta-pot",
+          "mode": "dente",
+          "title": "The al dente check",
+          "dur": 4.8
+        }
+      ]
+    },
+    "step-5": {
+      "ticks": [
+        {
+          "shot": 1,
+          "on": "mug",
+          "label": "A mug"
+        }
+      ],
+      "facts": [],
+      "cards": [
+        {
+          "shot": 3,
+          "on": "thicken",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "Starchy water helps the sauce cling.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [
+        {
+          "shot": 5,
+          "on": "sink",
+          "pose": "panic",
+          "side": "left",
+          "dur": 2.8
+        }
+      ],
+      "diagrams": [
+        {
+          "shot": 2,
+          "on": "starch",
+          "name": "pasta-pot",
+          "mode": "starch",
+          "title": "What is in the water",
+          "dur": 4.8
+        }
+      ]
+    },
+    "step-6": {
+      "ticks": [
+        {
+          "shot": 1,
+          "on": "colander",
+          "label": "Colander"
+        }
+      ],
+      "facts": [],
+      "cards": [
+        {
+          "shot": 3,
+          "on": "rinse",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Rinsing: it washes off the starch.",
+          "dur": 4.4
+        },
+        {
+          "shot": 5,
+          "on": "sit",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Letting drained pasta sit: it clumps.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": []
+    },
+    "step-7": {
+      "ticks": [],
+      "facts": [
+        {
+          "shot": 2,
+          "on": "medium",
+          "kind": "timer",
+          "big": "1–2 min",
+          "small": "tossed over medium heat",
+          "dur": 4.0
+        }
+      ],
+      "cards": [],
+      "gags": [
+        {
+          "shot": 4,
+          "on": "serve",
+          "pose": "chef",
+          "side": "left",
+          "dur": 2.8
+        }
+      ],
+      "diagrams": [
+        {
+          "shot": 1,
+          "on": "splash",
+          "name": "pasta-pot",
+          "mode": "sauce",
+          "title": "Finish in the pan",
+          "dur": 4.8
+        }
+      ]
+    },
+    "step-8": {
+      "ticks": [],
+      "facts": [],
+      "cards": [
+        {
+          "shot": 2,
+          "on": "loosen",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "Hot sauce and pasta water loosen the clump.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": []
+    },
+    "step-9": {
+      "ticks": [],
+      "facts": [],
+      "cards": [
+        {
+          "shot": 3,
+          "on": "ridges",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "Ridges and hollows catch chunky sauce.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": []
+    },
+    "step-10": {
+      "ticks": [],
+      "facts": [
+        {
+          "shot": 2,
+          "on": "two",
+          "kind": "timer",
+          "big": "2 hours",
+          "small": "into the fridge after cooking",
+          "dur": 4.0
+        },
+        {
+          "shot": 4,
+          "on": "three",
+          "kind": "timer",
+          "big": "3–4 days",
+          "small": "eat it within",
+          "dur": 4.0
+        }
+      ],
+      "cards": [
+        {
+          "shot": 3,
+          "on": "oil",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "A little oil stops it setting into one block.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [
+        {
+          "shot": 6,
+          "on": "freezes",
+          "pose": "thumbs",
+          "side": "left",
+          "dur": 2.8
+        }
+      ],
+      "diagrams": []
+    }
+  },
+  "short": [
+    "2-6",
+    "5-1",
+    "7-2"
+  ]
+}

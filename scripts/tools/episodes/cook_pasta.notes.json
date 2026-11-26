@@ -1,0 +1,373 @@
+{
+ "extras": {
+  "intro": {
+   "pose": "chef",
+   "diagram": "pasta-pot",
+   "title": "What makes good pasta",
+   "mode": "boil",
+   "chips": [
+    {
+     "on": "water",
+     "label": "Plenty of water",
+     "sub": "room to move",
+     "mode": "boil"
+    },
+    {
+     "on": "salt",
+     "label": "Enough salt",
+     "sub": "seasons from the inside",
+     "mode": "salt"
+    },
+    {
+     "on": "moment",
+     "label": "Stop at the right moment",
+     "sub": "still a slight bite",
+     "mode": "dente"
+    },
+    {
+     "on": "finishing",
+     "label": "Finish in the sauce",
+     "sub": "not sauce on top",
+     "mode": "sauce"
+    },
+    {
+     "on": "shape",
+     "label": "Any dried shape",
+     "sub": "no extra time",
+     "mode": "sauce"
+    }
+   ],
+   "gags": []
+  },
+  "step-1": {
+   "ticks": [],
+   "facts": [
+    {
+     "shot": 1,
+     "on": "litres",
+     "kind": "measure",
+     "big": "4–5 L",
+     "small": "about a gallon per pound of pasta",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 3,
+     "on": "small",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "A small pot: the pasta clumps and turns sticky.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": [
+    {
+     "shot": 2,
+     "on": "freely",
+     "name": "pasta-pot",
+     "mode": "boil",
+     "title": "Why a big pot",
+     "dur": 4.8
+    }
+   ]
+  },
+  "step-2": {
+   "ticks": [
+    {
+     "shot": 1,
+     "on": "salt",
+     "label": "Coarse salt"
+    }
+   ],
+   "facts": [
+    {
+     "shot": 2,
+     "on": "tablespoons",
+     "kind": "measure",
+     "big": "1–2 tbsp",
+     "small": "coarse salt per gallon of water",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 4,
+     "on": "season",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "It is the only chance to season the pasta itself.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 5,
+     "on": "flat",
+     "pose": "no",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": [
+    {
+     "shot": 7,
+     "on": "stays",
+     "name": "pasta-pot",
+     "mode": "salt",
+     "title": "Where the salt goes",
+     "dur": 4.8
+    }
+   ]
+  },
+  "step-3": {
+   "ticks": [],
+   "facts": [
+    {
+     "shot": 2,
+     "on": "two",
+     "kind": "timer",
+     "big": "2 min",
+     "small": "stir well at the start",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 3,
+     "on": "oil",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Oil in the water: the sauce slides off later.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 5,
+     "on": "boil",
+     "pose": "watch",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": []
+  },
+  "step-4": {
+   "ticks": [],
+   "facts": [
+    {
+     "shot": 1,
+     "on": "timer",
+     "kind": "timer",
+     "big": "1–2 min less",
+     "small": "than the time on the package",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 6,
+     "on": "reliable",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "Brands and shapes cook differently.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": [
+    {
+     "shot": 5,
+     "on": "dot",
+     "name": "pasta-pot",
+     "mode": "dente",
+     "title": "The al dente check",
+     "dur": 4.8
+    }
+   ]
+  },
+  "step-5": {
+   "ticks": [
+    {
+     "shot": 1,
+     "on": "mug",
+     "label": "A mug"
+    }
+   ],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 3,
+     "on": "thicken",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "Starchy water helps the sauce cling.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 5,
+     "on": "sink",
+     "pose": "panic",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": [
+    {
+     "shot": 2,
+     "on": "starch",
+     "name": "pasta-pot",
+     "mode": "starch",
+     "title": "What is in the water",
+     "dur": 4.8
+    }
+   ]
+  },
+  "step-6": {
+   "ticks": [
+    {
+     "shot": 1,
+     "on": "colander",
+     "label": "Colander"
+    }
+   ],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 3,
+     "on": "rinse",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Rinsing: it washes off the starch.",
+     "dur": 4.4
+    },
+    {
+     "shot": 5,
+     "on": "sit",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Letting drained pasta sit: it clumps.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": []
+  },
+  "step-7": {
+   "ticks": [],
+   "facts": [
+    {
+     "shot": 2,
+     "on": "medium",
+     "kind": "timer",
+     "big": "1–2 min",
+     "small": "tossed over medium heat",
+     "dur": 4.0
+    }
+   ],
+   "cards": [],
+   "gags": [
+    {
+     "shot": 4,
+     "on": "serve",
+     "pose": "chef",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": [
+    {
+     "shot": 1,
+     "on": "splash",
+     "name": "pasta-pot",
+     "mode": "sauce",
+     "title": "Finish in the pan",
+     "dur": 4.8
+    }
+   ]
+  },
+  "step-8": {
+   "ticks": [],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 2,
+     "on": "loosen",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "Hot sauce and pasta water loosen the clump.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": []
+  },
+  "step-9": {
+   "ticks": [],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 3,
+     "on": "ridges",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "Ridges and hollows catch chunky sauce.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": []
+  },
+  "step-10": {
+   "ticks": [],
+   "facts": [
+    {
+     "shot": 2,
+     "on": "two",
+     "kind": "timer",
+     "big": "2 hours",
+     "small": "into the fridge after cooking",
+     "dur": 4.0
+    },
+    {
+     "shot": 4,
+     "on": "three",
+     "kind": "timer",
+     "big": "3–4 days",
+     "small": "eat it within",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 3,
+     "on": "oil",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "A little oil stops it setting into one block.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 6,
+     "on": "freezes",
+     "pose": "thumbs",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": []
+  }
+ },
+ "shots": {},
+ "short": [
+  "2-6",
+  "5-1",
+  "7-2"
+ ]
+}

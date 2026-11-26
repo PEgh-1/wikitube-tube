@@ -1,0 +1,703 @@
+{
+  "episodeId": "2026-12-11-clean-silver-jewelry-at-home",
+  "version": 3,
+  "source": "gemini-web (navigateur, sans API)",
+  "style": "Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+  "hero": {
+    "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: brilliantly shiny sterling silver rings, a chain necklace and a pair of earrings laid out on the towel, a hand buffing one bright ring with a soft grey cloth, sparkling highlights, three-quarter view. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+    "file": "hero.jpg"
+  },
+  "youneed": {
+    "prompt": "Flat lay photographed from directly above on a light wood surface, items neatly arranged with clear space between them: a plain clear bottle of dish soap next to a glass bowl of warm water, a small bowl of fine white powder, a roll of aluminum foil, a soft white toothbrush, and a folded soft grey polishing cloth. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+    "file": "youneed.jpg",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  "mistakesSubtitle": "that scratch or damage silver",
+  "mistakes": [
+    {
+      "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a hand scrubbing a dull tarnished silver ring hard with a stiff brush covered in white toothpaste, a plain white unlabelled tube lying beside it, fine scratches visible on the silver, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "mistake-1.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a hand lowering a white pearl necklace and a ring with a blue-green turquoise stone into a glass bowl of water, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "mistake-2.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a hand rubbing an antique silver locket with dark detail in its engraved pattern with a cloth, half of the dark detail already rubbed away, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "mistake-3.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ]
+    }
+  ],
+  "shots": {
+    "step-1": [
+      {
+        "text": "Step one. Look closely at each piece.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a hand holding a slightly dull silver ring up close to examine it, a silver chain, a bracelet and earrings waiting on the towel. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-1.jpg"
+      },
+      {
+        "text": "Is it solid sterling silver, often stamped 925, or silver-plated?",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: macro close-up of the inside of a silver ring band held between fingertips, a tiny indistinct hallmark stamp pressed into the metal, a round magnifying glass held just above it. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-2.jpg"
+      },
+      {
+        "text": "Plating is a thin layer that can wear away with harsh rubbing.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: macro close-up of the edge of a silver-plated bracelet where the thin silver layer has worn away and a yellowish metal shows underneath, a fingertip pointing at the worn spot. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-3.jpg"
+      },
+      {
+        "text": "Check for gemstones, pearls, opals, turquoise or glued parts, because soft or porous stones are damaged by soaking and strong methods.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a hand setting aside on a small white dish a pearl necklace, a ring with a milky opal and a pendant with a blue-green turquoise stone, away from a glass bowl of water. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-4.jpg"
+      },
+      {
+        "text": "Antique pieces with dark detail, called oxidized silver, are meant to look dark in the crevices, so don't remove it.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: an antique silver locket with an engraved pattern, the crevices of the pattern deliberately dark, held gently between fingertips, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-5.jpg"
+      },
+      {
+        "text": "If you're unsure, stick to method one.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a hand placing a silver ring next to a small glass bowl of soapy water and a soft white toothbrush, the other bowls pushed to the back of the table. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-6.jpg"
+      },
+      {
+        "text": "If a piece has a clasp or hinge that moves, test that it works before cleaning, and check again afterwards.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: fingertips opening the small clasp of a silver chain to test it, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-7.jpg"
+      }
+    ],
+    "step-2": [
+      {
+        "text": "Step two. This safe, gentle method works for light tarnish and everyday dirt.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a lightly tarnished, dull silver chain and a dull silver ring lying on the towel next to a glass bowl of clear soapy water with a few bubbles. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-1.jpg"
+      },
+      {
+        "text": "Fill a bowl with warm, not boiling, water, and add a few drops of mild dish soap.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a hand squeezing a few drops of clear dish soap from a plain clear bottle into a glass bowl of warm water, a faint wisp of steam, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-2.jpg"
+      },
+      {
+        "text": "Soak your jewelry for five minutes, then gently scrub with a soft toothbrush, paying attention to the chain links and the settings.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a hand gently scrubbing the links of a silver chain with a soft white toothbrush over a glass bowl of soapy water, small soap bubbles on the chain, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-3.jpg"
+      },
+      {
+        "text": "Rinse under lukewarm water and pat dry.",
+        "prompt": "At a clean white kitchen sink with a plain chrome tap, a folded white towel on the counter beside it: fingers holding a silver ring under a gentle stream of water from the tap, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-4.jpg"
+      },
+      {
+        "text": "Close the sink drain first, so a small ring can't disappear.",
+        "prompt": "At a clean white kitchen sink with a plain chrome tap, a folded white towel on the counter beside it: a hand pressing the metal drain stopper of the sink closed, a small silver ring resting on the edge of the counter, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-5.jpg"
+      },
+      {
+        "text": "Always dry your hands and the piece well afterwards, so that no soap film stays behind to dull the shine.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: hands patting a silver ring completely dry inside a folded white cotton cloth, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-6.jpg"
+      },
+      {
+        "text": "If some tarnish is still there, the next method goes one step further.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a hand holding a silver ring that still shows dark tarnish patches up to the window light, a small bowl of fine white powder waiting on the table behind. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-7.jpg"
+      }
+    ],
+    "step-3": [
+      {
+        "text": "Step three. For moderate tarnish, mix three parts baking soda with one part water to make a thick paste.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a small spoon stirring fine white powder and a little water into a thick white paste in a small ceramic bowl, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-1.jpg"
+      },
+      {
+        "text": "Apply it with a soft cloth or your fingertip, and rub gently along the piece, following the direction of any grain.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a fingertip rubbing thick white paste along the length of a tarnished silver bangle bracelet, moving along the band, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-2.jpg"
+      },
+      {
+        "text": "Baking soda is a mild abrasive, so it removes tarnish without scratching sterling silver much.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: macro close-up of a silver bangle bracelet, one half bright and clean, the other half still dark with tarnish and a little white paste, held between fingertips. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-3.jpg"
+      },
+      {
+        "text": "Use a soft toothbrush for detail.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a soft white toothbrush with a little white paste working into the engraved detail of a silver ring, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-4.jpg"
+      },
+      {
+        "text": "Rinse well, and dry with a soft cloth.",
+        "prompt": "At a clean white kitchen sink with a plain chrome tap, a folded white towel on the counter beside it: a hand rinsing a silver bangle bracelet under running water, a soft white cloth ready on the counter. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-5.jpg"
+      },
+      {
+        "text": "Don't use this method on plated silver or soft stones.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: one hand raised flat in a stop gesture above a small bowl of white paste, the other hand holding back a ring with a blue-green turquoise stone and a worn silver-plated bracelet. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-6.jpg"
+      },
+      {
+        "text": "Do a small test spot first, just in case, and keep the pressure light, since silver is a soft metal.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a fingertip dabbing a tiny dot of white paste on the inside of a silver ring band with a very light touch, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-7.jpg"
+      }
+    ],
+    "step-4": [
+      {
+        "text": "Step four. For heavy tarnish on solid silver, line a glass or ceramic bowl with aluminum foil, shiny side up.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: hands pressing a sheet of aluminum foil into a round glass bowl to line it, shiny side facing up, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-1.jpg"
+      },
+      {
+        "text": "Place the silver on the foil, so it touches.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a hand laying a dark tarnished silver chain and two tarnished silver rings flat on the aluminum foil inside the glass bowl, each piece touching the foil. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-2.jpg"
+      },
+      {
+        "text": "Add one tablespoon of baking soda per cup of very hot water, and pour it over the jewelry until covered.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a hand pouring steaming hot water from a plain kettle into the foil-lined glass bowl over the silver, a tablespoon of fine white powder held above the bowl in the other hand. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-3.jpg"
+      },
+      {
+        "text": "It will fizz.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: macro close-up of small fizzing bubbles rising around a silver ring lying on aluminum foil under hot water in a glass bowl. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-4.jpg"
+      },
+      {
+        "text": "Wait two to five minutes, and the tarnish transfers to the foil.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a small plain kitchen timer with a blank dial standing next to the foil-lined glass bowl, the silver chain in the water visibly brighter, the foil around it turned darker. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-5.jpg"
+      },
+      {
+        "text": "This method uses a chemical reaction, and it has a slight sulfur smell.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a hand pushing the window open wider next to the steaming foil-lined glass bowl, a faint wisp of steam drifting toward the window. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-6.jpg"
+      },
+      {
+        "text": "Take care with hot water, and never leave it unattended with children or pets nearby.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a hand in a quilted oven mitt sliding the steaming glass bowl to the back of the table, far from the edge, wide view. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-7.jpg"
+      },
+      {
+        "text": "Let the water cool before pouring it away.",
+        "prompt": "At a clean white kitchen sink with a plain chrome tap, a folded white towel on the counter beside it: a hand touching the outside of a foil-lined glass bowl standing next to the sink, no steam rising from the water any more. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-8.jpg"
+      },
+      {
+        "text": "Now for the part most people rush: rinsing and drying.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: metal kitchen tongs and a folded soft cloth laid ready next to the foil-lined glass bowl, bright silver visible under the water. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-9.jpg"
+      }
+    ],
+    "step-5": [
+      {
+        "text": "Step five. Remove the pieces from the water with tongs or a spoon, since they will be hot.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: metal kitchen tongs lifting a bright, dripping silver chain out of the foil-lined glass bowl, a faint wisp of steam, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-1.jpg"
+      },
+      {
+        "text": "Rinse each piece under cool running water to remove all residue.",
+        "prompt": "At a clean white kitchen sink with a plain chrome tap, a folded white towel on the counter beside it: fingers holding a bright silver ring under a stream of cool running water from the tap, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-2.jpg"
+      },
+      {
+        "text": "Dry with a soft cotton or microfiber cloth immediately.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: hands drying a bright silver ring straight away with a soft grey microfiber cloth, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-3.jpg"
+      },
+      {
+        "text": "Moisture left in the links or the settings can bring the tarnish back sooner.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: macro close-up of tiny water droplets trapped between the links of a silver chain. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-4.jpg"
+      },
+      {
+        "text": "For chains, use a cloth to wipe gently along the length.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a hand wiping gently along the length of a silver chain held taut with the other hand, using a soft cloth. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-5.jpg"
+      },
+      {
+        "text": "If a spot remains dark, repeat the method, rather than scrubbing harder.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a hand lowering a silver ring that still has one small dark spot back onto the aluminum foil in the glass bowl. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-6.jpg"
+      },
+      {
+        "text": "Pat, don't rub, near any delicate details.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a soft cloth gently patting, not rubbing, a silver pendant with delicate filigree detail lying on the towel, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-7.jpg"
+      },
+      {
+        "text": "A hair dryer on a cool setting can help dry tricky links.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a hand aiming a plain white hair dryer from a distance at a silver chain laid on the towel, the links slightly lifted by the air. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-8.jpg"
+      }
+    ],
+    "step-6": [
+      {
+        "text": "Step six. Use a silver polishing cloth, which is treated with a mild polish and tarnish inhibitor, to buff the piece.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a hand buffing a silver ring with a soft grey silver polishing cloth, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-1.jpg"
+      },
+      {
+        "text": "Rub gently, using long strokes, and turn the cloth to a clean section when it becomes dark.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a hand rubbing a silver bangle bracelet in a long stroke with a grey polishing cloth that shows dark marks, the fingers turning the cloth to a clean section. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-2.jpg"
+      },
+      {
+        "text": "Do not use paper towels or tissues, which can leave scratches.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a hand pushing a roll of white paper towels and a few crumpled paper tissues away to the edge of the table, a silver ring in the foreground. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-3.jpg"
+      },
+      {
+        "text": "Polish chains by pulling them through the folded cloth.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a hand pulling a silver chain slowly through a folded grey polishing cloth pinched between the fingers of the other hand, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-4.jpg"
+      },
+      {
+        "text": "A few minutes of buffing brings out the brightness, and leaves a protective layer.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a brilliantly shiny silver ring held between fingertips, catching the window light with a bright highlight, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-5.jpg"
+      },
+      {
+        "text": "Keep your cloth in a zip bag between uses, so it doesn't pick up dust or moisture.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a hand sliding a folded grey polishing cloth into a small clear plastic zip bag, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-6.jpg"
+      },
+      {
+        "text": "One thing is left: stopping the tarnish from coming straight back.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: shiny silver rings, a chain and earrings lying on the towel next to two small soft fabric pouches and a few small clear zip bags, calm wide view. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-7.jpg"
+      }
+    ],
+    "step-7": [
+      {
+        "text": "Step seven. Tarnish returns fastest when silver meets air and moisture.",
+        "prompt": "On a white windowsill with slightly misted window glass behind: a bright shiny silver ring and a dull dark tarnished silver ring lying side by side, a fingertip pointing at the dark one, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-1.jpg"
+      },
+      {
+        "text": "Store each piece separately in a soft pouch, or a small zip bag with the air pressed out.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a hand pressing the air out of a small clear zip bag holding a silver chain, a soft grey fabric pouch with a ring beside it, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-2.jpg"
+      },
+      {
+        "text": "Anti-tarnish bags or strips help.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a hand placing a small plain blank paper strip into a compartment of an open jewelry box holding silver pieces, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-3.jpg"
+      },
+      {
+        "text": "Keep silver away from bathrooms, and put it on last, after perfume, hairspray and lotion.",
+        "prompt": "At a wooden dressing table in a bedroom, a plain glass perfume bottle and a plain white jar of lotion on the table: a hand fastening a silver bracelet on the other wrist, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-4.jpg"
+      },
+      {
+        "text": "Take it off before swimming, as chlorine damages silver, and before cleaning or cooking.",
+        "prompt": "At the edge of an outdoor swimming pool with blue water blurred behind: a hand slipping a silver ring off a finger of the other hand, a folded towel beside, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-5.jpg"
+      },
+      {
+        "text": "Wearing silver often actually helps, because your skin oils keep it polished.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a hand wearing two shiny silver rings and a silver bracelet resting around a plain white coffee cup. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-6.jpg"
+      },
+      {
+        "text": "A small piece of chalk in the pouch also absorbs moisture, which helps your silver stay bright longer.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a hand dropping a small stick of white chalk into a soft grey fabric pouch that holds a silver chain, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-7.jpg"
+      }
+    ],
+    "step-8": [
+      {
+        "text": "If the tarnish stays, check your setup before you try again.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: tongs lifting a silver ring that is still dark with tarnish out of the foil-lined glass bowl, the other hand's fingertip pointing at the ring, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-8-1.jpg"
+      },
+      {
+        "text": "The foil must touch the silver, the water must be very hot, and the piece must be fully covered.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a spoon pressing a silver ring down flat onto the aluminum foil at the bottom of a glass bowl, fully covered by steaming hot water, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-8-2.jpg"
+      },
+      {
+        "text": "Repeat the bath once, and use a soft toothbrush on the crevices.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a soft white toothbrush working gently into the crevices of a silver ring held over the foil-lined glass bowl, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-8-3.jpg"
+      },
+      {
+        "text": "Do not scrub harder, because silver is soft and scratches easily.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: macro close-up of fine hairline scratches on the surface of a silver bangle bracelet, a fingertip beside them. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-8-4.jpg"
+      },
+      {
+        "text": "If the piece is plated, stop, because thin plating can wear through.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a hand pulling a silver-plated bracelet with a yellowish worn patch away from the foil-lined glass bowl, the other hand raised in a stop gesture. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-8-5.jpg"
+      }
+    ],
+    "step-9": [
+      {
+        "text": "Some pieces are worth a visit to a jeweler.",
+        "prompt": "At the glass counter of a small jeweler's workshop with warm lamp light, a dark velvet tray on the counter: a hand holding out a silver ring toward another person's open hand across the counter, no faces visible. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-9-1.jpg"
+      },
+      {
+        "text": "Antiques and family heirlooms deserve a professional's judgment before anything goes in water.",
+        "prompt": "At the glass counter of a small jeweler's workshop with warm lamp light, a dark velvet tray on the counter: an antique silver locket and an old engraved silver ring lying on the dark velvet tray, a hand resting beside them, a jeweler's loupe on the counter. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-9-2.jpg"
+      },
+      {
+        "text": "Pearls, opals, turquoise and other soft stones need special care.",
+        "prompt": "At the glass counter of a small jeweler's workshop with warm lamp light, a dark velvet tray on the counter: a pearl necklace, a ring with a milky opal and a pendant with a blue-green turquoise stone laid out on a soft cloth, a hand gently touching the cloth. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-9-3.jpg"
+      },
+      {
+        "text": "A jeweler can also tighten loose stones, fix a weak clasp, and check the small metal prongs that hold a stone in place.",
+        "prompt": "At the glass counter of a small jeweler's workshop with warm lamp light, a dark velvet tray on the counter: a jeweler's hands in a dark apron using fine pliers on the small metal prongs that hold a stone on a silver ring, under a bright work lamp, no faces visible, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-9-4.jpg"
+      },
+      {
+        "text": "Deep pitting or flaking plating needs a jeweler's opinion.",
+        "prompt": "At the glass counter of a small jeweler's workshop with warm lamp light, a dark velvet tray on the counter: macro close-up of a silver-plated pendant with small pits and flaking patches in its surface, held between fingertips under the lamp. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-9-5.jpg"
+      }
+    ],
+    "step-10": [
+      {
+        "text": "Tarnish comes from sulfur in the air, and your daily habits matter.",
+        "prompt": "On a wooden dresser next to an open window: slightly dull silver rings and a chain left out on an open dish, a hand reaching for them. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-10-1.jpg"
+      },
+      {
+        "text": "Put on perfume, hairspray and lotion before your jewelry, never after.",
+        "prompt": "At a wooden dressing table in a bedroom: a hand spraying a plain glass perfume bottle onto the inside of the other wrist, a silver bracelet and ring waiting on a small dish on the table. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-10-2.jpg"
+      },
+      {
+        "text": "Take silver off before swimming, because chlorine can damage it, and before showering or cleaning.",
+        "prompt": "On a shelf next to a bathroom doorway with a white towel hanging behind: a hand placing two silver rings and a bracelet into a small ceramic dish. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-10-3.jpg"
+      },
+      {
+        "text": "Wiping each piece with a soft cloth after wearing removes oils and sweat.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: in warm evening lamp light, a hand wiping a silver ring with a soft cloth just after taking it off, a small dish beside it, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-10-4.jpg"
+      },
+      {
+        "text": "Keep silver away from rubber bands, wool and eggs, which all contain sulfur.",
+        "prompt": "On a light wooden table next to a bright window, with a soft white towel laid on the table: a hand moving a silver chain away from a small pile of rubber bands, a ball of grey wool yarn and a bowl of brown eggs. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a burgundy cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-10-5.jpg"
+      }
+    ]
+  },
+  "extras": {
+    "intro": {
+      "pose": "idea",
+      "diagram": "silver-tarnish",
+      "title": "Why silver turns dark",
+      "mode": "tarnish",
+      "chips": [
+        {
+          "on": "sulfur",
+          "label": "Sulfur darkens silver",
+          "sub": "air, food, even skin",
+          "mode": "tarnish"
+        },
+        {
+          "on": "thin",
+          "label": "Only a thin layer",
+          "sub": "and it comes off",
+          "mode": "layer"
+        },
+        {
+          "on": "gentle",
+          "label": "Gentle wash first",
+          "sub": "safe for almost everything",
+          "mode": "layer"
+        },
+        {
+          "on": "solid",
+          "label": "Stronger: solid silver only",
+          "sub": "no delicate stones",
+          "mode": "foil"
+        },
+        {
+          "on": "jeweler",
+          "label": "Heirloom? Ask a jeweler",
+          "sub": "before you clean it",
+          "mode": "foil"
+        }
+      ],
+      "gags": []
+    },
+    "step-1": {
+      "ticks": [],
+      "facts": [],
+      "cards": [
+        {
+          "shot": 4,
+          "on": "porous",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Soaking pearls, opals, turquoise or glued parts.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [
+        {
+          "shot": 3,
+          "on": "harsh",
+          "pose": "panic",
+          "side": "left",
+          "dur": 2.8
+        }
+      ],
+      "diagrams": []
+    },
+    "step-2": {
+      "ticks": [
+        {
+          "shot": 3,
+          "on": "toothbrush",
+          "label": "Soft toothbrush"
+        }
+      ],
+      "facts": [
+        {
+          "shot": 3,
+          "on": "five",
+          "kind": "timer",
+          "big": "5 min",
+          "small": "soak in soapy water",
+          "dur": 4.0
+        }
+      ],
+      "cards": [
+        {
+          "shot": 5,
+          "on": "drain",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "A closed drain can't swallow a small ring.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": []
+    },
+    "step-3": {
+      "ticks": [],
+      "facts": [
+        {
+          "shot": 1,
+          "on": "three",
+          "kind": "measure",
+          "big": "3 : 1",
+          "small": "baking soda and water",
+          "dur": 4.0
+        }
+      ],
+      "cards": [
+        {
+          "shot": 6,
+          "on": "plated",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "This paste on plated silver or soft stones.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": [
+        {
+          "shot": 3,
+          "on": "abrasive",
+          "name": "silver-tarnish",
+          "mode": "layer",
+          "title": "A thin surface layer",
+          "dur": 4.8
+        }
+      ]
+    },
+    "step-4": {
+      "ticks": [],
+      "facts": [
+        {
+          "shot": 3,
+          "on": "tablespoon",
+          "kind": "measure",
+          "big": "1 tbsp",
+          "small": "baking soda per cup of water",
+          "dur": 4.0
+        },
+        {
+          "shot": 5,
+          "on": "two",
+          "kind": "timer",
+          "big": "2–5 min",
+          "small": "in the foil bath",
+          "dur": 4.0
+        }
+      ],
+      "cards": [
+        {
+          "shot": 2,
+          "on": "touches",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "The silver must touch the foil for the reaction.",
+          "dur": 4.0
+        }
+      ],
+      "gags": [
+        {
+          "shot": 4,
+          "on": "fizz",
+          "pose": "idea",
+          "side": "left",
+          "dur": 2.4
+        }
+      ],
+      "diagrams": [
+        {
+          "shot": 6,
+          "on": "reaction",
+          "name": "silver-tarnish",
+          "mode": "foil",
+          "title": "What the foil does",
+          "dur": 4.8
+        }
+      ]
+    },
+    "step-5": {
+      "ticks": [
+        {
+          "shot": 1,
+          "on": "tongs",
+          "label": "Tongs"
+        }
+      ],
+      "facts": [],
+      "cards": [
+        {
+          "shot": 4,
+          "on": "Moisture",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "Trapped moisture brings the tarnish back sooner.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": []
+    },
+    "step-6": {
+      "ticks": [
+        {
+          "shot": 1,
+          "on": "polishing",
+          "label": "Polishing cloth"
+        }
+      ],
+      "facts": [],
+      "cards": [
+        {
+          "shot": 3,
+          "on": "paper",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Paper towels or tissues: they can leave scratches.",
+          "dur": 4.0
+        }
+      ],
+      "gags": [
+        {
+          "shot": 5,
+          "on": "brightness",
+          "pose": "thumbs",
+          "side": "left",
+          "dur": 2.8
+        }
+      ],
+      "diagrams": []
+    },
+    "step-7": {
+      "ticks": [],
+      "facts": [],
+      "cards": [
+        {
+          "shot": 5,
+          "on": "chlorine",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Wearing silver in the pool: chlorine damages it.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": [
+        {
+          "shot": 1,
+          "on": "air",
+          "name": "silver-tarnish",
+          "mode": "tarnish",
+          "title": "Why tarnish returns",
+          "dur": 4.8
+        }
+      ]
+    },
+    "step-8": {
+      "ticks": [],
+      "facts": [],
+      "cards": [
+        {
+          "shot": 4,
+          "on": "harder",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Scrubbing harder: silver is soft and scratches.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": []
+    },
+    "step-9": {
+      "ticks": [],
+      "facts": [],
+      "cards": [],
+      "gags": [],
+      "diagrams": []
+    },
+    "step-10": {
+      "ticks": [],
+      "facts": [],
+      "cards": [
+        {
+          "shot": 5,
+          "on": "sulfur",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Storing silver near rubber bands, wool or eggs.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": []
+    }
+  },
+  "short": [
+    "2-3",
+    "4-3",
+    "6-1"
+  ]
+}

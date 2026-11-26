@@ -8,6 +8,9 @@ import { DryerVent } from "./diagrams/DryerVent";
 import { WhitenSoak } from "./diagrams/WhitenSoak";
 import { CabinetGrease } from "./diagrams/CabinetGrease";
 import { AntTrail } from "./diagrams/AntTrail";
+import { PastaPot } from "./diagrams/PastaPot";
+import { WindowSqueegee } from "./diagrams/WindowSqueegee";
+import { SilverTarnish } from "./diagrams/SilverTarnish";
 
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 
@@ -976,6 +979,9 @@ const DIAGRAMS: Record<string, React.FC<{ mode: string; local: number; width?: n
   "whiten-soak": ({ mode, local, width }) => <WhitenSoak mode={mode} local={local} width={width} />,
   "cabinet-grease": ({ mode, local, width }) => <CabinetGrease mode={mode} local={local} width={width} />,
   "ant-trail": ({ mode, local, width }) => <AntTrail mode={mode} local={local} width={width} />,
+  "pasta-pot": ({ mode, local, width }) => <PastaPot mode={mode} local={local} width={width} />,
+  "window-squeegee": ({ mode, local, width }) => <WindowSqueegee mode={mode} local={local} width={width} />,
+  "silver-tarnish": ({ mode, local, width }) => <SilverTarnish mode={mode} local={local} width={width} />,
   "house-drain": ({ mode, local, width }) => <HouseDrain mode={mode} local={local} width={width} />,
 };
 

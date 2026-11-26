@@ -4,10 +4,10 @@
   "date": "2026-12-11",
   "slug": "clean-silver-jewelry-at-home",
   "category": "Home",
-  "title": "How to Clean Silver Jewelry at Home (3 Methods)",
-  "hook": "Silver rings, chains and earrings turn dull and dark with time. You don't need a jeweler. Three simple ways to remove tarnish at home, with soap, baking soda and aluminum foil. Twenty minutes, almost no cost. Stay for step four: the tarnish lifts off without any rubbing.",
+  "title": "How to Clean Silver Jewelry at Home",
+  "hook": "Silver rings, chains and earrings turn dull and dark with time. You don't need a jeweler. Seven steps, three simple ways to remove tarnish at home, with soap, baking soda and aluminum foil. Twenty minutes, almost no cost. Stay for step four: the tarnish lifts off without any rubbing.",
   "hookWords": [
-    "Three simple ways",
+    "Seven steps",
     "Tarnish",
     "Twenty minutes"
   ],
@@ -34,7 +34,7 @@
     },
     {
       "title": "Method one: soap and water",
-      "narration": "Step two. This safe, gentle method works for light tarnish and everyday dirt. Fill a bowl with warm, not boiling, water, and add a few drops of mild dish soap. Soak your jewelry for five minutes, then gently scrub with a soft toothbrush, paying attention to the chain links and the settings. Rinse under lukewarm water and pat dry. Close the sink drain first, so a small ring can't disappear. Always dry your hands and the piece well afterwards, so that no soap film stays behind to dull the shine.",
+      "narration": "Step two. This safe, gentle method works for light tarnish and everyday dirt. Fill a bowl with warm, not boiling, water, and add a few drops of mild dish soap. Soak your jewelry for five minutes, then gently scrub with a soft toothbrush, paying attention to the chain links and the settings. Rinse under lukewarm water and pat dry. Close the sink drain first, so a small ring can't disappear. Always dry your hands and the piece well afterwards, so that no soap film stays behind to dull the shine. If some tarnish is still there, the next method goes one step further.",
       "tip": "Close the sink drain first",
       "mistake": "Scrubbing with a hard brush",
       "imageQuery": "washing silver soapy water",
@@ -52,7 +52,7 @@
     },
     {
       "title": "Method three: foil and baking soda bath",
-      "narration": "Step four. For heavy tarnish on solid silver, line a glass or ceramic bowl with aluminum foil, shiny side up. Place the silver on the foil, so it touches. Add one tablespoon of baking soda per cup of very hot water, and pour it over the jewelry until covered. It will fizz. Wait two to five minutes, and the tarnish transfers to the foil. This method uses a chemical reaction, and it has a slight sulfur smell. Be careful with the hot water. Take care with hot water, and never leave it unattended with children or pets nearby. Let the water cool before pouring it away.",
+      "narration": "Step four. For heavy tarnish on solid silver, line a glass or ceramic bowl with aluminum foil, shiny side up. Place the silver on the foil, so it touches. Add one tablespoon of baking soda per cup of very hot water, and pour it over the jewelry until covered. It will fizz. Wait two to five minutes, and the tarnish transfers to the foil. This method uses a chemical reaction, and it has a slight sulfur smell. Take care with hot water, and never leave it unattended with children or pets nearby. Let the water cool before pouring it away. Now for the part most people rush: rinsing and drying.",
       "tip": "Silver must touch the foil",
       "mistake": "Using the foil bath on pearls or antiques",
       "imageQuery": "silver foil baking soda",
@@ -70,7 +70,7 @@
     },
     {
       "title": "Polish to a shine",
-      "narration": "Step six. Use a silver polishing cloth, which is treated with a mild polish and tarnish inhibitor, to buff the piece. Rub gently, using long strokes, and turn the cloth to a clean section when it becomes dark. Do not use paper towels or tissues, which can leave scratches. Polish chains by pulling them through the folded cloth. A few minutes of buffing brings out the brightness, and leaves a protective layer. Keep your cloth in a zip bag between uses, so it doesn't pick up dust or moisture.",
+      "narration": "Step six. Use a silver polishing cloth, which is treated with a mild polish and tarnish inhibitor, to buff the piece. Rub gently, using long strokes, and turn the cloth to a clean section when it becomes dark. Do not use paper towels or tissues, which can leave scratches. Polish chains by pulling them through the folded cloth. A few minutes of buffing brings out the brightness, and leaves a protective layer. Keep your cloth in a zip bag between uses, so it doesn't pick up dust or moisture. One thing is left: stopping the tarnish from coming straight back.",
       "tip": "Fold the cloth, pull chains through",
       "mistake": "Polishing with tissue or paper towel",
       "imageQuery": "polishing silver cloth",
@@ -211,5 +211,28 @@
       }
     ],
     "cta": "Full guide on the channel."
+  },
+  "short2": {
+    "kind": "mistake",
+    "title": "Stop polishing silver with toothpaste #shorts",
+    "description": "Toothpaste and abrasive cleaners scratch silver and leave dull marks. Use a paste of three parts baking soda to one part water, and rub gently with a soft cloth. Full 7-step guide on the channel. #silver #jewelry #howto",
+    "headline": "Toothpaste on silver",
+    "hook": "Stop polishing silver with toothpaste.",
+    "shot": "short2-hook.jpg",
+    "beats": [
+      {
+        "label": "Why it fails",
+        "title": "It scratches silver",
+        "narration": "Toothpaste and abrasive cleaners scratch silver, and leave dull marks.",
+        "shot": "mistake-1"
+      },
+      {
+        "label": "Do this instead",
+        "title": "Baking soda paste",
+        "narration": "Mix three parts baking soda with one part water, and rub gently with a soft cloth.",
+        "shot": "3-2"
+      }
+    ],
+    "cta": "The full seven-step guide is on the channel."
   }
 }

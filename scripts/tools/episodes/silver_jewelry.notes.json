@@ -1,0 +1,127 @@
+{
+ "extras": {
+  "intro": {
+   "pose": "idea",
+   "diagram": "silver-tarnish",
+   "title": "Why silver turns dark",
+   "mode": "tarnish",
+   "chips": [
+    {"on": "sulfur", "label": "Sulfur darkens silver", "sub": "air, food, even skin", "mode": "tarnish"},
+    {"on": "thin", "label": "Only a thin layer", "sub": "and it comes off", "mode": "layer"},
+    {"on": "gentle", "label": "Gentle wash first", "sub": "safe for almost everything", "mode": "layer"},
+    {"on": "solid", "label": "Stronger: solid silver only", "sub": "no delicate stones", "mode": "foil"},
+    {"on": "jeweler", "label": "Heirloom? Ask a jeweler", "sub": "before you clean it", "mode": "foil"}
+   ],
+   "gags": []
+  },
+  "step-1": {
+   "ticks": [],
+   "facts": [],
+   "cards": [
+    {"shot": 4, "on": "porous", "kind": "avoid", "title": "Avoid", "text": "Soaking pearls, opals, turquoise or glued parts.", "dur": 4.4}
+   ],
+   "gags": [
+    {"shot": 3, "on": "harsh", "pose": "panic", "side": "left", "dur": 2.8}
+   ],
+   "diagrams": []
+  },
+  "step-2": {
+   "ticks": [
+    {"shot": 3, "on": "toothbrush", "label": "Soft toothbrush"}
+   ],
+   "facts": [
+    {"shot": 3, "on": "five", "kind": "timer", "big": "5 min", "small": "soak in soapy water", "dur": 4.0}
+   ],
+   "cards": [
+    {"shot": 5, "on": "drain", "kind": "why", "title": "Why it works", "text": "A closed drain can't swallow a small ring.", "dur": 4.4}
+   ],
+   "gags": [],
+   "diagrams": []
+  },
+  "step-3": {
+   "ticks": [],
+   "facts": [
+    {"shot": 1, "on": "three", "kind": "measure", "big": "3 : 1", "small": "baking soda and water", "dur": 4.0}
+   ],
+   "cards": [
+    {"shot": 6, "on": "plated", "kind": "avoid", "title": "Avoid", "text": "This paste on plated silver or soft stones.", "dur": 4.4}
+   ],
+   "gags": [],
+   "diagrams": [
+    {"shot": 3, "on": "abrasive", "name": "silver-tarnish", "mode": "layer", "title": "A thin surface layer", "dur": 4.8}
+   ]
+  },
+  "step-4": {
+   "ticks": [],
+   "facts": [
+    {"shot": 3, "on": "tablespoon", "kind": "measure", "big": "1 tbsp", "small": "baking soda per cup of water", "dur": 4.0},
+    {"shot": 5, "on": "two", "kind": "timer", "big": "2–5 min", "small": "in the foil bath", "dur": 4.0}
+   ],
+   "cards": [
+    {"shot": 2, "on": "touches", "kind": "why", "title": "Why it works", "text": "The silver must touch the foil for the reaction.", "dur": 4.0}
+   ],
+   "gags": [
+    {"shot": 4, "on": "fizz", "pose": "idea", "side": "left", "dur": 2.4}
+   ],
+   "diagrams": [
+    {"shot": 6, "on": "reaction", "name": "silver-tarnish", "mode": "foil", "title": "What the foil does", "dur": 4.8}
+   ]
+  },
+  "step-5": {
+   "ticks": [
+    {"shot": 1, "on": "tongs", "label": "Tongs"}
+   ],
+   "facts": [],
+   "cards": [
+    {"shot": 4, "on": "Moisture", "kind": "why", "title": "Why it works", "text": "Trapped moisture brings the tarnish back sooner.", "dur": 4.4}
+   ],
+   "gags": [],
+   "diagrams": []
+  },
+  "step-6": {
+   "ticks": [
+    {"shot": 1, "on": "polishing", "label": "Polishing cloth"}
+   ],
+   "facts": [],
+   "cards": [
+    {"shot": 3, "on": "paper", "kind": "avoid", "title": "Avoid", "text": "Paper towels or tissues: they can leave scratches.", "dur": 4.0}
+   ],
+   "gags": [
+    {"shot": 5, "on": "brightness", "pose": "thumbs", "side": "left", "dur": 2.8}
+   ],
+   "diagrams": []
+  },
+  "step-7": {
+   "ticks": [],
+   "facts": [],
+   "cards": [
+    {"shot": 5, "on": "chlorine", "kind": "avoid", "title": "Avoid", "text": "Wearing silver in the pool: chlorine damages it.", "dur": 4.4}
+   ],
+   "gags": [],
+   "diagrams": [
+    {"shot": 1, "on": "air", "name": "silver-tarnish", "mode": "tarnish", "title": "Why tarnish returns", "dur": 4.8}
+   ]
+  },
+  "step-8": {
+   "ticks": [],
+   "facts": [],
+   "cards": [
+    {"shot": 4, "on": "harder", "kind": "avoid", "title": "Avoid", "text": "Scrubbing harder: silver is soft and scratches.", "dur": 4.4}
+   ],
+   "gags": [],
+   "diagrams": []
+  },
+  "step-9": {"ticks": [], "facts": [], "cards": [], "gags": [], "diagrams": []},
+  "step-10": {
+   "ticks": [],
+   "facts": [],
+   "cards": [
+    {"shot": 5, "on": "sulfur", "kind": "avoid", "title": "Avoid", "text": "Storing silver near rubber bands, wool or eggs.", "dur": 4.4}
+   ],
+   "gags": [],
+   "diagrams": []
+  }
+ },
+ "shots": {},
+ "short": ["2-3", "4-3", "6-1"]
+}

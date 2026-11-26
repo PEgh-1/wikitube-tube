@@ -236,5 +236,23 @@
   ],
   "badge": "IT'S YOUR METHOD",
   "mascot": "panic"
+ },
+ "2026-12-08-cook-pasta-properly": {
+  "photo": "thumbs/pasta.jpg",
+  "position": "50% 50%",
+  "zoom": 1.05,
+  "lines": [
+   {
+    "text": "NEVER",
+    "hi": true,
+    "size": 150
+   },
+   {
+    "text": "RINSE PASTA",
+    "size": 100
+   }
+  ],
+  "badge": "DO THIS INSTEAD",
+  "mascot": "panic"
  }
 }

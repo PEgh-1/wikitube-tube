@@ -14,7 +14,7 @@ HERO = (D + L + ", open and spotless, the black screen reflecting the window wit
 YOUNEED = ("Flat lay photographed from directly above on a white desk, items neatly arranged with clear space between them: two folded grey microfiber cloths, "
            "a small plain glass of clear water, a plain white aerosol can of compressed air with a thin red straw and no label, and a small plain white pack of wet wipes with no label.")
 MISTAKES = [
- D + "a hand spraying a plain spray bottle directly at the black screen of an open silver laptop, droplets running down the screen toward the keyboard, close-up.",
+ D + "a hand spraying a plain spray bottle directly at the black screen of an open silver laptop, droplets running down the screen toward the keyboard, tight close-up on the hand and the screen only, no body, no chin, no face.",
  D + "a plain blue bottle of glass cleaner, a plain white bottle of bleach and a clear bottle of vinegar lined up beside an open silver laptop with a black screen, a hand pushing the bottles away.",
  D + "a hand pressing hard and scrubbing the black screen of an open silver laptop with a crumpled cloth, the screen visibly flexing under the fingers, close-up.",
 ]
@@ -77,7 +77,7 @@ P = {
   D + "a hand wiping the plain silver bottom of a closed slim laptop turned upside down with a grey microfiber cloth, keeping away from the vents along the edge.",
   D + "a hand placing a folded grey microfiber cloth on the desk right next to an open silver laptop with a black screen, a plain notebook beside it.",
   D + "hands being dried with a small white towel in front of an open silver laptop with a black screen, a plate with a sandwich pushed away to the far side of the desk.",
-  D + "a hand giving the black screen of an open silver laptop a quick light wipe with a dry grey microfiber cloth, a plain wall calendar with empty squares behind.",
+  D + "a hand giving the black screen of an open silver laptop a quick light wipe with a dry grey microfiber cloth, a cup of coffee on the desk, a bare white wall behind, no calendar.",
   D + "a hand lifting a pen off the black keyboard of an open silver laptop with a black screen, before closing the lid, close-up.",
   D + "a closed, spotless slim silver laptop with a plain lid, no logo, gleaming on the tidy desk, a hand resting on it, calm wide view.",
  ],

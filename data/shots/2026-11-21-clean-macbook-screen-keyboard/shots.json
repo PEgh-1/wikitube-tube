@@ -18,7 +18,7 @@
   "mistakesSubtitle": "that damage a MacBook",
   "mistakes": [
     {
-      "prompt": "On a tidy white desk next to a bright window, a small green plant in the background: a hand spraying a plain spray bottle directly at the black screen of an open silver laptop, droplets running down the screen toward the keyboard, close-up. Photorealistic photograph for a practical how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a charcoal-grey cotton shirt, only hands and forearms in the frame, no head, no face. The laptop screen is always switched off and plain black, with nothing displayed. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "prompt": "On a tidy white desk next to a bright window, a small green plant in the background: a hand spraying a plain spray bottle directly at the black screen of an open silver laptop, droplets running down the screen toward the keyboard, tight close-up on the hand and the screen only, no body, no chin, no face. Photorealistic photograph for a practical how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a charcoal-grey cotton shirt, only hands and forearms in the frame, no head, no face. The laptop screen is always switched off and plain black, with nothing displayed. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
       "file": "mistake-1.jpg",
       "focus": [
         0.5,
@@ -283,7 +283,7 @@
       },
       {
         "text": "Wipe the screen once a week with the dry cloth.",
-        "prompt": "On a tidy white desk next to a bright window, a small green plant in the background: a hand giving the black screen of an open silver laptop a quick light wipe with a dry grey microfiber cloth, a plain wall calendar with empty squares behind. Photorealistic photograph for a practical how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a charcoal-grey cotton shirt, only hands and forearms in the frame, no head, no face. The laptop screen is always switched off and plain black, with nothing displayed. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "prompt": "On a tidy white desk next to a bright window, a small green plant in the background: a hand giving the black screen of an open silver laptop a quick light wipe with a dry grey microfiber cloth, a cup of coffee on the desk, a bare white wall behind, no calendar. Photorealistic photograph for a practical how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a charcoal-grey cotton shirt, only hands and forearms in the frame, no head, no face. The laptop screen is always switched off and plain black, with nothing displayed. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
         "file": "step-7-4.jpg"
       },
       {

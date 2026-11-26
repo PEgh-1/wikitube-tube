@@ -62,3 +62,13 @@ Objectif : première étape avant 0 min 55 (elle arrivait à 1 min 36). `data/br
 - `title` de l'épisode : 40 caractères au plus, sinon le titre d'ouverture passe sur trois lignes. `short` (dans les notes) : la liste des plans du Short, sinon les images ne correspondent pas aux étapes.
 - Ne pas lancer deux rendus `daily.yml` en même temps ; attendre `completed` avant `preview-branch.yml`.
 - Studio WikiTube : profil Playwright b (le profil c est sur la chaîne YouQwiz).
+
+## 9. Raccourcis ajoutés le 26/11/2026
+- Quota d'images Gemini : la génération s'est arrêtée vers 275 images dans la matinée (« I can create more images as soon as your limit resets »). Compter 3 épisodes complets par jour au plus ; deux onglets en parallèle fonctionnent (environ 35 s par image chacun), pas besoin d'un troisième.
+- Boucle de lot : `ctx.__wkst` (`queue` = [[fichier du lot, dossier]], `done`, `errors`, `stop`). Les images verticales vont dans un lot séparé `<id>-short2.json` avec `tail` vide (le `tail` du lot principal impose le 16:9).
+- Recadrage et planches-contact sur le PC : `python3 ~/mnt/wikitube-shots/_gen/crop.py <dossier> <nom>` écrit `_gen/<nom>/` (1920×1080, vertical 1296×2322, planches `_sheet-N.jpg`) et `_gen/<nom>.tar` à rapatrier.
+- Branche `release-assets` : ne pas la cloner en entier (plusieurs Go). `git clone --depth 1 --filter=blob:none --no-checkout -b release-assets …`, `git sparse-checkout set <id>`, copier, `git add --sparse <id>`, pousser.
+- `gh` ne marche pas dans le cloud : lancer `daily.yml` et `preview-branch.yml` avec l'outil GitHub (actions_run_trigger). Un rendu dure 14 à 18 min.
+- Le 5e encart de l'intro ne s'affiche pas si son mot `on` est dans la dernière seconde de l'intro (vu sur pâtes et bijoux) : choisir un mot plus tôt.
+- En attente au 26/11 : épisode MacBook (`2026-11-21-clean-macbook-screen-keyboard`), plan, annotations, schéma et titre prêts, 52 images contrôlées dans le dépôt ; restent 13 images (lot `gemini-batches/<id>.json`) et l'image verticale (lot `-short2`), puis rendu, contrôle, miniature. Vérifier que le chronomètre du plan 1-5 ne montre pas de chiffres lisibles.
+- Bijoux en argent : `youneed.jpg` (étiquette de la boîte d'aluminium effacée à la main), `step-4-7.jpg` (recadrage de 4-3) et `short2-hook.jpg` (recadrage vertical de 7-7) sont des retouches faute de quota, originaux dans `wikitube-shots/silver` et `silver-fix`.

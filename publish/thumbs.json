@@ -218,5 +218,23 @@
   ],
   "badge": "ERASE THEIR TRAIL",
   "mascot": "panic"
+ },
+ "2026-12-15-clean-windows-without-streaks": {
+  "photo": "thumbs/windows.jpg",
+  "position": "50% 50%",
+  "zoom": 1.05,
+  "lines": [
+   {
+    "text": "STREAKY",
+    "hi": true,
+    "size": 140
+   },
+   {
+    "text": "WINDOWS?",
+    "size": 120
+   }
+  ],
+  "badge": "IT'S YOUR METHOD",
+  "mascot": "panic"
  }
 }

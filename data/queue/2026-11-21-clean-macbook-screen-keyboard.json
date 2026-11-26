@@ -4,11 +4,11 @@
   "date": "2026-11-21",
   "slug": "clean-macbook-screen-keyboard",
   "category": "Tech",
-  "title": "How to Clean a MacBook Screen and Keyboard (Safely)",
-  "hook": "Fingerprints on the screen, crumbs under the keys. But clean a MacBook the wrong way, and you can scratch the display or damage the keyboard. Here are seven safe steps, with just a cloth and a little water. Stay for step three: it's where most damage happens.",
+  "title": "How to Clean a MacBook Safely",
+  "hook": "Fingerprints on the screen, crumbs under the keys, and one wrong move can scratch the display or damage the keyboard. A clean MacBook takes five minutes. Seven safe steps, with just a cloth and a little water. Stay for step three: it's where most damage happens.",
   "hookWords": [
-    "Wrong way",
     "Scratch",
+    "Five minutes",
     "Seven safe steps"
   ],
   "intro": "A MacBook is easy to clean if you respect two rules: use as little liquid as possible, and never spray anything directly onto the computer. Moisture in the keyboard or the speakers causes real damage. We'll follow Apple's own advice, step by step, in good light.",
@@ -33,7 +33,7 @@
     },
     {
       "title": "Dust the screen first",
-      "narration": "Step two. Take a dry, soft microfiber cloth and wipe the screen gently in one direction, from top to bottom. Dry wiping removes dust and grit first, so you won't drag them across the glass when you add moisture. Use light pressure, and don't press hard on the display, because the panel is thin and pressure can leave marks. Don't use paper towels, tissues or kitchen cloths, which have rough fibres that can leave tiny scratches over time. A good microfiber cloth lasts for years and can be washed. Always check the cloth is clean before you start, because one trapped grain of sand can scratch the screen.",
+      "narration": "Step two. Take a dry, soft microfiber cloth and wipe the screen gently in one direction, from top to bottom. Dry wiping removes dust and grit first, so you won't drag them across the glass when you add moisture. Use light pressure, and don't press hard on the display, because the panel is thin and pressure can leave marks. Don't use paper towels, tissues or kitchen cloths, which have rough fibres that can leave tiny scratches over time. A good microfiber cloth lasts for years and can be washed. Always check the cloth is clean before you start, because one trapped grain of sand can scratch the screen. Now for the fingerprints that dry wiping leaves behind.",
       "tip": "Light pressure, one direction",
       "mistake": "Using paper towels on the display",
       "imageQuery": "wiping laptop microfiber",
@@ -51,7 +51,7 @@
     },
     {
       "title": "Dry and check for streaks",
-      "narration": "Step four. Go over the screen with your second, dry microfiber cloth, using the same gentle strokes. This removes any moisture left behind, and stops streaks from forming. Then tilt the lid toward a window or lamp, and look along the surface at an angle, where streaks and missed spots are easiest to see. If you spot any, repeat the damp and dry steps lightly on just that area. Leave the lid open for a minute so any trace of moisture evaporates, before you close the MacBook. This final check also protects the keyboard from marking the screen when the lid closes.",
+      "narration": "Step four. Go over the screen with your second, dry microfiber cloth, using the same gentle strokes. This removes any moisture left behind, and stops streaks from forming. Then tilt the lid toward a window or lamp, and look along the surface at an angle, where streaks and missed spots are easiest to see. If you spot any, repeat the damp and dry steps lightly on just that area. Leave the lid open for a minute so any trace of moisture evaporates, before you close the MacBook. This final check also protects the keyboard from marking the screen when the lid closes. With the screen done, it's time for the keyboard.",
       "tip": "Check the screen at an angle",
       "mistake": "Closing the lid on a damp screen",
       "imageQuery": "laptop screen window reflection",
@@ -69,7 +69,7 @@
     },
     {
       "title": "Wipe the keys and trackpad",
-      "narration": "Step six. Lightly dampen a corner of your cloth, or use a seventy percent isopropyl alcohol wipe, and wipe the keys and the trackpad. Apple says these wipes are fine on the outside surfaces of the computer. Work key by key, using light pressure, and keep any moisture out of the gaps between the keys. Don't use bleach or hydrogen peroxide. If a key is sticky, wipe it a second time. This is also a good moment to clean the palm rests, where oils from your hands build up. Avoid getting wet cloths near the ports, the speaker holes and the fan vents.",
+      "narration": "Step six. Lightly dampen a corner of your cloth, or use a seventy percent isopropyl alcohol wipe, and wipe the keys and the trackpad. Apple says these wipes are fine on the outside surfaces of the computer. Work key by key, using light pressure, and keep any moisture out of the gaps between the keys. Don't use bleach or hydrogen peroxide. If a key is sticky, wipe it a second time. This is also a good moment to clean the palm rests, where oils from your hands build up. Avoid getting wet cloths near the ports, the speaker holes and the fan vents. One step is left: the case, and a few habits.",
       "tip": "Use a corner of the cloth only",
       "mistake": "Letting liquid run between the keys",
       "imageQuery": "wiping macbook keyboard keys",
@@ -210,5 +210,28 @@
       }
     ],
     "cta": "Full guide on the channel."
+  },
+  "short2": {
+    "kind": "tip",
+    "title": "Crumbs under your MacBook keys? Do this #shorts",
+    "description": "Hold the MacBook at about a 75 degree angle and spray compressed air in short bursts, left to right. Keep the can upright so no liquid comes out. Full 7-step guide on the channel. #macbook #cleaninghacks #howto",
+    "headline": "Tilt, then air",
+    "hook": "Crumbs stuck under your MacBook keys?",
+    "shot": "short2-hook.jpg",
+    "beats": [
+      {
+        "label": "Do this",
+        "title": "Tilt it, short bursts",
+        "narration": "Hold the MacBook at about a seventy-five degree angle, and spray compressed air in short bursts, left to right.",
+        "shot": "5-2"
+      },
+      {
+        "label": "Why it works",
+        "title": "Crumbs lift out",
+        "narration": "This lifts crumbs and dust from under the keys. Keep the can upright, so no liquid comes out.",
+        "shot": "5-5"
+      }
+    ],
+    "cta": "The full seven-step guide is on the channel."
   }
 }

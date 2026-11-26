@@ -1,0 +1,353 @@
+{
+ "extras": {
+  "intro": {
+   "pose": "idea",
+   "diagram": "laptop-clean",
+   "title": "Two rules for a safe clean",
+   "mode": "liquid",
+   "chips": [
+    {
+     "on": "liquid",
+     "label": "As little liquid as possible",
+     "sub": "a barely damp cloth",
+     "mode": "cloth"
+    },
+    {
+     "on": "spray",
+     "label": "Never spray the computer",
+     "sub": "dampen the cloth instead",
+     "mode": "liquid"
+    },
+    {
+     "on": "keyboard",
+     "label": "Moisture causes damage",
+     "sub": "keyboard and speakers",
+     "mode": "liquid"
+    },
+    {
+     "on": "advice",
+     "label": "Apple's own advice",
+     "sub": "step by step",
+     "mode": "cloth"
+    },
+    {
+     "on": "light",
+     "label": "Work in good light",
+     "sub": "you see every smudge",
+     "mode": "cloth"
+    }
+   ],
+   "gags": []
+  },
+  "step-1": {
+   "ticks": [],
+   "facts": [
+    {
+     "shot": 5,
+     "on": "thirty",
+     "kind": "timer",
+     "big": "30 s",
+     "small": "to power off and unplug",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 2,
+     "on": "powered-off",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "A dark screen shows every smudge.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": []
+  },
+  "step-2": {
+   "ticks": [
+    {
+     "shot": 1,
+     "on": "microfiber",
+     "label": "Dry microfiber cloth"
+    }
+   ],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 4,
+     "on": "paper",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Paper towels, tissues and kitchen cloths.",
+     "dur": 4.4
+    },
+    {
+     "shot": 2,
+     "on": "grit",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "Dust goes first, so nothing is dragged across the glass.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 6,
+     "on": "sand",
+     "pose": "panic",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": []
+  },
+  "step-3": {
+   "ticks": [
+    {
+     "shot": 1,
+     "on": "water",
+     "label": "Water only"
+    }
+   ],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 4,
+     "on": "skip",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Window cleaner, alcohol, vinegar and sprays on the screen.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 7,
+     "on": "Patience",
+     "pose": "thumbs",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": [
+    {
+     "shot": 3,
+     "on": "top",
+     "name": "laptop-clean",
+     "mode": "cloth",
+     "title": "A barely damp cloth",
+     "dur": 4.8
+    },
+    {
+     "shot": 5,
+     "on": "spray",
+     "name": "laptop-clean",
+     "mode": "liquid",
+     "title": "Why you never spray",
+     "dur": 4.8
+    }
+   ]
+  },
+  "step-4": {
+   "ticks": [
+    {
+     "shot": 1,
+     "on": "second",
+     "label": "Second, dry cloth"
+    }
+   ],
+   "facts": [
+    {
+     "shot": 5,
+     "on": "minute",
+     "kind": "timer",
+     "big": "1 min",
+     "small": "lid open, so moisture evaporates",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 3,
+     "on": "angle",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "Streaks show best when you look along the glass.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": []
+  },
+  "step-5": {
+   "ticks": [],
+   "facts": [
+    {
+     "shot": 1,
+     "on": "seventy-five",
+     "kind": "measure",
+     "big": "75°",
+     "small": "keys tilted toward you",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 4,
+     "on": "shake",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Shaking or tilting the can: liquid can come out.",
+     "dur": 4.4
+    },
+    {
+     "shot": 6,
+     "on": "vacuum",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "A vacuum cleaner: static can harm the computer.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": [
+    {
+     "shot": 2,
+     "on": "bursts",
+     "name": "laptop-clean",
+     "mode": "tilt",
+     "title": "Tilt, then short bursts",
+     "dur": 4.8
+    }
+   ]
+  },
+  "step-6": {
+   "ticks": [],
+   "facts": [
+    {
+     "shot": 1,
+     "on": "seventy",
+     "kind": "measure",
+     "big": "70 %",
+     "small": "isopropyl alcohol wipe",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 4,
+     "on": "bleach",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Bleach or hydrogen peroxide.",
+     "dur": 4.4
+    },
+    {
+     "shot": 7,
+     "on": "ports",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Wet cloths near ports, speaker holes and vents.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": []
+  },
+  "step-7": {
+   "ticks": [],
+   "facts": [
+    {
+     "shot": 6,
+     "on": "two",
+     "kind": "timer",
+     "big": "2 min",
+     "small": "a weekly wipe",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 5,
+     "on": "pen",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Closing the lid on a pen or a thick camera cover.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 3,
+     "on": "eating",
+     "pose": "no",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": []
+  },
+  "step-8": {
+   "ticks": [],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 3,
+     "on": "fingernail",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Scraping a mark with a fingernail.",
+     "dur": 4.4
+    },
+    {
+     "shot": 2,
+     "on": "fresh",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "A dirty cloth just moves grease around.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": []
+  },
+  "step-9": {
+   "ticks": [],
+   "facts": [],
+   "cards": [],
+   "gags": [
+    {
+     "shot": 3,
+     "on": "swollen",
+     "pose": "panic",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": []
+  },
+  "step-10": {
+   "ticks": [],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 1,
+     "on": "pouch",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "A clean cloth means no grit on the screen.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": []
+  }
+ },
+ "shots": {},
+ "short": [
+  "1-1",
+  "3-3",
+  "5-2"
+ ]
+}

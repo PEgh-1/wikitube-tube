@@ -309,5 +309,25 @@
       "publishAt": "2026-12-01T11:30:00.000Z",
       "url": "https://youtube.com/shorts/XrvEwN2TgmA"
     }
+  },
+  {
+    "episodeId": "2026-12-11-clean-silver-jewelry-at-home",
+    "title": "How to Clean Silver Jewelry at Home (Don't Use Toothpaste)",
+    "long": {
+      "videoId": "_sx4LYFnLR0",
+      "publishAt": "2026-12-02T16:30:00.000Z",
+      "url": "https://youtu.be/_sx4LYFnLR0"
+    },
+    "short": {
+      "videoId": "2-Ek7t8RwvM",
+      "publishAt": "2026-12-02T17:00:00.000Z",
+      "url": "https://youtube.com/shorts/2-Ek7t8RwvM"
+    },
+    "uploadedAt": "2026-11-26T10:44:24.968Z",
+    "short2": {
+      "videoId": "NgUJdXKhn-w",
+      "publishAt": "2026-12-02T11:30:00.000Z",
+      "url": "https://youtube.com/shorts/NgUJdXKhn-w"
+    }
   }
 ]

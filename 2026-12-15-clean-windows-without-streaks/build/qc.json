@@ -1,0 +1,110 @@
+{
+  "episodeId": "2026-12-15-clean-windows-without-streaks",
+  "mock": false,
+  "passed": true,
+  "checks": [
+    {
+      "name": "long durée",
+      "ok": true,
+      "detail": "559.7 s (attendu 300–720 s)",
+      "blocking": true
+    },
+    {
+      "name": "long résolution",
+      "ok": true,
+      "detail": "1920×1080 h264 30/1",
+      "blocking": true
+    },
+    {
+      "name": "long audio",
+      "ok": true,
+      "detail": "aac 48000 Hz 2 ch",
+      "blocking": true
+    },
+    {
+      "name": "long loudness",
+      "ok": true,
+      "detail": "-14.0 LUFS, pic -1.5 dBTP (cible -14 ±2)",
+      "blocking": true
+    },
+    {
+      "name": "long taille",
+      "ok": true,
+      "detail": "163.3 Mo",
+      "blocking": true
+    },
+    {
+      "name": "short durée",
+      "ok": true,
+      "detail": "26.4 s (attendu 10–60 s)",
+      "blocking": true
+    },
+    {
+      "name": "short résolution",
+      "ok": true,
+      "detail": "1080×1920 h264 30/1",
+      "blocking": true
+    },
+    {
+      "name": "short audio",
+      "ok": true,
+      "detail": "aac 48000 Hz 2 ch",
+      "blocking": true
+    },
+    {
+      "name": "short loudness",
+      "ok": true,
+      "detail": "-14.1 LUFS, pic -2.9 dBTP (cible -14 ±2)",
+      "blocking": true
+    },
+    {
+      "name": "short taille",
+      "ok": true,
+      "detail": "6.0 Mo",
+      "blocking": true
+    },
+    {
+      "name": "miniature",
+      "ok": true,
+      "detail": "1.07 Mo png (+ jpg de secours)",
+      "blocking": true
+    },
+    {
+      "name": "SRT long.en.srt",
+      "ok": true,
+      "detail": "13626 octets",
+      "blocking": true
+    },
+    {
+      "name": "SRT short.en.srt",
+      "ok": true,
+      "detail": "772 octets",
+      "blocking": false
+    },
+    {
+      "name": "titre ≤ 100",
+      "ok": true,
+      "detail": "72 caractères",
+      "blocking": true
+    },
+    {
+      "name": "description ≤ 5000",
+      "ok": true,
+      "detail": "1082 caractères",
+      "blocking": true
+    },
+    {
+      "name": "chapitres ≥ 3",
+      "ok": true,
+      "detail": "14 chapitres, 1er à 00:00",
+      "blocking": true
+    },
+    {
+      "name": "tags ≤ 500 car.",
+      "ok": true,
+      "detail": "240 caractères",
+      "blocking": true
+    }
+  ],
+  "checkedAt": "2026-11-26T09:50:27.191Z"
+}

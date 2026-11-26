@@ -254,5 +254,23 @@
   ],
   "badge": "DO THIS INSTEAD",
   "mascot": "panic"
+ },
+ "2026-12-11-clean-silver-jewelry-at-home": {
+  "photo": "thumbs/silver.jpg",
+  "position": "50% 50%",
+  "zoom": 1.05,
+  "lines": [
+   {
+    "text": "TARNISHED",
+    "hi": true,
+    "size": 118
+   },
+   {
+    "text": "SILVER?",
+    "size": 140
+   }
+  ],
+  "badge": "NO TOOTHPASTE",
+  "mascot": "panic"
  }
 }

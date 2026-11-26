@@ -213,24 +213,24 @@
     "cta": "Full guide on the channel."
   },
   "short2": {
-    "kind": "mistake",
-    "title": "Stop polishing silver with toothpaste #shorts",
-    "description": "Toothpaste and abrasive cleaners scratch silver and leave dull marks. Use a paste of three parts baking soda to one part water, and rub gently with a soft cloth. Full 7-step guide on the channel. #silver #jewelry #howto",
-    "headline": "Toothpaste on silver",
-    "hook": "Stop polishing silver with toothpaste.",
+    "kind": "tip",
+    "title": "Put a piece of chalk with your silver #shorts",
+    "description": "Tarnish returns fastest when silver meets air and moisture. Store each piece in a soft pouch or a small zip bag with the air pressed out, and add a small piece of chalk to absorb moisture. Full 7-step guide on the channel. #silver #jewelry #howto",
+    "headline": "Chalk in the pouch",
+    "hook": "Silver going dark again? Put a piece of chalk in the pouch.",
     "shot": "short2-hook.jpg",
     "beats": [
       {
-        "label": "Why it fails",
-        "title": "It scratches silver",
-        "narration": "Toothpaste and abrasive cleaners scratch silver, and leave dull marks.",
-        "shot": "mistake-1"
+        "label": "Why it works",
+        "title": "Air and moisture",
+        "narration": "Tarnish returns fastest when silver meets air and moisture.",
+        "shot": "7-1"
       },
       {
-        "label": "Do this instead",
-        "title": "Baking soda paste",
-        "narration": "Mix three parts baking soda with one part water, and rub gently with a soft cloth.",
-        "shot": "3-2"
+        "label": "Do this",
+        "title": "Pouch, then chalk",
+        "narration": "Store each piece in a soft pouch, or a zip bag with the air pressed out, and add a small piece of chalk to absorb moisture.",
+        "shot": "7-2"
       }
     ],
     "cta": "The full seven-step guide is on the channel."

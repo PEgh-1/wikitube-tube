@@ -1,0 +1,799 @@
+1
+00:00:00,000 --> 00:00:03,435
+Fingerprints on the screen, crumbs under
+the keys,
+
+2
+00:00:03,610 --> 00:00:06,515
+and one wrong move can scratch the display
+
+3
+00:00:06,525 --> 00:00:08,079
+or damage the keyboard.
+
+4
+00:00:08,440 --> 00:00:10,993
+A clean MacBook takes five minutes.
+
+5
+00:00:11,285 --> 00:00:14,456
+Seven safe steps, with just a cloth and
+
+6
+00:00:14,466 --> 00:00:15,486
+a little water.
+
+7
+00:00:16,451 --> 00:00:20,630
+Stay for step three: it's where most
+damage happens.
+
+8
+00:00:21,233 --> 00:00:22,196
+WikiTube.
+
+9
+00:00:22,429 --> 00:00:24,773
+Whatever it is, here's how.
+
+10
+00:00:25,067 --> 00:00:27,379
+A MacBook is easy to clean if you
+
+11
+00:00:27,389 --> 00:00:30,177
+respect two rules: use as little liquid as
+
+12
+00:00:30,187 --> 00:00:34,076
+possible, and never spray anything
+directly onto the computer.
+
+13
+00:00:34,436 --> 00:00:38,104
+Moisture in the keyboard or the speakers
+causes real damage.
+
+14
+00:00:38,465 --> 00:00:41,808
+We'll follow Apple's own advice, step by
+step,
+
+15
+00:00:41,936 --> 00:00:43,375
+in good light.
+
+16
+00:00:43,933 --> 00:00:47,128
+You'll need two microfiber cloths, a
+little distilled
+
+17
+00:00:47,138 --> 00:00:50,518
+water, a can of compressed air, and, to
+
+18
+00:00:50,528 --> 00:00:54,648
+disinfect the outside, seventy percent
+isopropyl wipes.
+
+19
+00:00:54,881 --> 00:00:56,529
+No household sprays.
+
+20
+00:00:57,067 --> 00:00:58,076
+Step one.
+
+21
+00:00:58,878 --> 00:01:01,747
+Before you clean anything, turn the
+MacBook off
+
+22
+00:01:01,757 --> 00:01:06,586
+completely, and unplug the charger and any
+cables or accessories.
+
+23
+00:01:06,947 --> 00:01:09,712
+A powered-off computer can't be damaged by
+a
+
+24
+00:01:09,722 --> 00:01:12,602
+stray drop of moisture, and you'll see
+dust
+
+25
+00:01:12,612 --> 00:01:15,607
+and smudges more clearly on a dark screen.
+
+26
+00:01:16,571 --> 00:01:18,477
+Let the laptop cool down if it has
+
+27
+00:01:18,487 --> 00:01:19,728
+been working hard.
+
+28
+00:01:20,089 --> 00:01:22,447
+Then place it on a clean, flat surface
+
+29
+00:01:22,457 --> 00:01:23,606
+with good light.
+
+30
+00:01:24,059 --> 00:01:26,592
+This only takes thirty seconds, but it is
+
+31
+00:01:26,602 --> 00:01:29,402
+the step that protects your computer, so
+please
+
+32
+00:01:29,412 --> 00:01:30,386
+don't skip it.
+
+33
+00:01:30,747 --> 00:01:32,954
+If you use an external monitor or a
+
+34
+00:01:32,964 --> 00:01:35,297
+mouse, unplug those too.
+
+35
+00:01:35,833 --> 00:01:36,842
+Step two.
+
+36
+00:01:37,505 --> 00:01:40,943
+Take a dry, soft microfiber cloth and wipe
+
+37
+00:01:40,953 --> 00:01:44,864
+the screen gently in one direction, from
+top to bottom.
+
+38
+00:01:45,527 --> 00:01:48,779
+Dry wiping removes dust and grit first, so
+
+39
+00:01:48,789 --> 00:01:50,718
+you won't drag them across the glass when
+
+40
+00:01:50,728 --> 00:01:51,923
+you add moisture.
+
+41
+00:01:52,284 --> 00:01:55,002
+Use light pressure, and don't press hard
+on
+
+42
+00:01:55,012 --> 00:01:58,149
+the display, because the panel is thin and
+
+43
+00:01:58,159 --> 00:02:00,062
+pressure can leave marks.
+
+44
+00:02:00,724 --> 00:02:04,464
+Don't use paper towels, tissues or kitchen
+cloths,
+
+45
+00:02:04,474 --> 00:02:06,763
+which have rough fibres that can leave
+tiny
+
+46
+00:02:06,773 --> 00:02:08,293
+scratches over time.
+
+47
+00:02:09,095 --> 00:02:12,312
+A good microfiber cloth lasts for years
+and
+
+48
+00:02:12,322 --> 00:02:13,378
+can be washed.
+
+49
+00:02:13,924 --> 00:02:16,225
+Always check the cloth is clean before you
+
+50
+00:02:16,235 --> 00:02:19,383
+start, because one trapped grain of sand
+can
+
+51
+00:02:19,393 --> 00:02:20,773
+scratch the screen.
+
+52
+00:02:21,924 --> 00:02:25,580
+Now for the fingerprints that dry wiping
+leaves behind.
+
+53
+00:02:26,133 --> 00:02:27,293
+Step three.
+
+54
+00:02:27,654 --> 00:02:31,266
+For fingerprints that remain, slightly
+dampen a clean
+
+55
+00:02:31,276 --> 00:02:33,470
+microfiber cloth with water.
+
+56
+00:02:34,133 --> 00:02:37,745
+It should be barely damp, not wet, so
+
+57
+00:02:37,755 --> 00:02:39,577
+squeeze out any excess.
+
+58
+00:02:40,379 --> 00:02:42,853
+Wipe the screen gently in the same top
+
+59
+00:02:42,863 --> 00:02:44,070
+to bottom motion.
+
+60
+00:02:45,034 --> 00:02:48,589
+Apple recommends water only for its
+displays, so
+
+61
+00:02:48,599 --> 00:02:52,780
+skip window cleaners, alcohol, vinegar,
+and any
+
+62
+00:02:52,790 --> 00:02:56,528
+household sprays, which can strip the
+anti-glare coating.
+
+63
+00:02:57,492 --> 00:03:01,369
+Never spray liquid directly onto the
+screen or the keyboard.
+
+64
+00:03:01,730 --> 00:03:04,019
+If you see a stubborn spot, go over
+
+65
+00:03:04,029 --> 00:03:08,358
+it again with the damp cloth, gently,
+without scrubbing.
+
+66
+00:03:09,323 --> 00:03:12,227
+Patience works better than pressure, and a
+clean
+
+67
+00:03:12,237 --> 00:03:14,535
+screen only takes a minute.
+
+68
+00:03:15,100 --> 00:03:16,074
+Step four.
+
+69
+00:03:16,621 --> 00:03:18,851
+Go over the screen with your second, dry
+
+70
+00:03:18,861 --> 00:03:22,680
+microfiber cloth, using the same gentle
+strokes.
+
+71
+00:03:23,134 --> 00:03:26,607
+This removes any moisture left behind, and
+stops
+
+72
+00:03:26,617 --> 00:03:27,963
+streaks from forming.
+
+73
+00:03:28,626 --> 00:03:30,705
+Then tilt the lid toward a window or
+
+74
+00:03:30,715 --> 00:03:33,201
+lamp, and look along the surface at an
+
+75
+00:03:33,211 --> 00:03:37,216
+angle, where streaks and missed spots are
+easiest to see.
+
+76
+00:03:38,018 --> 00:03:40,527
+If you spot any, repeat the damp and
+
+77
+00:03:40,537 --> 00:03:43,671
+dry steps lightly on just that area.
+
+78
+00:03:44,125 --> 00:03:45,891
+Leave the lid open for a minute so
+
+79
+00:03:45,901 --> 00:03:49,894
+any trace of moisture evaporates, before
+you close the MacBook.
+
+80
+00:03:50,347 --> 00:03:53,275
+This final check also protects the
+keyboard from
+
+81
+00:03:53,285 --> 00:03:55,652
+marking the screen when the lid closes.
+
+82
+00:03:56,013 --> 00:03:59,275
+With the screen done, it's time for the
+keyboard.
+
+83
+00:03:59,833 --> 00:04:00,958
+Step five.
+
+84
+00:04:01,319 --> 00:04:03,944
+Hold the MacBook at about a seventy-five
+degree
+
+85
+00:04:03,954 --> 00:04:06,786
+angle, so the keys tilt toward you.
+
+86
+00:04:07,449 --> 00:04:09,865
+Using the thin straw on the compressed air
+
+87
+00:04:09,875 --> 00:04:13,290
+can, spray in short bursts across the
+keyboard
+
+88
+00:04:13,300 --> 00:04:15,192
+in a left to right motion.
+
+89
+00:04:15,854 --> 00:04:18,387
+Rotate the MacBook to its right side and
+
+90
+00:04:18,397 --> 00:04:21,510
+repeat, then to its left side and repeat
+
+91
+00:04:21,520 --> 00:04:22,587
+one more time.
+
+92
+00:04:23,250 --> 00:04:26,140
+Keep the can upright, and don't shake it,
+
+93
+00:04:26,269 --> 00:04:27,998
+so no liquid comes out.
+
+94
+00:04:28,962 --> 00:04:32,142
+This lifts crumbs and dust from under the
+keys.
+
+95
+00:04:32,503 --> 00:04:35,245
+Never use a vacuum cleaner, since static
+can
+
+96
+00:04:35,255 --> 00:04:36,415
+harm the computer.
+
+97
+00:04:36,776 --> 00:04:39,877
+If a key still feels stuck afterwards,
+repeat
+
+98
+00:04:39,887 --> 00:04:42,513
+the process once more, and book a service
+
+99
+00:04:42,523 --> 00:04:44,519
+visit if it doesn't improve.
+
+100
+00:04:45,067 --> 00:04:46,157
+Step six.
+
+101
+00:04:46,611 --> 00:04:49,341
+Lightly dampen a corner of your cloth, or
+
+102
+00:04:49,351 --> 00:04:52,951
+use a seventy percent isopropyl alcohol
+wipe, and
+
+103
+00:04:52,961 --> 00:04:55,236
+wipe the keys and the trackpad.
+
+104
+00:04:55,782 --> 00:04:58,001
+Apple says these wipes are fine on the
+
+105
+00:04:58,011 --> 00:05:00,205
+outside surfaces of the computer.
+
+106
+00:05:00,751 --> 00:05:04,654
+Work key by key, using light pressure, and
+
+107
+00:05:04,664 --> 00:05:08,134
+keep any moisture out of the gaps between
+the keys.
+
+108
+00:05:08,681 --> 00:05:11,745
+Don't use bleach or hydrogen peroxide.
+
+109
+00:05:11,920 --> 00:05:14,903
+If a key is sticky, wipe it a second time.
+
+110
+00:05:15,449 --> 00:05:17,378
+This is also a good moment to clean
+
+111
+00:05:17,388 --> 00:05:20,743
+the palm rests, where oils from your hands
+build up.
+
+112
+00:05:21,289 --> 00:05:24,205
+Avoid getting wet cloths near the ports,
+the
+
+113
+00:05:24,215 --> 00:05:26,501
+speaker holes and the fan vents.
+
+114
+00:05:27,303 --> 00:05:29,148
+One step is left:
+
+115
+00:05:30,299 --> 00:05:32,771
+the case, and a few habits.
+
+116
+00:05:33,333 --> 00:05:34,377
+Step seven.
+
+117
+00:05:34,924 --> 00:05:37,537
+Finish by wiping the outside case and the
+
+118
+00:05:37,547 --> 00:05:41,017
+bottom with the damp cloth, avoiding the
+ports,
+
+119
+00:05:41,146 --> 00:05:43,235
+speaker grilles and vents.
+
+120
+00:05:44,037 --> 00:05:45,812
+Then build a few habits.
+
+121
+00:05:46,475 --> 00:05:49,017
+Wash and dry your hands before you work,
+
+122
+00:05:49,250 --> 00:05:51,408
+and avoid eating over the keyboard.
+
+123
+00:05:52,373 --> 00:05:55,553
+Wipe the screen once a week with the dry
+cloth.
+
+124
+00:05:56,703 --> 00:05:59,491
+And before closing the lid, make sure
+nothing
+
+125
+00:05:59,501 --> 00:06:01,787
+is on the keyboard, such as a pen
+
+126
+00:06:01,846 --> 00:06:04,309
+or a camera cover thicker than a sheet
+
+127
+00:06:04,319 --> 00:06:08,161
+of paper, since these can mark or crack
+the display.
+
+128
+00:06:08,522 --> 00:06:11,008
+A two minute weekly wipe keeps your Mac
+
+129
+00:06:11,018 --> 00:06:14,628
+looking new, and helps its resale value as
+well.
+
+130
+00:06:15,167 --> 00:06:18,881
+If a smudge stays, your cloth is probably
+the problem.
+
+131
+00:06:19,242 --> 00:06:22,297
+A dirty cloth just moves grease around, so
+
+132
+00:06:22,307 --> 00:06:25,095
+use a fresh one, and wash used cloths
+
+133
+00:06:25,105 --> 00:06:28,134
+with mild soap and no fabric softener.
+
+134
+00:06:29,285 --> 00:06:31,617
+Never scrape a mark with a fingernail.
+
+135
+00:06:32,582 --> 00:06:34,847
+Faint marks may be wear on the coating,
+
+136
+00:06:34,857 --> 00:06:37,004
+which no cleaning will remove.
+
+137
+00:06:37,567 --> 00:06:40,875
+If keys stick or stop working after
+cleaning,
+
+138
+00:06:40,968 --> 00:06:44,055
+ask Apple or an authorized service
+provider.
+
+139
+00:06:44,416 --> 00:06:46,879
+The same goes for lines or dead spots
+
+140
+00:06:46,889 --> 00:06:47,979
+on the display.
+
+141
+00:06:48,433 --> 00:06:51,105
+If the case bulges or the trackpad seems
+
+142
+00:06:51,115 --> 00:06:53,891
+to lift, stop using the laptop and have
+
+143
+00:06:53,901 --> 00:06:57,964
+the battery checked, because a swollen
+battery can be unsafe.
+
+144
+00:06:58,500 --> 00:07:01,172
+Keep a clean microfiber cloth in a small
+
+145
+00:07:01,182 --> 00:07:05,070
+pouch in your bag, so grit never scratches
+the screen.
+
+146
+00:07:05,617 --> 00:07:07,891
+Replace the cloth when it looks worn.
+
+147
+00:07:08,183 --> 00:07:09,949
+Do not leave the laptop in a hot
+
+148
+00:07:09,959 --> 00:07:13,049
+car or in direct sun for hours, and
+
+149
+00:07:13,059 --> 00:07:15,322
+carry it in a padded sleeve.
+
+150
+00:07:15,867 --> 00:07:18,095
+Let's go through the mistakes to avoid.
+
+151
+00:07:18,897 --> 00:07:22,821
+First, never spray any liquid directly on
+the MacBook.
+
+152
+00:07:23,112 --> 00:07:25,584
+It can flow into the keyboard and speakers
+
+153
+00:07:25,677 --> 00:07:28,776
+and cause damage that isn't covered by
+warranty.
+
+154
+00:07:29,927 --> 00:07:33,725
+Second, don't use glass cleaner, bleach,
+vinegar or
+
+155
+00:07:33,735 --> 00:07:37,275
+aerosols, as they can strip the coating
+from the screen.
+
+156
+00:07:37,636 --> 00:07:40,723
+And third, don't scrub or press hard.
+
+157
+00:07:41,386 --> 00:07:43,907
+A gentle touch and a clean cloth beat
+
+158
+00:07:43,917 --> 00:07:46,844
+force every time, and the display can be
+
+159
+00:07:46,854 --> 00:07:48,571
+marked easily by pressure.
+
+160
+00:07:48,932 --> 00:07:50,385
+If you ever spill a drink on the
+
+161
+00:07:50,395 --> 00:07:53,622
+keyboard, switch it off at once, unplug
+it,
+
+162
+00:07:53,750 --> 00:07:57,534
+and contact Apple, before you try to clean
+it yourself.
+
+163
+00:07:58,100 --> 00:08:01,025
+Let's go through the whole routine one
+more time.
+
+164
+00:08:01,479 --> 00:08:03,602
+Shut down and unplug.
+
+165
+00:08:04,149 --> 00:08:06,412
+Dust the screen with a dry cloth.
+
+166
+00:08:06,958 --> 00:08:09,326
+Wipe with a barely damp cloth.
+
+167
+00:08:10,476 --> 00:08:12,646
+Dry it and check for streaks.
+
+168
+00:08:13,193 --> 00:08:15,735
+Clear crumbs with short bursts of air.
+
+169
+00:08:16,885 --> 00:08:19,043
+Wipe the keys and trackpad.
+
+170
+00:08:19,404 --> 00:08:22,468
+And keep the Mac clean with a few small
+habits.
+
+171
+00:08:23,270 --> 00:08:26,941
+Seven steps, five minutes, and a MacBook
+that
+
+172
+00:08:26,951 --> 00:08:28,134
+looks cared for.
+
+173
+00:08:29,098 --> 00:08:33,338
+The bonus sections cover stubborn marks,
+Apple and daily
+
+174
+00:08:33,348 --> 00:08:34,055
+care.
+
+175
+00:08:34,600 --> 00:08:38,314
+That's how you clean a MacBook screen and
+keyboard safely.
+
+176
+00:08:38,768 --> 00:08:41,579
+If your Mac looks like new again,
+subscribe
+
+177
+00:08:41,589 --> 00:08:44,943
+to WikiTube, because we publish a new
+how-to
+
+178
+00:08:44,968 --> 00:08:46,360
+every single day.
+
+179
+00:08:47,023 --> 00:08:49,114
+Tell us in the comments which device you
+
+180
+00:08:49,124 --> 00:08:51,448
+would like us to clean next, whether that
+
+181
+00:08:51,458 --> 00:08:54,417
+is a phone, a tablet or a TV.
+
+182
+00:08:55,080 --> 00:08:56,252
+See you tomorrow.
+
+183
+00:08:56,367 --> 00:08:57,573
+That's WikiTube.
+
+184
+00:08:57,934 --> 00:09:00,418
+Whatever it is, here's how.

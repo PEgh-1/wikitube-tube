@@ -369,5 +369,25 @@
       "publishAt": "2026-12-04T11:30:00.000Z",
       "url": "https://youtube.com/shorts/Ff-vz94n_U8"
     }
+  },
+  {
+    "episodeId": "2026-12-13-kitchen-tricks-wish-you-knew",
+    "title": "8 Kitchen Tricks You'll Wish You Knew Earlier (Peel Garlic in Seconds)",
+    "long": {
+      "videoId": "jYT75oOJovE",
+      "publishAt": "2026-12-05T16:30:00.000Z",
+      "url": "https://youtu.be/jYT75oOJovE"
+    },
+    "short": {
+      "videoId": "332A0ESe0Lw",
+      "publishAt": "2026-12-05T17:00:00.000Z",
+      "url": "https://youtube.com/shorts/332A0ESe0Lw"
+    },
+    "uploadedAt": "2026-11-27T14:39:37.947Z",
+    "short2": {
+      "videoId": "R5zMyqyuk3M",
+      "publishAt": "2026-12-05T11:30:00.000Z",
+      "url": "https://youtube.com/shorts/R5zMyqyuk3M"
+    }
   }
 ]

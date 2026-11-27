@@ -349,5 +349,25 @@
       "publishAt": "2026-12-03T11:30:00.000Z",
       "url": "https://youtube.com/shorts/LuTU0zdIrTk"
     }
+  },
+  {
+    "episodeId": "2026-11-18-fix-a-zipper",
+    "title": "How to Fix a Zipper That Splits (All You Need Is a Pair of Pliers)",
+    "long": {
+      "videoId": "d4Q6CnwCnM8",
+      "publishAt": "2026-12-04T16:30:00.000Z",
+      "url": "https://youtu.be/d4Q6CnwCnM8"
+    },
+    "short": {
+      "videoId": "59LuDy0PjN0",
+      "publishAt": "2026-12-04T17:00:00.000Z",
+      "url": "https://youtube.com/shorts/59LuDy0PjN0"
+    },
+    "uploadedAt": "2026-11-27T14:05:18.861Z",
+    "short2": {
+      "videoId": "Ff-vz94n_U8",
+      "publishAt": "2026-12-04T11:30:00.000Z",
+      "url": "https://youtube.com/shorts/Ff-vz94n_U8"
+    }
   }
 ]

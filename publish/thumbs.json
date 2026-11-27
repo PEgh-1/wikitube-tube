@@ -290,5 +290,23 @@
   ],
   "badge": "CLEAN IT THIS WAY",
   "mascot": "panic"
+ },
+ "2026-11-18-fix-a-zipper": {
+  "photo": "thumbs/zipper.jpg",
+  "position": "45% 50%",
+  "zoom": 1.3,
+  "lines": [
+   {
+    "text": "ZIPPER",
+    "hi": true,
+    "size": 150
+   },
+   {
+    "text": "SPLITS?",
+    "size": 140
+   }
+  ],
+  "badge": "JUST USE PLIERS",
+  "mascot": "panic"
  }
 }

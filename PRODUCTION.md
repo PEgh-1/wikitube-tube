@@ -70,5 +70,5 @@ Objectif : première étape avant 0 min 55 (elle arrivait à 1 min 36). `data/br
 - Branche `release-assets` : ne pas la cloner en entier (plusieurs Go). `git clone --depth 1 --filter=blob:none --no-checkout -b release-assets …`, `git sparse-checkout set <id>`, copier, `git add --sparse <id>`, pousser.
 - `gh` ne marche pas dans le cloud : lancer `daily.yml` et `preview-branch.yml` avec l'outil GitHub (actions_run_trigger). Un rendu dure 14 à 18 min.
 - Le 5e encart de l'intro ne s'affiche pas si son mot `on` est dans la dernière seconde de l'intro (vu sur pâtes et bijoux) : choisir un mot plus tôt.
-- En attente au 26/11 : épisode MacBook (`2026-11-21-clean-macbook-screen-keyboard`), plan, annotations, schéma et titre prêts, 51 images contrôlées dans le dépôt ; restent 12 images (lot `gemini-batches/<id>.json`) et l'image verticale (lot `-short2`), puis rendu, contrôle, miniature. Vérifier que le chronomètre du plan 1-5 ne montre pas de chiffres lisibles.
+- Épisode MacBook terminé et programmé le 03/12 (images finies le 27/11, quota Gemini revenu le lendemain matin). Plus rien en attente au 27/11.
 - Bijoux en argent : `youneed.jpg` (étiquette de la boîte d'aluminium effacée à la main), `step-4-7.jpg` (recadrage de 4-3) et `short2-hook.jpg` (recadrage vertical de 7-7) sont des retouches faute de quota, originaux dans `wikitube-shots/silver` et `silver-fix`.

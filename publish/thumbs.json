@@ -308,5 +308,23 @@
   ],
   "badge": "JUST USE PLIERS",
   "mascot": "panic"
+ },
+ "2026-12-13-kitchen-tricks-wish-you-knew": {
+  "photo": "thumbs/kitchen.jpg",
+  "position": "50% 60%",
+  "zoom": 1.15,
+  "lines": [
+   {
+    "text": "8 KITCHEN",
+    "hi": true,
+    "size": 124
+   },
+   {
+    "text": "TRICKS",
+    "size": 150
+   }
+  ],
+  "badge": "PEEL GARLIC IN SECONDS",
+  "mascot": "idea"
  }
 }

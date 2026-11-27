@@ -329,5 +329,25 @@
       "publishAt": "2026-12-02T11:30:00.000Z",
       "url": "https://youtube.com/shorts/NgUJdXKhn-w"
     }
+  },
+  {
+    "episodeId": "2026-11-21-clean-macbook-screen-keyboard",
+    "title": "How to Clean a MacBook Screen and Keyboard (Never Spray It, Do This)",
+    "long": {
+      "videoId": "c5ooNQ1dVZE",
+      "publishAt": "2026-12-03T16:30:00.000Z",
+      "url": "https://youtu.be/c5ooNQ1dVZE"
+    },
+    "short": {
+      "videoId": "WNBc89CO5Gg",
+      "publishAt": "2026-12-03T17:00:00.000Z",
+      "url": "https://youtube.com/shorts/WNBc89CO5Gg"
+    },
+    "uploadedAt": "2026-11-27T09:47:07.855Z",
+    "short2": {
+      "videoId": "LuTU0zdIrTk",
+      "publishAt": "2026-12-03T11:30:00.000Z",
+      "url": "https://youtube.com/shorts/LuTU0zdIrTk"
+    }
   }
 ]

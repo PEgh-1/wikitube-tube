@@ -1,0 +1,854 @@
+{
+  "episodeId": "2026-12-13-kitchen-tricks-wish-you-knew",
+  "version": 3,
+  "source": "gemini-web (navigateur, sans API)",
+  "style": "Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+  "hero": {
+    "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a tidy counter with a wooden cutting board, a head of garlic, a bowl of brown eggs, a lemon cut in half, a glass jar of fresh parsley standing in water and a crusty loaf of bread, a hand resting on the board, three-quarter view. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+    "file": "hero.jpg"
+  },
+  "youneed": {
+    "prompt": "Flat lay photographed from directly above on a light wood surface, items neatly arranged with clear space between them: a chef's knife, a folded damp white kitchen towel, an empty glass jar with a plain metal lid, and a white bowl of clear cold water. No packaging, no labels. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+    "file": "youneed.jpg",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  "mistakesSubtitle": "that turn a shortcut into an accident",
+  "mistakes": [
+    {
+      "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a hand chopping an onion fast with a chef's knife, the fingertips of the other hand stretched out flat and far too close to the blade, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "mistake-1.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a hand pulling a steaming bowl out of an open microwave oven with a plain blank door and quickly letting go because it is too hot, a cloud of steam rising, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "mistake-2.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a glass bowl of water with one egg clearly floating at the surface, a hand reaching to take it out as if to use it, a frying pan waiting on the stove behind. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "mistake-3.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ]
+    }
+  ],
+  "shots": {
+    "step-1": [
+      {
+        "text": "Trick one. A sliding cutting board is dangerous, because it makes knives slip.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a wooden cutting board sliding sideways on a smooth white counter while a hand chops a carrot with a chef's knife, the board visibly crooked, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-1.jpg"
+      },
+      {
+        "text": "Wet a kitchen towel or a few sheets of paper towel, wring it out so it's damp but not dripping, and fold it flat under your board.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: hands folding a damp white kitchen towel flat on the counter, a wooden cutting board held ready just above it, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-2.jpg"
+      },
+      {
+        "text": "The damp fabric grips the counter and holds the board firmly in place.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a wooden cutting board sitting firmly on a folded damp white towel on the counter, a hand pressing on the corner of the board, low side view. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-3.jpg"
+      },
+      {
+        "text": "It works on any smooth surface, and takes five seconds.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a wooden cutting board resting on a folded damp towel on a smooth polished stone counter, a hand letting go of the board, wide view. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-4.jpg"
+      },
+      {
+        "text": "Whenever you chop, use a firm, stable board.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a hand chopping fresh green herbs with a chef's knife on a steady wooden cutting board, the edge of a damp towel showing under the board. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-5.jpg"
+      },
+      {
+        "text": "This is the first trick to use every day, because it makes every other kitchen task safer.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a tidy counter with a wooden cutting board on a damp towel, a chef's knife laid flat on it, vegetables waiting in a bowl, calm wide view. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-6.jpg"
+      }
+    ],
+    "step-2": [
+      {
+        "text": "Trick two. Place a garlic clove on a board, lay the flat side of a large knife over it, and press down firmly with the heel of your hand.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: the flat side of a large chef's knife laid over one garlic clove on a wooden board, the heel of a hand pressing down on the blade, the sharp edge facing away from the hand, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-1.jpg"
+      },
+      {
+        "text": "The skin cracks, and slides right off.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: fingers pulling the cracked papery skin off a garlic clove in one piece on a wooden board, macro close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-2.jpg"
+      },
+      {
+        "text": "For a whole head, break it into cloves, put them in a lidded jar or two bowls, and shake hard for ten to fifteen seconds.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: two hands shaking a closed glass jar with a metal lid full of unpeeled garlic cloves, motion blur on the cloves inside. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-3.jpg"
+      },
+      {
+        "text": "The cloves rub against each other and lose their skins.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: an open glass jar with peeled white garlic cloves and loose papery skins inside, a hand tipping them onto a wooden board, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-4.jpg"
+      },
+      {
+        "text": "Keep your fingers away from the blade edge.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a hand holding a chef's knife by the handle with the fingers of the other hand curled well back from the sharp edge, a garlic clove on the board, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-5.jpg"
+      },
+      {
+        "text": "A silicone garlic peeler tube also works if you cook with garlic often.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a plain green silicone tube with no markings lying on the counter next to a head of garlic, a hand picking the tube up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-6.jpg"
+      },
+      {
+        "text": "Roll the clove back and forth, and the skin comes off.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: the palm of a hand rolling a plain green silicone tube back and forth on the counter, a peeled garlic clove and its skin sliding out of the end, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-7.jpg"
+      },
+      {
+        "text": "Next, a quick test for the eggs in your fridge.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a hand taking one brown egg out of a plain bowl of eggs on the counter, a tall glass of water standing beside it. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-8.jpg"
+      }
+    ],
+    "step-3": [
+      {
+        "text": "Trick three. Fill a bowl or a tall glass with cold water, and gently place the egg in it.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a hand gently lowering a brown egg into a tall clear glass filled with cold water, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-1.jpg"
+      },
+      {
+        "text": "A very fresh egg sinks to the bottom and lies on its side.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a brown egg lying flat on its side at the bottom of a clear glass bowl of water, seen from the side, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-2.jpg"
+      },
+      {
+        "text": "An older egg sits at an angle or stands upright.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a brown egg standing upright on its narrow end at the bottom of a clear glass of water, seen from the side, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-3.jpg"
+      },
+      {
+        "text": "If it floats, it's likely too old to use, so throw it away.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a brown egg floating at the surface of a clear glass of water, a hand lifting it out toward a small plain compost bin, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-4.jpg"
+      },
+      {
+        "text": "As eggs age, they lose moisture through the shell, and the air pocket inside grows.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: macro close-up of a hard-boiled egg cut in half lengthwise, showing a clear hollow air pocket at the wide end of the shell. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-5.jpg"
+      },
+      {
+        "text": "Always cook eggs thoroughly, and keep them in the fridge.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a hand placing a plain unprinted cardboard box of brown eggs on a shelf inside an open refrigerator. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-6.jpg"
+      },
+      {
+        "text": "Use the freshest eggs for poaching and frying, and slightly older ones for boiling, which peel more easily.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a fresh egg cracked into a small pan with a round, high yolk, and a pot with two eggs in water beside it on the stove, a hand holding the pan handle. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-7.jpg"
+      }
+    ],
+    "step-4": [
+      {
+        "text": "Trick four. Don't throw away bread that has gone hard.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a hand holding a hard, stale crusty loaf of bread above an open kitchen bin, the other hand raised flat in a stop gesture. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-1.jpg"
+      },
+      {
+        "text": "Run a loaf quickly under the tap, so the crust is slightly damp, and put it in a hot oven at about 160 degrees Celsius, or 320 Fahrenheit, for ten minutes.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a hand passing a crusty loaf of bread quickly under a thin stream of water from the kitchen tap, drops on the crust, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-2.jpg"
+      },
+      {
+        "text": "The moisture turns to steam, softens the inside and crisps the crust.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a crusty loaf of bread on the rack inside a hot oven with the door half open, a little steam rising from the damp crust, hands in oven mitts. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-3.jpg"
+      },
+      {
+        "text": "For a sliced loaf, wrap slices in a damp paper towel and microwave for ten seconds.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: hands wrapping two slices of bread in a damp white paper towel on a plate next to an open microwave oven with a plain blank door. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-4.jpg"
+      },
+      {
+        "text": "Eat it right away, since revived bread goes stale quickly.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a hand tearing open a warm crusty loaf, the inside soft and steaming, crumbs falling on a wooden board, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-5.jpg"
+      },
+      {
+        "text": "Bread revived this way is best used the same day, for toast, sandwiches or croutons.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a wooden board with golden toast, a sandwich and a small bowl of croutons made from the same loaf, a hand taking a slice of toast. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-6.jpg"
+      },
+      {
+        "text": "The next trick rescues something else people throw away: hard brown sugar.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a hand lifting a rock-hard solid lump of brown sugar out of a glass jar, a crusty loaf in the background, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-7.jpg"
+      }
+    ],
+    "step-5": [
+      {
+        "text": "Trick five. Brown sugar turns into a rock when its moisture dries out.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a hand tapping a solid, rock-hard lump of brown sugar with a spoon on the counter, the spoon bouncing off, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-1.jpg"
+      },
+      {
+        "text": "To fix it, place the lump in a bowl, cover it with a damp paper towel, and microwave in ten-second bursts until it softens.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a hard lump of brown sugar in a white bowl covered with a damp white paper towel, a hand sliding the bowl into an open microwave oven with a plain blank door. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-2.jpg"
+      },
+      {
+        "text": "Or seal it in a container with a slice of fresh bread, or an apple wedge, overnight.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a hand placing a slice of fresh bread on top of hard brown sugar inside a glass storage container, an apple wedge on the counter beside it, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-3.jpg"
+      },
+      {
+        "text": "The sugar absorbs moisture from them.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: macro close-up of soft, loose, moist brown sugar crumbling under a spoon inside a glass container, a slice of bread resting on top. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-4.jpg"
+      },
+      {
+        "text": "Remove the bread the next day.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a hand lifting a dried-out slice of bread out of a glass container of soft brown sugar, morning light, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-5.jpg"
+      },
+      {
+        "text": "To prevent hardening, store brown sugar in an airtight container.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: hands pressing an airtight lid with a clip onto a glass jar filled with soft brown sugar, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-6.jpg"
+      },
+      {
+        "text": "Brown sugar works best when stored in an airtight jar, with a piece of terracotta or a marshmallow inside.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: an open airtight glass jar of soft brown sugar with a small plain terracotta disc resting on top, a hand holding one white marshmallow above it, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-7.jpg"
+      }
+    ],
+    "step-6": [
+      {
+        "text": "Trick six. Fresh herbs wilt fast in the fridge.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a limp, wilted bunch of parsley lying in a plastic bag taken from the open refrigerator drawer, a hand holding it up, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-1.jpg"
+      },
+      {
+        "text": "Treat soft herbs, such as parsley, cilantro and dill, like flowers.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: bunches of fresh parsley, cilantro and dill laid side by side on the counter like cut flowers, a hand holding an empty glass jar. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-2.jpg"
+      },
+      {
+        "text": "Trim the stems, put them in a jar with an inch of water, loosely cover the leaves with a bag, and keep them in the fridge.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a glass jar with a little water holding a bunch of parsley with trimmed stems, a hand loosely covering the leaves with a clear plastic bag, kitchen scissors beside it. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-3.jpg"
+      },
+      {
+        "text": "Change the water every couple of days.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a hand pouring out the water from a jar of parsley into the sink while holding the bunch, a glass of fresh water waiting on the counter. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-4.jpg"
+      },
+      {
+        "text": "Basil is different, because it hates the cold.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a bunch of fresh basil with large green leaves held in a hand in front of an open refrigerator, the other hand raised flat in a stop gesture. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-5.jpg"
+      },
+      {
+        "text": "Keep basil in a jar of water on the counter, away from direct sun.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a glass jar of water holding a bunch of fresh basil on the counter in soft shade, away from the sunny window, a hand setting it down. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-6.jpg"
+      },
+      {
+        "text": "Herbs stay fresh for a week or more.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a jar of parsley in water under a loose clear bag inside the refrigerator door, the leaves green and crisp, a hand taking a few sprigs. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-7.jpg"
+      },
+      {
+        "text": "Hardy herbs like rosemary and thyme can be wrapped in a damp paper towel, and kept in a bag in the fridge.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: hands rolling sprigs of rosemary and thyme in a damp white paper towel, a clear plastic bag waiting on the counter, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-8.jpg"
+      },
+      {
+        "text": "Now for a trick that gets more out of every lemon.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a hand taking one lemon from a bowl of lemons and limes on the counter, a jar of fresh herbs behind. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-9.jpg"
+      }
+    ],
+    "step-7": [
+      {
+        "text": "Trick seven. Before you cut a lemon or lime, roll it firmly on the counter, pressing down with your palm.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: the palm of a hand pressing down and rolling a whole lemon firmly on the counter, a lime beside it, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-1.jpg"
+      },
+      {
+        "text": "This breaks the little juice sacs inside.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: macro close-up of the cut face of a lemon half, the juicy pulp glistening with droplets. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-2.jpg"
+      },
+      {
+        "text": "For even more juice, warm the whole fruit in the microwave for ten to fifteen seconds, then roll it.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a hand placing a whole lemon on a small plate into an open microwave oven with a plain blank door, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-3.jpg"
+      },
+      {
+        "text": "Cut it in half and squeeze.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a hand squeezing a lemon half over a small glass bowl, juice running down, the other half and a knife on the board, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-4.jpg"
+      },
+      {
+        "text": "You can get a lot more juice from the same fruit.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a small glass bowl nearly full of fresh lemon juice next to two squeezed lemon halves, a hand holding the bowl up to the light. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-5.jpg"
+      },
+      {
+        "text": "Remove the seeds before cooking.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a teaspoon lifting lemon seeds out of a small bowl of lemon juice, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-6.jpg"
+      },
+      {
+        "text": "Use a fork to twist and squeeze every last drop.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a hand twisting a fork inside a lemon half held over a small glass bowl, juice dripping from the tines, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-7.jpg"
+      },
+      {
+        "text": "A hand juicer or fork helps you squeeze the very last drops, and the zest freezes well for later.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a simple wooden hand reamer and a fork next to squeezed lemon halves, a hand tipping fine lemon zest from a grater into a small plain freezer container. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-8.jpg"
+      }
+    ],
+    "step-8": [
+      {
+        "text": "Trick eight. Lower eggs gently into boiling water, and cook for nine to twelve minutes, depending on how firm you like the yolk.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a hand lowering a brown egg on a large spoon into a pot of boiling water on the stove, a small mechanical kitchen timer with a plain blank face beside it. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-8-1.jpg"
+      },
+      {
+        "text": "Move them straight into a bowl of ice water for five minutes.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a slotted spoon moving a hot boiled egg from the pot into a glass bowl full of water and ice cubes, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-8-2.jpg"
+      },
+      {
+        "text": "The shock of cold makes the egg shrink slightly away from the shell, so it peels easily.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: macro close-up of a boiled egg resting among ice cubes in clear cold water, tiny bubbles on the shell. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-8-3.jpg"
+      },
+      {
+        "text": "Tap the egg on the counter, roll it gently under your palm to crack the shell all over, and peel under a little running water.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: the palm of a hand gently rolling a boiled egg on the counter, the shell cracked all over in a fine web, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-8-4.jpg"
+      },
+      {
+        "text": "The shell comes off in large pieces.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: fingers peeling a boiled egg under a thin stream of tap water, the shell coming away in one large piece, a smooth white egg underneath, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-8-5.jpg"
+      },
+      {
+        "text": "Older eggs are actually easier to peel than very fresh ones, so this is a good use for the ones in your fridge.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a plate of smooth, perfectly peeled boiled eggs, one cut in half, next to a plain unprinted cardboard egg box, a hand taking one. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-8-6.jpg"
+      }
+    ],
+    "step-9": [
+      {
+        "text": "Every trick has a limit.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a boiled egg peeled badly with torn, pitted white and bits of shell stuck to it, held in a hand above a plate, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-9-1.jpg"
+      },
+      {
+        "text": "Very fresh eggs are the hardest to peel, so use eggs that are a week or two old.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: two plain unprinted cardboard egg boxes side by side on the counter, a hand choosing the one pushed further back, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-9-2.jpg"
+      },
+      {
+        "text": "Revived bread goes stale again fast, so eat it the same day.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a hand knocking on a hard half loaf of bread left on a wooden board in evening light, a few crumbs around it. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-9-3.jpg"
+      },
+      {
+        "text": "Brown sugar hardens again, so keep a slice of bread in the container too.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a hand tucking a fresh slice of bread into a glass container of soft brown sugar before closing the lid, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-9-4.jpg"
+      },
+      {
+        "text": "Cold citrus gives less juice, so use fruit at room temperature.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a bowl of lemons standing on the counter in the daylight, a hand taking one, the closed refrigerator in the background. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-9-5.jpg"
+      }
+    ],
+    "step-10": [
+      {
+        "text": "Freezing saves a lot of food.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a hand opening a freezer drawer neatly filled with clear containers and flat bags, cold mist drifting out. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-10-1.jpg"
+      },
+      {
+        "text": "Freeze lemon juice in ice cube trays, and keep ginger whole in the freezer, then grate it frozen.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a hand pouring lemon juice into an ice cube tray, a whole knob of ginger and a small grater on the counter beside it, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-10-2.jpg"
+      },
+      {
+        "text": "Chop spare herbs, press them into a tray with olive oil, and freeze them.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a hand pouring olive oil over chopped green herbs pressed into the cells of an ice cube tray, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-10-3.jpg"
+      },
+      {
+        "text": "Slice bread before freezing, so you can toast just one slice at a time.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a hand sliding sliced bread into a clear freezer bag, one frozen slice going into a toaster in the background. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-10-4.jpg"
+      },
+      {
+        "text": "Label everything with the date, and use it within a few months.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a hand sticking a small blank white label onto a clear freezer bag of sliced bread, a pen lying beside it, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-10-5.jpg"
+      }
+    ],
+    "step-11": [
+      {
+        "text": "A safe kitchen starts with a sharp knife, because a dull blade slips.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a hand drawing a chef's knife along a honing steel held upright on the counter, close-up on the blade. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-11-1.jpg"
+      },
+      {
+        "text": "Keep a separate cutting board just for raw meat.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a plain red plastic cutting board with a raw chicken breast on it, set apart from a wooden board with vegetables, a hand moving the wooden board away. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-11-2.jpg"
+      },
+      {
+        "text": "Wash your hands, boards and knives with hot soapy water after touching raw meat.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: hands washing a chef's knife and a red cutting board with a soapy sponge under hot running water in the sink, steam rising. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-11-3.jpg"
+      },
+      {
+        "text": "Put leftovers in the fridge within two hours of cooking.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a hand placing a closed glass container of leftover cooked food on a shelf inside an open refrigerator. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-11-4.jpg"
+      },
+      {
+        "text": "Use the oldest food first, and check the dates on packages before you cook.",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a hand pulling an older jar forward to the front of a tidy refrigerator shelf and placing a newer one behind it. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-11-5.jpg"
+      }
+    ]
+  },
+  "extras": {
+    "intro": {
+      "pose": "chef",
+      "diagram": "kitchen-tricks",
+      "title": "Small tricks, big difference",
+      "mode": "board",
+      "chips": [
+        {
+          "on": "habits",
+          "label": "Small habits",
+          "sub": "never in the recipes",
+          "mode": "board"
+        },
+        {
+          "on": "gadgets",
+          "label": "No gadgets",
+          "sub": "no secret ingredients",
+          "mode": "board"
+        },
+        {
+          "on": "faster",
+          "label": "Faster, safer, tastier",
+          "sub": "everyday jobs",
+          "mode": "egg"
+        },
+        {
+          "on": "garlic",
+          "label": "Peel garlic",
+          "sub": "in seconds",
+          "mode": "bread"
+        },
+        {
+          "on": "rescuing",
+          "label": "Rescue hard brown sugar",
+          "sub": "and stale bread",
+          "mode": "bread"
+        }
+      ],
+      "gags": []
+    },
+    "step-1": {
+      "ticks": [
+        {
+          "shot": 2,
+          "on": "towel",
+          "label": "Damp towel"
+        }
+      ],
+      "facts": [
+        {
+          "shot": 4,
+          "on": "five",
+          "kind": "timer",
+          "big": "5 s",
+          "small": "to set it up",
+          "dur": 4.0
+        }
+      ],
+      "cards": [],
+      "gags": [
+        {
+          "shot": 1,
+          "on": "dangerous",
+          "pose": "panic",
+          "side": "left",
+          "dur": 2.8
+        }
+      ],
+      "diagrams": [
+        {
+          "shot": 3,
+          "on": "grips",
+          "name": "kitchen-tricks",
+          "mode": "board",
+          "title": "Why it holds",
+          "dur": 4.8
+        }
+      ]
+    },
+    "step-2": {
+      "ticks": [
+        {
+          "shot": 1,
+          "on": "knife",
+          "label": "Flat of the knife"
+        }
+      ],
+      "facts": [
+        {
+          "shot": 3,
+          "on": "fifteen",
+          "kind": "timer",
+          "big": "10–15 s",
+          "small": "shaking in a lidded jar",
+          "dur": 4.0
+        }
+      ],
+      "cards": [
+        {
+          "shot": 5,
+          "on": "fingers",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Fingers near the blade edge.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": []
+    },
+    "step-3": {
+      "ticks": [
+        {
+          "shot": 1,
+          "on": "cold",
+          "label": "Cold water"
+        }
+      ],
+      "facts": [],
+      "cards": [
+        {
+          "shot": 4,
+          "on": "floats",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Eating an egg that floats.",
+          "dur": 4.4
+        },
+        {
+          "shot": 5,
+          "on": "moisture",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "The air pocket grows as the egg ages.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": [
+        {
+          "shot": 2,
+          "on": "sinks",
+          "name": "kitchen-tricks",
+          "mode": "egg",
+          "title": "The cold water test",
+          "dur": 4.8
+        }
+      ]
+    },
+    "step-4": {
+      "ticks": [],
+      "facts": [
+        {
+          "shot": 2,
+          "on": "degrees",
+          "kind": "measure",
+          "big": "160 °C",
+          "small": "320 °F, for 10 minutes",
+          "dur": 4.0
+        },
+        {
+          "shot": 4,
+          "on": "ten",
+          "kind": "timer",
+          "big": "10 s",
+          "small": "slices in a damp paper towel",
+          "dur": 4.0
+        }
+      ],
+      "cards": [],
+      "gags": [
+        {
+          "shot": 1,
+          "on": "throw",
+          "pose": "no",
+          "side": "left",
+          "dur": 2.8
+        }
+      ],
+      "diagrams": [
+        {
+          "shot": 3,
+          "on": "steam",
+          "name": "kitchen-tricks",
+          "mode": "bread",
+          "title": "Why it works",
+          "dur": 4.8
+        }
+      ]
+    },
+    "step-5": {
+      "ticks": [
+        {
+          "shot": 6,
+          "on": "airtight",
+          "label": "Airtight container"
+        }
+      ],
+      "facts": [
+        {
+          "shot": 2,
+          "on": "bursts",
+          "kind": "timer",
+          "big": "10 s",
+          "small": "bursts in the microwave",
+          "dur": 4.0
+        }
+      ],
+      "cards": [
+        {
+          "shot": 4,
+          "on": "absorbs",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "The sugar takes moisture from the bread.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [
+        {
+          "shot": 1,
+          "on": "rock",
+          "pose": "panic",
+          "side": "left",
+          "dur": 2.8
+        }
+      ],
+      "diagrams": []
+    },
+    "step-6": {
+      "ticks": [],
+      "facts": [
+        {
+          "shot": 3,
+          "on": "inch",
+          "kind": "measure",
+          "big": "1 inch",
+          "small": "of water in the jar",
+          "dur": 4.0
+        },
+        {
+          "shot": 7,
+          "on": "week",
+          "kind": "timer",
+          "big": "1 week",
+          "small": "or more, kept this way",
+          "dur": 4.0
+        }
+      ],
+      "cards": [
+        {
+          "shot": 5,
+          "on": "cold",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Basil in the fridge: it hates the cold.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": [
+        {
+          "shot": 2,
+          "on": "flowers",
+          "name": "kitchen-tricks",
+          "mode": "herbs",
+          "title": "Herbs like flowers",
+          "dur": 4.8
+        }
+      ]
+    },
+    "step-7": {
+      "ticks": [
+        {
+          "shot": 7,
+          "on": "fork",
+          "label": "A fork"
+        }
+      ],
+      "facts": [
+        {
+          "shot": 3,
+          "on": "fifteen",
+          "kind": "timer",
+          "big": "10–15 s",
+          "small": "in the microwave, then roll",
+          "dur": 4.0
+        }
+      ],
+      "cards": [
+        {
+          "shot": 2,
+          "on": "sacs",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "Rolling breaks the little juice sacs.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [
+        {
+          "shot": 5,
+          "on": "juice",
+          "pose": "thumbs",
+          "side": "left",
+          "dur": 2.8
+        }
+      ],
+      "diagrams": []
+    },
+    "step-8": {
+      "ticks": [],
+      "facts": [
+        {
+          "shot": 1,
+          "on": "twelve",
+          "kind": "timer",
+          "big": "9–12 min",
+          "small": "in boiling water",
+          "dur": 4.0
+        },
+        {
+          "shot": 2,
+          "on": "five",
+          "kind": "timer",
+          "big": "5 min",
+          "small": "in ice water",
+          "dur": 4.0
+        }
+      ],
+      "cards": [],
+      "gags": [
+        {
+          "shot": 5,
+          "on": "pieces",
+          "pose": "party",
+          "side": "left",
+          "dur": 2.8
+        }
+      ],
+      "diagrams": [
+        {
+          "shot": 3,
+          "on": "shrink",
+          "name": "kitchen-tricks",
+          "mode": "ice",
+          "title": "Why ice water",
+          "dur": 4.8
+        }
+      ]
+    },
+    "step-9": {
+      "ticks": [],
+      "facts": [],
+      "cards": [
+        {
+          "shot": 5,
+          "on": "room",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "Room-temperature fruit gives more juice.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": []
+    },
+    "step-10": {
+      "ticks": [
+        {
+          "shot": 3,
+          "on": "olive",
+          "label": "Olive oil"
+        }
+      ],
+      "facts": [],
+      "cards": [
+        {
+          "shot": 4,
+          "on": "Slice",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "Toast just one slice at a time.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": []
+    },
+    "step-11": {
+      "ticks": [],
+      "facts": [
+        {
+          "shot": 4,
+          "on": "two",
+          "kind": "timer",
+          "big": "2 hours",
+          "small": "leftovers into the fridge",
+          "dur": 4.0
+        }
+      ],
+      "cards": [
+        {
+          "shot": 1,
+          "on": "dull",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "A dull blade: it slips.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": []
+    }
+  },
+  "short": [
+    "2-1",
+    "3-2",
+    "4-2"
+  ]
+}

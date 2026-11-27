@@ -12,6 +12,8 @@ import { PastaPot } from "./diagrams/PastaPot";
 import { WindowSqueegee } from "./diagrams/WindowSqueegee";
 import { SilverTarnish } from "./diagrams/SilverTarnish";
 import { LaptopClean } from "./diagrams/LaptopClean";
+import { ZipperSlider } from "./diagrams/ZipperSlider";
+import { KitchenTricks } from "./diagrams/KitchenTricks";
 
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 
@@ -984,6 +986,8 @@ const DIAGRAMS: Record<string, React.FC<{ mode: string; local: number; width?: n
   "window-squeegee": ({ mode, local, width }) => <WindowSqueegee mode={mode} local={local} width={width} />,
   "silver-tarnish": ({ mode, local, width }) => <SilverTarnish mode={mode} local={local} width={width} />,
   "laptop-clean": ({ mode, local, width }) => <LaptopClean mode={mode} local={local} width={width} />,
+  "zipper-slider": ({ mode, local, width }) => <ZipperSlider mode={mode} local={local} width={width} />,
+  "kitchen-tricks": ({ mode, local, width }) => <KitchenTricks mode={mode} local={local} width={width} />,
   "house-drain": ({ mode, local, width }) => <HouseDrain mode={mode} local={local} width={width} />,
 };
 

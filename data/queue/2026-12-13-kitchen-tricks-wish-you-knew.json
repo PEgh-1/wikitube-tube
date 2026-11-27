@@ -4,15 +4,15 @@
   "date": "2026-12-13",
   "slug": "kitchen-tricks-wish-you-knew",
   "category": "Kitchen",
-  "title": "8 Kitchen Tricks You'll Wish You Knew Earlier",
-  "hook": "Some kitchen tricks are so simple, you'll wonder why nobody told you sooner. Here are eight, tested and safe, that save time, cut waste and make cooking easier. Each takes under a minute to learn. Stay for step four: it brings stale bread back to life.",
+  "title": "8 Kitchen Tricks You'll Wish You Knew",
+  "hook": "Garlic that takes forever to peel, bread gone hard, brown sugar like a rock. A few small tricks fix all of that. Eight of them, tested and safe, that save time and cut waste. Stay for step four: it brings stale bread back to life.",
   "hookWords": [
+    "Small tricks",
     "Eight",
     "Save time",
-    "Cut waste",
-    "Under a minute"
+    "Cut waste"
   ],
-  "intro": "Professional cooks rely on small habits and shortcuts that never appear in recipes. No gadgets, no secret ingredients. They simply make everyday jobs faster, safer or tastier, from peeling garlic in seconds to rescuing hard brown sugar. Everything is already in your kitchen.",
+  "intro": "Professional cooks rely on small habits and shortcuts that never appear in recipes. No gadgets, no secret ingredients. They simply make everyday jobs faster, safer or tastier, from peeling garlic in seconds to rescuing hard brown sugar. Everything you need is already in your kitchen.",
   "youNeed": [
     "A chef's knife",
     "A damp kitchen towel",
@@ -20,7 +20,7 @@
     "A microwave",
     "A bowl of cold water"
   ],
-  "youNeedNarration": "You'll need a chef's knife and a cutting board, a damp kitchen towel, a glass jar with a lid, a microwave, and a bowl of cold water. Take care with knives and hot items.",
+  "youNeedNarration": "You'll need a chef's knife, a damp kitchen towel, a glass jar with a lid, a microwave, and a bowl of cold water. Take care with knives and hot items.",
   "heroImageQuery": "kitchen counter eggs garlic lemon",
   "heroImagePrompt": "A kitchen counter with eggs, garlic, a lemon, fresh herbs in a jar and a chef's knife, bright morning light, photorealistic, no text",
   "steps": [
@@ -35,7 +35,7 @@
     },
     {
       "title": "Peel garlic in seconds",
-      "narration": "Trick two. Place a garlic clove on a board, lay the flat side of a large knife over it, and press down firmly with the heel of your hand. The skin cracks, and slides right off. For a whole head, break it into cloves, put them in a lidded jar or two bowls, and shake hard for ten to fifteen seconds. The cloves rub against each other and lose their skins. Keep your fingers away from the blade edge. A silicone garlic peeler tube also works if you cook with garlic often. Roll the clove back and forth, and the skin comes off.",
+      "narration": "Trick two. Place a garlic clove on a board, lay the flat side of a large knife over it, and press down firmly with the heel of your hand. The skin cracks, and slides right off. For a whole head, break it into cloves, put them in a lidded jar or two bowls, and shake hard for ten to fifteen seconds. The cloves rub against each other and lose their skins. Keep your fingers away from the blade edge. A silicone garlic peeler tube also works if you cook with garlic often. Roll the clove back and forth, and the skin comes off. Next, a quick test for the eggs in your fridge.",
       "tip": "Press the flat of the knife, don't slice",
       "mistake": "Using the knife edge facing your hand",
       "imageQuery": "peeling garlic knife",
@@ -53,7 +53,7 @@
     },
     {
       "title": "Revive stale bread",
-      "narration": "Trick four. Don't throw away bread that has gone hard. Run a loaf quickly under the tap, so the crust is slightly damp, and put it in a hot oven at about 160 degrees Celsius, or 320 Fahrenheit, for ten minutes. The moisture turns to steam, softens the inside and crisps the crust. For a sliced loaf, wrap slices in a damp paper towel and microwave for ten seconds. Eat it right away, since revived bread goes stale quickly. Bread revived this way is best used the same day, for toast, sandwiches or croutons.",
+      "narration": "Trick four. Don't throw away bread that has gone hard. Run a loaf quickly under the tap, so the crust is slightly damp, and put it in a hot oven at about 160 degrees Celsius, or 320 Fahrenheit, for ten minutes. The moisture turns to steam, softens the inside and crisps the crust. For a sliced loaf, wrap slices in a damp paper towel and microwave for ten seconds. Eat it right away, since revived bread goes stale quickly. Bread revived this way is best used the same day, for toast, sandwiches or croutons. The next trick rescues something else people throw away: hard brown sugar.",
       "tip": "Water plus heat brings it back",
       "mistake": "Reheating without any moisture",
       "imageQuery": "stale bread oven",
@@ -71,7 +71,7 @@
     },
     {
       "title": "Keep herbs fresh longer",
-      "narration": "Trick six. Fresh herbs wilt fast in the fridge. Treat soft herbs, such as parsley, cilantro and dill, like flowers. Trim the stems, put them in a jar with an inch of water, loosely cover the leaves with a bag, and keep them in the fridge. Change the water every couple of days. Basil is different, because it hates the cold. Keep basil in a jar of water on the counter, away from direct sun. Herbs stay fresh for a week or more. Hardy herbs like rosemary and thyme can be wrapped in a damp paper towel, and kept in a bag in the fridge.",
+      "narration": "Trick six. Fresh herbs wilt fast in the fridge. Treat soft herbs, such as parsley, cilantro and dill, like flowers. Trim the stems, put them in a jar with an inch of water, loosely cover the leaves with a bag, and keep them in the fridge. Change the water every couple of days. Basil is different, because it hates the cold. Keep basil in a jar of water on the counter, away from direct sun. Herbs stay fresh for a week or more. Hardy herbs like rosemary and thyme can be wrapped in a damp paper towel, and kept in a bag in the fridge. Now for a trick that gets more out of every lemon.",
       "tip": "Treat parsley like flowers",
       "mistake": "Storing basil in the fridge",
       "imageQuery": "fresh herbs jar",
@@ -222,5 +222,28 @@
       }
     ],
     "cta": "Full guide on the channel."
+  },
+  "short2": {
+    "kind": "tip",
+    "title": "Get more juice from every lemon #shorts",
+    "description": "Warm the whole lemon in the microwave for ten to fifteen seconds, then roll it firmly on the counter before you cut it. Rolling breaks the little juice sacs inside. Full 8-trick guide on the channel. #kitchenhacks #cooking #howto",
+    "headline": "Roll your lemons",
+    "hook": "Barely any juice from your lemon?",
+    "shot": "short2-hook.jpg",
+    "beats": [
+      {
+        "label": "Do this",
+        "title": "Warm it, then roll it",
+        "narration": "Warm the whole lemon in the microwave for ten to fifteen seconds, then roll it firmly on the counter before you cut it.",
+        "shot": "7-3"
+      },
+      {
+        "label": "Why it works",
+        "title": "The juice sacs break",
+        "narration": "Rolling breaks the little juice sacs inside, so you get a lot more juice from the same fruit.",
+        "shot": "7-4"
+      }
+    ],
+    "cta": "The full eight-trick guide is on the channel."
   }
 }

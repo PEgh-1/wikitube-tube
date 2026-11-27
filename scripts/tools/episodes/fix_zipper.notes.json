@@ -1,0 +1,319 @@
+{
+ "extras": {
+  "intro": {
+   "pose": "idea",
+   "diagram": "zipper-slider",
+   "title": "Three ways a zipper fails",
+   "mode": "snag",
+   "chips": [
+    {
+     "on": "caught",
+     "label": "Fabric gets caught",
+     "sub": "in the teeth",
+     "mode": "snag"
+    },
+    {
+     "on": "closing",
+     "label": "Teeth stop closing",
+     "sub": "behind the slider",
+     "mode": "split"
+    },
+    {
+     "on": "track",
+     "label": "Slider off the track",
+     "sub": "on one side",
+     "mode": "track"
+    },
+    {
+     "on": "first",
+     "label": "Find the problem first",
+     "sub": "each has its own fix",
+     "mode": "track"
+    },
+    {
+     "on": "drawer",
+     "label": "Things from a drawer",
+     "sub": "or a sewing kit",
+     "mode": "track"
+    }
+   ],
+   "gags": []
+  },
+  "step-1": {
+   "ticks": [],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 7,
+     "on": "forcing",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Forcing it: the fastest way to break a zipper.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 6,
+     "on": "missing",
+     "pose": "panic",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": []
+  },
+  "step-2": {
+   "ticks": [
+    {
+     "shot": 2,
+     "on": "tweezers",
+     "label": "Tweezers"
+    }
+   ],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 1,
+     "on": "stop",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Pulling on a snagged zipper.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": [
+    {
+     "shot": 4,
+     "on": "wiggle",
+     "name": "zipper-slider",
+     "mode": "snag",
+     "title": "Free the fabric",
+     "dur": 4.8
+    }
+   ]
+  },
+  "step-3": {
+   "ticks": [
+    {
+     "shot": 2,
+     "on": "pencil",
+     "label": "Pencil, soap or candle"
+    }
+   ],
+   "facts": [
+    {
+     "shot": 7,
+     "on": "year",
+     "kind": "timer",
+     "big": "Once a year",
+     "small": "repeat the rub",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 3,
+     "on": "graphite",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Graphite on light fabric: it can leave grey marks.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": []
+  },
+  "step-4": {
+   "ticks": [
+    {
+     "shot": 2,
+     "on": "cloth",
+     "label": "A piece of cloth"
+    }
+   ],
+   "facts": [
+    {
+     "shot": 7,
+     "on": "ten",
+     "kind": "measure",
+     "big": "10 times",
+     "small": "zip up and down to check",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 5,
+     "on": "crush",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "One big squeeze: it can crush the slider.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": [
+    {
+     "shot": 1,
+     "on": "stretched",
+     "name": "zipper-slider",
+     "mode": "split",
+     "title": "Why it splits",
+     "dur": 4.8
+    }
+   ]
+  },
+  "step-5": {
+   "ticks": [
+    {
+     "shot": 1,
+     "on": "pliers",
+     "label": "Pliers"
+    }
+   ],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 4,
+     "on": "cross",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Leaving crossed teeth: start again.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": [
+    {
+     "shot": 2,
+     "on": "line",
+     "name": "zipper-slider",
+     "mode": "track",
+     "title": "Back on track",
+     "dur": 4.8
+    }
+   ]
+  },
+  "step-6": {
+   "ticks": [],
+   "facts": [
+    {
+     "shot": 2,
+     "on": "number",
+     "kind": "measure",
+     "big": "3 · 5 · 8",
+     "small": "the size stamped on the back",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 7,
+     "on": "charge",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "Doing it yourself is worth a try.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 6,
+     "on": "dollars",
+     "pose": "thumbs",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": []
+  },
+  "step-7": {
+   "ticks": [],
+   "facts": [
+    {
+     "shot": 5,
+     "on": "twice",
+     "kind": "timer",
+     "big": "1–2× a year",
+     "small": "wipe, then soap or wax",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 2,
+     "on": "washing",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "Closed teeth don't bend or snag other clothes.",
+     "dur": 4.4
+    },
+    {
+     "shot": 3,
+     "on": "overstuff",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Overstuffed bags: the strain separates the teeth.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": []
+  },
+  "step-8": {
+   "ticks": [],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 2,
+     "on": "Squeezing",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "Missing or cracked teeth can't be squeezed back.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": []
+  },
+  "step-9": {
+   "ticks": [],
+   "facts": [],
+   "cards": [],
+   "gags": [
+    {
+     "shot": 2,
+     "on": "seams",
+     "pose": "panic",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": []
+  },
+  "step-10": {
+   "ticks": [],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 2,
+     "on": "splitting",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "A splitting zipper wears the slider down further.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": []
+  }
+ },
+ "shots": {},
+ "short": [
+  "2-2",
+  "3-2",
+  "4-3"
+ ]
+}

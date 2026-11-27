@@ -4,7 +4,7 @@
   "date": "2026-11-18",
   "slug": "fix-a-zipper",
   "category": "Home",
-  "title": "How to Fix a Zipper (Stuck, Split or Broken Slider)",
+  "title": "How to Fix a Zipper",
   "hook": "A broken zipper doesn't mean a ruined jacket. Before you throw it away or pay for a repair, try this. Seven quick fixes for a zipper that is stuck, split, or off its track. Stay for step four: it closes a splitting zipper with just a pair of pliers.",
   "hookWords": [
     "Seven quick fixes",
@@ -34,7 +34,7 @@
     },
     {
       "title": "Free any caught fabric",
-      "narration": "Step two. If fabric or thread is caught, stop pulling right away. Move the slider back down a few millimetres to loosen the fabric, then gently pull the material away from the teeth with tweezers or the point of a pin. Work slowly and do a little at a time. If the fabric is stuck on both sides, hold the zipper flat and wiggle the slider back and forth in tiny movements. A stubborn snag can sometimes be lifted with a small sewing needle. Once it is free, check the cloth for damage. If a few threads are pulled, trim them with small scissors, so they can't catch again. Then test the zipper slowly.",
+      "narration": "Step two. If fabric or thread is caught, stop pulling right away. Move the slider back down a few millimetres to loosen the fabric, then gently pull the material away from the teeth with tweezers or the point of a pin. Work slowly and do a little at a time. If the fabric is stuck on both sides, hold the zipper flat and wiggle the slider back and forth in tiny movements. A stubborn snag can sometimes be lifted with a small sewing needle. Once it is free, check the cloth for damage. If a few threads are pulled, trim them with small scissors, so they can't catch again. Then test the zipper slowly. If it moves but feels stiff, the next step is for you.",
       "tip": "Back up first, then lift the fabric",
       "mistake": "Pulling harder on a snagged zipper",
       "imageQuery": "tweezers freeing zipper fabric",
@@ -52,7 +52,7 @@
     },
     {
       "title": "Close a zipper that splits",
-      "narration": "Step four. When the teeth open up behind the slider, the slider has usually stretched and no longer grips. Move it to the bottom of the zipper, and place a cloth over it to protect the metal. Using pliers, gently squeeze the slider on its two sides, just a little, and test it by zipping up. Repeat with tiny squeezes until the zipper closes firmly. Too much force can crush the slider, so go slowly. If you can see the slider is cracked, skip ahead and replace it. After the fix, zip the zipper up and down at least ten times to confirm that it holds. If it still opens, one more tiny squeeze will usually do it.",
+      "narration": "Step four. When the teeth open up behind the slider, the slider has usually stretched and no longer grips. Move it to the bottom of the zipper, and place a cloth over it to protect the metal. Using pliers, gently squeeze the slider on its two sides, just a little, and test it by zipping up. Repeat with tiny squeezes until the zipper closes firmly. Too much force can crush the slider, so go slowly. If you can see the slider is cracked, skip ahead and replace it. After the fix, zip the zipper up and down at least ten times to confirm that it holds. If it still opens, one more tiny squeeze will usually do it. If the slider has come off completely, that's the next fix.",
       "tip": "Tiny squeezes, then test again",
       "mistake": "Crushing the slider in one big squeeze",
       "imageQuery": "pliers squeezing zipper slider",
@@ -70,7 +70,7 @@
     },
     {
       "title": "Replace a worn-out slider",
-      "narration": "Step six. Sometimes the slider is just worn out. Look for a number stamped on the back, like 3, 5 or 8, which gives the zipper size, and buy a matching slider at a craft or sewing shop. Remove the old one and the bottom stop, as in the previous step, and slide the new one on. You can also remove the top stop to do the job from the other end. Then add a new stop, either with pliers or with strong thread. A new slider usually costs only a few dollars. Repair shops often charge much more, so doing it yourself is worth a try.",
+      "narration": "Step six. Sometimes the slider is just worn out. Look for a number stamped on the back, like 3, 5 or 8, which gives the zipper size, and buy a matching slider at a craft or sewing shop. Remove the old one and the bottom stop, as in the previous step, and slide the new one on. You can also remove the top stop to do the job from the other end. Then add a new stop, either with pliers or with strong thread. A new slider usually costs only a few dollars. Repair shops often charge much more, so doing it yourself is worth a try. One step is left: keeping your zippers out of trouble.",
       "tip": "Match the number on the slider",
       "mistake": "Buying the wrong slider size",
       "imageQuery": "sewing kit zippers buttons",
@@ -211,5 +211,28 @@
       }
     ],
     "cta": "Full guide on the channel."
+  },
+  "short2": {
+    "kind": "mistake",
+    "title": "Don't put oil on a stuck zipper #shorts",
+    "description": "Oil or grease on clothing can leave marks that are very hard to remove. Rub a graphite pencil, a dry bar of soap or a candle stub along the teeth instead, then move the slider up and down. Full 7-step guide on the channel. #zipper #diy #howto",
+    "headline": "Oil on a zipper",
+    "hook": "Don't put oil on a stuck zipper.",
+    "shot": "short2-hook.jpg",
+    "beats": [
+      {
+        "label": "Why it fails",
+        "title": "It marks the fabric",
+        "narration": "Oil or grease on clothing can leave marks that are very hard to remove.",
+        "shot": "mistake-2"
+      },
+      {
+        "label": "Do this instead",
+        "title": "Pencil, soap or wax",
+        "narration": "Rub a graphite pencil, a dry bar of soap or a candle stub along the teeth, then move the slider up and down.",
+        "shot": "3-2"
+      }
+    ],
+    "cta": "The full seven-step guide is on the channel."
   }
 }

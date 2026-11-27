@@ -1,0 +1,708 @@
+{
+  "episodeId": "2026-11-18-fix-a-zipper",
+  "version": 3,
+  "source": "gemini-web (navigateur, sans API)",
+  "style": "Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+  "hero": {
+    "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: a hand pulling the zipper slider smoothly up the fully closed, perfectly aligned zipper, small needle-nose pliers resting beside the jacket, three-quarter view. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+    "file": "hero.jpg"
+  },
+  "youneed": {
+    "prompt": "Flat lay photographed from directly above on a light wood surface, items neatly arranged with clear space between them: a pair of needle-nose pliers, a plain yellow graphite pencil with no markings next to a plain white bar of soap, a pair of metal tweezers, one small silver zipper slider, and a small folded piece of plain grey cloth. No packaging, no labels. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+    "file": "youneed.jpg",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  "mistakesSubtitle": "that break a zipper for good",
+  "mistakes": [
+    {
+      "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: a hand yanking the zipper slider hard upward while the other hand grips the jacket, the fabric bunched and caught in the slider, the teeth bending, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "mistake-1.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: a hand dripping yellow oil from a small plain glass bottle onto the zipper teeth, a dark greasy stain spreading on the navy fabric beside the zipper, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "mistake-2.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: a hand squeezing the small metal zipper slider very hard with large pliers, the slider visibly crushed and bent out of shape, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "mistake-3.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ]
+    }
+  ],
+  "shots": {
+    "step-1": [
+      {
+        "text": "Step one. Look closely at the zipper, with good light.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: two hands holding the zipper up toward the window light to look at it closely, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-1.jpg"
+      },
+      {
+        "text": "Is fabric caught between the teeth?",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: macro close-up of a fold of navy fabric caught between the metal teeth right at the slider, a fingertip pointing at it. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-2.jpg"
+      },
+      {
+        "text": "Do the teeth separate right behind the slider after you pull it up?",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: macro close-up of a zipper whose metal teeth have separated and gaped open just below the slider, the slider pulled halfway up, a fingertip pointing at the gap. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-3.jpg"
+      },
+      {
+        "text": "Or has the slider slid completely off one side?",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: macro close-up of a zipper slider hanging on only one row of teeth, the other row of teeth loose and free beside it. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-4.jpg"
+      },
+      {
+        "text": "Run the slider up and down slowly, and feel for the spot where it hesitates.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: fingers moving the zipper slider slowly along the teeth, the other hand holding the bottom of the zipper taut, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-5.jpg"
+      },
+      {
+        "text": "Also check for missing or bent teeth, because a zipper with several teeth missing can't be fixed this way.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: macro close-up of a metal zipper with a gap where several teeth are missing and one tooth bent sideways, a fingertip pointing at the gap. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-6.jpg"
+      },
+      {
+        "text": "Knowing the problem first saves you from forcing it, which is the fastest way to break a zipper for good.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: an open hand held still above the zipper in a calm stop gesture, the slider stuck halfway, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-7.jpg"
+      },
+      {
+        "text": "Take a photo of the damage if you want to compare it before and after, or to show the shop.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: a hand holding a smartphone with a dark blank screen above the damaged zipper, as if taking a photo, seen from behind the hand. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-1-8.jpg"
+      }
+    ],
+    "step-2": [
+      {
+        "text": "Step two. If fabric or thread is caught, stop pulling right away.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: a hand letting go of the zipper slider, fingers open, a fold of navy fabric clearly caught in the slider, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-1.jpg"
+      },
+      {
+        "text": "Move the slider back down a few millimetres to loosen the fabric, then gently pull the material away from the teeth with tweezers or the point of a pin.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: macro close-up of metal tweezers gently pulling a fold of fabric out from between the zipper teeth, the slider moved slightly back below the snag. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-2.jpg"
+      },
+      {
+        "text": "Work slowly and do a little at a time.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: fingertips easing a tiny bit of fabric out of a zipper slider with a pin, very careful slow gesture, macro close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-3.jpg"
+      },
+      {
+        "text": "If the fabric is stuck on both sides, hold the zipper flat and wiggle the slider back and forth in tiny movements.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: one hand pressing the zipper flat on the table while the other hand wiggles the slider with two fingertips, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-4.jpg"
+      },
+      {
+        "text": "A stubborn snag can sometimes be lifted with a small sewing needle.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: macro close-up of the tip of a small sewing needle lifting a caught thread out of the zipper teeth beside the slider. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-5.jpg"
+      },
+      {
+        "text": "Once it is free, check the cloth for damage.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: fingertips smoothing the navy fabric next to the zipper to inspect it, a few pulled threads visible, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-6.jpg"
+      },
+      {
+        "text": "If a few threads are pulled, trim them with small scissors, so they can't catch again.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: small scissors trimming a few loose threads next to the zipper teeth, macro close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-7.jpg"
+      },
+      {
+        "text": "Then test the zipper slowly.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: a hand slowly pulling the freed zipper slider up the teeth, the fabric lying flat on both sides, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-8.jpg"
+      },
+      {
+        "text": "If it moves but feels stiff, the next step is for you.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: fingers pulling a zipper slider that moves but clearly resists, the other hand holding the jacket taut, a plain pencil lying ready on the table beside it. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-2-9.jpg"
+      }
+    ],
+    "step-3": [
+      {
+        "text": "Step three. If the zipper is stiff but not caught, dirt or friction is the usual cause.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: macro close-up of dusty, dull metal zipper teeth with fine grit between them, a fingertip touching the slider. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-1.jpg"
+      },
+      {
+        "text": "Rub a graphite pencil, a dry bar of soap or a candle stub along both rows of teeth, then move the slider up and down several times to spread it.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: a hand rubbing the tip of a plain graphite pencil along the metal teeth of the zipper, a plain white bar of soap and a short white candle stub on the table beside it, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-2.jpg"
+      },
+      {
+        "text": "On light fabric, use soap or candle wax, because graphite can leave grey marks.",
+        "prompt": "On a light wooden table next to a bright window, a plain white cotton jacket with a zipper lying flat on the table: a hand rubbing a plain white bar of soap along the zipper teeth, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-3.jpg"
+      },
+      {
+        "text": "For a very dirty zipper, brush the teeth first with an old toothbrush and a little water, and let it dry.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: a hand brushing the zipper teeth with an old toothbrush dipped in a little water, a small glass of water beside it, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-4.jpg"
+      },
+      {
+        "text": "You will feel the improvement straight away.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: a hand gliding the zipper slider easily all the way up the zipper in one smooth motion, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-5.jpg"
+      },
+      {
+        "text": "This is also the best fix for zippers on boots, bags and tents, which collect dust and grit all the time.",
+        "prompt": "On a light wooden table next to a bright window: a hand rubbing a short white candle stub along the dusty zipper of a brown leather boot, a plain grey backpack and a folded green tent bag beside it. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-6.jpg"
+      },
+      {
+        "text": "Repeat once a year.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: a hand putting a plain pencil and a bar of soap into a small open sewing box on the table, the jacket zipped up beside it. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-3-7.jpg"
+      }
+    ],
+    "step-4": [
+      {
+        "text": "Step four. When the teeth open up behind the slider, the slider has usually stretched and no longer grips.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: macro close-up of a zipper slider pulled halfway up with the metal teeth gaping open below it, a fingertip pointing at the slider. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-1.jpg"
+      },
+      {
+        "text": "Move it to the bottom of the zipper, and place a cloth over it to protect the metal.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: a hand laying a small piece of plain grey cloth over the zipper slider at the very bottom of the zipper, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-2.jpg"
+      },
+      {
+        "text": "Using pliers, gently squeeze the slider on its two sides, just a little, and test it by zipping up.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: needle-nose pliers gently squeezing one side of a zipper slider wrapped in a small piece of grey cloth, the other hand holding the zipper, macro close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-3.jpg"
+      },
+      {
+        "text": "Repeat with tiny squeezes until the zipper closes firmly.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: a hand pulling the slider up to test the zipper, the teeth closing neatly behind it, needle-nose pliers held ready in the other hand, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-4.jpg"
+      },
+      {
+        "text": "Too much force can crush the slider, so go slowly.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: needle-nose pliers held barely touching a zipper slider, the hand visibly relaxed and gentle, macro close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-5.jpg"
+      },
+      {
+        "text": "If you can see the slider is cracked, skip ahead and replace it.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: macro close-up of a metal zipper slider with a thin visible crack along its side, held between two fingertips. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-6.jpg"
+      },
+      {
+        "text": "After the fix, zip the zipper up and down at least ten times to confirm that it holds.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: a hand zipping the jacket zipper up in a quick motion, the closed teeth perfectly aligned along the whole length, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-7.jpg"
+      },
+      {
+        "text": "If it still opens, one more tiny squeeze will usually do it.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: needle-nose pliers giving one more tiny squeeze to a zipper slider covered by a grey cloth, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-8.jpg"
+      },
+      {
+        "text": "If the slider has come off completely, that's the next fix.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: a hand holding a zipper slider that has come completely off, lying in the open palm above the two separate rows of zipper teeth. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-4-9.jpg"
+      }
+    ],
+    "step-5": [
+      {
+        "text": "Step five. If the slider has come off one side, first remove the bottom stop, the little metal piece at the end, using pliers.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: needle-nose pliers gripping and lifting the small metal stop at the very bottom end of the zipper, macro close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-1.jpg"
+      },
+      {
+        "text": "Then line up both rows of teeth, and slide the slider on from the bottom, one side at a time, so the teeth enter evenly.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: fingers feeding both rows of zipper teeth evenly into the bottom of a metal slider, the two rows held side by side, macro close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-2.jpg"
+      },
+      {
+        "text": "Zip it up a few centimetres to check that it closes correctly.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: a hand pulling the slider a short way up the zipper, a few centimetres of teeth closed neatly below it, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-3.jpg"
+      },
+      {
+        "text": "If the teeth cross over, start again.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: macro close-up of a zipper where the two rows of teeth are misaligned and crossed over each other just above the slider, a fingertip pointing at it. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-4.jpg"
+      },
+      {
+        "text": "Finally, fit the stop back in place, or sew a few firm stitches across the tape to make a new stop.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: a hand sewing a few firm stitches with thick thread and a needle across the bottom end of the zipper tape, macro close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-5.jpg"
+      },
+      {
+        "text": "If the zipper is plastic, the same method works, but be gentle, because plastic teeth are easier to break than metal.",
+        "prompt": "On a light wooden table next to a bright window, a plain grey backpack with a black plastic zipper lying on the table: fingertips very gently guiding a slider onto black plastic zipper teeth, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-5-6.jpg"
+      }
+    ],
+    "step-6": [
+      {
+        "text": "Step six. Sometimes the slider is just worn out.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: macro close-up of an old, worn, scratched and dull metal zipper slider held between two fingertips. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-1.jpg"
+      },
+      {
+        "text": "Look for a number stamped on the back, like 3, 5 or 8, which gives the zipper size, and buy a matching slider at a craft or sewing shop.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: macro close-up of the plain back of a zipper slider held between fingertips, a second new shiny slider lying on the table beside it, the back of the slider smooth and blank. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-2.jpg"
+      },
+      {
+        "text": "Remove the old one and the bottom stop, as in the previous step, and slide the new one on.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: needle-nose pliers pulling the old slider off the bottom of the zipper, a new shiny slider waiting on the table beside it, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-3.jpg"
+      },
+      {
+        "text": "You can also remove the top stop to do the job from the other end.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: needle-nose pliers lifting the small metal stop at the very top end of the zipper near the collar, macro close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-4.jpg"
+      },
+      {
+        "text": "Then add a new stop, either with pliers or with strong thread.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: needle-nose pliers pinching a small new metal stop onto the bottom end of the zipper tape, a spool of plain strong thread beside it, macro close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-5.jpg"
+      },
+      {
+        "text": "A new slider usually costs only a few dollars.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: an open palm holding one small new silver zipper slider next to a few plain coins, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-6.jpg"
+      },
+      {
+        "text": "Repair shops often charge much more, so doing it yourself is worth a try.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: a hand zipping up the repaired jacket on the table with a new shiny slider, needle-nose pliers and the old slider lying beside it. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-7.jpg"
+      },
+      {
+        "text": "One step is left: keeping your zippers out of trouble.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: a hand hanging the zipped-up navy jacket on a wooden hanger held above the table, the zipper closed all the way. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-6-8.jpg"
+      }
+    ],
+    "step-7": [
+      {
+        "text": "Step seven. A few habits will keep your zippers working for years.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: a hand smoothing the fully zipped jacket, the zipper straight and closed, calm wide view. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-1.jpg"
+      },
+      {
+        "text": "Close them fully before washing, so the teeth don't bend or snag other clothes.",
+        "prompt": "In a bright laundry room: a hand zipping a navy jacket fully closed just before putting it into the open drum of a white washing machine. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-2.jpg"
+      },
+      {
+        "text": "Don't overstuff bags or jackets, as the strain makes the teeth separate.",
+        "prompt": "On a light wooden table next to a bright window: a plain grey backpack stuffed so full that its zipper strains and gapes open in the middle, a hand trying to pull the slider closed. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-3.jpg"
+      },
+      {
+        "text": "Pull the slider by the tab, in line with the zipper, and not at an angle.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: fingers pulling the zipper slider by its tab straight in line with the zipper, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-4.jpg"
+      },
+      {
+        "text": "Once or twice a year, wipe the teeth and rub them with soap or wax.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: a hand wiping the zipper teeth with a small cloth, a plain white bar of soap beside it, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-5.jpg"
+      },
+      {
+        "text": "If a zipper starts to feel rough, deal with it right away, because small problems get worse quickly.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: a fingertip stopping on a rough spot of the zipper, a plain pencil held ready in the other hand, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-6.jpg"
+      },
+      {
+        "text": "A few seconds of care now will save you a repair later.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: a hand giving the zipper one quick pass with a white candle stub, the jacket neat and closed, relaxed view. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-7-7.jpg"
+      }
+    ],
+    "step-8": [
+      {
+        "text": "If none of the fixes worked, look at the teeth again.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: two hands holding the zipper close to the window light, a fingertip tracing along the teeth, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-8-1.jpg"
+      },
+      {
+        "text": "Squeezing the slider cannot repair missing or cracked teeth.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: macro close-up of a zipper with one missing tooth and one cracked tooth, needle-nose pliers lying beside it unused. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-8-2.jpg"
+      },
+      {
+        "text": "A bent metal tooth can sometimes be straightened with small pliers.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: the fine tips of small pliers carefully straightening one bent metal zipper tooth, macro close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-8-3.jpg"
+      },
+      {
+        "text": "If the teeth are damaged and the slider is fine, replacing the whole zipper is the only lasting fix.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: a new plain navy zipper lying on the table next to the damaged zipper of the jacket, a hand holding the two side by side. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-8-4.jpg"
+      }
+    ],
+    "step-9": [
+      {
+        "text": "Some jobs belong to a tailor or a repair shop.",
+        "prompt": "In a small tailor's workshop with spools of plain thread on the wall: a hand passing a folded navy jacket across the counter to another person's hands, no faces visible. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-9-1.jpg"
+      },
+      {
+        "text": "Replacing a full zipper on a coat or jeans means unpicking seams and sewing them back, which is hard to do neatly at home.",
+        "prompt": "In a small tailor's workshop: a tailor's hands unpicking the seam along the zipper of a pair of blue jeans with a seam ripper, close-up, no face visible. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-9-2.jpg"
+      },
+      {
+        "text": "Leather, down jackets and expensive pieces deserve a professional.",
+        "prompt": "On a light wooden table next to a bright window: a brown leather jacket and a puffy quilted down jacket lying side by side on the table, a hand resting on the leather jacket. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-9-3.jpg"
+      },
+      {
+        "text": "Ask for a price first, because a repair often costs far less than a new coat.",
+        "prompt": "In a small tailor's workshop: two pairs of hands over a navy coat on the counter, one hand pointing at the zipper, the other holding a pen above a blank paper pad, no faces visible. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-9-4.jpg"
+      }
+    ],
+    "step-10": [
+      {
+        "text": "Keep a few spare sliders in your sewing kit, because they are small and cheap.",
+        "prompt": "On a light wooden table next to a bright window: a hand dropping three small silver zipper sliders into a compartment of an open sewing box with plain spools of thread. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-10-1.jpg"
+      },
+      {
+        "text": "Fix small problems at once, since a zipper that keeps splitting wears the slider down further.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: needle-nose pliers gently squeezing a zipper slider covered by a grey cloth, the jacket zipper slightly open below, close-up. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-10-2.jpg"
+      },
+      {
+        "text": "Zip a jacket to the top when you hang it, and take hard objects out of bag pockets.",
+        "prompt": "On a light wooden table next to a bright window, a plain navy-blue jacket with a silver metal zipper lying flat on the table: a hand hanging the navy jacket zipped to the top on a wooden hanger on a wall hook, the other hand taking a set of metal keys out of the pocket of a grey backpack on the table. Photorealistic photograph for a practical home how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a mustard-yellow cotton shirt, only hands and forearms in the frame, no head, no face. Plain clothing with no brand tag and no label. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "step-10-3.jpg"
+      }
+    ]
+  },
+  "extras": {
+    "intro": {
+      "pose": "idea",
+      "diagram": "zipper-slider",
+      "title": "Three ways a zipper fails",
+      "mode": "snag",
+      "chips": [
+        {
+          "on": "caught",
+          "label": "Fabric gets caught",
+          "sub": "in the teeth",
+          "mode": "snag"
+        },
+        {
+          "on": "closing",
+          "label": "Teeth stop closing",
+          "sub": "behind the slider",
+          "mode": "split"
+        },
+        {
+          "on": "track",
+          "label": "Slider off the track",
+          "sub": "on one side",
+          "mode": "track"
+        },
+        {
+          "on": "first",
+          "label": "Find the problem first",
+          "sub": "each has its own fix",
+          "mode": "track"
+        },
+        {
+          "on": "drawer",
+          "label": "Things from a drawer",
+          "sub": "or a sewing kit",
+          "mode": "track"
+        }
+      ],
+      "gags": []
+    },
+    "step-1": {
+      "ticks": [],
+      "facts": [],
+      "cards": [
+        {
+          "shot": 7,
+          "on": "forcing",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Forcing it: the fastest way to break a zipper.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [
+        {
+          "shot": 6,
+          "on": "missing",
+          "pose": "panic",
+          "side": "left",
+          "dur": 2.8
+        }
+      ],
+      "diagrams": []
+    },
+    "step-2": {
+      "ticks": [
+        {
+          "shot": 2,
+          "on": "tweezers",
+          "label": "Tweezers"
+        }
+      ],
+      "facts": [],
+      "cards": [
+        {
+          "shot": 1,
+          "on": "stop",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Pulling on a snagged zipper.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": [
+        {
+          "shot": 4,
+          "on": "wiggle",
+          "name": "zipper-slider",
+          "mode": "snag",
+          "title": "Free the fabric",
+          "dur": 4.8
+        }
+      ]
+    },
+    "step-3": {
+      "ticks": [
+        {
+          "shot": 2,
+          "on": "pencil",
+          "label": "Pencil, soap or candle"
+        }
+      ],
+      "facts": [
+        {
+          "shot": 7,
+          "on": "year",
+          "kind": "timer",
+          "big": "Once a year",
+          "small": "repeat the rub",
+          "dur": 4.0
+        }
+      ],
+      "cards": [
+        {
+          "shot": 3,
+          "on": "graphite",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Graphite on light fabric: it can leave grey marks.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": []
+    },
+    "step-4": {
+      "ticks": [
+        {
+          "shot": 2,
+          "on": "cloth",
+          "label": "A piece of cloth"
+        }
+      ],
+      "facts": [
+        {
+          "shot": 7,
+          "on": "ten",
+          "kind": "measure",
+          "big": "10 times",
+          "small": "zip up and down to check",
+          "dur": 4.0
+        }
+      ],
+      "cards": [
+        {
+          "shot": 5,
+          "on": "crush",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "One big squeeze: it can crush the slider.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": [
+        {
+          "shot": 1,
+          "on": "stretched",
+          "name": "zipper-slider",
+          "mode": "split",
+          "title": "Why it splits",
+          "dur": 4.8
+        }
+      ]
+    },
+    "step-5": {
+      "ticks": [
+        {
+          "shot": 1,
+          "on": "pliers",
+          "label": "Pliers"
+        }
+      ],
+      "facts": [],
+      "cards": [
+        {
+          "shot": 4,
+          "on": "cross",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Leaving crossed teeth: start again.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": [
+        {
+          "shot": 2,
+          "on": "line",
+          "name": "zipper-slider",
+          "mode": "track",
+          "title": "Back on track",
+          "dur": 4.8
+        }
+      ]
+    },
+    "step-6": {
+      "ticks": [],
+      "facts": [
+        {
+          "shot": 2,
+          "on": "number",
+          "kind": "measure",
+          "big": "3 · 5 · 8",
+          "small": "the size stamped on the back",
+          "dur": 4.0
+        }
+      ],
+      "cards": [
+        {
+          "shot": 7,
+          "on": "charge",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "Doing it yourself is worth a try.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [
+        {
+          "shot": 6,
+          "on": "dollars",
+          "pose": "thumbs",
+          "side": "left",
+          "dur": 2.8
+        }
+      ],
+      "diagrams": []
+    },
+    "step-7": {
+      "ticks": [],
+      "facts": [
+        {
+          "shot": 5,
+          "on": "twice",
+          "kind": "timer",
+          "big": "1–2× a year",
+          "small": "wipe, then soap or wax",
+          "dur": 4.0
+        }
+      ],
+      "cards": [
+        {
+          "shot": 2,
+          "on": "washing",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "Closed teeth don't bend or snag other clothes.",
+          "dur": 4.4
+        },
+        {
+          "shot": 3,
+          "on": "overstuff",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Overstuffed bags: the strain separates the teeth.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": []
+    },
+    "step-8": {
+      "ticks": [],
+      "facts": [],
+      "cards": [
+        {
+          "shot": 2,
+          "on": "Squeezing",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "Missing or cracked teeth can't be squeezed back.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": []
+    },
+    "step-9": {
+      "ticks": [],
+      "facts": [],
+      "cards": [],
+      "gags": [
+        {
+          "shot": 2,
+          "on": "seams",
+          "pose": "panic",
+          "side": "left",
+          "dur": 2.8
+        }
+      ],
+      "diagrams": []
+    },
+    "step-10": {
+      "ticks": [],
+      "facts": [],
+      "cards": [
+        {
+          "shot": 2,
+          "on": "splitting",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "A splitting zipper wears the slider down further.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": []
+    }
+  },
+  "short": [
+    "2-2",
+    "3-2",
+    "4-3"
+  ]
+}

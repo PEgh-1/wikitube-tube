@@ -1,0 +1,423 @@
+{
+ "extras": {
+  "intro": {
+   "pose": "chef",
+   "diagram": "kitchen-tricks",
+   "title": "Small tricks, big difference",
+   "mode": "board",
+   "chips": [
+    {
+     "on": "habits",
+     "label": "Small habits",
+     "sub": "never in the recipes",
+     "mode": "board"
+    },
+    {
+     "on": "gadgets",
+     "label": "No gadgets",
+     "sub": "no secret ingredients",
+     "mode": "board"
+    },
+    {
+     "on": "faster",
+     "label": "Faster, safer, tastier",
+     "sub": "everyday jobs",
+     "mode": "egg"
+    },
+    {
+     "on": "garlic",
+     "label": "Peel garlic",
+     "sub": "in seconds",
+     "mode": "bread"
+    },
+    {
+     "on": "rescuing",
+     "label": "Rescue hard brown sugar",
+     "sub": "and stale bread",
+     "mode": "bread"
+    }
+   ],
+   "gags": []
+  },
+  "step-1": {
+   "ticks": [
+    {
+     "shot": 2,
+     "on": "towel",
+     "label": "Damp towel"
+    }
+   ],
+   "facts": [
+    {
+     "shot": 4,
+     "on": "five",
+     "kind": "timer",
+     "big": "5 s",
+     "small": "to set it up",
+     "dur": 4.0
+    }
+   ],
+   "cards": [],
+   "gags": [
+    {
+     "shot": 1,
+     "on": "dangerous",
+     "pose": "panic",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": [
+    {
+     "shot": 3,
+     "on": "grips",
+     "name": "kitchen-tricks",
+     "mode": "board",
+     "title": "Why it holds",
+     "dur": 4.8
+    }
+   ]
+  },
+  "step-2": {
+   "ticks": [
+    {
+     "shot": 1,
+     "on": "knife",
+     "label": "Flat of the knife"
+    }
+   ],
+   "facts": [
+    {
+     "shot": 3,
+     "on": "fifteen",
+     "kind": "timer",
+     "big": "10–15 s",
+     "small": "shaking in a lidded jar",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 5,
+     "on": "fingers",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Fingers near the blade edge.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": []
+  },
+  "step-3": {
+   "ticks": [
+    {
+     "shot": 1,
+     "on": "cold",
+     "label": "Cold water"
+    }
+   ],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 4,
+     "on": "floats",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Eating an egg that floats.",
+     "dur": 4.4
+    },
+    {
+     "shot": 5,
+     "on": "moisture",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "The air pocket grows as the egg ages.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": [
+    {
+     "shot": 2,
+     "on": "sinks",
+     "name": "kitchen-tricks",
+     "mode": "egg",
+     "title": "The cold water test",
+     "dur": 4.8
+    }
+   ]
+  },
+  "step-4": {
+   "ticks": [],
+   "facts": [
+    {
+     "shot": 2,
+     "on": "degrees",
+     "kind": "measure",
+     "big": "160 °C",
+     "small": "320 °F, for 10 minutes",
+     "dur": 4.0
+    },
+    {
+     "shot": 4,
+     "on": "ten",
+     "kind": "timer",
+     "big": "10 s",
+     "small": "slices in a damp paper towel",
+     "dur": 4.0
+    }
+   ],
+   "cards": [],
+   "gags": [
+    {
+     "shot": 1,
+     "on": "throw",
+     "pose": "no",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": [
+    {
+     "shot": 3,
+     "on": "steam",
+     "name": "kitchen-tricks",
+     "mode": "bread",
+     "title": "Why it works",
+     "dur": 4.8
+    }
+   ]
+  },
+  "step-5": {
+   "ticks": [
+    {
+     "shot": 6,
+     "on": "airtight",
+     "label": "Airtight container"
+    }
+   ],
+   "facts": [
+    {
+     "shot": 2,
+     "on": "bursts",
+     "kind": "timer",
+     "big": "10 s",
+     "small": "bursts in the microwave",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 4,
+     "on": "absorbs",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "The sugar takes moisture from the bread.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 1,
+     "on": "rock",
+     "pose": "panic",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": []
+  },
+  "step-6": {
+   "ticks": [],
+   "facts": [
+    {
+     "shot": 3,
+     "on": "inch",
+     "kind": "measure",
+     "big": "1 inch",
+     "small": "of water in the jar",
+     "dur": 4.0
+    },
+    {
+     "shot": 7,
+     "on": "week",
+     "kind": "timer",
+     "big": "1 week",
+     "small": "or more, kept this way",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 5,
+     "on": "cold",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "Basil in the fridge: it hates the cold.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": [
+    {
+     "shot": 2,
+     "on": "flowers",
+     "name": "kitchen-tricks",
+     "mode": "herbs",
+     "title": "Herbs like flowers",
+     "dur": 4.8
+    }
+   ]
+  },
+  "step-7": {
+   "ticks": [
+    {
+     "shot": 7,
+     "on": "fork",
+     "label": "A fork"
+    }
+   ],
+   "facts": [
+    {
+     "shot": 3,
+     "on": "fifteen",
+     "kind": "timer",
+     "big": "10–15 s",
+     "small": "in the microwave, then roll",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 2,
+     "on": "sacs",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "Rolling breaks the little juice sacs.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [
+    {
+     "shot": 5,
+     "on": "juice",
+     "pose": "thumbs",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": []
+  },
+  "step-8": {
+   "ticks": [],
+   "facts": [
+    {
+     "shot": 1,
+     "on": "twelve",
+     "kind": "timer",
+     "big": "9–12 min",
+     "small": "in boiling water",
+     "dur": 4.0
+    },
+    {
+     "shot": 2,
+     "on": "five",
+     "kind": "timer",
+     "big": "5 min",
+     "small": "in ice water",
+     "dur": 4.0
+    }
+   ],
+   "cards": [],
+   "gags": [
+    {
+     "shot": 5,
+     "on": "pieces",
+     "pose": "party",
+     "side": "left",
+     "dur": 2.8
+    }
+   ],
+   "diagrams": [
+    {
+     "shot": 3,
+     "on": "shrink",
+     "name": "kitchen-tricks",
+     "mode": "ice",
+     "title": "Why ice water",
+     "dur": 4.8
+    }
+   ]
+  },
+  "step-9": {
+   "ticks": [],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 5,
+     "on": "room",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "Room-temperature fruit gives more juice.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": []
+  },
+  "step-10": {
+   "ticks": [
+    {
+     "shot": 3,
+     "on": "olive",
+     "label": "Olive oil"
+    }
+   ],
+   "facts": [],
+   "cards": [
+    {
+     "shot": 4,
+     "on": "Slice",
+     "kind": "why",
+     "title": "Why it works",
+     "text": "Toast just one slice at a time.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": []
+  },
+  "step-11": {
+   "ticks": [],
+   "facts": [
+    {
+     "shot": 4,
+     "on": "two",
+     "kind": "timer",
+     "big": "2 hours",
+     "small": "leftovers into the fridge",
+     "dur": 4.0
+    }
+   ],
+   "cards": [
+    {
+     "shot": 1,
+     "on": "dull",
+     "kind": "avoid",
+     "title": "Avoid",
+     "text": "A dull blade: it slips.",
+     "dur": 4.4
+    }
+   ],
+   "gags": [],
+   "diagrams": []
+  }
+ },
+ "shots": {},
+ "short": [
+  "2-1",
+  "3-2",
+  "4-2"
+ ]
+}

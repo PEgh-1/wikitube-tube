@@ -1,0 +1,110 @@
+{
+  "episodeId": "2026-12-13-kitchen-tricks-wish-you-knew",
+  "mock": false,
+  "passed": true,
+  "checks": [
+    {
+      "name": "long durée",
+      "ok": true,
+      "detail": "569.5 s (attendu 300–720 s)",
+      "blocking": true
+    },
+    {
+      "name": "long résolution",
+      "ok": true,
+      "detail": "1920×1080 h264 30/1",
+      "blocking": true
+    },
+    {
+      "name": "long audio",
+      "ok": true,
+      "detail": "aac 48000 Hz 2 ch",
+      "blocking": true
+    },
+    {
+      "name": "long loudness",
+      "ok": true,
+      "detail": "-14.0 LUFS, pic -1.4 dBTP (cible -14 ±2)",
+      "blocking": true
+    },
+    {
+      "name": "long taille",
+      "ok": true,
+      "detail": "165.7 Mo",
+      "blocking": true
+    },
+    {
+      "name": "short durée",
+      "ok": true,
+      "detail": "28.9 s (attendu 10–60 s)",
+      "blocking": true
+    },
+    {
+      "name": "short résolution",
+      "ok": true,
+      "detail": "1080×1920 h264 30/1",
+      "blocking": true
+    },
+    {
+      "name": "short audio",
+      "ok": true,
+      "detail": "aac 48000 Hz 2 ch",
+      "blocking": true
+    },
+    {
+      "name": "short loudness",
+      "ok": true,
+      "detail": "-14.0 LUFS, pic -3.4 dBTP (cible -14 ±2)",
+      "blocking": true
+    },
+    {
+      "name": "short taille",
+      "ok": true,
+      "detail": "7.0 Mo",
+      "blocking": true
+    },
+    {
+      "name": "miniature",
+      "ok": true,
+      "detail": "1.18 Mo png (+ jpg de secours)",
+      "blocking": true
+    },
+    {
+      "name": "SRT long.en.srt",
+      "ok": true,
+      "detail": "14004 octets",
+      "blocking": true
+    },
+    {
+      "name": "SRT short.en.srt",
+      "ok": true,
+      "detail": "766 octets",
+      "blocking": false
+    },
+    {
+      "name": "titre ≤ 100",
+      "ok": true,
+      "detail": "70 caractères",
+      "blocking": true
+    },
+    {
+      "name": "description ≤ 5000",
+      "ok": true,
+      "detail": "1104 caractères",
+      "blocking": true
+    },
+    {
+      "name": "chapitres ≥ 3",
+      "ok": true,
+      "detail": "15 chapitres, 1er à 00:00",
+      "blocking": true
+    },
+    {
+      "name": "tags ≤ 500 car.",
+      "ok": true,
+      "detail": "211 caractères",
+      "blocking": true
+    }
+  ],
+  "checkedAt": "2026-11-27T14:19:00.964Z"
+}

@@ -1,0 +1,4652 @@
+{
+  "episodeId": "2026-11-24-clean-washing-machine",
+  "version": 3,
+  "subject": [
+    "machine"
+  ],
+  "mock": false,
+  "provider": "pixabay",
+  "generatedAt": "2026-11-17T09:38:07.975Z",
+  "hero": {
+    "key": "hero",
+    "query": "front load washing machine",
+    "prompt": "A clean white front-loading washing machine in a bright laundry room with the door open, folded towels on top, soft daylight, photorealistic, no text",
+    "file": "assets/2026-11-24-clean-washing-machine/images/hero.jpg",
+    "kind": "photo",
+    "width": 1920,
+    "height": 1080,
+    "provider": "gemini-web",
+    "credit": null
+  },
+  "steps": [
+    {
+      "key": "step-1",
+      "query": "empty washing machine drum",
+      "prompt": "A hand reaching into the empty stainless steel drum of a front-loading washing machine, door wide open. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-24-clean-washing-machine/images/step-1-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step one. Make sure the drum is empty, with no laundry left inside, and check the pockets of anything that has fallen to the bottom.",
+      "wordStart": 0,
+      "focus": [
+        0.55,
+        0.55
+      ],
+      "notes": [
+        {
+          "type": "arrow",
+          "at": [
+            0.55,
+            0.55
+          ],
+          "text": "Empty drum",
+          "label": [
+            0.25,
+            0.2
+          ],
+          "on": "empty"
+        }
+      ],
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null
+    },
+    {
+      "key": "step-2",
+      "query": "washing machine rubber seal",
+      "prompt": "Close-up of the grey rubber door seal around the opening of a front-loading washing machine, door open. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-24-clean-washing-machine/images/step-2-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step two. On a front loader, the rubber door seal is where the mould lives.",
+      "wordStart": 0,
+      "focus": [
+        0.55,
+        0.6
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null
+    },
+    {
+      "key": "step-3",
+      "query": "washing machine detergent drawer",
+      "prompt": "A hand pulling the detergent drawer out of the top left corner of a front-loading washing machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-24-clean-washing-machine/images/step-3-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step three. Pull out the detergent drawer.",
+      "wordStart": 0,
+      "focus": [
+        0.44,
+        0.52
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null
+    },
+    {
+      "key": "step-4",
+      "query": "pouring vinegar washing machine",
+      "prompt": "A hand pouring clear white vinegar from a plain glass measuring cup into the empty drum of a front-loading washing machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-24-clean-washing-machine/images/step-4-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step four. Pour two cups of white vinegar into the empty drum, or into the detergent drawer's main compartment, and start the hottest, longest cycle, with no laundry inside.",
+      "wordStart": 0,
+      "focus": [
+        0.5,
+        0.45
+      ],
+      "notes": [
+        {
+          "type": "arrow",
+          "at": [
+            0.5,
+            0.4
+          ],
+          "text": "Straight into the drum",
+          "label": [
+            0.25,
+            0.2
+          ],
+          "on": "drum"
+        }
+      ],
+      "fx": null,
+      "punchOn": [
+        "two"
+      ],
+      "compareFile": null,
+      "compareLabels": null
+    },
+    {
+      "key": "step-5",
+      "query": "baking soda washing machine",
+      "prompt": "A hand sprinkling white baking soda powder from a small white bowl into the empty drum of a washing machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-24-clean-washing-machine/images/step-5-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step five. Once the vinegar cycle ends, sprinkle half a cup of baking soda into the drum and run a second hot cycle.",
+      "wordStart": 0,
+      "focus": [
+        0.48,
+        0.5
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": [
+        "half"
+      ],
+      "compareFile": null,
+      "compareLabels": null
+    },
+    {
+      "key": "step-6",
+      "query": "washing machine drain filter",
+      "prompt": "Close-up of the small rectangular access panel at the bottom right corner of a white front-loading washing machine, a finger pointing at it. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-24-clean-washing-machine/images/step-6-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step six. Most front loaders have a small drain filter behind a panel at the bottom corner.",
+      "wordStart": 0,
+      "focus": [
+        0.6,
+        0.6
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null
+    },
+    {
+      "key": "step-7",
+      "query": "washing machine door open",
+      "prompt": "A hand wiping the top and control panel of a white washing machine with a blue microfiber cloth. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-24-clean-washing-machine/images/step-7-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step seven. Finish by wiping the outside, the control panel and the top with a damp cloth.",
+      "wordStart": 0,
+      "focus": [
+        0.45,
+        0.5
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null
+    },
+    {
+      "key": "step-8",
+      "query": "washing machine laundry room",
+      "prompt": "A person seen from the shoulders down standing in front of an open washing machine, one hand waving in front of the drum as if there were a bad smell. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-24-clean-washing-machine/images/step-8-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "If the smell comes back, look at your habits first.",
+      "wordStart": 0,
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null
+    },
+    {
+      "key": "step-9",
+      "query": "appliance repair technician",
+      "prompt": "A white front-loading washing machine with its door open and a closed red metal toolbox standing on the floor beside it. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-24-clean-washing-machine/images/step-9-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Cleaning cannot fix everything.",
+      "wordStart": 0,
+      "focus": [
+        0.5,
+        0.6
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null
+    },
+    {
+      "key": "step-10",
+      "query": "laundry basket fresh towels",
+      "prompt": "A sparkling clean white washing machine in a bright laundry room, door ajar, fresh folded towels in a basket beside it. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-24-clean-washing-machine/images/step-10-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "A short routine keeps the machine fresh.",
+      "wordStart": 0,
+      "focus": [
+        0.45,
+        0.6
+      ],
+      "notes": null,
+      "fx": [
+        {
+          "type": "sparkle",
+          "at": [
+            0.45,
+            0.6
+          ],
+          "size": 1.1
+        }
+      ],
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null
+    }
+  ],
+  "stepShots": [
+    [
+      {
+        "key": "step-1",
+        "query": "empty washing machine drum",
+        "prompt": "A hand reaching into the empty stainless steel drum of a front-loading washing machine, door wide open. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-1-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Step one. Make sure the drum is empty, with no laundry left inside, and check the pockets of anything that has fallen to the bottom.",
+        "wordStart": 0,
+        "focus": [
+          0.55,
+          0.55
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.55,
+              0.55
+            ],
+            "text": "Empty drum",
+            "label": [
+              0.25,
+              0.2
+            ],
+            "on": "empty"
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-1",
+        "query": "empty washing machine drum",
+        "prompt": "Fingers pulling a small grey sock and two coins out of the fold of the grey rubber door seal of a washing machine, close-up. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-1-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Take a few seconds to remove any stray socks or coins from the rubber seal.",
+        "wordStart": 25,
+        "focus": [
+          0.54,
+          0.5
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.54,
+              0.52
+            ],
+            "r": 0.1,
+            "on": "socks",
+            "text": "Hidden in the seal",
+            "label": [
+              0.3,
+              0.2
+            ]
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-1",
+        "query": "empty washing machine drum",
+        "prompt": "Hands holding an open instruction booklet with blurred unreadable lines and simple diagrams, a washing machine out of focus behind. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-1-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Then take a minute to look at your machine's manual or the label inside the door.",
+        "wordStart": 40,
+        "focus": [
+          0.5,
+          0.45
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-1",
+        "query": "empty washing machine drum",
+        "prompt": "Close-up of a finger pointing at the round programme dial on the plain control panel of a washing machine, no readable markings. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-1-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Some brands recommend a specific cleaner, or a special cleaning cycle called Tub Clean, Drum Clean or Self Clean. If yours has one, use it as the main cycle later.",
+        "wordStart": 56,
+        "focus": [
+          0.5,
+          0.45
+        ],
+        "notes": [
+          {
+            "type": "inset",
+            "at": [
+              0.53,
+              0.38
+            ],
+            "lens": [
+              0.78,
+              0.36
+            ],
+            "r": 0.12,
+            "zoom": 2.4,
+            "text": "A cleaning cycle?",
+            "on": "cycle"
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-1",
+        "query": "empty washing machine drum",
+        "prompt": "A small yellow spirit level resting on top of a washing machine, the round door opened fully to the side. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-1-5.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Check as well that the machine is level and the door opens fully.",
+        "wordStart": 86,
+        "focus": [
+          0.5,
+          0.45
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.5,
+              0.33
+            ],
+            "r": 0.09,
+            "on": "level",
+            "text": "Level",
+            "label": [
+              0.25,
+              0.25
+            ]
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-1",
+        "query": "empty washing machine drum",
+        "prompt": "Front view of a white front-loading washing machine with its door open in a tidy laundry room, an instruction booklet lying on top. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-1-6.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "It's a short step, but it avoids mistakes with your particular model.",
+        "wordStart": 99,
+        "focus": [
+          0.5,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ],
+    [
+      {
+        "key": "step-2",
+        "query": "washing machine rubber seal",
+        "prompt": "Close-up of the grey rubber door seal around the opening of a front-loading washing machine, door open. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-2-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Step two. On a front loader, the rubber door seal is where the mould lives.",
+        "wordStart": 0,
+        "focus": [
+          0.55,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-2",
+        "query": "washing machine rubber seal",
+        "prompt": "Fingers pulling back the grey rubber door seal of a washing machine to reveal dark mould spots and grime hidden inside the fold, close-up. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-2-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Gently pull the rubber back and look into the folds. You'll probably find dark spots, hair and slime.",
+        "wordStart": 15,
+        "focus": [
+          0.45,
+          0.55
+        ],
+        "notes": [
+          {
+            "type": "loupe",
+            "at": [
+              0.45,
+              0.56
+            ],
+            "lens": [
+              0.76,
+              0.4
+            ],
+            "r": 0.14,
+            "zoom": 2.2,
+            "text": "Mould in the fold",
+            "on": "dark"
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-2",
+        "query": "washing machine rubber seal",
+        "prompt": "A hand spraying a fine mist from a plain clear spray bottle into the fold of a washing machine door seal, a blue microfiber cloth ready in the other hand. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-2-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Spray the area lightly with a mix of equal parts vinegar and water, or use a cloth dampened with it, and wipe the folds clean.",
+        "wordStart": 33,
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-2",
+        "query": "washing machine rubber seal",
+        "prompt": "An old toothbrush scrubbing inside the fold of a grey rubber washing machine door seal, close-up. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-2-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "An old toothbrush helps in the tight corners.",
+        "wordStart": 58,
+        "focus": [
+          0.52,
+          0.52
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.52,
+              0.52
+            ],
+            "text": "Into the tight corners",
+            "label": [
+              0.72,
+              0.2
+            ],
+            "on": "tight"
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-2",
+        "query": "washing machine rubber seal",
+        "prompt": "Fingers pulling back a perfectly clean grey rubber door seal of a washing machine, the fold spotless and shiny, close-up. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-2-5.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Do this monthly, since the seal is where most smells begin.",
+        "wordStart": 66,
+        "focus": [
+          0.5,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": "assets/2026-11-24-clean-washing-machine/images/step-2-5-before.jpg",
+        "compareLabels": [
+          "Before",
+          "After"
+        ]
+      },
+      {
+        "key": "step-2",
+        "query": "washing machine rubber seal",
+        "prompt": "A plain white plastic bottle and a plain clear glass bottle standing apart on top of a washing machine, a hand pushing the white bottle away. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-2-6.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Don't use bleach together with vinegar.",
+        "wordStart": 77,
+        "focus": [
+          0.55,
+          0.4
+        ],
+        "notes": [
+          {
+            "type": "cross",
+            "at": [
+              0.55,
+              0.35
+            ],
+            "r": 0.07,
+            "text": "Never together",
+            "label": [
+              0.25,
+              0.55
+            ],
+            "on": "bleach"
+          }
+        ],
+        "fx": null,
+        "punchOn": [
+          "bleach"
+        ],
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-2",
+        "query": "washing machine rubber seal",
+        "prompt": "A hand wiping the inside of the round glass door of a washing machine with a blue microfiber cloth. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-2-7.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Wipe the glass, and leave a dry cloth in the seal to catch drips.",
+        "wordStart": 83,
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-2",
+        "query": "washing machine rubber seal",
+        "prompt": "A white top-loading washing machine with its lid open, a hand wiping the rim of the opening with a blue microfiber cloth. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-2-8.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "For a top loader, wipe the rim and the underside of the lid.",
+        "wordStart": 97,
+        "focus": [
+          0.45,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ],
+    [
+      {
+        "key": "step-3",
+        "query": "washing machine detergent drawer",
+        "prompt": "A hand pulling the detergent drawer out of the top left corner of a front-loading washing machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-3-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Step three. Pull out the detergent drawer.",
+        "wordStart": 0,
+        "focus": [
+          0.44,
+          0.52
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-3",
+        "query": "washing machine detergent drawer",
+        "prompt": "Close-up of a thumb pressing a small plastic release tab inside the open detergent drawer of a washing machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-3-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "On many machines, you press a small tab or lift it slightly, then pull it free. Check your manual if it won't come out.",
+        "wordStart": 7,
+        "focus": [
+          0.45,
+          0.6
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.45,
+              0.62
+            ],
+            "r": 0.07,
+            "on": "tab",
+            "text": "Release tab",
+            "label": [
+              0.25,
+              0.25
+            ]
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-3",
+        "query": "washing machine detergent drawer",
+        "prompt": "A white plastic detergent drawer soaking in a sink of warm soapy water while a hand scrubs it with an old toothbrush. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-3-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Soak the drawer in a sink of warm water for about ten minutes, then scrub off the mould and sticky residue with the toothbrush.",
+        "wordStart": 31,
+        "focus": [
+          0.44,
+          0.5
+        ],
+        "notes": null,
+        "fx": [
+          {
+            "type": "bubbles",
+            "at": [
+              0.4,
+              0.78
+            ],
+            "size": 1.2
+          }
+        ],
+        "punchOn": [
+          "ten"
+        ],
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-3",
+        "query": "washing machine detergent drawer",
+        "prompt": "A hand with a blue microfiber cloth cleaning inside the empty drawer cavity of a washing machine, dark residue visible in the cavity. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-3-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Don't forget the empty space where the drawer sits, because buildup collects there too.",
+        "wordStart": 55,
+        "focus": [
+          0.4,
+          0.45
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.36,
+              0.38
+            ],
+            "text": "Clean the cavity too",
+            "label": [
+              0.72,
+              0.2
+            ],
+            "on": "space"
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-3",
+        "query": "washing machine detergent drawer",
+        "prompt": "A hand sliding a clean, dry white detergent drawer back into a washing machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-3-5.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Rinse the parts, dry them with a towel, and slide the drawer back into place.",
+        "wordStart": 69,
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-3",
+        "query": "washing machine detergent drawer",
+        "prompt": "Close-up of a removed washing machine detergent drawer coated with dark mould and sticky blue detergent residue, held in a hand. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-3-6.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "This one step is often the main source of the smell.",
+        "wordStart": 84,
+        "focus": [
+          0.55,
+          0.5
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.55,
+              0.5
+            ],
+            "r": 0.16,
+            "on": "source",
+            "text": "Mould + old detergent",
+            "label": [
+              0.3,
+              0.2
+            ]
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-3",
+        "query": "washing machine detergent drawer",
+        "prompt": "A hand scrubbing the compartments of an open detergent drawer still attached to the washing machine with an old toothbrush. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-3-7.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "If the drawer is fixed in place, simply scrub it where it is with a toothbrush and a cloth.",
+        "wordStart": 95,
+        "focus": [
+          0.55,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ],
+    [
+      {
+        "key": "step-4",
+        "query": "pouring vinegar washing machine",
+        "prompt": "A hand pouring clear white vinegar from a plain glass measuring cup into the empty drum of a front-loading washing machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-4-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Step four. Pour two cups of white vinegar into the empty drum, or into the detergent drawer's main compartment, and start the hottest, longest cycle, with no laundry inside.",
+        "wordStart": 0,
+        "focus": [
+          0.5,
+          0.45
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.5,
+              0.4
+            ],
+            "text": "Straight into the drum",
+            "label": [
+              0.25,
+              0.2
+            ],
+            "on": "drum"
+          }
+        ],
+        "fx": null,
+        "punchOn": [
+          "two"
+        ],
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-4",
+        "query": "pouring vinegar washing machine",
+        "prompt": "A hand turning the round programme dial on the plain control panel of a washing machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-4-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "If you have a Tub Clean cycle, choose that instead.",
+        "wordStart": 29,
+        "focus": [
+          0.55,
+          0.45
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.57,
+              0.4
+            ],
+            "r": 0.06,
+            "on": "tub",
+            "text": "Tub Clean",
+            "label": [
+              0.3,
+              0.3
+            ]
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-4",
+        "query": "pouring vinegar washing machine",
+        "prompt": "A front-loading washing machine running with no laundry, clear water sloshing and foaming behind the round glass door, close-up of the door. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-4-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "The hot water and vinegar help dissolve soap scum, hard water minerals and bacteria.",
+        "wordStart": 39,
+        "focus": [
+          0.45,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-4",
+        "query": "pouring vinegar washing machine",
+        "prompt": "A finger pressing a plain round button on the control panel of a washing machine, water resting still behind the glass door. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-4-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "You can pause the cycle for thirty minutes midway, to let the mix soak, then restart it.",
+        "wordStart": 53,
+        "focus": [
+          0.6,
+          0.45
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.64,
+              0.36
+            ],
+            "r": 0.05,
+            "on": "pause",
+            "text": "Pause",
+            "label": [
+              0.4,
+              0.2
+            ]
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-4",
+        "query": "pouring vinegar washing machine",
+        "prompt": "A hand placing a plain white plastic bottle up on a high shelf, away from a washing machine, a clear glass bottle left on the machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-4-5.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Never combine vinegar with bleach in the same load, because the fumes are harmful. Run them separately, and rinse in between.",
+        "wordStart": 70,
+        "focus": [
+          0.5,
+          0.4
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": [
+          "never"
+        ],
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-4",
+        "query": "pouring vinegar washing machine",
+        "prompt": "A hand opening the round glass door of a washing machine, a light cloud of steam drifting out of the warm drum. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-4-6.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Open the door once the cycle finishes, and let the steam escape.",
+        "wordStart": 91,
+        "focus": [
+          0.45,
+          0.5
+        ],
+        "notes": null,
+        "fx": [
+          {
+            "type": "steam",
+            "at": [
+              0.42,
+              0.45
+            ],
+            "size": 1.1
+          }
+        ],
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ],
+    [
+      {
+        "key": "step-5",
+        "query": "baking soda washing machine",
+        "prompt": "A hand sprinkling white baking soda powder from a small white bowl into the empty drum of a washing machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-5-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Step five. Once the vinegar cycle ends, sprinkle half a cup of baking soda into the drum and run a second hot cycle.",
+        "wordStart": 0,
+        "focus": [
+          0.48,
+          0.5
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": [
+          "half"
+        ],
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-5",
+        "query": "baking soda washing machine",
+        "prompt": "A small white bowl of baking soda powder with a spoon standing on top of a washing machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-5-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Baking soda is a gentle deodorizer, and it neutralizes any remaining smells.",
+        "wordStart": 23,
+        "focus": [
+          0.5,
+          0.45
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-5",
+        "query": "baking soda washing machine",
+        "prompt": "A hand wiping the inside of the stainless steel drum of a washing machine with a blue microfiber cloth. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-5-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "When the cycle finishes, open the door and wipe the inside of the drum with a clean microfiber cloth.",
+        "wordStart": 35,
+        "focus": [
+          0.52,
+          0.5
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-5",
+        "query": "baking soda washing machine",
+        "prompt": "A hand holding a blue microfiber cloth showing a smear of grey residue just wiped from a washing machine drum. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-5-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "If you see any residue loosened from the sides, wipe it away.",
+        "wordStart": 54,
+        "focus": [
+          0.45,
+          0.6
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.44,
+              0.65
+            ],
+            "text": "Loosened residue",
+            "label": [
+              0.55,
+              0.25
+            ],
+            "on": "residue"
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-5",
+        "query": "baking soda washing machine",
+        "prompt": "A hand holding a single plain white cleaning tablet above the empty drum of a washing machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-5-5.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Some manufacturers prefer special machine-cleaning tablets, so use those if the manual says so, instead of vinegar and baking soda.",
+        "wordStart": 66,
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.53,
+              0.5
+            ],
+            "r": 0.06,
+            "on": "tablets",
+            "text": "Or a cleaning tablet",
+            "label": [
+              0.7,
+              0.25
+            ]
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-5",
+        "query": "baking soda washing machine",
+        "prompt": "A hand shining a small flashlight into the clean shiny drum of a washing machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-5-6.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Check the drum for loosened buildup before you close the door.",
+        "wordStart": 86,
+        "focus": [
+          0.55,
+          0.6
+        ],
+        "notes": null,
+        "fx": [
+          {
+            "type": "sparkle",
+            "at": [
+              0.56,
+              0.66
+            ],
+            "size": 1
+          }
+        ],
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ],
+    [
+      {
+        "key": "step-6",
+        "query": "washing machine drain filter",
+        "prompt": "Close-up of the small rectangular access panel at the bottom right corner of a white front-loading washing machine, a finger pointing at it. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-6-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Step six. Most front loaders have a small drain filter behind a panel at the bottom corner.",
+        "wordStart": 0,
+        "focus": [
+          0.6,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-6",
+        "query": "washing machine drain filter",
+        "prompt": "A hand pulling a white power plug out of a wall socket next to a washing machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-6-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Unplug the machine first.",
+        "wordStart": 17,
+        "focus": [
+          0.7,
+          0.55
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.77,
+              0.62
+            ],
+            "r": 0.08,
+            "on": "unplug",
+            "text": "Unplugged",
+            "label": [
+              0.45,
+              0.3
+            ]
+          }
+        ],
+        "fx": null,
+        "punchOn": [
+          "unplug"
+        ],
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-6",
+        "query": "washing machine drain filter",
+        "prompt": "A shallow white dish and a folded grey towel placed on the tile floor in front of the open bottom corner panel of a washing machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-6-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Put a shallow dish and a towel on the floor, because water will come out.",
+        "wordStart": 21,
+        "focus": [
+          0.5,
+          0.7
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-6",
+        "query": "washing machine drain filter",
+        "prompt": "A hand unscrewing the round drain filter cap at the bottom of a washing machine, water trickling out into a shallow white dish on a towel. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-6-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Open the panel, slowly unscrew the filter counterclockwise and let the water drain.",
+        "wordStart": 36,
+        "focus": [
+          0.47,
+          0.6
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.47,
+              0.66
+            ],
+            "text": "Counterclockwise, slowly",
+            "label": [
+              0.7,
+              0.3
+            ],
+            "on": "unscrew"
+          }
+        ],
+        "fx": [
+          {
+            "type": "drops",
+            "at": [
+              0.47,
+              0.72
+            ],
+            "size": 0.7
+          }
+        ],
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-6",
+        "query": "washing machine drain filter",
+        "prompt": "A hand holding a washing machine drain filter clogged with grey lint, hair and a coin under a running tap. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-6-5.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Remove coins, hair and lint, rinse the filter under the tap, and screw it back firmly.",
+        "wordStart": 49,
+        "focus": [
+          0.53,
+          0.55
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.52,
+              0.55
+            ],
+            "r": 0.12,
+            "on": "coins",
+            "text": "Lint, hair, coins",
+            "label": [
+              0.25,
+              0.25
+            ]
+          }
+        ],
+        "fx": [
+          {
+            "type": "drops",
+            "at": [
+              0.55,
+              0.75
+            ],
+            "size": 0.8
+          }
+        ],
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-6",
+        "query": "washing machine drain filter",
+        "prompt": "View from above into the drum of a white top-loading washing machine with its lid open. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-6-6.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Top loaders may have a lint filter or none at all.",
+        "wordStart": 65,
+        "focus": [
+          0.5,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-6",
+        "query": "washing machine drain filter",
+        "prompt": "Hands holding an open instruction booklet with blurred unreadable lines and a simple diagram, in front of the bottom corner of a washing machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-6-7.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Check the manual, and if you're unsure, leave this job for a technician.",
+        "wordStart": 76,
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-6",
+        "query": "washing machine drain filter",
+        "prompt": "A hand holding a perfectly clean washing machine drain filter, ready to screw it back into the open panel. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-6-8.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Clean this filter every three months, or when the machine drains slowly.",
+        "wordStart": 89,
+        "focus": [
+          0.58,
+          0.55
+        ],
+        "notes": null,
+        "fx": [
+          {
+            "type": "sparkle",
+            "at": [
+              0.58,
+              0.55
+            ],
+            "size": 0.8
+          }
+        ],
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ],
+    [
+      {
+        "key": "step-7",
+        "query": "washing machine door open",
+        "prompt": "A hand wiping the top and control panel of a white washing machine with a blue microfiber cloth. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-7-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Step seven. Finish by wiping the outside, the control panel and the top with a damp cloth.",
+        "wordStart": 0,
+        "focus": [
+          0.45,
+          0.5
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-7",
+        "query": "washing machine door open",
+        "prompt": "A white front-loading washing machine with its round door left ajar and its detergent drawer left slightly open, nobody in the picture. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-7-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Then leave the door, and the drawer, slightly open so air can dry the inside, and mould can't grow.",
+        "wordStart": 17,
+        "focus": [
+          0.35,
+          0.5
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.38,
+              0.36
+            ],
+            "r": 0.07,
+            "on": "slightly",
+            "text": "Left open",
+            "label": [
+              0.2,
+              0.2
+            ]
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-7",
+        "query": "washing machine door open",
+        "prompt": "Wet crumpled clothes left forgotten inside the drum of a washing machine, seen through the open door. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-7-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "After washing, don't leave wet clothes in the drum.",
+        "wordStart": 36,
+        "focus": [
+          0.54,
+          0.6
+        ],
+        "notes": [
+          {
+            "type": "cross",
+            "at": [
+              0.54,
+              0.6
+            ],
+            "r": 0.09,
+            "text": "Take them out",
+            "label": [
+              0.3,
+              0.2
+            ],
+            "on": "wet"
+          }
+        ],
+        "fx": null,
+        "punchOn": [
+          "wet"
+        ],
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-7",
+        "query": "washing machine door open",
+        "prompt": "A hand pouring a small measured amount of liquid detergent into a plain measuring cap, a washing machine behind. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-7-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Use the amount of detergent shown on the packet, because too much creates the residue that feeds smells.",
+        "wordStart": 45,
+        "focus": [
+          0.47,
+          0.55
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.47,
+              0.55
+            ],
+            "r": 0.08,
+            "on": "amount",
+            "text": "The measured amount",
+            "label": [
+              0.25,
+              0.25
+            ]
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-7",
+        "query": "washing machine door open",
+        "prompt": "A hand giving the grey rubber door seal of a washing machine a quick wipe with a blue microfiber cloth. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-7-5.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "A quick wipe of the seal weekly and a full clean once a month will keep your machine fresh.",
+        "wordStart": 63,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-7",
+        "query": "washing machine door open",
+        "prompt": "A hand circling a day with a red pen on a paper wall calendar with blurred unreadable squares, hanging next to a washing machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-7-6.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Mark the date on your calendar. Make it a monthly habit and you won't need to rescue the machine again.",
+        "wordStart": 82,
+        "focus": [
+          0.4,
+          0.45
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.35,
+              0.42
+            ],
+            "r": 0.07,
+            "on": "calendar",
+            "text": "Monthly clean",
+            "label": [
+              0.3,
+              0.75
+            ]
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ],
+    [
+      {
+        "key": "step-8",
+        "query": "washing machine laundry room",
+        "prompt": "A person seen from the shoulders down standing in front of an open washing machine, one hand waving in front of the drum as if there were a bad smell. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-8-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "If the smell comes back, look at your habits first.",
+        "wordStart": 0,
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-8",
+        "query": "washing machine laundry room",
+        "prompt": "A damp pile of clothes sitting inside the drum of a washing machine, door open, a laundry basket empty on the floor. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-8-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Wet clothes left in the drum smell bad, and people often blame the machine.",
+        "wordStart": 10,
+        "focus": [
+          0.52,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-8",
+        "query": "washing machine laundry room",
+        "prompt": "A grey corrugated drain hose with a sharp kink behind a washing machine pulled slightly away from the wall, a hand pointing at the kink. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-8-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Check that the drain hose is not kinked, so water does not sit in it.",
+        "wordStart": 24,
+        "focus": [
+          0.35,
+          0.65
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.25,
+              0.74
+            ],
+            "r": 0.09,
+            "on": "hose",
+            "text": "No kink in the hose",
+            "label": [
+              0.3,
+              0.3
+            ]
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-8",
+        "query": "washing machine laundry room",
+        "prompt": "A hand holding a plain measuring cap filled to a low mark with liquid detergent, in front of the control panel of a washing machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-8-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Use only the detergent amount shown on the packet, then repeat the hot cleaning cycle and wipe the seal more often.",
+        "wordStart": 39,
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.5,
+              0.52
+            ],
+            "r": 0.07,
+            "on": "amount"
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ],
+    [
+      {
+        "key": "step-9",
+        "query": "appliance repair technician",
+        "prompt": "A white front-loading washing machine with its door open and a closed red metal toolbox standing on the floor beside it. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-9-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Cleaning cannot fix everything.",
+        "wordStart": 0,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-9",
+        "query": "appliance repair technician",
+        "prompt": "Still water standing halfway up inside the drum of a washing machine, seen through the closed round glass door. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-9-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "If water will not drain even after you cleaned the filter, call a technician.",
+        "wordStart": 4,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.49,
+              0.68
+            ],
+            "text": "Water that will not drain",
+            "label": [
+              0.3,
+              0.2
+            ],
+            "on": "drain"
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-9",
+        "query": "appliance repair technician",
+        "prompt": "A puddle of clear water spreading on the tile floor from under a white washing machine, low angle. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-9-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "The same goes for water leaking from the door or the bottom, or loud banging and grinding.",
+        "wordStart": 18,
+        "focus": [
+          0.55,
+          0.7
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.6,
+              0.78
+            ],
+            "r": 0.14,
+            "on": "leaking",
+            "text": "A leak",
+            "label": [
+              0.75,
+              0.3
+            ]
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-9",
+        "query": "appliance repair technician",
+        "prompt": "A hand quickly pulling the power plug of a washing machine out of the wall socket, a thin wisp of smoke near the back of the machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-9-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "If you smell burning, switch the machine off, unplug it, and do not use it until it has been checked.",
+        "wordStart": 35,
+        "focus": [
+          0.3,
+          0.5
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.2,
+              0.48
+            ],
+            "r": 0.08,
+            "on": "unplug",
+            "text": "Unplug it",
+            "label": [
+              0.5,
+              0.25
+            ]
+          }
+        ],
+        "fx": null,
+        "punchOn": [
+          "burning"
+        ],
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ],
+    [
+      {
+        "key": "step-10",
+        "query": "laundry basket fresh towels",
+        "prompt": "A sparkling clean white washing machine in a bright laundry room, door ajar, fresh folded towels in a basket beside it. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-10-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "A short routine keeps the machine fresh.",
+        "wordStart": 0,
+        "focus": [
+          0.45,
+          0.6
+        ],
+        "notes": null,
+        "fx": [
+          {
+            "type": "sparkle",
+            "at": [
+              0.45,
+              0.6
+            ],
+            "size": 1.1
+          }
+        ],
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-10",
+        "query": "laundry basket fresh towels",
+        "prompt": "A finger turning the programme dial of a washing machine, the drum empty behind the glass door. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-10-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Run a hot cleaning cycle about once a month.",
+        "wordStart": 7,
+        "focus": [
+          0.58,
+          0.4
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.6,
+              0.32
+            ],
+            "r": 0.06,
+            "on": "hot"
+          }
+        ],
+        "fx": null,
+        "punchOn": [
+          "month"
+        ],
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-10",
+        "query": "laundry basket fresh towels",
+        "prompt": "Hands lifting clean wet laundry out of a washing machine drum into a white laundry basket. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-10-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Take wet laundry out as soon as the cycle ends, and leave the door and drawer open between washes.",
+        "wordStart": 16,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-10",
+        "query": "laundry basket fresh towels",
+        "prompt": "Fingers holding the small white care label sewn into a white towel, the symbols blurred and unreadable, a washing machine behind. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-24-clean-washing-machine/images/step-10-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Wash some loads on a hot setting when the care labels allow, because cool washes alone let residue build up.",
+        "wordStart": 35,
+        "focus": [
+          0.54,
+          0.5
+        ],
+        "notes": [
+          {
+            "type": "inset",
+            "at": [
+              0.54,
+              0.48
+            ],
+            "lens": [
+              0.25,
+              0.4
+            ],
+            "r": 0.13,
+            "zoom": 2,
+            "text": "Care label",
+            "on": "labels"
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ]
+  ],
+  "introExtras": {
+    "pose": "nose",
+    "diagram": "washer",
+    "title": "Where the smell hides",
+    "mode": "spots",
+    "chips": [
+      {
+        "on": "seal",
+        "label": "Door seal",
+        "sub": "mould in the folds",
+        "mode": "seal"
+      },
+      {
+        "on": "drawer",
+        "label": "Detergent drawer",
+        "sub": "sticky residue",
+        "mode": "drawer"
+      },
+      {
+        "on": "filter",
+        "label": "Drain filter",
+        "sub": "lint and coins",
+        "mode": "filter"
+      },
+      {
+        "on": "bacteria",
+        "label": "",
+        "mode": "spots",
+        "hidden": true
+      },
+      {
+        "on": "thirty",
+        "label": "",
+        "mode": "cycle",
+        "hidden": true
+      },
+      {
+        "on": "loaders",
+        "label": "",
+        "mode": "dry",
+        "hidden": true
+      }
+    ],
+    "gags": []
+  },
+  "shortShots": [
+    "2-1",
+    "4-1",
+    "5-1"
+  ],
+  "stepExtras": [
+    {
+      "gags": [
+        {
+          "shot": 2,
+          "on": "socks",
+          "pose": "idea",
+          "side": "left",
+          "dur": 2.8
+        }
+      ],
+      "cards": [
+        {
+          "shot": 4,
+          "on": "special",
+          "kind": "why",
+          "title": "Good to know",
+          "text": "Tub Clean, Drum Clean, Self Clean: same idea, different names.",
+          "dur": 5
+        }
+      ]
+    },
+    {
+      "diagrams": [
+        {
+          "shot": 1,
+          "on": "seal",
+          "name": "washer",
+          "mode": "seal",
+          "title": "The door seal",
+          "dur": 4.2
+        }
+      ],
+      "gags": [
+        {
+          "shot": 2,
+          "on": "slime",
+          "pose": "nose",
+          "side": "left",
+          "dur": 3
+        }
+      ],
+      "ticks": [
+        {
+          "shot": 3,
+          "on": "vinegar",
+          "label": "Vinegar + water, half and half"
+        },
+        {
+          "shot": 4,
+          "on": "toothbrush",
+          "label": "Old toothbrush"
+        }
+      ],
+      "cards": [
+        {
+          "shot": 6,
+          "on": "bleach",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Bleach plus vinegar makes toxic fumes. One product at a time.",
+          "dur": 3.6
+        }
+      ]
+    },
+    {
+      "diagrams": [
+        {
+          "shot": 1,
+          "on": "drawer",
+          "name": "washer",
+          "mode": "drawer",
+          "title": "The detergent drawer",
+          "dur": 3.6
+        }
+      ],
+      "facts": [
+        {
+          "shot": 3,
+          "on": "ten",
+          "kind": "timer",
+          "big": "10 min",
+          "small": "soak in warm water",
+          "dur": 4
+        }
+      ],
+      "cards": [
+        {
+          "shot": 4,
+          "on": "buildup",
+          "kind": "why",
+          "title": "Why",
+          "text": "The space behind the drawer stays damp, so mould grows there.",
+          "dur": 4.6
+        }
+      ],
+      "gags": [
+        {
+          "shot": 6,
+          "on": "smell",
+          "pose": "nose",
+          "side": "right",
+          "dur": 3
+        }
+      ]
+    },
+    {
+      "facts": [
+        {
+          "shot": 1,
+          "on": "two",
+          "kind": "measure",
+          "big": "2 cups",
+          "small": "white vinegar",
+          "dur": 4
+        },
+        {
+          "shot": 4,
+          "on": "thirty",
+          "kind": "timer",
+          "big": "30 min",
+          "small": "pause to soak",
+          "dur": 3.6
+        }
+      ],
+      "diagrams": [
+        {
+          "shot": 3,
+          "on": "hot",
+          "name": "washer",
+          "mode": "cycle",
+          "title": "Hot water + vinegar",
+          "dur": 5.2
+        }
+      ],
+      "cards": [
+        {
+          "shot": 5,
+          "on": "never",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Never vinegar and bleach in the same load.",
+          "dur": 4.6
+        }
+      ],
+      "gags": [
+        {
+          "shot": 6,
+          "on": "steam",
+          "pose": "thumbs",
+          "side": "left",
+          "dur": 2.8
+        }
+      ]
+    },
+    {
+      "facts": [
+        {
+          "shot": 1,
+          "on": "half",
+          "kind": "measure",
+          "big": "½ cup",
+          "small": "baking soda",
+          "dur": 4
+        }
+      ],
+      "cards": [
+        {
+          "shot": 2,
+          "on": "neutralizes",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "It neutralizes the last sour smells.",
+          "dur": 4
+        }
+      ],
+      "ticks": [
+        {
+          "shot": 3,
+          "on": "microfiber",
+          "label": "Microfiber cloth"
+        }
+      ]
+    },
+    {
+      "diagrams": [
+        {
+          "shot": 1,
+          "on": "filter",
+          "name": "washer",
+          "mode": "filter",
+          "title": "The drain filter",
+          "dur": 5
+        }
+      ],
+      "cards": [
+        {
+          "shot": 2,
+          "on": "unplug",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Never open the filter with the machine plugged in.",
+          "dur": 3.4
+        }
+      ],
+      "ticks": [
+        {
+          "shot": 3,
+          "on": "dish",
+          "label": "Shallow dish + towel"
+        }
+      ],
+      "gags": [
+        {
+          "shot": 4,
+          "on": "drain",
+          "pose": "wet",
+          "side": "left",
+          "dur": 3
+        }
+      ],
+      "facts": [
+        {
+          "shot": 8,
+          "on": "three",
+          "kind": "timer",
+          "big": "Every 3 months",
+          "small": "clean the filter",
+          "dur": 4
+        }
+      ]
+    },
+    {
+      "diagrams": [
+        {
+          "shot": 2,
+          "on": "open",
+          "name": "washer",
+          "mode": "dry",
+          "title": "Let it breathe",
+          "dur": 5
+        }
+      ],
+      "cards": [
+        {
+          "shot": 3,
+          "on": "wet",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Wet laundry left inside brings the smell back.",
+          "dur": 3.6
+        }
+      ],
+      "facts": [
+        {
+          "shot": 5,
+          "on": "month",
+          "kind": "timer",
+          "big": "Once a month",
+          "small": "full clean",
+          "dur": 4
+        }
+      ],
+      "gags": [
+        {
+          "shot": 6,
+          "on": "habit",
+          "pose": "thumbs",
+          "side": "right",
+          "dur": 2.8
+        }
+      ]
+    },
+    {
+      "gags": [
+        {
+          "shot": 1,
+          "on": "habits",
+          "pose": "idea",
+          "side": "right",
+          "dur": 2.8
+        }
+      ],
+      "cards": [
+        {
+          "shot": 3,
+          "on": "kinked",
+          "kind": "why",
+          "title": "Why",
+          "text": "A kinked hose holds dirty water that goes stale.",
+          "dur": 4.4
+        }
+      ]
+    },
+    {
+      "gags": [
+        {
+          "shot": 3,
+          "on": "banging",
+          "pose": "panic",
+          "side": "left",
+          "dur": 2.8
+        }
+      ],
+      "cards": [
+        {
+          "shot": 4,
+          "on": "burning",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Burning smell: unplug and stop using the machine.",
+          "dur": 5
+        }
+      ]
+    },
+    {
+      "gags": [
+        {
+          "shot": 1,
+          "on": "fresh",
+          "pose": "thumbs",
+          "side": "right",
+          "dur": 2.8
+        }
+      ],
+      "facts": [
+        {
+          "shot": 2,
+          "on": "month",
+          "kind": "timer",
+          "big": "1× a month",
+          "small": "hot cleaning cycle",
+          "dur": 4
+        }
+      ],
+      "ticks": [
+        {
+          "shot": 3,
+          "on": "door",
+          "label": "Door and drawer open"
+        }
+      ]
+    }
+  ],
+  "youneed": {
+    "key": "youneed",
+    "kind": "photo",
+    "width": 1920,
+    "height": 1080,
+    "provider": "gemini-web",
+    "file": "assets/2026-11-24-clean-washing-machine/images/youneed.jpg",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  "mistakesSubtitle": "that bring the smell back",
+  "mistakes": [
+    {
+      "key": "mistake-1",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "file": "assets/2026-11-24-clean-washing-machine/images/mistake-1.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "key": "mistake-2",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "file": "assets/2026-11-24-clean-washing-machine/images/mistake-2.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "key": "mistake-3",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "file": "assets/2026-11-24-clean-washing-machine/images/mistake-3.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ]
+    }
+  ],
+  "all": {
+    "hero": {
+      "key": "hero",
+      "query": "front load washing machine",
+      "prompt": "A clean white front-loading washing machine in a bright laundry room with the door open, folded towels on top, soft daylight, photorealistic, no text",
+      "file": "assets/2026-11-24-clean-washing-machine/images/hero.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null
+    },
+    "step-1": {
+      "key": "step-1",
+      "query": "empty washing machine drum",
+      "prompt": "A hand reaching into the empty stainless steel drum of a front-loading washing machine, door wide open. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-24-clean-washing-machine/images/step-1-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step one. Make sure the drum is empty, with no laundry left inside, and check the pockets of anything that has fallen to the bottom.",
+      "wordStart": 0,
+      "focus": [
+        0.55,
+        0.55
+      ],
+      "notes": [
+        {
+          "type": "arrow",
+          "at": [
+            0.55,
+            0.55
+          ],
+          "text": "Empty drum",
+          "label": [
+            0.25,
+            0.2
+          ],
+          "on": "empty"
+        }
+      ],
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-1",
+          "query": "empty washing machine drum",
+          "prompt": "A hand reaching into the empty stainless steel drum of a front-loading washing machine, door wide open. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-1-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Step one. Make sure the drum is empty, with no laundry left inside, and check the pockets of anything that has fallen to the bottom.",
+          "wordStart": 0,
+          "focus": [
+            0.55,
+            0.55
+          ],
+          "notes": [
+            {
+              "type": "arrow",
+              "at": [
+                0.55,
+                0.55
+              ],
+              "text": "Empty drum",
+              "label": [
+                0.25,
+                0.2
+              ],
+              "on": "empty"
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-1",
+          "query": "empty washing machine drum",
+          "prompt": "Fingers pulling a small grey sock and two coins out of the fold of the grey rubber door seal of a washing machine, close-up. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-1-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Take a few seconds to remove any stray socks or coins from the rubber seal.",
+          "wordStart": 25,
+          "focus": [
+            0.54,
+            0.5
+          ],
+          "notes": [
+            {
+              "type": "circle",
+              "at": [
+                0.54,
+                0.52
+              ],
+              "r": 0.1,
+              "on": "socks",
+              "text": "Hidden in the seal",
+              "label": [
+                0.3,
+                0.2
+              ]
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-1",
+          "query": "empty washing machine drum",
+          "prompt": "Hands holding an open instruction booklet with blurred unreadable lines and simple diagrams, a washing machine out of focus behind. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-1-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Then take a minute to look at your machine's manual or the label inside the door.",
+          "wordStart": 40,
+          "focus": [
+            0.5,
+            0.45
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-1",
+          "query": "empty washing machine drum",
+          "prompt": "Close-up of a finger pointing at the round programme dial on the plain control panel of a washing machine, no readable markings. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-1-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Some brands recommend a specific cleaner, or a special cleaning cycle called Tub Clean, Drum Clean or Self Clean. If yours has one, use it as the main cycle later.",
+          "wordStart": 56,
+          "focus": [
+            0.5,
+            0.45
+          ],
+          "notes": [
+            {
+              "type": "inset",
+              "at": [
+                0.53,
+                0.38
+              ],
+              "lens": [
+                0.78,
+                0.36
+              ],
+              "r": 0.12,
+              "zoom": 2.4,
+              "text": "A cleaning cycle?",
+              "on": "cycle"
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-1",
+          "query": "empty washing machine drum",
+          "prompt": "A small yellow spirit level resting on top of a washing machine, the round door opened fully to the side. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-1-5.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Check as well that the machine is level and the door opens fully.",
+          "wordStart": 86,
+          "focus": [
+            0.5,
+            0.45
+          ],
+          "notes": [
+            {
+              "type": "circle",
+              "at": [
+                0.5,
+                0.33
+              ],
+              "r": 0.09,
+              "on": "level",
+              "text": "Level",
+              "label": [
+                0.25,
+                0.25
+              ]
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-1",
+          "query": "empty washing machine drum",
+          "prompt": "Front view of a white front-loading washing machine with its door open in a tidy laundry room, an instruction booklet lying on top. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-1-6.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "It's a short step, but it avoids mistakes with your particular model.",
+          "wordStart": 99,
+          "focus": [
+            0.5,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    },
+    "step-2": {
+      "key": "step-2",
+      "query": "washing machine rubber seal",
+      "prompt": "Close-up of the grey rubber door seal around the opening of a front-loading washing machine, door open. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-24-clean-washing-machine/images/step-2-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step two. On a front loader, the rubber door seal is where the mould lives.",
+      "wordStart": 0,
+      "focus": [
+        0.55,
+        0.6
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-2",
+          "query": "washing machine rubber seal",
+          "prompt": "Close-up of the grey rubber door seal around the opening of a front-loading washing machine, door open. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-2-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Step two. On a front loader, the rubber door seal is where the mould lives.",
+          "wordStart": 0,
+          "focus": [
+            0.55,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-2",
+          "query": "washing machine rubber seal",
+          "prompt": "Fingers pulling back the grey rubber door seal of a washing machine to reveal dark mould spots and grime hidden inside the fold, close-up. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-2-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Gently pull the rubber back and look into the folds. You'll probably find dark spots, hair and slime.",
+          "wordStart": 15,
+          "focus": [
+            0.45,
+            0.55
+          ],
+          "notes": [
+            {
+              "type": "loupe",
+              "at": [
+                0.45,
+                0.56
+              ],
+              "lens": [
+                0.76,
+                0.4
+              ],
+              "r": 0.14,
+              "zoom": 2.2,
+              "text": "Mould in the fold",
+              "on": "dark"
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-2",
+          "query": "washing machine rubber seal",
+          "prompt": "A hand spraying a fine mist from a plain clear spray bottle into the fold of a washing machine door seal, a blue microfiber cloth ready in the other hand. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-2-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Spray the area lightly with a mix of equal parts vinegar and water, or use a cloth dampened with it, and wipe the folds clean.",
+          "wordStart": 33,
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-2",
+          "query": "washing machine rubber seal",
+          "prompt": "An old toothbrush scrubbing inside the fold of a grey rubber washing machine door seal, close-up. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-2-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "An old toothbrush helps in the tight corners.",
+          "wordStart": 58,
+          "focus": [
+            0.52,
+            0.52
+          ],
+          "notes": [
+            {
+              "type": "arrow",
+              "at": [
+                0.52,
+                0.52
+              ],
+              "text": "Into the tight corners",
+              "label": [
+                0.72,
+                0.2
+              ],
+              "on": "tight"
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-2",
+          "query": "washing machine rubber seal",
+          "prompt": "Fingers pulling back a perfectly clean grey rubber door seal of a washing machine, the fold spotless and shiny, close-up. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-2-5.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Do this monthly, since the seal is where most smells begin.",
+          "wordStart": 66,
+          "focus": [
+            0.5,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": "assets/2026-11-24-clean-washing-machine/images/step-2-5-before.jpg",
+          "compareLabels": [
+            "Before",
+            "After"
+          ]
+        },
+        {
+          "key": "step-2",
+          "query": "washing machine rubber seal",
+          "prompt": "A plain white plastic bottle and a plain clear glass bottle standing apart on top of a washing machine, a hand pushing the white bottle away. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-2-6.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Don't use bleach together with vinegar.",
+          "wordStart": 77,
+          "focus": [
+            0.55,
+            0.4
+          ],
+          "notes": [
+            {
+              "type": "cross",
+              "at": [
+                0.55,
+                0.35
+              ],
+              "r": 0.07,
+              "text": "Never together",
+              "label": [
+                0.25,
+                0.55
+              ],
+              "on": "bleach"
+            }
+          ],
+          "fx": null,
+          "punchOn": [
+            "bleach"
+          ],
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-2",
+          "query": "washing machine rubber seal",
+          "prompt": "A hand wiping the inside of the round glass door of a washing machine with a blue microfiber cloth. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-2-7.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Wipe the glass, and leave a dry cloth in the seal to catch drips.",
+          "wordStart": 83,
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-2",
+          "query": "washing machine rubber seal",
+          "prompt": "A white top-loading washing machine with its lid open, a hand wiping the rim of the opening with a blue microfiber cloth. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-2-8.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "For a top loader, wipe the rim and the underside of the lid.",
+          "wordStart": 97,
+          "focus": [
+            0.45,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    },
+    "step-3": {
+      "key": "step-3",
+      "query": "washing machine detergent drawer",
+      "prompt": "A hand pulling the detergent drawer out of the top left corner of a front-loading washing machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-24-clean-washing-machine/images/step-3-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step three. Pull out the detergent drawer.",
+      "wordStart": 0,
+      "focus": [
+        0.44,
+        0.52
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-3",
+          "query": "washing machine detergent drawer",
+          "prompt": "A hand pulling the detergent drawer out of the top left corner of a front-loading washing machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-3-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Step three. Pull out the detergent drawer.",
+          "wordStart": 0,
+          "focus": [
+            0.44,
+            0.52
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-3",
+          "query": "washing machine detergent drawer",
+          "prompt": "Close-up of a thumb pressing a small plastic release tab inside the open detergent drawer of a washing machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-3-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "On many machines, you press a small tab or lift it slightly, then pull it free. Check your manual if it won't come out.",
+          "wordStart": 7,
+          "focus": [
+            0.45,
+            0.6
+          ],
+          "notes": [
+            {
+              "type": "circle",
+              "at": [
+                0.45,
+                0.62
+              ],
+              "r": 0.07,
+              "on": "tab",
+              "text": "Release tab",
+              "label": [
+                0.25,
+                0.25
+              ]
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-3",
+          "query": "washing machine detergent drawer",
+          "prompt": "A white plastic detergent drawer soaking in a sink of warm soapy water while a hand scrubs it with an old toothbrush. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-3-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Soak the drawer in a sink of warm water for about ten minutes, then scrub off the mould and sticky residue with the toothbrush.",
+          "wordStart": 31,
+          "focus": [
+            0.44,
+            0.5
+          ],
+          "notes": null,
+          "fx": [
+            {
+              "type": "bubbles",
+              "at": [
+                0.4,
+                0.78
+              ],
+              "size": 1.2
+            }
+          ],
+          "punchOn": [
+            "ten"
+          ],
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-3",
+          "query": "washing machine detergent drawer",
+          "prompt": "A hand with a blue microfiber cloth cleaning inside the empty drawer cavity of a washing machine, dark residue visible in the cavity. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-3-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Don't forget the empty space where the drawer sits, because buildup collects there too.",
+          "wordStart": 55,
+          "focus": [
+            0.4,
+            0.45
+          ],
+          "notes": [
+            {
+              "type": "arrow",
+              "at": [
+                0.36,
+                0.38
+              ],
+              "text": "Clean the cavity too",
+              "label": [
+                0.72,
+                0.2
+              ],
+              "on": "space"
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-3",
+          "query": "washing machine detergent drawer",
+          "prompt": "A hand sliding a clean, dry white detergent drawer back into a washing machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-3-5.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Rinse the parts, dry them with a towel, and slide the drawer back into place.",
+          "wordStart": 69,
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-3",
+          "query": "washing machine detergent drawer",
+          "prompt": "Close-up of a removed washing machine detergent drawer coated with dark mould and sticky blue detergent residue, held in a hand. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-3-6.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "This one step is often the main source of the smell.",
+          "wordStart": 84,
+          "focus": [
+            0.55,
+            0.5
+          ],
+          "notes": [
+            {
+              "type": "circle",
+              "at": [
+                0.55,
+                0.5
+              ],
+              "r": 0.16,
+              "on": "source",
+              "text": "Mould + old detergent",
+              "label": [
+                0.3,
+                0.2
+              ]
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-3",
+          "query": "washing machine detergent drawer",
+          "prompt": "A hand scrubbing the compartments of an open detergent drawer still attached to the washing machine with an old toothbrush. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-3-7.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "If the drawer is fixed in place, simply scrub it where it is with a toothbrush and a cloth.",
+          "wordStart": 95,
+          "focus": [
+            0.55,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    },
+    "step-4": {
+      "key": "step-4",
+      "query": "pouring vinegar washing machine",
+      "prompt": "A hand pouring clear white vinegar from a plain glass measuring cup into the empty drum of a front-loading washing machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-24-clean-washing-machine/images/step-4-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step four. Pour two cups of white vinegar into the empty drum, or into the detergent drawer's main compartment, and start the hottest, longest cycle, with no laundry inside.",
+      "wordStart": 0,
+      "focus": [
+        0.5,
+        0.45
+      ],
+      "notes": [
+        {
+          "type": "arrow",
+          "at": [
+            0.5,
+            0.4
+          ],
+          "text": "Straight into the drum",
+          "label": [
+            0.25,
+            0.2
+          ],
+          "on": "drum"
+        }
+      ],
+      "fx": null,
+      "punchOn": [
+        "two"
+      ],
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-4",
+          "query": "pouring vinegar washing machine",
+          "prompt": "A hand pouring clear white vinegar from a plain glass measuring cup into the empty drum of a front-loading washing machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-4-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Step four. Pour two cups of white vinegar into the empty drum, or into the detergent drawer's main compartment, and start the hottest, longest cycle, with no laundry inside.",
+          "wordStart": 0,
+          "focus": [
+            0.5,
+            0.45
+          ],
+          "notes": [
+            {
+              "type": "arrow",
+              "at": [
+                0.5,
+                0.4
+              ],
+              "text": "Straight into the drum",
+              "label": [
+                0.25,
+                0.2
+              ],
+              "on": "drum"
+            }
+          ],
+          "fx": null,
+          "punchOn": [
+            "two"
+          ],
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-4",
+          "query": "pouring vinegar washing machine",
+          "prompt": "A hand turning the round programme dial on the plain control panel of a washing machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-4-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "If you have a Tub Clean cycle, choose that instead.",
+          "wordStart": 29,
+          "focus": [
+            0.55,
+            0.45
+          ],
+          "notes": [
+            {
+              "type": "circle",
+              "at": [
+                0.57,
+                0.4
+              ],
+              "r": 0.06,
+              "on": "tub",
+              "text": "Tub Clean",
+              "label": [
+                0.3,
+                0.3
+              ]
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-4",
+          "query": "pouring vinegar washing machine",
+          "prompt": "A front-loading washing machine running with no laundry, clear water sloshing and foaming behind the round glass door, close-up of the door. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-4-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "The hot water and vinegar help dissolve soap scum, hard water minerals and bacteria.",
+          "wordStart": 39,
+          "focus": [
+            0.45,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-4",
+          "query": "pouring vinegar washing machine",
+          "prompt": "A finger pressing a plain round button on the control panel of a washing machine, water resting still behind the glass door. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-4-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "You can pause the cycle for thirty minutes midway, to let the mix soak, then restart it.",
+          "wordStart": 53,
+          "focus": [
+            0.6,
+            0.45
+          ],
+          "notes": [
+            {
+              "type": "circle",
+              "at": [
+                0.64,
+                0.36
+              ],
+              "r": 0.05,
+              "on": "pause",
+              "text": "Pause",
+              "label": [
+                0.4,
+                0.2
+              ]
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-4",
+          "query": "pouring vinegar washing machine",
+          "prompt": "A hand placing a plain white plastic bottle up on a high shelf, away from a washing machine, a clear glass bottle left on the machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-4-5.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Never combine vinegar with bleach in the same load, because the fumes are harmful. Run them separately, and rinse in between.",
+          "wordStart": 70,
+          "focus": [
+            0.5,
+            0.4
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": [
+            "never"
+          ],
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-4",
+          "query": "pouring vinegar washing machine",
+          "prompt": "A hand opening the round glass door of a washing machine, a light cloud of steam drifting out of the warm drum. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-4-6.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Open the door once the cycle finishes, and let the steam escape.",
+          "wordStart": 91,
+          "focus": [
+            0.45,
+            0.5
+          ],
+          "notes": null,
+          "fx": [
+            {
+              "type": "steam",
+              "at": [
+                0.42,
+                0.45
+              ],
+              "size": 1.1
+            }
+          ],
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    },
+    "step-5": {
+      "key": "step-5",
+      "query": "baking soda washing machine",
+      "prompt": "A hand sprinkling white baking soda powder from a small white bowl into the empty drum of a washing machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-24-clean-washing-machine/images/step-5-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step five. Once the vinegar cycle ends, sprinkle half a cup of baking soda into the drum and run a second hot cycle.",
+      "wordStart": 0,
+      "focus": [
+        0.48,
+        0.5
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": [
+        "half"
+      ],
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-5",
+          "query": "baking soda washing machine",
+          "prompt": "A hand sprinkling white baking soda powder from a small white bowl into the empty drum of a washing machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-5-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Step five. Once the vinegar cycle ends, sprinkle half a cup of baking soda into the drum and run a second hot cycle.",
+          "wordStart": 0,
+          "focus": [
+            0.48,
+            0.5
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": [
+            "half"
+          ],
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-5",
+          "query": "baking soda washing machine",
+          "prompt": "A small white bowl of baking soda powder with a spoon standing on top of a washing machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-5-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Baking soda is a gentle deodorizer, and it neutralizes any remaining smells.",
+          "wordStart": 23,
+          "focus": [
+            0.5,
+            0.45
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-5",
+          "query": "baking soda washing machine",
+          "prompt": "A hand wiping the inside of the stainless steel drum of a washing machine with a blue microfiber cloth. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-5-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "When the cycle finishes, open the door and wipe the inside of the drum with a clean microfiber cloth.",
+          "wordStart": 35,
+          "focus": [
+            0.52,
+            0.5
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-5",
+          "query": "baking soda washing machine",
+          "prompt": "A hand holding a blue microfiber cloth showing a smear of grey residue just wiped from a washing machine drum. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-5-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "If you see any residue loosened from the sides, wipe it away.",
+          "wordStart": 54,
+          "focus": [
+            0.45,
+            0.6
+          ],
+          "notes": [
+            {
+              "type": "arrow",
+              "at": [
+                0.44,
+                0.65
+              ],
+              "text": "Loosened residue",
+              "label": [
+                0.55,
+                0.25
+              ],
+              "on": "residue"
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-5",
+          "query": "baking soda washing machine",
+          "prompt": "A hand holding a single plain white cleaning tablet above the empty drum of a washing machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-5-5.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Some manufacturers prefer special machine-cleaning tablets, so use those if the manual says so, instead of vinegar and baking soda.",
+          "wordStart": 66,
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "notes": [
+            {
+              "type": "circle",
+              "at": [
+                0.53,
+                0.5
+              ],
+              "r": 0.06,
+              "on": "tablets",
+              "text": "Or a cleaning tablet",
+              "label": [
+                0.7,
+                0.25
+              ]
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-5",
+          "query": "baking soda washing machine",
+          "prompt": "A hand shining a small flashlight into the clean shiny drum of a washing machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-5-6.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Check the drum for loosened buildup before you close the door.",
+          "wordStart": 86,
+          "focus": [
+            0.55,
+            0.6
+          ],
+          "notes": null,
+          "fx": [
+            {
+              "type": "sparkle",
+              "at": [
+                0.56,
+                0.66
+              ],
+              "size": 1
+            }
+          ],
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    },
+    "step-6": {
+      "key": "step-6",
+      "query": "washing machine drain filter",
+      "prompt": "Close-up of the small rectangular access panel at the bottom right corner of a white front-loading washing machine, a finger pointing at it. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-24-clean-washing-machine/images/step-6-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step six. Most front loaders have a small drain filter behind a panel at the bottom corner.",
+      "wordStart": 0,
+      "focus": [
+        0.6,
+        0.6
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-6",
+          "query": "washing machine drain filter",
+          "prompt": "Close-up of the small rectangular access panel at the bottom right corner of a white front-loading washing machine, a finger pointing at it. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-6-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Step six. Most front loaders have a small drain filter behind a panel at the bottom corner.",
+          "wordStart": 0,
+          "focus": [
+            0.6,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-6",
+          "query": "washing machine drain filter",
+          "prompt": "A hand pulling a white power plug out of a wall socket next to a washing machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-6-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Unplug the machine first.",
+          "wordStart": 17,
+          "focus": [
+            0.7,
+            0.55
+          ],
+          "notes": [
+            {
+              "type": "circle",
+              "at": [
+                0.77,
+                0.62
+              ],
+              "r": 0.08,
+              "on": "unplug",
+              "text": "Unplugged",
+              "label": [
+                0.45,
+                0.3
+              ]
+            }
+          ],
+          "fx": null,
+          "punchOn": [
+            "unplug"
+          ],
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-6",
+          "query": "washing machine drain filter",
+          "prompt": "A shallow white dish and a folded grey towel placed on the tile floor in front of the open bottom corner panel of a washing machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-6-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Put a shallow dish and a towel on the floor, because water will come out.",
+          "wordStart": 21,
+          "focus": [
+            0.5,
+            0.7
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-6",
+          "query": "washing machine drain filter",
+          "prompt": "A hand unscrewing the round drain filter cap at the bottom of a washing machine, water trickling out into a shallow white dish on a towel. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-6-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Open the panel, slowly unscrew the filter counterclockwise and let the water drain.",
+          "wordStart": 36,
+          "focus": [
+            0.47,
+            0.6
+          ],
+          "notes": [
+            {
+              "type": "arrow",
+              "at": [
+                0.47,
+                0.66
+              ],
+              "text": "Counterclockwise, slowly",
+              "label": [
+                0.7,
+                0.3
+              ],
+              "on": "unscrew"
+            }
+          ],
+          "fx": [
+            {
+              "type": "drops",
+              "at": [
+                0.47,
+                0.72
+              ],
+              "size": 0.7
+            }
+          ],
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-6",
+          "query": "washing machine drain filter",
+          "prompt": "A hand holding a washing machine drain filter clogged with grey lint, hair and a coin under a running tap. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-6-5.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Remove coins, hair and lint, rinse the filter under the tap, and screw it back firmly.",
+          "wordStart": 49,
+          "focus": [
+            0.53,
+            0.55
+          ],
+          "notes": [
+            {
+              "type": "circle",
+              "at": [
+                0.52,
+                0.55
+              ],
+              "r": 0.12,
+              "on": "coins",
+              "text": "Lint, hair, coins",
+              "label": [
+                0.25,
+                0.25
+              ]
+            }
+          ],
+          "fx": [
+            {
+              "type": "drops",
+              "at": [
+                0.55,
+                0.75
+              ],
+              "size": 0.8
+            }
+          ],
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-6",
+          "query": "washing machine drain filter",
+          "prompt": "View from above into the drum of a white top-loading washing machine with its lid open. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-6-6.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Top loaders may have a lint filter or none at all.",
+          "wordStart": 65,
+          "focus": [
+            0.5,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-6",
+          "query": "washing machine drain filter",
+          "prompt": "Hands holding an open instruction booklet with blurred unreadable lines and a simple diagram, in front of the bottom corner of a washing machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-6-7.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Check the manual, and if you're unsure, leave this job for a technician.",
+          "wordStart": 76,
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-6",
+          "query": "washing machine drain filter",
+          "prompt": "A hand holding a perfectly clean washing machine drain filter, ready to screw it back into the open panel. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-6-8.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Clean this filter every three months, or when the machine drains slowly.",
+          "wordStart": 89,
+          "focus": [
+            0.58,
+            0.55
+          ],
+          "notes": null,
+          "fx": [
+            {
+              "type": "sparkle",
+              "at": [
+                0.58,
+                0.55
+              ],
+              "size": 0.8
+            }
+          ],
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    },
+    "step-7": {
+      "key": "step-7",
+      "query": "washing machine door open",
+      "prompt": "A hand wiping the top and control panel of a white washing machine with a blue microfiber cloth. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-24-clean-washing-machine/images/step-7-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step seven. Finish by wiping the outside, the control panel and the top with a damp cloth.",
+      "wordStart": 0,
+      "focus": [
+        0.45,
+        0.5
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-7",
+          "query": "washing machine door open",
+          "prompt": "A hand wiping the top and control panel of a white washing machine with a blue microfiber cloth. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-7-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Step seven. Finish by wiping the outside, the control panel and the top with a damp cloth.",
+          "wordStart": 0,
+          "focus": [
+            0.45,
+            0.5
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-7",
+          "query": "washing machine door open",
+          "prompt": "A white front-loading washing machine with its round door left ajar and its detergent drawer left slightly open, nobody in the picture. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-7-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Then leave the door, and the drawer, slightly open so air can dry the inside, and mould can't grow.",
+          "wordStart": 17,
+          "focus": [
+            0.35,
+            0.5
+          ],
+          "notes": [
+            {
+              "type": "circle",
+              "at": [
+                0.38,
+                0.36
+              ],
+              "r": 0.07,
+              "on": "slightly",
+              "text": "Left open",
+              "label": [
+                0.2,
+                0.2
+              ]
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-7",
+          "query": "washing machine door open",
+          "prompt": "Wet crumpled clothes left forgotten inside the drum of a washing machine, seen through the open door. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-7-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "After washing, don't leave wet clothes in the drum.",
+          "wordStart": 36,
+          "focus": [
+            0.54,
+            0.6
+          ],
+          "notes": [
+            {
+              "type": "cross",
+              "at": [
+                0.54,
+                0.6
+              ],
+              "r": 0.09,
+              "text": "Take them out",
+              "label": [
+                0.3,
+                0.2
+              ],
+              "on": "wet"
+            }
+          ],
+          "fx": null,
+          "punchOn": [
+            "wet"
+          ],
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-7",
+          "query": "washing machine door open",
+          "prompt": "A hand pouring a small measured amount of liquid detergent into a plain measuring cap, a washing machine behind. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-7-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Use the amount of detergent shown on the packet, because too much creates the residue that feeds smells.",
+          "wordStart": 45,
+          "focus": [
+            0.47,
+            0.55
+          ],
+          "notes": [
+            {
+              "type": "circle",
+              "at": [
+                0.47,
+                0.55
+              ],
+              "r": 0.08,
+              "on": "amount",
+              "text": "The measured amount",
+              "label": [
+                0.25,
+                0.25
+              ]
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-7",
+          "query": "washing machine door open",
+          "prompt": "A hand giving the grey rubber door seal of a washing machine a quick wipe with a blue microfiber cloth. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-7-5.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "A quick wipe of the seal weekly and a full clean once a month will keep your machine fresh.",
+          "wordStart": 63,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-7",
+          "query": "washing machine door open",
+          "prompt": "A hand circling a day with a red pen on a paper wall calendar with blurred unreadable squares, hanging next to a washing machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-7-6.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Mark the date on your calendar. Make it a monthly habit and you won't need to rescue the machine again.",
+          "wordStart": 82,
+          "focus": [
+            0.4,
+            0.45
+          ],
+          "notes": [
+            {
+              "type": "circle",
+              "at": [
+                0.35,
+                0.42
+              ],
+              "r": 0.07,
+              "on": "calendar",
+              "text": "Monthly clean",
+              "label": [
+                0.3,
+                0.75
+              ]
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    },
+    "step-8": {
+      "key": "step-8",
+      "query": "washing machine laundry room",
+      "prompt": "A person seen from the shoulders down standing in front of an open washing machine, one hand waving in front of the drum as if there were a bad smell. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-24-clean-washing-machine/images/step-8-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "If the smell comes back, look at your habits first.",
+      "wordStart": 0,
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-8",
+          "query": "washing machine laundry room",
+          "prompt": "A person seen from the shoulders down standing in front of an open washing machine, one hand waving in front of the drum as if there were a bad smell. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-8-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "If the smell comes back, look at your habits first.",
+          "wordStart": 0,
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-8",
+          "query": "washing machine laundry room",
+          "prompt": "A damp pile of clothes sitting inside the drum of a washing machine, door open, a laundry basket empty on the floor. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-8-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Wet clothes left in the drum smell bad, and people often blame the machine.",
+          "wordStart": 10,
+          "focus": [
+            0.52,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-8",
+          "query": "washing machine laundry room",
+          "prompt": "A grey corrugated drain hose with a sharp kink behind a washing machine pulled slightly away from the wall, a hand pointing at the kink. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-8-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Check that the drain hose is not kinked, so water does not sit in it.",
+          "wordStart": 24,
+          "focus": [
+            0.35,
+            0.65
+          ],
+          "notes": [
+            {
+              "type": "circle",
+              "at": [
+                0.25,
+                0.74
+              ],
+              "r": 0.09,
+              "on": "hose",
+              "text": "No kink in the hose",
+              "label": [
+                0.3,
+                0.3
+              ]
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-8",
+          "query": "washing machine laundry room",
+          "prompt": "A hand holding a plain measuring cap filled to a low mark with liquid detergent, in front of the control panel of a washing machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-8-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Use only the detergent amount shown on the packet, then repeat the hot cleaning cycle and wipe the seal more often.",
+          "wordStart": 39,
+          "focus": [
+            0.5,
+            0.52
+          ],
+          "notes": [
+            {
+              "type": "circle",
+              "at": [
+                0.5,
+                0.52
+              ],
+              "r": 0.07,
+              "on": "amount"
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    },
+    "step-9": {
+      "key": "step-9",
+      "query": "appliance repair technician",
+      "prompt": "A white front-loading washing machine with its door open and a closed red metal toolbox standing on the floor beside it. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-24-clean-washing-machine/images/step-9-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Cleaning cannot fix everything.",
+      "wordStart": 0,
+      "focus": [
+        0.5,
+        0.6
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-9",
+          "query": "appliance repair technician",
+          "prompt": "A white front-loading washing machine with its door open and a closed red metal toolbox standing on the floor beside it. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-9-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Cleaning cannot fix everything.",
+          "wordStart": 0,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-9",
+          "query": "appliance repair technician",
+          "prompt": "Still water standing halfway up inside the drum of a washing machine, seen through the closed round glass door. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-9-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "If water will not drain even after you cleaned the filter, call a technician.",
+          "wordStart": 4,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": [
+            {
+              "type": "arrow",
+              "at": [
+                0.49,
+                0.68
+              ],
+              "text": "Water that will not drain",
+              "label": [
+                0.3,
+                0.2
+              ],
+              "on": "drain"
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-9",
+          "query": "appliance repair technician",
+          "prompt": "A puddle of clear water spreading on the tile floor from under a white washing machine, low angle. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-9-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "The same goes for water leaking from the door or the bottom, or loud banging and grinding.",
+          "wordStart": 18,
+          "focus": [
+            0.55,
+            0.7
+          ],
+          "notes": [
+            {
+              "type": "circle",
+              "at": [
+                0.6,
+                0.78
+              ],
+              "r": 0.14,
+              "on": "leaking",
+              "text": "A leak",
+              "label": [
+                0.75,
+                0.3
+              ]
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-9",
+          "query": "appliance repair technician",
+          "prompt": "A hand quickly pulling the power plug of a washing machine out of the wall socket, a thin wisp of smoke near the back of the machine. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-9-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "If you smell burning, switch the machine off, unplug it, and do not use it until it has been checked.",
+          "wordStart": 35,
+          "focus": [
+            0.3,
+            0.5
+          ],
+          "notes": [
+            {
+              "type": "circle",
+              "at": [
+                0.2,
+                0.48
+              ],
+              "r": 0.08,
+              "on": "unplug",
+              "text": "Unplug it",
+              "label": [
+                0.5,
+                0.25
+              ]
+            }
+          ],
+          "fx": null,
+          "punchOn": [
+            "burning"
+          ],
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    },
+    "step-10": {
+      "key": "step-10",
+      "query": "laundry basket fresh towels",
+      "prompt": "A sparkling clean white washing machine in a bright laundry room, door ajar, fresh folded towels in a basket beside it. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-24-clean-washing-machine/images/step-10-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "A short routine keeps the machine fresh.",
+      "wordStart": 0,
+      "focus": [
+        0.45,
+        0.6
+      ],
+      "notes": null,
+      "fx": [
+        {
+          "type": "sparkle",
+          "at": [
+            0.45,
+            0.6
+          ],
+          "size": 1.1
+        }
+      ],
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-10",
+          "query": "laundry basket fresh towels",
+          "prompt": "A sparkling clean white washing machine in a bright laundry room, door ajar, fresh folded towels in a basket beside it. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-10-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "A short routine keeps the machine fresh.",
+          "wordStart": 0,
+          "focus": [
+            0.45,
+            0.6
+          ],
+          "notes": null,
+          "fx": [
+            {
+              "type": "sparkle",
+              "at": [
+                0.45,
+                0.6
+              ],
+              "size": 1.1
+            }
+          ],
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-10",
+          "query": "laundry basket fresh towels",
+          "prompt": "A finger turning the programme dial of a washing machine, the drum empty behind the glass door. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-10-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Run a hot cleaning cycle about once a month.",
+          "wordStart": 7,
+          "focus": [
+            0.58,
+            0.4
+          ],
+          "notes": [
+            {
+              "type": "circle",
+              "at": [
+                0.6,
+                0.32
+              ],
+              "r": 0.06,
+              "on": "hot"
+            }
+          ],
+          "fx": null,
+          "punchOn": [
+            "month"
+          ],
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-10",
+          "query": "laundry basket fresh towels",
+          "prompt": "Hands lifting clean wet laundry out of a washing machine drum into a white laundry basket. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-10-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Take wet laundry out as soon as the cycle ends, and leave the door and drawer open between washes.",
+          "wordStart": 16,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-10",
+          "query": "laundry basket fresh towels",
+          "prompt": "Fingers holding the small white care label sewn into a white towel, the symbols blurred and unreadable, a washing machine behind. Photorealistic photograph for a home how-to video. Bright, tidy laundry room, white front-loading washing machine with a round glass door and a grey rubber door seal, white wall tiles, light wood shelf, soft daylight. Adult hands, rolled-up sleeves of a mustard-yellow sweater, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-24-clean-washing-machine/images/step-10-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Wash some loads on a hot setting when the care labels allow, because cool washes alone let residue build up.",
+          "wordStart": 35,
+          "focus": [
+            0.54,
+            0.5
+          ],
+          "notes": [
+            {
+              "type": "inset",
+              "at": [
+                0.54,
+                0.48
+              ],
+              "lens": [
+                0.25,
+                0.4
+              ],
+              "r": 0.13,
+              "zoom": 2,
+              "text": "Care label",
+              "on": "labels"
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    }
+  },
+  "credits": []
+}

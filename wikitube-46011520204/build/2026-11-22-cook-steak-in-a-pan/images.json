@@ -1,0 +1,4242 @@
+{
+  "episodeId": "2026-11-22-cook-steak-in-a-pan",
+  "version": 3,
+  "subject": [
+    "steak"
+  ],
+  "mock": false,
+  "provider": "pixabay",
+  "generatedAt": "2026-11-20T08:50:28.404Z",
+  "hero": {
+    "key": "hero",
+    "query": "steak searing in skillet",
+    "prompt": "A thick ribeye steak with a deep brown crust sizzling in a black cast iron skillet with butter and thyme, dark moody kitchen, shallow depth of field, photorealistic, no text",
+    "file": "assets/2026-11-22-cook-steak-in-a-pan/images/hero.jpg",
+    "kind": "photo",
+    "width": 1920,
+    "height": 1080,
+    "provider": "gemini-web",
+    "credit": null
+  },
+  "steps": [
+    {
+      "key": "step-1",
+      "query": "ribeye steak paper towel",
+      "prompt": "Two raw steaks side by side on a light wood board, one thick and one thin, a hand holding a small ruler beside the thick one, no markings readable. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-1-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step one. Choose a steak that is at least one inch thick, because thin steaks overcook before they brown.",
+      "wordStart": 0,
+      "focus": [
+        0.42,
+        0.6
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null
+    },
+    {
+      "key": "step-2",
+      "query": "seasoning steak coarse salt",
+      "prompt": "A hand grinding black pepper from a wooden pepper mill over a raw steak on a board, coarse salt flakes already on the surface, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-2-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step two. Season the steak on all sides, including the edges, with coarse salt and freshly ground black pepper.",
+      "wordStart": 0,
+      "focus": [
+        0.5,
+        0.65
+      ],
+      "notes": [
+        {
+          "type": "arrow",
+          "at": [
+            0.5,
+            0.78
+          ],
+          "text": "All sides, even the edges",
+          "label": [
+            0.28,
+            0.42
+          ],
+          "on": "edges"
+        }
+      ],
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null
+    },
+    {
+      "key": "step-3",
+      "query": "heavy skillet oil shimmering",
+      "prompt": "A black cast iron skillet sitting empty on a lit gas burner with a blue flame beneath it, seen from a high three-quarter angle. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-3-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step three. Place a heavy skillet over medium-high to high heat and let it heat for three to five minutes, until it is really hot.",
+      "wordStart": 0,
+      "focus": [
+        0.55,
+        0.55
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": [
+        "hot"
+      ],
+      "compareFile": null,
+      "compareLabels": null
+    },
+    {
+      "key": "step-4",
+      "query": "steak searing cast iron",
+      "prompt": "Hands holding a raw steak with tongs, lowering it into a hot black skillet in a direction away from the camera, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-4-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step four. Lay the steak in the pan, away from you, so the oil doesn't splash toward you.",
+      "wordStart": 0,
+      "focus": [
+        0.55,
+        0.5
+      ],
+      "notes": [
+        {
+          "type": "arrow",
+          "at": [
+            0.56,
+            0.5
+          ],
+          "text": "Away from you",
+          "label": [
+            0.25,
+            0.3
+          ],
+          "on": "away"
+        }
+      ],
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null
+    },
+    {
+      "key": "step-5",
+      "query": "butter basting steak",
+      "prompt": "Tongs flipping a steak in the black skillet, revealing a deep brown seared crust on the upper side, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-5-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step five. Turn the steak over with tongs, and lower the heat to medium.",
+      "wordStart": 0,
+      "focus": [
+        0.52,
+        0.6
+      ],
+      "notes": [
+        {
+          "type": "arrow",
+          "at": [
+            0.52,
+            0.9
+          ],
+          "text": "Heat down to medium",
+          "label": [
+            0.25,
+            0.3
+          ],
+          "on": "medium"
+        }
+      ],
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null
+    },
+    {
+      "key": "step-6",
+      "query": "meat thermometer steak",
+      "prompt": "A digital probe meat thermometer with its tip pushed into the thickest part of a steak in the skillet, display not readable, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-6-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step six. The most reliable way to judge doneness is a thermometer pushed into the thickest part of the steak.",
+      "wordStart": 0,
+      "focus": [
+        0.5,
+        0.6
+      ],
+      "notes": [
+        {
+          "type": "arrow",
+          "at": [
+            0.5,
+            0.62
+          ],
+          "text": "Into the thickest part",
+          "label": [
+            0.78,
+            0.3
+          ],
+          "on": "thickest"
+        }
+      ],
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null
+    },
+    {
+      "key": "step-7",
+      "query": "slicing steak board",
+      "prompt": "Tongs lifting a cooked steak out of the black skillet onto a light wood board, a kitchen timer with no readable numbers beside it. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-7-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step seven. Move the steak to a board or a warm plate and let it rest for at least five minutes, and up to ten for a very thick cut.",
+      "wordStart": 0,
+      "focus": [
+        0.6,
+        0.62
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null
+    },
+    {
+      "key": "step-8",
+      "query": "smoky pan steak kitchen",
+      "prompt": "A pale grey steak with no crust in a lukewarm black skillet, seen from above, steam rising around it. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-8-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "If your steak turned grey, the pan was not hot enough, or you cooked too much meat at once.",
+      "wordStart": 0,
+      "focus": [
+        0.4,
+        0.55
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null
+    },
+    {
+      "key": "step-9",
+      "query": "steak thermometer cooking",
+      "prompt": "A very thick steak on a wire rack over a baking tray inside a lit oven, a probe thermometer in the meat, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-9-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "For a very thick steak, try a reverse sear. Cook it first in a low oven, around 250 degrees Fahrenheit or 120 Celsius, until it is about fifteen degrees below your target temperature.",
+      "wordStart": 0,
+      "focus": [
+        0.5,
+        0.45
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null
+    },
+    {
+      "key": "step-10",
+      "query": "sliced steak container fridge",
+      "prompt": "A hand putting a covered glass container with leftover steak slices into a fridge, shelves tidy. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-10-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Put leftover steak in a covered container in the fridge within two hours, and eat it within three to four days.",
+      "wordStart": 0,
+      "focus": [
+        0.47,
+        0.45
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null
+    }
+  ],
+  "stepShots": [
+    [
+      {
+        "key": "step-1",
+        "query": "ribeye steak paper towel",
+        "prompt": "Two raw steaks side by side on a light wood board, one thick and one thin, a hand holding a small ruler beside the thick one, no markings readable. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-1-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Step one. Choose a steak that is at least one inch thick, because thin steaks overcook before they brown.",
+        "wordStart": 0,
+        "focus": [
+          0.42,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-1",
+        "query": "ribeye steak paper towel",
+        "prompt": "Three different raw steaks, a marbled ribeye, a strip and a sirloin, laid out on a white butcher paper on the countertop, seen from above. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-1-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Ribeye, strip and sirloin are all excellent.",
+        "wordStart": 19,
+        "focus": [
+          0.4,
+          0.55
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.25,
+              0.56
+            ],
+            "text": "Ribeye",
+            "label": [
+              0.14,
+              0.24
+            ],
+            "on": "ribeye"
+          },
+          {
+            "type": "arrow",
+            "at": [
+              0.39,
+              0.56
+            ],
+            "text": "Strip",
+            "label": [
+              0.42,
+              0.2
+            ],
+            "on": "strip"
+          },
+          {
+            "type": "arrow",
+            "at": [
+              0.52,
+              0.54
+            ],
+            "text": "Sirloin",
+            "label": [
+              0.72,
+              0.26
+            ],
+            "on": "sirloin"
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-1",
+        "query": "ribeye steak paper towel",
+        "prompt": "A hand taking a thick raw steak on a plate out of an open fridge, a kitchen timer standing on the counter beside it. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-1-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Take the meat out of the fridge about thirty minutes before cooking, so the chill comes off the surface.",
+        "wordStart": 26,
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-1",
+        "query": "ribeye steak paper towel",
+        "prompt": "Hands pressing a paper towel onto the top of a thick raw steak on a board, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-1-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Then pat it completely dry with paper towels, on every side.",
+        "wordStart": 45,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.5,
+              0.55
+            ],
+            "text": "Every side",
+            "label": [
+              0.76,
+              0.25
+            ],
+            "on": "every"
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-1",
+        "query": "ribeye steak paper towel",
+        "prompt": "A wet raw steak with beads of water on its surface lying in a black cast iron skillet on a lit gas burner, white steam rising around it and the underside turning pale grey instead of brown, close-up, no hands. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-1-5.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "This is the most important part of this step, because water on the meat turns to steam in the pan, and steamed meat turns grey instead of brown.",
+        "wordStart": 56,
+        "focus": [
+          0.5,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-1",
+        "query": "ribeye steak paper towel",
+        "prompt": "A thick raw steak, perfectly dry, resting on a clean board with a pile of used paper towels beside it, three-quarter view. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-1-6.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "A dry steak browns in minutes. Thicker cuts forgive small timing errors, which is ideal when you're learning.",
+        "wordStart": 84,
+        "focus": [
+          0.45,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": [
+          "minutes"
+        ],
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ],
+    [
+      {
+        "key": "step-2",
+        "query": "seasoning steak coarse salt",
+        "prompt": "A hand grinding black pepper from a wooden pepper mill over a raw steak on a board, coarse salt flakes already on the surface, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-2-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Step two. Season the steak on all sides, including the edges, with coarse salt and freshly ground black pepper.",
+        "wordStart": 0,
+        "focus": [
+          0.5,
+          0.65
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.5,
+              0.78
+            ],
+            "text": "All sides, even the edges",
+            "label": [
+              0.28,
+              0.42
+            ],
+            "on": "edges"
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-2",
+        "query": "seasoning steak coarse salt",
+        "prompt": "A hand sprinkling a generous pinch of coarse salt from a small bowl from high above onto a thick raw steak, grains scattering. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-2-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Be generous, since much of the seasoning falls off in the pan, and a thick steak needs more salt than you think.",
+        "wordStart": 19,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": [
+          "generous"
+        ],
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-2",
+        "query": "seasoning steak coarse salt",
+        "prompt": "A salted raw steak resting on a wire rack over a tray on the counter, an analogue kitchen timer with no readable numbers beside it. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-2-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "For the best flavor, salt it as soon as you take it out of the fridge, so the salt has half an hour to be absorbed.",
+        "wordStart": 41,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-2",
+        "query": "seasoning steak coarse salt",
+        "prompt": "A hand salting a raw steak held right next to the black skillet on the hob, ready to be placed in the pan. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-2-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "If you are in a rush, salt it just before it hits the pan.",
+        "wordStart": 67,
+        "focus": [
+          0.45,
+          0.6
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.45,
+              0.6
+            ],
+            "text": "Right before the pan",
+            "label": [
+              0.76,
+              0.25
+            ],
+            "on": "before"
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-2",
+        "query": "seasoning steak coarse salt",
+        "prompt": "Close-up of a raw salted steak resting on a light wood board, small beads of moisture pooling on its wet glistening surface, a simple mechanical kitchen timer with a blank face beside it, no hands. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-2-5.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Avoid salting and then waiting five minutes, because that draws out moisture and leaves the surface wet.",
+        "wordStart": 81,
+        "focus": [
+          0.5,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-2",
+        "query": "seasoning steak coarse salt",
+        "prompt": "A fingertip pressing coarse salt and pepper gently into the surface of a raw steak, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-2-6.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Press the seasoning gently into the meat so it sticks.",
+        "wordStart": 98,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.52,
+              0.55
+            ],
+            "text": "Press it in",
+            "label": [
+              0.76,
+              0.3
+            ],
+            "on": "press"
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ],
+    [
+      {
+        "key": "step-3",
+        "query": "heavy skillet oil shimmering",
+        "prompt": "A black cast iron skillet sitting empty on a lit gas burner with a blue flame beneath it, seen from a high three-quarter angle. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-3-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Step three. Place a heavy skillet over medium-high to high heat and let it heat for three to five minutes, until it is really hot.",
+        "wordStart": 0,
+        "focus": [
+          0.55,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": [
+          "hot"
+        ],
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-3",
+        "query": "heavy skillet oil shimmering",
+        "prompt": "Golden oil poured from a plain bottle into the hot black skillet, the oil shimmering with a thin wisp of smoke rising, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-3-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Add a tablespoon of oil with a high smoke point, like avocado, canola or sunflower, and wait until it shimmers and just starts to smoke.",
+        "wordStart": 25,
+        "focus": [
+          0.45,
+          0.55
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.42,
+              0.52
+            ],
+            "text": "1 tablespoon",
+            "label": [
+              0.2,
+              0.3
+            ],
+            "on": "tablespoon"
+          }
+        ],
+        "fx": [
+          {
+            "type": "steam",
+            "at": [
+              0.42,
+              0.5
+            ],
+            "size": 0.9
+          }
+        ],
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-3",
+        "query": "heavy skillet oil shimmering",
+        "prompt": "Close-up of the glossy shimmering oil covering the bottom of a very hot black cast iron skillet. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-3-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "A hot pan is what creates the brown crust, which is where most of the flavor lives.",
+        "wordStart": 50,
+        "focus": [
+          0.55,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-3",
+        "query": "heavy skillet oil shimmering",
+        "prompt": "A plain bottle of green olive oil and a block of butter on the counter pushed aside, away from the hot skillet on the hob. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-3-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Don't use olive oil or butter at this point, because they burn too fast.",
+        "wordStart": 67,
+        "focus": [
+          0.35,
+          0.55
+        ],
+        "notes": [
+          {
+            "type": "cross",
+            "at": [
+              0.26,
+              0.5
+            ],
+            "r": 0.09,
+            "text": "Not yet",
+            "label": [
+              0.52,
+              0.2
+            ],
+            "on": "olive"
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-3",
+        "query": "heavy skillet oil shimmering",
+        "prompt": "A hand pressing a button on a stainless steel extractor hood above the hob, a bright open window in the background. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-3-5.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Turn on your extractor fan and open a window.",
+        "wordStart": 81,
+        "focus": [
+          0.55,
+          0.4
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.75,
+              0.5
+            ],
+            "r": 0.12,
+            "on": "window",
+            "text": "Window open",
+            "label": [
+              0.75,
+              0.2
+            ]
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-3",
+        "query": "heavy skillet oil shimmering",
+        "prompt": "A hand turning down a knob on the stovetop, a thin curl of smoke rising from the black skillet on the hob. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-3-6.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "If your pan smokes heavily, lower the heat slightly rather than starting again.",
+        "wordStart": 90,
+        "focus": [
+          0.45,
+          0.55
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.36,
+              0.62
+            ],
+            "text": "Lower the heat a little",
+            "label": [
+              0.26,
+              0.3
+            ],
+            "on": "lower"
+          }
+        ],
+        "fx": [
+          {
+            "type": "steam",
+            "at": [
+              0.6,
+              0.32
+            ],
+            "size": 1
+          }
+        ],
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ],
+    [
+      {
+        "key": "step-4",
+        "query": "steak searing cast iron",
+        "prompt": "Hands holding a raw steak with tongs, lowering it into a hot black skillet in a direction away from the camera, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-4-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Step four. Lay the steak in the pan, away from you, so the oil doesn't splash toward you.",
+        "wordStart": 0,
+        "focus": [
+          0.55,
+          0.5
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.56,
+              0.5
+            ],
+            "text": "Away from you",
+            "label": [
+              0.25,
+              0.3
+            ],
+            "on": "away"
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-4",
+        "query": "steak searing cast iron",
+        "prompt": "Close-up of a thick raw steak sizzling in a very hot black cast iron skillet on a lit gas burner, oil bubbling vigorously all around the edges of the meat, light smoke rising, no hands, no utensils. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-4-2.mp4",
+        "kind": "video",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "It should sizzle loudly right away.",
+        "wordStart": 18,
+        "focus": [
+          0.5,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": [
+          "loudly"
+        ],
+        "compareFile": null,
+        "compareLabels": null,
+        "poster": "assets/2026-11-22-cook-steak-in-a-pan/images/step-4-2.jpg",
+        "duration": 10.026667
+      },
+      {
+        "key": "step-4",
+        "query": "steak searing cast iron",
+        "prompt": "A steak searing undisturbed in the black skillet, a hand with tongs held back and not touching it. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-4-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Now leave it alone. Don't poke, press or slide it.",
+        "wordStart": 24,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-4",
+        "query": "steak searing cast iron",
+        "prompt": "A kitchen timer with no readable numbers standing beside the hob, a steak searing in the black skillet with a brown crust forming at its edges. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-4-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "For a one inch steak, sear for about two to three minutes, until a deep brown crust forms and the meat releases from the pan on its own.",
+        "wordStart": 34,
+        "focus": [
+          0.4,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-4",
+        "query": "steak searing cast iron",
+        "prompt": "Tongs gently lifting one corner of a steak, which is still stuck to the black skillet, seen close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-4-5.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "If it sticks, it isn't ready to turn.",
+        "wordStart": 62,
+        "focus": [
+          0.42,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-4",
+        "query": "steak searing cast iron",
+        "prompt": "Tongs holding a steak on its side so the fatty edge is pressed against the surface of the hot black skillet. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-4-6.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Use tongs to sear the fatty edge for thirty seconds too.",
+        "wordStart": 70,
+        "focus": [
+          0.52,
+          0.6
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.5,
+              0.72
+            ],
+            "text": "Fatty edge",
+            "label": [
+              0.25,
+              0.3
+            ],
+            "on": "edge"
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-4",
+        "query": "steak searing cast iron",
+        "prompt": "A steak sizzling steadily in the black skillet, seen from above, a rich dark crust spreading across the visible surface. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-4-7.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Resist the urge to flip it early, because patience builds the crust. The sound tells you everything, so listen for a steady, strong sizzle.",
+        "wordStart": 81,
+        "focus": [
+          0.55,
+          0.6
+        ],
+        "notes": null,
+        "fx": [
+          {
+            "type": "steam",
+            "at": [
+              0.55,
+              0.45
+            ],
+            "size": 1
+          }
+        ],
+        "punchOn": [
+          "patience"
+        ],
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ],
+    [
+      {
+        "key": "step-5",
+        "query": "butter basting steak",
+        "prompt": "Tongs flipping a steak in the black skillet, revealing a deep brown seared crust on the upper side, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-5-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Step five. Turn the steak over with tongs, and lower the heat to medium.",
+        "wordStart": 0,
+        "focus": [
+          0.52,
+          0.6
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.52,
+              0.9
+            ],
+            "text": "Heat down to medium",
+            "label": [
+              0.25,
+              0.3
+            ],
+            "on": "medium"
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-5",
+        "query": "butter basting steak",
+        "prompt": "A piece of butter, crushed garlic cloves and a sprig of thyme added next to the steak in the black skillet, butter just starting to melt. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-5-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Add a tablespoon or two of butter, a few crushed garlic cloves and a sprig of thyme.",
+        "wordStart": 14,
+        "focus": [
+          0.55,
+          0.65
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.58,
+              0.72
+            ],
+            "r": 0.08,
+            "on": "butter",
+            "text": "Butter + garlic",
+            "label": [
+              0.28,
+              0.42
+            ]
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-5",
+        "query": "butter basting steak",
+        "prompt": "A hand tilting the black skillet while a metal spoon scoops foaming butter over the steak, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-5-3.mp4",
+        "kind": "video",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "When the butter foams, tilt the pan slightly and spoon the melted butter over the steak again and again for about a minute.",
+        "wordStart": 31,
+        "focus": [
+          0.5,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null,
+        "poster": "assets/2026-11-22-cook-steak-in-a-pan/images/step-5-3.jpg",
+        "duration": 10.026667
+      },
+      {
+        "key": "step-5",
+        "query": "butter basting steak",
+        "prompt": "Golden foaming butter with garlic and thyme being spooned over the top of a steak, a glossy sheen on the crust. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-5-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Basting adds flavor and cooks the top gently.",
+        "wordStart": 54,
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-5",
+        "query": "butter basting steak",
+        "prompt": "A steak cooking in the black skillet with butter bubbling around it, an analogue kitchen timer with no readable numbers next to the hob. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-5-5.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Cook the second side for another two to three minutes, depending on thickness.",
+        "wordStart": 62,
+        "focus": [
+          0.5,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-5",
+        "query": "butter basting steak",
+        "prompt": "Close-up of golden brown nutty butter foaming around a steak in the skillet, with no burnt black bits. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-5-6.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Keep the heat moderate so the butter turns nutty and golden, not burnt and bitter.",
+        "wordStart": 75,
+        "focus": [
+          0.45,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-5",
+        "query": "butter basting steak",
+        "prompt": "A hand in an oven glove sliding the black skillet with the steak into an open hot oven. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-5-7.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "If your steak is very thick, finish it in a hot oven, at around 200 degrees Celsius or 400 Fahrenheit, for a few minutes.",
+        "wordStart": 90,
+        "focus": [
+          0.6,
+          0.5
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.6,
+              0.55
+            ],
+            "text": "200°C / 400°F",
+            "label": [
+              0.3,
+              0.25
+            ],
+            "on": "200"
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ],
+    [
+      {
+        "key": "step-6",
+        "query": "meat thermometer steak",
+        "prompt": "A digital probe meat thermometer with its tip pushed into the thickest part of a steak in the skillet, display not readable, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-6-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Step six. The most reliable way to judge doneness is a thermometer pushed into the thickest part of the steak.",
+        "wordStart": 0,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.5,
+              0.62
+            ],
+            "text": "Into the thickest part",
+            "label": [
+              0.78,
+              0.3
+            ],
+            "on": "thickest"
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-6",
+        "query": "meat thermometer steak",
+        "prompt": "Three steak slices lined up on a light wood board from rare to medium, a deep red centre, a pink centre and a light pink centre, seen from above. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-6-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Remove the steak from the pan at about 125 degrees Fahrenheit, or 52 Celsius, for rare, 130 to 135, or 54 to 57 Celsius, for medium-rare, and 140, or 60 Celsius, for medium.",
+        "wordStart": 20,
+        "focus": [
+          0.45,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-6",
+        "query": "meat thermometer steak",
+        "prompt": "A steak with a probe thermometer inserted, resting on a board, a faint wisp of steam rising from the meat. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-6-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "The temperature rises a few degrees while it rests.",
+        "wordStart": 53,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-6",
+        "query": "meat thermometer steak",
+        "prompt": "A cooked steak with a thermometer probe in its centre on a warm plate, seen from above, display not readable. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-6-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Food safety agencies advise 145 degrees Fahrenheit, or 63 Celsius, for whole cuts of beef, so choose the doneness that you are comfortable with.",
+        "wordStart": 62,
+        "focus": [
+          0.45,
+          0.7
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-6",
+        "query": "meat thermometer steak",
+        "prompt": "A thin thermometer probe pushed horizontally into the side of a steak in the skillet, its tip reaching the centre, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-6-5.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Insert the probe from the side, and avoid touching bone or the pan.",
+        "wordStart": 86,
+        "focus": [
+          0.55,
+          0.62
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.6,
+              0.62
+            ],
+            "text": "From the side",
+            "label": [
+              0.25,
+              0.3
+            ],
+            "on": "side"
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ],
+    [
+      {
+        "key": "step-7",
+        "query": "slicing steak board",
+        "prompt": "Tongs lifting a cooked steak out of the black skillet onto a light wood board, a kitchen timer with no readable numbers beside it. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-7-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Step seven. Move the steak to a board or a warm plate and let it rest for at least five minutes, and up to ten for a very thick cut.",
+        "wordStart": 0,
+        "focus": [
+          0.6,
+          0.62
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-7",
+        "query": "slicing steak board",
+        "prompt": "A seared steak with a deep brown crust resting untouched on a light wood cutting board, a simple mechanical kitchen timer with a blank face beside it, the black skillet off the heat in the background, no knife, no hands. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-7-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "During cooking, the juices are pushed to the center. Resting lets them spread back through the meat, so they stay in the steak instead of running onto the board.",
+        "wordStart": 30,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-7",
+        "query": "slicing steak board",
+        "prompt": "A knife held over a cooked steak on a board, the fine lines of the muscle fibres visible on the surface, close-up from above. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-7-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Then look for the direction of the muscle fibres, the grain, and slice across it.",
+        "wordStart": 59,
+        "focus": [
+          0.45,
+          0.6
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.5,
+              0.55
+            ],
+            "text": "Across the grain",
+            "label": [
+              0.76,
+              0.3
+            ],
+            "on": "across"
+          }
+        ],
+        "fx": null,
+        "punchOn": [
+          "across"
+        ],
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-7",
+        "query": "slicing steak board",
+        "prompt": "Close-up of tender slices of steak fanned out on a board, each slice cut across the grain with a rosy pink centre. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-7-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Short fibres feel more tender in your mouth.",
+        "wordStart": 74,
+        "focus": [
+          0.45,
+          0.7
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-7",
+        "query": "slicing steak board",
+        "prompt": "A spoon pouring golden garlic butter from the skillet over sliced steak on a plate with a sprig of thyme, very appetizing. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-7-5.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Spoon the pan butter over the slices and serve immediately.",
+        "wordStart": 82,
+        "focus": [
+          0.47,
+          0.65
+        ],
+        "notes": null,
+        "fx": [
+          {
+            "type": "sparkle",
+            "at": [
+              0.45,
+              0.78
+            ],
+            "size": 1
+          }
+        ],
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ],
+    [
+      {
+        "key": "step-8",
+        "query": "smoky pan steak kitchen",
+        "prompt": "A pale grey steak with no crust in a lukewarm black skillet, seen from above, steam rising around it. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-8-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "If your steak turned grey, the pan was not hot enough, or you cooked too much meat at once.",
+        "wordStart": 0,
+        "focus": [
+          0.4,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-8",
+        "query": "smoky pan steak kitchen",
+        "prompt": "Two steaks searing in a large black skillet with plenty of space around them, seen from above. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-8-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Cook one or two steaks at a time.",
+        "wordStart": 19,
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-8",
+        "query": "smoky pan steak kitchen",
+        "prompt": "A hand switching on the extractor hood above the hob while a light haze of smoke rises from the black skillet. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-8-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "If the kitchen fills with smoke, switch on the fan and check that your oil has a high smoke point.",
+        "wordStart": 27,
+        "focus": [
+          0.45,
+          0.5
+        ],
+        "notes": null,
+        "fx": [
+          {
+            "type": "steam",
+            "at": [
+              0.42,
+              0.55
+            ],
+            "size": 1.1
+          }
+        ],
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-8",
+        "query": "smoky pan steak kitchen",
+        "prompt": "A knob of butter held on a spoon next to the skillet, ready to be added late, steak almost finished in the pan. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-8-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Add the butter late, because it burns quickly.",
+        "wordStart": 47,
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.47,
+              0.44
+            ],
+            "text": "Butter goes in late",
+            "label": [
+              0.76,
+              0.25
+            ],
+            "on": "late"
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ],
+    [
+      {
+        "key": "step-9",
+        "query": "steak thermometer cooking",
+        "prompt": "A very thick steak on a wire rack over a baking tray inside a lit oven, a probe thermometer in the meat, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-9-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "For a very thick steak, try a reverse sear. Cook it first in a low oven, around 250 degrees Fahrenheit or 120 Celsius, until it is about fifteen degrees below your target temperature.",
+        "wordStart": 0,
+        "focus": [
+          0.5,
+          0.45
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-9",
+        "query": "steak thermometer cooking",
+        "prompt": "A thick pale-brown roasted steak being laid with tongs into a smoking hot black skillet. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-9-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Then sear it in a very hot pan.",
+        "wordStart": 33,
+        "focus": [
+          0.55,
+          0.55
+        ],
+        "notes": null,
+        "fx": [
+          {
+            "type": "steam",
+            "at": [
+              0.55,
+              0.45
+            ],
+            "size": 1
+          }
+        ],
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-9",
+        "query": "steak thermometer cooking",
+        "prompt": "A small splash of dark stock poured from a small jug into the black skillet with browned bits, a rested steak on a board nearby. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-9-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "After resting, add a splash of stock to the pan for a quick sauce.",
+        "wordStart": 41,
+        "focus": [
+          0.45,
+          0.55
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.42,
+              0.55
+            ],
+            "text": "A splash of stock",
+            "label": [
+              0.2,
+              0.3
+            ],
+            "on": "stock"
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ],
+    [
+      {
+        "key": "step-10",
+        "query": "sliced steak container fridge",
+        "prompt": "A hand putting a covered glass container with leftover steak slices into a fridge, shelves tidy. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-10-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Put leftover steak in a covered container in the fridge within two hours, and eat it within three to four days.",
+        "wordStart": 0,
+        "focus": [
+          0.47,
+          0.45
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-10",
+        "query": "sliced steak container fridge",
+        "prompt": "A fresh green salad in a white bowl topped with thin cold slices of steak, seen from above. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-10-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Cold sliced steak is wonderful in salads and sandwiches.",
+        "wordStart": 21,
+        "focus": [
+          0.45,
+          0.7
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-10",
+        "query": "sliced steak container fridge",
+        "prompt": "Steak slices gently warming in the black skillet with a little butter on low heat, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-10-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "To reheat it, use a low oven or a pan with a little butter, so it does not turn tough.",
+        "wordStart": 30,
+        "focus": [
+          0.45,
+          0.65
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-10",
+        "query": "sliced steak container fridge",
+        "prompt": "A plate of reheated steak slices with a light steam rising from them, seen close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-10-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Make it steaming hot all the way through.",
+        "wordStart": 50,
+        "focus": [
+          0.45,
+          0.7
+        ],
+        "notes": null,
+        "fx": [
+          {
+            "type": "steam",
+            "at": [
+              0.4,
+              0.6
+            ],
+            "size": 0.9
+          }
+        ],
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ]
+  ],
+  "introExtras": {
+    "pose": "chef",
+    "diagram": "steak-pan",
+    "title": "Why steak goes wrong",
+    "mode": "dry",
+    "chips": [
+      {
+        "on": "grey",
+        "label": "Grey meat",
+        "sub": "steamed, not seared",
+        "mode": "dry"
+      },
+      {
+        "on": "smoky",
+        "label": "Smoky kitchen",
+        "sub": "fan on, window open",
+        "mode": "heat"
+      },
+      {
+        "on": "dry",
+        "label": "A wet surface",
+        "sub": "no brown crust",
+        "mode": "dry"
+      },
+      {
+        "on": "hot",
+        "label": "A cool pan",
+        "sub": "no deep crust",
+        "mode": "heat"
+      },
+      {
+        "on": "rest",
+        "label": "No rest",
+        "sub": "juices run out",
+        "mode": "rest"
+      },
+      {
+        "on": "ribeye",
+        "label": "",
+        "mode": "sear",
+        "hidden": true
+      },
+      {
+        "on": "begin",
+        "label": "",
+        "mode": "dry",
+        "hidden": true
+      }
+    ],
+    "gags": []
+  },
+  "shortShots": [
+    "1-4",
+    "4-5",
+    "7-2"
+  ],
+  "short2Files": {},
+  "stepExtras": [
+    {
+      "ticks": [
+        {
+          "shot": 1,
+          "on": "steak",
+          "label": "Thick steak"
+        },
+        {
+          "shot": 4,
+          "on": "pat",
+          "label": "Paper towels"
+        }
+      ],
+      "facts": [
+        {
+          "shot": 1,
+          "on": "inch",
+          "kind": "measure",
+          "big": "1 inch",
+          "small": "minimum thickness",
+          "dur": 4
+        },
+        {
+          "shot": 3,
+          "on": "thirty",
+          "kind": "timer",
+          "big": "30 min",
+          "small": "out of the fridge",
+          "dur": 4
+        }
+      ],
+      "cards": [],
+      "gags": [],
+      "diagrams": [
+        {
+          "shot": 5,
+          "on": "steam",
+          "name": "steak-pan",
+          "mode": "dry",
+          "title": "Wet meat steams",
+          "dur": 4.4
+        }
+      ]
+    },
+    {
+      "ticks": [
+        {
+          "shot": 1,
+          "on": "salt",
+          "label": "Coarse salt"
+        }
+      ],
+      "facts": [
+        {
+          "shot": 3,
+          "on": "hour",
+          "kind": "timer",
+          "big": "30 min",
+          "small": "to absorb the salt",
+          "dur": 4
+        }
+      ],
+      "cards": [
+        {
+          "shot": 5,
+          "on": "avoid",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Salting five minutes ahead leaves the surface wet.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [
+        {
+          "shot": 2,
+          "on": "generous",
+          "pose": "thumbs",
+          "side": "left",
+          "dur": 2.8
+        }
+      ],
+      "diagrams": []
+    },
+    {
+      "ticks": [
+        {
+          "shot": 1,
+          "on": "skillet",
+          "label": "Heavy skillet"
+        }
+      ],
+      "facts": [
+        {
+          "shot": 1,
+          "on": "three",
+          "kind": "timer",
+          "big": "3–5 min",
+          "small": "heat the pan",
+          "dur": 4
+        }
+      ],
+      "cards": [
+        {
+          "shot": 4,
+          "on": "olive",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Olive oil and butter burn too fast at this point.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [
+        {
+          "shot": 5,
+          "on": "fan",
+          "pose": "nose",
+          "side": "left",
+          "dur": 2.8
+        }
+      ],
+      "diagrams": [
+        {
+          "shot": 3,
+          "on": "hot",
+          "name": "steak-pan",
+          "mode": "heat",
+          "title": "A very hot pan",
+          "dur": 4.4
+        }
+      ]
+    },
+    {
+      "ticks": [],
+      "facts": [
+        {
+          "shot": 4,
+          "on": "two",
+          "kind": "timer",
+          "big": "2–3 min",
+          "small": "first side, 1 inch steak",
+          "dur": 4
+        },
+        {
+          "shot": 6,
+          "on": "thirty",
+          "kind": "timer",
+          "big": "30 sec",
+          "small": "fatty edge",
+          "dur": 4
+        }
+      ],
+      "cards": [
+        {
+          "shot": 5,
+          "on": "sticks",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Flipping early: if it sticks, it isn't ready.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [
+        {
+          "shot": 2,
+          "on": "sizzle",
+          "pose": "watch",
+          "side": "left",
+          "dur": 2.8
+        }
+      ],
+      "diagrams": [
+        {
+          "shot": 3,
+          "on": "alone",
+          "name": "steak-pan",
+          "mode": "sear",
+          "title": "Leave it alone",
+          "dur": 4.4
+        }
+      ]
+    },
+    {
+      "ticks": [
+        {
+          "shot": 2,
+          "on": "thyme",
+          "label": "Thyme sprig"
+        }
+      ],
+      "facts": [
+        {
+          "shot": 5,
+          "on": "two",
+          "kind": "timer",
+          "big": "2–3 min",
+          "small": "second side",
+          "dur": 4
+        }
+      ],
+      "cards": [
+        {
+          "shot": 4,
+          "on": "basting",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "Basting adds flavor and cooks the top gently.",
+          "dur": 4.4
+        },
+        {
+          "shot": 6,
+          "on": "burnt",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Moderate heat keeps the butter golden, not burnt.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": [
+        {
+          "shot": 3,
+          "on": "spoon",
+          "name": "steak-pan",
+          "mode": "baste",
+          "title": "Baste with butter",
+          "dur": 4.4
+        }
+      ]
+    },
+    {
+      "ticks": [
+        {
+          "shot": 1,
+          "on": "thermometer",
+          "label": "Probe thermometer"
+        }
+      ],
+      "facts": [
+        {
+          "shot": 4,
+          "on": "145",
+          "kind": "measure",
+          "big": "145°F",
+          "small": "63°C, food safety advice",
+          "dur": 4
+        }
+      ],
+      "cards": [
+        {
+          "shot": 3,
+          "on": "rises",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "The temperature rises a few degrees while the steak rests.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": [
+        {
+          "shot": 2,
+          "on": "rare",
+          "name": "steak-pan",
+          "mode": "temp",
+          "title": "Doneness by temperature",
+          "dur": 5
+        }
+      ]
+    },
+    {
+      "ticks": [
+        {
+          "shot": 1,
+          "on": "board",
+          "label": "Board or warm plate"
+        }
+      ],
+      "facts": [
+        {
+          "shot": 1,
+          "on": "five",
+          "kind": "timer",
+          "big": "5–10 min",
+          "small": "rest before slicing",
+          "dur": 4
+        }
+      ],
+      "cards": [],
+      "gags": [],
+      "diagrams": [
+        {
+          "shot": 2,
+          "on": "spread",
+          "name": "steak-pan",
+          "mode": "rest",
+          "title": "Juices spread back",
+          "dur": 4.4
+        },
+        {
+          "shot": 4,
+          "on": "fibres",
+          "name": "steak-pan",
+          "mode": "grain",
+          "title": "Slice across the grain",
+          "dur": 4.4
+        }
+      ]
+    },
+    {
+      "ticks": [
+        {
+          "shot": 3,
+          "on": "fan",
+          "label": "Extractor fan"
+        }
+      ],
+      "facts": [
+        {
+          "shot": 2,
+          "on": "two",
+          "kind": "measure",
+          "big": "1–2 steaks",
+          "small": "at a time",
+          "dur": 4
+        }
+      ],
+      "cards": [
+        {
+          "shot": 1,
+          "on": "hot",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "A pan not hot enough, or too much meat at once.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [
+        {
+          "shot": 3,
+          "on": "smoke",
+          "pose": "panic",
+          "side": "left",
+          "dur": 2.8
+        }
+      ],
+      "diagrams": []
+    },
+    {
+      "ticks": [
+        {
+          "shot": 1,
+          "on": "oven",
+          "label": "Low oven"
+        }
+      ],
+      "facts": [
+        {
+          "shot": 1,
+          "on": "250",
+          "kind": "measure",
+          "big": "250°F",
+          "small": "120°C, low oven",
+          "dur": 4
+        }
+      ],
+      "cards": [
+        {
+          "shot": 2,
+          "on": "sear",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "Low oven first, then a very hot pan to sear.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": []
+    },
+    {
+      "ticks": [
+        {
+          "shot": 1,
+          "on": "container",
+          "label": "Covered container"
+        }
+      ],
+      "facts": [
+        {
+          "shot": 1,
+          "on": "two",
+          "kind": "timer",
+          "big": "2 hours",
+          "small": "into the fridge",
+          "dur": 4
+        }
+      ],
+      "cards": [
+        {
+          "shot": 3,
+          "on": "tough",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Reheat gently so the steak does not turn tough.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [
+        {
+          "shot": 2,
+          "on": "wonderful",
+          "pose": "thumbs",
+          "side": "left",
+          "dur": 2.8
+        }
+      ],
+      "diagrams": []
+    }
+  ],
+  "youneed": {
+    "key": "youneed",
+    "kind": "photo",
+    "width": 1920,
+    "height": 1080,
+    "provider": "gemini-web",
+    "file": "assets/2026-11-22-cook-steak-in-a-pan/images/youneed.jpg",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  "mistakesSubtitle": "that ruin most steaks",
+  "mistakes": [
+    {
+      "key": "mistake-1",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "file": "assets/2026-11-22-cook-steak-in-a-pan/images/mistake-1.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "key": "mistake-2",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "file": "assets/2026-11-22-cook-steak-in-a-pan/images/mistake-2.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "key": "mistake-3",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "file": "assets/2026-11-22-cook-steak-in-a-pan/images/mistake-3.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ]
+    }
+  ],
+  "all": {
+    "hero": {
+      "key": "hero",
+      "query": "steak searing in skillet",
+      "prompt": "A thick ribeye steak with a deep brown crust sizzling in a black cast iron skillet with butter and thyme, dark moody kitchen, shallow depth of field, photorealistic, no text",
+      "file": "assets/2026-11-22-cook-steak-in-a-pan/images/hero.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null
+    },
+    "step-1": {
+      "key": "step-1",
+      "query": "ribeye steak paper towel",
+      "prompt": "Two raw steaks side by side on a light wood board, one thick and one thin, a hand holding a small ruler beside the thick one, no markings readable. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-1-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step one. Choose a steak that is at least one inch thick, because thin steaks overcook before they brown.",
+      "wordStart": 0,
+      "focus": [
+        0.42,
+        0.6
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-1",
+          "query": "ribeye steak paper towel",
+          "prompt": "Two raw steaks side by side on a light wood board, one thick and one thin, a hand holding a small ruler beside the thick one, no markings readable. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-1-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Step one. Choose a steak that is at least one inch thick, because thin steaks overcook before they brown.",
+          "wordStart": 0,
+          "focus": [
+            0.42,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-1",
+          "query": "ribeye steak paper towel",
+          "prompt": "Three different raw steaks, a marbled ribeye, a strip and a sirloin, laid out on a white butcher paper on the countertop, seen from above. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-1-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Ribeye, strip and sirloin are all excellent.",
+          "wordStart": 19,
+          "focus": [
+            0.4,
+            0.55
+          ],
+          "notes": [
+            {
+              "type": "arrow",
+              "at": [
+                0.25,
+                0.56
+              ],
+              "text": "Ribeye",
+              "label": [
+                0.14,
+                0.24
+              ],
+              "on": "ribeye"
+            },
+            {
+              "type": "arrow",
+              "at": [
+                0.39,
+                0.56
+              ],
+              "text": "Strip",
+              "label": [
+                0.42,
+                0.2
+              ],
+              "on": "strip"
+            },
+            {
+              "type": "arrow",
+              "at": [
+                0.52,
+                0.54
+              ],
+              "text": "Sirloin",
+              "label": [
+                0.72,
+                0.26
+              ],
+              "on": "sirloin"
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-1",
+          "query": "ribeye steak paper towel",
+          "prompt": "A hand taking a thick raw steak on a plate out of an open fridge, a kitchen timer standing on the counter beside it. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-1-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Take the meat out of the fridge about thirty minutes before cooking, so the chill comes off the surface.",
+          "wordStart": 26,
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-1",
+          "query": "ribeye steak paper towel",
+          "prompt": "Hands pressing a paper towel onto the top of a thick raw steak on a board, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-1-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Then pat it completely dry with paper towels, on every side.",
+          "wordStart": 45,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": [
+            {
+              "type": "arrow",
+              "at": [
+                0.5,
+                0.55
+              ],
+              "text": "Every side",
+              "label": [
+                0.76,
+                0.25
+              ],
+              "on": "every"
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-1",
+          "query": "ribeye steak paper towel",
+          "prompt": "A wet raw steak with beads of water on its surface lying in a black cast iron skillet on a lit gas burner, white steam rising around it and the underside turning pale grey instead of brown, close-up, no hands. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-1-5.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "This is the most important part of this step, because water on the meat turns to steam in the pan, and steamed meat turns grey instead of brown.",
+          "wordStart": 56,
+          "focus": [
+            0.5,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-1",
+          "query": "ribeye steak paper towel",
+          "prompt": "A thick raw steak, perfectly dry, resting on a clean board with a pile of used paper towels beside it, three-quarter view. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-1-6.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "A dry steak browns in minutes. Thicker cuts forgive small timing errors, which is ideal when you're learning.",
+          "wordStart": 84,
+          "focus": [
+            0.45,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": [
+            "minutes"
+          ],
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    },
+    "step-2": {
+      "key": "step-2",
+      "query": "seasoning steak coarse salt",
+      "prompt": "A hand grinding black pepper from a wooden pepper mill over a raw steak on a board, coarse salt flakes already on the surface, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-2-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step two. Season the steak on all sides, including the edges, with coarse salt and freshly ground black pepper.",
+      "wordStart": 0,
+      "focus": [
+        0.5,
+        0.65
+      ],
+      "notes": [
+        {
+          "type": "arrow",
+          "at": [
+            0.5,
+            0.78
+          ],
+          "text": "All sides, even the edges",
+          "label": [
+            0.28,
+            0.42
+          ],
+          "on": "edges"
+        }
+      ],
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-2",
+          "query": "seasoning steak coarse salt",
+          "prompt": "A hand grinding black pepper from a wooden pepper mill over a raw steak on a board, coarse salt flakes already on the surface, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-2-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Step two. Season the steak on all sides, including the edges, with coarse salt and freshly ground black pepper.",
+          "wordStart": 0,
+          "focus": [
+            0.5,
+            0.65
+          ],
+          "notes": [
+            {
+              "type": "arrow",
+              "at": [
+                0.5,
+                0.78
+              ],
+              "text": "All sides, even the edges",
+              "label": [
+                0.28,
+                0.42
+              ],
+              "on": "edges"
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-2",
+          "query": "seasoning steak coarse salt",
+          "prompt": "A hand sprinkling a generous pinch of coarse salt from a small bowl from high above onto a thick raw steak, grains scattering. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-2-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Be generous, since much of the seasoning falls off in the pan, and a thick steak needs more salt than you think.",
+          "wordStart": 19,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": [
+            "generous"
+          ],
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-2",
+          "query": "seasoning steak coarse salt",
+          "prompt": "A salted raw steak resting on a wire rack over a tray on the counter, an analogue kitchen timer with no readable numbers beside it. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-2-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "For the best flavor, salt it as soon as you take it out of the fridge, so the salt has half an hour to be absorbed.",
+          "wordStart": 41,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-2",
+          "query": "seasoning steak coarse salt",
+          "prompt": "A hand salting a raw steak held right next to the black skillet on the hob, ready to be placed in the pan. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-2-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "If you are in a rush, salt it just before it hits the pan.",
+          "wordStart": 67,
+          "focus": [
+            0.45,
+            0.6
+          ],
+          "notes": [
+            {
+              "type": "arrow",
+              "at": [
+                0.45,
+                0.6
+              ],
+              "text": "Right before the pan",
+              "label": [
+                0.76,
+                0.25
+              ],
+              "on": "before"
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-2",
+          "query": "seasoning steak coarse salt",
+          "prompt": "Close-up of a raw salted steak resting on a light wood board, small beads of moisture pooling on its wet glistening surface, a simple mechanical kitchen timer with a blank face beside it, no hands. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-2-5.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Avoid salting and then waiting five minutes, because that draws out moisture and leaves the surface wet.",
+          "wordStart": 81,
+          "focus": [
+            0.5,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-2",
+          "query": "seasoning steak coarse salt",
+          "prompt": "A fingertip pressing coarse salt and pepper gently into the surface of a raw steak, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-2-6.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Press the seasoning gently into the meat so it sticks.",
+          "wordStart": 98,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": [
+            {
+              "type": "arrow",
+              "at": [
+                0.52,
+                0.55
+              ],
+              "text": "Press it in",
+              "label": [
+                0.76,
+                0.3
+              ],
+              "on": "press"
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    },
+    "step-3": {
+      "key": "step-3",
+      "query": "heavy skillet oil shimmering",
+      "prompt": "A black cast iron skillet sitting empty on a lit gas burner with a blue flame beneath it, seen from a high three-quarter angle. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-3-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step three. Place a heavy skillet over medium-high to high heat and let it heat for three to five minutes, until it is really hot.",
+      "wordStart": 0,
+      "focus": [
+        0.55,
+        0.55
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": [
+        "hot"
+      ],
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-3",
+          "query": "heavy skillet oil shimmering",
+          "prompt": "A black cast iron skillet sitting empty on a lit gas burner with a blue flame beneath it, seen from a high three-quarter angle. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-3-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Step three. Place a heavy skillet over medium-high to high heat and let it heat for three to five minutes, until it is really hot.",
+          "wordStart": 0,
+          "focus": [
+            0.55,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": [
+            "hot"
+          ],
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-3",
+          "query": "heavy skillet oil shimmering",
+          "prompt": "Golden oil poured from a plain bottle into the hot black skillet, the oil shimmering with a thin wisp of smoke rising, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-3-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Add a tablespoon of oil with a high smoke point, like avocado, canola or sunflower, and wait until it shimmers and just starts to smoke.",
+          "wordStart": 25,
+          "focus": [
+            0.45,
+            0.55
+          ],
+          "notes": [
+            {
+              "type": "arrow",
+              "at": [
+                0.42,
+                0.52
+              ],
+              "text": "1 tablespoon",
+              "label": [
+                0.2,
+                0.3
+              ],
+              "on": "tablespoon"
+            }
+          ],
+          "fx": [
+            {
+              "type": "steam",
+              "at": [
+                0.42,
+                0.5
+              ],
+              "size": 0.9
+            }
+          ],
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-3",
+          "query": "heavy skillet oil shimmering",
+          "prompt": "Close-up of the glossy shimmering oil covering the bottom of a very hot black cast iron skillet. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-3-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "A hot pan is what creates the brown crust, which is where most of the flavor lives.",
+          "wordStart": 50,
+          "focus": [
+            0.55,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-3",
+          "query": "heavy skillet oil shimmering",
+          "prompt": "A plain bottle of green olive oil and a block of butter on the counter pushed aside, away from the hot skillet on the hob. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-3-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Don't use olive oil or butter at this point, because they burn too fast.",
+          "wordStart": 67,
+          "focus": [
+            0.35,
+            0.55
+          ],
+          "notes": [
+            {
+              "type": "cross",
+              "at": [
+                0.26,
+                0.5
+              ],
+              "r": 0.09,
+              "text": "Not yet",
+              "label": [
+                0.52,
+                0.2
+              ],
+              "on": "olive"
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-3",
+          "query": "heavy skillet oil shimmering",
+          "prompt": "A hand pressing a button on a stainless steel extractor hood above the hob, a bright open window in the background. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-3-5.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Turn on your extractor fan and open a window.",
+          "wordStart": 81,
+          "focus": [
+            0.55,
+            0.4
+          ],
+          "notes": [
+            {
+              "type": "circle",
+              "at": [
+                0.75,
+                0.5
+              ],
+              "r": 0.12,
+              "on": "window",
+              "text": "Window open",
+              "label": [
+                0.75,
+                0.2
+              ]
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-3",
+          "query": "heavy skillet oil shimmering",
+          "prompt": "A hand turning down a knob on the stovetop, a thin curl of smoke rising from the black skillet on the hob. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-3-6.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "If your pan smokes heavily, lower the heat slightly rather than starting again.",
+          "wordStart": 90,
+          "focus": [
+            0.45,
+            0.55
+          ],
+          "notes": [
+            {
+              "type": "arrow",
+              "at": [
+                0.36,
+                0.62
+              ],
+              "text": "Lower the heat a little",
+              "label": [
+                0.26,
+                0.3
+              ],
+              "on": "lower"
+            }
+          ],
+          "fx": [
+            {
+              "type": "steam",
+              "at": [
+                0.6,
+                0.32
+              ],
+              "size": 1
+            }
+          ],
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    },
+    "step-4": {
+      "key": "step-4",
+      "query": "steak searing cast iron",
+      "prompt": "Hands holding a raw steak with tongs, lowering it into a hot black skillet in a direction away from the camera, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-4-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step four. Lay the steak in the pan, away from you, so the oil doesn't splash toward you.",
+      "wordStart": 0,
+      "focus": [
+        0.55,
+        0.5
+      ],
+      "notes": [
+        {
+          "type": "arrow",
+          "at": [
+            0.56,
+            0.5
+          ],
+          "text": "Away from you",
+          "label": [
+            0.25,
+            0.3
+          ],
+          "on": "away"
+        }
+      ],
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-4",
+          "query": "steak searing cast iron",
+          "prompt": "Hands holding a raw steak with tongs, lowering it into a hot black skillet in a direction away from the camera, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-4-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Step four. Lay the steak in the pan, away from you, so the oil doesn't splash toward you.",
+          "wordStart": 0,
+          "focus": [
+            0.55,
+            0.5
+          ],
+          "notes": [
+            {
+              "type": "arrow",
+              "at": [
+                0.56,
+                0.5
+              ],
+              "text": "Away from you",
+              "label": [
+                0.25,
+                0.3
+              ],
+              "on": "away"
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-4",
+          "query": "steak searing cast iron",
+          "prompt": "Close-up of a thick raw steak sizzling in a very hot black cast iron skillet on a lit gas burner, oil bubbling vigorously all around the edges of the meat, light smoke rising, no hands, no utensils. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-4-2.mp4",
+          "kind": "video",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "It should sizzle loudly right away.",
+          "wordStart": 18,
+          "focus": [
+            0.5,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": [
+            "loudly"
+          ],
+          "compareFile": null,
+          "compareLabels": null,
+          "poster": "assets/2026-11-22-cook-steak-in-a-pan/images/step-4-2.jpg",
+          "duration": 10.026667
+        },
+        {
+          "key": "step-4",
+          "query": "steak searing cast iron",
+          "prompt": "A steak searing undisturbed in the black skillet, a hand with tongs held back and not touching it. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-4-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Now leave it alone. Don't poke, press or slide it.",
+          "wordStart": 24,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-4",
+          "query": "steak searing cast iron",
+          "prompt": "A kitchen timer with no readable numbers standing beside the hob, a steak searing in the black skillet with a brown crust forming at its edges. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-4-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "For a one inch steak, sear for about two to three minutes, until a deep brown crust forms and the meat releases from the pan on its own.",
+          "wordStart": 34,
+          "focus": [
+            0.4,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-4",
+          "query": "steak searing cast iron",
+          "prompt": "Tongs gently lifting one corner of a steak, which is still stuck to the black skillet, seen close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-4-5.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "If it sticks, it isn't ready to turn.",
+          "wordStart": 62,
+          "focus": [
+            0.42,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-4",
+          "query": "steak searing cast iron",
+          "prompt": "Tongs holding a steak on its side so the fatty edge is pressed against the surface of the hot black skillet. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-4-6.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Use tongs to sear the fatty edge for thirty seconds too.",
+          "wordStart": 70,
+          "focus": [
+            0.52,
+            0.6
+          ],
+          "notes": [
+            {
+              "type": "arrow",
+              "at": [
+                0.5,
+                0.72
+              ],
+              "text": "Fatty edge",
+              "label": [
+                0.25,
+                0.3
+              ],
+              "on": "edge"
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-4",
+          "query": "steak searing cast iron",
+          "prompt": "A steak sizzling steadily in the black skillet, seen from above, a rich dark crust spreading across the visible surface. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-4-7.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Resist the urge to flip it early, because patience builds the crust. The sound tells you everything, so listen for a steady, strong sizzle.",
+          "wordStart": 81,
+          "focus": [
+            0.55,
+            0.6
+          ],
+          "notes": null,
+          "fx": [
+            {
+              "type": "steam",
+              "at": [
+                0.55,
+                0.45
+              ],
+              "size": 1
+            }
+          ],
+          "punchOn": [
+            "patience"
+          ],
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    },
+    "step-5": {
+      "key": "step-5",
+      "query": "butter basting steak",
+      "prompt": "Tongs flipping a steak in the black skillet, revealing a deep brown seared crust on the upper side, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-5-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step five. Turn the steak over with tongs, and lower the heat to medium.",
+      "wordStart": 0,
+      "focus": [
+        0.52,
+        0.6
+      ],
+      "notes": [
+        {
+          "type": "arrow",
+          "at": [
+            0.52,
+            0.9
+          ],
+          "text": "Heat down to medium",
+          "label": [
+            0.25,
+            0.3
+          ],
+          "on": "medium"
+        }
+      ],
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-5",
+          "query": "butter basting steak",
+          "prompt": "Tongs flipping a steak in the black skillet, revealing a deep brown seared crust on the upper side, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-5-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Step five. Turn the steak over with tongs, and lower the heat to medium.",
+          "wordStart": 0,
+          "focus": [
+            0.52,
+            0.6
+          ],
+          "notes": [
+            {
+              "type": "arrow",
+              "at": [
+                0.52,
+                0.9
+              ],
+              "text": "Heat down to medium",
+              "label": [
+                0.25,
+                0.3
+              ],
+              "on": "medium"
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-5",
+          "query": "butter basting steak",
+          "prompt": "A piece of butter, crushed garlic cloves and a sprig of thyme added next to the steak in the black skillet, butter just starting to melt. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-5-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Add a tablespoon or two of butter, a few crushed garlic cloves and a sprig of thyme.",
+          "wordStart": 14,
+          "focus": [
+            0.55,
+            0.65
+          ],
+          "notes": [
+            {
+              "type": "circle",
+              "at": [
+                0.58,
+                0.72
+              ],
+              "r": 0.08,
+              "on": "butter",
+              "text": "Butter + garlic",
+              "label": [
+                0.28,
+                0.42
+              ]
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-5",
+          "query": "butter basting steak",
+          "prompt": "A hand tilting the black skillet while a metal spoon scoops foaming butter over the steak, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-5-3.mp4",
+          "kind": "video",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "When the butter foams, tilt the pan slightly and spoon the melted butter over the steak again and again for about a minute.",
+          "wordStart": 31,
+          "focus": [
+            0.5,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null,
+          "poster": "assets/2026-11-22-cook-steak-in-a-pan/images/step-5-3.jpg",
+          "duration": 10.026667
+        },
+        {
+          "key": "step-5",
+          "query": "butter basting steak",
+          "prompt": "Golden foaming butter with garlic and thyme being spooned over the top of a steak, a glossy sheen on the crust. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-5-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Basting adds flavor and cooks the top gently.",
+          "wordStart": 54,
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-5",
+          "query": "butter basting steak",
+          "prompt": "A steak cooking in the black skillet with butter bubbling around it, an analogue kitchen timer with no readable numbers next to the hob. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-5-5.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Cook the second side for another two to three minutes, depending on thickness.",
+          "wordStart": 62,
+          "focus": [
+            0.5,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-5",
+          "query": "butter basting steak",
+          "prompt": "Close-up of golden brown nutty butter foaming around a steak in the skillet, with no burnt black bits. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-5-6.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Keep the heat moderate so the butter turns nutty and golden, not burnt and bitter.",
+          "wordStart": 75,
+          "focus": [
+            0.45,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-5",
+          "query": "butter basting steak",
+          "prompt": "A hand in an oven glove sliding the black skillet with the steak into an open hot oven. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-5-7.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "If your steak is very thick, finish it in a hot oven, at around 200 degrees Celsius or 400 Fahrenheit, for a few minutes.",
+          "wordStart": 90,
+          "focus": [
+            0.6,
+            0.5
+          ],
+          "notes": [
+            {
+              "type": "arrow",
+              "at": [
+                0.6,
+                0.55
+              ],
+              "text": "200°C / 400°F",
+              "label": [
+                0.3,
+                0.25
+              ],
+              "on": "200"
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    },
+    "step-6": {
+      "key": "step-6",
+      "query": "meat thermometer steak",
+      "prompt": "A digital probe meat thermometer with its tip pushed into the thickest part of a steak in the skillet, display not readable, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-6-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step six. The most reliable way to judge doneness is a thermometer pushed into the thickest part of the steak.",
+      "wordStart": 0,
+      "focus": [
+        0.5,
+        0.6
+      ],
+      "notes": [
+        {
+          "type": "arrow",
+          "at": [
+            0.5,
+            0.62
+          ],
+          "text": "Into the thickest part",
+          "label": [
+            0.78,
+            0.3
+          ],
+          "on": "thickest"
+        }
+      ],
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-6",
+          "query": "meat thermometer steak",
+          "prompt": "A digital probe meat thermometer with its tip pushed into the thickest part of a steak in the skillet, display not readable, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-6-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Step six. The most reliable way to judge doneness is a thermometer pushed into the thickest part of the steak.",
+          "wordStart": 0,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": [
+            {
+              "type": "arrow",
+              "at": [
+                0.5,
+                0.62
+              ],
+              "text": "Into the thickest part",
+              "label": [
+                0.78,
+                0.3
+              ],
+              "on": "thickest"
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-6",
+          "query": "meat thermometer steak",
+          "prompt": "Three steak slices lined up on a light wood board from rare to medium, a deep red centre, a pink centre and a light pink centre, seen from above. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-6-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Remove the steak from the pan at about 125 degrees Fahrenheit, or 52 Celsius, for rare, 130 to 135, or 54 to 57 Celsius, for medium-rare, and 140, or 60 Celsius, for medium.",
+          "wordStart": 20,
+          "focus": [
+            0.45,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-6",
+          "query": "meat thermometer steak",
+          "prompt": "A steak with a probe thermometer inserted, resting on a board, a faint wisp of steam rising from the meat. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-6-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "The temperature rises a few degrees while it rests.",
+          "wordStart": 53,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-6",
+          "query": "meat thermometer steak",
+          "prompt": "A cooked steak with a thermometer probe in its centre on a warm plate, seen from above, display not readable. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-6-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Food safety agencies advise 145 degrees Fahrenheit, or 63 Celsius, for whole cuts of beef, so choose the doneness that you are comfortable with.",
+          "wordStart": 62,
+          "focus": [
+            0.45,
+            0.7
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-6",
+          "query": "meat thermometer steak",
+          "prompt": "A thin thermometer probe pushed horizontally into the side of a steak in the skillet, its tip reaching the centre, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-6-5.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Insert the probe from the side, and avoid touching bone or the pan.",
+          "wordStart": 86,
+          "focus": [
+            0.55,
+            0.62
+          ],
+          "notes": [
+            {
+              "type": "arrow",
+              "at": [
+                0.6,
+                0.62
+              ],
+              "text": "From the side",
+              "label": [
+                0.25,
+                0.3
+              ],
+              "on": "side"
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    },
+    "step-7": {
+      "key": "step-7",
+      "query": "slicing steak board",
+      "prompt": "Tongs lifting a cooked steak out of the black skillet onto a light wood board, a kitchen timer with no readable numbers beside it. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-7-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step seven. Move the steak to a board or a warm plate and let it rest for at least five minutes, and up to ten for a very thick cut.",
+      "wordStart": 0,
+      "focus": [
+        0.6,
+        0.62
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-7",
+          "query": "slicing steak board",
+          "prompt": "Tongs lifting a cooked steak out of the black skillet onto a light wood board, a kitchen timer with no readable numbers beside it. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-7-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Step seven. Move the steak to a board or a warm plate and let it rest for at least five minutes, and up to ten for a very thick cut.",
+          "wordStart": 0,
+          "focus": [
+            0.6,
+            0.62
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-7",
+          "query": "slicing steak board",
+          "prompt": "A seared steak with a deep brown crust resting untouched on a light wood cutting board, a simple mechanical kitchen timer with a blank face beside it, the black skillet off the heat in the background, no knife, no hands. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-7-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "During cooking, the juices are pushed to the center. Resting lets them spread back through the meat, so they stay in the steak instead of running onto the board.",
+          "wordStart": 30,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-7",
+          "query": "slicing steak board",
+          "prompt": "A knife held over a cooked steak on a board, the fine lines of the muscle fibres visible on the surface, close-up from above. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-7-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Then look for the direction of the muscle fibres, the grain, and slice across it.",
+          "wordStart": 59,
+          "focus": [
+            0.45,
+            0.6
+          ],
+          "notes": [
+            {
+              "type": "arrow",
+              "at": [
+                0.5,
+                0.55
+              ],
+              "text": "Across the grain",
+              "label": [
+                0.76,
+                0.3
+              ],
+              "on": "across"
+            }
+          ],
+          "fx": null,
+          "punchOn": [
+            "across"
+          ],
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-7",
+          "query": "slicing steak board",
+          "prompt": "Close-up of tender slices of steak fanned out on a board, each slice cut across the grain with a rosy pink centre. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-7-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Short fibres feel more tender in your mouth.",
+          "wordStart": 74,
+          "focus": [
+            0.45,
+            0.7
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-7",
+          "query": "slicing steak board",
+          "prompt": "A spoon pouring golden garlic butter from the skillet over sliced steak on a plate with a sprig of thyme, very appetizing. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-7-5.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Spoon the pan butter over the slices and serve immediately.",
+          "wordStart": 82,
+          "focus": [
+            0.47,
+            0.65
+          ],
+          "notes": null,
+          "fx": [
+            {
+              "type": "sparkle",
+              "at": [
+                0.45,
+                0.78
+              ],
+              "size": 1
+            }
+          ],
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    },
+    "step-8": {
+      "key": "step-8",
+      "query": "smoky pan steak kitchen",
+      "prompt": "A pale grey steak with no crust in a lukewarm black skillet, seen from above, steam rising around it. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-8-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "If your steak turned grey, the pan was not hot enough, or you cooked too much meat at once.",
+      "wordStart": 0,
+      "focus": [
+        0.4,
+        0.55
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-8",
+          "query": "smoky pan steak kitchen",
+          "prompt": "A pale grey steak with no crust in a lukewarm black skillet, seen from above, steam rising around it. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-8-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "If your steak turned grey, the pan was not hot enough, or you cooked too much meat at once.",
+          "wordStart": 0,
+          "focus": [
+            0.4,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-8",
+          "query": "smoky pan steak kitchen",
+          "prompt": "Two steaks searing in a large black skillet with plenty of space around them, seen from above. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-8-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Cook one or two steaks at a time.",
+          "wordStart": 19,
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-8",
+          "query": "smoky pan steak kitchen",
+          "prompt": "A hand switching on the extractor hood above the hob while a light haze of smoke rises from the black skillet. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-8-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "If the kitchen fills with smoke, switch on the fan and check that your oil has a high smoke point.",
+          "wordStart": 27,
+          "focus": [
+            0.45,
+            0.5
+          ],
+          "notes": null,
+          "fx": [
+            {
+              "type": "steam",
+              "at": [
+                0.42,
+                0.55
+              ],
+              "size": 1.1
+            }
+          ],
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-8",
+          "query": "smoky pan steak kitchen",
+          "prompt": "A knob of butter held on a spoon next to the skillet, ready to be added late, steak almost finished in the pan. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-8-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Add the butter late, because it burns quickly.",
+          "wordStart": 47,
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "notes": [
+            {
+              "type": "arrow",
+              "at": [
+                0.47,
+                0.44
+              ],
+              "text": "Butter goes in late",
+              "label": [
+                0.76,
+                0.25
+              ],
+              "on": "late"
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    },
+    "step-9": {
+      "key": "step-9",
+      "query": "steak thermometer cooking",
+      "prompt": "A very thick steak on a wire rack over a baking tray inside a lit oven, a probe thermometer in the meat, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-9-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "For a very thick steak, try a reverse sear. Cook it first in a low oven, around 250 degrees Fahrenheit or 120 Celsius, until it is about fifteen degrees below your target temperature.",
+      "wordStart": 0,
+      "focus": [
+        0.5,
+        0.45
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-9",
+          "query": "steak thermometer cooking",
+          "prompt": "A very thick steak on a wire rack over a baking tray inside a lit oven, a probe thermometer in the meat, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-9-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "For a very thick steak, try a reverse sear. Cook it first in a low oven, around 250 degrees Fahrenheit or 120 Celsius, until it is about fifteen degrees below your target temperature.",
+          "wordStart": 0,
+          "focus": [
+            0.5,
+            0.45
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-9",
+          "query": "steak thermometer cooking",
+          "prompt": "A thick pale-brown roasted steak being laid with tongs into a smoking hot black skillet. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-9-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Then sear it in a very hot pan.",
+          "wordStart": 33,
+          "focus": [
+            0.55,
+            0.55
+          ],
+          "notes": null,
+          "fx": [
+            {
+              "type": "steam",
+              "at": [
+                0.55,
+                0.45
+              ],
+              "size": 1
+            }
+          ],
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-9",
+          "query": "steak thermometer cooking",
+          "prompt": "A small splash of dark stock poured from a small jug into the black skillet with browned bits, a rested steak on a board nearby. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-9-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "After resting, add a splash of stock to the pan for a quick sauce.",
+          "wordStart": 41,
+          "focus": [
+            0.45,
+            0.55
+          ],
+          "notes": [
+            {
+              "type": "arrow",
+              "at": [
+                0.42,
+                0.55
+              ],
+              "text": "A splash of stock",
+              "label": [
+                0.2,
+                0.3
+              ],
+              "on": "stock"
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    },
+    "step-10": {
+      "key": "step-10",
+      "query": "sliced steak container fridge",
+      "prompt": "A hand putting a covered glass container with leftover steak slices into a fridge, shelves tidy. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-10-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Put leftover steak in a covered container in the fridge within two hours, and eat it within three to four days.",
+      "wordStart": 0,
+      "focus": [
+        0.47,
+        0.45
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-10",
+          "query": "sliced steak container fridge",
+          "prompt": "A hand putting a covered glass container with leftover steak slices into a fridge, shelves tidy. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-10-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Put leftover steak in a covered container in the fridge within two hours, and eat it within three to four days.",
+          "wordStart": 0,
+          "focus": [
+            0.47,
+            0.45
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-10",
+          "query": "sliced steak container fridge",
+          "prompt": "A fresh green salad in a white bowl topped with thin cold slices of steak, seen from above. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-10-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Cold sliced steak is wonderful in salads and sandwiches.",
+          "wordStart": 21,
+          "focus": [
+            0.45,
+            0.7
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-10",
+          "query": "sliced steak container fridge",
+          "prompt": "Steak slices gently warming in the black skillet with a little butter on low heat, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-10-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "To reheat it, use a low oven or a pan with a little butter, so it does not turn tough.",
+          "wordStart": 30,
+          "focus": [
+            0.45,
+            0.65
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-10",
+          "query": "sliced steak container fridge",
+          "prompt": "A plate of reheated steak slices with a light steam rising from them, seen close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a stovetop hob, a black cast iron skillet, soft daylight. Adult hands, rolled-up sleeves of a blue denim shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-22-cook-steak-in-a-pan/images/step-10-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Make it steaming hot all the way through.",
+          "wordStart": 50,
+          "focus": [
+            0.45,
+            0.7
+          ],
+          "notes": null,
+          "fx": [
+            {
+              "type": "steam",
+              "at": [
+                0.4,
+                0.6
+              ],
+              "size": 0.9
+            }
+          ],
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    }
+  },
+  "credits": []
+}

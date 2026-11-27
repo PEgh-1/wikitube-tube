@@ -1,0 +1,3892 @@
+{
+  "episodeId": "2026-12-07-cook-chicken-breast-juicy",
+  "version": 3,
+  "subject": [
+    "chicken"
+  ],
+  "mock": false,
+  "provider": "pixabay",
+  "generatedAt": "2026-11-22T16:32:05.048Z",
+  "hero": {
+    "key": "hero",
+    "query": "juicy sliced chicken breast",
+    "prompt": "Sliced juicy golden-brown chicken breast on a white plate with herbs, showing a moist interior, soft side light, shallow depth of field, photorealistic, no text",
+    "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/hero.jpg",
+    "kind": "photo",
+    "width": 1920,
+    "height": 1080,
+    "provider": "gemini-web",
+    "credit": null
+  },
+  "steps": [
+    {
+      "key": "step-1",
+      "query": "pounding chicken breast",
+      "prompt": "Hands laying a raw boneless chicken breast between two sheets of baking paper on a light wood cutting board, seen from above. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-1-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step one. Place the chicken breast between two sheets of plastic wrap or baking paper on a cutting board.",
+      "wordStart": 0,
+      "focus": [
+        0.45,
+        0.6
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null
+    },
+    {
+      "key": "step-2",
+      "query": "chicken salt water bowl",
+      "prompt": "A hand stirring a spoonful of salt into a large clear glass bowl of cold water with a spoon, a small bowl of coarse salt beside it, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-2-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step two. Dissolve two tablespoons of salt in four cups, or one litre, of cold water.",
+      "wordStart": 0,
+      "focus": [
+        0.5,
+        0.6
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null
+    },
+    {
+      "key": "step-3",
+      "query": "seasoning chicken breast",
+      "prompt": "Hands pressing a paper towel onto a raw chicken breast on a cutting board to dry it, a bowl of brine pushed aside, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-3-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step three. Remove the chicken from the brine and pat it very dry with paper towels.",
+      "wordStart": 0,
+      "focus": [
+        0.5,
+        0.65
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null
+    },
+    {
+      "key": "step-4",
+      "query": "chicken searing skillet",
+      "prompt": "A hand pouring a thin stream of oil into an empty stainless steel skillet on a lit gas burner, medium-high blue flame visible. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-4-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step four. Heat a skillet over medium-high heat for two minutes, then add a thin layer of oil.",
+      "wordStart": 0,
+      "focus": [
+        0.55,
+        0.5
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null
+    },
+    {
+      "key": "step-5",
+      "query": "covered skillet chicken",
+      "prompt": "Tongs flipping a chicken breast in a stainless steel skillet, the golden-brown seared side now facing up, the other hand holding a glass lid ready. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-5-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step five. Flip the chicken with tongs, then turn the heat down to medium-low and cover the pan with a lid.",
+      "wordStart": 0,
+      "focus": [
+        0.5,
+        0.6
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null
+    },
+    {
+      "key": "step-6",
+      "query": "thermometer chicken breast",
+      "prompt": "A digital probe meat thermometer with a blank screen held ready in a hand above a skillet with two golden chicken breasts. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-6-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step six. Don't guess.",
+      "wordStart": 0,
+      "focus": [
+        0.6,
+        0.55
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": [
+        "guess"
+      ],
+      "compareFile": null,
+      "compareLabels": null
+    },
+    {
+      "key": "step-7",
+      "query": "slicing chicken breast",
+      "prompt": "Two golden cooked chicken breasts resting untouched on a clean light wood board, a mechanical kitchen timer with a blank face beside them. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-7-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step seven. Move the chicken to a clean board or plate, and let it rest for five to ten minutes.",
+      "wordStart": 0,
+      "focus": [
+        0.45,
+        0.65
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null
+    },
+    {
+      "key": "step-8",
+      "query": "shredded chicken breast bowl",
+      "prompt": "A slice of slightly dry, fibrous cooked chicken breast held up on a fork above a plate, a pan of broth in the background. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-8-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "If the chicken came out dry, you can still save dinner.",
+      "wordStart": 0,
+      "focus": [
+        0.5,
+        0.6
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null
+    },
+    {
+      "key": "step-9",
+      "query": "meat thermometer ice water glass",
+      "prompt": "A digital probe meat thermometer with a blank screen lying on a clean light wood countertop, a hand reaching for it. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-9-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "A thermometer is only useful if it is accurate.",
+      "wordStart": 0,
+      "focus": [
+        0.65,
+        0.6
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null
+    },
+    {
+      "key": "step-10",
+      "query": "chicken leftovers glass container fridge",
+      "prompt": "Slices of cooked chicken breast spread in a single layer in a shallow glass container on the countertop, a hand holding the lid ready. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-10-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Spread the chicken in a shallow container so it cools quickly, then cover it and refrigerate.",
+      "wordStart": 0,
+      "focus": [
+        0.5,
+        0.6
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null
+    }
+  ],
+  "stepShots": [
+    [
+      {
+        "key": "step-1",
+        "query": "pounding chicken breast",
+        "prompt": "Hands laying a raw boneless chicken breast between two sheets of baking paper on a light wood cutting board, seen from above. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-1-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Step one. Place the chicken breast between two sheets of plastic wrap or baking paper on a cutting board.",
+        "wordStart": 0,
+        "focus": [
+          0.45,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-1",
+        "query": "pounding chicken breast",
+        "prompt": "A hand pounding the thick end of a chicken breast covered with baking paper using a wooden rolling pin on a cutting board, side view. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-1-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Using a mallet, a rolling pin or the bottom of a heavy pan, gently pound the thickest part until the whole breast is about three quarters of an inch, or two centimetres, thick.",
+        "wordStart": 19,
+        "focus": [
+          0.55,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-1",
+        "query": "pounding chicken breast",
+        "prompt": "A chicken breast under baking paper flattened to an even moderate thickness, not too thin, a hand lifting the corner of the paper to check it, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-1-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Don't pound it into a pancake, because you just want an even shape.",
+        "wordStart": 52,
+        "focus": [
+          0.55,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-1",
+        "query": "pounding chicken breast",
+        "prompt": "Two raw chicken breasts side by side on a board seen from the side at board level, one evenly thick from end to end, the other with a thick hump and a thin tail. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-1-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Equal thickness means the whole piece cooks at the same speed, which is the key to juicy results.",
+        "wordStart": 65,
+        "focus": [
+          0.55,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-1",
+        "query": "pounding chicken breast",
+        "prompt": "A hand holding a large raw chicken breast flat on a board while a chef's knife slices it horizontally into two thinner cutlets, side view close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-1-5.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Very large breasts can also be cut in half horizontally to make two thinner cutlets, which cook faster.",
+        "wordStart": 83,
+        "focus": [
+          0.6,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ],
+    [
+      {
+        "key": "step-2",
+        "query": "chicken salt water bowl",
+        "prompt": "A hand stirring a spoonful of salt into a large clear glass bowl of cold water with a spoon, a small bowl of coarse salt beside it, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-2-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Step two. Dissolve two tablespoons of salt in four cups, or one litre, of cold water.",
+        "wordStart": 0,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-2",
+        "query": "chicken salt water bowl",
+        "prompt": "Two raw chicken breasts submerged in a clear glass bowl of water being placed on a shelf of an open, tidy refrigerator by two hands. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-2-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Put the chicken in the water, and leave it for thirty minutes in the fridge.",
+        "wordStart": 16,
+        "focus": [
+          0.45,
+          0.5
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-2",
+        "query": "chicken salt water bowl",
+        "prompt": "Close-up of raw chicken breasts resting in clear salted water in a glass bowl, tiny bubbles on the surface of the meat, soft light. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-2-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "The salt helps the meat hold on to more moisture while it cooks.",
+        "wordStart": 31,
+        "focus": [
+          0.5,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-2",
+        "query": "chicken salt water bowl",
+        "prompt": "A hand sprinkling coarse salt generously from above onto a raw chicken breast lying on a white plate, salt crystals falling, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-2-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "If you're short of time, skip the brine, and instead salt the chicken generously on both sides fifteen minutes before cooking.",
+        "wordStart": 44,
+        "focus": [
+          0.55,
+          0.5
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-2",
+        "query": "chicken salt water bowl",
+        "prompt": "A glass bowl of chicken breasts in brine standing next to a mechanical kitchen timer with a blank face on the countertop, calm mood. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-2-5.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Don't brine for more than an hour, or the texture can turn spongy.",
+        "wordStart": 65,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-2",
+        "query": "chicken salt water bowl",
+        "prompt": "A covered glass container holding raw chicken breasts sitting on the middle shelf of a clean, bright refrigerator, door open. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-2-6.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Raw chicken must always stay in the fridge.",
+        "wordStart": 78,
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-2",
+        "query": "chicken salt water bowl",
+        "prompt": "Hands washing a clear glass bowl with a soapy sponge under hot running water in a stainless steel sink, foam and steam. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-2-7.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Always use a clean bowl and wash it afterward with hot soapy water, since raw chicken juices carry bacteria.",
+        "wordStart": 86,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ],
+    [
+      {
+        "key": "step-3",
+        "query": "seasoning chicken breast",
+        "prompt": "Hands pressing a paper towel onto a raw chicken breast on a cutting board to dry it, a bowl of brine pushed aside, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-3-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Step three. Remove the chicken from the brine and pat it very dry with paper towels.",
+        "wordStart": 0,
+        "focus": [
+          0.5,
+          0.65
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-3",
+        "query": "seasoning chicken breast",
+        "prompt": "Two raw chicken breasts side by side on a board, one perfectly dry and matte, the other wet and glistening with drops of water, seen from above. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-3-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Dry meat browns, wet meat steams.",
+        "wordStart": 16,
+        "focus": [
+          0.5,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": [
+          "browns"
+        ],
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-3",
+        "query": "seasoning chicken breast",
+        "prompt": "A kitchen tap running into an empty stainless steel sink, a hand holding a plate with a raw chicken breast well away from the water, not rinsing it. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-3-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Don't rinse raw chicken under the tap, because that splashes bacteria around your sink.",
+        "wordStart": 22,
+        "focus": [
+          0.6,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-3",
+        "query": "seasoning chicken breast",
+        "prompt": "A hand brushing a thin coat of oil onto a raw chicken breast with a silicone brush, small bowls of paprika, garlic powder and pepper beside it. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-3-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Brush each side with a teaspoon of oil, and season with pepper, paprika, garlic powder or any dry spices you like.",
+        "wordStart": 36,
+        "focus": [
+          0.55,
+          0.5
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-3",
+        "query": "seasoning chicken breast",
+        "prompt": "A hand sprinkling a pinch of coarse salt onto an oiled, spice-coated raw chicken breast on a board, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-3-5.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "If you skipped the brine, add salt now.",
+        "wordStart": 57,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-3",
+        "query": "seasoning chicken breast",
+        "prompt": "Hands being washed with soapy foam under running water at a kitchen sink, a used cutting board waiting beside the sink. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-3-6.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Wash your hands and the board with hot soapy water afterward.",
+        "wordStart": 65,
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-3",
+        "query": "seasoning chicken breast",
+        "prompt": "Three small white bowls of smoked paprika, garlic powder and dried thyme on a light wood countertop, a spoon mixing them in a fourth bowl, seen from above. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-3-7.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Smoked paprika, garlic powder and dried thyme make an easy all-purpose rub, with no sugar to burn in the pan.",
+        "wordStart": 76,
+        "focus": [
+          0.5,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ],
+    [
+      {
+        "key": "step-4",
+        "query": "chicken searing skillet",
+        "prompt": "A hand pouring a thin stream of oil into an empty stainless steel skillet on a lit gas burner, medium-high blue flame visible. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-4-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Step four. Heat a skillet over medium-high heat for two minutes, then add a thin layer of oil.",
+        "wordStart": 0,
+        "focus": [
+          0.55,
+          0.5
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-4",
+        "query": "chicken searing skillet",
+        "prompt": "Tongs laying a seasoned raw chicken breast into a hot oiled stainless steel skillet, smooth side down, oil shimmering around it. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-4-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "When it shimmers, lay the chicken in the pan, presentation side down.",
+        "wordStart": 18,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-4",
+        "query": "chicken searing skillet",
+        "prompt": "Close-up of a chicken breast sizzling in a hot skillet, small oil bubbles all around its edge, light wisps of steam. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-4-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "It should sizzle right away.",
+        "wordStart": 30,
+        "focus": [
+          0.55,
+          0.6
+        ],
+        "notes": null,
+        "fx": [
+          {
+            "type": "steam",
+            "at": [
+              0.55,
+              0.45
+            ],
+            "size": 1
+          }
+        ],
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-4",
+        "query": "chicken searing skillet",
+        "prompt": "A chicken breast cooking untouched in a stainless steel skillet on a gas burner, hands resting on the countertop away from the pan, a mechanical kitchen timer with a blank face beside the stove. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-4-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Leave it alone for five to six minutes without moving it, until the underside is a deep golden brown.",
+        "wordStart": 35,
+        "focus": [
+          0.4,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-4",
+        "query": "chicken searing skillet",
+        "prompt": "A stainless steel skillet seen from above with two chicken breasts and plenty of empty space between and around them. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-4-5.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Don't crowd the pan.",
+        "wordStart": 54,
+        "focus": [
+          0.45,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-4",
+        "query": "chicken searing skillet",
+        "prompt": "A plate with two more raw seasoned chicken breasts waiting next to the stove while two others cook in the skillet, side view. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-4-6.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "If you're cooking more than two breasts, work in batches.",
+        "wordStart": 58,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-4",
+        "query": "chicken searing skillet",
+        "prompt": "Close-up of the deep golden-brown seared crust on the underside of a chicken breast being lifted slightly with tongs in a skillet. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-4-7.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "That browned crust is where the flavor comes from.",
+        "wordStart": 68,
+        "focus": [
+          0.45,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-4",
+        "query": "chicken searing skillet",
+        "prompt": "A hand turning the gas burner knob down a little under a stainless steel skillet from which a little too much smoke is rising. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-4-8.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "If the pan smokes heavily, lower the heat slightly.",
+        "wordStart": 77,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-4",
+        "query": "chicken searing skillet",
+        "prompt": "Close-up of a chicken breast in a skillet with an even deep golden-brown surface, no blackened or burnt spots. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-4-9.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "A deep golden color is what you want, not black.",
+        "wordStart": 86,
+        "focus": [
+          0.5,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ],
+    [
+      {
+        "key": "step-5",
+        "query": "covered skillet chicken",
+        "prompt": "Tongs flipping a chicken breast in a stainless steel skillet, the golden-brown seared side now facing up, the other hand holding a glass lid ready. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-5-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Step five. Flip the chicken with tongs, then turn the heat down to medium-low and cover the pan with a lid.",
+        "wordStart": 0,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-5",
+        "query": "covered skillet chicken",
+        "prompt": "A glass lid covering a stainless steel skillet with two golden chicken breasts inside, condensation and steam visible under the glass, low blue flame. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-5-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "The trapped steam finishes the cooking gently, so the center cooks through without the outside burning.",
+        "wordStart": 21,
+        "focus": [
+          0.55,
+          0.55
+        ],
+        "notes": null,
+        "fx": [
+          {
+            "type": "steam",
+            "at": [
+              0.55,
+              0.4
+            ],
+            "size": 1
+          }
+        ],
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-5",
+        "query": "covered skillet chicken",
+        "prompt": "A covered skillet on a low gas flame with a mechanical kitchen timer with a blank face on the countertop beside the stove. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-5-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Cook for another five to seven minutes, depending on thickness.",
+        "wordStart": 37,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-5",
+        "query": "covered skillet chicken",
+        "prompt": "A hand hovering just above the knob of a glass lid on a covered skillet without lifting it, steam trapped inside. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-5-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Don't keep lifting the lid, because the heat escapes.",
+        "wordStart": 47,
+        "focus": [
+          0.5,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-5",
+        "query": "covered skillet chicken",
+        "prompt": "Close-up of a low, gentle blue gas flame under a covered stainless steel skillet, condensation dripping inside the glass lid. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-5-5.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "A gentle finish is the difference between juicy and dry chicken, so be patient and keep the heat low.",
+        "wordStart": 56,
+        "focus": [
+          0.45,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-5",
+        "query": "covered skillet chicken",
+        "prompt": "Two thin chicken cutlets cooking in a stainless steel skillet, a hand lifting the glass lid slightly to check them early. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-5-6.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "If your breasts are very thin, three to four minutes will be enough, so start checking early.",
+        "wordStart": 75,
+        "focus": [
+          0.5,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ],
+    [
+      {
+        "key": "step-6",
+        "query": "thermometer chicken breast",
+        "prompt": "A digital probe meat thermometer with a blank screen held ready in a hand above a skillet with two golden chicken breasts. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-6-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Step six. Don't guess.",
+        "wordStart": 0,
+        "focus": [
+          0.6,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": [
+          "guess"
+        ],
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-6",
+        "query": "thermometer chicken breast",
+        "prompt": "Close-up of a thin metal thermometer probe pushed sideways into the thickest part of a golden chicken breast in a skillet, the tip not touching the pan. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-6-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Push an instant-read thermometer into the thickest part of the breast, without touching the pan.",
+        "wordStart": 4,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-6",
+        "query": "thermometer chicken breast",
+        "prompt": "Close-up of a golden cooked chicken breast with a thermometer probe inserted in its centre, a hand holding the thermometer steady, steam rising gently. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-6-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Chicken is safe to eat at 165 degrees Fahrenheit, or 74 Celsius.",
+        "wordStart": 19,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-6",
+        "query": "thermometer chicken breast",
+        "prompt": "Tongs lifting a golden chicken breast out of a skillet toward a clean white plate held next to the stove. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-6-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Take the chicken out of the pan once it reaches that temperature, because it keeps cooking a little as it rests.",
+        "wordStart": 31,
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-6",
+        "query": "thermometer chicken breast",
+        "prompt": "A hand placing the glass lid back on a skillet containing one chicken breast, a thermometer lying on the countertop beside the stove. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-6-5.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "If it's below 165, cover the pan, and cook for a minute or two more, then check again.",
+        "wordStart": 52,
+        "focus": [
+          0.45,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-6",
+        "query": "thermometer chicken breast",
+        "prompt": "A knife cut gaping open in the middle of a chicken breast in a skillet, clear juices running out into the pan, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-6-6.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Cutting into it to look is not reliable, and it lets the juices escape.",
+        "wordStart": 70,
+        "focus": [
+          0.5,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-6",
+        "query": "thermometer chicken breast",
+        "prompt": "A thermometer probe inserted into the second of two chicken breasts in a skillet, the first one already on a plate beside the stove. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-6-7.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Check a second breast as well if you are cooking several, because they never finish at exactly the same time.",
+        "wordStart": 84,
+        "focus": [
+          0.55,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ],
+    [
+      {
+        "key": "step-7",
+        "query": "slicing chicken breast",
+        "prompt": "Two golden cooked chicken breasts resting untouched on a clean light wood board, a mechanical kitchen timer with a blank face beside them. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-7-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Step seven. Move the chicken to a clean board or plate, and let it rest for five to ten minutes.",
+        "wordStart": 0,
+        "focus": [
+          0.45,
+          0.65
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-7",
+        "query": "slicing chicken breast",
+        "prompt": "Close-up of a whole golden chicken breast resting on a board, its surface glistening and moist, no juices on the board. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-7-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "The juices relax and spread back through the meat, instead of running out when you cut.",
+        "wordStart": 20,
+        "focus": [
+          0.5,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-7",
+        "query": "slicing chicken breast",
+        "prompt": "A hand draping a loose tent of aluminium foil over two cooked chicken breasts resting on a board. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-7-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Cover loosely with foil if your kitchen is cool.",
+        "wordStart": 36,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-7",
+        "query": "slicing chicken breast",
+        "prompt": "A chef's knife slicing a cooked chicken breast across its width into even thick slices on a board, the interior white and visibly juicy, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-7-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Then slice across the grain, in slices about half an inch thick.",
+        "wordStart": 45,
+        "focus": [
+          0.6,
+          0.65
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-7",
+        "query": "slicing chicken breast",
+        "prompt": "A fresh green salad in a white bowl topped with slices of golden chicken breast, seen from above, bright and appetizing. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-7-5.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Serve in a salad, a sandwich or with vegetables.",
+        "wordStart": 57,
+        "focus": [
+          0.5,
+          0.65
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-7",
+        "query": "slicing chicken breast",
+        "prompt": "A hand placing a glass container of sliced cooked chicken with its lid into a tidy refrigerator. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-7-6.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Store leftovers in the fridge within two hours, and eat within three to four days.",
+        "wordStart": 66,
+        "focus": [
+          0.55,
+          0.45
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-7",
+        "query": "slicing chicken breast",
+        "prompt": "A wheat wrap being rolled by two hands around slices of chicken breast, lettuce and tomato on a board, a lunch box beside it. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-7-7.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Try the sliced chicken over a salad or inside a wrap for an easy lunch the next day.",
+        "wordStart": 81,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ],
+    [
+      {
+        "key": "step-8",
+        "query": "shredded chicken breast bowl",
+        "prompt": "A slice of slightly dry, fibrous cooked chicken breast held up on a fork above a plate, a pan of broth in the background. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-8-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "If the chicken came out dry, you can still save dinner.",
+        "wordStart": 0,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-8",
+        "query": "shredded chicken breast bowl",
+        "prompt": "Thin slices of chicken breast warming in a small saucepan of golden broth on a low flame, a ladle resting in the pan. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-8-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Slice it thinly, and warm it for a minute in broth.",
+        "wordStart": 11,
+        "focus": [
+          0.55,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-8",
+        "query": "shredded chicken breast bowl",
+        "prompt": "Two forks shredding a cooked chicken breast into strands on a board, soft corn tortillas and a bowl of soup nearby. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-8-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "You can also shred it for tacos or soup.",
+        "wordStart": 22,
+        "focus": [
+          0.45,
+          0.65
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-8",
+        "query": "shredded chicken breast bowl",
+        "prompt": "A cooked chicken breast cut open on a board showing a slightly pink centre, a hand holding a thermometer next to it, undecided. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-8-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "If the center is pink, do not guess.",
+        "wordStart": 31,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-8",
+        "query": "shredded chicken breast bowl",
+        "prompt": "Two cut chicken breast halves side by side on a board, one faintly pink inside and one white, a thermometer probe lying between them. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-8-5.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Pink can be safe, and white can be raw, so trust only the thermometer.",
+        "wordStart": 39,
+        "focus": [
+          0.5,
+          0.65
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-8",
+        "query": "shredded chicken breast bowl",
+        "prompt": "Tongs returning a cut chicken breast to a stainless steel skillet on a lit burner, a thermometer in the other hand. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-8-6.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "If it reads below 165 degrees Fahrenheit, return it to the pan.",
+        "wordStart": 53,
+        "focus": [
+          0.5,
+          0.65
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ],
+    [
+      {
+        "key": "step-9",
+        "query": "meat thermometer ice water glass",
+        "prompt": "A digital probe meat thermometer with a blank screen lying on a clean light wood countertop, a hand reaching for it. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-9-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "A thermometer is only useful if it is accurate.",
+        "wordStart": 0,
+        "focus": [
+          0.65,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-9",
+        "query": "meat thermometer ice water glass",
+        "prompt": "A thermometer probe standing in a tall glass filled with ice cubes and water, a hand holding the thermometer upright, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-9-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Test it in a glass of ice water: it should read 32 degrees Fahrenheit, or 0 Celsius.",
+        "wordStart": 9,
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.5,
+              0.55
+            ],
+            "text": "Ice water",
+            "label": [
+              0.2,
+              0.3
+            ],
+            "on": "ice"
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-9",
+        "query": "meat thermometer ice water glass",
+        "prompt": "A hand holding a simple dial meat thermometer and adjusting the small nut under its dial with a little wrench, a glass of ice water beside it. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-9-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "If it is off by a few degrees, adjust it if you can, or replace it.",
+        "wordStart": 26,
+        "focus": [
+          0.55,
+          0.45
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-9",
+        "query": "meat thermometer ice water glass",
+        "prompt": "Side view close-up of a thermometer probe sliding horizontally into the thickest part of a cooked chicken breast held with tongs above the pan. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-9-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Slide the tip into the thickest part, away from the pan.",
+        "wordStart": 42,
+        "focus": [
+          0.6,
+          0.5
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-9",
+        "query": "meat thermometer ice water glass",
+        "prompt": "A hand holding a thermometer perfectly still in a chicken breast on a plate, a patient waiting gesture, blank screen. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-9-5.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Wait until the number stops moving.",
+        "wordStart": 53,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-9",
+        "query": "meat thermometer ice water glass",
+        "prompt": "A hand washing the metal probe of a thermometer with a soapy sponge under hot running water at a sink. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-9-6.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Wash the probe with hot soapy water after each use.",
+        "wordStart": 59,
+        "focus": [
+          0.6,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ],
+    [
+      {
+        "key": "step-10",
+        "query": "chicken leftovers glass container fridge",
+        "prompt": "Slices of cooked chicken breast spread in a single layer in a shallow glass container on the countertop, a hand holding the lid ready. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-10-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Spread the chicken in a shallow container so it cools quickly, then cover it and refrigerate.",
+        "wordStart": 0,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-10",
+        "query": "chicken leftovers glass container fridge",
+        "prompt": "A frosted freezer bag of cooked chicken slices being placed on a plate on the lower shelf of a refrigerator to thaw. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-10-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "For longer storage, freeze it, and thaw it overnight in the fridge, never on the counter.",
+        "wordStart": 16,
+        "focus": [
+          0.55,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-10",
+        "query": "chicken leftovers glass container fridge",
+        "prompt": "A plate of reheated chicken slices with clear steam rising from them, a thermometer probe inserted in one slice. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-10-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Reheat leftovers until they are steaming hot all the way through, or 165 degrees Fahrenheit again.",
+        "wordStart": 32,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": null,
+        "fx": [
+          {
+            "type": "steam",
+            "at": [
+              0.5,
+              0.35
+            ],
+            "size": 1
+          }
+        ],
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-10",
+        "query": "chicken leftovers glass container fridge",
+        "prompt": "A hand pouring a small splash of broth over chicken slices in a glass dish, a lid ready to cover it, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-10-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Add a splash of water or broth, and cover the dish, so the meat stays tender.",
+        "wordStart": 48,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ]
+  ],
+  "introExtras": {
+    "pose": "chef",
+    "diagram": "chicken-pan",
+    "title": "Why chicken breast dries out",
+    "mode": "uneven",
+    "chips": [
+      {
+        "on": "rubbery",
+        "label": "Dry, rubbery chicken",
+        "sub": "overcooks in minutes",
+        "mode": "uneven"
+      },
+      {
+        "on": "uneven",
+        "label": "Uneven thickness",
+        "sub": "thin end dry, thick end raw",
+        "mode": "uneven"
+      },
+      {
+        "on": "long",
+        "label": "Cooked too long",
+        "sub": "little fat, little margin",
+        "mode": "sear"
+      },
+      {
+        "on": "brine",
+        "label": "A quick salt brine",
+        "sub": "extra moisture",
+        "mode": "even"
+      },
+      {
+        "on": "thermometer",
+        "label": "A thermometer",
+        "sub": "no more guessing",
+        "mode": "temp"
+      }
+    ],
+    "gags": []
+  },
+  "hookExtras": null,
+  "shortShots": [
+    "1-2",
+    "5-1",
+    "6-3"
+  ],
+  "short2Files": {
+    "short2-hook.jpg": {
+      "key": "short2-hook.jpg",
+      "kind": "photo",
+      "width": 1080,
+      "height": 1920,
+      "provider": "gemini-web",
+      "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/short2-hook.jpg",
+      "focus": null
+    }
+  },
+  "stepExtras": [
+    {
+      "ticks": [
+        {
+          "shot": 2,
+          "on": "mallet",
+          "label": "Mallet or rolling pin"
+        }
+      ],
+      "facts": [
+        {
+          "shot": 2,
+          "on": "quarters",
+          "kind": "measure",
+          "big": "¾ inch",
+          "small": "2 cm, the whole breast",
+          "dur": 4
+        }
+      ],
+      "cards": [
+        {
+          "shot": 3,
+          "on": "pancake",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Don't pound it into a pancake: you just want an even shape.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": [
+        {
+          "shot": 4,
+          "on": "speed",
+          "name": "chicken-pan",
+          "mode": "even",
+          "title": "Why you pound it",
+          "dur": 4.8
+        }
+      ]
+    },
+    {
+      "ticks": [
+        {
+          "shot": 1,
+          "on": "salt",
+          "label": "Salt"
+        }
+      ],
+      "facts": [
+        {
+          "shot": 1,
+          "on": "tablespoons",
+          "kind": "measure",
+          "big": "2 tbsp salt",
+          "small": "in 4 cups (1 litre) of cold water",
+          "dur": 4
+        },
+        {
+          "shot": 2,
+          "on": "thirty",
+          "kind": "timer",
+          "big": "30 min",
+          "small": "in the fridge",
+          "dur": 4
+        }
+      ],
+      "cards": [
+        {
+          "shot": 5,
+          "on": "hour",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "More than an hour in the brine: the texture can turn spongy.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": []
+    },
+    {
+      "ticks": [],
+      "facts": [],
+      "cards": [
+        {
+          "shot": 2,
+          "on": "browns",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "Dry meat browns, wet meat steams.",
+          "dur": 4.4
+        },
+        {
+          "shot": 3,
+          "on": "rinse",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Don't rinse raw chicken: it splashes bacteria around your sink.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [
+        {
+          "shot": 6,
+          "on": "hands",
+          "pose": "thumbs",
+          "side": "left",
+          "dur": 2.8
+        }
+      ],
+      "diagrams": []
+    },
+    {
+      "ticks": [
+        {
+          "shot": 1,
+          "on": "skillet",
+          "label": "Skillet"
+        }
+      ],
+      "facts": [
+        {
+          "shot": 1,
+          "on": "two",
+          "kind": "timer",
+          "big": "2 min",
+          "small": "preheat, medium-high",
+          "dur": 4
+        },
+        {
+          "shot": 4,
+          "on": "five",
+          "kind": "timer",
+          "big": "5–6 min",
+          "small": "without moving it",
+          "dur": 4
+        }
+      ],
+      "cards": [
+        {
+          "shot": 5,
+          "on": "crowd",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Don't crowd the pan: cook in batches.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": [
+        {
+          "shot": 7,
+          "on": "crust",
+          "name": "chicken-pan",
+          "mode": "sear",
+          "title": "Leave it alone",
+          "dur": 4.8
+        }
+      ]
+    },
+    {
+      "ticks": [
+        {
+          "shot": 1,
+          "on": "lid",
+          "label": "Lid"
+        }
+      ],
+      "facts": [
+        {
+          "shot": 3,
+          "on": "five",
+          "kind": "timer",
+          "big": "5–7 min",
+          "small": "covered, medium-low",
+          "dur": 4
+        }
+      ],
+      "cards": [
+        {
+          "shot": 4,
+          "on": "lid",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Don't keep lifting the lid: the heat escapes.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": [
+        {
+          "shot": 2,
+          "on": "steam",
+          "name": "chicken-pan",
+          "mode": "steam",
+          "title": "Why the lid matters",
+          "dur": 4.8
+        }
+      ]
+    },
+    {
+      "ticks": [
+        {
+          "shot": 2,
+          "on": "thermometer",
+          "label": "Thermometer"
+        }
+      ],
+      "facts": [
+        {
+          "shot": 3,
+          "on": "165",
+          "kind": "measure",
+          "big": "165°F",
+          "small": "74°C, safe to eat",
+          "dur": 4
+        }
+      ],
+      "cards": [
+        {
+          "shot": 6,
+          "on": "reliable",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Cutting into it is not reliable, and the juices escape.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": [
+        {
+          "shot": 2,
+          "on": "thickest",
+          "name": "chicken-pan",
+          "mode": "temp",
+          "title": "Where to measure",
+          "dur": 4.8
+        }
+      ]
+    },
+    {
+      "ticks": [],
+      "facts": [
+        {
+          "shot": 1,
+          "on": "five",
+          "kind": "timer",
+          "big": "5–10 min",
+          "small": "rest before slicing",
+          "dur": 4
+        },
+        {
+          "shot": 6,
+          "on": "two",
+          "kind": "timer",
+          "big": "2 hours",
+          "small": "into the fridge",
+          "dur": 4
+        }
+      ],
+      "cards": [],
+      "gags": [
+        {
+          "shot": 5,
+          "on": "salad",
+          "pose": "party",
+          "side": "left",
+          "dur": 2.8
+        }
+      ],
+      "diagrams": [
+        {
+          "shot": 2,
+          "on": "spread",
+          "name": "chicken-pan",
+          "mode": "rest",
+          "title": "Why it rests",
+          "dur": 4.8
+        }
+      ]
+    },
+    {
+      "ticks": [],
+      "facts": [],
+      "cards": [
+        {
+          "shot": 5,
+          "on": "thermometer",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "Pink can be safe and white can be raw: trust the thermometer.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [
+        {
+          "shot": 1,
+          "on": "dinner",
+          "pose": "idea",
+          "side": "left",
+          "dur": 2.8
+        }
+      ],
+      "diagrams": []
+    },
+    {
+      "ticks": [],
+      "facts": [
+        {
+          "shot": 2,
+          "on": "32",
+          "kind": "measure",
+          "big": "32°F",
+          "small": "0°C in ice water",
+          "dur": 4
+        }
+      ],
+      "cards": [
+        {
+          "shot": 5,
+          "on": "moving",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "Wait until the number stops moving.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": []
+    },
+    {
+      "ticks": [],
+      "facts": [
+        {
+          "shot": 3,
+          "on": "165",
+          "kind": "measure",
+          "big": "165°F",
+          "small": "steaming hot all the way through",
+          "dur": 4
+        }
+      ],
+      "cards": [
+        {
+          "shot": 2,
+          "on": "counter",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Thaw it in the fridge, never on the counter.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": []
+    }
+  ],
+  "youneed": {
+    "key": "youneed",
+    "kind": "photo",
+    "width": 1920,
+    "height": 1080,
+    "provider": "gemini-web",
+    "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/youneed.jpg",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  "mistakesSubtitle": "that dry out chicken breast",
+  "mistakes": [
+    {
+      "key": "mistake-1",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/mistake-1.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "key": "mistake-2",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/mistake-2.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "key": "mistake-3",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/mistake-3.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ]
+    }
+  ],
+  "all": {
+    "hero": {
+      "key": "hero",
+      "query": "juicy sliced chicken breast",
+      "prompt": "Sliced juicy golden-brown chicken breast on a white plate with herbs, showing a moist interior, soft side light, shallow depth of field, photorealistic, no text",
+      "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/hero.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null
+    },
+    "step-1": {
+      "key": "step-1",
+      "query": "pounding chicken breast",
+      "prompt": "Hands laying a raw boneless chicken breast between two sheets of baking paper on a light wood cutting board, seen from above. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-1-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step one. Place the chicken breast between two sheets of plastic wrap or baking paper on a cutting board.",
+      "wordStart": 0,
+      "focus": [
+        0.45,
+        0.6
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-1",
+          "query": "pounding chicken breast",
+          "prompt": "Hands laying a raw boneless chicken breast between two sheets of baking paper on a light wood cutting board, seen from above. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-1-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Step one. Place the chicken breast between two sheets of plastic wrap or baking paper on a cutting board.",
+          "wordStart": 0,
+          "focus": [
+            0.45,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-1",
+          "query": "pounding chicken breast",
+          "prompt": "A hand pounding the thick end of a chicken breast covered with baking paper using a wooden rolling pin on a cutting board, side view. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-1-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Using a mallet, a rolling pin or the bottom of a heavy pan, gently pound the thickest part until the whole breast is about three quarters of an inch, or two centimetres, thick.",
+          "wordStart": 19,
+          "focus": [
+            0.55,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-1",
+          "query": "pounding chicken breast",
+          "prompt": "A chicken breast under baking paper flattened to an even moderate thickness, not too thin, a hand lifting the corner of the paper to check it, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-1-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Don't pound it into a pancake, because you just want an even shape.",
+          "wordStart": 52,
+          "focus": [
+            0.55,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-1",
+          "query": "pounding chicken breast",
+          "prompt": "Two raw chicken breasts side by side on a board seen from the side at board level, one evenly thick from end to end, the other with a thick hump and a thin tail. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-1-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Equal thickness means the whole piece cooks at the same speed, which is the key to juicy results.",
+          "wordStart": 65,
+          "focus": [
+            0.55,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-1",
+          "query": "pounding chicken breast",
+          "prompt": "A hand holding a large raw chicken breast flat on a board while a chef's knife slices it horizontally into two thinner cutlets, side view close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-1-5.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Very large breasts can also be cut in half horizontally to make two thinner cutlets, which cook faster.",
+          "wordStart": 83,
+          "focus": [
+            0.6,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    },
+    "step-2": {
+      "key": "step-2",
+      "query": "chicken salt water bowl",
+      "prompt": "A hand stirring a spoonful of salt into a large clear glass bowl of cold water with a spoon, a small bowl of coarse salt beside it, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-2-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step two. Dissolve two tablespoons of salt in four cups, or one litre, of cold water.",
+      "wordStart": 0,
+      "focus": [
+        0.5,
+        0.6
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-2",
+          "query": "chicken salt water bowl",
+          "prompt": "A hand stirring a spoonful of salt into a large clear glass bowl of cold water with a spoon, a small bowl of coarse salt beside it, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-2-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Step two. Dissolve two tablespoons of salt in four cups, or one litre, of cold water.",
+          "wordStart": 0,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-2",
+          "query": "chicken salt water bowl",
+          "prompt": "Two raw chicken breasts submerged in a clear glass bowl of water being placed on a shelf of an open, tidy refrigerator by two hands. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-2-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Put the chicken in the water, and leave it for thirty minutes in the fridge.",
+          "wordStart": 16,
+          "focus": [
+            0.45,
+            0.5
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-2",
+          "query": "chicken salt water bowl",
+          "prompt": "Close-up of raw chicken breasts resting in clear salted water in a glass bowl, tiny bubbles on the surface of the meat, soft light. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-2-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "The salt helps the meat hold on to more moisture while it cooks.",
+          "wordStart": 31,
+          "focus": [
+            0.5,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-2",
+          "query": "chicken salt water bowl",
+          "prompt": "A hand sprinkling coarse salt generously from above onto a raw chicken breast lying on a white plate, salt crystals falling, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-2-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "If you're short of time, skip the brine, and instead salt the chicken generously on both sides fifteen minutes before cooking.",
+          "wordStart": 44,
+          "focus": [
+            0.55,
+            0.5
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-2",
+          "query": "chicken salt water bowl",
+          "prompt": "A glass bowl of chicken breasts in brine standing next to a mechanical kitchen timer with a blank face on the countertop, calm mood. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-2-5.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Don't brine for more than an hour, or the texture can turn spongy.",
+          "wordStart": 65,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-2",
+          "query": "chicken salt water bowl",
+          "prompt": "A covered glass container holding raw chicken breasts sitting on the middle shelf of a clean, bright refrigerator, door open. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-2-6.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Raw chicken must always stay in the fridge.",
+          "wordStart": 78,
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-2",
+          "query": "chicken salt water bowl",
+          "prompt": "Hands washing a clear glass bowl with a soapy sponge under hot running water in a stainless steel sink, foam and steam. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-2-7.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Always use a clean bowl and wash it afterward with hot soapy water, since raw chicken juices carry bacteria.",
+          "wordStart": 86,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    },
+    "step-3": {
+      "key": "step-3",
+      "query": "seasoning chicken breast",
+      "prompt": "Hands pressing a paper towel onto a raw chicken breast on a cutting board to dry it, a bowl of brine pushed aside, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-3-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step three. Remove the chicken from the brine and pat it very dry with paper towels.",
+      "wordStart": 0,
+      "focus": [
+        0.5,
+        0.65
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-3",
+          "query": "seasoning chicken breast",
+          "prompt": "Hands pressing a paper towel onto a raw chicken breast on a cutting board to dry it, a bowl of brine pushed aside, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-3-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Step three. Remove the chicken from the brine and pat it very dry with paper towels.",
+          "wordStart": 0,
+          "focus": [
+            0.5,
+            0.65
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-3",
+          "query": "seasoning chicken breast",
+          "prompt": "Two raw chicken breasts side by side on a board, one perfectly dry and matte, the other wet and glistening with drops of water, seen from above. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-3-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Dry meat browns, wet meat steams.",
+          "wordStart": 16,
+          "focus": [
+            0.5,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": [
+            "browns"
+          ],
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-3",
+          "query": "seasoning chicken breast",
+          "prompt": "A kitchen tap running into an empty stainless steel sink, a hand holding a plate with a raw chicken breast well away from the water, not rinsing it. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-3-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Don't rinse raw chicken under the tap, because that splashes bacteria around your sink.",
+          "wordStart": 22,
+          "focus": [
+            0.6,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-3",
+          "query": "seasoning chicken breast",
+          "prompt": "A hand brushing a thin coat of oil onto a raw chicken breast with a silicone brush, small bowls of paprika, garlic powder and pepper beside it. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-3-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Brush each side with a teaspoon of oil, and season with pepper, paprika, garlic powder or any dry spices you like.",
+          "wordStart": 36,
+          "focus": [
+            0.55,
+            0.5
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-3",
+          "query": "seasoning chicken breast",
+          "prompt": "A hand sprinkling a pinch of coarse salt onto an oiled, spice-coated raw chicken breast on a board, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-3-5.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "If you skipped the brine, add salt now.",
+          "wordStart": 57,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-3",
+          "query": "seasoning chicken breast",
+          "prompt": "Hands being washed with soapy foam under running water at a kitchen sink, a used cutting board waiting beside the sink. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-3-6.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Wash your hands and the board with hot soapy water afterward.",
+          "wordStart": 65,
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-3",
+          "query": "seasoning chicken breast",
+          "prompt": "Three small white bowls of smoked paprika, garlic powder and dried thyme on a light wood countertop, a spoon mixing them in a fourth bowl, seen from above. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-3-7.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Smoked paprika, garlic powder and dried thyme make an easy all-purpose rub, with no sugar to burn in the pan.",
+          "wordStart": 76,
+          "focus": [
+            0.5,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    },
+    "step-4": {
+      "key": "step-4",
+      "query": "chicken searing skillet",
+      "prompt": "A hand pouring a thin stream of oil into an empty stainless steel skillet on a lit gas burner, medium-high blue flame visible. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-4-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step four. Heat a skillet over medium-high heat for two minutes, then add a thin layer of oil.",
+      "wordStart": 0,
+      "focus": [
+        0.55,
+        0.5
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-4",
+          "query": "chicken searing skillet",
+          "prompt": "A hand pouring a thin stream of oil into an empty stainless steel skillet on a lit gas burner, medium-high blue flame visible. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-4-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Step four. Heat a skillet over medium-high heat for two minutes, then add a thin layer of oil.",
+          "wordStart": 0,
+          "focus": [
+            0.55,
+            0.5
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-4",
+          "query": "chicken searing skillet",
+          "prompt": "Tongs laying a seasoned raw chicken breast into a hot oiled stainless steel skillet, smooth side down, oil shimmering around it. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-4-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "When it shimmers, lay the chicken in the pan, presentation side down.",
+          "wordStart": 18,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-4",
+          "query": "chicken searing skillet",
+          "prompt": "Close-up of a chicken breast sizzling in a hot skillet, small oil bubbles all around its edge, light wisps of steam. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-4-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "It should sizzle right away.",
+          "wordStart": 30,
+          "focus": [
+            0.55,
+            0.6
+          ],
+          "notes": null,
+          "fx": [
+            {
+              "type": "steam",
+              "at": [
+                0.55,
+                0.45
+              ],
+              "size": 1
+            }
+          ],
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-4",
+          "query": "chicken searing skillet",
+          "prompt": "A chicken breast cooking untouched in a stainless steel skillet on a gas burner, hands resting on the countertop away from the pan, a mechanical kitchen timer with a blank face beside the stove. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-4-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Leave it alone for five to six minutes without moving it, until the underside is a deep golden brown.",
+          "wordStart": 35,
+          "focus": [
+            0.4,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-4",
+          "query": "chicken searing skillet",
+          "prompt": "A stainless steel skillet seen from above with two chicken breasts and plenty of empty space between and around them. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-4-5.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Don't crowd the pan.",
+          "wordStart": 54,
+          "focus": [
+            0.45,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-4",
+          "query": "chicken searing skillet",
+          "prompt": "A plate with two more raw seasoned chicken breasts waiting next to the stove while two others cook in the skillet, side view. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-4-6.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "If you're cooking more than two breasts, work in batches.",
+          "wordStart": 58,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-4",
+          "query": "chicken searing skillet",
+          "prompt": "Close-up of the deep golden-brown seared crust on the underside of a chicken breast being lifted slightly with tongs in a skillet. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-4-7.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "That browned crust is where the flavor comes from.",
+          "wordStart": 68,
+          "focus": [
+            0.45,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-4",
+          "query": "chicken searing skillet",
+          "prompt": "A hand turning the gas burner knob down a little under a stainless steel skillet from which a little too much smoke is rising. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-4-8.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "If the pan smokes heavily, lower the heat slightly.",
+          "wordStart": 77,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-4",
+          "query": "chicken searing skillet",
+          "prompt": "Close-up of a chicken breast in a skillet with an even deep golden-brown surface, no blackened or burnt spots. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-4-9.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "A deep golden color is what you want, not black.",
+          "wordStart": 86,
+          "focus": [
+            0.5,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    },
+    "step-5": {
+      "key": "step-5",
+      "query": "covered skillet chicken",
+      "prompt": "Tongs flipping a chicken breast in a stainless steel skillet, the golden-brown seared side now facing up, the other hand holding a glass lid ready. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-5-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step five. Flip the chicken with tongs, then turn the heat down to medium-low and cover the pan with a lid.",
+      "wordStart": 0,
+      "focus": [
+        0.5,
+        0.6
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-5",
+          "query": "covered skillet chicken",
+          "prompt": "Tongs flipping a chicken breast in a stainless steel skillet, the golden-brown seared side now facing up, the other hand holding a glass lid ready. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-5-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Step five. Flip the chicken with tongs, then turn the heat down to medium-low and cover the pan with a lid.",
+          "wordStart": 0,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-5",
+          "query": "covered skillet chicken",
+          "prompt": "A glass lid covering a stainless steel skillet with two golden chicken breasts inside, condensation and steam visible under the glass, low blue flame. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-5-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "The trapped steam finishes the cooking gently, so the center cooks through without the outside burning.",
+          "wordStart": 21,
+          "focus": [
+            0.55,
+            0.55
+          ],
+          "notes": null,
+          "fx": [
+            {
+              "type": "steam",
+              "at": [
+                0.55,
+                0.4
+              ],
+              "size": 1
+            }
+          ],
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-5",
+          "query": "covered skillet chicken",
+          "prompt": "A covered skillet on a low gas flame with a mechanical kitchen timer with a blank face on the countertop beside the stove. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-5-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Cook for another five to seven minutes, depending on thickness.",
+          "wordStart": 37,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-5",
+          "query": "covered skillet chicken",
+          "prompt": "A hand hovering just above the knob of a glass lid on a covered skillet without lifting it, steam trapped inside. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-5-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Don't keep lifting the lid, because the heat escapes.",
+          "wordStart": 47,
+          "focus": [
+            0.5,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-5",
+          "query": "covered skillet chicken",
+          "prompt": "Close-up of a low, gentle blue gas flame under a covered stainless steel skillet, condensation dripping inside the glass lid. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-5-5.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "A gentle finish is the difference between juicy and dry chicken, so be patient and keep the heat low.",
+          "wordStart": 56,
+          "focus": [
+            0.45,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-5",
+          "query": "covered skillet chicken",
+          "prompt": "Two thin chicken cutlets cooking in a stainless steel skillet, a hand lifting the glass lid slightly to check them early. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-5-6.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "If your breasts are very thin, three to four minutes will be enough, so start checking early.",
+          "wordStart": 75,
+          "focus": [
+            0.5,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    },
+    "step-6": {
+      "key": "step-6",
+      "query": "thermometer chicken breast",
+      "prompt": "A digital probe meat thermometer with a blank screen held ready in a hand above a skillet with two golden chicken breasts. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-6-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step six. Don't guess.",
+      "wordStart": 0,
+      "focus": [
+        0.6,
+        0.55
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": [
+        "guess"
+      ],
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-6",
+          "query": "thermometer chicken breast",
+          "prompt": "A digital probe meat thermometer with a blank screen held ready in a hand above a skillet with two golden chicken breasts. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-6-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Step six. Don't guess.",
+          "wordStart": 0,
+          "focus": [
+            0.6,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": [
+            "guess"
+          ],
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-6",
+          "query": "thermometer chicken breast",
+          "prompt": "Close-up of a thin metal thermometer probe pushed sideways into the thickest part of a golden chicken breast in a skillet, the tip not touching the pan. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-6-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Push an instant-read thermometer into the thickest part of the breast, without touching the pan.",
+          "wordStart": 4,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-6",
+          "query": "thermometer chicken breast",
+          "prompt": "Close-up of a golden cooked chicken breast with a thermometer probe inserted in its centre, a hand holding the thermometer steady, steam rising gently. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-6-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Chicken is safe to eat at 165 degrees Fahrenheit, or 74 Celsius.",
+          "wordStart": 19,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-6",
+          "query": "thermometer chicken breast",
+          "prompt": "Tongs lifting a golden chicken breast out of a skillet toward a clean white plate held next to the stove. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-6-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Take the chicken out of the pan once it reaches that temperature, because it keeps cooking a little as it rests.",
+          "wordStart": 31,
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-6",
+          "query": "thermometer chicken breast",
+          "prompt": "A hand placing the glass lid back on a skillet containing one chicken breast, a thermometer lying on the countertop beside the stove. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-6-5.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "If it's below 165, cover the pan, and cook for a minute or two more, then check again.",
+          "wordStart": 52,
+          "focus": [
+            0.45,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-6",
+          "query": "thermometer chicken breast",
+          "prompt": "A knife cut gaping open in the middle of a chicken breast in a skillet, clear juices running out into the pan, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-6-6.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Cutting into it to look is not reliable, and it lets the juices escape.",
+          "wordStart": 70,
+          "focus": [
+            0.5,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-6",
+          "query": "thermometer chicken breast",
+          "prompt": "A thermometer probe inserted into the second of two chicken breasts in a skillet, the first one already on a plate beside the stove. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-6-7.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Check a second breast as well if you are cooking several, because they never finish at exactly the same time.",
+          "wordStart": 84,
+          "focus": [
+            0.55,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    },
+    "step-7": {
+      "key": "step-7",
+      "query": "slicing chicken breast",
+      "prompt": "Two golden cooked chicken breasts resting untouched on a clean light wood board, a mechanical kitchen timer with a blank face beside them. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-7-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step seven. Move the chicken to a clean board or plate, and let it rest for five to ten minutes.",
+      "wordStart": 0,
+      "focus": [
+        0.45,
+        0.65
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-7",
+          "query": "slicing chicken breast",
+          "prompt": "Two golden cooked chicken breasts resting untouched on a clean light wood board, a mechanical kitchen timer with a blank face beside them. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-7-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Step seven. Move the chicken to a clean board or plate, and let it rest for five to ten minutes.",
+          "wordStart": 0,
+          "focus": [
+            0.45,
+            0.65
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-7",
+          "query": "slicing chicken breast",
+          "prompt": "Close-up of a whole golden chicken breast resting on a board, its surface glistening and moist, no juices on the board. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-7-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "The juices relax and spread back through the meat, instead of running out when you cut.",
+          "wordStart": 20,
+          "focus": [
+            0.5,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-7",
+          "query": "slicing chicken breast",
+          "prompt": "A hand draping a loose tent of aluminium foil over two cooked chicken breasts resting on a board. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-7-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Cover loosely with foil if your kitchen is cool.",
+          "wordStart": 36,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-7",
+          "query": "slicing chicken breast",
+          "prompt": "A chef's knife slicing a cooked chicken breast across its width into even thick slices on a board, the interior white and visibly juicy, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-7-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Then slice across the grain, in slices about half an inch thick.",
+          "wordStart": 45,
+          "focus": [
+            0.6,
+            0.65
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-7",
+          "query": "slicing chicken breast",
+          "prompt": "A fresh green salad in a white bowl topped with slices of golden chicken breast, seen from above, bright and appetizing. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-7-5.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Serve in a salad, a sandwich or with vegetables.",
+          "wordStart": 57,
+          "focus": [
+            0.5,
+            0.65
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-7",
+          "query": "slicing chicken breast",
+          "prompt": "A hand placing a glass container of sliced cooked chicken with its lid into a tidy refrigerator. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-7-6.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Store leftovers in the fridge within two hours, and eat within three to four days.",
+          "wordStart": 66,
+          "focus": [
+            0.55,
+            0.45
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-7",
+          "query": "slicing chicken breast",
+          "prompt": "A wheat wrap being rolled by two hands around slices of chicken breast, lettuce and tomato on a board, a lunch box beside it. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-7-7.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Try the sliced chicken over a salad or inside a wrap for an easy lunch the next day.",
+          "wordStart": 81,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    },
+    "step-8": {
+      "key": "step-8",
+      "query": "shredded chicken breast bowl",
+      "prompt": "A slice of slightly dry, fibrous cooked chicken breast held up on a fork above a plate, a pan of broth in the background. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-8-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "If the chicken came out dry, you can still save dinner.",
+      "wordStart": 0,
+      "focus": [
+        0.5,
+        0.6
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-8",
+          "query": "shredded chicken breast bowl",
+          "prompt": "A slice of slightly dry, fibrous cooked chicken breast held up on a fork above a plate, a pan of broth in the background. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-8-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "If the chicken came out dry, you can still save dinner.",
+          "wordStart": 0,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-8",
+          "query": "shredded chicken breast bowl",
+          "prompt": "Thin slices of chicken breast warming in a small saucepan of golden broth on a low flame, a ladle resting in the pan. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-8-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Slice it thinly, and warm it for a minute in broth.",
+          "wordStart": 11,
+          "focus": [
+            0.55,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-8",
+          "query": "shredded chicken breast bowl",
+          "prompt": "Two forks shredding a cooked chicken breast into strands on a board, soft corn tortillas and a bowl of soup nearby. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-8-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "You can also shred it for tacos or soup.",
+          "wordStart": 22,
+          "focus": [
+            0.45,
+            0.65
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-8",
+          "query": "shredded chicken breast bowl",
+          "prompt": "A cooked chicken breast cut open on a board showing a slightly pink centre, a hand holding a thermometer next to it, undecided. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-8-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "If the center is pink, do not guess.",
+          "wordStart": 31,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-8",
+          "query": "shredded chicken breast bowl",
+          "prompt": "Two cut chicken breast halves side by side on a board, one faintly pink inside and one white, a thermometer probe lying between them. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-8-5.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Pink can be safe, and white can be raw, so trust only the thermometer.",
+          "wordStart": 39,
+          "focus": [
+            0.5,
+            0.65
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-8",
+          "query": "shredded chicken breast bowl",
+          "prompt": "Tongs returning a cut chicken breast to a stainless steel skillet on a lit burner, a thermometer in the other hand. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-8-6.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "If it reads below 165 degrees Fahrenheit, return it to the pan.",
+          "wordStart": 53,
+          "focus": [
+            0.5,
+            0.65
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    },
+    "step-9": {
+      "key": "step-9",
+      "query": "meat thermometer ice water glass",
+      "prompt": "A digital probe meat thermometer with a blank screen lying on a clean light wood countertop, a hand reaching for it. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-9-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "A thermometer is only useful if it is accurate.",
+      "wordStart": 0,
+      "focus": [
+        0.65,
+        0.6
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-9",
+          "query": "meat thermometer ice water glass",
+          "prompt": "A digital probe meat thermometer with a blank screen lying on a clean light wood countertop, a hand reaching for it. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-9-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "A thermometer is only useful if it is accurate.",
+          "wordStart": 0,
+          "focus": [
+            0.65,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-9",
+          "query": "meat thermometer ice water glass",
+          "prompt": "A thermometer probe standing in a tall glass filled with ice cubes and water, a hand holding the thermometer upright, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-9-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Test it in a glass of ice water: it should read 32 degrees Fahrenheit, or 0 Celsius.",
+          "wordStart": 9,
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "notes": [
+            {
+              "type": "arrow",
+              "at": [
+                0.5,
+                0.55
+              ],
+              "text": "Ice water",
+              "label": [
+                0.2,
+                0.3
+              ],
+              "on": "ice"
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-9",
+          "query": "meat thermometer ice water glass",
+          "prompt": "A hand holding a simple dial meat thermometer and adjusting the small nut under its dial with a little wrench, a glass of ice water beside it. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-9-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "If it is off by a few degrees, adjust it if you can, or replace it.",
+          "wordStart": 26,
+          "focus": [
+            0.55,
+            0.45
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-9",
+          "query": "meat thermometer ice water glass",
+          "prompt": "Side view close-up of a thermometer probe sliding horizontally into the thickest part of a cooked chicken breast held with tongs above the pan. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-9-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Slide the tip into the thickest part, away from the pan.",
+          "wordStart": 42,
+          "focus": [
+            0.6,
+            0.5
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-9",
+          "query": "meat thermometer ice water glass",
+          "prompt": "A hand holding a thermometer perfectly still in a chicken breast on a plate, a patient waiting gesture, blank screen. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-9-5.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Wait until the number stops moving.",
+          "wordStart": 53,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-9",
+          "query": "meat thermometer ice water glass",
+          "prompt": "A hand washing the metal probe of a thermometer with a soapy sponge under hot running water at a sink. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-9-6.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Wash the probe with hot soapy water after each use.",
+          "wordStart": 59,
+          "focus": [
+            0.6,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    },
+    "step-10": {
+      "key": "step-10",
+      "query": "chicken leftovers glass container fridge",
+      "prompt": "Slices of cooked chicken breast spread in a single layer in a shallow glass container on the countertop, a hand holding the lid ready. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-10-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Spread the chicken in a shallow container so it cools quickly, then cover it and refrigerate.",
+      "wordStart": 0,
+      "focus": [
+        0.5,
+        0.6
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-10",
+          "query": "chicken leftovers glass container fridge",
+          "prompt": "Slices of cooked chicken breast spread in a single layer in a shallow glass container on the countertop, a hand holding the lid ready. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-10-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Spread the chicken in a shallow container so it cools quickly, then cover it and refrigerate.",
+          "wordStart": 0,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-10",
+          "query": "chicken leftovers glass container fridge",
+          "prompt": "A frosted freezer bag of cooked chicken slices being placed on a plate on the lower shelf of a refrigerator to thaw. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-10-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "For longer storage, freeze it, and thaw it overnight in the fridge, never on the counter.",
+          "wordStart": 16,
+          "focus": [
+            0.55,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-10",
+          "query": "chicken leftovers glass container fridge",
+          "prompt": "A plate of reheated chicken slices with clear steam rising from them, a thermometer probe inserted in one slice. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-10-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Reheat leftovers until they are steaming hot all the way through, or 165 degrees Fahrenheit again.",
+          "wordStart": 32,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": null,
+          "fx": [
+            {
+              "type": "steam",
+              "at": [
+                0.5,
+                0.35
+              ],
+              "size": 1
+            }
+          ],
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-10",
+          "query": "chicken leftovers glass container fridge",
+          "prompt": "A hand pouring a small splash of broth over chicken slices in a glass dish, a lid ready to cover it, close-up. Photorealistic photograph for a home cooking how-to video. Bright, tidy kitchen, light wood countertop, a gas stovetop, a stainless steel skillet with a glass lid, soft daylight. Adult hands, rolled-up sleeves of a dark green cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-12-07-cook-chicken-breast-juicy/images/step-10-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Add a splash of water or broth, and cover the dish, so the meat stays tender.",
+          "wordStart": 48,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    }
+  },
+  "credits": []
+}

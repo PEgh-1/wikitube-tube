@@ -1,0 +1,4007 @@
+{
+  "episodeId": "2026-11-29-clean-glass-stovetop",
+  "version": 3,
+  "subject": [
+    "cooktop"
+  ],
+  "mock": false,
+  "provider": "pixabay",
+  "generatedAt": "2026-11-21T21:16:02.404Z",
+  "hero": {
+    "key": "hero",
+    "query": "clean glass cooktop kitchen",
+    "prompt": "A shiny black glass electric cooktop in a modern kitchen reflecting the light, with a microfiber cloth beside it, photorealistic, no text",
+    "file": "assets/2026-11-29-clean-glass-stovetop/images/hero.jpg",
+    "kind": "photo",
+    "width": 1920,
+    "height": 1080,
+    "provider": "gemini-web",
+    "credit": null
+  },
+  "steps": [
+    {
+      "key": "step-1",
+      "query": "empty glass cooktop cool",
+      "prompt": "A hand turning a black control knob of the cooktop to the off position, all four burner rings dark, front view. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-29-clean-glass-stovetop/images/step-1-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step one. Make sure all burners are off, and wait until the stovetop is completely cool.",
+      "wordStart": 0,
+      "focus": [
+        0.62,
+        0.62
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null
+    },
+    {
+      "key": "step-2",
+      "query": "wiping cooktop microfiber cloth",
+      "prompt": "A hand wiping a dry white microfiber cloth lightly across a black glass cooktop scattered with breadcrumbs and dust, a clean stripe behind the cloth. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-29-clean-glass-stovetop/images/step-2-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step two. Start with a dry or slightly damp microfiber cloth, and wipe away crumbs, dust and any loose food.",
+      "wordStart": 0,
+      "focus": [
+        0.6,
+        0.55
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null
+    },
+    {
+      "key": "step-3",
+      "query": "baking soda vinegar stove",
+      "prompt": "A hand sprinkling a generous layer of white baking soda from a small bowl over the brown burnt-on stains of a black glass cooktop, powder falling, close-up. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-29-clean-glass-stovetop/images/step-3-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step three. Sprinkle a generous layer of baking soda over the dirty areas, then spray it with white vinegar, or hot water, until it fizzes and forms a loose paste.",
+      "wordStart": 0,
+      "focus": [
+        0.5,
+        0.55
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null
+    },
+    {
+      "key": "step-4",
+      "query": "sponge wiping cooktop",
+      "prompt": "A hand peeling the damp white towel off a black glass cooktop, revealing grey softened baking soda paste over the stains underneath. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-29-clean-glass-stovetop/images/step-4-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step four. Remove the towel",
+      "wordStart": 0,
+      "focus": [
+        0.5,
+        0.55
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null
+    },
+    {
+      "key": "step-5",
+      "query": "razor scraper glass cooktop",
+      "prompt": "A hand squeezing a few drops of white cooktop cleaner cream from a plain white bottle onto a small black burnt-on spot on a black glass cooktop, close-up. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-29-clean-glass-stovetop/images/step-5-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step five. For burnt-on spots, apply a few drops of cooktop cleaner to the spot, and let it sit for a few minutes.",
+      "wordStart": 0,
+      "focus": [
+        0.42,
+        0.65
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null
+    },
+    {
+      "key": "step-6",
+      "query": "polishing glass cooktop",
+      "prompt": "A hand squeezing a small coin-sized dot of white cooktop cleaner cream onto the centre of a clean black glass cooktop, close-up. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-29-clean-glass-stovetop/images/step-6-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step six. Now put a small amount of cooktop cleaner cream on the glass, and rub it over the whole surface with a clean cloth or paper towel.",
+      "wordStart": 0,
+      "focus": [
+        0.48,
+        0.6
+      ],
+      "notes": [
+        {
+          "type": "arrow",
+          "at": [
+            0.49,
+            0.68
+          ],
+          "text": "A small amount",
+          "label": [
+            0.76,
+            0.3
+          ],
+          "on": "small"
+        }
+      ],
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null
+    },
+    {
+      "key": "step-7",
+      "query": "pan glass cooktop",
+      "prompt": "A sparkling clean black glass cooktop in a tidy kitchen, a folded microfiber cloth hanging on the oven handle below, wide front view. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-29-clean-glass-stovetop/images/step-7-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step seven. A few habits will make future cleaning faster.",
+      "wordStart": 0,
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null
+    },
+    {
+      "key": "step-8",
+      "query": "burnt stain glass cooktop",
+      "prompt": "Close-up of one last small dark burnt spot on an otherwise clean black glass cooktop, a soft sponge held back above it without touching. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-29-clean-glass-stovetop/images/step-8-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "If a spot survives the paste and the scraper, do not scrub harder.",
+      "wordStart": 0,
+      "focus": [
+        0.4,
+        0.6
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null
+    },
+    {
+      "key": "step-9",
+      "query": "appliance repair technician kitchen",
+      "prompt": "A thin hairline crack running across the corner of a black glass cooktop, catching the light, close-up, no hands. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-29-clean-glass-stovetop/images/step-9-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Cleaning cannot fix damaged glass.",
+      "wordStart": 0,
+      "focus": [
+        0.3,
+        0.65
+      ],
+      "notes": [
+        {
+          "type": "arrow",
+          "at": [
+            0.28,
+            0.65
+          ],
+          "text": "Damaged glass",
+          "label": [
+            0.7,
+            0.25
+          ],
+          "on": "damaged"
+        }
+      ],
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null
+    },
+    {
+      "key": "step-10",
+      "query": "flat bottom pan cooktop",
+      "prompt": "The underside of a stainless steel saucepan held up by a hand, a few grains of salt stuck to its bottom, the black glass cooktop below. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-29-clean-glass-stovetop/images/step-10-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Most scratches come from things under the pans, not from cleaning.",
+      "wordStart": 0,
+      "focus": [
+        0.45,
+        0.4
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null
+    }
+  ],
+  "stepShots": [
+    [
+      {
+        "key": "step-1",
+        "query": "empty glass cooktop cool",
+        "prompt": "A hand turning a black control knob of the cooktop to the off position, all four burner rings dark, front view. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-1-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Step one. Make sure all burners are off, and wait until the stovetop is completely cool.",
+        "wordStart": 0,
+        "focus": [
+          0.62,
+          0.62
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-1",
+        "query": "empty glass cooktop cool",
+        "prompt": "Close-up of a small red indicator light glowing at the front edge of the black glass cooktop, the burner ring beside it dark. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-1-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Many cooktops have a hot-surface light that stays on until the glass is safe to touch.",
+        "wordStart": 16,
+        "focus": [
+          0.66,
+          0.72
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.66,
+              0.74
+            ],
+            "r": 0.07,
+            "text": "Hot-surface light",
+            "label": [
+              0.3,
+              0.35
+            ],
+            "on": "light"
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-1",
+        "query": "empty glass cooktop cool",
+        "prompt": "A hand held open a few inches above a black glass cooktop without touching it, checking for warmth, faint heat shimmer rising from one burner ring. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-1-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Cleaning a hot surface can burn you, and cold cleaner on hot glass can leave streaks, or even crack the surface in extreme cases.",
+        "wordStart": 32,
+        "focus": [
+          0.68,
+          0.48
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-1",
+        "query": "empty glass cooktop cool",
+        "prompt": "Two hands lifting a stainless steel saucepan and a striped pot holder off the black glass cooktop, a wooden spoon already set aside on the countertop. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-1-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Take any pans, pot holders and utensils off the top.",
+        "wordStart": 56,
+        "focus": [
+          0.55,
+          0.5
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-1",
+        "query": "empty glass cooktop cool",
+        "prompt": "A hand pushing open a kitchen window above the countertop, bright daylight coming in, the black glass cooktop in the foreground. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-1-5.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "This is also a good time to open a window and tie back long hair.",
+        "wordStart": 66,
+        "focus": [
+          0.6,
+          0.35
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-1",
+        "query": "empty glass cooktop cool",
+        "prompt": "A mechanical kitchen timer with a blank face standing on the light wood countertop beside the cooled black glass cooktop, calm mood. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-1-6.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Never rush this stage, because a few extra minutes of waiting makes the whole job much safer and easier.",
+        "wordStart": 81,
+        "focus": [
+          0.45,
+          0.5
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": [
+          "safer"
+        ],
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ],
+    [
+      {
+        "key": "step-2",
+        "query": "wiping cooktop microfiber cloth",
+        "prompt": "A hand wiping a dry white microfiber cloth lightly across a black glass cooktop scattered with breadcrumbs and dust, a clean stripe behind the cloth. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-2-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Step two. Start with a dry or slightly damp microfiber cloth, and wipe away crumbs, dust and any loose food.",
+        "wordStart": 0,
+        "focus": [
+          0.6,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-2",
+        "query": "wiping cooktop microfiber cloth",
+        "prompt": "Close-up of a single hard dark crumb on a black glass cooktop with a fingertip hovering above it, shallow depth of field. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-2-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Don't push the debris around with pressure, because a hard crumb dragged across the glass can scratch it.",
+        "wordStart": 20,
+        "focus": [
+          0.48,
+          0.62
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-2",
+        "query": "wiping cooktop microfiber cloth",
+        "prompt": "A hand sweeping breadcrumbs off the edge of the black glass cooktop into the cupped palm of the other hand, side view. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-2-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Lift it, or sweep it into your hand.",
+        "wordStart": 38,
+        "focus": [
+          0.52,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-2",
+        "query": "wiping cooktop microfiber cloth",
+        "prompt": "A black glass cooktop free of crumbs but still showing three brown burnt-on rings and cloudy streaks around the burner zones, seen from above. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-2-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Removing this loose layer first means your cleaner can focus on the stuck-on stains.",
+        "wordStart": 46,
+        "focus": [
+          0.5,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-2",
+        "query": "wiping cooktop microfiber cloth",
+        "prompt": "Close-up of the edge of a black glass cooktop where it meets the wood countertop, small food bits hiding along the seam, a fingertip pointing at them. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-2-5.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Check around the edges and the burner rings, where food tends to hide.",
+        "wordStart": 60,
+        "focus": [
+          0.72,
+          0.6
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.72,
+              0.62
+            ],
+            "text": "Check the edges",
+            "label": [
+              0.3,
+              0.3
+            ],
+            "on": "edges"
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-2",
+        "query": "wiping cooktop microfiber cloth",
+        "prompt": "A fingertip pressing a touch control at the front of a black glass cooktop, a small glowing key-shaped lock light next to it. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-2-6.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "If your stove has a control lock, activate it, so nobody switches on a burner by accident while you clean.",
+        "wordStart": 73,
+        "focus": [
+          0.5,
+          0.65
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.53,
+              0.72
+            ],
+            "r": 0.07,
+            "text": "Control lock",
+            "label": [
+              0.25,
+              0.3
+            ],
+            "on": "lock"
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ],
+    [
+      {
+        "key": "step-3",
+        "query": "baking soda vinegar stove",
+        "prompt": "A hand sprinkling a generous layer of white baking soda from a small bowl over the brown burnt-on stains of a black glass cooktop, powder falling, close-up. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-3-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Step three. Sprinkle a generous layer of baking soda over the dirty areas, then spray it with white vinegar, or hot water, until it fizzes and forms a loose paste.",
+        "wordStart": 0,
+        "focus": [
+          0.5,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-3",
+        "query": "baking soda vinegar stove",
+        "prompt": "A hand spraying white vinegar from a clear spray bottle onto baking soda on a black glass cooktop, the powder fizzing with small white bubbles into a loose paste, close-up. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-3-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Baking soda is a very mild abrasive, so it won't hurt the glass, while the fizzing helps loosen residue.",
+        "wordStart": 30,
+        "focus": [
+          0.4,
+          0.6
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.33,
+              0.62
+            ],
+            "text": "It fizzes",
+            "label": [
+              0.2,
+              0.25
+            ],
+            "on": "fizzing"
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-3",
+        "query": "baking soda vinegar stove",
+        "prompt": "Two hands wringing out a steaming hot wet white cotton towel over a stainless steel kitchen sink, drops of water falling. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-3-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Soak a clean towel in hot water, wring it out and lay it over the area for fifteen to twenty minutes.",
+        "wordStart": 49,
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "notes": null,
+        "fx": [
+          {
+            "type": "steam",
+            "at": [
+              0.45,
+              0.25
+            ],
+            "size": 1
+          }
+        ],
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-3",
+        "query": "baking soda vinegar stove",
+        "prompt": "A warm damp white towel laid flat over the front half of a black glass cooktop, covering the baking soda paste, light steam rising from it. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-3-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "The warm moisture softens burnt-on food, so you won't need force later.",
+        "wordStart": 70,
+        "focus": [
+          0.45,
+          0.6
+        ],
+        "notes": null,
+        "fx": [
+          {
+            "type": "steam",
+            "at": [
+              0.45,
+              0.5
+            ],
+            "size": 1
+          }
+        ],
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-3",
+        "query": "baking soda vinegar stove",
+        "prompt": "A hand lifting a corner of the damp white towel on the cooktop while the other hand holds a fresh steaming towel ready to replace it. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-3-5.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "If the towel cools down, replace it with a fresh hot one.",
+        "wordStart": 82,
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-3",
+        "query": "baking soda vinegar stove",
+        "prompt": "The damp white towel resting on the black glass cooktop with a mechanical kitchen timer with a blank face on the countertop beside it, quiet kitchen. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-3-6.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "The longer the stain stays damp and warm, the easier it comes off.",
+        "wordStart": 94,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ],
+    [
+      {
+        "key": "step-4",
+        "query": "sponge wiping cooktop",
+        "prompt": "A hand peeling the damp white towel off a black glass cooktop, revealing grey softened baking soda paste over the stains underneath. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-4-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Step four. Remove the towel",
+        "wordStart": 0,
+        "focus": [
+          0.5,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-4",
+        "query": "sponge wiping cooktop",
+        "prompt": "A hand wiping baking soda paste off a black glass cooktop in gentle circles with a grey microfiber cloth, a clean glossy arc appearing, close-up. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-4-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "and use a microfiber cloth or a soft sponge to wipe the paste away in gentle circles.",
+        "wordStart": 5,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-4",
+        "query": "sponge wiping cooktop",
+        "prompt": "A hand rinsing a grey microfiber cloth under warm running water in a stainless steel sink, cloudy water running off it. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-4-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Rinse your cloth often in warm water so you don't spread dirt around.",
+        "wordStart": 22,
+        "focus": [
+          0.55,
+          0.5
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-4",
+        "query": "sponge wiping cooktop",
+        "prompt": "Close-up of brown residue lifting off black glass onto a white microfiber cloth, the cloth stained brown, the glass shiny where it has passed. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-4-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "For general grime, you will see the residue lifting easily now.",
+        "wordStart": 35,
+        "focus": [
+          0.45,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-4",
+        "query": "sponge wiping cooktop",
+        "prompt": "A hand wiping the whole surface of a black glass cooktop with a clean damp white cloth in one long stroke, the last white traces of baking soda disappearing. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-4-5.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Wipe the whole surface down with a clean damp cloth to remove all the baking soda.",
+        "wordStart": 46,
+        "focus": [
+          0.42,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-4",
+        "query": "sponge wiping cooktop",
+        "prompt": "A nearly clean black glass cooktop with one small stubborn black burnt patch remaining near a burner ring, a fingertip pointing at it. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-4-6.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "If any burnt patches remain, move on to the next step instead of scrubbing harder.",
+        "wordStart": 62,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": [
+          {
+            "type": "circle",
+            "at": [
+              0.5,
+              0.63
+            ],
+            "r": 0.08,
+            "text": "Still stuck?",
+            "label": [
+              0.25,
+              0.3
+            ],
+            "on": "patches"
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-4",
+        "query": "sponge wiping cooktop",
+        "prompt": "A hand resting lightly with a soft yellow sponge on a black glass cooktop, relaxed open fingers, no pressure, beside one small burnt spot. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-4-7.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Resist the urge to press hard. If a spot refuses to move, the right answer is more time, not more force.",
+        "wordStart": 77,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": [
+          "time"
+        ],
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ],
+    [
+      {
+        "key": "step-5",
+        "query": "razor scraper glass cooktop",
+        "prompt": "A hand squeezing a few drops of white cooktop cleaner cream from a plain white bottle onto a small black burnt-on spot on a black glass cooktop, close-up. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-5-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Step five. For burnt-on spots, apply a few drops of cooktop cleaner to the spot, and let it sit for a few minutes.",
+        "wordStart": 0,
+        "focus": [
+          0.42,
+          0.65
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-5",
+        "query": "razor scraper glass cooktop",
+        "prompt": "Side view close-up of a razor scraper with a black handle held at a low shallow angle on a black glass cooktop, the full width of the blade flat on the glass, pushing a curl of burnt residue ahead of it. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-5-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Hold a razor scraper at a shallow angle, about thirty to forty-five degrees, and push it gently across the spot with light, even pressure, always keeping the blade flat on the glass.",
+        "wordStart": 23,
+        "focus": [
+          0.5,
+          0.62
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.6,
+              0.66
+            ],
+            "text": "Blade flat on the glass",
+            "label": [
+              0.3,
+              0.3
+            ],
+            "on": "flat"
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-5",
+        "query": "razor scraper glass cooktop",
+        "prompt": "Close-up of a razor scraper blade with a visible chipped nick in its edge held up to the light between two fingers, the black glass cooktop blurred behind. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-5-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Never scrape with the corner, and never use a worn or damaged blade.",
+        "wordStart": 55,
+        "focus": [
+          0.5,
+          0.45
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-5",
+        "query": "razor scraper glass cooktop",
+        "prompt": "A hand wiping scraped black flakes off a black glass cooktop with a folded paper towel, the razor scraper lying flat on the countertop beside it. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-5-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Wipe off the residue as you go.",
+        "wordStart": 68,
+        "focus": [
+          0.55,
+          0.65
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-5",
+        "query": "razor scraper glass cooktop",
+        "prompt": "A hand wearing a grey work glove holding a razor scraper on a black glass cooktop, all fingers kept behind the blade, close-up from above. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-5-5.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Wear a glove, and keep your fingers behind the blade.",
+        "wordStart": 75,
+        "focus": [
+          0.4,
+          0.65
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.38,
+              0.72
+            ],
+            "text": "Fingers behind the blade",
+            "label": [
+              0.72,
+              0.25
+            ],
+            "on": "fingers"
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-5",
+        "query": "razor scraper glass cooktop",
+        "prompt": "A new razor scraper for glass cooktops with a spare blade in a small clear case, laid on the light wood countertop next to the black glass cooktop, seen from above. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-5-6.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Always check that the scraper is designed for glass cooktops, and replace the blade when it gets dull or chipped.",
+        "wordStart": 85,
+        "focus": [
+          0.75,
+          0.45
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ],
+    [
+      {
+        "key": "step-6",
+        "query": "polishing glass cooktop",
+        "prompt": "A hand squeezing a small coin-sized dot of white cooktop cleaner cream onto the centre of a clean black glass cooktop, close-up. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-6-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Step six. Now put a small amount of cooktop cleaner cream on the glass, and rub it over the whole surface with a clean cloth or paper towel.",
+        "wordStart": 0,
+        "focus": [
+          0.48,
+          0.6
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.49,
+              0.68
+            ],
+            "text": "A small amount",
+            "label": [
+              0.76,
+              0.3
+            ],
+            "on": "small"
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-6",
+        "query": "polishing glass cooktop",
+        "prompt": "A hand rubbing white cleaner cream across a black glass cooktop with a white cloth, a thin milky film spreading over the surface. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-6-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "This cream cleans lightly, removes the film left by earlier cleaning, and leaves a protective layer.",
+        "wordStart": 28,
+        "focus": [
+          0.45,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-6",
+        "query": "polishing glass cooktop",
+        "prompt": "A black glass cooktop covered with a thin dry whitish haze, a hand buffing it off in circles with a dry grey microfiber cloth, a mirror-like path appearing. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-6-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Let it dry to a light haze if the directions say so, and then buff it off with a dry microfiber cloth, using circular motions.",
+        "wordStart": 44,
+        "focus": [
+          0.3,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-6",
+        "query": "polishing glass cooktop",
+        "prompt": "A black glass cooktop with a clear streak-free shine reflecting the kitchen window, low angle view across the surface. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-6-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "You should see a clear, streak-free shine.",
+        "wordStart": 69,
+        "focus": [
+          0.45,
+          0.55
+        ],
+        "notes": null,
+        "fx": [
+          {
+            "type": "sparkle",
+            "at": [
+              0.42,
+              0.55
+            ],
+            "size": 1
+          }
+        ],
+        "punchOn": [
+          "shine"
+        ],
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-6",
+        "query": "polishing glass cooktop",
+        "prompt": "A tiny dot of white cleaner cream on a fingertip held above the shiny black glass cooktop, the cream bottle standing behind. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-6-5.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "A thin coat is enough.",
+        "wordStart": 76,
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-6",
+        "query": "polishing glass cooktop",
+        "prompt": "Low angle view across a black glass cooktop toward the bright window, the light raking over the surface and revealing one faint streak, a hand with a cloth approaching it. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-6-6.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Polish in the direction of the light, and you will spot any streaks instantly.",
+        "wordStart": 81,
+        "focus": [
+          0.45,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-6",
+        "query": "polishing glass cooktop",
+        "prompt": "A hand making a final pass with a dry white microfiber cloth over a gleaming black glass cooktop, bright highlights. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-6-7.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "A dry cloth finishes the job.",
+        "wordStart": 95,
+        "focus": [
+          0.4,
+          0.6
+        ],
+        "notes": null,
+        "fx": [
+          {
+            "type": "sparkle",
+            "at": [
+              0.42,
+              0.55
+            ],
+            "size": 1
+          }
+        ],
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ],
+    [
+      {
+        "key": "step-7",
+        "query": "pan glass cooktop",
+        "prompt": "A sparkling clean black glass cooktop in a tidy kitchen, a folded microfiber cloth hanging on the oven handle below, wide front view. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-7-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Step seven. A few habits will make future cleaning faster.",
+        "wordStart": 0,
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-7",
+        "query": "pan glass cooktop",
+        "prompt": "A hand wiping up a small fresh splash of tomato sauce from a cool black glass cooktop with a damp white cloth. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-7-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Wipe up spills as soon as the surface is cool.",
+        "wordStart": 10,
+        "focus": [
+          0.45,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-7",
+        "query": "pan glass cooktop",
+        "prompt": "A small puddle of golden sugary syrup spilled on a black glass cooktop next to a small saucepan of jam, a hand with a damp cloth reaching for it, close-up. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-7-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Take extra care with sugary spills, which can pit the glass if left to harden, and follow the manufacturer's advice.",
+        "wordStart": 20,
+        "focus": [
+          0.45,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-7",
+        "query": "pan glass cooktop",
+        "prompt": "Two hands lifting a stainless steel saucepan with a perfectly flat bottom straight up off a burner ring of a black glass cooktop, the pan the same size as the ring. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-7-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Use flat-bottomed cookware that matches the burner size, lift pans instead of sliding them, and check that the bottom is clean and dry before use.",
+        "wordStart": 40,
+        "focus": [
+          0.45,
+          0.5
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-7",
+        "query": "pan glass cooktop",
+        "prompt": "A hand giving a quick wipe to a black glass cooktop with a white cloth right after cooking, a plate of pasta on the countertop beside it. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-7-5.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Give your stovetop a quick wipe after cooking, and a full cleaning once a week.",
+        "wordStart": 65,
+        "focus": [
+          0.45,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-7",
+        "query": "pan glass cooktop",
+        "prompt": "A hand wiping a shiny black glass cooktop with a cloth, a mechanical kitchen timer with a blank face on the countertop, easy relaxed mood. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-7-6.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Following these habits, your weekly cleaning will take only five minutes.",
+        "wordStart": 80,
+        "focus": [
+          0.45,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-7",
+        "query": "pan glass cooktop",
+        "prompt": "A flawless black glass cooktop gleaming in warm daylight, a small vase of green herbs on the countertop beside it, three-quarter view. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-7-7.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Easy, and your glass will last for years.",
+        "wordStart": 91,
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "notes": null,
+        "fx": [
+          {
+            "type": "sparkle",
+            "at": [
+              0.42,
+              0.55
+            ],
+            "size": 1
+          }
+        ],
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ],
+    [
+      {
+        "key": "step-8",
+        "query": "burnt stain glass cooktop",
+        "prompt": "Close-up of one last small dark burnt spot on an otherwise clean black glass cooktop, a soft sponge held back above it without touching. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-8-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "If a spot survives the paste and the scraper, do not scrub harder.",
+        "wordStart": 0,
+        "focus": [
+          0.4,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-8",
+        "query": "burnt stain glass cooktop",
+        "prompt": "A hardened amber blob of melted sugar and a small warped piece of melted blue plastic stuck on a black glass cooktop, close-up, no hands. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-8-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Melted sugar and plastic are special cases, because they can pit the glass as they cool.",
+        "wordStart": 13,
+        "focus": [
+          0.6,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-8",
+        "query": "burnt stain glass cooktop",
+        "prompt": "A hand in a thick grey oven glove holding a razor scraper flat against a blob of melted sugar on a black glass cooktop, an open plain appliance manual with blurred unreadable pages on the countertop. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-8-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Many manufacturers say to scrape them off while the surface is still warm, so check your manual first.",
+        "wordStart": 29,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-8",
+        "query": "burnt stain glass cooktop",
+        "prompt": "A faint whitish rainbow-tinted film on part of a black glass cooktop, a hand wiping it away with a cloth and a dot of white cream, the wiped part deep black. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-8-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "A white or rainbow haze that wipes clean is usually mineral film, and cooktop cream removes it.",
+        "wordStart": 47,
+        "focus": [
+          0.4,
+          0.6
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.35,
+              0.74
+            ],
+            "text": "Mineral film",
+            "label": [
+              0.2,
+              0.25
+            ],
+            "on": "haze"
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ],
+    [
+      {
+        "key": "step-9",
+        "query": "appliance repair technician kitchen",
+        "prompt": "A thin hairline crack running across the corner of a black glass cooktop, catching the light, close-up, no hands. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-9-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Cleaning cannot fix damaged glass.",
+        "wordStart": 0,
+        "focus": [
+          0.3,
+          0.65
+        ],
+        "notes": [
+          {
+            "type": "arrow",
+            "at": [
+              0.28,
+              0.65
+            ],
+            "text": "Damaged glass",
+            "label": [
+              0.7,
+              0.25
+            ],
+            "on": "damaged"
+          }
+        ],
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-9",
+        "query": "appliance repair technician kitchen",
+        "prompt": "A hand turning a cooktop control knob to off next to a visible hairline crack in the black glass, close-up. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-9-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "If you see a crack, even a hairline one, stop using the cooktop.",
+        "wordStart": 5,
+        "focus": [
+          0.55,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-9",
+        "query": "appliance repair technician kitchen",
+        "prompt": "Cutaway-style close-up of a cracked black glass cooktop edge with a drop of liquid sitting on the crack, a glimpse of metal heating coils in the dark underneath. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-9-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Spills can reach the electrical parts underneath, and the glass can break further when it heats up.",
+        "wordStart": 18,
+        "focus": [
+          0.55,
+          0.5
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-9",
+        "query": "appliance repair technician kitchen",
+        "prompt": "A hand flipping a single switch down in a grey household circuit breaker panel on a white wall, the switches unlabeled. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-9-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Switch it off at the circuit breaker and call an appliance technician.",
+        "wordStart": 35,
+        "focus": [
+          0.38,
+          0.4
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-9",
+        "query": "appliance repair technician kitchen",
+        "prompt": "Close-up of a few shallow pale scratches on a black glass cooktop seen in raking light, a fingertip running over them. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-9-5.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Deep scratches cannot be buffed out, but they are usually only cosmetic.",
+        "wordStart": 47,
+        "focus": [
+          0.45,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-9",
+        "query": "appliance repair technician kitchen",
+        "prompt": "An appliance technician's hands in dark work gloves inspecting a black glass cooktop with a small flashlight, a tool bag on the countertop, no face visible. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-9-6.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Have the technician check the unit before you use it again.",
+        "wordStart": 59,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ],
+    [
+      {
+        "key": "step-10",
+        "query": "flat bottom pan cooktop",
+        "prompt": "The underside of a stainless steel saucepan held up by a hand, a few grains of salt stuck to its bottom, the black glass cooktop below. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-10-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Most scratches come from things under the pans, not from cleaning.",
+        "wordStart": 0,
+        "focus": [
+          0.45,
+          0.4
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-10",
+        "query": "flat bottom pan cooktop",
+        "prompt": "Extreme close-up of grains of coarse salt and a few rice grains on a black glass cooktop right beside the edge of a pan bottom. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-10-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Grains of salt, sugar or rice trapped beneath a pot grind into the glass when it moves.",
+        "wordStart": 11,
+        "focus": [
+          0.45,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-10",
+        "query": "flat bottom pan cooktop",
+        "prompt": "A hand wiping the flat bottom of a stainless steel saucepan with a dry cloth above a black glass cooktop. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-10-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Wipe the bottom of each pan before it goes on.",
+        "wordStart": 28,
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-10",
+        "query": "flat bottom pan cooktop",
+        "prompt": "A black glass cooktop wrongly used as counter space, crowded with tin cans, a grocery bag and a heavy glass lid, a hand lifting one can away. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-10-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Do not use the cooktop as extra counter space, and do not drop cans or heavy lids on it.",
+        "wordStart": 38,
+        "focus": [
+          0.45,
+          0.55
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      {
+        "key": "step-10",
+        "query": "flat bottom pan cooktop",
+        "prompt": "Two hands lifting a heavy black cast iron skillet with a rough bottom straight up off a black glass cooktop, a small gap of air visible under the pan, side view. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-11-29-clean-glass-stovetop/images/step-10-5.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Rough cast iron bottoms scratch easily, so lift them instead of dragging them.",
+        "wordStart": 57,
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      }
+    ]
+  ],
+  "introExtras": {
+    "pose": "idea",
+    "diagram": "glass-cooktop",
+    "title": "Why glass stovetops scratch",
+    "mode": "bake",
+    "chips": [
+      {
+        "on": "scratches",
+        "label": "One wrong scrub",
+        "sub": "scratches forever",
+        "mode": "steep"
+      },
+      {
+        "on": "soften",
+        "label": "Soften first",
+        "sub": "paste and a warm towel",
+        "mode": "soften"
+      },
+      {
+        "on": "scrape",
+        "label": "Scrape last",
+        "sub": "only when you must",
+        "mode": "scrape"
+      },
+      {
+        "on": "bakes",
+        "label": "Heat bakes spills",
+        "sub": "onto the glass",
+        "mode": "bake"
+      },
+      {
+        "on": "hour",
+        "label": "About 30 minutes",
+        "sub": "mostly waiting",
+        "mode": "polish"
+      }
+    ],
+    "gags": []
+  },
+  "shortShots": [
+    "3-2",
+    "4-2",
+    "6-3"
+  ],
+  "short2Files": {
+    "short2-hook.jpg": {
+      "key": "short2-hook.jpg",
+      "kind": "photo",
+      "width": 1080,
+      "height": 1920,
+      "provider": "gemini-web",
+      "file": "assets/2026-11-29-clean-glass-stovetop/images/short2-hook.jpg",
+      "focus": null
+    }
+  },
+  "stepExtras": [
+    {
+      "ticks": [],
+      "facts": [],
+      "cards": [
+        {
+          "shot": 3,
+          "on": "crack",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Cold cleaner on hot glass can leave streaks, or even crack it.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [
+        {
+          "shot": 6,
+          "on": "rush",
+          "pose": "watch",
+          "side": "left",
+          "dur": 2.8
+        }
+      ],
+      "diagrams": []
+    },
+    {
+      "ticks": [
+        {
+          "shot": 1,
+          "on": "microfiber",
+          "label": "Microfiber cloth"
+        }
+      ],
+      "facts": [],
+      "cards": [
+        {
+          "shot": 2,
+          "on": "scratch",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "A hard crumb dragged across the glass can scratch it.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [
+        {
+          "shot": 3,
+          "on": "sweep",
+          "pose": "thumbs",
+          "side": "left",
+          "dur": 2.8
+        }
+      ],
+      "diagrams": []
+    },
+    {
+      "ticks": [
+        {
+          "shot": 1,
+          "on": "soda",
+          "label": "Baking soda"
+        },
+        {
+          "shot": 1,
+          "on": "vinegar",
+          "label": "White vinegar"
+        }
+      ],
+      "facts": [
+        {
+          "shot": 3,
+          "on": "fifteen",
+          "kind": "timer",
+          "big": "15–20 min",
+          "small": "under a hot damp towel",
+          "dur": 4
+        }
+      ],
+      "cards": [
+        {
+          "shot": 2,
+          "on": "abrasive",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "Baking soda is a very mild abrasive, so it won't hurt the glass.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": [
+        {
+          "shot": 4,
+          "on": "moisture",
+          "name": "glass-cooktop",
+          "mode": "soften",
+          "title": "Soften first",
+          "dur": 4.6
+        }
+      ]
+    },
+    {
+      "ticks": [],
+      "facts": [],
+      "cards": [
+        {
+          "shot": 7,
+          "on": "force",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "If a spot refuses to move: more time, not more force.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [
+        {
+          "shot": 7,
+          "on": "press",
+          "pose": "no",
+          "side": "left",
+          "dur": 2.8
+        }
+      ],
+      "diagrams": []
+    },
+    {
+      "ticks": [
+        {
+          "shot": 1,
+          "on": "cleaner",
+          "label": "Cooktop cleaner"
+        },
+        {
+          "shot": 2,
+          "on": "scraper",
+          "label": "Razor scraper"
+        }
+      ],
+      "facts": [],
+      "cards": [],
+      "gags": [],
+      "diagrams": [
+        {
+          "shot": 2,
+          "on": "shallow",
+          "name": "glass-cooktop",
+          "mode": "scrape",
+          "title": "Blade flat and shallow",
+          "dur": 5.2
+        },
+        {
+          "shot": 3,
+          "on": "corner",
+          "name": "glass-cooktop",
+          "mode": "steep",
+          "title": "Never the corner",
+          "dur": 4.6
+        }
+      ]
+    },
+    {
+      "ticks": [],
+      "facts": [],
+      "cards": [],
+      "gags": [
+        {
+          "shot": 4,
+          "on": "shine",
+          "pose": "party",
+          "side": "left",
+          "dur": 2.8
+        }
+      ],
+      "diagrams": [
+        {
+          "shot": 2,
+          "on": "protective",
+          "name": "glass-cooktop",
+          "mode": "polish",
+          "title": "What the cream does",
+          "dur": 4.6
+        }
+      ]
+    },
+    {
+      "ticks": [],
+      "facts": [
+        {
+          "shot": 5,
+          "on": "week",
+          "kind": "timer",
+          "big": "Once a week",
+          "small": "full cleaning",
+          "dur": 4
+        },
+        {
+          "shot": 6,
+          "on": "five",
+          "kind": "timer",
+          "big": "5 min",
+          "small": "weekly cleaning",
+          "dur": 4
+        }
+      ],
+      "cards": [
+        {
+          "shot": 3,
+          "on": "sugary",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Sugary spills can pit the glass if left to harden.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [
+        {
+          "shot": 7,
+          "on": "years",
+          "pose": "thumbs",
+          "side": "left",
+          "dur": 2.8
+        }
+      ],
+      "diagrams": []
+    },
+    {
+      "ticks": [],
+      "facts": [],
+      "cards": [
+        {
+          "shot": 2,
+          "on": "pit",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Melted sugar and plastic can pit the glass as they cool.",
+          "dur": 4.4
+        },
+        {
+          "shot": 4,
+          "on": "haze",
+          "kind": "why",
+          "title": "Why it works",
+          "text": "A haze that wipes clean is usually mineral film.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": []
+    },
+    {
+      "ticks": [],
+      "facts": [],
+      "cards": [
+        {
+          "shot": 2,
+          "on": "crack",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "A crack, even a hairline one: stop using the cooktop.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [
+        {
+          "shot": 4,
+          "on": "breaker",
+          "pose": "panic",
+          "side": "left",
+          "dur": 2.8
+        }
+      ],
+      "diagrams": []
+    },
+    {
+      "ticks": [],
+      "facts": [],
+      "cards": [
+        {
+          "shot": 4,
+          "on": "counter",
+          "kind": "avoid",
+          "title": "Avoid",
+          "text": "Don't use the cooktop as extra counter space.",
+          "dur": 4.4
+        }
+      ],
+      "gags": [],
+      "diagrams": [
+        {
+          "shot": 2,
+          "on": "grind",
+          "name": "glass-cooktop",
+          "mode": "grit",
+          "title": "Why pans scratch",
+          "dur": 4.6
+        }
+      ]
+    }
+  ],
+  "youneed": {
+    "key": "youneed",
+    "kind": "photo",
+    "width": 1920,
+    "height": 1080,
+    "provider": "gemini-web",
+    "file": "assets/2026-11-29-clean-glass-stovetop/images/youneed.jpg",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  "mistakesSubtitle": "that scratch glass stovetops",
+  "mistakes": [
+    {
+      "key": "mistake-1",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "file": "assets/2026-11-29-clean-glass-stovetop/images/mistake-1.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "key": "mistake-2",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "file": "assets/2026-11-29-clean-glass-stovetop/images/mistake-2.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "key": "mistake-3",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "file": "assets/2026-11-29-clean-glass-stovetop/images/mistake-3.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ]
+    }
+  ],
+  "all": {
+    "hero": {
+      "key": "hero",
+      "query": "clean glass cooktop kitchen",
+      "prompt": "A shiny black glass electric cooktop in a modern kitchen reflecting the light, with a microfiber cloth beside it, photorealistic, no text",
+      "file": "assets/2026-11-29-clean-glass-stovetop/images/hero.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null
+    },
+    "step-1": {
+      "key": "step-1",
+      "query": "empty glass cooktop cool",
+      "prompt": "A hand turning a black control knob of the cooktop to the off position, all four burner rings dark, front view. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-29-clean-glass-stovetop/images/step-1-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step one. Make sure all burners are off, and wait until the stovetop is completely cool.",
+      "wordStart": 0,
+      "focus": [
+        0.62,
+        0.62
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-1",
+          "query": "empty glass cooktop cool",
+          "prompt": "A hand turning a black control knob of the cooktop to the off position, all four burner rings dark, front view. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-1-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Step one. Make sure all burners are off, and wait until the stovetop is completely cool.",
+          "wordStart": 0,
+          "focus": [
+            0.62,
+            0.62
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-1",
+          "query": "empty glass cooktop cool",
+          "prompt": "Close-up of a small red indicator light glowing at the front edge of the black glass cooktop, the burner ring beside it dark. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-1-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Many cooktops have a hot-surface light that stays on until the glass is safe to touch.",
+          "wordStart": 16,
+          "focus": [
+            0.66,
+            0.72
+          ],
+          "notes": [
+            {
+              "type": "circle",
+              "at": [
+                0.66,
+                0.74
+              ],
+              "r": 0.07,
+              "text": "Hot-surface light",
+              "label": [
+                0.3,
+                0.35
+              ],
+              "on": "light"
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-1",
+          "query": "empty glass cooktop cool",
+          "prompt": "A hand held open a few inches above a black glass cooktop without touching it, checking for warmth, faint heat shimmer rising from one burner ring. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-1-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Cleaning a hot surface can burn you, and cold cleaner on hot glass can leave streaks, or even crack the surface in extreme cases.",
+          "wordStart": 32,
+          "focus": [
+            0.68,
+            0.48
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-1",
+          "query": "empty glass cooktop cool",
+          "prompt": "Two hands lifting a stainless steel saucepan and a striped pot holder off the black glass cooktop, a wooden spoon already set aside on the countertop. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-1-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Take any pans, pot holders and utensils off the top.",
+          "wordStart": 56,
+          "focus": [
+            0.55,
+            0.5
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-1",
+          "query": "empty glass cooktop cool",
+          "prompt": "A hand pushing open a kitchen window above the countertop, bright daylight coming in, the black glass cooktop in the foreground. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-1-5.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "This is also a good time to open a window and tie back long hair.",
+          "wordStart": 66,
+          "focus": [
+            0.6,
+            0.35
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-1",
+          "query": "empty glass cooktop cool",
+          "prompt": "A mechanical kitchen timer with a blank face standing on the light wood countertop beside the cooled black glass cooktop, calm mood. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-1-6.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Never rush this stage, because a few extra minutes of waiting makes the whole job much safer and easier.",
+          "wordStart": 81,
+          "focus": [
+            0.45,
+            0.5
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": [
+            "safer"
+          ],
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    },
+    "step-2": {
+      "key": "step-2",
+      "query": "wiping cooktop microfiber cloth",
+      "prompt": "A hand wiping a dry white microfiber cloth lightly across a black glass cooktop scattered with breadcrumbs and dust, a clean stripe behind the cloth. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-29-clean-glass-stovetop/images/step-2-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step two. Start with a dry or slightly damp microfiber cloth, and wipe away crumbs, dust and any loose food.",
+      "wordStart": 0,
+      "focus": [
+        0.6,
+        0.55
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-2",
+          "query": "wiping cooktop microfiber cloth",
+          "prompt": "A hand wiping a dry white microfiber cloth lightly across a black glass cooktop scattered with breadcrumbs and dust, a clean stripe behind the cloth. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-2-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Step two. Start with a dry or slightly damp microfiber cloth, and wipe away crumbs, dust and any loose food.",
+          "wordStart": 0,
+          "focus": [
+            0.6,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-2",
+          "query": "wiping cooktop microfiber cloth",
+          "prompt": "Close-up of a single hard dark crumb on a black glass cooktop with a fingertip hovering above it, shallow depth of field. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-2-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Don't push the debris around with pressure, because a hard crumb dragged across the glass can scratch it.",
+          "wordStart": 20,
+          "focus": [
+            0.48,
+            0.62
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-2",
+          "query": "wiping cooktop microfiber cloth",
+          "prompt": "A hand sweeping breadcrumbs off the edge of the black glass cooktop into the cupped palm of the other hand, side view. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-2-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Lift it, or sweep it into your hand.",
+          "wordStart": 38,
+          "focus": [
+            0.52,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-2",
+          "query": "wiping cooktop microfiber cloth",
+          "prompt": "A black glass cooktop free of crumbs but still showing three brown burnt-on rings and cloudy streaks around the burner zones, seen from above. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-2-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Removing this loose layer first means your cleaner can focus on the stuck-on stains.",
+          "wordStart": 46,
+          "focus": [
+            0.5,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-2",
+          "query": "wiping cooktop microfiber cloth",
+          "prompt": "Close-up of the edge of a black glass cooktop where it meets the wood countertop, small food bits hiding along the seam, a fingertip pointing at them. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-2-5.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Check around the edges and the burner rings, where food tends to hide.",
+          "wordStart": 60,
+          "focus": [
+            0.72,
+            0.6
+          ],
+          "notes": [
+            {
+              "type": "arrow",
+              "at": [
+                0.72,
+                0.62
+              ],
+              "text": "Check the edges",
+              "label": [
+                0.3,
+                0.3
+              ],
+              "on": "edges"
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-2",
+          "query": "wiping cooktop microfiber cloth",
+          "prompt": "A fingertip pressing a touch control at the front of a black glass cooktop, a small glowing key-shaped lock light next to it. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-2-6.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "If your stove has a control lock, activate it, so nobody switches on a burner by accident while you clean.",
+          "wordStart": 73,
+          "focus": [
+            0.5,
+            0.65
+          ],
+          "notes": [
+            {
+              "type": "circle",
+              "at": [
+                0.53,
+                0.72
+              ],
+              "r": 0.07,
+              "text": "Control lock",
+              "label": [
+                0.25,
+                0.3
+              ],
+              "on": "lock"
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    },
+    "step-3": {
+      "key": "step-3",
+      "query": "baking soda vinegar stove",
+      "prompt": "A hand sprinkling a generous layer of white baking soda from a small bowl over the brown burnt-on stains of a black glass cooktop, powder falling, close-up. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-29-clean-glass-stovetop/images/step-3-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step three. Sprinkle a generous layer of baking soda over the dirty areas, then spray it with white vinegar, or hot water, until it fizzes and forms a loose paste.",
+      "wordStart": 0,
+      "focus": [
+        0.5,
+        0.55
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-3",
+          "query": "baking soda vinegar stove",
+          "prompt": "A hand sprinkling a generous layer of white baking soda from a small bowl over the brown burnt-on stains of a black glass cooktop, powder falling, close-up. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-3-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Step three. Sprinkle a generous layer of baking soda over the dirty areas, then spray it with white vinegar, or hot water, until it fizzes and forms a loose paste.",
+          "wordStart": 0,
+          "focus": [
+            0.5,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-3",
+          "query": "baking soda vinegar stove",
+          "prompt": "A hand spraying white vinegar from a clear spray bottle onto baking soda on a black glass cooktop, the powder fizzing with small white bubbles into a loose paste, close-up. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-3-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Baking soda is a very mild abrasive, so it won't hurt the glass, while the fizzing helps loosen residue.",
+          "wordStart": 30,
+          "focus": [
+            0.4,
+            0.6
+          ],
+          "notes": [
+            {
+              "type": "arrow",
+              "at": [
+                0.33,
+                0.62
+              ],
+              "text": "It fizzes",
+              "label": [
+                0.2,
+                0.25
+              ],
+              "on": "fizzing"
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-3",
+          "query": "baking soda vinegar stove",
+          "prompt": "Two hands wringing out a steaming hot wet white cotton towel over a stainless steel kitchen sink, drops of water falling. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-3-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Soak a clean towel in hot water, wring it out and lay it over the area for fifteen to twenty minutes.",
+          "wordStart": 49,
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "notes": null,
+          "fx": [
+            {
+              "type": "steam",
+              "at": [
+                0.45,
+                0.25
+              ],
+              "size": 1
+            }
+          ],
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-3",
+          "query": "baking soda vinegar stove",
+          "prompt": "A warm damp white towel laid flat over the front half of a black glass cooktop, covering the baking soda paste, light steam rising from it. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-3-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "The warm moisture softens burnt-on food, so you won't need force later.",
+          "wordStart": 70,
+          "focus": [
+            0.45,
+            0.6
+          ],
+          "notes": null,
+          "fx": [
+            {
+              "type": "steam",
+              "at": [
+                0.45,
+                0.5
+              ],
+              "size": 1
+            }
+          ],
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-3",
+          "query": "baking soda vinegar stove",
+          "prompt": "A hand lifting a corner of the damp white towel on the cooktop while the other hand holds a fresh steaming towel ready to replace it. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-3-5.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "If the towel cools down, replace it with a fresh hot one.",
+          "wordStart": 82,
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-3",
+          "query": "baking soda vinegar stove",
+          "prompt": "The damp white towel resting on the black glass cooktop with a mechanical kitchen timer with a blank face on the countertop beside it, quiet kitchen. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-3-6.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "The longer the stain stays damp and warm, the easier it comes off.",
+          "wordStart": 94,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    },
+    "step-4": {
+      "key": "step-4",
+      "query": "sponge wiping cooktop",
+      "prompt": "A hand peeling the damp white towel off a black glass cooktop, revealing grey softened baking soda paste over the stains underneath. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-29-clean-glass-stovetop/images/step-4-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step four. Remove the towel",
+      "wordStart": 0,
+      "focus": [
+        0.5,
+        0.55
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-4",
+          "query": "sponge wiping cooktop",
+          "prompt": "A hand peeling the damp white towel off a black glass cooktop, revealing grey softened baking soda paste over the stains underneath. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-4-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Step four. Remove the towel",
+          "wordStart": 0,
+          "focus": [
+            0.5,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-4",
+          "query": "sponge wiping cooktop",
+          "prompt": "A hand wiping baking soda paste off a black glass cooktop in gentle circles with a grey microfiber cloth, a clean glossy arc appearing, close-up. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-4-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "and use a microfiber cloth or a soft sponge to wipe the paste away in gentle circles.",
+          "wordStart": 5,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-4",
+          "query": "sponge wiping cooktop",
+          "prompt": "A hand rinsing a grey microfiber cloth under warm running water in a stainless steel sink, cloudy water running off it. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-4-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Rinse your cloth often in warm water so you don't spread dirt around.",
+          "wordStart": 22,
+          "focus": [
+            0.55,
+            0.5
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-4",
+          "query": "sponge wiping cooktop",
+          "prompt": "Close-up of brown residue lifting off black glass onto a white microfiber cloth, the cloth stained brown, the glass shiny where it has passed. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-4-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "For general grime, you will see the residue lifting easily now.",
+          "wordStart": 35,
+          "focus": [
+            0.45,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-4",
+          "query": "sponge wiping cooktop",
+          "prompt": "A hand wiping the whole surface of a black glass cooktop with a clean damp white cloth in one long stroke, the last white traces of baking soda disappearing. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-4-5.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Wipe the whole surface down with a clean damp cloth to remove all the baking soda.",
+          "wordStart": 46,
+          "focus": [
+            0.42,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-4",
+          "query": "sponge wiping cooktop",
+          "prompt": "A nearly clean black glass cooktop with one small stubborn black burnt patch remaining near a burner ring, a fingertip pointing at it. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-4-6.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "If any burnt patches remain, move on to the next step instead of scrubbing harder.",
+          "wordStart": 62,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": [
+            {
+              "type": "circle",
+              "at": [
+                0.5,
+                0.63
+              ],
+              "r": 0.08,
+              "text": "Still stuck?",
+              "label": [
+                0.25,
+                0.3
+              ],
+              "on": "patches"
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-4",
+          "query": "sponge wiping cooktop",
+          "prompt": "A hand resting lightly with a soft yellow sponge on a black glass cooktop, relaxed open fingers, no pressure, beside one small burnt spot. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-4-7.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Resist the urge to press hard. If a spot refuses to move, the right answer is more time, not more force.",
+          "wordStart": 77,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": [
+            "time"
+          ],
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    },
+    "step-5": {
+      "key": "step-5",
+      "query": "razor scraper glass cooktop",
+      "prompt": "A hand squeezing a few drops of white cooktop cleaner cream from a plain white bottle onto a small black burnt-on spot on a black glass cooktop, close-up. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-29-clean-glass-stovetop/images/step-5-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step five. For burnt-on spots, apply a few drops of cooktop cleaner to the spot, and let it sit for a few minutes.",
+      "wordStart": 0,
+      "focus": [
+        0.42,
+        0.65
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-5",
+          "query": "razor scraper glass cooktop",
+          "prompt": "A hand squeezing a few drops of white cooktop cleaner cream from a plain white bottle onto a small black burnt-on spot on a black glass cooktop, close-up. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-5-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Step five. For burnt-on spots, apply a few drops of cooktop cleaner to the spot, and let it sit for a few minutes.",
+          "wordStart": 0,
+          "focus": [
+            0.42,
+            0.65
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-5",
+          "query": "razor scraper glass cooktop",
+          "prompt": "Side view close-up of a razor scraper with a black handle held at a low shallow angle on a black glass cooktop, the full width of the blade flat on the glass, pushing a curl of burnt residue ahead of it. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-5-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Hold a razor scraper at a shallow angle, about thirty to forty-five degrees, and push it gently across the spot with light, even pressure, always keeping the blade flat on the glass.",
+          "wordStart": 23,
+          "focus": [
+            0.5,
+            0.62
+          ],
+          "notes": [
+            {
+              "type": "arrow",
+              "at": [
+                0.6,
+                0.66
+              ],
+              "text": "Blade flat on the glass",
+              "label": [
+                0.3,
+                0.3
+              ],
+              "on": "flat"
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-5",
+          "query": "razor scraper glass cooktop",
+          "prompt": "Close-up of a razor scraper blade with a visible chipped nick in its edge held up to the light between two fingers, the black glass cooktop blurred behind. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-5-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Never scrape with the corner, and never use a worn or damaged blade.",
+          "wordStart": 55,
+          "focus": [
+            0.5,
+            0.45
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-5",
+          "query": "razor scraper glass cooktop",
+          "prompt": "A hand wiping scraped black flakes off a black glass cooktop with a folded paper towel, the razor scraper lying flat on the countertop beside it. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-5-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Wipe off the residue as you go.",
+          "wordStart": 68,
+          "focus": [
+            0.55,
+            0.65
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-5",
+          "query": "razor scraper glass cooktop",
+          "prompt": "A hand wearing a grey work glove holding a razor scraper on a black glass cooktop, all fingers kept behind the blade, close-up from above. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-5-5.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Wear a glove, and keep your fingers behind the blade.",
+          "wordStart": 75,
+          "focus": [
+            0.4,
+            0.65
+          ],
+          "notes": [
+            {
+              "type": "arrow",
+              "at": [
+                0.38,
+                0.72
+              ],
+              "text": "Fingers behind the blade",
+              "label": [
+                0.72,
+                0.25
+              ],
+              "on": "fingers"
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-5",
+          "query": "razor scraper glass cooktop",
+          "prompt": "A new razor scraper for glass cooktops with a spare blade in a small clear case, laid on the light wood countertop next to the black glass cooktop, seen from above. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-5-6.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Always check that the scraper is designed for glass cooktops, and replace the blade when it gets dull or chipped.",
+          "wordStart": 85,
+          "focus": [
+            0.75,
+            0.45
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    },
+    "step-6": {
+      "key": "step-6",
+      "query": "polishing glass cooktop",
+      "prompt": "A hand squeezing a small coin-sized dot of white cooktop cleaner cream onto the centre of a clean black glass cooktop, close-up. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-29-clean-glass-stovetop/images/step-6-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step six. Now put a small amount of cooktop cleaner cream on the glass, and rub it over the whole surface with a clean cloth or paper towel.",
+      "wordStart": 0,
+      "focus": [
+        0.48,
+        0.6
+      ],
+      "notes": [
+        {
+          "type": "arrow",
+          "at": [
+            0.49,
+            0.68
+          ],
+          "text": "A small amount",
+          "label": [
+            0.76,
+            0.3
+          ],
+          "on": "small"
+        }
+      ],
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-6",
+          "query": "polishing glass cooktop",
+          "prompt": "A hand squeezing a small coin-sized dot of white cooktop cleaner cream onto the centre of a clean black glass cooktop, close-up. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-6-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Step six. Now put a small amount of cooktop cleaner cream on the glass, and rub it over the whole surface with a clean cloth or paper towel.",
+          "wordStart": 0,
+          "focus": [
+            0.48,
+            0.6
+          ],
+          "notes": [
+            {
+              "type": "arrow",
+              "at": [
+                0.49,
+                0.68
+              ],
+              "text": "A small amount",
+              "label": [
+                0.76,
+                0.3
+              ],
+              "on": "small"
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-6",
+          "query": "polishing glass cooktop",
+          "prompt": "A hand rubbing white cleaner cream across a black glass cooktop with a white cloth, a thin milky film spreading over the surface. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-6-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "This cream cleans lightly, removes the film left by earlier cleaning, and leaves a protective layer.",
+          "wordStart": 28,
+          "focus": [
+            0.45,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-6",
+          "query": "polishing glass cooktop",
+          "prompt": "A black glass cooktop covered with a thin dry whitish haze, a hand buffing it off in circles with a dry grey microfiber cloth, a mirror-like path appearing. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-6-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Let it dry to a light haze if the directions say so, and then buff it off with a dry microfiber cloth, using circular motions.",
+          "wordStart": 44,
+          "focus": [
+            0.3,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-6",
+          "query": "polishing glass cooktop",
+          "prompt": "A black glass cooktop with a clear streak-free shine reflecting the kitchen window, low angle view across the surface. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-6-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "You should see a clear, streak-free shine.",
+          "wordStart": 69,
+          "focus": [
+            0.45,
+            0.55
+          ],
+          "notes": null,
+          "fx": [
+            {
+              "type": "sparkle",
+              "at": [
+                0.42,
+                0.55
+              ],
+              "size": 1
+            }
+          ],
+          "punchOn": [
+            "shine"
+          ],
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-6",
+          "query": "polishing glass cooktop",
+          "prompt": "A tiny dot of white cleaner cream on a fingertip held above the shiny black glass cooktop, the cream bottle standing behind. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-6-5.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "A thin coat is enough.",
+          "wordStart": 76,
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-6",
+          "query": "polishing glass cooktop",
+          "prompt": "Low angle view across a black glass cooktop toward the bright window, the light raking over the surface and revealing one faint streak, a hand with a cloth approaching it. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-6-6.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Polish in the direction of the light, and you will spot any streaks instantly.",
+          "wordStart": 81,
+          "focus": [
+            0.45,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-6",
+          "query": "polishing glass cooktop",
+          "prompt": "A hand making a final pass with a dry white microfiber cloth over a gleaming black glass cooktop, bright highlights. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-6-7.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "A dry cloth finishes the job.",
+          "wordStart": 95,
+          "focus": [
+            0.4,
+            0.6
+          ],
+          "notes": null,
+          "fx": [
+            {
+              "type": "sparkle",
+              "at": [
+                0.42,
+                0.55
+              ],
+              "size": 1
+            }
+          ],
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    },
+    "step-7": {
+      "key": "step-7",
+      "query": "pan glass cooktop",
+      "prompt": "A sparkling clean black glass cooktop in a tidy kitchen, a folded microfiber cloth hanging on the oven handle below, wide front view. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-29-clean-glass-stovetop/images/step-7-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Step seven. A few habits will make future cleaning faster.",
+      "wordStart": 0,
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-7",
+          "query": "pan glass cooktop",
+          "prompt": "A sparkling clean black glass cooktop in a tidy kitchen, a folded microfiber cloth hanging on the oven handle below, wide front view. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-7-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Step seven. A few habits will make future cleaning faster.",
+          "wordStart": 0,
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-7",
+          "query": "pan glass cooktop",
+          "prompt": "A hand wiping up a small fresh splash of tomato sauce from a cool black glass cooktop with a damp white cloth. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-7-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Wipe up spills as soon as the surface is cool.",
+          "wordStart": 10,
+          "focus": [
+            0.45,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-7",
+          "query": "pan glass cooktop",
+          "prompt": "A small puddle of golden sugary syrup spilled on a black glass cooktop next to a small saucepan of jam, a hand with a damp cloth reaching for it, close-up. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-7-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Take extra care with sugary spills, which can pit the glass if left to harden, and follow the manufacturer's advice.",
+          "wordStart": 20,
+          "focus": [
+            0.45,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-7",
+          "query": "pan glass cooktop",
+          "prompt": "Two hands lifting a stainless steel saucepan with a perfectly flat bottom straight up off a burner ring of a black glass cooktop, the pan the same size as the ring. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-7-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Use flat-bottomed cookware that matches the burner size, lift pans instead of sliding them, and check that the bottom is clean and dry before use.",
+          "wordStart": 40,
+          "focus": [
+            0.45,
+            0.5
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-7",
+          "query": "pan glass cooktop",
+          "prompt": "A hand giving a quick wipe to a black glass cooktop with a white cloth right after cooking, a plate of pasta on the countertop beside it. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-7-5.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Give your stovetop a quick wipe after cooking, and a full cleaning once a week.",
+          "wordStart": 65,
+          "focus": [
+            0.45,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-7",
+          "query": "pan glass cooktop",
+          "prompt": "A hand wiping a shiny black glass cooktop with a cloth, a mechanical kitchen timer with a blank face on the countertop, easy relaxed mood. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-7-6.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Following these habits, your weekly cleaning will take only five minutes.",
+          "wordStart": 80,
+          "focus": [
+            0.45,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-7",
+          "query": "pan glass cooktop",
+          "prompt": "A flawless black glass cooktop gleaming in warm daylight, a small vase of green herbs on the countertop beside it, three-quarter view. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-7-7.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Easy, and your glass will last for years.",
+          "wordStart": 91,
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "notes": null,
+          "fx": [
+            {
+              "type": "sparkle",
+              "at": [
+                0.42,
+                0.55
+              ],
+              "size": 1
+            }
+          ],
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    },
+    "step-8": {
+      "key": "step-8",
+      "query": "burnt stain glass cooktop",
+      "prompt": "Close-up of one last small dark burnt spot on an otherwise clean black glass cooktop, a soft sponge held back above it without touching. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-29-clean-glass-stovetop/images/step-8-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "If a spot survives the paste and the scraper, do not scrub harder.",
+      "wordStart": 0,
+      "focus": [
+        0.4,
+        0.6
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-8",
+          "query": "burnt stain glass cooktop",
+          "prompt": "Close-up of one last small dark burnt spot on an otherwise clean black glass cooktop, a soft sponge held back above it without touching. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-8-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "If a spot survives the paste and the scraper, do not scrub harder.",
+          "wordStart": 0,
+          "focus": [
+            0.4,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-8",
+          "query": "burnt stain glass cooktop",
+          "prompt": "A hardened amber blob of melted sugar and a small warped piece of melted blue plastic stuck on a black glass cooktop, close-up, no hands. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-8-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Melted sugar and plastic are special cases, because they can pit the glass as they cool.",
+          "wordStart": 13,
+          "focus": [
+            0.6,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-8",
+          "query": "burnt stain glass cooktop",
+          "prompt": "A hand in a thick grey oven glove holding a razor scraper flat against a blob of melted sugar on a black glass cooktop, an open plain appliance manual with blurred unreadable pages on the countertop. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-8-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Many manufacturers say to scrape them off while the surface is still warm, so check your manual first.",
+          "wordStart": 29,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-8",
+          "query": "burnt stain glass cooktop",
+          "prompt": "A faint whitish rainbow-tinted film on part of a black glass cooktop, a hand wiping it away with a cloth and a dot of white cream, the wiped part deep black. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-8-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "A white or rainbow haze that wipes clean is usually mineral film, and cooktop cream removes it.",
+          "wordStart": 47,
+          "focus": [
+            0.4,
+            0.6
+          ],
+          "notes": [
+            {
+              "type": "arrow",
+              "at": [
+                0.35,
+                0.74
+              ],
+              "text": "Mineral film",
+              "label": [
+                0.2,
+                0.25
+              ],
+              "on": "haze"
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    },
+    "step-9": {
+      "key": "step-9",
+      "query": "appliance repair technician kitchen",
+      "prompt": "A thin hairline crack running across the corner of a black glass cooktop, catching the light, close-up, no hands. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-29-clean-glass-stovetop/images/step-9-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Cleaning cannot fix damaged glass.",
+      "wordStart": 0,
+      "focus": [
+        0.3,
+        0.65
+      ],
+      "notes": [
+        {
+          "type": "arrow",
+          "at": [
+            0.28,
+            0.65
+          ],
+          "text": "Damaged glass",
+          "label": [
+            0.7,
+            0.25
+          ],
+          "on": "damaged"
+        }
+      ],
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-9",
+          "query": "appliance repair technician kitchen",
+          "prompt": "A thin hairline crack running across the corner of a black glass cooktop, catching the light, close-up, no hands. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-9-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Cleaning cannot fix damaged glass.",
+          "wordStart": 0,
+          "focus": [
+            0.3,
+            0.65
+          ],
+          "notes": [
+            {
+              "type": "arrow",
+              "at": [
+                0.28,
+                0.65
+              ],
+              "text": "Damaged glass",
+              "label": [
+                0.7,
+                0.25
+              ],
+              "on": "damaged"
+            }
+          ],
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-9",
+          "query": "appliance repair technician kitchen",
+          "prompt": "A hand turning a cooktop control knob to off next to a visible hairline crack in the black glass, close-up. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-9-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "If you see a crack, even a hairline one, stop using the cooktop.",
+          "wordStart": 5,
+          "focus": [
+            0.55,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-9",
+          "query": "appliance repair technician kitchen",
+          "prompt": "Cutaway-style close-up of a cracked black glass cooktop edge with a drop of liquid sitting on the crack, a glimpse of metal heating coils in the dark underneath. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-9-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Spills can reach the electrical parts underneath, and the glass can break further when it heats up.",
+          "wordStart": 18,
+          "focus": [
+            0.55,
+            0.5
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-9",
+          "query": "appliance repair technician kitchen",
+          "prompt": "A hand flipping a single switch down in a grey household circuit breaker panel on a white wall, the switches unlabeled. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-9-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Switch it off at the circuit breaker and call an appliance technician.",
+          "wordStart": 35,
+          "focus": [
+            0.38,
+            0.4
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-9",
+          "query": "appliance repair technician kitchen",
+          "prompt": "Close-up of a few shallow pale scratches on a black glass cooktop seen in raking light, a fingertip running over them. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-9-5.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Deep scratches cannot be buffed out, but they are usually only cosmetic.",
+          "wordStart": 47,
+          "focus": [
+            0.45,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-9",
+          "query": "appliance repair technician kitchen",
+          "prompt": "An appliance technician's hands in dark work gloves inspecting a black glass cooktop with a small flashlight, a tool bag on the countertop, no face visible. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-9-6.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Have the technician check the unit before you use it again.",
+          "wordStart": 59,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    },
+    "step-10": {
+      "key": "step-10",
+      "query": "flat bottom pan cooktop",
+      "prompt": "The underside of a stainless steel saucepan held up by a hand, a few grains of salt stuck to its bottom, the black glass cooktop below. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+      "file": "assets/2026-11-29-clean-glass-stovetop/images/step-10-1.jpg",
+      "kind": "photo",
+      "width": 1920,
+      "height": 1080,
+      "provider": "gemini-web",
+      "credit": null,
+      "text": "Most scratches come from things under the pans, not from cleaning.",
+      "wordStart": 0,
+      "focus": [
+        0.45,
+        0.4
+      ],
+      "notes": null,
+      "fx": null,
+      "punchOn": null,
+      "compareFile": null,
+      "compareLabels": null,
+      "shots": [
+        {
+          "key": "step-10",
+          "query": "flat bottom pan cooktop",
+          "prompt": "The underside of a stainless steel saucepan held up by a hand, a few grains of salt stuck to its bottom, the black glass cooktop below. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-10-1.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Most scratches come from things under the pans, not from cleaning.",
+          "wordStart": 0,
+          "focus": [
+            0.45,
+            0.4
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-10",
+          "query": "flat bottom pan cooktop",
+          "prompt": "Extreme close-up of grains of coarse salt and a few rice grains on a black glass cooktop right beside the edge of a pan bottom. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-10-2.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Grains of salt, sugar or rice trapped beneath a pot grind into the glass when it moves.",
+          "wordStart": 11,
+          "focus": [
+            0.45,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-10",
+          "query": "flat bottom pan cooktop",
+          "prompt": "A hand wiping the flat bottom of a stainless steel saucepan with a dry cloth above a black glass cooktop. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-10-3.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Wipe the bottom of each pan before it goes on.",
+          "wordStart": 28,
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-10",
+          "query": "flat bottom pan cooktop",
+          "prompt": "A black glass cooktop wrongly used as counter space, crowded with tin cans, a grocery bag and a heavy glass lid, a hand lifting one can away. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-10-4.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Do not use the cooktop as extra counter space, and do not drop cans or heavy lids on it.",
+          "wordStart": 38,
+          "focus": [
+            0.45,
+            0.55
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        },
+        {
+          "key": "step-10",
+          "query": "flat bottom pan cooktop",
+          "prompt": "Two hands lifting a heavy black cast iron skillet with a rough bottom straight up off a black glass cooktop, a small gap of air visible under the pan, side view. Photorealistic photograph for a practical home cleaning how-to video. Bright, tidy modern kitchen, a black glass-ceramic electric cooktop with four round burner rings built into a light wood countertop, white tiled backsplash, soft daylight. Adult hands, rolled-up sleeves of a light blue cotton shirt, no face visible. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+          "file": "assets/2026-11-29-clean-glass-stovetop/images/step-10-5.jpg",
+          "kind": "photo",
+          "width": 1920,
+          "height": 1080,
+          "provider": "gemini-web",
+          "credit": null,
+          "text": "Rough cast iron bottoms scratch easily, so lift them instead of dragging them.",
+          "wordStart": 57,
+          "focus": [
+            0.5,
+            0.6
+          ],
+          "notes": null,
+          "fx": null,
+          "punchOn": null,
+          "compareFile": null,
+          "compareLabels": null
+        }
+      ]
+    }
+  },
+  "credits": []
+}

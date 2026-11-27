@@ -1,0 +1,504 @@
+{
+  "kind": "short",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "totalSec": 28.866666666666667,
+  "durationInFrames": 866,
+  "scenes": [
+    {
+      "type": "short-hook",
+      "title": "8 Kitchen Tricks You'll Wish You Knew",
+      "punch": "Fresh egg test",
+      "image": {
+        "key": "hero",
+        "query": "kitchen counter eggs garlic lemon",
+        "prompt": "A kitchen counter with eggs, garlic, a lemon, fresh herbs in a jar and a chef's knife, bright morning light, photorealistic, no text",
+        "file": "assets/2026-12-13-kitchen-tricks-wish-you-knew/images/hero.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null
+      },
+      "start": 0,
+      "duration": 5.4,
+      "segments": [
+        {
+          "id": "short-hook",
+          "file": "assets/2026-12-13-kitchen-tricks-wish-you-knew/audio/short-hook.mp3",
+          "at": 0,
+          "duration": 5.06195,
+          "words": [
+            {
+              "w": "Is",
+              "s": 0,
+              "e": 0.151
+            },
+            {
+              "w": "that",
+              "s": 0.197,
+              "e": 0.36
+            },
+            {
+              "w": "egg",
+              "s": 0.43,
+              "e": 0.604
+            },
+            {
+              "w": "still",
+              "s": 0.662,
+              "e": 0.906
+            },
+            {
+              "w": "good?",
+              "s": 0.964,
+              "e": 1.451
+            },
+            {
+              "w": "This",
+              "s": 1.962,
+              "e": 2.171
+            },
+            {
+              "w": "test",
+              "s": 2.24,
+              "e": 2.507
+            },
+            {
+              "w": "tells",
+              "s": 2.542,
+              "e": 2.809
+            },
+            {
+              "w": "you,",
+              "s": 2.867,
+              "e": 3.146
+            },
+            {
+              "w": "plus",
+              "s": 3.424,
+              "e": 3.784
+            },
+            {
+              "w": "two",
+              "s": 3.866,
+              "e": 4.04
+            },
+            {
+              "w": "more",
+              "s": 4.109,
+              "e": 4.284
+            },
+            {
+              "w": "tricks.",
+              "s": 4.318,
+              "e": 5.061
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "short-step",
+      "index": 1,
+      "total": 3,
+      "title": "Peel garlic fast",
+      "image": {
+        "key": "step-2",
+        "query": "peeling garlic knife",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: the flat side of a large chef's knife laid over one garlic clove on a wooden board, the heel of a hand pressing down on the blade, the sharp edge facing away from the hand, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-13-kitchen-tricks-wish-you-knew/images/step-2-1.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Trick two. Place a garlic clove on a board, lay the flat side of a large knife over it, and press down firmly with the heel of your hand.",
+        "wordStart": 0,
+        "focus": null,
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      "start": 5.4,
+      "duration": 5.266666666666667,
+      "segments": [
+        {
+          "id": "short-step-1",
+          "file": "assets/2026-12-13-kitchen-tricks-wish-you-knew/audio/short-step-1.mp3",
+          "at": 5.4,
+          "duration": 4.92263,
+          "words": [
+            {
+              "w": "One.",
+              "s": 0,
+              "e": 0.418
+            },
+            {
+              "w": "Press",
+              "s": 0.929,
+              "e": 1.219
+            },
+            {
+              "w": "the",
+              "s": 1.277,
+              "e": 1.346
+            },
+            {
+              "w": "flat",
+              "s": 1.404,
+              "e": 1.648
+            },
+            {
+              "w": "of",
+              "s": 1.683,
+              "e": 1.753
+            },
+            {
+              "w": "a",
+              "s": 1.799,
+              "e": 1.822
+            },
+            {
+              "w": "knife",
+              "s": 1.88,
+              "e": 2.159
+            },
+            {
+              "w": "on",
+              "s": 2.217,
+              "e": 2.333
+            },
+            {
+              "w": "a",
+              "s": 2.38,
+              "e": 2.403
+            },
+            {
+              "w": "clove,",
+              "s": 2.461,
+              "e": 3.076
+            },
+            {
+              "w": "and",
+              "s": 3.285,
+              "e": 3.436
+            },
+            {
+              "w": "the",
+              "s": 3.483,
+              "e": 3.552
+            },
+            {
+              "w": "skin",
+              "s": 3.599,
+              "e": 3.854
+            },
+            {
+              "w": "slides",
+              "s": 3.935,
+              "e": 4.318
+            },
+            {
+              "w": "off.",
+              "s": 4.388,
+              "e": 4.922
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "short-step",
+      "index": 2,
+      "total": 3,
+      "title": "Egg freshness test",
+      "image": {
+        "key": "step-3",
+        "query": "egg float glass",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a brown egg lying flat on its side at the bottom of a clear glass bowl of water, seen from the side, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-13-kitchen-tricks-wish-you-knew/images/step-3-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "A very fresh egg sinks to the bottom and lies on its side.",
+        "wordStart": 19,
+        "focus": null,
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      "start": 10.666666666666666,
+      "duration": 8.4,
+      "segments": [
+        {
+          "id": "short-step-2",
+          "file": "assets/2026-12-13-kitchen-tricks-wish-you-knew/audio/short-step-2.mp3",
+          "at": 10.666666666666666,
+          "duration": 8.034104,
+          "words": [
+            {
+              "w": "Two.",
+              "s": 0,
+              "e": 0.522
+            },
+            {
+              "w": "Put",
+              "s": 0.848,
+              "e": 1.044
+            },
+            {
+              "w": "an",
+              "s": 1.091,
+              "e": 1.161
+            },
+            {
+              "w": "egg",
+              "s": 1.242,
+              "e": 1.497
+            },
+            {
+              "w": "in",
+              "s": 1.578,
+              "e": 1.695
+            },
+            {
+              "w": "water.",
+              "s": 1.776,
+              "e": 2.333
+            },
+            {
+              "w": "If",
+              "s": 2.844,
+              "e": 2.995
+            },
+            {
+              "w": "it",
+              "s": 3.053,
+              "e": 3.134
+            },
+            {
+              "w": "sinks",
+              "s": 3.192,
+              "e": 3.483
+            },
+            {
+              "w": "flat,",
+              "s": 3.541,
+              "e": 4.075
+            },
+            {
+              "w": "it's",
+              "s": 4.4,
+              "e": 4.609
+            },
+            {
+              "w": "fresh.",
+              "s": 4.667,
+              "e": 5.236
+            },
+            {
+              "w": "If",
+              "s": 5.677,
+              "e": 5.839
+            },
+            {
+              "w": "it",
+              "s": 5.897,
+              "e": 5.979
+            },
+            {
+              "w": "floats,",
+              "s": 6.037,
+              "e": 6.675
+            },
+            {
+              "w": "throw",
+              "s": 6.954,
+              "e": 7.221
+            },
+            {
+              "w": "it",
+              "s": 7.291,
+              "e": 7.36
+            },
+            {
+              "w": "away.",
+              "s": 7.395,
+              "e": 8.034
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "short-step",
+      "index": 3,
+      "total": 3,
+      "title": "Revive stale bread",
+      "image": {
+        "key": "step-4",
+        "query": "stale bread oven",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a hand passing a crusty loaf of bread quickly under a thin stream of water from the kitchen tap, drops on the crust, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-13-kitchen-tricks-wish-you-knew/images/step-4-2.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Run a loaf quickly under the tap, so the crust is slightly damp, and put it in a hot oven at about 160 degrees Celsius, or 320 Fahrenheit, for ten minutes.",
+        "wordStart": 10,
+        "focus": null,
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      "start": 19.066666666666666,
+      "duration": 7.133333333333334,
+      "segments": [
+        {
+          "id": "short-step-3",
+          "file": "assets/2026-12-13-kitchen-tricks-wish-you-knew/audio/short-step-3.mp3",
+          "at": 19.066666666666666,
+          "duration": 6.780227,
+          "words": [
+            {
+              "w": "Three.",
+              "s": 0,
+              "e": 0.592
+            },
+            {
+              "w": "Run",
+              "s": 1.103,
+              "e": 1.289
+            },
+            {
+              "w": "the",
+              "s": 1.347,
+              "e": 1.416
+            },
+            {
+              "w": "loaf",
+              "s": 1.463,
+              "e": 1.672
+            },
+            {
+              "w": "under",
+              "s": 1.788,
+              "e": 2.008
+            },
+            {
+              "w": "the",
+              "s": 2.066,
+              "e": 2.136
+            },
+            {
+              "w": "tap,",
+              "s": 2.183,
+              "e": 2.635
+            },
+            {
+              "w": "and",
+              "s": 2.914,
+              "e": 3.088
+            },
+            {
+              "w": "bake",
+              "s": 3.181,
+              "e": 3.425
+            },
+            {
+              "w": "it",
+              "s": 3.448,
+              "e": 3.518
+            },
+            {
+              "w": "at",
+              "s": 3.564,
+              "e": 3.634
+            },
+            {
+              "w": "160",
+              "s": 3.75,
+              "e": 4.563
+            },
+            {
+              "w": "degrees",
+              "s": 4.621,
+              "e": 4.957
+            },
+            {
+              "w": "Celsius",
+              "s": 5.004,
+              "e": 5.561
+            },
+            {
+              "w": "for",
+              "s": 5.631,
+              "e": 5.77
+            },
+            {
+              "w": "ten",
+              "s": 5.84,
+              "e": 6.072
+            },
+            {
+              "w": "minutes.",
+              "s": 6.142,
+              "e": 6.78
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "short-cta",
+      "start": 26.2,
+      "duration": 2.6666666666666665,
+      "segments": [
+        {
+          "id": "short-cta",
+          "file": "assets/2026-12-13-kitchen-tricks-wish-you-knew/audio/short-cta.mp3",
+          "at": 26.2,
+          "duration": 1.671837,
+          "words": [
+            {
+              "w": "Full",
+              "s": 0,
+              "e": 0.267
+            },
+            {
+              "w": "guide",
+              "s": 0.337,
+              "e": 0.708
+            },
+            {
+              "w": "on",
+              "s": 0.766,
+              "e": 0.882
+            },
+            {
+              "w": "the",
+              "s": 0.929,
+              "e": 0.998
+            },
+            {
+              "w": "channel.",
+              "s": 1.045,
+              "e": 1.672
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

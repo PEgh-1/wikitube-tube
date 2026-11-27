@@ -1,0 +1,44 @@
+{
+  "startedAt": "2026-11-27T13:58:06.200Z",
+  "mock": false,
+  "skipUpload": true,
+  "steps": [
+    {
+      "id": "generate",
+      "status": "ok",
+      "seconds": 0
+    },
+    {
+      "id": "tts",
+      "status": "ok",
+      "seconds": 44
+    },
+    {
+      "id": "images",
+      "status": "ok",
+      "seconds": 0
+    },
+    {
+      "id": "render",
+      "status": "ok",
+      "seconds": 1193
+    },
+    {
+      "id": "srt",
+      "status": "ok",
+      "seconds": 0
+    },
+    {
+      "id": "qc",
+      "status": "ok",
+      "seconds": 17
+    },
+    {
+      "id": "upload",
+      "status": "skipped"
+    }
+  ],
+  "ok": true,
+  "finishedAt": "2026-11-27T14:19:00.969Z",
+  "episodeId": "2026-12-13-kitchen-tricks-wish-you-knew"
+}

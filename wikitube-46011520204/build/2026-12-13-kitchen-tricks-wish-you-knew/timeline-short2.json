@@ -1,0 +1,405 @@
+{
+  "kind": "short",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "totalSec": 18.9,
+  "durationInFrames": 567,
+  "scenes": [
+    {
+      "type": "short2-hook",
+      "kind": "tip",
+      "title": "Roll your lemons",
+      "image": {
+        "key": "short2-hook.jpg",
+        "kind": "photo",
+        "width": 1080,
+        "height": 1920,
+        "provider": "gemini-web",
+        "file": "assets/2026-12-13-kitchen-tricks-wish-you-knew/images/short2-hook.jpg",
+        "focus": null
+      },
+      "start": 0,
+      "duration": 2.2666666666666666,
+      "segments": [
+        {
+          "id": "short2-hook",
+          "file": "assets/2026-12-13-kitchen-tricks-wish-you-knew/audio/short2-hook.mp3",
+          "at": 0,
+          "duration": 1.904036,
+          "words": [
+            {
+              "w": "Barely",
+              "s": 0,
+              "e": 0.372
+            },
+            {
+              "w": "any",
+              "s": 0.43,
+              "e": 0.604
+            },
+            {
+              "w": "juice",
+              "s": 0.685,
+              "e": 0.964
+            },
+            {
+              "w": "from",
+              "s": 0.998,
+              "e": 1.161
+            },
+            {
+              "w": "your",
+              "s": 1.207,
+              "e": 1.323
+            },
+            {
+              "w": "lemon?",
+              "s": 1.381,
+              "e": 1.904
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "short2-beat",
+      "kind": "tip",
+      "index": 1,
+      "total": 2,
+      "label": "Do this",
+      "title": "Warm it, then roll it",
+      "image": {
+        "key": "step-7",
+        "query": "rolling lemon counter",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a hand placing a whole lemon on a small plate into an open microwave oven with a plain blank door, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-13-kitchen-tricks-wish-you-knew/images/step-7-3.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "For even more juice, warm the whole fruit in the microwave for ten to fifteen seconds, then roll it.",
+        "wordStart": 27,
+        "focus": null,
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      "start": 2.2666666666666666,
+      "duration": 7.4,
+      "segments": [
+        {
+          "id": "short2-beat-1",
+          "file": "assets/2026-12-13-kitchen-tricks-wish-you-knew/audio/short2-beat-1.mp3",
+          "at": 2.2666666666666666,
+          "duration": 7.058866,
+          "words": [
+            {
+              "w": "Warm",
+              "s": 0,
+              "e": 0.36
+            },
+            {
+              "w": "the",
+              "s": 0.441,
+              "e": 0.511
+            },
+            {
+              "w": "whole",
+              "s": 0.569,
+              "e": 0.801
+            },
+            {
+              "w": "lemon",
+              "s": 0.848,
+              "e": 1.126
+            },
+            {
+              "w": "in",
+              "s": 1.207,
+              "e": 1.265
+            },
+            {
+              "w": "the",
+              "s": 1.312,
+              "e": 1.381
+            },
+            {
+              "w": "microwave",
+              "s": 1.416,
+              "e": 2.032
+            },
+            {
+              "w": "for",
+              "s": 2.078,
+              "e": 2.206
+            },
+            {
+              "w": "ten",
+              "s": 2.275,
+              "e": 2.496
+            },
+            {
+              "w": "to",
+              "s": 2.566,
+              "e": 2.635
+            },
+            {
+              "w": "fifteen",
+              "s": 2.705,
+              "e": 3.111
+            },
+            {
+              "w": "seconds,",
+              "s": 3.193,
+              "e": 3.703
+            },
+            {
+              "w": "then",
+              "s": 4.028,
+              "e": 4.214
+            },
+            {
+              "w": "roll",
+              "s": 4.307,
+              "e": 4.528
+            },
+            {
+              "w": "it",
+              "s": 4.586,
+              "e": 4.667
+            },
+            {
+              "w": "firmly",
+              "s": 4.737,
+              "e": 5.097
+            },
+            {
+              "w": "on",
+              "s": 5.155,
+              "e": 5.236
+            },
+            {
+              "w": "the",
+              "s": 5.282,
+              "e": 5.352
+            },
+            {
+              "w": "counter",
+              "s": 5.398,
+              "e": 5.77
+            },
+            {
+              "w": "before",
+              "s": 5.921,
+              "e": 6.269
+            },
+            {
+              "w": "you",
+              "s": 6.316,
+              "e": 6.397
+            },
+            {
+              "w": "cut",
+              "s": 6.467,
+              "e": 6.641
+            },
+            {
+              "w": "it.",
+              "s": 6.687,
+              "e": 7.059
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "short2-beat",
+      "kind": "tip",
+      "index": 2,
+      "total": 2,
+      "label": "Why it works",
+      "title": "The juice sacs break",
+      "image": {
+        "key": "step-7",
+        "query": "rolling lemon counter",
+        "prompt": "In a bright kitchen with a white counter, pale wood cabinets and a window: a hand squeezing a lemon half over a small glass bowl, juice running down, the other half and a knife on the board, close-up. Photorealistic photograph for a practical home cooking how-to video, soft natural daylight. Adult hands, rolled-up sleeves of a navy-blue cotton shirt, only hands and forearms in the frame, no head, no face. 16:9 landscape format. No text, no letters, no numbers, no brand names, no logos, no watermark.",
+        "file": "assets/2026-12-13-kitchen-tricks-wish-you-knew/images/step-7-4.jpg",
+        "kind": "photo",
+        "width": 1920,
+        "height": 1080,
+        "provider": "gemini-web",
+        "credit": null,
+        "text": "Cut it in half and squeeze.",
+        "wordStart": 46,
+        "focus": null,
+        "notes": null,
+        "fx": null,
+        "punchOn": null,
+        "compareFile": null,
+        "compareLabels": null
+      },
+      "start": 9.666666666666666,
+      "duration": 5.633333333333334,
+      "segments": [
+        {
+          "id": "short2-beat-2",
+          "file": "assets/2026-12-13-kitchen-tricks-wish-you-knew/audio/short2-beat-2.mp3",
+          "at": 9.666666666666666,
+          "duration": 5.29415,
+          "words": [
+            {
+              "w": "Rolling",
+              "s": 0,
+              "e": 0.36
+            },
+            {
+              "w": "breaks",
+              "s": 0.418,
+              "e": 0.731
+            },
+            {
+              "w": "the",
+              "s": 0.789,
+              "e": 0.859
+            },
+            {
+              "w": "little",
+              "s": 0.906,
+              "e": 1.114
+            },
+            {
+              "w": "juice",
+              "s": 1.161,
+              "e": 1.416
+            },
+            {
+              "w": "sacs",
+              "s": 1.439,
+              "e": 1.741
+            },
+            {
+              "w": "inside,",
+              "s": 1.799,
+              "e": 2.461
+            },
+            {
+              "w": "so",
+              "s": 2.635,
+              "e": 2.74
+            },
+            {
+              "w": "you",
+              "s": 2.798,
+              "e": 2.867
+            },
+            {
+              "w": "get",
+              "s": 2.925,
+              "e": 3.042
+            },
+            {
+              "w": "a",
+              "s": 3.076,
+              "e": 3.1
+            },
+            {
+              "w": "lot",
+              "s": 3.158,
+              "e": 3.355
+            },
+            {
+              "w": "more",
+              "s": 3.425,
+              "e": 3.622
+            },
+            {
+              "w": "juice",
+              "s": 3.692,
+              "e": 4.028
+            },
+            {
+              "w": "from",
+              "s": 4.075,
+              "e": 4.249
+            },
+            {
+              "w": "the",
+              "s": 4.295,
+              "e": 4.365
+            },
+            {
+              "w": "same",
+              "s": 4.412,
+              "e": 4.667
+            },
+            {
+              "w": "fruit.",
+              "s": 4.725,
+              "e": 5.294
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "short-cta",
+      "start": 15.3,
+      "duration": 3.6,
+      "segments": [
+        {
+          "id": "short2-cta",
+          "file": "assets/2026-12-13-kitchen-tricks-wish-you-knew/audio/short2-cta.mp3",
+          "at": 15.3,
+          "duration": 2.600635,
+          "words": [
+            {
+              "w": "The",
+              "s": 0,
+              "e": 0.116
+            },
+            {
+              "w": "full",
+              "s": 0.174,
+              "e": 0.43
+            },
+            {
+              "w": "eight-trick",
+              "s": 0.546,
+              "e": 1.01
+            },
+            {
+              "w": "guide",
+              "s": 1.114,
+              "e": 1.474
+            },
+            {
+              "w": "is",
+              "s": 1.521,
+              "e": 1.614
+            },
+            {
+              "w": "on",
+              "s": 1.683,
+              "e": 1.788
+            },
+            {
+              "w": "the",
+              "s": 1.834,
+              "e": 1.904
+            },
+            {
+              "w": "channel.",
+              "s": 1.939,
+              "e": 2.601
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "chapters": []
+}
